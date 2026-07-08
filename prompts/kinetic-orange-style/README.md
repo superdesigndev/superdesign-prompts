@@ -1,7 +1,8 @@
 ---
 title: "Kinetic Orange Style"
 slug: "kinetic-orange-style"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "General"
 tags: ["landing page", "style", "page"]
 copyCount: 1613
 tryCount: 1624
@@ -73,4 +74,4 @@ A high-energy brutalist design system characterized by a high-contrast 'Kinetic 
 superdesign get-prompts --slugs "kinetic-orange-style" --json
 ```
 
-*1,613 copies · 1,624 tries · landing page, style, page*
+*1,613 copies · 1,624 tries · Design Systems & Styles · General · landing page, style, page*

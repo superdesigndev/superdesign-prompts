@@ -2,6 +2,7 @@
 title: "Red sun"
 slug: "red-sun"
 category: "Landing Pages"
+industry: "General"
 tags: ["landing page", "page", "style"]
 copyCount: 513
 tryCount: 1616
@@ -77,4 +78,4 @@ A sophisticated editorial-style design system named 'Red Sun', characterized by 
 superdesign get-prompts --slugs "red-sun" --json
 ```
 
-*513 copies · 1,616 tries · landing page, page, style*
+*513 copies · 1,616 tries · Landing Pages · General · landing page, page, style*

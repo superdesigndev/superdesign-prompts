@@ -2,6 +2,7 @@
 title: "Futuristic SasS Landing Page"
 slug: "futuristic-sass-landing-page"
 category: "Landing Pages"
+industry: "General"
 tags: ["landing page", "page", "style", "webapp", "techfoward", "futuristic", "indigo accent", "purple accent"]
 copyCount: 942
 tryCount: 1663
@@ -76,4 +77,4 @@ A modern, atmospheric SaaS design system featuring a high-contrast blend of dark
 superdesign get-prompts --slugs "futuristic-sass-landing-page" --json
 ```
 
-*942 copies · 1,663 tries · landing page, page, style, webapp, techfoward*
+*942 copies · 1,663 tries · Landing Pages · General · landing page, page, style, webapp*

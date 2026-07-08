@@ -1,7 +1,8 @@
 ---
 title: "Neon Velocity Countdown"
 slug: "neon-velocity-countdown"
-category: "Landing Pages"
+category: "Waitlist & Coming Soon"
+industry: "General"
 tags: ["product launch", "style", "landing page", "high conversion page", "waitlist"]
 copyCount: 683
 tryCount: 1882
@@ -73,4 +74,4 @@ A high-velocity, futuristic dark-mode design system characterized by neon accent
 superdesign get-prompts --slugs "neon-velocity-countdown" --json
 ```
 
-*683 copies · 1,882 tries · product launch, style, landing page, high conversion page, waitlist*
+*683 copies · 1,882 tries · Waitlist & Coming Soon · General · product launch, style, landing page, high conversion page*

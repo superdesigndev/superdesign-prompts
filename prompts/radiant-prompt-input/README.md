@@ -2,6 +2,7 @@
 title: "Radiant Prompt Input"
 slug: "radiant-prompt-input"
 category: "Components"
+industry: "General"
 tags: ["ui component", "input"]
 copyCount: 348
 tryCount: 2289
@@ -358,4 +359,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "radiant-prompt-input" --json
 ```
 
-*348 copies · 2,289 tries · ui component, input*
+*348 copies · 2,289 tries · Components · General · ui component, input*

@@ -1,7 +1,8 @@
 ---
 title: "Teal-on-Ink Newsletter Mega Footer"
 slug: "teal-on-ink-newsletter-mega-footer"
-category: "Design Systems & Styles"
+category: "Forms & Contact"
+industry: "SaaS"
 tags: ["footer", "mega-footer", "newsletter", "dark", "teal", "responsive", "saas"]
 copyCount: 0
 tryCount: 2473
@@ -29,4 +30,4 @@ A dark near-black footer with a teal accent, prominent newsletter capture, three
 superdesign get-prompts --slugs "teal-on-ink-newsletter-mega-footer" --json
 ```
 
-*0 copies · 2,473 tries · footer, mega-footer, newsletter, dark, teal*
+*0 copies · 2,473 tries · Forms & Contact · SaaS · footer, mega-footer, newsletter, dark*

@@ -2,6 +2,7 @@
 title: "Shiny Text"
 slug: "shiny-text"
 category: "Components"
+industry: "General"
 tags: ["animation", "text animation"]
 copyCount: 182
 tryCount: 2480
@@ -287,4 +288,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "shiny-text" --json
 ```
 
-*182 copies · 2,480 tries · animation, text animation*
+*182 copies · 2,480 tries · Components · General · animation, text animation*

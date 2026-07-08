@@ -2,6 +2,7 @@
 title: "Force Field Background"
 slug: "force-field-background"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["animation", "background"]
 copyCount: 865
 tryCount: 1588
@@ -632,4 +633,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "force-field-background" --json
 ```
 
-*865 copies · 1,588 tries · animation, background*
+*865 copies · 1,588 tries · Animations & Backgrounds · General · animation, background*

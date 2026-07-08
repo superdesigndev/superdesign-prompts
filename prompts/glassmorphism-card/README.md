@@ -1,7 +1,8 @@
 ---
 title: "Glassmorphism card"
 slug: "glassmorphism-card"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "General"
 tags: ["landing page", "page", "style"]
 copyCount: 1250
 tryCount: 1895
@@ -73,4 +74,4 @@ A premium, high-tech glassmorphism design system characterized by deep transluce
 superdesign get-prompts --slugs "glassmorphism-card" --json
 ```
 
-*1,250 copies · 1,895 tries · landing page, page, style*
+*1,250 copies · 1,895 tries · Design Systems & Styles · General · landing page, page, style*

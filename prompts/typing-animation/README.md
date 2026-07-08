@@ -2,6 +2,7 @@
 title: "Typing animation"
 slug: "typing-animation"
 category: "Components"
+industry: "General"
 tags: ["animation", "text animation"]
 copyCount: 370
 tryCount: 2120
@@ -29,4 +30,4 @@ Create a typing animation that reveals each character with a 50ms delay between 
 superdesign get-prompts --slugs "typing-animation" --json
 ```
 
-*370 copies · 2,120 tries · animation, text animation*
+*370 copies · 2,120 tries · Components · General · animation, text animation*

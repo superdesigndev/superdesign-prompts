@@ -2,6 +2,7 @@
 title: "Tech Editorial"
 slug: "tech-editorial"
 category: "Landing Pages"
+industry: "General"
 tags: ["landing page", "style", "page"]
 copyCount: 510
 tryCount: 1515
@@ -90,4 +91,4 @@ A high-end 'Tech Editorial' aesthetic that merges brutalist precision with class
 superdesign get-prompts --slugs "tech-editorial" --json
 ```
 
-*510 copies · 1,515 tries · landing page, style, page*
+*510 copies · 1,515 tries · Landing Pages · General · landing page, style, page*

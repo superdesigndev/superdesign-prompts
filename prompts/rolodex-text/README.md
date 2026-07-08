@@ -2,6 +2,7 @@
 title: "Rolodex Text"
 slug: "rolodex-text"
 category: "Components"
+industry: "General"
 tags: ["animation", "text animation"]
 copyCount: 203
 tryCount: 2386
@@ -37,4 +38,4 @@ Do not center it, or variable word lengths will create awkward gaps.
 superdesign get-prompts --slugs "rolodex-text" --json
 ```
 
-*203 copies · 2,386 tries · animation, text animation*
+*203 copies · 2,386 tries · Components · General · animation, text animation*

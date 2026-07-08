@@ -1,7 +1,8 @@
 ---
 title: "Minimalist Beta Capture"
 slug: "minimalist-beta-capture"
-category: "Landing Pages"
+category: "Waitlist & Coming Soon"
+industry: "General"
 tags: ["high conversion page", "landing page", "product launch", "waitlist", "style"]
 copyCount: 745
 tryCount: 1975
@@ -78,4 +79,4 @@ A high-end 'Editorial Brutalist' style guide optimized for SaaS waitlists, finte
 superdesign get-prompts --slugs "minimalist-beta-capture" --json
 ```
 
-*745 copies · 1,975 tries · high conversion page, landing page, product launch, waitlist, style*
+*745 copies · 1,975 tries · Waitlist & Coming Soon · General · high conversion page, landing page, product launch, waitlist*

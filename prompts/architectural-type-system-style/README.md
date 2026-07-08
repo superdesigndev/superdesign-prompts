@@ -1,7 +1,8 @@
 ---
 title: "Architectural Type System Style"
 slug: "architectural-type-system-style"
-category: "Landing Pages"
+category: "Waitlist & Coming Soon"
+industry: "General"
 tags: ["landing page", "product launch", "waitlist", "high conversion page", "style"]
 copyCount: 354
 tryCount: 2189
@@ -74,4 +75,4 @@ A high-contrast, architectural design system rooted in Swiss Modernism and Bruta
 superdesign get-prompts --slugs "architectural-type-system-style" --json
 ```
 
-*354 copies · 2,189 tries · landing page, product launch, waitlist, high conversion page, style*
+*354 copies · 2,189 tries · Waitlist & Coming Soon · General · landing page, product launch, waitlist, high conversion page*

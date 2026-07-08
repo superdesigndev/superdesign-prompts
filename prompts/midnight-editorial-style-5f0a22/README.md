@@ -1,7 +1,8 @@
 ---
 title: "Midnight Editorial Style"
 slug: "midnight-editorial-style-5f0a22"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "General"
 tags: ["landing page", "page", "style"]
 copyCount: 963
 tryCount: 1931
@@ -351,4 +352,4 @@ Please use the above as reference and apply to our context
 superdesign get-prompts --slugs "midnight-editorial-style-5f0a22" --json
 ```
 
-*963 copies · 1,931 tries · landing page, page, style*
+*963 copies · 1,931 tries · Design Systems & Styles · General · landing page, page, style*

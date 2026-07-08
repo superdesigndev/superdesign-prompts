@@ -2,6 +2,7 @@
 title: "Pill Nav"
 slug: "pill-nav"
 category: "Components"
+industry: "General"
 tags: ["ui component", "nav"]
 copyCount: 318
 tryCount: 2207
@@ -662,4 +663,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "pill-nav" --json
 ```
 
-*318 copies · 2,207 tries · ui component, nav*
+*318 copies · 2,207 tries · Components · General · ui component, nav*

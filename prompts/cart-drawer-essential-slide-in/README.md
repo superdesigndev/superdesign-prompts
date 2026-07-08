@@ -2,6 +2,7 @@
 title: "Cart Drawer- Essential Slide in"
 slug: "cart-drawer-essential-slide-in"
 category: "E-commerce"
+industry: "E-commerce & Retail"
 tags: ["shopify", "layout", "cart", "ecommerce"]
 copyCount: 7
 tryCount: 2493
@@ -276,4 +277,4 @@ Here is a reference implementation:
 superdesign get-prompts --slugs "cart-drawer-essential-slide-in" --json
 ```
 
-*7 copies · 2,493 tries · shopify, layout, cart, ecommerce*
+*7 copies · 2,493 tries · E-commerce · E-commerce & Retail · shopify, layout, cart, ecommerce*

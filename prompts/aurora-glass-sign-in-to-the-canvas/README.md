@@ -1,7 +1,8 @@
 ---
 title: "Aurora Glass \u2014 Sign in to the canvas"
 slug: "aurora-glass-sign-in-to-the-canvas"
-category: "Design Systems & Styles"
+category: "Auth & Login"
+industry: "SaaS"
 tags: ["login", "sign-in", "auth", "glassmorphism", "dark-mode", "aurora", "gradient", "split-screen", "saas", "hero"]
 copyCount: 6
 tryCount: 2495
@@ -76,4 +77,4 @@ Dark aurora-glass split sign-in screen: frosted glassmorphic auth card with a gl
 superdesign get-prompts --slugs "aurora-glass-sign-in-to-the-canvas" --json
 ```
 
-*6 copies · 2,495 tries · login, sign-in, auth, glassmorphism, dark-mode*
+*6 copies · 2,495 tries · Auth & Login · SaaS · login, sign-in, auth, glassmorphism*

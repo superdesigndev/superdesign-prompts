@@ -1,7 +1,8 @@
 ---
 title: "Mosaic Grid Architecture Style"
 slug: "mosaic-grid-architecture-style"
-category: "Landing Pages"
+category: "E-commerce"
+industry: "AI & Tech"
 tags: ["neutral", "low contrast", "forestgreen accent", "cream accent", "industrial", "minimal", "saas landing", "ai first product", "style", "landing page"]
 copyCount: 1688
 tryCount: 2122
@@ -77,4 +78,4 @@ An architectural, technical-blueprint style design system featuring a minimalist
 superdesign get-prompts --slugs "mosaic-grid-architecture-style" --json
 ```
 
-*1,688 copies · 2,122 tries · neutral, low contrast, forestgreen accent, cream accent, industrial*
+*1,688 copies · 2,122 tries · E-commerce · AI & Tech · neutral, low contrast, forestgreen accent, cream accent*

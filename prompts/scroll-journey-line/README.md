@@ -2,6 +2,7 @@
 title: "Scroll Journey Line"
 slug: "scroll-journey-line"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["animation", "scroll animation"]
 copyCount: 820
 tryCount: 1610
@@ -29,4 +30,4 @@ Animate an SVG line (like a connector or 'journey' line) that draws itself forwa
 superdesign get-prompts --slugs "scroll-journey-line" --json
 ```
 
-*820 copies · 1,610 tries · animation, scroll animation*
+*820 copies · 1,610 tries · Animations & Backgrounds · General · animation, scroll animation*

@@ -2,6 +2,7 @@
 title: "Dynamic Data Display"
 slug: "dynamic-data-display"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["text animation", "animation", "scroll animation", "landing page"]
 copyCount: 288
 tryCount: 2430
@@ -27,4 +28,4 @@ Numbers are displayed in large font with a **count-up animation**, triggering a 
 superdesign get-prompts --slugs "dynamic-data-display" --json
 ```
 
-*288 copies · 2,430 tries · text animation, animation, scroll animation, landing page*
+*288 copies · 2,430 tries · Animations & Backgrounds · General · text animation, animation, scroll animation, landing page*

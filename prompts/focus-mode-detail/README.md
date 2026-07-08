@@ -2,6 +2,7 @@
 title: "Focus Mode Detail"
 slug: "focus-mode-detail"
 category: "Mobile Apps"
+industry: "General"
 tags: ["mobile app", "detail", "layout"]
 copyCount: 6
 tryCount: 2493
@@ -76,4 +77,4 @@ Features include a reading progress indicator, drop-cap styling, and a grayscale
 superdesign get-prompts --slugs "focus-mode-detail" --json
 ```
 
-*6 copies · 2,493 tries · mobile app, detail, layout*
+*6 copies · 2,493 tries · Mobile Apps · General · mobile app, detail, layout*

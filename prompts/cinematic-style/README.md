@@ -1,7 +1,8 @@
 ---
 title: "Cinematic Style"
 slug: "cinematic-style"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "General"
 tags: ["landing page", "page", "style"]
 copyCount: 1362
 tryCount: 2249
@@ -69,4 +70,4 @@ A high-end 'Cinematic' design system characterized by deep-space dark background
 superdesign get-prompts --slugs "cinematic-style" --json
 ```
 
-*1,362 copies · 2,249 tries · landing page, page, style*
+*1,362 copies · 2,249 tries · Design Systems & Styles · General · landing page, page, style*

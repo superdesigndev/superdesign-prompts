@@ -2,6 +2,7 @@
 title: "Parallax Stars Background"
 slug: "parallax-stars-background"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["background", "animation"]
 copyCount: 661
 tryCount: 1574
@@ -241,4 +242,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "parallax-stars-background" --json
 ```
 
-*661 copies · 1,574 tries · background, animation*
+*661 copies · 1,574 tries · Animations & Backgrounds · General · background, animation*

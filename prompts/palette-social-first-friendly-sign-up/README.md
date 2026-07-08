@@ -1,7 +1,8 @@
 ---
 title: "Palette \u2014 Social-first friendly sign-up"
 slug: "palette-social-first-friendly-sign-up"
-category: "Landing Pages"
+category: "Auth & Login"
+industry: "SaaS"
 tags: ["signup", "auth", "login", "sso", "social-login", "social-first", "saas", "form", "onboarding", "cream", "coral", "teal", "poppins", "landing-page", "sticky-nav", "warm", "friendly", "indie-maker"]
 copyCount: 0
 tryCount: 2486
@@ -29,4 +30,4 @@ A warm, social-first sign-up screen on a cream canvas: a two-column hero+signup 
 superdesign get-prompts --slugs "palette-social-first-friendly-sign-up" --json
 ```
 
-*0 copies · 2,486 tries · signup, auth, login, sso, social-login*
+*0 copies · 2,486 tries · Auth & Login · SaaS · signup, auth, login, sso*

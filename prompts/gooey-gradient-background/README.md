@@ -2,6 +2,7 @@
 title: "Gooey Gradient Background"
 slug: "gooey-gradient-background"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["animation", "background"]
 copyCount: 485
 tryCount: 2278
@@ -357,4 +358,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "gooey-gradient-background" --json
 ```
 
-*485 copies · 2,278 tries · animation, background*
+*485 copies · 2,278 tries · Animations & Backgrounds · General · animation, background*

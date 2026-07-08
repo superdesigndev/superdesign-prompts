@@ -1,7 +1,8 @@
 ---
 title: "Softly - Digital Wellness App"
 slug: "softly-digital-wellness-app"
-category: "Mobile Apps"
+category: "Waitlist & Coming Soon"
+industry: "Health & Wellness"
 tags: ["mobile app", "sass landing", "leads generation", "waitlist", "wellness product", "lifestyle app", "stone gray", "peach blush", "style", "landing page"]
 copyCount: 1896
 tryCount: 1527
@@ -76,4 +77,4 @@ A soft-aesthetic, Gen-Z oriented design system optimized for wellness, meditatio
 superdesign get-prompts --slugs "softly-digital-wellness-app" --json
 ```
 
-*1,896 copies · 1,527 tries · mobile app, sass landing, leads generation, waitlist, wellness product*
+*1,896 copies · 1,527 tries · Waitlist & Coming Soon · Health & Wellness · mobile app, sass landing, leads generation, waitlist*

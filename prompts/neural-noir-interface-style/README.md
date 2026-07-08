@@ -1,7 +1,8 @@
 ---
 title: "Neural Noir Interface Style"
 slug: "neural-noir-interface-style"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "General"
 tags: ["landing page", "page", "style"]
 copyCount: 1280
 tryCount: 2501
@@ -82,4 +83,4 @@ The Neural Noir Interface Style is a high-end, futuristic aesthetic characterize
 superdesign get-prompts --slugs "neural-noir-interface-style" --json
 ```
 
-*1,280 copies · 2,501 tries · landing page, page, style*
+*1,280 copies · 2,501 tries · Design Systems & Styles · General · landing page, page, style*

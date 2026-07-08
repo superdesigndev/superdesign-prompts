@@ -2,6 +2,7 @@
 title: "Lumina SaaS Landing Page"
 slug: "lumina-saas-landing-page"
 category: "Landing Pages"
+industry: "SaaS"
 tags: ["bold", "energetic", "yellow", "style", "landing page", "saas landing"]
 copyCount: 2259
 tryCount: 2271
@@ -89,4 +90,4 @@ Lumina is a high-energy, Neo-Brutalist B2C SaaS design characterized by its bold
 superdesign get-prompts --slugs "lumina-saas-landing-page" --json
 ```
 
-*2,259 copies · 2,271 tries · bold, energetic, yellow, style, landing page*
+*2,259 copies · 2,271 tries · Landing Pages · SaaS · bold, energetic, yellow, style*

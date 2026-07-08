@@ -1,7 +1,8 @@
 ---
 title: "Superdesign Editorial Waitlist"
 slug: "superdesign-editorial-waitlist"
-category: "Landing Pages"
+category: "Waitlist & Coming Soon"
+industry: "General"
 tags: ["style", "waitlist", "landing page"]
 copyCount: 556
 tryCount: 2262
@@ -69,4 +70,4 @@ Editorial waiting list landing page with a cinematic, high-fashion aesthetic. Fe
 superdesign get-prompts --slugs "superdesign-editorial-waitlist" --json
 ```
 
-*556 copies · 2,262 tries · style, waitlist, landing page*
+*556 copies · 2,262 tries · Waitlist & Coming Soon · General · style, waitlist, landing page*

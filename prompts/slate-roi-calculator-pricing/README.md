@@ -1,7 +1,8 @@
 ---
 title: "Slate ROI-Calculator Pricing"
 slug: "slate-roi-calculator-pricing"
-category: "Landing Pages"
+category: "Pricing Pages"
+industry: "Dev Tools"
 tags: ["pricing page", "saas", "dark", "dev-tool", "electric-green", "mint-accent", "roi-calculator", "interactive-slider", "pricing-tiers", "billing-toggle", "comparison-table", "faq-accordion", "responsive", "developer-tools", "ai-tool"]
 copyCount: 0
 tryCount: 2481
@@ -29,4 +30,4 @@ A frameless dark SaaS pricing page in inky slate with one electric mint accent: 
 superdesign get-prompts --slugs "slate-roi-calculator-pricing" --json
 ```
 
-*0 copies · 2,481 tries · pricing page, saas, dark, dev-tool, electric-green*
+*0 copies · 2,481 tries · Pricing Pages · Dev Tools · pricing page, saas, dark, dev-tool*

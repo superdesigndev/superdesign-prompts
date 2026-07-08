@@ -2,6 +2,7 @@
 title: "Brutalist E-commerce Page"
 slug: "brutalist-e-commerce-page"
 category: "E-commerce"
+industry: "E-commerce & Retail"
 tags: ["ecommerce", "landing page", "style", "orange accent"]
 copyCount: 1571
 tryCount: 1531
@@ -76,4 +77,4 @@ A brutalist editorial e-commerce style guide inspired by poster-campaign aesthet
 superdesign get-prompts --slugs "brutalist-e-commerce-page" --json
 ```
 
-*1,571 copies · 1,531 tries · ecommerce, landing page, style, orange accent*
+*1,571 copies · 1,531 tries · E-commerce · E-commerce & Retail · ecommerce, landing page, style, orange accent*

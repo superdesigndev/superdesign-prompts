@@ -2,6 +2,7 @@
 title: "Coverflow \u2014 Carousels that turn heads (dark coverflow aurora)"
 slug: "coverflow-carousels-that-turn-heads-dark-coverflow-aurora"
 category: "Mobile Apps"
+industry: "AI & Tech"
 tags: ["carousel", "coverflow", "3d-carousel", "css-3d", "perspective", "slider", "gallery", "image-carousel", "dark", "dark-mode", "aurora", "teal", "aqua", "magenta", "gradient", "glassmorphism", "backdrop-blur", "frosted-glass", "glow", "neon", "ink", "slate", "inter", "space-grotesk", "iconify-phosphor", "sticky-nav", "mobile-menu", "hamburger-menu", "pill-dots", "pagination-dots", "keyboard-nav", "hero", "landing-page", "feature-grid", "logo-strip", "terminal-card", "templates-grid", "gradient-cta", "social-footer", "glow-active-slide", "grid-texture", "marketing-page", "saas", "cinematic", "motion"]
 copyCount: 48
 tryCount: 2460
@@ -29,4 +30,4 @@ A dark, aurora-lit 3D coverflow carousel landing page: a sticky frosted-ink nav,
 superdesign get-prompts --slugs "coverflow-carousels-that-turn-heads-dark-coverflow-aurora" --json
 ```
 
-*48 copies · 2,460 tries · carousel, coverflow, 3d-carousel, css-3d, perspective*
+*48 copies · 2,460 tries · Mobile Apps · AI & Tech · carousel, coverflow, 3d-carousel, css-3d*

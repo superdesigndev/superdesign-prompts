@@ -2,6 +2,7 @@
 title: "The \"Stacking Cards\" Effect"
 slug: "the-stacking-cards-effect"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["animation", "scroll animation", "landing page"]
 copyCount: 905
 tryCount: 2253
@@ -31,4 +32,4 @@ The "Stacking Cards" Effect:
 superdesign get-prompts --slugs "the-stacking-cards-effect" --json
 ```
 
-*905 copies · 2,253 tries · animation, scroll animation, landing page*
+*905 copies · 2,253 tries · Animations & Backgrounds · General · animation, scroll animation, landing page*

@@ -2,6 +2,7 @@
 title: "Brutalist Style Ecommerce Page"
 slug: "brutalist-style-ecommerce-page"
 category: "E-commerce"
+industry: "E-commerce & Retail"
 tags: ["ecommerce", "landing page", "style", "orange accent"]
 copyCount: 945
 tryCount: 1568
@@ -81,4 +82,4 @@ A brutalist editorial design system for high-fashion, streetwear, or luxury bran
 superdesign get-prompts --slugs "brutalist-style-ecommerce-page" --json
 ```
 
-*945 copies · 1,568 tries · ecommerce, landing page, style, orange accent*
+*945 copies · 1,568 tries · E-commerce · E-commerce & Retail · ecommerce, landing page, style, orange accent*

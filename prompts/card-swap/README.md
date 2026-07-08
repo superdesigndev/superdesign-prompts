@@ -2,6 +2,7 @@
 title: "Card Swap"
 slug: "card-swap"
 category: "Components"
+industry: "General"
 tags: ["ui component", "animation", "image gallery"]
 copyCount: 884
 tryCount: 1693
@@ -441,4 +442,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "card-swap" --json
 ```
 
-*884 copies · 1,693 tries · ui component, animation, image gallery*
+*884 copies · 1,693 tries · Components · General · ui component, animation, image gallery*

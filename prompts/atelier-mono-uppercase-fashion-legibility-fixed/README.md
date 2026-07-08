@@ -2,6 +2,7 @@
 title: "ATELIER \u2014 Mono Uppercase Fashion (legibility-fixed)"
 slug: "atelier-mono-uppercase-fashion-legibility-fixed"
 category: "E-commerce"
+industry: "Fashion & Beauty"
 tags: ["navbar", "monochrome", "black-and-white", "editorial", "high-fashion", "luxury-retail", "toteme", "minimal", "uppercase", "letter-spacing", "archivo", "archivo-expanded", "wide-display-type", "centered-wordmark", "tri-zone-nav", "sticky", "frosted-glass", "backdrop-blur", "hairline", "phosphor-icons", "wipe-in-underline", "marquee", "ecommerce", "bag-count", "light", "hamburger-drawer", "landing-page"]
 copyCount: 0
 tryCount: 2489
@@ -29,4 +30,4 @@ A stark monochrome high-fashion editorial navbar (Toteme-style): a sticky froste
 superdesign get-prompts --slugs "atelier-mono-uppercase-fashion-legibility-fixed" --json
 ```
 
-*0 copies · 2,489 tries · navbar, monochrome, black-and-white, editorial, high-fashion*
+*0 copies · 2,489 tries · E-commerce · Fashion & Beauty · navbar, monochrome, black-and-white, editorial*

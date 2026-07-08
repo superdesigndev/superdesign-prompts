@@ -1,7 +1,8 @@
 ---
 title: "Gridwright \u2014 Design the web, type the prompt (Swiss Grid / Signal Red)"
 slug: "gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red"
-category: "Landing Pages"
+category: "Pricing Pages"
+industry: "Dev Tools"
 tags: ["saas-website", "swiss-grid", "international-typographic-style", "landing-page", "minimal", "monochrome", "red-accent", "12-column-grid", "developer-tool", "pricing", "responsive"]
 copyCount: 3
 tryCount: 2498
@@ -29,4 +30,4 @@ A Swiss-grid SaaS marketing homepage: stark white paper, near-black ink, one sig
 superdesign get-prompts --slugs "gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red" --json
 ```
 
-*3 copies · 2,498 tries · saas-website, swiss-grid, international-typographic-style, landing-page, minimal*
+*3 copies · 2,498 tries · Pricing Pages · Dev Tools · saas-website, swiss-grid, international-typographic-style, landing-page*

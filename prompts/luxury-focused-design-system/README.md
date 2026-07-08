@@ -1,7 +1,8 @@
 ---
 title: "Luxury-focused Design System"
 slug: "luxury-focused-design-system"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "General"
 tags: ["landing page", "style", "cream", "pink accent"]
 copyCount: 1350
 tryCount: 2054
@@ -73,4 +74,4 @@ A refined, editorial-style design system characterized by heavy geometric sans-s
 superdesign get-prompts --slugs "luxury-focused-design-system" --json
 ```
 
-*1,350 copies · 2,054 tries · landing page, style, cream, pink accent*
+*1,350 copies · 2,054 tries · Design Systems & Styles · General · landing page, style, cream, pink accent*

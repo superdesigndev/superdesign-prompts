@@ -2,6 +2,7 @@
 title: "Clean fluid"
 slug: "clean-fluid"
 category: "Landing Pages"
+industry: "General"
 tags: ["landing page", "style", "page"]
 copyCount: 703
 tryCount: 2343
@@ -73,4 +74,4 @@ A high-end, editorial design system blending luxury serif typography with techni
 superdesign get-prompts --slugs "clean-fluid" --json
 ```
 
-*703 copies · 2,343 tries · landing page, style, page*
+*703 copies · 2,343 tries · Landing Pages · General · landing page, style, page*

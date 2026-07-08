@@ -2,6 +2,7 @@
 title: "Ghost Cursor"
 slug: "ghost-cursor"
 category: "Components"
+industry: "General"
 tags: ["animation", "background"]
 copyCount: 417
 tryCount: 2217
@@ -681,4 +682,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "ghost-cursor" --json
 ```
 
-*417 copies · 2,217 tries · animation, background*
+*417 copies · 2,217 tries · Components · General · animation, background*

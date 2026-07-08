@@ -2,6 +2,7 @@
 title: "Super Shampoo - High Conversion LP"
 slug: "super-shampoo-high-conversion-lp"
 category: "E-commerce"
+industry: "E-commerce & Retail"
 tags: ["ecommerce", "shopify", "landing page"]
 copyCount: 194
 tryCount: 2096
@@ -89,4 +90,4 @@ A premium, high-conversion e-commerce style guide optimized for D2C beauty and w
 superdesign get-prompts --slugs "super-shampoo-high-conversion-lp" --json
 ```
 
-*194 copies · 2,096 tries · ecommerce, shopify, landing page*
+*194 copies · 2,096 tries · E-commerce · E-commerce & Retail · ecommerce, shopify, landing page*

@@ -2,6 +2,7 @@
 title: "BabyBites - Sophisticated Palette"
 slug: "babybites-sophisticated-palette"
 category: "Mobile Apps"
+industry: "General"
 tags: ["mobile app", "style"]
 copyCount: 1224
 tryCount: 1547
@@ -73,4 +74,4 @@ BabyBites style guide featuring a sophisticated high-contrast palette of dark ch
 superdesign get-prompts --slugs "babybites-sophisticated-palette" --json
 ```
 
-*1,224 copies · 1,547 tries · mobile app, style*
+*1,224 copies · 1,547 tries · Mobile Apps · General · mobile app, style*

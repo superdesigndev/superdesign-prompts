@@ -2,6 +2,7 @@
 title: "Jelly Squish Button"
 slug: "jelly-squish-button"
 category: "Components"
+industry: "General"
 tags: ["animation", "ui component", "button"]
 copyCount: 368
 tryCount: 2377
@@ -444,4 +445,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "jelly-squish-button" --json
 ```
 
-*368 copies · 2,377 tries · animation, ui component, button*
+*368 copies · 2,377 tries · Components · General · animation, ui component, button*

@@ -2,6 +2,7 @@
 title: "Hyper-Saturated Fluid"
 slug: "hyper-saturated-fluid"
 category: "Design Systems & Styles"
+industry: "General"
 tags: ["style"]
 copyCount: 1002
 tryCount: 1971
@@ -137,4 +138,4 @@ DON'T use gradients on the "shout" color; keep it a flat, vibrant punch.
 superdesign get-prompts --slugs "hyper-saturated-fluid" --json
 ```
 
-*1,002 copies · 1,971 tries · style*
+*1,002 copies · 1,971 tries · Design Systems & Styles · General · style*

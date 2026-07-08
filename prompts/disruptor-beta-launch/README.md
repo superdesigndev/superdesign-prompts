@@ -1,7 +1,8 @@
 ---
 title: "Disruptor Beta Launch"
 slug: "disruptor-beta-launch"
-category: "Landing Pages"
+category: "Waitlist & Coming Soon"
+industry: "General"
 tags: ["product launch", "waitlist", "high conversion page", "landing page", "style"]
 copyCount: 456
 tryCount: 2318
@@ -77,4 +78,4 @@ A high-impact Neo-Brutalist design system designed for product launches and disr
 superdesign get-prompts --slugs "disruptor-beta-launch" --json
 ```
 
-*456 copies · 2,318 tries · product launch, waitlist, high conversion page, landing page, style*
+*456 copies · 2,318 tries · Waitlist & Coming Soon · General · product launch, waitlist, high conversion page, landing page*

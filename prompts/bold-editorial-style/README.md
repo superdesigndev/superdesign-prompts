@@ -1,7 +1,8 @@
 ---
 title: "Bold Editorial Style"
 slug: "bold-editorial-style"
-category: "Landing Pages"
+category: "Waitlist & Coming Soon"
+industry: "SaaS"
 tags: ["light mode", "editorial", "yellow", "navy", "sage", "waitlist", "landing page", "saas landing", "acid yellow accent", "style"]
 copyCount: 948
 tryCount: 2117
@@ -76,4 +77,4 @@ A high-contrast, editorial-style SaaS landing page design optimized for designer
 superdesign get-prompts --slugs "bold-editorial-style" --json
 ```
 
-*948 copies · 2,117 tries · light mode, editorial, yellow, navy, sage*
+*948 copies · 2,117 tries · Waitlist & Coming Soon · SaaS · light mode, editorial, yellow, navy*

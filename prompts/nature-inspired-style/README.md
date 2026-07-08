@@ -1,7 +1,8 @@
 ---
 title: "Nature Inspired Style"
 slug: "nature-inspired-style"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "General"
 tags: ["landing page", "page", "style"]
 copyCount: 1272
 tryCount: 1864
@@ -69,4 +70,4 @@ A nature-inspired 'Organic Brutalist' design system perfect for wellness, sustai
 superdesign get-prompts --slugs "nature-inspired-style" --json
 ```
 
-*1,272 copies · 1,864 tries · landing page, page, style*
+*1,272 copies · 1,864 tries · Design Systems & Styles · General · landing page, page, style*

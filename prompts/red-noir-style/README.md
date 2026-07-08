@@ -1,7 +1,8 @@
 ---
 title: "Red Noir Style"
 slug: "red-noir-style"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "General"
 tags: ["style", "landing page", "page"]
 copyCount: 2162
 tryCount: 2234
@@ -460,4 +461,4 @@ Please use the above as reference and apply to our context
 superdesign get-prompts --slugs "red-noir-style" --json
 ```
 
-*2,162 copies · 2,234 tries · style, landing page, page*
+*2,162 copies · 2,234 tries · Design Systems & Styles · General · style, landing page, page*

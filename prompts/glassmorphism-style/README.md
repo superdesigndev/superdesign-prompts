@@ -1,7 +1,8 @@
 ---
 title: "Glassmorphism Style"
 slug: "glassmorphism-style"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "General"
 tags: ["landing page", "page", "style"]
 copyCount: 1713
 tryCount: 2451
@@ -82,4 +83,4 @@ A high-tech glassmorphism design system featuring neon lime accents, deep obsidi
 superdesign get-prompts --slugs "glassmorphism-style" --json
 ```
 
-*1,713 copies · 2,451 tries · landing page, page, style*
+*1,713 copies · 2,451 tries · Design Systems & Styles · General · landing page, page, style*

@@ -1,7 +1,8 @@
 ---
 title: "Cinematic Noir Style"
 slug: "cinematic-noir-style"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "General"
 tags: ["landing page", "page", "style"]
 copyCount: 643
 tryCount: 2317
@@ -73,4 +74,4 @@ A high-end 'Cinematic Noir' design system characterized by dramatic dark-mode ae
 superdesign get-prompts --slugs "cinematic-noir-style" --json
 ```
 
-*643 copies · 2,317 tries · landing page, page, style*
+*643 copies · 2,317 tries · Design Systems & Styles · General · landing page, page, style*

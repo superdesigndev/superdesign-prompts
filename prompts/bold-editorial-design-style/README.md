@@ -2,6 +2,7 @@
 title: "Bold Editorial Design Style"
 slug: "bold-editorial-design-style"
 category: "Portfolios"
+industry: "Personal & Portfolio"
 tags: ["navy", "sage", "portfolio", "landing page", "style"]
 copyCount: 765
 tryCount: 1660
@@ -85,4 +86,4 @@ A premium, bold editorial design system characterized by high-contrast brutalist
 superdesign get-prompts --slugs "bold-editorial-design-style" --json
 ```
 
-*765 copies · 1,660 tries · navy, sage, portfolio, landing page, style*
+*765 copies · 1,660 tries · Portfolios · Personal & Portfolio · navy, sage, portfolio, landing page*

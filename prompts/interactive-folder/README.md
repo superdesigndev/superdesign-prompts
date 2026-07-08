@@ -2,6 +2,7 @@
 title: "Interactive Folder"
 slug: "interactive-folder"
 category: "Components"
+industry: "General"
 tags: ["animation", "ui component"]
 copyCount: 273
 tryCount: 2439
@@ -372,4 +373,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "interactive-folder" --json
 ```
 
-*273 copies · 2,439 tries · animation, ui component*
+*273 copies · 2,439 tries · Components · General · animation, ui component*

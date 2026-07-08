@@ -2,6 +2,7 @@
 title: "Glow Cursor Button"
 slug: "glow-cursor-button"
 category: "Components"
+industry: "General"
 tags: ["button", "ui component"]
 copyCount: 211
 tryCount: 2342
@@ -27,4 +28,4 @@ Interactive call-to-action button featuring a right-arrow SVG icon and custom **
 superdesign get-prompts --slugs "glow-cursor-button" --json
 ```
 
-*211 copies · 2,342 tries · button, ui component*
+*211 copies · 2,342 tries · Components · General · button, ui component*

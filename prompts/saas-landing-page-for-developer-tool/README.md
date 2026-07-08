@@ -2,6 +2,7 @@
 title: "SaaS Landing Page for Developer Tool"
 slug: "saas-landing-page-for-developer-tool"
 category: "Landing Pages"
+industry: "Dev Tools"
 tags: ["landing page", "style", "page", "blue accent", "light mode"]
 copyCount: 950
 tryCount: 2046
@@ -77,4 +78,4 @@ A bold modernist design system inspired by exhibition poster aesthetics and tech
 superdesign get-prompts --slugs "saas-landing-page-for-developer-tool" --json
 ```
 
-*950 copies · 2,046 tries · landing page, style, page, blue accent, light mode*
+*950 copies · 2,046 tries · Landing Pages · Dev Tools · landing page, style, page, blue accent*

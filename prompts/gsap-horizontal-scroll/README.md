@@ -2,6 +2,7 @@
 title: "GSAP Horizontal scroll"
 slug: "gsap-horizontal-scroll"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["animation", "scroll animation", "landing page"]
 copyCount: 668
 tryCount: 1594
@@ -35,4 +36,4 @@ Vibe: It should feel like reading a really long ticker tape, not flipping throug
 superdesign get-prompts --slugs "gsap-horizontal-scroll" --json
 ```
 
-*668 copies · 1,594 tries · animation, scroll animation, landing page*
+*668 copies · 1,594 tries · Animations & Backgrounds · General · animation, scroll animation, landing page*

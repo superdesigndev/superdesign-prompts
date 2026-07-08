@@ -2,6 +2,7 @@
 title: "Hyper-Speed Loading State"
 slug: "hyper-speed-loading-state"
 category: "Components"
+industry: "General"
 tags: ["animation", "loading"]
 copyCount: 749
 tryCount: 2182
@@ -323,4 +324,4 @@ Here is a reference implementation:
 superdesign get-prompts --slugs "hyper-speed-loading-state" --json
 ```
 
-*749 copies · 2,182 tries · animation, loading*
+*749 copies · 2,182 tries · Components · General · animation, loading*

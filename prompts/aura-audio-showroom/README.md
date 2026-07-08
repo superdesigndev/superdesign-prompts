@@ -2,6 +2,7 @@
 title: "Aura Audio Showroom"
 slug: "aura-audio-showroom"
 category: "E-commerce"
+industry: "E-commerce & Retail"
 tags: ["shopify", "landing page", "ecommerce"]
 copyCount: 261
 tryCount: 2479
@@ -80,4 +81,4 @@ Product Walkthrough is a product-first electronics landing page built around a S
 superdesign get-prompts --slugs "aura-audio-showroom" --json
 ```
 
-*261 copies · 2,479 tries · shopify, landing page, ecommerce*
+*261 copies · 2,479 tries · E-commerce · E-commerce & Retail · shopify, landing page, ecommerce*

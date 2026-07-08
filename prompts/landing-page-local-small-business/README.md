@@ -1,7 +1,8 @@
 ---
 title: "Landing Page / Local Small Business"
 slug: "landing-page-local-small-business"
-category: "Design Systems & Styles"
+category: "Landing Pages"
+industry: "General"
 tags: ["skill"]
 copyCount: 5
 tryCount: 2486
@@ -196,4 +197,4 @@ Generate the landing page now.
 superdesign get-prompts --slugs "landing-page-local-small-business" --json
 ```
 
-*5 copies · 2,486 tries · skill*
+*5 copies · 2,486 tries · Landing Pages · General · skill*

@@ -2,6 +2,7 @@
 title: "\"Exploded View\" Assembly"
 slug: "exploded-view-assembly"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["animation", "scroll animation", "landing page"]
 copyCount: 490
 tryCount: 1814
@@ -33,4 +34,4 @@ Perfect for showing product components or "how it works."
 superdesign get-prompts --slugs "exploded-view-assembly" --json
 ```
 
-*490 copies · 1,814 tries · animation, scroll animation, landing page*
+*490 copies · 1,814 tries · Animations & Backgrounds · General · animation, scroll animation, landing page*

@@ -1,7 +1,8 @@
 ---
 title: "Mobile App / App Store Preview"
 slug: "mobile-app-app-store-preview"
-category: "Mobile Apps"
+category: "E-commerce"
+industry: "E-commerce & Retail"
 tags: ["skill"]
 copyCount: 3
 tryCount: 2483
@@ -259,4 +260,4 @@ style_presets:
 superdesign get-prompts --slugs "mobile-app-app-store-preview" --json
 ```
 
-*3 copies · 2,483 tries · skill*
+*3 copies · 2,483 tries · E-commerce · E-commerce & Retail · skill*

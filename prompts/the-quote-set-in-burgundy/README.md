@@ -1,7 +1,8 @@
 ---
 title: "The Quote, Set in Burgundy"
 slug: "the-quote-set-in-burgundy"
-category: "Design Systems & Styles"
+category: "Blog & Editorial"
+industry: "General"
 tags: ["testimonial", "testimonials", "single-quote", "carousel", "editorial", "magazine", "serif", "cream", "burgundy", "fraunces", "inter", "pull-quote", "avatar-stack", "social-proof", "light", "responsive", "frameless"]
 copyCount: 0
 tryCount: 2479
@@ -29,4 +30,4 @@ A magazine-style single-slide testimonial on a warm cream canvas: one oversized 
 superdesign get-prompts --slugs "the-quote-set-in-burgundy" --json
 ```
 
-*0 copies · 2,479 tries · testimonial, testimonials, single-quote, carousel, editorial*
+*0 copies · 2,479 tries · Blog & Editorial · General · testimonial, testimonials, single-quote, carousel*

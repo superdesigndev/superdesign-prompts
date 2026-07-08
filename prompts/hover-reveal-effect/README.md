@@ -2,6 +2,7 @@
 title: "Hover reveal effect"
 slug: "hover-reveal-effect"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["landing page", "hover effect", "animation"]
 copyCount: 442
 tryCount: 2456
@@ -33,4 +34,4 @@ All text elements (my name, the Portfolio link, and the social icons) should dyn
 superdesign get-prompts --slugs "hover-reveal-effect" --json
 ```
 
-*442 copies · 2,456 tries · landing page, hover effect, animation*
+*442 copies · 2,456 tries · Animations & Backgrounds · General · landing page, hover effect, animation*

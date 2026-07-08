@@ -2,6 +2,7 @@
 title: "Prism \u2014 Frosted-Glass Pastel Agency Studio"
 slug: "prism-frosted-glass-pastel-agency-studio"
 category: "Portfolios"
+industry: "Agency & Studio"
 tags: ["agency-website", "glassmorphism", "frosted-glass", "pastel", "mesh-gradient", "light", "peach", "sky", "mint", "inter", "agency", "studio", "portfolio", "bento", "landing-page", "marketing-site", "sticky-nav", "responsive", "soft-ui", "testimonials"]
 copyCount: 0
 tryCount: 2478
@@ -29,4 +30,4 @@ A light, frosted-glass pastel agency studio homepage on a soft mesh-gradient can
 superdesign get-prompts --slugs "prism-frosted-glass-pastel-agency-studio" --json
 ```
 
-*0 copies · 2,478 tries · agency-website, glassmorphism, frosted-glass, pastel, mesh-gradient*
+*0 copies · 2,478 tries · Portfolios · Agency & Studio · agency-website, glassmorphism, frosted-glass, pastel*

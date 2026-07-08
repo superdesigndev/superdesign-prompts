@@ -1,7 +1,8 @@
 ---
 title: "Deep Red Style"
 slug: "deep-red-style-5b01cb"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "General"
 tags: ["style", "page"]
 copyCount: 2321
 tryCount: 1905
@@ -369,4 +370,4 @@ You are given a task to integrate the below html page into the current page.
 superdesign get-prompts --slugs "deep-red-style-5b01cb" --json
 ```
 
-*2,321 copies · 1,905 tries · style, page*
+*2,321 copies · 1,905 tries · Design Systems & Styles · General · style, page*

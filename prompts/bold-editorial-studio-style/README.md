@@ -1,7 +1,8 @@
 ---
 title: "Bold Editorial Studio Style"
 slug: "bold-editorial-studio-style"
-category: "Landing Pages"
+category: "Design Systems & Styles"
+industry: "Agency & Studio"
 tags: ["landing page", "page", "style"]
 copyCount: 1216
 tryCount: 1805
@@ -73,4 +74,4 @@ Bold Editorial Studio Style is a high-impact, minimalist design system character
 superdesign get-prompts --slugs "bold-editorial-studio-style" --json
 ```
 
-*1,216 copies · 1,805 tries · landing page, page, style*
+*1,216 copies · 1,805 tries · Design Systems & Styles · Agency & Studio · landing page, page, style*

@@ -2,6 +2,7 @@
 title: "Tubes Interactive Background"
 slug: "tubes-interactive-background"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["animation", "background"]
 copyCount: 2912
 tryCount: 1608
@@ -268,4 +269,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "tubes-interactive-background" --json
 ```
 
-*2,912 copies · 1,608 tries · animation, background*
+*2,912 copies · 1,608 tries · Animations & Backgrounds · General · animation, background*

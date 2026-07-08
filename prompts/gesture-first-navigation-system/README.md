@@ -2,6 +2,7 @@
 title: "Gesture First Navigation System"
 slug: "gesture-first-navigation-system"
 category: "Mobile Apps"
+industry: "General"
 tags: ["mobile app", "navigation", "layout"]
 copyCount: 3
 tryCount: 2465
@@ -493,4 +494,4 @@ Here is a reference implementation:
 superdesign get-prompts --slugs "gesture-first-navigation-system" --json
 ```
 
-*3 copies · 2,465 tries · mobile app, navigation, layout*
+*3 copies · 2,465 tries · Mobile Apps · General · mobile app, navigation, layout*

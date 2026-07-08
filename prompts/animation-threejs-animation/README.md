@@ -2,6 +2,7 @@
 title: "Animation / Threejs animation"
 slug: "animation-threejs-animation"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["skill", "animation"]
 copyCount: 307
 tryCount: 2207
@@ -569,4 +570,4 @@ function getClip(name) {
 superdesign get-prompts --slugs "animation-threejs-animation" --json
 ```
 
-*307 copies · 2,207 tries · skill, animation*
+*307 copies · 2,207 tries · Animations & Backgrounds · General · skill, animation*

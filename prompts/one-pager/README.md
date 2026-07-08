@@ -1,7 +1,8 @@
 ---
 title: "One Pager"
 slug: "one-pager"
-category: "Design Systems & Styles"
+category: "Landing Pages"
+industry: "General"
 tags: ["skill"]
 copyCount: 9
 tryCount: 2482
@@ -728,4 +729,4 @@ Every final output must include:
 superdesign get-prompts --slugs "one-pager" --json
 ```
 
-*9 copies · 2,482 tries · skill*
+*9 copies · 2,482 tries · Landing Pages · General · skill*

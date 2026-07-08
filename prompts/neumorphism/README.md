@@ -2,6 +2,7 @@
 title: "Neumorphism"
 slug: "neumorphism"
 category: "Design Systems & Styles"
+industry: "General"
 tags: ["style"]
 copyCount: 834
 tryCount: 2444
@@ -302,4 +303,4 @@ box-shadow: inset 3px 3px 6px rgb(163,177,198,0.6), inset -3px -3px 6px rgba(255
 superdesign get-prompts --slugs "neumorphism" --json
 ```
 
-*834 copies · 2,444 tries · style*
+*834 copies · 2,444 tries · Design Systems & Styles · General · style*

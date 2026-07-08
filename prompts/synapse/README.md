@@ -2,6 +2,7 @@
 title: "Synapse"
 slug: "synapse"
 category: "Landing Pages"
+industry: "General"
 tags: ["landing page", "page", "style"]
 copyCount: 1110
 tryCount: 1808
@@ -77,4 +78,4 @@ A high-performance 'neural' dark mode design system characterized by deep black 
 superdesign get-prompts --slugs "synapse" --json
 ```
 
-*1,110 copies · 1,808 tries · landing page, page, style*
+*1,110 copies · 1,808 tries · Landing Pages · General · landing page, page, style*

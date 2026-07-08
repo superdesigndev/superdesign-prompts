@@ -2,6 +2,7 @@
 title: "Light Beam Button"
 slug: "light-beam-button"
 category: "Components"
+industry: "General"
 tags: ["button", "ui component"]
 copyCount: 500
 tryCount: 2119
@@ -223,4 +224,4 @@ Help me integrate this into my design
 superdesign get-prompts --slugs "light-beam-button" --json
 ```
 
-*500 copies · 2,119 tries · button, ui component*
+*500 copies · 2,119 tries · Components · General · button, ui component*

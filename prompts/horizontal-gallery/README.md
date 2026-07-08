@@ -2,6 +2,7 @@
 title: "Horizontal Gallery"
 slug: "horizontal-gallery"
 category: "Animations & Backgrounds"
+industry: "General"
 tags: ["animation", "scroll animation"]
 copyCount: 439
 tryCount: 2360
@@ -31,4 +32,4 @@ Create a 'sticky' section where the vertical scroll locks, and the content slide
 superdesign get-prompts --slugs "horizontal-gallery" --json
 ```
 
-*439 copies · 2,360 tries · animation, scroll animation*
+*439 copies · 2,360 tries · Animations & Backgrounds · General · animation, scroll animation*

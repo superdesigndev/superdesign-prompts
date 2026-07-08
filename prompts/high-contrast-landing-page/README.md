@@ -2,6 +2,7 @@
 title: "High Contrast Landing Page"
 slug: "high-contrast-landing-page"
 category: "Landing Pages"
+industry: "General"
 tags: ["landing page", "style"]
 copyCount: 2503
 tryCount: 2400
@@ -76,4 +77,4 @@ A high-contrast Swiss-style minimalist design system utilizing brutalist typogra
 superdesign get-prompts --slugs "high-contrast-landing-page" --json
 ```
 
-*2,503 copies · 2,400 tries · landing page, style*
+*2,503 copies · 2,400 tries · Landing Pages · General · landing page, style*
