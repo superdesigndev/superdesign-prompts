@@ -60,5 +60,5 @@ Build a E-commerce using the "<system-id>" design system
 - [Conversion-optimised Product Page](../../prompts/conversion-optimised-product-page/) · design 7/10 · 2,310 runs
 - [Collection Page- Filtered Product Grid](../../prompts/collection-page-filtered-product-grid/) · design 5/10 · 2,398 runs
 - [Minimalist Checkout](../../prompts/minimalist-checkout/) · design 5/10 · 2,370 runs
-- [Offer overlay- Centered Offer Modal](../../prompts/offer-overlay-centered-offer-modal/) · design 5/10 · 2,320 runs
+- [Offer overlay- Centered Offer Modal](../../prompts/offer-overlay-centered-offer-modal/) · design 4/10 · 2,320 runs
 - [Cart Drawer- Essential Slide in](../../prompts/cart-drawer-essential-slide-in/) · design 3/10 · 2,493 runs

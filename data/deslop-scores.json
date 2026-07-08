@@ -786,5 +786,98 @@
   "momentum-ship-your-startup-launch-before-the-idea-cools": {
     "deslop_score": 8,
     "flags": []
+  },
+  "lightning-background": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "hyperspeed-background": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "light-rays-background": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "interactive-card-stack": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "interactive-virtual-character": {
+    "deslop_score": 2,
+    "flags": [
+      "mislabeled"
+    ]
+  },
+  "foundry-your-saas-site-designed-before-you-write-a-line": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "landing-page-real-estate": {
+    "deslop_score": 5,
+    "flags": [
+      "vague"
+    ]
+  },
+  "landing-page-seo-keyword-page": {
+    "deslop_score": 3,
+    "flags": [
+      "mislabeled",
+      "vague"
+    ]
+  },
+  "offer-overlay-centered-offer-modal": {
+    "deslop_score": 4,
+    "flags": [
+      "generic-card-grid"
+    ]
+  },
+  "fintech-wallet-mobile-home-screen": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "social-media-post": {
+    "deslop_score": 4,
+    "flags": [
+      "vague",
+      "mislabeled"
+    ]
+  },
+  "verdance-agency-website-design-studio-dark-emerald": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "modular-card-dashboard": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "system-interface-feature-announcement": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "forge-launch-waitlist-dark-warm-ember": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "multi-step-form-flow": {
+    "deslop_score": 4,
+    "flags": [
+      "generic-card-grid"
+    ]
+  },
+  "workspace-settings-formcraft-two-column-cobalt": {
+    "deslop_score": 5,
+    "flags": [
+      "inter-primary",
+      "indigo-blue-accent"
+    ]
   }
 }

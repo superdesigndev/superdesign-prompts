@@ -10,8 +10,8 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common sections
 
-- Hero Section  _(in 8 prompts)_
-- Navigation  _(in 4 prompts)_
+- Hero Section  _(in 9 prompts)_
+- Navigation  _(in 5 prompts)_
 - Footer  _(in 3 prompts)_
 - Feature Grid  _(in 2 prompts)_
 - Philosophy / Narrative Section  _(in 1 prompts)_
@@ -51,6 +51,7 @@ Build a Landing Page using the "<system-id>" design system
 ## Reference prompts (best-designed first)
 
 - [High Contrast Landing Page](../../prompts/high-contrast-landing-page/) · design 9/10 · 2,400 runs
+- [Foundry: Your SaaS Site, Designed Before You Write a Line](../../prompts/foundry-your-saas-site-designed-before-you-write-a-line/) · design 9/10 · 2,390 runs
 - [Lumina SaaS Landing Page](../../prompts/lumina-saas-landing-page/) · design 9/10 · 2,271 runs
 - [Red sun](../../prompts/red-sun/) · design 9/10 · 1,616 runs
 - [Tech Editorial](../../prompts/tech-editorial/) · design 9/10 · 1,515 runs
@@ -59,6 +60,5 @@ Build a Landing Page using the "<system-id>" design system
 - [Chrome Extension Landing Page](../../prompts/chrome-extension-landing-page/) · design 7/10 · 2,430 runs
 - [Synapse](../../prompts/synapse/) · design 7/10 · 1,808 runs
 - [Landing Page / Local Small Business](../../prompts/landing-page-local-small-business/) · design 5/10 · 2,486 runs
-- [Foundry: Your SaaS Site, Designed Before You Write a Line](../../prompts/foundry-your-saas-site-designed-before-you-write-a-line/) · design 5/10 · 2,390 runs
-- [Landing Page / SEO Keyword Page](../../prompts/landing-page-seo-keyword-page/) · design 5/10 · 2,372 runs
 - [Landing Page / Real-Estate](../../prompts/landing-page-real-estate/) · design 5/10 · 2,329 runs
+- [Enterprise Admin Platform](../../prompts/enterprise-admin-platform/) · design 5/10 · 1,658 runs

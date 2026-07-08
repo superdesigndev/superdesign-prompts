@@ -53,11 +53,11 @@ Build a Mobile App using the "<system-id>" design system
 - [Focus Mode Detail](../../prompts/focus-mode-detail/) · design 8/10 · 2,493 runs
 - [Coverflow — Carousels that turn heads (dark coverflow aurora)](../../prompts/coverflow-carousels-that-turn-heads-dark-coverflow-aurora/) · design 8/10 · 2,460 runs
 - [Editorial Music Player (Now Playing)](../../prompts/editorial-music-player-now-playing/) · design 8/10 · 2,420 runs
+- [Fintech Wallet — Mobile Home Screen](../../prompts/fintech-wallet-mobile-home-screen/) · design 7/10 · 2,314 runs
 - [BabyBites - Sophisticated Palette](../../prompts/babybites-sophisticated-palette/) · design 7/10 · 1,547 runs
 - [Compact Control Grid](../../prompts/compact-control-grid/) · design 6/10 · 2,374 runs
 - [Sectioned Index Page](../../prompts/sectioned-index-page/) · design 5/10 · 2,426 runs
 - [Account Setup Flow — Goals / Interests (Card-Based)](../../prompts/account-setup-flow-goals-interests-card-based/) · design 5/10 · 2,425 runs
-- [Fintech Wallet — Mobile Home Screen](../../prompts/fintech-wallet-mobile-home-screen/) · design 5/10 · 2,314 runs
 - [Gesture First Navigation System](../../prompts/gesture-first-navigation-system/) · design 4/10 · 2,465 runs
 - [Card Grid Browse](../../prompts/card-grid-browse/) · design 4/10 · 2,392 runs
 - [Hero + Sticky Action Detail](../../prompts/hero-sticky-action-detail/) · design 4/10 · 2,349 runs

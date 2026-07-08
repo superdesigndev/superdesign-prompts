@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "ledgerline-deep-teal-mint-fintech-startup-dashboard-hero",
+  "name": "Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)",
+  "category": "Dashboards",
+  "industry": "Finance & Crypto",
+  "source": {
+    "type": "prompt",
+    "slug": "ledgerline-deep-teal-mint-fintech-startup-dashboard-hero"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#0f3d3e",
+      "#0a2a2b",
+      "#134847",
+      "#1b5a58",
+      "#4fd1c5",
+      "#eef5f0"
+    ],
+    "fonts": [
+      "Live"
+    ]
+  }
+}

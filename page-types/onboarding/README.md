@@ -56,4 +56,4 @@ Build a Onboarding using the "<system-id>" design system
 - [Technical System Onboarding](../../prompts/technical-system-onboarding/) · design 7/10 · 2,147 runs
 - [Interactive Multi-Step Onboarding Flow](../../prompts/interactive-multi-step-onboarding-flow/) · design 6/10 · 2,435 runs
 - [Superdesign Setup - Inline Preview](../../prompts/superdesign-setup-inline-preview/) · design 6/10 · 2,171 runs
-- [Multi-step Form Flow](../../prompts/multi-step-form-flow/) · design 5/10 · 1,906 runs
+- [Multi-step Form Flow](../../prompts/multi-step-form-flow/) · design 4/10 · 1,906 runs

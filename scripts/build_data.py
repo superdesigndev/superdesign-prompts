@@ -176,6 +176,8 @@ def main():
         # broken AND thin (score <=3): compile error / trademarked copy / debug cruft / no spec
         "radiant-prompt-input", "jelly-squish-button", "side-drawer-navigation",
         "gsap-horizontal-scroll", "dynamic-data-display",
+        # non-design mislabels surfaced scoring the backfills (image-gen / SEO skill / ops-YAML)
+        "interactive-virtual-character", "landing-page-seo-keyword-page", "social-media-post",
     }
     team = [x for x in team if x["slug"] not in EXCLUDE]
     for x in team: x["_cat"], x["_ind"], x["_s"] = page_category(x), industry(x), score(x)

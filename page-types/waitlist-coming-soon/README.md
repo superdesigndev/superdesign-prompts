@@ -56,8 +56,8 @@ Build a Waitlist & Coming Soon using the "<system-id>" design system
 - [Gen-Z Social App](../../prompts/gen-z-social-app/) · design 9/10 · 1,664 runs
 - [Momentum — Ship Your Startup Launch Before the Idea Cools](../../prompts/momentum-ship-your-startup-launch-before-the-idea-cools/) · design 8/10 · 2,051 runs
 - [Minimalist Beta Capture](../../prompts/minimalist-beta-capture/) · design 8/10 · 1,975 runs
+- [Forge — Launch Waitlist (dark, warm-ember)](../../prompts/forge-launch-waitlist-dark-warm-ember/) · design 8/10 · 1,962 runs
 - [Neon Velocity Countdown](../../prompts/neon-velocity-countdown/) · design 8/10 · 1,882 runs
 - [Softly - Digital Wellness App](../../prompts/softly-digital-wellness-app/) · design 8/10 · 1,527 runs
 - [Apple-inspired Waitlist](../../prompts/apple-inspired-waitlist/) · design 7/10 · 2,407 runs
 - [Architectural Type System Style](../../prompts/architectural-type-system-style/) · design 7/10 · 2,189 runs
-- [Forge — Launch Waitlist (dark, warm-ember)](../../prompts/forge-launch-waitlist-dark-warm-ember/) · design 5/10 · 1,962 runs

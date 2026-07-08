@@ -1,7 +1,7 @@
 # Page type — Dashboards
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 6 prompts in this repo.
+> Aggregated from 7 prompts in this repo.
 
 ## What this page type is
 
@@ -10,6 +10,7 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common sections
 
+- Sticky nav  _(in 2 prompts)_
 - System Canvas (Left 65%)  _(in 1 prompts)_
 - Inspector Sidebar (Right 35%)  _(in 1 prompts)_
 - Settings Sections  _(in 1 prompts)_
@@ -21,7 +22,6 @@ skill supplies the structure — sections, layout, and the components users expe
 - Health insights  _(in 1 prompts)_
 - Workouts list  _(in 1 prompts)_
 - Challenge card  _(in 1 prompts)_
-- Achievements + nav  _(in 1 prompts)_
 
 ## Common components
 
@@ -35,6 +35,11 @@ skill supplies the structure — sections, layout, and the components users expe
 - Terminal Code Block  _(in 1 prompts)_
 - Neubrutalist Interactive Card  _(in 1 prompts)_
 - Wireframe Bar Chart  _(in 1 prompts)_
+- Product dashboard mock  _(in 1 prompts)_
+- Floating virtual-card chip  _(in 1 prompts)_
+- Frosted teal glass surface  _(in 1 prompts)_
+- Mint grain backdrop  _(in 1 prompts)_
+- Mint pill button + glow  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -48,6 +53,7 @@ Build a Dashboard using the "<system-id>" design system
 - [AI System Configuration Console](../../prompts/ai-system-configuration-console/) · design 9/10 · 2,306 runs
 - [Volt — Electric-Lime Fitness Dashboard](../../prompts/volt-electric-lime-fitness-dashboard-a7544c/) · design 8/10 · 2,343 runs
 - [Developer tool dashboard/onboarding](../../prompts/developer-tool-dashboardonboarding/) · design 8/10 · 2,148 runs
+- [Modular Card Dashboard](../../prompts/modular-card-dashboard/) · design 7/10 · 1,970 runs
 - [Tablekit — The data table your team actually wants to live in](../../prompts/tablekit-the-data-table-your-team-actually-wants-to-live-in/) · design 5/10 · 2,256 runs
-- [Modular Card Dashboard](../../prompts/modular-card-dashboard/) · design 5/10 · 1,970 runs
 - [Workspace Settings · Formcraft (two-column, cobalt)](../../prompts/workspace-settings-formcraft-two-column-cobalt/) · design 5/10 · 1,929 runs
+- [Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)](../../prompts/ledgerline-deep-teal-mint-fintech-startup-dashboard-hero/) · design 5/10 · 1,915 runs

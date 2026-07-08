@@ -1,19 +1,22 @@
 {
   "schemaVersion": "sd-design-system/v1",
-  "id": "interactive-virtual-character",
-  "name": "Interactive virtual character",
+  "id": "counter",
+  "name": "Counter",
   "category": "Components",
   "industry": "General",
   "source": {
     "type": "prompt",
-    "slug": "interactive-virtual-character"
+    "slug": "counter"
   },
   "status": "draft",
   "files": {
     "design": "DESIGN.md"
   },
   "extracted": {
-    "colors": [],
+    "colors": [
+      "#1A1A1B",
+      "#F9F9F9"
+    ],
     "fonts": []
   }
 }
