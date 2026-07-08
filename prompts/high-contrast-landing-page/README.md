@@ -1,17 +1,19 @@
 ---
 title: "High Contrast Landing Page"
-slug: high-contrast-landing-page
+slug: "high-contrast-landing-page"
+category: "Landing Pages"
 tags: ["landing page", "style"]
 copyCount: 2503
 tryCount: 2400
-source: https://superdesign.dev/library/high-contrast-landing-page
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # High Contrast Landing Page
 
 A high-contrast Swiss-style minimalist design system utilizing brutalist typography and editorial layouts. Characterized by a neutral palette of off-whites, deep blacks, and monochromatic grays, this style emphasizes rhythmic patterns through stacked text 'echo' effects and asymmetrical grids. Ideal for luxury travel, architecture portfolios, high-end fashion, and premium editorial content where typography acts as the primary visual driver.
 
-![High Contrast Landing Page](./preview.png)
+<img src="preview.png" alt="High Contrast Landing Page" width="640">
 
 ## Prompt
 
@@ -66,6 +68,12 @@ A high-contrast Swiss-style minimalist design system utilizing brutalist typogra
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/high-contrast-landing-page](https://superdesign.dev/library/high-contrast-landing-page)**
+**▶ Try it live → [https://superdesign.dev/library/high-contrast-landing-page](https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*2,503 copies · 2,400 tries · tags: landing page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "high-contrast-landing-page" --json
+```
+
+*2,503 copies · 2,400 tries · landing page, style*

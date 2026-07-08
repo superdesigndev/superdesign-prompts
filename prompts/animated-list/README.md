@@ -1,17 +1,19 @@
 ---
 title: "Animated List"
-slug: animated-list
+slug: "animated-list"
+category: "Components"
 tags: ["ui component"]
 copyCount: 63
 tryCount: 2491
-source: https://superdesign.dev/library/animated-list
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/animated-list?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Animated List
 
 A vertical list component with scroll-triggered animations, keyboard navigation, and gradient overflow effects. Features item scaling on scroll and hover.
 
-![Animated List](./preview.mp4)
+<img src="preview.mp4" alt="Animated List" width="640">
 
 ## Prompt
 
@@ -353,6 +355,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/animated-list](https://superdesign.dev/library/animated-list)**
+**▶ Try it live → [https://superdesign.dev/library/animated-list](https://superdesign.dev/library/animated-list?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*63 copies · 2,491 tries · tags: ui component*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "animated-list" --json
+```
+
+*63 copies · 2,491 tries · ui component*

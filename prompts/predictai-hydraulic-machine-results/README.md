@@ -1,17 +1,19 @@
 ---
 title: "PredictAI - Hydraulic Machine Results"
-slug: predictai-hydraulic-machine-results
+slug: "predictai-hydraulic-machine-results"
+category: "Design Systems & Styles"
 tags: []
 copyCount: 17
 tryCount: 2477
-source: https://superdesign.dev/library/predictai-hydraulic-machine-results
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/predictai-hydraulic-machine-results?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # PredictAI - Hydraulic Machine Results
 
 A high-contrast, bold editorial style dashboard designed for industrial analytics and predictive AI monitoring. Features a sophisticated dark/light mode system with a minimalist color palette emphasizing teal (#1DB584) and deep blue (#0070C0). The layout uses a structured 12-column bento-grid approach with heavy emphasis on typography contrast, combining sans-serif Inter for headlines with JetBrains Mono for technical metadata. Ideal for SaaS platforms, fintech, IoT monitoring, and high-end technical interfaces that require both clarity and an editorial aesthetic. Includes unique micro-interactions like a mix-blend-mode custom cursor and staggered reveal animations.
 
-![PredictAI - Hydraulic Machine Results](./preview.png)
+<img src="preview.png" alt="PredictAI - Hydraulic Machine Results" width="640">
 
 ## Prompt
 
@@ -64,6 +66,12 @@ A high-contrast, bold editorial style dashboard designed for industrial analytic
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/predictai-hydraulic-machine-results](https://superdesign.dev/library/predictai-hydraulic-machine-results)**
+**▶ Try it live → [https://superdesign.dev/library/predictai-hydraulic-machine-results](https://superdesign.dev/library/predictai-hydraulic-machine-results?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*17 copies · 2,477 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "predictai-hydraulic-machine-results" --json
+```
+
+*17 copies · 2,477 tries · *

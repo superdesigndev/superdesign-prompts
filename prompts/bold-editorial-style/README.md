@@ -1,17 +1,19 @@
 ---
 title: "Bold Editorial Style"
-slug: bold-editorial-style
+slug: "bold-editorial-style"
+category: "Landing Pages"
 tags: ["light mode", "editorial", "yellow", "navy", "sage", "waitlist", "landing page", "saas landing", "acid yellow accent", "style"]
 copyCount: 948
 tryCount: 2117
-source: https://superdesign.dev/library/bold-editorial-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/bold-editorial-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Bold Editorial Style
 
 A high-contrast, editorial-style SaaS landing page design optimized for designers and creative tools. It features bold Anton display typography, a sophisticated palette of golden yellow (#ffe17c) and deep charcoal (#171e19), and a structured layout combining grid patterns and bento-box feature blocks. This style is characterized by aggressive visual hierarchy, oversized headlines, and a minimalist yet punchy aesthetic suitable for high-velocity startups, fintech, or creative agency portfolios.
 
-![Bold Editorial Style](./preview.png)
+<img src="preview.png" alt="Bold Editorial Style" width="640">
 
 ## Prompt
 
@@ -66,6 +68,12 @@ A high-contrast, editorial-style SaaS landing page design optimized for designer
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/bold-editorial-style](https://superdesign.dev/library/bold-editorial-style)**
+**▶ Try it live → [https://superdesign.dev/library/bold-editorial-style](https://superdesign.dev/library/bold-editorial-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*948 copies · 2,117 tries · tags: light mode, editorial, yellow, navy, sage, waitlist, landing page, saas landing, acid yellow accent, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "bold-editorial-style" --json
+```
+
+*948 copies · 2,117 tries · light mode, editorial, yellow, navy, sage*

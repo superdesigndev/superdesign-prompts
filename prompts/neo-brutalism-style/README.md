@@ -1,17 +1,19 @@
 ---
 title: "Neo-Brutalism Style"
-slug: neo-brutalism-style
+slug: "neo-brutalism-style"
+category: "Landing Pages"
 tags: ["page", "landing page", "style"]
 copyCount: 626
 tryCount: 1681
-source: https://superdesign.dev/library/neo-brutalism-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/neo-brutalism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Neo-Brutalism Style
 
 A high-impact Neo-Brutalist design system characterized by 'Acid' aesthetics. It features high-contrast color palettes (off-white, deep black, and neon yellow), heavy-weight typography, and 'hard' UI elements like non-blurred shadows and thick borders. The layout utilizes bento grids, oversized display text, and dynamic marquee components. Suitable for creative agencies, experimental e-commerce, fintech, and portfolio sites looking for a 'loud', digital-first brand identity.
 
-![Neo-Brutalism Style](./preview.png)
+<img src="preview.png" alt="Neo-Brutalism Style" width="640">
 
 ## Prompt
 
@@ -68,6 +70,12 @@ A high-impact Neo-Brutalist design system characterized by 'Acid' aesthetics. It
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/neo-brutalism-style](https://superdesign.dev/library/neo-brutalism-style)**
+**▶ Try it live → [https://superdesign.dev/library/neo-brutalism-style](https://superdesign.dev/library/neo-brutalism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*626 copies · 1,681 tries · tags: page, landing page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "neo-brutalism-style" --json
+```
+
+*626 copies · 1,681 tries · page, landing page, style*

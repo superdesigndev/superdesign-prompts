@@ -1,10 +1,12 @@
 ---
 title: "Hyperspeed Background"
-slug: hyperspeed-background
+slug: "hyperspeed-background"
+category: "Animations & Backgrounds"
 tags: ["animation", "background"]
 copyCount: 232
 tryCount: 2306
-source: https://superdesign.dev/library/hyperspeed-background
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/hyperspeed-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Hyperspeed Background
@@ -13,7 +15,7 @@ A high-performance, Three.js-based warp speed/hyperspeed background effect with 
 
 Source: ReactBits
 
-![Hyperspeed Background](./preview.mp4)
+<img src="preview.mp4" alt="Hyperspeed Background" width="640">
 
 ## Prompt
 
@@ -655,6 +657,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/hyperspeed-background](https://superdesign.dev/library/hyperspeed-background)**
+**▶ Try it live → [https://superdesign.dev/library/hyperspeed-background](https://superdesign.dev/library/hyperspeed-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*232 copies · 2,306 tries · tags: animation, background*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "hyperspeed-background" --json
+```
+
+*232 copies · 2,306 tries · animation, background*

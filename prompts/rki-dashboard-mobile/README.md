@@ -1,17 +1,19 @@
 ---
 title: "RKI Dashboard Mobile"
-slug: rki-dashboard-mobile
+slug: "rki-dashboard-mobile"
+category: "Dashboards"
 tags: []
 copyCount: 19
 tryCount: 2490
-source: https://superdesign.dev/library/rki-dashboard-mobile
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/rki-dashboard-mobile?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # RKI Dashboard Mobile
 
 A modern mobile Android dashboard design for property management and fintech applications. It features a clean, professional aesthetic using a white and teal color palette with Plus Jakarta Sans typography. The layout employs a 2x2 metrics grid, detailed list views for investors and assets, and a persistent bottom navigation bar. Ideal for real estate SaaS, financial tracking, or business management apps requiring high legibility and a minimal, flat design language without gradients or heavy shadows.
 
-![RKI Dashboard Mobile](./preview.png)
+<img src="preview.png" alt="RKI Dashboard Mobile" width="640">
 
 ## Prompt
 
@@ -62,6 +64,12 @@ A modern mobile Android dashboard design for property management and fintech app
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/rki-dashboard-mobile](https://superdesign.dev/library/rki-dashboard-mobile)**
+**▶ Try it live → [https://superdesign.dev/library/rki-dashboard-mobile](https://superdesign.dev/library/rki-dashboard-mobile?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*19 copies · 2,490 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "rki-dashboard-mobile" --json
+```
+
+*19 copies · 2,490 tries · *

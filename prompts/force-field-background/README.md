@@ -1,10 +1,12 @@
 ---
 title: "Force Field Background"
-slug: force-field-background
+slug: "force-field-background"
+category: "Animations & Backgrounds"
 tags: ["animation", "background"]
 copyCount: 865
 tryCount: 1588
-source: https://superdesign.dev/library/force-field-background
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/force-field-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Force Field Background
@@ -13,7 +15,7 @@ An interactive, particle-based force field background effect that reacts to mous
 
 Source: https://codepen.io/vainsan/pen/ByoXMoB
 
-![Force Field Background](./preview.png)
+<img src="preview.png" alt="Force Field Background" width="640">
 
 ## Prompt
 
@@ -622,6 +624,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/force-field-background](https://superdesign.dev/library/force-field-background)**
+**▶ Try it live → [https://superdesign.dev/library/force-field-background](https://superdesign.dev/library/force-field-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*865 copies · 1,588 tries · tags: animation, background*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "force-field-background" --json
+```
+
+*865 copies · 1,588 tries · animation, background*

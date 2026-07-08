@@ -1,10 +1,12 @@
 ---
 title: "Gradient Blinds Background"
-slug: gradient-blinds-background
+slug: "gradient-blinds-background"
+category: "Animations & Backgrounds"
 tags: ["animation", "background"]
 copyCount: 255
 tryCount: 2215
-source: https://superdesign.dev/library/gradient-blinds-background
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/gradient-blinds-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Gradient Blinds Background
@@ -13,7 +15,7 @@ A premium, minimalist showcase of the GradientBlinds background effect. Features
 
 Source: ReactBits
 
-![Gradient Blinds Background](./preview.mp4)
+<img src="preview.mp4" alt="Gradient Blinds Background" width="640">
 
 ## Prompt
 
@@ -548,6 +550,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/gradient-blinds-background](https://superdesign.dev/library/gradient-blinds-background)**
+**▶ Try it live → [https://superdesign.dev/library/gradient-blinds-background](https://superdesign.dev/library/gradient-blinds-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*255 copies · 2,215 tries · tags: animation, background*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "gradient-blinds-background" --json
+```
+
+*255 copies · 2,215 tries · animation, background*

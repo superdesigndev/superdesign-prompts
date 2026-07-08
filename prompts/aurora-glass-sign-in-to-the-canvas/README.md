@@ -1,17 +1,19 @@
 ---
 title: "Aurora Glass \u2014 Sign in to the canvas"
-slug: aurora-glass-sign-in-to-the-canvas
+slug: "aurora-glass-sign-in-to-the-canvas"
+category: "Design Systems & Styles"
 tags: ["login", "sign-in", "auth", "glassmorphism", "dark-mode", "aurora", "gradient", "split-screen", "saas", "hero"]
 copyCount: 6
 tryCount: 2495
-source: https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Aurora Glass — Sign in to the canvas
 
 Dark aurora-glass split sign-in screen: frosted glassmorphic auth card with a glowing aqua focus ring and an aqua-to-magenta gradient CTA, floating over neon aurora blobs on near-black ink, beside a product pitch column. Space Grotesk + Inter.
 
-![Aurora Glass — Sign in to the canvas](./preview.png)
+<img src="preview.png" alt="Aurora Glass — Sign in to the canvas" width="640">
 
 ## Prompt
 
@@ -66,6 +68,12 @@ Dark aurora-glass split sign-in screen: frosted glassmorphic auth card with a gl
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas](https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas)**
+**▶ Try it live → [https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas](https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*6 copies · 2,495 tries · tags: login, sign-in, auth, glassmorphism, dark-mode, aurora, gradient, split-screen, saas, hero*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "aurora-glass-sign-in-to-the-canvas" --json
+```
+
+*6 copies · 2,495 tries · login, sign-in, auth, glassmorphism, dark-mode*

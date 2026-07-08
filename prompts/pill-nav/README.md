@@ -1,17 +1,19 @@
 ---
 title: "Pill Nav"
-slug: pill-nav
+slug: "pill-nav"
+category: "Components"
 tags: ["ui component", "nav"]
 copyCount: 318
 tryCount: 2207
-source: https://superdesign.dev/library/pill-nav
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/pill-nav?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Pill Nav
 
 A premium, minimalist pill-shaped navigation component with GSAP-powered hover effects, rotating logo animation, and responsive mobile menu. Features a unique 'rising circle' background effect on hover.
 
-![Pill Nav](./preview.mp4)
+<img src="preview.mp4" alt="Pill Nav" width="640">
 
 ## Prompt
 
@@ -652,6 +654,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/pill-nav](https://superdesign.dev/library/pill-nav)**
+**▶ Try it live → [https://superdesign.dev/library/pill-nav](https://superdesign.dev/library/pill-nav?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*318 copies · 2,207 tries · tags: ui component, nav*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "pill-nav" --json
+```
+
+*318 copies · 2,207 tries · ui component, nav*

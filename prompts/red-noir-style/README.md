@@ -1,17 +1,19 @@
 ---
 title: "Red Noir Style"
-slug: red-noir-style
+slug: "red-noir-style"
+category: "Landing Pages"
 tags: ["style", "landing page", "page"]
 copyCount: 2162
 tryCount: 2234
-source: https://superdesign.dev/library/red-noir-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/red-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Red Noir Style
 
 A bold, dark-themed landing page featuring high-contrast red accents, glassmorphism, and smooth scroll animations. Designed for AI and tech products with a futuristic aesthetic.
 
-![Red Noir Style](./preview.png)
+<img src="preview.png" alt="Red Noir Style" width="640">
 
 ## Prompt
 
@@ -450,6 +452,12 @@ This is a reference implementation of red noir style
 Please use the above as reference and apply to our context
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/red-noir-style](https://superdesign.dev/library/red-noir-style)**
+**▶ Try it live → [https://superdesign.dev/library/red-noir-style](https://superdesign.dev/library/red-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*2,162 copies · 2,234 tries · tags: style, landing page, page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "red-noir-style" --json
+```
+
+*2,162 copies · 2,234 tries · style, landing page, page*

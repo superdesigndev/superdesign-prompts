@@ -1,17 +1,19 @@
 ---
 title: "FrameWatch | Matrix Enhanced Hero"
-slug: framewatch-or-matrix-enhanced-hero
+slug: "framewatch-or-matrix-enhanced-hero"
+category: "Design Systems & Styles"
 tags: []
 copyCount: 15
 tryCount: 2480
-source: https://superdesign.dev/library/framewatch-or-matrix-enhanced-hero
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/framewatch-or-matrix-enhanced-hero?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # FrameWatch | Matrix Enhanced Hero
 
 A high-end, light-themed tech aesthetic with a 'Matrix' inspired twist. It features a clean white/slate background punctuated by vibrant rose/coral accents (#fb7185) and diverse code-snippet colors. Suitable for cybersecurity, SaaS, fintech, or AI identity protection startups. The style utilizes glassmorphism, bold editorial typography (Satoshi), and sophisticated scroll-triggered animations. Notable for its 'Code Matrix' hero background where floating snippets of logic create a technical yet breathable atmosphere.
 
-![FrameWatch | Matrix Enhanced Hero](./preview.png)
+<img src="preview.png" alt="FrameWatch | Matrix Enhanced Hero" width="640">
 
 ## Prompt
 
@@ -62,6 +64,12 @@ A high-end, light-themed tech aesthetic with a 'Matrix' inspired twist. It featu
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/framewatch-or-matrix-enhanced-hero](https://superdesign.dev/library/framewatch-or-matrix-enhanced-hero)**
+**▶ Try it live → [https://superdesign.dev/library/framewatch-or-matrix-enhanced-hero](https://superdesign.dev/library/framewatch-or-matrix-enhanced-hero?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*15 copies · 2,480 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "framewatch-or-matrix-enhanced-hero" --json
+```
+
+*15 copies · 2,480 tries · *

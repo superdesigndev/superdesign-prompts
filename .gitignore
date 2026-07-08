@@ -1,0 +1,5 @@
+# raw API cache — contains creator emails (PII), never publish
+data/all-prompts.json
+.DS_Store
+__pycache__/
+*.pyc

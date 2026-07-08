@@ -1,17 +1,19 @@
 ---
 title: "PULSE X RP - Maximum Intensity Cinematic Racing Banner"
-slug: pulse-x-rp-maximum-intensity-cinematic-racing-banner
+slug: "pulse-x-rp-maximum-intensity-cinematic-racing-banner"
+category: "Design Systems & Styles"
 tags: []
 copyCount: 13
 tryCount: 2499
-source: https://superdesign.dev/library/pulse-x-rp-maximum-intensity-cinematic-racing-banner
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/pulse-x-rp-maximum-intensity-cinematic-racing-banner?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # PULSE X RP - Maximum Intensity Cinematic Racing Banner
 
 High-intensity cinematic racing banner design featuring a dark mode aesthetic with aggressive neon red (#ff0040) accents. The style combines brutalist typography, glitch effects, and motion-blur animations. Ideal for gaming communities, GTA RP servers, automotive sports, and high-energy e-sports branding. Characterized by skewed elements, lightning-strike flash effects, and motion streaks that simulate speed.
 
-![PULSE X RP - Maximum Intensity Cinematic Racing Banner](./preview.png)
+<img src="preview.png" alt="PULSE X RP - Maximum Intensity Cinematic Racing Banner" width="640">
 
 ## Prompt
 
@@ -59,6 +61,12 @@ High-intensity cinematic racing banner design featuring a dark mode aesthetic wi
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/pulse-x-rp-maximum-intensity-cinematic-racing-banner](https://superdesign.dev/library/pulse-x-rp-maximum-intensity-cinematic-racing-banner)**
+**▶ Try it live → [https://superdesign.dev/library/pulse-x-rp-maximum-intensity-cinematic-racing-banner](https://superdesign.dev/library/pulse-x-rp-maximum-intensity-cinematic-racing-banner?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*13 copies · 2,499 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "pulse-x-rp-maximum-intensity-cinematic-racing-banner" --json
+```
+
+*13 copies · 2,499 tries · *

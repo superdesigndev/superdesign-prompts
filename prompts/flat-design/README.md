@@ -1,10 +1,12 @@
 ---
 title: "Flat design"
-slug: flat-design
+slug: "flat-design"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 300
 tryCount: 2247
-source: https://superdesign.dev/library/flat-design
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/flat-design?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Flat design
@@ -13,7 +15,7 @@ Flat Design removes all artifice
 
 Source: designprompts.dev
 
-![Flat design](./preview.png)
+<img src="preview.png" alt="Flat design" width="640">
 
 ## Prompt
 
@@ -195,6 +197,12 @@ A geometric sans-serif that mirrors the shapes of the UI.
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/flat-design](https://superdesign.dev/library/flat-design)**
+**▶ Try it live → [https://superdesign.dev/library/flat-design](https://superdesign.dev/library/flat-design?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*300 copies · 2,247 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "flat-design" --json
+```
+
+*300 copies · 2,247 tries · style*

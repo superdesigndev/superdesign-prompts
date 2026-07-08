@@ -1,17 +1,19 @@
 ---
 title: "Ghost Cursor"
-slug: ghost-cursor
+slug: "ghost-cursor"
+category: "Components"
 tags: ["animation", "background"]
 copyCount: 417
 tryCount: 2217
-source: https://superdesign.dev/library/ghost-cursor
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/ghost-cursor?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Ghost Cursor
 
 A fluid, smoky cursor trail effect using Three.js shader materials and post-processing bloom.
 
-![Ghost Cursor](./preview.mp4)
+<img src="preview.mp4" alt="Ghost Cursor" width="640">
 
 ## Prompt
 
@@ -671,6 +673,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/ghost-cursor](https://superdesign.dev/library/ghost-cursor)**
+**▶ Try it live → [https://superdesign.dev/library/ghost-cursor](https://superdesign.dev/library/ghost-cursor?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*417 copies · 2,217 tries · tags: animation, background*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "ghost-cursor" --json
+```
+
+*417 copies · 2,217 tries · animation, background*

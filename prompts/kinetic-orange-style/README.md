@@ -1,17 +1,19 @@
 ---
 title: "Kinetic Orange Style"
-slug: kinetic-orange-style
+slug: "kinetic-orange-style"
+category: "Landing Pages"
 tags: ["landing page", "style", "page"]
 copyCount: 1613
 tryCount: 1624
-source: https://superdesign.dev/library/kinetic-orange-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/kinetic-orange-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Kinetic Orange Style
 
 A high-energy brutalist design system characterized by a high-contrast 'Kinetic Orange' (#FF4D00) and black palette. It features bold, oversized editorial typography, technical monospace accents, and rhythmic motion through marquees and rotating elements. Ideal for creative agencies, fintech, modern portfolios, or AI-driven startups looking for a 'loud' and confident brand presence.
 
-![Kinetic Orange Style](./preview.png)
+<img src="preview.png" alt="Kinetic Orange Style" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ A high-energy brutalist design system characterized by a high-contrast 'Kinetic 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/kinetic-orange-style](https://superdesign.dev/library/kinetic-orange-style)**
+**▶ Try it live → [https://superdesign.dev/library/kinetic-orange-style](https://superdesign.dev/library/kinetic-orange-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,613 copies · 1,624 tries · tags: landing page, style, page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "kinetic-orange-style" --json
+```
+
+*1,613 copies · 1,624 tries · landing page, style, page*

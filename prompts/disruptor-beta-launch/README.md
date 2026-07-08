@@ -1,17 +1,19 @@
 ---
 title: "Disruptor Beta Launch"
-slug: disruptor-beta-launch
+slug: "disruptor-beta-launch"
+category: "Landing Pages"
 tags: ["product launch", "waitlist", "high conversion page", "landing page", "style"]
 copyCount: 456
 tryCount: 2318
-source: https://superdesign.dev/library/disruptor-beta-launch
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/disruptor-beta-launch?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Disruptor Beta Launch
 
 A high-impact Neo-Brutalist design system designed for product launches and disruptive SaaS platforms. Characterized by stark color contrasts, industrial typography, and heavy geometric borders. The aesthetic utilizes a dark mode base (#121212) punctuated by vibrant 'Volt' accents (#CCFF00) and crisp white containers. Key features include 'sticker-style' rotated elements, massive display type, solid 8px offsets (Neo-shadows), and vertical navigation elements. Ideal for high-growth tech, developer tools, fintech, and creative agencies looking for an aggressive, authoritative, and innovative brand presence.
 
-![Disruptor Beta Launch](./preview.jpg)
+<img src="preview.jpg" alt="Disruptor Beta Launch" width="640">
 
 ## Prompt
 
@@ -67,6 +69,12 @@ A high-impact Neo-Brutalist design system designed for product launches and disr
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/disruptor-beta-launch](https://superdesign.dev/library/disruptor-beta-launch)**
+**▶ Try it live → [https://superdesign.dev/library/disruptor-beta-launch](https://superdesign.dev/library/disruptor-beta-launch?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*456 copies · 2,318 tries · tags: product launch, waitlist, high conversion page, landing page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "disruptor-beta-launch" --json
+```
+
+*456 copies · 2,318 tries · product launch, waitlist, high conversion page, landing page, style*

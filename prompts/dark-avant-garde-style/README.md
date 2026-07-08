@@ -1,17 +1,19 @@
 ---
 title: "Dark Avant-Garde Style"
-slug: dark-avant-garde-style
+slug: "dark-avant-garde-style"
+category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 480
 tryCount: 2208
-source: https://superdesign.dev/library/dark-avant-garde-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/dark-avant-garde-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Dark Avant-Garde Style
 
 A dark avant-garde design system termed 'Digital Naturalism,' characterized by a sophisticated interplay between deep charcoal surfaces and high-energy acid green accents. Featuring editorial serif typography paired with clean sans-serif UI, the style utilizes Brutalist-inspired elements like serrated edges, skewed 'tab' navigation, and grainy noise overlays. Ideal for high-end design agencies, AI masterclasses, editorial portfolios, and premium fintech brands seeking a bold, technical, yet organic aesthetic.
 
-![Dark Avant-Garde Style](./preview.png)
+<img src="preview.png" alt="Dark Avant-Garde Style" width="640">
 
 ## Prompt
 
@@ -64,6 +66,12 @@ A dark avant-garde design system termed 'Digital Naturalism,' characterized by a
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/dark-avant-garde-style](https://superdesign.dev/library/dark-avant-garde-style)**
+**▶ Try it live → [https://superdesign.dev/library/dark-avant-garde-style](https://superdesign.dev/library/dark-avant-garde-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*480 copies · 2,208 tries · tags: landing page, page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "dark-avant-garde-style" --json
+```
+
+*480 copies · 2,208 tries · landing page, page, style*

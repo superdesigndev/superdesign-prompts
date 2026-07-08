@@ -1,17 +1,19 @@
 ---
 title: "Interactive Card Stack"
-slug: interactive-card-stack
+slug: "interactive-card-stack"
+category: "Components"
 tags: ["ui component"]
 copyCount: 121
 tryCount: 2469
-source: https://superdesign.dev/library/interactive-card-stack
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/interactive-card-stack?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Interactive Card Stack
 
 A premium, interactive card stack component with drag-to-back physics, random rotations, and smooth motion transitions. Features autoplay, mobile-optimized interactions, and highly customizable animation configurations.
 
-![Interactive Card Stack](./preview.mp4)
+<img src="preview.mp4" alt="Interactive Card Stack" width="640">
 
 ## Prompt
 
@@ -363,6 +365,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/interactive-card-stack](https://superdesign.dev/library/interactive-card-stack)**
+**▶ Try it live → [https://superdesign.dev/library/interactive-card-stack](https://superdesign.dev/library/interactive-card-stack?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*121 copies · 2,469 tries · tags: ui component*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "interactive-card-stack" --json
+```
+
+*121 copies · 2,469 tries · ui component*

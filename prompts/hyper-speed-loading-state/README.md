@@ -1,17 +1,19 @@
 ---
 title: "Hyper-Speed Loading State"
-slug: hyper-speed-loading-state
+slug: "hyper-speed-loading-state"
+category: "Components"
 tags: ["animation", "loading"]
 copyCount: 749
 tryCount: 2182
-source: https://superdesign.dev/library/hyper-speed-loading-state
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/hyper-speed-loading-state?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Hyper-Speed Loading State
 
 Loading animation UI featuring a character-like loader with animated lines, a body made from geometric shapes, and moving horizontal lines across the background. The loader have smooth animations with multiple synchronized motion effects including rotation, translation, and opacity fades.
 
-![Hyper-Speed Loading State](./preview.png)
+<img src="preview.png" alt="Hyper-Speed Loading State" width="640">
 
 ## Prompt
 
@@ -313,6 +315,12 @@ Here is a reference implementation:
 ~~~
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/hyper-speed-loading-state](https://superdesign.dev/library/hyper-speed-loading-state)**
+**▶ Try it live → [https://superdesign.dev/library/hyper-speed-loading-state](https://superdesign.dev/library/hyper-speed-loading-state?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*749 copies · 2,182 tries · tags: animation, loading*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "hyper-speed-loading-state" --json
+```
+
+*749 copies · 2,182 tries · animation, loading*

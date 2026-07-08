@@ -1,17 +1,19 @@
 ---
 title: "Glassmorphism card"
-slug: glassmorphism-card
+slug: "glassmorphism-card"
+category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 1250
 tryCount: 1895
-source: https://superdesign.dev/library/glassmorphism-card
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/glassmorphism-card?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Glassmorphism card
 
 A premium, high-tech glassmorphism design system characterized by deep translucent layers, dark-to-light transitions, and editorial typography. Featuring a 'Superdesign' aesthetic, it utilizes heavy background blurs, grain textures, and emerald accents. This style is ideal for SaaS, AI platforms, fintech, and high-end design agencies requiring a sophisticated, futuristic feel with bento-grid layouts and fluid animations.
 
-![Glassmorphism card](./preview.mp4)
+<img src="preview.mp4" alt="Glassmorphism card" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ A premium, high-tech glassmorphism design system characterized by deep transluce
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/glassmorphism-card](https://superdesign.dev/library/glassmorphism-card)**
+**▶ Try it live → [https://superdesign.dev/library/glassmorphism-card](https://superdesign.dev/library/glassmorphism-card?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,250 copies · 1,895 tries · tags: landing page, page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "glassmorphism-card" --json
+```
+
+*1,250 copies · 1,895 tries · landing page, page, style*

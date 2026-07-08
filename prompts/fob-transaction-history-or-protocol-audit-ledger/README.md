@@ -1,17 +1,19 @@
 ---
 title: "FOB Transaction History | Protocol Audit Ledger"
-slug: fob-transaction-history-or-protocol-audit-ledger
+slug: "fob-transaction-history-or-protocol-audit-ledger"
+category: "Design Systems & Styles"
 tags: []
 copyCount: 31
 tryCount: 2492
-source: https://superdesign.dev/library/fob-transaction-history-or-protocol-audit-ledger
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/fob-transaction-history-or-protocol-audit-ledger?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # FOB Transaction History | Protocol Audit Ledger
 
 A high-fidelity cyberpunk fintech dashboard style designed for Web3 protocol auditing, transaction ledgers, and AI agent monitoring. Features a deep dark theme (#050505) with high-contrast neon accents (Cyan #00f2ff, Magenta #ff00e5, Lime #adff00). It utilizes glassmorphism, grid backgrounds, and scanline animations to create a technical, 'next-gen terminal' aesthetic. Best suited for SaaS dashboards, crypto platforms, developer tools, and security auditing interfaces.
 
-![FOB Transaction History | Protocol Audit Ledger](./preview.png)
+<img src="preview.png" alt="FOB Transaction History | Protocol Audit Ledger" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ A high-fidelity cyberpunk fintech dashboard style designed for Web3 protocol aud
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/fob-transaction-history-or-protocol-audit-ledger](https://superdesign.dev/library/fob-transaction-history-or-protocol-audit-ledger)**
+**▶ Try it live → [https://superdesign.dev/library/fob-transaction-history-or-protocol-audit-ledger](https://superdesign.dev/library/fob-transaction-history-or-protocol-audit-ledger?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*31 copies · 2,492 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "fob-transaction-history-or-protocol-audit-ledger" --json
+```
+
+*31 copies · 2,492 tries · *

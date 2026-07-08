@@ -1,17 +1,19 @@
 ---
 title: "Parallax Stars Background"
-slug: parallax-stars-background
+slug: "parallax-stars-background"
+category: "Animations & Backgrounds"
 tags: ["background", "animation"]
 copyCount: 661
 tryCount: 1574
-source: https://superdesign.dev/library/parallax-stars-background
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/parallax-stars-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Parallax Stars Background
 
 A mesmerizing space-themed background with animated parallax pixel stars and a radial gradient atmosphere. Features three layers of stars moving at different speeds to create depth.
 
-![Parallax Stars Background](./preview.mp4)
+<img src="preview.mp4" alt="Parallax Stars Background" width="640">
 
 ## Prompt
 
@@ -231,6 +233,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/parallax-stars-background](https://superdesign.dev/library/parallax-stars-background)**
+**▶ Try it live → [https://superdesign.dev/library/parallax-stars-background](https://superdesign.dev/library/parallax-stars-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*661 copies · 1,574 tries · tags: background, animation*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "parallax-stars-background" --json
+```
+
+*661 copies · 1,574 tries · background, animation*

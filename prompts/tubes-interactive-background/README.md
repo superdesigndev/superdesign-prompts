@@ -1,10 +1,12 @@
 ---
 title: "Tubes Interactive Background"
-slug: tubes-interactive-background
+slug: "tubes-interactive-background"
+category: "Animations & Backgrounds"
 tags: ["animation", "background"]
 copyCount: 2912
 tryCount: 1608
-source: https://superdesign.dev/library/tubes-interactive-background
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/tubes-interactive-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Tubes Interactive Background
@@ -13,7 +15,7 @@ A high-performance interactive 3D background featuring neon tubes that follow th
 
 Source: https://codepen.io/soju22/pen/qEbdVjK
 
-![Tubes Interactive Background](./preview.png)
+<img src="preview.png" alt="Tubes Interactive Background" width="640">
 
 ## Prompt
 
@@ -258,6 +260,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/tubes-interactive-background](https://superdesign.dev/library/tubes-interactive-background)**
+**▶ Try it live → [https://superdesign.dev/library/tubes-interactive-background](https://superdesign.dev/library/tubes-interactive-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*2,912 copies · 1,608 tries · tags: animation, background*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "tubes-interactive-background" --json
+```
+
+*2,912 copies · 1,608 tries · animation, background*

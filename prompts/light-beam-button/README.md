@@ -1,17 +1,19 @@
 ---
 title: "Light Beam Button"
-slug: light-beam-button
+slug: "light-beam-button"
+category: "Components"
 tags: ["button", "ui component"]
 copyCount: 500
 tryCount: 2119
-source: https://superdesign.dev/library/light-beam-button
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/light-beam-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Light Beam Button
 
 A high-performance button with a rotating light beam border effect using CSS @property and conic gradients. Features a shiny hover state and gradient border animation.
 
-![Light Beam Button](./preview.png)
+<img src="preview.png" alt="Light Beam Button" width="640">
 
 ## Prompt
 
@@ -213,6 +215,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/light-beam-button](https://superdesign.dev/library/light-beam-button)**
+**▶ Try it live → [https://superdesign.dev/library/light-beam-button](https://superdesign.dev/library/light-beam-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*500 copies · 2,119 tries · tags: button, ui component*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "light-beam-button" --json
+```
+
+*500 copies · 2,119 tries · button, ui component*

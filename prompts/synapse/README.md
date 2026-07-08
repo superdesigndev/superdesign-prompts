@@ -1,17 +1,19 @@
 ---
 title: "Synapse"
-slug: synapse
+slug: "synapse"
+category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 1110
 tryCount: 1808
-source: https://superdesign.dev/library/synapse
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/synapse?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Synapse
 
 A high-performance 'neural' dark mode design system characterized by deep black backgrounds (#030303), vibrant neon accents in violet (#8B5CF6) and cyan (#06B6D4), and a sophisticated blend of editorial serif typography (Instrument Serif) with functional sans-serif (Inter). The style utilizes glassmorphism, animated mesh gradients, and 'shimmer' text effects to evoke a sense of advanced intelligence, encryption, and institutional-grade technology. Ideal for Fintech, AI, Cybersecurity, and Web3 verticals where speed, security, and technical sophistication are core values.
 
-![Synapse](./preview.mp4)
+<img src="preview.mp4" alt="Synapse" width="640">
 
 ## Prompt
 
@@ -67,6 +69,12 @@ A high-performance 'neural' dark mode design system characterized by deep black 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/synapse](https://superdesign.dev/library/synapse)**
+**▶ Try it live → [https://superdesign.dev/library/synapse](https://superdesign.dev/library/synapse?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,110 copies · 1,808 tries · tags: landing page, page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "synapse" --json
+```
+
+*1,110 copies · 1,808 tries · landing page, page, style*

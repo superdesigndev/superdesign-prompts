@@ -1,17 +1,19 @@
 ---
 title: "SaaS Landing Page for Developer Tool"
-slug: saas-landing-page-for-developer-tool
+slug: "saas-landing-page-for-developer-tool"
+category: "Landing Pages"
 tags: ["landing page", "style", "page", "blue accent", "light mode"]
 copyCount: 950
 tryCount: 2046
-source: https://superdesign.dev/library/saas-landing-page-for-developer-tool
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/saas-landing-page-for-developer-tool?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # SaaS Landing Page for Developer Tool
 
 A bold modernist design system inspired by exhibition poster aesthetics and technical documentation. Characterized by a high-contrast 'cream and cobalt' color palette, oversized aggressive typography, and a rigid 12-column grid layout with 1px border dividers. This style is ideal for technical SaaS, developer tools, high-end design agencies, or architectural portfolios. Key elements include tight line-heights (0.85), no rounded corners, and a unique vertical labeling system in a dedicated left-hand grid column.
 
-![SaaS Landing Page for Developer Tool](./preview.png)
+<img src="preview.png" alt="SaaS Landing Page for Developer Tool" width="640">
 
 ## Prompt
 
@@ -67,6 +69,12 @@ A bold modernist design system inspired by exhibition poster aesthetics and tech
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/saas-landing-page-for-developer-tool](https://superdesign.dev/library/saas-landing-page-for-developer-tool)**
+**▶ Try it live → [https://superdesign.dev/library/saas-landing-page-for-developer-tool](https://superdesign.dev/library/saas-landing-page-for-developer-tool?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*950 copies · 2,046 tries · tags: landing page, style, page, blue accent, light mode*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "saas-landing-page-for-developer-tool" --json
+```
+
+*950 copies · 2,046 tries · landing page, style, page, blue accent, light mode*

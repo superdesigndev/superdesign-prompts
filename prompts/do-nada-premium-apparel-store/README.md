@@ -1,17 +1,19 @@
 ---
 title: "DO NADA - Premium Apparel Store"
-slug: do-nada-premium-apparel-store
+slug: "do-nada-premium-apparel-store"
+category: "Design Systems & Styles"
 tags: []
 copyCount: 70
 tryCount: 2465
-source: https://superdesign.dev/library/do-nada-premium-apparel-store
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/do-nada-premium-apparel-store?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # DO NADA - Premium Apparel Store
 
 Premium apparel e-commerce style guide featuring a high-contrast black and gold palette. Utilizes a mix of editorial Cabinet Grotesk typography and clean Satoshi body text. Suitable for luxury streetwear, high-end fashion, and boutique lifestyle brands. Features cinematic grayscale-to-color image transitions, bold brutalist typography backgrounds, and a focus on minimalist layouts with dramatic letter spacing.
 
-![DO NADA - Premium Apparel Store](./preview.png)
+<img src="preview.png" alt="DO NADA - Premium Apparel Store" width="640">
 
 ## Prompt
 
@@ -70,6 +72,12 @@ Premium apparel e-commerce style guide featuring a high-contrast black and gold 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/do-nada-premium-apparel-store](https://superdesign.dev/library/do-nada-premium-apparel-store)**
+**▶ Try it live → [https://superdesign.dev/library/do-nada-premium-apparel-store](https://superdesign.dev/library/do-nada-premium-apparel-store?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*70 copies · 2,465 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "do-nada-premium-apparel-store" --json
+```
+
+*70 copies · 2,465 tries · *

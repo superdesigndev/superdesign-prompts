@@ -1,17 +1,19 @@
 ---
 title: "Hover reveal effect"
-slug: hover-reveal-effect
+slug: "hover-reveal-effect"
+category: "Animations & Backgrounds"
 tags: ["landing page", "hover effect", "animation"]
 copyCount: 442
 tryCount: 2456
-source: https://superdesign.dev/library/hover-reveal-effect
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/hover-reveal-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Hover reveal effect
 
 Source: https://x.com/emilylambert/status/2005113433780617713
 
-![Hover reveal effect](./preview.mp4)
+<img src="preview.mp4" alt="Hover reveal effect" width="640">
 
 ## Prompt
 
@@ -23,6 +25,12 @@ The main interactive feature should be a blob cursor effect that follows the mou
 All text elements (my name, the Portfolio link, and the social icons) should dynamically invert to white when the blob cursor hovers over them, so they remain visible against the revealed image. The transitions should be smooth with a 300ms duration. Add a subtle parallax effect where elements shift slightly in the opposite direction of cursor movement to create depth. The overall aesthetic should be minimal and sophisticated with a white background, letting the photography and interactive elements be the focal point.
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/hover-reveal-effect](https://superdesign.dev/library/hover-reveal-effect)**
+**▶ Try it live → [https://superdesign.dev/library/hover-reveal-effect](https://superdesign.dev/library/hover-reveal-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*442 copies · 2,456 tries · tags: landing page, hover effect, animation*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "hover-reveal-effect" --json
+```
+
+*442 copies · 2,456 tries · landing page, hover effect, animation*

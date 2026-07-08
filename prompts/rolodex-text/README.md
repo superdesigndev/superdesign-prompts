@@ -1,17 +1,19 @@
 ---
 title: "Rolodex Text"
-slug: rolodex-text
+slug: "rolodex-text"
+category: "Components"
 tags: ["animation", "text animation"]
 copyCount: 203
 tryCount: 2386
-source: https://superdesign.dev/library/rolodex-text
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/rolodex-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Rolodex Text
 
 A text component that cycles through words with a 3D physical slot machine/Rolodex flip animation. Features left-aligned text for inline use and preserved 3D perspective.
 
-![Rolodex Text](./preview.mp4)
+<img src="preview.mp4" alt="Rolodex Text" width="640">
 
 ## Prompt
 
@@ -27,6 +29,12 @@ Do not center it, or variable word lengths will create awkward gaps.
 **Technical**: Ensure the container uses preserve-3d and isn't strictly clipped, so the 3D rotation is fully visible.
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/rolodex-text](https://superdesign.dev/library/rolodex-text)**
+**▶ Try it live → [https://superdesign.dev/library/rolodex-text](https://superdesign.dev/library/rolodex-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*203 copies · 2,386 tries · tags: animation, text animation*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "rolodex-text" --json
+```
+
+*203 copies · 2,386 tries · animation, text animation*

@@ -1,17 +1,19 @@
 ---
 title: "Mosaic Grid Architecture Style"
-slug: mosaic-grid-architecture-style
+slug: "mosaic-grid-architecture-style"
+category: "Landing Pages"
 tags: ["neutral", "low contrast", "forestgreen accent", "cream accent", "industrial", "minimal", "saas landing", "ai first product", "style", "landing page"]
 copyCount: 1688
 tryCount: 2122
-source: https://superdesign.dev/library/mosaic-grid-architecture-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Mosaic Grid Architecture Style
 
 An architectural, technical-blueprint style design system featuring a minimalist mosaic grid, forest green (#1A3C2B) and light-gray paper-textured (#F7F7F5) palette. Optimized for B2B SaaS, developer tools, and high-end agency portfolios. Key features include editorial typography with Space Grotesk, JetBrains Mono labels, bento grid layouts, and 2D flat wireframe aesthetics with zero shadows.
 
-![Mosaic Grid Architecture Style](./preview.png)
+<img src="preview.png" alt="Mosaic Grid Architecture Style" width="640">
 
 ## Prompt
 
@@ -67,6 +69,12 @@ An architectural, technical-blueprint style design system featuring a minimalist
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/mosaic-grid-architecture-style](https://superdesign.dev/library/mosaic-grid-architecture-style)**
+**▶ Try it live → [https://superdesign.dev/library/mosaic-grid-architecture-style](https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,688 copies · 2,122 tries · tags: neutral, low contrast, forestgreen accent, cream accent, industrial, minimal, saas landing, ai first product, style, landing page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "mosaic-grid-architecture-style" --json
+```
+
+*1,688 copies · 2,122 tries · neutral, low contrast, forestgreen accent, cream accent, industrial*

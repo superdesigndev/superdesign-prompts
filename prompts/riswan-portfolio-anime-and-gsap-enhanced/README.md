@@ -1,17 +1,19 @@
 ---
 title: "Riswan Portfolio - Anime & GSAP Enhanced"
-slug: riswan-portfolio-anime-and-gsap-enhanced
+slug: "riswan-portfolio-anime-and-gsap-enhanced"
+category: "Portfolios"
 tags: []
 copyCount: 59
 tryCount: 2425
-source: https://superdesign.dev/library/riswan-portfolio-anime-and-gsap-enhanced
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/riswan-portfolio-anime-and-gsap-enhanced?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Riswan Portfolio - Anime & GSAP Enhanced
 
 A high-end 'Anime-Tech' portfolio design featuring a dark-mode glassmorphism aesthetic, vibrant purple gradients (#A855F7), and extensive GSAP-powered animations. Suitable for software engineers, creative developers, or tech-focused agencies. Key elements include 3D-interactive cards, a custom anime mascot illustration, parallax background spheres, and a typewriter-effect hero section. Optimized for a 'Premium Professional meets Otaku' vibe.
 
-![Riswan Portfolio - Anime & GSAP Enhanced](./preview.png)
+<img src="preview.png" alt="Riswan Portfolio - Anime & GSAP Enhanced" width="640">
 
 ## Prompt
 
@@ -71,6 +73,12 @@ A high-end 'Anime-Tech' portfolio design featuring a dark-mode glassmorphism aes
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/riswan-portfolio-anime-and-gsap-enhanced](https://superdesign.dev/library/riswan-portfolio-anime-and-gsap-enhanced)**
+**▶ Try it live → [https://superdesign.dev/library/riswan-portfolio-anime-and-gsap-enhanced](https://superdesign.dev/library/riswan-portfolio-anime-and-gsap-enhanced?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*59 copies · 2,425 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "riswan-portfolio-anime-and-gsap-enhanced" --json
+```
+
+*59 copies · 2,425 tries · *

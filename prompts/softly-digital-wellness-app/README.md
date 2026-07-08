@@ -1,17 +1,19 @@
 ---
 title: "Softly - Digital Wellness App"
-slug: softly-digital-wellness-app
+slug: "softly-digital-wellness-app"
+category: "Mobile Apps"
 tags: ["mobile app", "sass landing", "leads generation", "waitlist", "wellness product", "lifestyle app", "stone gray", "peach blush", "style", "landing page"]
 copyCount: 1896
 tryCount: 1527
-source: https://superdesign.dev/library/softly-digital-wellness-app
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/softly-digital-wellness-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Softly - Digital Wellness App
 
 A soft-aesthetic, Gen-Z oriented design system optimized for wellness, meditation, journaling, and lifestyle brands. Features a warm off-white foundation (#FDFCF8) layered with soft pastel accents (Coral #FFB7B2, Sage #E8EFE8, Lavender #EFEDF4), grain-textured overlays, and a mix of modern geometric sans-serif ('Outfit') and organic handwriting ('Reenie Beanie') typography. The layout emphasizes breathing room, gentle scroll-triggered reveals, and 'floating' organic shapes to reduce cognitive load and evoke a sense of calm.
 
-![Softly - Digital Wellness App](./preview.png)
+<img src="preview.png" alt="Softly - Digital Wellness App" width="640">
 
 ## Prompt
 
@@ -66,6 +68,12 @@ A soft-aesthetic, Gen-Z oriented design system optimized for wellness, meditatio
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/softly-digital-wellness-app](https://superdesign.dev/library/softly-digital-wellness-app)**
+**▶ Try it live → [https://superdesign.dev/library/softly-digital-wellness-app](https://superdesign.dev/library/softly-digital-wellness-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,896 copies · 1,527 tries · tags: mobile app, sass landing, leads generation, waitlist, wellness product, lifestyle app, stone gray, peach blush, style, landing page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "softly-digital-wellness-app" --json
+```
+
+*1,896 copies · 1,527 tries · mobile app, sass landing, leads generation, waitlist, wellness product*

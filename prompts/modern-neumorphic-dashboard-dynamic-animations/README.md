@@ -1,17 +1,19 @@
 ---
 title: "Modern Neumorphic Dashboard \u2014 Dynamic Animations"
-slug: modern-neumorphic-dashboard-dynamic-animations
+slug: "modern-neumorphic-dashboard-dynamic-animations"
+category: "Dashboards"
 tags: []
 copyCount: 97
 tryCount: 2334
-source: https://superdesign.dev/library/modern-neumorphic-dashboard-dynamic-animations
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/modern-neumorphic-dashboard-dynamic-animations?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Modern Neumorphic Dashboard — Dynamic Animations
 
 A high-fidelity modern Neumorphic (Soft UI) dashboard featuring a dual-mode color palette (Light/Dark). The aesthetic is defined by subtle drop shadows and inner glows that create a 3D tactile feel, paired with vibrant indigo and emerald accents. It is optimized for SaaS, fintech, and administrative interfaces. Key features include animated stat counters, floating icons, shimmer-effect progress bars, and staggered entrance animations. The typography uses a mix of Satoshi and General Sans for a clean, professional editorial look.
 
-![Modern Neumorphic Dashboard — Dynamic Animations](./preview.png)
+<img src="preview.png" alt="Modern Neumorphic Dashboard — Dynamic Animations" width="640">
 
 ## Prompt
 
@@ -72,6 +74,12 @@ A high-fidelity modern Neumorphic (Soft UI) dashboard featuring a dual-mode colo
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/modern-neumorphic-dashboard-dynamic-animations](https://superdesign.dev/library/modern-neumorphic-dashboard-dynamic-animations)**
+**▶ Try it live → [https://superdesign.dev/library/modern-neumorphic-dashboard-dynamic-animations](https://superdesign.dev/library/modern-neumorphic-dashboard-dynamic-animations?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*97 copies · 2,334 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "modern-neumorphic-dashboard-dynamic-animations" --json
+```
+
+*97 copies · 2,334 tries · *

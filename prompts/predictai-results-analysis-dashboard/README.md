@@ -1,17 +1,19 @@
 ---
 title: "PredictAI - Results Analysis Dashboard"
-slug: predictai-results-analysis-dashboard
+slug: "predictai-results-analysis-dashboard"
+category: "Dashboards"
 tags: []
 copyCount: 14
 tryCount: 2492
-source: https://superdesign.dev/library/predictai-results-analysis-dashboard
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/predictai-results-analysis-dashboard?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # PredictAI - Results Analysis Dashboard
 
 Bold editorial dashboard style featuring extreme typographic contrast, high-tech minimalism, and a sophisticated dark/light mode execution. Ideal for SaaS analytics, fintech, manufacturing AI monitoring, and data-intensive performance tracking. Key features include a custom blending-mode cursor, monospaced metadata, and a three-column bento-grid layout with staggered reveal animations and precise 1px borders.
 
-![PredictAI - Results Analysis Dashboard](./preview.png)
+<img src="preview.png" alt="PredictAI - Results Analysis Dashboard" width="640">
 
 ## Prompt
 
@@ -67,6 +69,12 @@ Bold editorial dashboard style featuring extreme typographic contrast, high-tech
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/predictai-results-analysis-dashboard](https://superdesign.dev/library/predictai-results-analysis-dashboard)**
+**▶ Try it live → [https://superdesign.dev/library/predictai-results-analysis-dashboard](https://superdesign.dev/library/predictai-results-analysis-dashboard?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*14 copies · 2,492 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "predictai-results-analysis-dashboard" --json
+```
+
+*14 copies · 2,492 tries · *

@@ -1,17 +1,19 @@
 ---
 title: "Dark SaaS Dashboard - Spark Pixel Team"
-slug: dark-saas-dashboard-spark-pixel-team
+slug: "dark-saas-dashboard-spark-pixel-team"
+category: "Dashboards"
 tags: []
 copyCount: 342
 tryCount: 2420
-source: https://superdesign.dev/library/dark-saas-dashboard-spark-pixel-team
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/dark-saas-dashboard-spark-pixel-team?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Dark SaaS Dashboard - Spark Pixel Team
 
 A high-end, dark-themed enterprise SaaS dashboard featuring a sophisticated color palette of deep grays and vibrant amber accents. The design utilizes high-contrast typography with General Sans, a modular bento-grid layout for metrics, and custom SVG-based data visualizations. This style is ideal for fintech, analytics platforms, and professional agency management tools where a premium, data-heavy, yet clean interface is required. It emphasizes visual hierarchy through varying font weights and intentional use of negative space.
 
-![Dark SaaS Dashboard - Spark Pixel Team](./preview.png)
+<img src="preview.png" alt="Dark SaaS Dashboard - Spark Pixel Team" width="640">
 
 ## Prompt
 
@@ -68,6 +70,12 @@ A high-end, dark-themed enterprise SaaS dashboard featuring a sophisticated colo
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/dark-saas-dashboard-spark-pixel-team](https://superdesign.dev/library/dark-saas-dashboard-spark-pixel-team)**
+**▶ Try it live → [https://superdesign.dev/library/dark-saas-dashboard-spark-pixel-team](https://superdesign.dev/library/dark-saas-dashboard-spark-pixel-team?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*342 copies · 2,420 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "dark-saas-dashboard-spark-pixel-team" --json
+```
+
+*342 copies · 2,420 tries · *

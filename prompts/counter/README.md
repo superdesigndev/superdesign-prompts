@@ -1,10 +1,12 @@
 ---
 title: "Counter"
-slug: counter
+slug: "counter"
+category: "Components"
 tags: ["ui component"]
 copyCount: 96
 tryCount: 2445
-source: https://superdesign.dev/library/counter
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/counter?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Counter
@@ -13,7 +15,7 @@ A premium, high-performance rolling counter component with smooth mechanical-sty
 
 Source: ReactBits
 
-![Counter](./preview.mp4)
+<img src="preview.mp4" alt="Counter" width="640">
 
 ## Prompt
 
@@ -373,6 +375,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/counter](https://superdesign.dev/library/counter)**
+**▶ Try it live → [https://superdesign.dev/library/counter](https://superdesign.dev/library/counter?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*96 copies · 2,445 tries · tags: ui component*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "counter" --json
+```
+
+*96 copies · 2,445 tries · ui component*

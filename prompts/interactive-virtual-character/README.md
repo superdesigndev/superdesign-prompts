@@ -1,17 +1,19 @@
 ---
 title: "Interactive virtual character"
-slug: interactive-virtual-character
+slug: "interactive-virtual-character"
+category: "Components"
 tags: ["ui component"]
 copyCount: 281
 tryCount: 2076
-source: https://superdesign.dev/library/interactive-virtual-character
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/interactive-virtual-character?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Interactive virtual character
 
 Original source: https://xhslink.com/m/2mDzucZQKD1
 
-![Interactive virtual character](./preview.mp4)
+<img src="preview.mp4" alt="Interactive virtual character" width="640">
 
 ## Prompt
 
@@ -27,6 +29,12 @@ The expression is neutral and calm.
 Ethereal, translucent, abstract, 3D render, soft light
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/interactive-virtual-character](https://superdesign.dev/library/interactive-virtual-character)**
+**▶ Try it live → [https://superdesign.dev/library/interactive-virtual-character](https://superdesign.dev/library/interactive-virtual-character?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*281 copies · 2,076 tries · tags: ui component*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "interactive-virtual-character" --json
+```
+
+*281 copies · 2,076 tries · ui component*

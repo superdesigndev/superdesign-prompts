@@ -1,10 +1,12 @@
 ---
 title: "Interactive Folder"
-slug: interactive-folder
+slug: "interactive-folder"
+category: "Components"
 tags: ["animation", "ui component"]
 copyCount: 273
 tryCount: 2439
-source: https://superdesign.dev/library/interactive-folder
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/interactive-folder?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Interactive Folder
@@ -13,7 +15,7 @@ An interactive, premium folder component with a playful opening animation and dr
 
 Source: ReactBits
 
-![Interactive Folder](./preview.mp4)
+<img src="preview.mp4" alt="Interactive Folder" width="640">
 
 ## Prompt
 
@@ -362,6 +364,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/interactive-folder](https://superdesign.dev/library/interactive-folder)**
+**▶ Try it live → [https://superdesign.dev/library/interactive-folder](https://superdesign.dev/library/interactive-folder?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*273 copies · 2,439 tries · tags: animation, ui component*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "interactive-folder" --json
+```
+
+*273 copies · 2,439 tries · animation, ui component*

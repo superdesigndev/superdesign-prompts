@@ -1,15 +1,17 @@
 ---
 title: "GSAP Horizontal scroll"
-slug: gsap-horizontal-scroll
+slug: "gsap-horizontal-scroll"
+category: "Animations & Backgrounds"
 tags: ["animation", "scroll animation", "landing page"]
 copyCount: 668
 tryCount: 1594
-source: https://superdesign.dev/library/gsap-horizontal-scroll
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/gsap-horizontal-scroll?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # GSAP Horizontal scroll
 
-![GSAP Horizontal scroll](./preview.mp4)
+<img src="preview.mp4" alt="GSAP Horizontal scroll" width="640">
 
 ## Prompt
 
@@ -25,6 +27,12 @@ Integration: Embed the visual elements (SVG curves, icons) inline with the text,
 Vibe: It should feel like reading a really long ticker tape, not flipping through a slide deck
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/gsap-horizontal-scroll](https://superdesign.dev/library/gsap-horizontal-scroll)**
+**▶ Try it live → [https://superdesign.dev/library/gsap-horizontal-scroll](https://superdesign.dev/library/gsap-horizontal-scroll?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*668 copies · 1,594 tries · tags: animation, scroll animation, landing page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "gsap-horizontal-scroll" --json
+```
+
+*668 copies · 1,594 tries · animation, scroll animation, landing page*

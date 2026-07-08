@@ -1,17 +1,19 @@
 ---
 title: "Masonry Gallery"
-slug: masonry-gallery
+slug: "masonry-gallery"
+category: "Components"
 tags: ["ui component", "animation"]
 copyCount: 306
 tryCount: 2004
-source: https://superdesign.dev/library/masonry-gallery
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/masonry-gallery?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Masonry Gallery
 
 A high-performance, GSAP-powered Masonry layout component with fluid animations, entrance effects (blur-to-focus, directional stagger), and interactive hover states. Supports responsive column counts and lazy-loading pre-checks.
 
-![Masonry Gallery](./preview.mp4)
+<img src="preview.mp4" alt="Masonry Gallery" width="640">
 
 ## Prompt
 
@@ -454,6 +456,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/masonry-gallery](https://superdesign.dev/library/masonry-gallery)**
+**▶ Try it live → [https://superdesign.dev/library/masonry-gallery](https://superdesign.dev/library/masonry-gallery?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*306 copies · 2,004 tries · tags: ui component, animation*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "masonry-gallery" --json
+```
+
+*306 copies · 2,004 tries · ui component, animation*

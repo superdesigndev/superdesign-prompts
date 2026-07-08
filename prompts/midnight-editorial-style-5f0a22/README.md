@@ -1,17 +1,19 @@
 ---
 title: "Midnight Editorial Style"
-slug: midnight-editorial-style-5f0a22
+slug: "midnight-editorial-style-5f0a22"
+category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 963
 tryCount: 1931
-source: https://superdesign.dev/library/midnight-editorial-style-5f0a22
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/midnight-editorial-style-5f0a22?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Midnight Editorial Style
 
 A premium, ultra-modern dark aesthetic featuring deep black backgrounds (#050505), massive 'Satoshi' typography for impact, and striking coral (#FF6B50) accents. Designed for high-end agencies and portfolios that prioritize storytelling and visual drama.
 
-![Midnight Editorial Style](./preview.png)
+<img src="preview.png" alt="Midnight Editorial Style" width="640">
 
 ## Prompt
 
@@ -341,6 +343,12 @@ This is a reference implementation of Midnight Editorial Style
 Please use the above as reference and apply to our context
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/midnight-editorial-style-5f0a22](https://superdesign.dev/library/midnight-editorial-style-5f0a22)**
+**▶ Try it live → [https://superdesign.dev/library/midnight-editorial-style-5f0a22](https://superdesign.dev/library/midnight-editorial-style-5f0a22?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*963 copies · 1,931 tries · tags: landing page, page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "midnight-editorial-style-5f0a22" --json
+```
+
+*963 copies · 1,931 tries · landing page, page, style*

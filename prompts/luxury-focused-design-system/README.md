@@ -1,17 +1,19 @@
 ---
 title: "Luxury-focused Design System"
-slug: luxury-focused-design-system
+slug: "luxury-focused-design-system"
+category: "Landing Pages"
 tags: ["landing page", "style", "cream", "pink accent"]
 copyCount: 1350
 tryCount: 2054
-source: https://superdesign.dev/library/luxury-focused-design-system
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/luxury-focused-design-system?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Luxury-focused Design System
 
 A refined, editorial-style design system characterized by heavy geometric sans-serif typography, a sophisticated dusty rose and charcoal palette, and staggered grid layouts. This aesthetic is optimized for high-end luxury services, boutique hospitality, premium fashion brands, or architectural portfolios. It features scroll-triggered reveal animations, grayscale-to-color image transitions, and a 'glassmorphism' navigation bar. The layout focuses on massive, bold headlines paired with hyper-minimalist utility text, creating a contrast that feels modern yet timeless.
 
-![Luxury-focused Design System](./preview.png)
+<img src="preview.png" alt="Luxury-focused Design System" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ A refined, editorial-style design system characterized by heavy geometric sans-s
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/luxury-focused-design-system](https://superdesign.dev/library/luxury-focused-design-system)**
+**▶ Try it live → [https://superdesign.dev/library/luxury-focused-design-system](https://superdesign.dev/library/luxury-focused-design-system?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,350 copies · 2,054 tries · tags: landing page, style, cream, pink accent*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "luxury-focused-design-system" --json
+```
+
+*1,350 copies · 2,054 tries · landing page, style, cream, pink accent*

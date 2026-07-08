@@ -1,10 +1,12 @@
 ---
 title: "Jelly Squish Button"
-slug: jelly-squish-button
+slug: "jelly-squish-button"
+category: "Components"
 tags: ["animation", "ui component", "button"]
 copyCount: 368
 tryCount: 2377
-source: https://superdesign.dev/library/jelly-squish-button
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/jelly-squish-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Jelly Squish Button
@@ -13,7 +15,7 @@ A high-fidelity interactive 3D jelly simulation that responds to vertical draggi
 
 Source: https://codepen.io/cerpow/pen/LEZYxqM
 
-![Jelly Squish Button](./preview.mp4)
+<img src="preview.mp4" alt="Jelly Squish Button" width="640">
 
 ## Prompt
 
@@ -434,6 +436,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/jelly-squish-button](https://superdesign.dev/library/jelly-squish-button)**
+**▶ Try it live → [https://superdesign.dev/library/jelly-squish-button](https://superdesign.dev/library/jelly-squish-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*368 copies · 2,377 tries · tags: animation, ui component, button*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "jelly-squish-button" --json
+```
+
+*368 copies · 2,377 tries · animation, ui component, button*

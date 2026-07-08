@@ -1,17 +1,19 @@
 ---
 title: "Nature Inspired Style"
-slug: nature-inspired-style
+slug: "nature-inspired-style"
+category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 1272
 tryCount: 1864
-source: https://superdesign.dev/library/nature-inspired-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/nature-inspired-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Nature Inspired Style
 
 A nature-inspired 'Organic Brutalist' design system perfect for wellness, sustainable CPG, eco-friendly lifestyle brands, or high-end nutrition. Characterized by a palette of deep forest greens and earthy sages, the style utilizes massive editorial typography (Anton) paired with functional sans-serifs (Inter). The layout features 'bento-adjacent' rounded grids, floating organic elements with parallax effects, and a subtle film grain noise overlay that gives the digital experience a tactile, premium paper-like feel. Key elements include oversized headings, ultra-rounded corners (up to 5rem), and fluid reveal animations.
 
-![Nature Inspired Style](./preview.png)
+<img src="preview.png" alt="Nature Inspired Style" width="640">
 
 ## Prompt
 
@@ -59,6 +61,12 @@ A nature-inspired 'Organic Brutalist' design system perfect for wellness, sustai
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/nature-inspired-style](https://superdesign.dev/library/nature-inspired-style)**
+**▶ Try it live → [https://superdesign.dev/library/nature-inspired-style](https://superdesign.dev/library/nature-inspired-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,272 copies · 1,864 tries · tags: landing page, page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "nature-inspired-style" --json
+```
+
+*1,272 copies · 1,864 tries · landing page, page, style*

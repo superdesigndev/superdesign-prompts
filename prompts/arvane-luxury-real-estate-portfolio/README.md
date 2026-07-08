@@ -1,17 +1,19 @@
 ---
 title: "Arvane Luxury Real Estate Portfolio"
-slug: arvane-luxury-real-estate-portfolio
+slug: "arvane-luxury-real-estate-portfolio"
+category: "Portfolios"
 tags: []
 copyCount: 80
 tryCount: 2391
-source: https://superdesign.dev/library/arvane-luxury-real-estate-portfolio
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/arvane-luxury-real-estate-portfolio?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Arvane Luxury Real Estate Portfolio
 
 A luxury real estate landing page design featuring a sophisticated, minimalist aesthetic with an earth-toned palette of charcoal, cream, and gold. This style utilizes editorial typography (Cabinet Grotesk and Satoshi) and high-impact layouts like bento-style grids and floating search bars. Ideal for high-end residential agencies, interior design portfolios, or architectural firms. Key features include scroll-triggered hover effects, glassmorphism elements in the navigation, and a focus on lead generation through prominent CTA forms and property search tools.
 
-![Arvane Luxury Real Estate Portfolio](./preview.png)
+<img src="preview.png" alt="Arvane Luxury Real Estate Portfolio" width="640">
 
 ## Prompt
 
@@ -67,6 +69,12 @@ A luxury real estate landing page design featuring a sophisticated, minimalist a
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/arvane-luxury-real-estate-portfolio](https://superdesign.dev/library/arvane-luxury-real-estate-portfolio)**
+**▶ Try it live → [https://superdesign.dev/library/arvane-luxury-real-estate-portfolio](https://superdesign.dev/library/arvane-luxury-real-estate-portfolio?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*80 copies · 2,391 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "arvane-luxury-real-estate-portfolio" --json
+```
+
+*80 copies · 2,391 tries · *

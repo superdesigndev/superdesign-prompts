@@ -1,17 +1,19 @@
 ---
 title: "Minimalist Beta Capture"
-slug: minimalist-beta-capture
+slug: "minimalist-beta-capture"
+category: "Landing Pages"
 tags: ["high conversion page", "landing page", "product launch", "waitlist", "style"]
 copyCount: 745
 tryCount: 1975
-source: https://superdesign.dev/library/minimalist-beta-capture
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/minimalist-beta-capture?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Minimalist Beta Capture
 
 A high-end 'Editorial Brutalist' style guide optimized for SaaS waitlists, fintech, or premium developer tools. It features a dark-mode palette (#080808), high-contrast monochromatic typography (DM Serif Display + Geist Mono), and sophisticated glassmorphism. The layout utilizes a bento-grid structure and fluid width (92vw) with oversized hero typography. Key features include scroll-triggered slide-up animations, a silver-metallic gradient system, and a persistent floating mobile navigation bar.
 
-![Minimalist Beta Capture](./preview.png)
+<img src="preview.png" alt="Minimalist Beta Capture" width="640">
 
 ## Prompt
 
@@ -68,6 +70,12 @@ A high-end 'Editorial Brutalist' style guide optimized for SaaS waitlists, finte
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/minimalist-beta-capture](https://superdesign.dev/library/minimalist-beta-capture)**
+**▶ Try it live → [https://superdesign.dev/library/minimalist-beta-capture](https://superdesign.dev/library/minimalist-beta-capture?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*745 copies · 1,975 tries · tags: high conversion page, landing page, product launch, waitlist, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "minimalist-beta-capture" --json
+```
+
+*745 copies · 1,975 tries · high conversion page, landing page, product launch, waitlist, style*

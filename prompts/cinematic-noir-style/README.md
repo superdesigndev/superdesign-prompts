@@ -1,17 +1,19 @@
 ---
 title: "Cinematic Noir Style"
-slug: cinematic-noir-style
+slug: "cinematic-noir-style"
+category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 643
 tryCount: 2317
-source: https://superdesign.dev/library/cinematic-noir-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/cinematic-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Cinematic Noir Style
 
 A high-end 'Cinematic Noir' design system characterized by dramatic dark-mode aesthetics, high-contrast editorial typography, and immersive scroll-driven parallax effects. Suitable for creative agencies, luxury fashion, fintech, and high-end portfolios. Features include grain overlays, radial gradients with subtle warm tints, and brutalist-scale headings that blur the line between digital interface and cinematic experience.
 
-![Cinematic Noir Style](./preview.png)
+<img src="preview.png" alt="Cinematic Noir Style" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ A high-end 'Cinematic Noir' design system characterized by dramatic dark-mode ae
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/cinematic-noir-style](https://superdesign.dev/library/cinematic-noir-style)**
+**▶ Try it live → [https://superdesign.dev/library/cinematic-noir-style](https://superdesign.dev/library/cinematic-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*643 copies · 2,317 tries · tags: landing page, page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "cinematic-noir-style" --json
+```
+
+*643 copies · 2,317 tries · landing page, page, style*

@@ -1,17 +1,19 @@
 ---
 title: "Animation / Product Release Demo"
-slug: animation-product-release-demo
+slug: "animation-product-release-demo"
+category: "Animations & Backgrounds"
 tags: ["skill", "animation"]
 copyCount: 171
 tryCount: 2180
-source: https://superdesign.dev/library/animation-product-release-demo
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/animation-product-release-demo?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Animation / Product Release Demo
 
 Use this to deliver product launch animation based on real UI
 
-![Animation / Product Release Demo](./preview.mp4)
+<img src="preview.mp4" alt="Animation / Product Release Demo" width="640">
 
 ## Prompt
 
@@ -100,6 +102,12 @@ For Step 2 Animation plan, must be unpinned notes
 Now please help me plan and generate animation for below:
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/animation-product-release-demo](https://superdesign.dev/library/animation-product-release-demo)**
+**▶ Try it live → [https://superdesign.dev/library/animation-product-release-demo](https://superdesign.dev/library/animation-product-release-demo?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*171 copies · 2,180 tries · tags: skill, animation*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "animation-product-release-demo" --json
+```
+
+*171 copies · 2,180 tries · skill, animation*

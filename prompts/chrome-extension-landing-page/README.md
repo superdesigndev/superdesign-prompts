@@ -1,17 +1,19 @@
 ---
 title: "Chrome Extension Landing Page"
-slug: chrome-extension-landing-page
+slug: "chrome-extension-landing-page"
+category: "Landing Pages"
 tags: ["chrome extension", "landing page", "gray", "high contrast", "browser native", "developer tool", "minimalist", "macos", "chrome", "teal accent", "blue accent", "sass landing", "style", "product launch"]
 copyCount: 592
 tryCount: 2430
-source: https://superdesign.dev/library/chrome-extension-landing-page
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/chrome-extension-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Chrome Extension Landing Page
 
 A browser-native developer tool aesthetic characterized by a 'system interface' look rather than a marketing landing page. This style features a light-neutral base with a vibrant cyan (#06B6D4) accent, mimicking the layout of Chrome DevTools or a workspace IDE. It uses a combination of Inter for primary readability and JetBrains Mono for technical labels and commands. Suitable for SaaS, developer tools, extensions, and technical platforms requiring a high-density, utility-focused layout with scroll-triggered panel reveals and simulated interactive environments.
 
-![Chrome Extension Landing Page](./preview.png)
+<img src="preview.png" alt="Chrome Extension Landing Page" width="640">
 
 ## Prompt
 
@@ -66,6 +68,12 @@ A browser-native developer tool aesthetic characterized by a 'system interface' 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/chrome-extension-landing-page](https://superdesign.dev/library/chrome-extension-landing-page)**
+**▶ Try it live → [https://superdesign.dev/library/chrome-extension-landing-page](https://superdesign.dev/library/chrome-extension-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*592 copies · 2,430 tries · tags: chrome extension, landing page, gray, high contrast, browser native, developer tool, minimalist, macos, chrome, teal accent, blue accent, sass landing, style, product launch*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "chrome-extension-landing-page" --json
+```
+
+*592 copies · 2,430 tries · chrome extension, landing page, gray, high contrast, browser native*

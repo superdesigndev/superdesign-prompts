@@ -1,10 +1,12 @@
 ---
 title: "Kinetic"
-slug: kinetic
+slug: "kinetic"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 321
 tryCount: 1917
-source: https://superdesign.dev/library/kinetic
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/kinetic?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Kinetic
@@ -12,7 +14,7 @@ source: https://superdesign.dev/library/kinetic
 High-energy brutalism meets kinetic poster design
 Source: designprompts.dev
 
-![Kinetic](./preview.png)
+<img src="preview.png" alt="Kinetic" width="640">
 
 ## Prompt
 
@@ -852,6 +854,12 @@ If these elements are removed or softened, the design becomes generic modern dar
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/kinetic](https://superdesign.dev/library/kinetic)**
+**▶ Try it live → [https://superdesign.dev/library/kinetic](https://superdesign.dev/library/kinetic?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*321 copies · 1,917 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "kinetic" --json
+```
+
+*321 copies · 1,917 tries · style*

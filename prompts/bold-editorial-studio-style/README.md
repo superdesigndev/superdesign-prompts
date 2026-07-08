@@ -1,17 +1,19 @@
 ---
 title: "Bold Editorial Studio Style"
-slug: bold-editorial-studio-style
+slug: "bold-editorial-studio-style"
+category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 1216
 tryCount: 1805
-source: https://superdesign.dev/library/bold-editorial-studio-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/bold-editorial-studio-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Bold Editorial Studio Style
 
 Bold Editorial Studio Style is a high-impact, minimalist design system characterized by massive typography, a strict monochromatic palette, and sophisticated micro-interactions. It features a signature 'editorial' look using ultra-large display fonts (up to 12vw), custom cursor logic, and fluid marquee animations. Ideal for creative agencies, high-end portfolios, fashion brands, and premium fintech products, the system leverages white space and motion to create a premium, curated feel. Key elements include mix-blend-mode navigation, staggered text reveals, and asymmetrical image containers with varied border radii.
 
-![Bold Editorial Studio Style](./preview.png)
+<img src="preview.png" alt="Bold Editorial Studio Style" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ Bold Editorial Studio Style is a high-impact, minimalist design system character
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/bold-editorial-studio-style](https://superdesign.dev/library/bold-editorial-studio-style)**
+**▶ Try it live → [https://superdesign.dev/library/bold-editorial-studio-style](https://superdesign.dev/library/bold-editorial-studio-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,216 copies · 1,805 tries · tags: landing page, page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "bold-editorial-studio-style" --json
+```
+
+*1,216 copies · 1,805 tries · landing page, page, style*

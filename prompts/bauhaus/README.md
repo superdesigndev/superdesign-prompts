@@ -1,10 +1,12 @@
 ---
 title: "Bauhaus"
-slug: bauhaus
+slug: "bauhaus"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 277
 tryCount: 2305
-source: https://superdesign.dev/library/bauhaus
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/bauhaus?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Bauhaus
@@ -13,7 +15,7 @@ The Bauhaus style embodies the revolutionary principle "form follows function" w
 
 Source: designprompts.dev
 
-![Bauhaus](./preview.png)
+<img src="preview.png" alt="Bauhaus" width="640">
 
 ## Prompt
 
@@ -359,6 +361,12 @@ The palette is strictly limited to the Bauhaus primaries, plus stark black and w
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/bauhaus](https://superdesign.dev/library/bauhaus)**
+**▶ Try it live → [https://superdesign.dev/library/bauhaus](https://superdesign.dev/library/bauhaus?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*277 copies · 2,305 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "bauhaus" --json
+```
+
+*277 copies · 2,305 tries · style*

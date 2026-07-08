@@ -1,17 +1,19 @@
 ---
 title: "Liquid Metal style"
-slug: liquid-metal-style
+slug: "liquid-metal-style"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 378
 tryCount: 1918
-source: https://superdesign.dev/library/liquid-metal-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/liquid-metal-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Liquid Metal style
 
 Liquid Chrome & Techno-Surrealism style
 
-![Liquid Metal style](./preview.png)
+<img src="preview.png" alt="Liquid Metal style" width="640">
 
 ## Prompt
 
@@ -145,6 +147,12 @@ DON'T use centered, balanced layouts. Keep it heavy, asymmetrical, and chaotic.
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/liquid-metal-style](https://superdesign.dev/library/liquid-metal-style)**
+**▶ Try it live → [https://superdesign.dev/library/liquid-metal-style](https://superdesign.dev/library/liquid-metal-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*378 copies · 1,918 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "liquid-metal-style" --json
+```
+
+*378 copies · 1,918 tries · style*

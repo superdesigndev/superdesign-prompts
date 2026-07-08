@@ -1,17 +1,19 @@
 ---
 title: "Cinematic Style"
-slug: cinematic-style
+slug: "cinematic-style"
+category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 1362
 tryCount: 2249
-source: https://superdesign.dev/library/cinematic-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/cinematic-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Cinematic Style
 
 A high-end 'Cinematic' design system characterized by deep-space dark backgrounds, sophisticated 3D CSS transforms, and bold editorial typography. Optimized for premium portfolios, creative agencies, fintech, and high-tech SaaS. It features a signature 3D rolodex/cube hero section, glassmorphism elements, and smooth GSAP-driven scroll parallax. Key aesthetics include 'mix-blend-difference' navigation, vibrant neon gradients (cyan to pink), and a monochromatic 'Aspekta' font foundation with heavy weights and tight tracking.
 
-![Cinematic Style](./preview.png)
+<img src="preview.png" alt="Cinematic Style" width="640">
 
 ## Prompt
 
@@ -59,6 +61,12 @@ A high-end 'Cinematic' design system characterized by deep-space dark background
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/cinematic-style](https://superdesign.dev/library/cinematic-style)**
+**▶ Try it live → [https://superdesign.dev/library/cinematic-style](https://superdesign.dev/library/cinematic-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,362 copies · 2,249 tries · tags: landing page, page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "cinematic-style" --json
+```
+
+*1,362 copies · 2,249 tries · landing page, page, style*

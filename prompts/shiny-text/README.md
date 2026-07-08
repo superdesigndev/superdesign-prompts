@@ -1,17 +1,19 @@
 ---
 title: "Shiny Text"
-slug: shiny-text
+slug: "shiny-text"
+category: "Components"
 tags: ["animation", "text animation"]
 copyCount: 182
 tryCount: 2480
-source: https://superdesign.dev/library/shiny-text
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/shiny-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Shiny Text
 
 A text component with a customizable shining gradient animation effect that sweeps across the text.
 
-![Shiny Text](./preview.png)
+<img src="preview.png" alt="Shiny Text" width="640">
 
 ## Prompt
 
@@ -277,6 +279,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/shiny-text](https://superdesign.dev/library/shiny-text)**
+**▶ Try it live → [https://superdesign.dev/library/shiny-text](https://superdesign.dev/library/shiny-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*182 copies · 2,480 tries · tags: animation, text animation*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "shiny-text" --json
+```
+
+*182 copies · 2,480 tries · animation, text animation*

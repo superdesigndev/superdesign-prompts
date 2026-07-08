@@ -1,17 +1,19 @@
 ---
 title: "Bold Editorial Design Style"
-slug: bold-editorial-design-style
+slug: "bold-editorial-design-style"
+category: "Portfolios"
 tags: ["navy", "sage", "portfolio", "landing page", "style"]
 copyCount: 765
 tryCount: 1660
-source: https://superdesign.dev/library/bold-editorial-design-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/bold-editorial-design-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Bold Editorial Design Style
 
 A premium, bold editorial design system characterized by high-contrast brutalist typography and a sophisticated dark navy and sage color palette. Optimized for creative agencies, design portfolios, luxury architecture, and high-end digital studios. Features include 'Anton' display headers, a custom crosshair cursor, floating ambient gradients, asymmetric masonry layouts, and smooth scroll-triggered reveal animations. The aesthetic balances minimalist white space with massive, impactful type and subtle micro-interactions like mix-blend-mode navigation and grayscale-to-color image transitions.
 
-![Bold Editorial Design Style](./preview.png)
+<img src="preview.png" alt="Bold Editorial Design Style" width="640">
 
 ## Prompt
 
@@ -75,6 +77,12 @@ A premium, bold editorial design system characterized by high-contrast brutalist
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/bold-editorial-design-style](https://superdesign.dev/library/bold-editorial-design-style)**
+**▶ Try it live → [https://superdesign.dev/library/bold-editorial-design-style](https://superdesign.dev/library/bold-editorial-design-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*765 copies · 1,660 tries · tags: navy, sage, portfolio, landing page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "bold-editorial-design-style" --json
+```
+
+*765 copies · 1,660 tries · navy, sage, portfolio, landing page, style*

@@ -1,10 +1,12 @@
 ---
 title: "Playful"
-slug: playful
+slug: "playful"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 564
 tryCount: 1785
-source: https://superdesign.dev/library/playful
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/playful?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Playful
@@ -12,7 +14,7 @@ source: https://superdesign.dev/library/playful
 Playful Geometric Design System
 Source: designprompts.dev
 
-![Playful](./preview.png)
+<img src="preview.png" alt="Playful" width="640">
 
 ## Prompt
 
@@ -319,6 +321,12 @@ No blur. Solid offset colors.
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/playful](https://superdesign.dev/library/playful)**
+**▶ Try it live → [https://superdesign.dev/library/playful](https://superdesign.dev/library/playful?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*564 copies · 1,785 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "playful" --json
+```
+
+*564 copies · 1,785 tries · style*

@@ -1,17 +1,19 @@
 ---
 title: "NeuroFit | Quantum Teleporting UI"
-slug: neurofit-or-quantum-teleporting-ui
+slug: "neurofit-or-quantum-teleporting-ui"
+category: "Design Systems & Styles"
 tags: []
 copyCount: 66
 tryCount: 2466
-source: https://superdesign.dev/library/neurofit-or-quantum-teleporting-ui
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/neurofit-or-quantum-teleporting-ui?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # NeuroFit | Quantum Teleporting UI
 
 NeuroFit is a high-tech, sci-fi inspired design system featuring a 'Quantum Teleporting' aesthetic. It utilizes a deep dark mode palette (#030305) contrasted with vibrant neon cyan (#00F0FF) and sharp red accents (#FF2A2A). The style is defined by cyberpunk elements such as grid-pattern backgrounds, radial glows, and 'glitch' micro-interactions. It features a technical typography mix of Rajdhani for display, Inter for body, and JetBrains Mono for system-level data. The UI is ideal for AI-driven health platforms, fitness tech, biometric analytics, and high-performance SaaS dashboards requiring a futuristic, data-heavy feel.
 
-![NeuroFit | Quantum Teleporting UI](./preview.png)
+<img src="preview.png" alt="NeuroFit | Quantum Teleporting UI" width="640">
 
 ## Prompt
 
@@ -58,6 +60,12 @@ NeuroFit is a high-tech, sci-fi inspired design system featuring a 'Quantum Tele
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/neurofit-or-quantum-teleporting-ui](https://superdesign.dev/library/neurofit-or-quantum-teleporting-ui)**
+**▶ Try it live → [https://superdesign.dev/library/neurofit-or-quantum-teleporting-ui](https://superdesign.dev/library/neurofit-or-quantum-teleporting-ui?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*66 copies · 2,466 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "neurofit-or-quantum-teleporting-ui" --json
+```
+
+*66 copies · 2,466 tries · *

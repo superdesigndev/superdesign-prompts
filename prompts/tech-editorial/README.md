@@ -1,17 +1,19 @@
 ---
 title: "Tech Editorial"
-slug: tech-editorial
+slug: "tech-editorial"
+category: "Landing Pages"
 tags: ["landing page", "style", "page"]
 copyCount: 510
 tryCount: 1515
-source: https://superdesign.dev/library/tech-editorial
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/tech-editorial?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Tech Editorial
 
 A high-end 'Tech Editorial' aesthetic that merges brutalist precision with classic editorial sophistication. It features a muted, paper-like color palette (#f7f6f2), a structured grid-line system, and a unique pairing of high-contrast Serif (Playfair Display) for display headers and technical Mono (Space Mono) for functional UI. The style is characterized by scroll-triggered text reveals, glassmorphism navigation, and 'scan-line' animations that suggest a sophisticated AI-driven process. Ideal for high-tech SaaS, AI research labs, design agencies, and premium fintech platforms.
 
-![Tech Editorial](./preview.mp4)
+<img src="preview.mp4" alt="Tech Editorial" width="640">
 
 ## Prompt
 
@@ -80,6 +82,12 @@ A high-end 'Tech Editorial' aesthetic that merges brutalist precision with class
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/tech-editorial](https://superdesign.dev/library/tech-editorial)**
+**▶ Try it live → [https://superdesign.dev/library/tech-editorial](https://superdesign.dev/library/tech-editorial?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*510 copies · 1,515 tries · tags: landing page, style, page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "tech-editorial" --json
+```
+
+*510 copies · 1,515 tries · landing page, style, page*

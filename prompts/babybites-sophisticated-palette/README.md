@@ -1,17 +1,19 @@
 ---
 title: "BabyBites - Sophisticated Palette"
-slug: babybites-sophisticated-palette
+slug: "babybites-sophisticated-palette"
+category: "Mobile Apps"
 tags: ["mobile app", "style"]
 copyCount: 1224
 tryCount: 1547
-source: https://superdesign.dev/library/babybites-sophisticated-palette
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/babybites-sophisticated-palette?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # BabyBites - Sophisticated Palette
 
 BabyBites style guide featuring a sophisticated high-contrast palette of dark charcoal, vibrant red, and sage-green. Characterized by playful but professional editorial typography, oversized rounded corners (up to 40px), and a clean, card-based layout. Ideal for parenting, nutrition, healthcare, and educational SaaS platforms. Includes scroll-triggered animations and custom view transitions for fluid mobile-first navigation.
 
-![BabyBites - Sophisticated Palette](./preview.png)
+<img src="preview.png" alt="BabyBites - Sophisticated Palette" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ BabyBites style guide featuring a sophisticated high-contrast palette of dark ch
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/babybites-sophisticated-palette](https://superdesign.dev/library/babybites-sophisticated-palette)**
+**▶ Try it live → [https://superdesign.dev/library/babybites-sophisticated-palette](https://superdesign.dev/library/babybites-sophisticated-palette?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,224 copies · 1,547 tries · tags: mobile app, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "babybites-sophisticated-palette" --json
+```
+
+*1,224 copies · 1,547 tries · mobile app, style*

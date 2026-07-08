@@ -1,10 +1,12 @@
 ---
 title: "Light Rays Background"
-slug: light-rays-background
+slug: "light-rays-background"
+category: "Animations & Backgrounds"
 tags: ["animation", "background"]
 copyCount: 534
 tryCount: 1700
-source: https://superdesign.dev/library/light-rays-background
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/light-rays-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Light Rays Background
@@ -13,7 +15,7 @@ A minimalist showcase of a high-end WebGL light rays background effect with mous
 
 Source: ReactBits
 
-![Light Rays Background](./preview.mp4)
+<img src="preview.mp4" alt="Light Rays Background" width="640">
 
 ## Prompt
 
@@ -538,6 +540,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/light-rays-background](https://superdesign.dev/library/light-rays-background)**
+**▶ Try it live → [https://superdesign.dev/library/light-rays-background](https://superdesign.dev/library/light-rays-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*534 copies · 1,700 tries · tags: animation, background*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "light-rays-background" --json
+```
+
+*534 copies · 1,700 tries · animation, background*

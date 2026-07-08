@@ -1,17 +1,19 @@
 ---
 title: "Red sun"
-slug: red-sun
+slug: "red-sun"
+category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 513
 tryCount: 1616
-source: https://superdesign.dev/library/red-sun
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/red-sun?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Red sun
 
 A sophisticated editorial-style design system named 'Red Sun', characterized by a high-contrast 'Coral and Ink' color palette. This style blends 'Instrument Serif' for high-impact typography with 'Manrope' for technical precision. Features include bento-grid layouts, glassmorphism navigation, scroll-triggered animations with subtle rotations, and soft ambient background blurs. Ideal for premium SaaS, creative agencies, AI product design tools, and fintech platforms looking for a balance between warmth and authority.
 
-![Red sun](./preview.mp4)
+<img src="preview.mp4" alt="Red sun" width="640">
 
 ## Prompt
 
@@ -67,6 +69,12 @@ A sophisticated editorial-style design system named 'Red Sun', characterized by 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/red-sun](https://superdesign.dev/library/red-sun)**
+**▶ Try it live → [https://superdesign.dev/library/red-sun](https://superdesign.dev/library/red-sun?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*513 copies · 1,616 tries · tags: landing page, page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "red-sun" --json
+```
+
+*513 copies · 1,616 tries · landing page, page, style*

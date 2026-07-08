@@ -1,10 +1,12 @@
 ---
 title: "Clay UI"
-slug: clay-ui
+slug: "clay-ui"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 440
 tryCount: 1693
-source: https://superdesign.dev/library/clay-ui
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/clay-ui?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Clay UI
@@ -13,7 +15,7 @@ High-Fidelity Claymorphism Design System
 
 Source: designprompts.dev
 
-![Clay UI](./preview.png)
+<img src="preview.png" alt="Clay UI" width="640">
 
 ## Prompt
 
@@ -581,6 +583,12 @@ The Clay design system maintains its playful, tactile personality across all scr
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/clay-ui](https://superdesign.dev/library/clay-ui)**
+**▶ Try it live → [https://superdesign.dev/library/clay-ui](https://superdesign.dev/library/clay-ui?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*440 copies · 1,693 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "clay-ui" --json
+```
+
+*440 copies · 1,693 tries · style*

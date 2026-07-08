@@ -1,17 +1,19 @@
 ---
 title: "Aura Audio Showroom"
-slug: aura-audio-showroom
+slug: "aura-audio-showroom"
+category: "E-commerce"
 tags: ["shopify", "landing page", "ecommerce"]
 copyCount: 261
 tryCount: 2479
-source: https://superdesign.dev/library/aura-audio-showroom
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/aura-audio-showroom?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Aura Audio Showroom
 
 Product Walkthrough is a product-first electronics landing page built around a Showroom Flow layout—product theater followed by guided model selection, scenario-based feature explanations, lightweight comparison, and a confident close—making it best suited for consumer electronics and DTC hardware brands with multiple models or configurations that want a clear, trust-building shopping experience without spec overload or lifestyle clichés.
 
-![Aura Audio Showroom](./preview.png)
+<img src="preview.png" alt="Aura Audio Showroom" width="640">
 
 ## Prompt
 
@@ -70,6 +72,12 @@ Product Walkthrough is a product-first electronics landing page built around a S
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/aura-audio-showroom](https://superdesign.dev/library/aura-audio-showroom)**
+**▶ Try it live → [https://superdesign.dev/library/aura-audio-showroom](https://superdesign.dev/library/aura-audio-showroom?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*261 copies · 2,479 tries · tags: shopify, landing page, ecommerce*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "aura-audio-showroom" --json
+```
+
+*261 copies · 2,479 tries · shopify, landing page, ecommerce*

@@ -1,10 +1,12 @@
 ---
 title: "Luxury"
-slug: luxury
+slug: "luxury"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 229
 tryCount: 2384
-source: https://superdesign.dev/library/luxury
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/luxury?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Luxury
@@ -13,7 +15,7 @@ Elegance through restraint, precision, and depth
 
 Source: designprompts.dev
 
-![Luxury](./preview.png)
+<img src="preview.png" alt="Luxury" width="640">
 
 ## Prompt
 
@@ -585,6 +587,12 @@ These mistakes will break the luxury aesthetic:
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/luxury](https://superdesign.dev/library/luxury)**
+**▶ Try it live → [https://superdesign.dev/library/luxury](https://superdesign.dev/library/luxury?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*229 copies · 2,384 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "luxury" --json
+```
+
+*229 copies · 2,384 tries · style*

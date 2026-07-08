@@ -1,17 +1,19 @@
 ---
 title: "Glassmorphism Style"
-slug: glassmorphism-style
+slug: "glassmorphism-style"
+category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 1713
 tryCount: 2451
-source: https://superdesign.dev/library/glassmorphism-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/glassmorphism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Glassmorphism Style
 
 A high-tech glassmorphism design system featuring neon lime accents, deep obsidian surfaces, and a sophisticated blend of architectural grid patterns and organic glowing gradients. Optimized for high-end SaaS, AI product studios, and fintech platforms, this style uses JetBrains Mono for a developer-centric feel and Space Grotesk for bold, editorial headings. Key elements include backdrop-blur effects (glassmorphism), grain/noise overlays, and a 'floating shell' layout that gives the web interface a premium, app-like quality.
 
-![Glassmorphism Style](./preview.png)
+<img src="preview.png" alt="Glassmorphism Style" width="640">
 
 ## Prompt
 
@@ -72,6 +74,12 @@ A high-tech glassmorphism design system featuring neon lime accents, deep obsidi
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/glassmorphism-style](https://superdesign.dev/library/glassmorphism-style)**
+**▶ Try it live → [https://superdesign.dev/library/glassmorphism-style](https://superdesign.dev/library/glassmorphism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,713 copies · 2,451 tries · tags: landing page, page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "glassmorphism-style" --json
+```
+
+*1,713 copies · 2,451 tries · landing page, page, style*

@@ -1,10 +1,12 @@
 ---
 title: "News Print"
-slug: news-print
+slug: "news-print"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 354
 tryCount: 2162
-source: https://superdesign.dev/library/news-print
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/news-print?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # News Print
@@ -12,7 +14,7 @@ source: https://superdesign.dev/library/news-print
 This style is an ode to the golden age of print journalism, reimagined for the web
 Source: designprompts.dev
 
-![News Print](./preview.png)
+<img src="preview.png" alt="News Print" width="640">
 
 ## Prompt
 
@@ -740,6 +742,12 @@ To avoid double borders in grids:
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/news-print](https://superdesign.dev/library/news-print)**
+**▶ Try it live → [https://superdesign.dev/library/news-print](https://superdesign.dev/library/news-print?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*354 copies · 2,162 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "news-print" --json
+```
+
+*354 copies · 2,162 tries · style*

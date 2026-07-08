@@ -1,17 +1,19 @@
 ---
 title: "Hyper-Saturated Fluid"
-slug: hyper-saturated-fluid
+slug: "hyper-saturated-fluid"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 1002
 tryCount: 1971
-source: https://superdesign.dev/library/hyper-saturated-fluid
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/hyper-saturated-fluid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Hyper-Saturated Fluid
 
 A landing page featuring a Hyper-Saturated Fluid design style. It uses a 'Cyber Yellow' primary color with organic 'liquid' sectioning, contrasting against a 'Deep Onyx' dark void. Includes glassmorphic data cards, massive typography, and pill-shaped interactive elements.
 
-![Hyper-Saturated Fluid](./preview.png)
+<img src="preview.png" alt="Hyper-Saturated Fluid" width="640">
 
 ## Prompt
 
@@ -127,6 +129,12 @@ DON'T use gradients on the "shout" color; keep it a flat, vibrant punch.
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/hyper-saturated-fluid](https://superdesign.dev/library/hyper-saturated-fluid)**
+**▶ Try it live → [https://superdesign.dev/library/hyper-saturated-fluid](https://superdesign.dev/library/hyper-saturated-fluid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,002 copies · 1,971 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "hyper-saturated-fluid" --json
+```
+
+*1,002 copies · 1,971 tries · style*

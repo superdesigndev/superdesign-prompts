@@ -1,10 +1,12 @@
 ---
 title: "Win98"
-slug: win98
+slug: "win98"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 272
 tryCount: 2329
-source: https://superdesign.dev/library/win98
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/win98?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Win98
@@ -12,7 +14,7 @@ source: https://superdesign.dev/library/win98
 Embrace the raw, unfiltered aesthetic of the early web
 Source: designprompts.dev
 
-![Win98](./preview.png)
+<img src="preview.png" alt="Win98" width="640">
 
 ## Prompt
 
@@ -954,6 +956,12 @@ Embrace the cheese. Celebrate the chaos. Welcome to 1997.
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/win98](https://superdesign.dev/library/win98)**
+**▶ Try it live → [https://superdesign.dev/library/win98](https://superdesign.dev/library/win98?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*272 copies · 2,329 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "win98" --json
+```
+
+*272 copies · 2,329 tries · style*

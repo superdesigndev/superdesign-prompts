@@ -1,10 +1,12 @@
 ---
 title: "Cart Drawer- Essential Slide in"
-slug: cart-drawer-essential-slide-in
+slug: "cart-drawer-essential-slide-in"
+category: "E-commerce"
 tags: ["shopify", "layout", "cart", "ecommerce"]
 copyCount: 7
 tryCount: 2493
-source: https://superdesign.dev/library/cart-drawer-essential-slide-in
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/cart-drawer-essential-slide-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Cart Drawer- Essential Slide in
@@ -14,7 +16,7 @@ A narrow slide-in drawer from the right that lists cart items vertically with qu
 Best suited for
 Fast-purchase flows, single-product stores, brands optimizing for minimal friction and quick checkout.
 
-![Cart Drawer- Essential Slide in](./preview.png)
+<img src="preview.png" alt="Cart Drawer- Essential Slide in" width="640">
 
 ## Prompt
 
@@ -266,6 +268,12 @@ Here is a reference implementation:
 ~~~
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/cart-drawer-essential-slide-in](https://superdesign.dev/library/cart-drawer-essential-slide-in)**
+**▶ Try it live → [https://superdesign.dev/library/cart-drawer-essential-slide-in](https://superdesign.dev/library/cart-drawer-essential-slide-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*7 copies · 2,493 tries · tags: shopify, layout, cart, ecommerce*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "cart-drawer-essential-slide-in" --json
+```
+
+*7 copies · 2,493 tries · shopify, layout, cart, ecommerce*

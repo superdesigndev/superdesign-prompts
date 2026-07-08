@@ -1,15 +1,17 @@
 ---
 title: "Dynamic Data Display"
-slug: dynamic-data-display
+slug: "dynamic-data-display"
+category: "Animations & Backgrounds"
 tags: ["text animation", "animation", "scroll animation", "landing page"]
 copyCount: 288
 tryCount: 2430
-source: https://superdesign.dev/library/dynamic-data-display
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/dynamic-data-display?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Dynamic Data Display
 
-![Dynamic Data Display](./preview.mp4)
+<img src="preview.mp4" alt="Dynamic Data Display" width="640">
 
 ## Prompt
 
@@ -17,6 +19,12 @@ source: https://superdesign.dev/library/dynamic-data-display
 Numbers are displayed in large font with a **count-up animation**, triggering a **dynamic increase effect when scrolling into the viewport**—suitable for data display sections or statistical information areas.
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/dynamic-data-display](https://superdesign.dev/library/dynamic-data-display)**
+**▶ Try it live → [https://superdesign.dev/library/dynamic-data-display](https://superdesign.dev/library/dynamic-data-display?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*288 copies · 2,430 tries · tags: text animation, animation, scroll animation, landing page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "dynamic-data-display" --json
+```
+
+*288 copies · 2,430 tries · text animation, animation, scroll animation, landing page*

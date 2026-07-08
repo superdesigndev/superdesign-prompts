@@ -1,17 +1,19 @@
 ---
 title: "Lumina SaaS Landing Page"
-slug: lumina-saas-landing-page
+slug: "lumina-saas-landing-page"
+category: "Landing Pages"
 tags: ["bold", "energetic", "yellow", "style", "landing page", "saas landing"]
 copyCount: 2259
 tryCount: 2271
-source: https://superdesign.dev/library/lumina-saas-landing-page
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/lumina-saas-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Lumina SaaS Landing Page
 
 Lumina is a high-energy, Neo-Brutalist B2C SaaS design characterized by its bold #ffe17c yellow primary color, heavy 2px black borders, and zero-blur hard shadows. It utilizes a striking combination of 'Cabinet Grotesk' for display-heavy typography and 'Satoshi' for body copy. This style is ideal for the creator economy, modern fintech, edtech, or any startup looking to break the 'clean corporate blue' mold with a confident, high-contrast interface. The layout features bento-style grids, marquee animations, and playful asymmetric card shapes.
 
-![Lumina SaaS Landing Page](./preview.png)
+<img src="preview.png" alt="Lumina SaaS Landing Page" width="640">
 
 ## Prompt
 
@@ -79,6 +81,12 @@ Lumina is a high-energy, Neo-Brutalist B2C SaaS design characterized by its bold
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/lumina-saas-landing-page](https://superdesign.dev/library/lumina-saas-landing-page)**
+**▶ Try it live → [https://superdesign.dev/library/lumina-saas-landing-page](https://superdesign.dev/library/lumina-saas-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*2,259 copies · 2,271 tries · tags: bold, energetic, yellow, style, landing page, saas landing*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "lumina-saas-landing-page" --json
+```
+
+*2,259 copies · 2,271 tries · bold, energetic, yellow, style, landing page*

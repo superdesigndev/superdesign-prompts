@@ -1,17 +1,19 @@
 ---
 title: "Brutalist Style Ecommerce Page"
-slug: brutalist-style-ecommerce-page
+slug: "brutalist-style-ecommerce-page"
+category: "E-commerce"
 tags: ["ecommerce", "landing page", "style", "orange accent"]
 copyCount: 945
 tryCount: 1568
-source: https://superdesign.dev/library/brutalist-style-ecommerce-page
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/brutalist-style-ecommerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Brutalist Style Ecommerce Page
 
 A brutalist editorial design system for high-fashion, streetwear, or luxury brands. Featuring a raw, industrial aesthetic with massive typography, high-contrast photography, and utilitarian components. Key elements include a noise-grain texture overlay, a monochromatic palette with burnt orange and neon green accents, and asymmetrical layout grids. The style uses 'Clash Grotesk' for aggressive impact and 'General Sans' for technical clarity. Ideal for product launches, lookbooks, and fashion portfolios looking for a 'Raw Campaign' or 'Modern Brutalist' feel with scroll-triggered visual impact.
 
-![Brutalist Style Ecommerce Page](./preview.png)
+<img src="preview.png" alt="Brutalist Style Ecommerce Page" width="640">
 
 ## Prompt
 
@@ -71,6 +73,12 @@ A brutalist editorial design system for high-fashion, streetwear, or luxury bran
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/brutalist-style-ecommerce-page](https://superdesign.dev/library/brutalist-style-ecommerce-page)**
+**▶ Try it live → [https://superdesign.dev/library/brutalist-style-ecommerce-page](https://superdesign.dev/library/brutalist-style-ecommerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*945 copies · 1,568 tries · tags: ecommerce, landing page, style, orange accent*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "brutalist-style-ecommerce-page" --json
+```
+
+*945 copies · 1,568 tries · ecommerce, landing page, style, orange accent*

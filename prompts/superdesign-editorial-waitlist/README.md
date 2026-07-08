@@ -1,17 +1,19 @@
 ---
 title: "Superdesign Editorial Waitlist"
-slug: superdesign-editorial-waitlist
+slug: "superdesign-editorial-waitlist"
+category: "Landing Pages"
 tags: ["style", "waitlist", "landing page"]
 copyCount: 556
 tryCount: 2262
-source: https://superdesign.dev/library/superdesign-editorial-waitlist
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/superdesign-editorial-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Superdesign Editorial Waitlist
 
 Editorial waiting list landing page with a cinematic, high-fashion aesthetic. Features a deep matte #181818 background, warm beige #EBDCC4 typography, and a brutalist yet refined grid. Key elements include oversized edge-to-edge display type, subtle noise textures, and a layered text depth effect. Ideal for luxury tech, creative agency portfolios, high-end SaaS tools, architecture firms, and invite-only exclusivity campaigns. Layout utilizes strong typographic hierarchy and generous negative space with accent tones in coral, rust, and sage.
 
-![Superdesign Editorial Waitlist](./preview.png)
+<img src="preview.png" alt="Superdesign Editorial Waitlist" width="640">
 
 ## Prompt
 
@@ -59,6 +61,12 @@ Editorial waiting list landing page with a cinematic, high-fashion aesthetic. Fe
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/superdesign-editorial-waitlist](https://superdesign.dev/library/superdesign-editorial-waitlist)**
+**▶ Try it live → [https://superdesign.dev/library/superdesign-editorial-waitlist](https://superdesign.dev/library/superdesign-editorial-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*556 copies · 2,262 tries · tags: style, waitlist, landing page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "superdesign-editorial-waitlist" --json
+```
+
+*556 copies · 2,262 tries · style, waitlist, landing page*

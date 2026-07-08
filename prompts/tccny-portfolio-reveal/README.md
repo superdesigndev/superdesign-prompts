@@ -1,17 +1,19 @@
 ---
 title: "TCCNY Portfolio Reveal"
-slug: tccny-portfolio-reveal
+slug: "tccny-portfolio-reveal"
+category: "Portfolios"
 tags: []
 copyCount: 33
 tryCount: 2456
-source: https://superdesign.dev/library/tccny-portfolio-reveal
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/tccny-portfolio-reveal?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # TCCNY Portfolio Reveal
 
 A high-end, dark-mode portfolio landing page featuring a tech-forward 'Digital Alchemist' aesthetic. Incorporates editorial typography with Space Grotesk and Inter fonts, a pixel-art transition intro, and modern UI elements like infinite marquees and glassmorphism. Perfect for creative agencies, fintech, luxury engineering, or independent developers seeking a brutalist yet polished Brooklyn-style aesthetic.
 
-![TCCNY Portfolio Reveal](./preview.png)
+<img src="preview.png" alt="TCCNY Portfolio Reveal" width="640">
 
 ## Prompt
 
@@ -67,6 +69,12 @@ A high-end, dark-mode portfolio landing page featuring a tech-forward 'Digital A
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/tccny-portfolio-reveal](https://superdesign.dev/library/tccny-portfolio-reveal)**
+**▶ Try it live → [https://superdesign.dev/library/tccny-portfolio-reveal](https://superdesign.dev/library/tccny-portfolio-reveal?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*33 copies · 2,456 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "tccny-portfolio-reveal" --json
+```
+
+*33 copies · 2,456 tries · *

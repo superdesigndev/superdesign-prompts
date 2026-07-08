@@ -1,17 +1,19 @@
 ---
 title: "Clean fluid"
-slug: clean-fluid
+slug: "clean-fluid"
+category: "Landing Pages"
 tags: ["landing page", "style", "page"]
 copyCount: 703
 tryCount: 2343
-source: https://superdesign.dev/library/clean-fluid
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/clean-fluid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Clean fluid
 
 A high-end, editorial design system blending luxury serif typography with technical monospace accents. Characterized by fluid 'premium ease' animations, a sophisticated cream and dark charcoal palette (#fcfbf9, #171717), and organic curved transitions. Optimized for AI startups, design studios, fintech dashboards, and luxury tech brands requiring a balance of intelligence and elegance. Key features include scroll-triggered reveal animations, mesh gradient backgrounds, and a signature concave wave transition between sections.
 
-![Clean fluid](./preview.png)
+<img src="preview.png" alt="Clean fluid" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ A high-end, editorial design system blending luxury serif typography with techni
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/clean-fluid](https://superdesign.dev/library/clean-fluid)**
+**▶ Try it live → [https://superdesign.dev/library/clean-fluid](https://superdesign.dev/library/clean-fluid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*703 copies · 2,343 tries · tags: landing page, style, page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "clean-fluid" --json
+```
+
+*703 copies · 2,343 tries · landing page, style, page*

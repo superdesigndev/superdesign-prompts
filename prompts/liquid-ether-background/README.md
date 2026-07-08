@@ -1,17 +1,19 @@
 ---
 title: "Liquid Ether Background"
-slug: liquid-ether-background
+slug: "liquid-ether-background"
+category: "Animations & Backgrounds"
 tags: ["background", "animation"]
 copyCount: 444
 tryCount: 1725
-source: https://superdesign.dev/library/liquid-ether-background
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/liquid-ether-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Liquid Ether Background
 
 A production-grade showcase for the LiquidEther fluid simulation background effect. Features a minimalist, premium layout that emphasizes the motion and fluid dynamics of the WebGL-based ether effect.
 
-![Liquid Ether Background](./preview.mp4)
+<img src="preview.mp4" alt="Liquid Ether Background" width="640">
 
 ## Prompt
 
@@ -1114,6 +1116,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/liquid-ether-background](https://superdesign.dev/library/liquid-ether-background)**
+**▶ Try it live → [https://superdesign.dev/library/liquid-ether-background](https://superdesign.dev/library/liquid-ether-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*444 copies · 1,725 tries · tags: background, animation*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "liquid-ether-background" --json
+```
+
+*444 copies · 1,725 tries · background, animation*

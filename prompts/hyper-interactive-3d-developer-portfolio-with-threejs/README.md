@@ -1,17 +1,19 @@
 ---
 title: "Hyper-Interactive 3D Developer Portfolio with Three.js"
-slug: hyper-interactive-3d-developer-portfolio-with-threejs
+slug: "hyper-interactive-3d-developer-portfolio-with-threejs"
+category: "Portfolios"
 tags: []
 copyCount: 69
 tryCount: 2378
-source: https://superdesign.dev/library/hyper-interactive-3d-developer-portfolio-with-threejs
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/hyper-interactive-3d-developer-portfolio-with-threejs?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Hyper-Interactive 3D Developer Portfolio with Three.js
 
 Hyper-interactive dark mode portfolio with Three.js 3D background, neon cyan-purple-pink color palette, and high-end editorial typography. Featuring glassmorphism, 3D tilt interactions, and scroll-triggered reveal animations. Optimized for developer portfolios, SaaS dashboards, and creative agencies wanting a futuristic, high-performance aesthetic.
 
-![Hyper-Interactive 3D Developer Portfolio with Three.js](./preview.png)
+<img src="preview.png" alt="Hyper-Interactive 3D Developer Portfolio with Three.js" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ Hyper-interactive dark mode portfolio with Three.js 3D background, neon cyan-pur
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/hyper-interactive-3d-developer-portfolio-with-threejs](https://superdesign.dev/library/hyper-interactive-3d-developer-portfolio-with-threejs)**
+**▶ Try it live → [https://superdesign.dev/library/hyper-interactive-3d-developer-portfolio-with-threejs](https://superdesign.dev/library/hyper-interactive-3d-developer-portfolio-with-threejs?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*69 copies · 2,378 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "hyper-interactive-3d-developer-portfolio-with-threejs" --json
+```
+
+*69 copies · 2,378 tries · *

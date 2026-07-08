@@ -1,17 +1,19 @@
 ---
 title: "AMANTRA ORGANICS | Premium Organic Superfoods"
-slug: amantra-organics-or-premium-organic-superfoods
+slug: "amantra-organics-or-premium-organic-superfoods"
+category: "Design Systems & Styles"
 tags: []
 copyCount: 167
 tryCount: 2415
-source: https://superdesign.dev/library/amantra-organics-or-premium-organic-superfoods
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/amantra-organics-or-premium-organic-superfoods?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # AMANTRA ORGANICS | Premium Organic Superfoods
 
 A premium, energetic organic wellness brand style featuring high-contrast typography, vibrant organic colors (emerald and orange), and advanced 3D-transform interactions. This aesthetic is ideal for modern D2C health brands, superfood companies, and bio-hacking startups seeking a high-performance, scientific yet natural aesthetic. It uses a clean 'Stone' background to allow bold product colors and fluid, scroll-triggered animations to take center stage. Key elements include bento-grid layouts, floating card stacks, and glassmorphism accents.
 
-![AMANTRA ORGANICS | Premium Organic Superfoods](./preview.png)
+<img src="preview.png" alt="AMANTRA ORGANICS | Premium Organic Superfoods" width="640">
 
 ## Prompt
 
@@ -66,6 +68,12 @@ A premium, energetic organic wellness brand style featuring high-contrast typogr
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/amantra-organics-or-premium-organic-superfoods](https://superdesign.dev/library/amantra-organics-or-premium-organic-superfoods)**
+**▶ Try it live → [https://superdesign.dev/library/amantra-organics-or-premium-organic-superfoods](https://superdesign.dev/library/amantra-organics-or-premium-organic-superfoods?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*167 copies · 2,415 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "amantra-organics-or-premium-organic-superfoods" --json
+```
+
+*167 copies · 2,415 tries · *

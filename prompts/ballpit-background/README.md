@@ -1,10 +1,12 @@
 ---
 title: "Ballpit Background"
-slug: ballpit-background
+slug: "ballpit-background"
+category: "Animations & Backgrounds"
 tags: ["animation", "background"]
 copyCount: 199
 tryCount: 2337
-source: https://superdesign.dev/library/ballpit-background
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/ballpit-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Ballpit Background
@@ -13,7 +15,7 @@ A high-performance 3D physics-based background effect with interactive bouncing 
 
 Source: ReactBits
 
-![Ballpit Background](./preview.mp4)
+<img src="preview.mp4" alt="Ballpit Background" width="640">
 
 ## Prompt
 
@@ -545,6 +547,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/ballpit-background](https://superdesign.dev/library/ballpit-background)**
+**▶ Try it live → [https://superdesign.dev/library/ballpit-background](https://superdesign.dev/library/ballpit-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*199 copies · 2,337 tries · tags: animation, background*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "ballpit-background" --json
+```
+
+*199 copies · 2,337 tries · animation, background*

@@ -1,17 +1,19 @@
 ---
 title: "Reflect Cinematic Landing Page"
-slug: reflect-cinematic-landing-page
+slug: "reflect-cinematic-landing-page"
+category: "Design Systems & Styles"
 tags: []
 copyCount: 110
 tryCount: 2342
-source: https://superdesign.dev/library/reflect-cinematic-landing-page
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/reflect-cinematic-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Reflect Cinematic Landing Page
 
 A high-end cinematic dark-mode landing page designed for premium creative tools and SaaS dashboards. Featuring a 'midnight' color palette (#020617), metallic text gradients, and futuristic glassmorphism. The aesthetic leverages 'Cabinet Grotesk' for bold editorial headers and 'Satoshi' for clean body text. Key elements include a 3D parallax dashboard card, a radial 'black hole' portal background effect, infinite scrolling marquees, and a sophisticated bento grid layout. Ideal for design-centric products, AI platforms, or high-performance creative software requiring a professional yet immersive visual experience.
 
-![Reflect Cinematic Landing Page](./preview.png)
+<img src="preview.png" alt="Reflect Cinematic Landing Page" width="640">
 
 ## Prompt
 
@@ -76,6 +78,12 @@ A high-end cinematic dark-mode landing page designed for premium creative tools 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/reflect-cinematic-landing-page](https://superdesign.dev/library/reflect-cinematic-landing-page)**
+**▶ Try it live → [https://superdesign.dev/library/reflect-cinematic-landing-page](https://superdesign.dev/library/reflect-cinematic-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*110 copies · 2,342 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "reflect-cinematic-landing-page" --json
+```
+
+*110 copies · 2,342 tries · *

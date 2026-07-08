@@ -1,10 +1,12 @@
 ---
 title: "Card Swap"
-slug: card-swap
+slug: "card-swap"
+category: "Components"
 tags: ["ui component", "animation", "image gallery"]
 copyCount: 884
 tryCount: 1693
-source: https://superdesign.dev/library/card-swap
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/card-swap?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Card Swap
@@ -13,7 +15,7 @@ An elegant card swapping animation component with depth perception and perspecti
 
 Source: ReactBits
 
-![Card Swap](./preview.mp4)
+<img src="preview.mp4" alt="Card Swap" width="640">
 
 ## Prompt
 
@@ -431,6 +433,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/card-swap](https://superdesign.dev/library/card-swap)**
+**▶ Try it live → [https://superdesign.dev/library/card-swap](https://superdesign.dev/library/card-swap?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*884 copies · 1,693 tries · tags: ui component, animation, image gallery*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "card-swap" --json
+```
+
+*884 copies · 1,693 tries · ui component, animation, image gallery*

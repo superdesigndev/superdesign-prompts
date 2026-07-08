@@ -1,17 +1,19 @@
 ---
 title: "Apple HIG Dark Theme Meal Planner"
-slug: apple-hig-dark-theme-meal-planner
+slug: "apple-hig-dark-theme-meal-planner"
+category: "Design Systems & Styles"
 tags: []
 copyCount: 38
 tryCount: 2496
-source: https://superdesign.dev/library/apple-hig-dark-theme-meal-planner
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/apple-hig-dark-theme-meal-planner?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Apple HIG Dark Theme Meal Planner
 
 An authentic Apple Human Interface Guidelines (HIG) inspired dark theme featuring 'Liquid Glass' surfaces, SF Pro typography, and premium glassmorphism. It uses a deep #1d1d1f background with translucent overlays, backdrop filters (blur(40px)), and high-contrast Apple blue accents (#0071e3). This design system is ideal for high-end lifestyle apps, health/fitness dashboards, premium SaaS, and fintech platforms that require a sophisticated, native macOS/iOS feel.
 
-![Apple HIG Dark Theme Meal Planner](./preview.png)
+<img src="preview.png" alt="Apple HIG Dark Theme Meal Planner" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ An authentic Apple Human Interface Guidelines (HIG) inspired dark theme featurin
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/apple-hig-dark-theme-meal-planner](https://superdesign.dev/library/apple-hig-dark-theme-meal-planner)**
+**▶ Try it live → [https://superdesign.dev/library/apple-hig-dark-theme-meal-planner](https://superdesign.dev/library/apple-hig-dark-theme-meal-planner?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*38 copies · 2,496 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "apple-hig-dark-theme-meal-planner" --json
+```
+
+*38 copies · 2,496 tries · *

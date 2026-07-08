@@ -1,17 +1,19 @@
 ---
 title: "Gooey Gradient Background"
-slug: gooey-gradient-background
+slug: "gooey-gradient-background"
+category: "Animations & Backgrounds"
 tags: ["animation", "background"]
 copyCount: 485
 tryCount: 2278
-source: https://superdesign.dev/library/gooey-gradient-background
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/gooey-gradient-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Gooey Gradient Background
 
 A mesmerizing, interactive gooey liquid gradient background with animated blobs and mouse-following effect. Perfect for immersive landing pages.
 
-![Gooey Gradient Background](./preview.mp4)
+<img src="preview.mp4" alt="Gooey Gradient Background" width="640">
 
 ## Prompt
 
@@ -347,6 +349,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/gooey-gradient-background](https://superdesign.dev/library/gooey-gradient-background)**
+**▶ Try it live → [https://superdesign.dev/library/gooey-gradient-background](https://superdesign.dev/library/gooey-gradient-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*485 copies · 2,278 tries · tags: animation, background*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "gooey-gradient-background" --json
+```
+
+*485 copies · 2,278 tries · animation, background*

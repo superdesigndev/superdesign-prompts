@@ -1,10 +1,12 @@
 ---
 title: "Monochrome"
-slug: monochrome
+slug: "monochrome"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 215
 tryCount: 2418
-source: https://superdesign.dev/library/monochrome
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/monochrome?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Monochrome
@@ -13,7 +15,7 @@ source: https://superdesign.dev/library/monochrome
 
 Source: designprompt.dev
 
-![Monochrome](./preview.png)
+<img src="preview.png" alt="Monochrome" width="640">
 
 ## Prompt
 
@@ -736,6 +738,12 @@ It should NOT feel like:
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/monochrome](https://superdesign.dev/library/monochrome)**
+**▶ Try it live → [https://superdesign.dev/library/monochrome](https://superdesign.dev/library/monochrome?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*215 copies · 2,418 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "monochrome" --json
+```
+
+*215 copies · 2,418 tries · style*

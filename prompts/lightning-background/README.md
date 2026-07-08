@@ -1,10 +1,12 @@
 ---
 title: "Lightning Background"
-slug: lightning-background
+slug: "lightning-background"
+category: "Animations & Backgrounds"
 tags: ["animation", "background"]
 copyCount: 252
 tryCount: 2266
-source: https://superdesign.dev/library/lightning-background
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/lightning-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Lightning Background
@@ -13,7 +15,7 @@ A high-performance WebGL-powered lightning/electric discharge background effect.
 
 Source: ReactBits
 
-![Lightning Background](./preview.mp4)
+<img src="preview.mp4" alt="Lightning Background" width="640">
 
 ## Prompt
 
@@ -373,6 +375,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/lightning-background](https://superdesign.dev/library/lightning-background)**
+**▶ Try it live → [https://superdesign.dev/library/lightning-background](https://superdesign.dev/library/lightning-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*252 copies · 2,266 tries · tags: animation, background*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "lightning-background" --json
+```
+
+*252 copies · 2,266 tries · animation, background*

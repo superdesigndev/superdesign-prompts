@@ -1,17 +1,19 @@
 ---
 title: "Futuristic SasS Landing Page"
-slug: futuristic-sass-landing-page
+slug: "futuristic-sass-landing-page"
+category: "Landing Pages"
 tags: ["landing page", "page", "style", "webapp", "techfoward", "futuristic", "indigo accent", "purple accent"]
 copyCount: 942
 tryCount: 1663
-source: https://superdesign.dev/library/futuristic-sass-landing-page
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/futuristic-sass-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Futuristic SasS Landing Page
 
 A modern, atmospheric SaaS design system featuring a high-contrast blend of dark mode hero sections and light mode content areas. Characterized by glassmorphism, sophisticated serif-sans typography pairing, and ethereal glows, it is ideal for AI startups, design tools, creative portfolios, and premium digital platforms. The style emphasizes depth through backdrop blurs, subtle borders (1px), and smooth micro-interactions like scroll-triggered navigation and hover-based transforms.
 
-![Futuristic SasS Landing Page](./preview.png)
+<img src="preview.png" alt="Futuristic SasS Landing Page" width="640">
 
 ## Prompt
 
@@ -66,6 +68,12 @@ A modern, atmospheric SaaS design system featuring a high-contrast blend of dark
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/futuristic-sass-landing-page](https://superdesign.dev/library/futuristic-sass-landing-page)**
+**▶ Try it live → [https://superdesign.dev/library/futuristic-sass-landing-page](https://superdesign.dev/library/futuristic-sass-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*942 copies · 1,663 tries · tags: landing page, page, style, webapp, techfoward, futuristic, indigo accent, purple accent*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "futuristic-sass-landing-page" --json
+```
+
+*942 copies · 1,663 tries · landing page, page, style, webapp, techfoward*

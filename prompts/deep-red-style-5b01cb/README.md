@@ -1,17 +1,19 @@
 ---
 title: "Deep Red Style"
-slug: deep-red-style-5b01cb
+slug: "deep-red-style-5b01cb"
+category: "Landing Pages"
 tags: ["style", "page"]
 copyCount: 2321
 tryCount: 1905
-source: https://superdesign.dev/library/deep-red-style-5b01cb
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/deep-red-style-5b01cb?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Deep Red Style
 
 A deep red/orange atmospheric gradients, elegant serif typography, and complex scroll-triggered animations, with floating parallax cards and a dot-grid background.
 
-![Deep Red Style](./preview.png)
+<img src="preview.png" alt="Deep Red Style" width="640">
 
 ## Prompt
 
@@ -359,6 +361,12 @@ You are given a task to integrate the below html page into the current page.
 ~~~
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/deep-red-style-5b01cb](https://superdesign.dev/library/deep-red-style-5b01cb)**
+**▶ Try it live → [https://superdesign.dev/library/deep-red-style-5b01cb](https://superdesign.dev/library/deep-red-style-5b01cb?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*2,321 copies · 1,905 tries · tags: style, page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "deep-red-style-5b01cb" --json
+```
+
+*2,321 copies · 1,905 tries · style, page*

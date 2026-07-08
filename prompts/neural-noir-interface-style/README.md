@@ -1,17 +1,19 @@
 ---
 title: "Neural Noir Interface Style"
-slug: neural-noir-interface-style
+slug: "neural-noir-interface-style"
+category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 1280
 tryCount: 2501
-source: https://superdesign.dev/library/neural-noir-interface-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/neural-noir-interface-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Neural Noir Interface Style
 
 The Neural Noir Interface Style is a high-end, futuristic aesthetic characterized by a 'tech-noir' atmosphere. It blends deep dark backgrounds (#0a0a0a) with sophisticated gold and bronze accents (#a78b71, #e8d5b7) and editorial typography. Key features include glassmorphism, neural network-inspired SVG connection lines, and a bento-grid layout. This style is optimized for premium AI platforms, creative design engines, high-end SaaS, and editorial-driven tech portfolios. It utilizes a combination of sleek sans-serif (Inter) for functional elements and elegant serif italics (Playfair Display) for headlines, creating a contrast between high-tech performance and classic sophistication.
 
-![Neural Noir Interface Style](./preview.png)
+<img src="preview.png" alt="Neural Noir Interface Style" width="640">
 
 ## Prompt
 
@@ -72,6 +74,12 @@ The Neural Noir Interface Style is a high-end, futuristic aesthetic characterize
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/neural-noir-interface-style](https://superdesign.dev/library/neural-noir-interface-style)**
+**▶ Try it live → [https://superdesign.dev/library/neural-noir-interface-style](https://superdesign.dev/library/neural-noir-interface-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,280 copies · 2,501 tries · tags: landing page, page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "neural-noir-interface-style" --json
+```
+
+*1,280 copies · 2,501 tries · landing page, page, style*

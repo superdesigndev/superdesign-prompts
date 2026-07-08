@@ -1,10 +1,12 @@
 ---
 title: "Neumorphism"
-slug: neumorphism
+slug: "neumorphism"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 834
 tryCount: 2444
-source: https://superdesign.dev/library/neumorphism
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/neumorphism?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Neumorphism
@@ -12,7 +14,7 @@ source: https://superdesign.dev/library/neumorphism
 Neumorphism creates the illusion of physical depth through carefully balanced dual shadows
 Source: designprompts.dev
 
-![Neumorphism](./preview.png)
+<img src="preview.png" alt="Neumorphism" width="640">
 
 ## Prompt
 
@@ -292,6 +294,12 @@ box-shadow: inset 3px 3px 6px rgb(163,177,198,0.6), inset -3px -3px 6px rgba(255
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/neumorphism](https://superdesign.dev/library/neumorphism)**
+**▶ Try it live → [https://superdesign.dev/library/neumorphism](https://superdesign.dev/library/neumorphism?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*834 copies · 2,444 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "neumorphism" --json
+```
+
+*834 copies · 2,444 tries · style*

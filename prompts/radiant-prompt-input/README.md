@@ -1,10 +1,12 @@
 ---
 title: "Radiant Prompt Input"
-slug: radiant-prompt-input
+slug: "radiant-prompt-input"
+category: "Components"
 tags: ["ui component", "input"]
 copyCount: 348
 tryCount: 2289
-source: https://superdesign.dev/library/radiant-prompt-input
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/radiant-prompt-input?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Radiant Prompt Input
@@ -13,7 +15,7 @@ A high-fidelity, kinetic input interface featuring a mesmerizing, continuously r
 
 Source: https://codepen.io/una/pen/wBGNWmZ
 
-![Radiant Prompt Input](./preview.png)
+<img src="preview.png" alt="Radiant Prompt Input" width="640">
 
 ## Prompt
 
@@ -348,6 +350,12 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/radiant-prompt-input](https://superdesign.dev/library/radiant-prompt-input)**
+**▶ Try it live → [https://superdesign.dev/library/radiant-prompt-input](https://superdesign.dev/library/radiant-prompt-input?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*348 copies · 2,289 tries · tags: ui component, input*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "radiant-prompt-input" --json
+```
+
+*348 copies · 2,289 tries · ui component, input*

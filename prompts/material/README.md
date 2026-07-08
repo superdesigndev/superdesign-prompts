@@ -1,10 +1,12 @@
 ---
 title: "Material"
-slug: material
+slug: "material"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 274
 tryCount: 2483
-source: https://superdesign.dev/library/material
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/material?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Material
@@ -13,7 +15,7 @@ Material Design 3
 
 Source: designprompts.dev
 
-![Material](./preview.png)
+<img src="preview.png" alt="Material" width="640">
 
 ## Prompt
 
@@ -843,6 +845,12 @@ To ensure full Material You compliance with enhanced depth and interactivity:
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/material](https://superdesign.dev/library/material)**
+**▶ Try it live → [https://superdesign.dev/library/material](https://superdesign.dev/library/material?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*274 copies · 2,483 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "material" --json
+```
+
+*274 copies · 2,483 tries · style*

@@ -1,17 +1,19 @@
 ---
 title: "Brutalist E-commerce Page"
-slug: brutalist-e-commerce-page
+slug: "brutalist-e-commerce-page"
+category: "E-commerce"
 tags: ["ecommerce", "landing page", "style", "orange accent"]
 copyCount: 1571
 tryCount: 1531
-source: https://superdesign.dev/library/brutalist-e-commerce-page
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/brutalist-e-commerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Brutalist E-commerce Page
 
 A brutalist editorial e-commerce style guide inspired by poster-campaign aesthetics. Characterized by massive grotesque typography (Clash Display), soft-blurred gradient forms in red-orange tones (#DB4A2B, #F8A348), and a warm cream background (#E4E2DD). This aesthetic is optimized for high-end fashion, architecture, or lifestyle brands that want a 'poster-first' digital presence. Features include scroll-triggered entrance animations, mix-blend-mode interactions, and a clean, borderless grid structure.
 
-![Brutalist E-commerce Page](./preview.png)
+<img src="preview.png" alt="Brutalist E-commerce Page" width="640">
 
 ## Prompt
 
@@ -66,6 +68,12 @@ A brutalist editorial e-commerce style guide inspired by poster-campaign aesthet
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/brutalist-e-commerce-page](https://superdesign.dev/library/brutalist-e-commerce-page)**
+**▶ Try it live → [https://superdesign.dev/library/brutalist-e-commerce-page](https://superdesign.dev/library/brutalist-e-commerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*1,571 copies · 1,531 tries · tags: ecommerce, landing page, style, orange accent*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "brutalist-e-commerce-page" --json
+```
+
+*1,571 copies · 1,531 tries · ecommerce, landing page, style, orange accent*

@@ -1,17 +1,19 @@
 ---
 title: "Cyber Serif Style"
-slug: cyber-serif-style
+slug: "cyber-serif-style"
+category: "Landing Pages"
 tags: ["style", "landing page", "page"]
 copyCount: 651
 tryCount: 1593
-source: https://superdesign.dev/library/cyber-serif-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/cyber-serif-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Cyber Serif Style
 
 A high-end 'Cyber Serif' aesthetic blending classical editorial typography with futuristic tech elements. Features a deep #050505 dark mode palette, neon emerald accents (#10b981), glassmorphism, and sophisticated micro-interactions. Suitable for high-end AI SaaS, creative agencies, fintech portfolios, and developer tools. Includes WebGL-inspired background effects, spotlight hover cards, and staggered scroll-reveal animations.
 
-![Cyber Serif Style](./preview.png)
+<img src="preview.png" alt="Cyber Serif Style" width="640">
 
 ## Prompt
 
@@ -68,6 +70,12 @@ A high-end 'Cyber Serif' aesthetic blending classical editorial typography with 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/cyber-serif-style](https://superdesign.dev/library/cyber-serif-style)**
+**▶ Try it live → [https://superdesign.dev/library/cyber-serif-style](https://superdesign.dev/library/cyber-serif-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*651 copies · 1,593 tries · tags: style, landing page, page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "cyber-serif-style" --json
+```
+
+*651 copies · 1,593 tries · style, landing page, page*

@@ -1,10 +1,12 @@
 ---
 title: "Nura Health Landing Page"
-slug: nura-health-landing-page
+slug: "nura-health-landing-page"
+category: "Design Systems & Styles"
 tags: []
 copyCount: 73
 tryCount: 2494
-source: https://superdesign.dev/library/nura-health-landing-page
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/nura-health-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Nura Health Landing Page
@@ -65,6 +67,12 @@ A high-end clinical boutique aesthetic for premium health and biotech verticals.
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/nura-health-landing-page](https://superdesign.dev/library/nura-health-landing-page)**
+**▶ Try it live → [https://superdesign.dev/library/nura-health-landing-page](https://superdesign.dev/library/nura-health-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*73 copies · 2,494 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "nura-health-landing-page" --json
+```
+
+*73 copies · 2,494 tries · *

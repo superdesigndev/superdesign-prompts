@@ -1,17 +1,19 @@
 ---
 title: "Midnight Editorial Style"
-slug: midnight-editorial-style
+slug: "midnight-editorial-style"
+category: "Landing Pages"
 tags: ["style", "landing page", "page"]
 copyCount: 559
 tryCount: 1934
-source: https://superdesign.dev/library/midnight-editorial-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/midnight-editorial-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Midnight Editorial Style
 
 A high-contrast, midnight-themed editorial design system optimized for premium portfolios, fintech SaaS, and luxury brand storytelling. Characterized by oversized 'Clash Display' typography, a deep #050505 background, and sophisticated mix-blend-mode interactions. Features smooth reveal animations, subtle atmospheric glows, and a brutalist yet refined layout that prioritizes whitespace and typographic hierarchy.
 
-![Midnight Editorial Style](./preview.png)
+<img src="preview.png" alt="Midnight Editorial Style" width="640">
 
 ## Prompt
 
@@ -67,6 +69,12 @@ A high-contrast, midnight-themed editorial design system optimized for premium p
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/midnight-editorial-style](https://superdesign.dev/library/midnight-editorial-style)**
+**▶ Try it live → [https://superdesign.dev/library/midnight-editorial-style](https://superdesign.dev/library/midnight-editorial-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*559 copies · 1,934 tries · tags: style, landing page, page*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "midnight-editorial-style" --json
+```
+
+*559 copies · 1,934 tries · style, landing page, page*

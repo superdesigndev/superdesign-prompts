@@ -1,17 +1,19 @@
 ---
 title: "Neon Velocity Countdown"
-slug: neon-velocity-countdown
+slug: "neon-velocity-countdown"
+category: "Landing Pages"
 tags: ["product launch", "style", "landing page", "high conversion page", "waitlist"]
 copyCount: 683
 tryCount: 1882
-source: https://superdesign.dev/library/neon-velocity-countdown
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/neon-velocity-countdown?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Neon Velocity Countdown
 
 A high-velocity, futuristic dark-mode design system characterized by neon accents, brutalist typography, and 3D glassmorphism. Featuring a 'Laser Green' and 'Navy Black' palette, it utilizes 'Plus Jakarta Sans' for high-impact headlines and 'Geist Mono' for technical metadata. This aesthetic is ideal for high-growth tech startups, SaaS platforms, developer tools, and fintech products that want to convey speed, precision, and cutting-edge innovation. The layout uses a bento-grid structure, fluid typography, and sophisticated scroll-triggered reveal animations.
 
-![Neon Velocity Countdown](./preview.png)
+<img src="preview.png" alt="Neon Velocity Countdown" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ A high-velocity, futuristic dark-mode design system characterized by neon accent
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/neon-velocity-countdown](https://superdesign.dev/library/neon-velocity-countdown)**
+**▶ Try it live → [https://superdesign.dev/library/neon-velocity-countdown](https://superdesign.dev/library/neon-velocity-countdown?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*683 copies · 1,882 tries · tags: product launch, style, landing page, high conversion page, waitlist*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "neon-velocity-countdown" --json
+```
+
+*683 copies · 1,882 tries · product launch, style, landing page, high conversion page, waitlist*

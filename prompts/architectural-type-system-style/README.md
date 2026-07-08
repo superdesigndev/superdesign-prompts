@@ -1,17 +1,19 @@
 ---
 title: "Architectural Type System Style"
-slug: architectural-type-system-style
+slug: "architectural-type-system-style"
+category: "Landing Pages"
 tags: ["landing page", "product launch", "waitlist", "high conversion page", "style"]
 copyCount: 354
 tryCount: 2189
-source: https://superdesign.dev/library/architectural-type-system-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/architectural-type-system-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Architectural Type System Style
 
 A high-contrast, architectural design system rooted in Swiss Modernism and Brutalist minimalism. Characterized by a monochrome palette, massive 'Inter Tight' display typography, and a rigid grid defined by 0.5px hairlines. Features a technical 'JetBrains Mono' font for metadata and system status indicators, creating an engineering-first aesthetic. Suitable for high-end SaaS, developer tools, fintech, architecture portfolios, and design agencies. Includes a persistent noise overlay for texture and grid-based layouts that utilize viewport-relative sizing for maximalist impact.
 
-![Architectural Type System Style](./preview.png)
+<img src="preview.png" alt="Architectural Type System Style" width="640">
 
 ## Prompt
 
@@ -64,6 +66,12 @@ A high-contrast, architectural design system rooted in Swiss Modernism and Bruta
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/architectural-type-system-style](https://superdesign.dev/library/architectural-type-system-style)**
+**▶ Try it live → [https://superdesign.dev/library/architectural-type-system-style](https://superdesign.dev/library/architectural-type-system-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*354 copies · 2,189 tries · tags: landing page, product launch, waitlist, high conversion page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "architectural-type-system-style" --json
+```
+
+*354 copies · 2,189 tries · landing page, product launch, waitlist, high conversion page, style*

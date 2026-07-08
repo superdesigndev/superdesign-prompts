@@ -1,17 +1,19 @@
 ---
 title: "Animation / Threejs animation"
-slug: animation-threejs-animation
+slug: "animation-threejs-animation"
+category: "Animations & Backgrounds"
 tags: ["skill", "animation"]
 copyCount: 307
 tryCount: 2207
-source: https://superdesign.dev/library/animation-threejs-animation
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/animation-threejs-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Animation / Threejs animation
 
 Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.
 
-![Animation / Threejs animation](./preview.mp4)
+<img src="preview.mp4" alt="Animation / Threejs animation" width="640">
 
 ## Prompt
 
@@ -559,6 +561,12 @@ function getClip(name) {
 ```
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/animation-threejs-animation](https://superdesign.dev/library/animation-threejs-animation)**
+**▶ Try it live → [https://superdesign.dev/library/animation-threejs-animation](https://superdesign.dev/library/animation-threejs-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*307 copies · 2,207 tries · tags: skill, animation*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "animation-threejs-animation" --json
+```
+
+*307 copies · 2,207 tries · skill, animation*

@@ -1,17 +1,19 @@
 ---
 title: "Fintech Dashboard with Line Chart"
-slug: fintech-dashboard-with-line-chart
+slug: "fintech-dashboard-with-line-chart"
+category: "Dashboards"
 tags: []
 copyCount: 114
 tryCount: 2283
-source: https://superdesign.dev/library/fintech-dashboard-with-line-chart
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/fintech-dashboard-with-line-chart?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Fintech Dashboard with Line Chart
 
 A high-fidelity fintech dashboard featuring a clean, modern aesthetic with a focus on data visualization and personal finance management. Key features include a smooth SVG line chart with dual-axis data points, high-radius card components (32px), a multi-currency wallet system, and a detailed transaction table. The style is defined by its use of the 'Outfit' typeface, a vibrant orange (#FF6B35) and blue (#3B82F6) color palette against a light gray background (#F5F6F8). Suitable for banking apps, investment platforms, SaaS analytics, and crypto dashboards.
 
-![Fintech Dashboard with Line Chart](./preview.png)
+<img src="preview.png" alt="Fintech Dashboard with Line Chart" width="640">
 
 ## Prompt
 
@@ -68,6 +70,12 @@ A high-fidelity fintech dashboard featuring a clean, modern aesthetic with a foc
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/fintech-dashboard-with-line-chart](https://superdesign.dev/library/fintech-dashboard-with-line-chart)**
+**▶ Try it live → [https://superdesign.dev/library/fintech-dashboard-with-line-chart](https://superdesign.dev/library/fintech-dashboard-with-line-chart?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*114 copies · 2,283 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "fintech-dashboard-with-line-chart" --json
+```
+
+*114 copies · 2,283 tries · *

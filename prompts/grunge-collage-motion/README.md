@@ -1,17 +1,19 @@
 ---
 title: "Grunge Collage Motion"
-slug: grunge-collage-motion
+slug: "grunge-collage-motion"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 412
 tryCount: 2331
-source: https://superdesign.dev/library/grunge-collage-motion
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/grunge-collage-motion?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Grunge Collage Motion
 
 A high-energy, distressed collage style featuring raw textures, fragmented composition, and jittery stop-motion animation. Implements the 'Grunge Collage Motion Graphics' design system with bold typography and glitch effects.
 
-![Grunge Collage Motion](./preview.png)
+<img src="preview.png" alt="Grunge Collage Motion" width="640">
 
 ## Prompt
 
@@ -142,6 +144,12 @@ DON'T clutter the design with too many colors.
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/grunge-collage-motion](https://superdesign.dev/library/grunge-collage-motion)**
+**▶ Try it live → [https://superdesign.dev/library/grunge-collage-motion](https://superdesign.dev/library/grunge-collage-motion?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*412 copies · 2,331 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "grunge-collage-motion" --json
+```
+
+*412 copies · 2,331 tries · style*

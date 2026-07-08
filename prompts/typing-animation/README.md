@@ -1,17 +1,19 @@
 ---
 title: "Typing animation"
-slug: typing-animation
+slug: "typing-animation"
+category: "Components"
 tags: ["animation", "text animation"]
 copyCount: 370
 tryCount: 2120
-source: https://superdesign.dev/library/typing-animation
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/typing-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Typing animation
 
 A typing animation component that reveals each character of a headline with a 50ms delay, featuring a minimalist showcase and replay functionality.
 
-![Typing animation](./preview.mp4)
+<img src="preview.mp4" alt="Typing animation" width="640">
 
 ## Prompt
 
@@ -19,6 +21,12 @@ A typing animation component that reveals each character of a headline with a 50
 Create a typing animation that reveals each character with a 50ms delay between characters for the main headline.
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/typing-animation](https://superdesign.dev/library/typing-animation)**
+**▶ Try it live → [https://superdesign.dev/library/typing-animation](https://superdesign.dev/library/typing-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*370 copies · 2,120 tries · tags: animation, text animation*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "typing-animation" --json
+```
+
+*370 copies · 2,120 tries · animation, text animation*

@@ -1,17 +1,19 @@
 ---
 title: "Lumina - 30% Triggered Cinematic Portal"
-slug: lumina-30percent-triggered-cinematic-portal
+slug: "lumina-30percent-triggered-cinematic-portal"
+category: "Design Systems & Styles"
 tags: []
 copyCount: 158
 tryCount: 2298
-source: https://superdesign.dev/library/lumina-30percent-triggered-cinematic-portal
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/lumina-30percent-triggered-cinematic-portal?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Lumina - 30% Triggered Cinematic Portal
 
 Lumina is a cinematic portal-style design system characterized by a dramatic scroll-triggered 'zoom-through' interaction. It features a high-contrast aesthetic with a deep charcoal (#050505) entry screen that reveals a vibrant, animated gradient background. Utilizing 'Cabinet Grotesk' for heavy display typography and 'Satoshi' for refined UI, the design emphasizes depth and motion. Ideal for luxury tech, creative agencies, immersive portfolios, and high-end landing pages, the layout uses glassmorphism, misty blur reveals, and a bento-style grid for internal content.
 
-![Lumina - 30% Triggered Cinematic Portal](./preview.png)
+<img src="preview.png" alt="Lumina - 30% Triggered Cinematic Portal" width="640">
 
 ## Prompt
 
@@ -63,6 +65,12 @@ Lumina is a cinematic portal-style design system characterized by a dramatic scr
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/lumina-30percent-triggered-cinematic-portal](https://superdesign.dev/library/lumina-30percent-triggered-cinematic-portal)**
+**▶ Try it live → [https://superdesign.dev/library/lumina-30percent-triggered-cinematic-portal](https://superdesign.dev/library/lumina-30percent-triggered-cinematic-portal?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*158 copies · 2,298 tries · tags: *
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "lumina-30percent-triggered-cinematic-portal" --json
+```
+
+*158 copies · 2,298 tries · *

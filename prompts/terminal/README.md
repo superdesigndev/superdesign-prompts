@@ -1,10 +1,12 @@
 ---
 title: "Terminal"
-slug: terminal
+slug: "terminal"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 385
 tryCount: 1819
-source: https://superdesign.dev/library/terminal
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/terminal?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Terminal
@@ -13,7 +15,7 @@ The Terminal CLI aesthetic pays homage to the raw power of the command line
 
 Source: designprompt.dev
 
-![Terminal](./preview.png)
+<img src="preview.png" alt="Terminal" width="640">
 
 ## Prompt
 
@@ -155,6 +157,12 @@ The layout should feel like a grid of terminal windows `tmux` or `vim` splits).
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/terminal](https://superdesign.dev/library/terminal)**
+**▶ Try it live → [https://superdesign.dev/library/terminal](https://superdesign.dev/library/terminal?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*385 copies · 1,819 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "terminal" --json
+```
+
+*385 copies · 1,819 tries · style*

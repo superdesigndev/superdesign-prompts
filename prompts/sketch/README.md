@@ -1,10 +1,12 @@
 ---
 title: "Sketch"
-slug: sketch
+slug: "sketch"
+category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 422
 tryCount: 2377
-source: https://superdesign.dev/library/sketch
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/sketch?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Sketch
@@ -13,7 +15,7 @@ The Hand-Drawn design style celebrates authentic imperfection and human touch in
 
 Source: designprompts.dev
 
-![Sketch](./preview.png)
+<img src="preview.png" alt="Sketch" width="640">
 
 ## Prompt
 
@@ -333,6 +335,12 @@ This style should feel approachable, creative, human-centered, and fun. It lower
 </design-system>
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/sketch](https://superdesign.dev/library/sketch)**
+**▶ Try it live → [https://superdesign.dev/library/sketch](https://superdesign.dev/library/sketch?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*422 copies · 2,377 tries · tags: style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "sketch" --json
+```
+
+*422 copies · 2,377 tries · style*

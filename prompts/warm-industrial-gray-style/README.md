@@ -1,17 +1,19 @@
 ---
 title: "Warm Industrial Gray Style"
-slug: warm-industrial-gray-style
+slug: "warm-industrial-gray-style"
+category: "Landing Pages"
 tags: ["page", "landing page", "style"]
 copyCount: 594
 tryCount: 1534
-source: https://superdesign.dev/library/warm-industrial-gray-style
+author: "Superdesign"
+try_url: "https://superdesign.dev/library/warm-industrial-gray-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Warm Industrial Gray Style
 
 A sophisticated warm industrial aesthetic that blends brutalist grid structures with editorial typography. Featuring a primary palette of warm concrete gray and rich charcoal accented by electric blue, this style is ideal for AI startups, creative technology studios, fintech platforms, and architecture portfolios. It utilizes a high-contrast pairing of heavy grotesque sans-serifs and elegant serif italics, layered over a subtle film grain noise texture. Key features include scroll-triggered reveals, magnetic hover states, and structural grid-line overlays that emphasize a 'form follows function' technical philosophy.
 
-![Warm Industrial Gray Style](./preview.png)
+<img src="preview.png" alt="Warm Industrial Gray Style" width="640">
 
 ## Prompt
 
@@ -72,6 +74,12 @@ A sophisticated warm industrial aesthetic that blends brutalist grid structures 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/warm-industrial-gray-style](https://superdesign.dev/library/warm-industrial-gray-style)**
+**▶ Try it live → [https://superdesign.dev/library/warm-industrial-gray-style](https://superdesign.dev/library/warm-industrial-gray-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
-*594 copies · 1,534 tries · tags: page, landing page, style*
+**Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
+
+```bash
+superdesign get-prompts --slugs "warm-industrial-gray-style" --json
+```
+
+*594 copies · 1,534 tries · page, landing page, style*
