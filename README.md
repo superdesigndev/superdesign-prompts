@@ -27,6 +27,22 @@ npx skills add superdesigndev/superdesign-skill
 ```
 Then just ask: *"/superdesign make my pricing page not look like AI slop"*. The agent searches this library, pulls the right prompt, and applies it to your code. [Skill repo](https://github.com/superdesigndev/superdesign-skill).
 
+<details>
+<summary><b>▸ What that actually does</b></summary>
+
+Behind that one request, the skill:
+
+1. **Reads your current UI** for context (your components, your stack)
+2. **Searches this library** for a fitting look — `superdesign search-prompts --tags "pricing" --json`
+3. **Pulls the design spec** — `superdesign get-prompts --slugs "<best match>" --json`
+4. **Applies it to your code** — real tokens (exact colors, type, spacing, motion), not "make it nicer"
+
+**Before:** default shadcn, Inter, `indigo-500`, a flat card grid — generic.
+**After:** the page rebuilt to a real spec — a proper palette, type scale, spacing, and shadow system, applied to *your* components.
+
+The difference from copy-paste: it picks the right prompt for **your** context and applies it across your **whole app**, not one page at a time.
+</details>
+
 **3. Try it live** (see it first, then take the code)
 Hit **▶ Try live** on any prompt to generate and iterate it on the Superdesign canvas, then copy the result into your project.
 
