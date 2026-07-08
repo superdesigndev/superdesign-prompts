@@ -5,6 +5,8 @@
 <!-- badges: fill OWNER/REPO on publish -->
 ![prompts](https://img.shields.io/badge/prompts-150-blue) ![ranked](https://img.shields.io/badge/ranked%20by-real%20usage-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![license](https://img.shields.io/badge/code-MIT-informational)
 
+**Curated from a live library with 1.7M+ real prompt runs.** These are the top 150 team-authored prompts, balanced across every page type and ranked by how many builders actually used them.
+
 ## Why your AI UI looks generic (and how to fix it)
 
 AI-generated UI all looks the same because the agent has **no taste to anchor to** — so it reaches for the same fonts, the same card grid, the same indigo-500. Every prompt here is a **full design spec** (exact colors, type, spacing, motion, layout), ranked by how many real builders actually used it. Hand one to your agent and it builds to a real spec instead of a default.
@@ -34,6 +36,19 @@ Hit **▶ Try live** on any prompt to generate and iterate it on the Superdesign
 | Format | Static text / markdown, no preview | **Live preview + one-click run** |
 | Freshness | Manual, goes stale | **Auto-synced** from a live product |
 | Coverage | A few categories | **Every page type + industry**, Webflow-style |
+
+## How this fits with the Superdesign skill
+
+This repo is the **registry**; the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill) is the **runtime** — like an npm registry and the npm CLI. They stack, they don't compete:
+
+| | This library (registry) | Superdesign skill (runtime) |
+|---|---|---|
+| Role | Prompts, previews, usage rankings, metadata | Reads the registry, applies a prompt to *your* code |
+| You | Browse, discover, copy, cite | Install once, then invoke |
+| Analogy | npm registry / Homebrew formulae | npm / brew (the client) |
+| Optimized for | Discovery + credibility | In-agent generating & iterating |
+
+`superdesign get-prompts` pulls straight from this library's data. **Browse here, run it there.**
 
 ## Browse by page type
 
