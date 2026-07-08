@@ -3,7 +3,7 @@ title: "Developer tool dashboard/onboarding"
 slug: "developer-tool-dashboardonboarding"
 category: "Dashboards"
 industry: "Dev Tools"
-tags: ["monochromatic", "dark mode", "high contrast", "brutalist", "terminal aesthetic", "industrial", "minimal motion", "onboarding", "workspace setup", "dense layout", "sass", "ai product"]
+tags: ["monochromatic", "dark mode", "high contrast", "brutalist", "terminal aesthetic", "industrial", "minimal motion", "onboarding", "workspace setup", "dense layout", "saas", "ai product"]
 copyCount: 14
 tryCount: 2148
 author: "Shirley Lou"
@@ -38,7 +38,7 @@ A high-density, terminal-inspired dark mode design system optimized for develope
       },
       {
         "part": "List Reduction Section",
-        "prompt": "A vertical stack of items with #33333 border-bottom. Each item is 12px mono text with a square 16px checkbox. Hovering an item reveals a red '[Kill]' tag on the far right. Checking an item triggers an immediate height-collapse to 0px."
+        "prompt": "A vertical stack of items with #333333 border-bottom. Each item is 12px mono text with a square 16px checkbox. Hovering an item reveals a red '[Kill]' tag on the far right. Checking an item triggers an immediate height-collapse to 0px."
       },
       {
         "part": "Automation & DNA Controls",

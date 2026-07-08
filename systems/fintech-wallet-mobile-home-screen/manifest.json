@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "fintech-wallet-mobile-home-screen",
+  "name": "Fintech Wallet — Mobile Home Screen",
+  "category": "Mobile Apps",
+  "industry": "Finance & Crypto",
+  "source": {
+    "type": "prompt",
+    "slug": "fintech-wallet-mobile-home-screen"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#14b896",
+      "#07795f",
+      "#eef0ef",
+      "#e9ebea",
+      "#0aa886",
+      "#1d2722",
+      "#5b6b64",
+      "#ffd166",
+      "#16a34a"
+    ],
+    "fonts": []
+  }
+}

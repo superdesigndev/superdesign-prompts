@@ -27,7 +27,7 @@ This is a reference implementation of Midnight Editorial Style
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Superdesign | AI Product Designer</title>
+    <title>Acme | AI Product Designer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <style>
@@ -158,8 +158,8 @@ This is a reference implementation of Midnight Editorial Style
             </div>
 
             <div class="absolute bottom-12 right-8 md:right-12 text-right">
-                <a href="mailto:hello@superdesign.dev" id="hero-email-link" class="text-white font-medium hover:text-[#FF6B50] transition-colors border-b-2 border-white hover:border-[#FF6B50] pb-1">
-                    hello@superdesign.dev
+                <a href="mailto:hello@example.com" id="hero-email-link" class="text-white font-medium hover:text-[#FF6B50] transition-colors border-b-2 border-white hover:border-[#FF6B50] pb-1">
+                    hello@example.com
                 </a>
             </div>
         </header>
@@ -301,8 +301,8 @@ This is a reference implementation of Midnight Editorial Style
                         LET'S<br />TALK.
                     </h2>
                     <div class="flex flex-col gap-6">
-                        <a href="mailto:hello@superdesign.dev" id="footer-email-link" class="text-3xl md:text-4xl font-semibold hover:text-[#FF6B50] transition-all w-fit">
-                            hello@superdesign.dev
+                        <a href="mailto:hello@example.com" id="footer-email-link" class="text-3xl md:text-4xl font-semibold hover:text-[#FF6B50] transition-all w-fit">
+                            hello@example.com
                         </a>
                         <p class="text-[#666666] flex items-center gap-2">
                             <iconify-icon icon="lucide:map-pin"></iconify-icon>
@@ -328,7 +328,7 @@ This is a reference implementation of Midnight Editorial Style
             </div>
 
             <div class="max-w-7xl mx-auto mt-40 pt-10 border-t border-[#111111] flex flex-col md:flex-row justify-between text-[#333333] text-[10px] font-bold uppercase tracking-widest">
-                <p>&copy; 2024 Superdesign Agency. All rights reserved.</p>
+                <p>&copy; 2024 Acme Agency. All rights reserved.</p>
                 <div class="flex gap-10 mt-6 md:mt-0">
                     <a href="#" id="footer-privacy" class="hover:text-[#666666] transition-colors">Privacy Policy</a>
                     <a href="#" id="footer-terms" class="hover:text-[#666666] transition-colors">Terms of Service</a>

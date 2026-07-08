@@ -50,7 +50,7 @@ A high-tech glassmorphism design system featuring neon lime accents, deep obsidi
       },
       {
         "part": "Footer",
-        "prompt": "Obsidian background (#000000). Top: Massive background watermark text 'SUPER' (10rem size, 5% opacity). Call to action: Oversized lime button (#ccff00) with a slide-up white background transition on hover. Bottom: 3-column footer with policy links, social icons (hollow circles), and monospaced copyright info."
+        "prompt": "Obsidian background (#000000). Top: Massive background watermark text 'ACME' (10rem size, 5% opacity). Call to action: Oversized lime button (#ccff00) with a slide-up white background transition on hover. Bottom: 3-column footer with policy links, social icons (hollow circles), and monospaced copyright info."
       }
     ]
   },

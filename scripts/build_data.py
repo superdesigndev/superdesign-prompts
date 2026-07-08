@@ -8,7 +8,7 @@ and downloads preview images. Team-only, PII-safe.
 It does NOT write the top-level README.md or repo-maintained files — that boundary is
 deliberate (README is owned by scripts/gen_readme.py). Pipeline: build_data → factor_prompts
 → gen_readme. See scripts/README.md."""
-import json, os, csv, glob, pathlib, collections, shutil, urllib.request, mimetypes
+import json, os, csv, glob, pathlib, collections, shutil, urllib.request, mimetypes, re
 
 ROOT = pathlib.Path(os.path.expanduser("~/Workspace/superdesign/superdesign-prompts-mirror"))
 LIB = "https://superdesign.dev/library"
@@ -129,6 +129,27 @@ def video_rel(slug):
 
 def slugify(s): return s.lower().replace(" & ", "--").replace(" ", "-")
 
+# Prompts where OUR brand leaks into the template content (footer wordmarks, mailto, summary).
+BRAND_STRIP = {
+    "red-noir-style", "deep-red-style-5b01cb", "glassmorphism-style",
+    "luxury-focused-design-system", "bold-editorial-style", "high-energy-onboarding",
+    "midnight-editorial-style-5f0a22",
+}
+
+def apply_patches(it):
+    """Deterministic content fixes applied post-load (survive re-syncs). Patches the prompt/tags in place."""
+    slug = it.get("slug"); pr = it.get("prompt") or ""
+    # brand-neutralize: our brand should never ship inside a reusable template
+    pr = pr.replace("hello@superdesign.dev", "hello@example.com")
+    if slug in BRAND_STRIP:
+        pr = pr.replace("SUPERDESIGN", "ACME").replace("Superdesign", "Acme")
+        pr = re.sub(r"\bSUPER\b(?!\s*[-#.:])", "ACME", pr)  # bare SUPER wordmark, not CSS/props
+    if slug == "developer-tool-dashboardonboarding":
+        pr = pr.replace("#33333 ", "#333333 ").replace("#33333;", "#333333;")
+        it["tags"] = ["saas" if t == "sass" else t for t in (it.get("tags") or [])]
+    it["prompt"] = pr
+    return it
+
 def main():
     items = json.load(open(ROOT / "data" / "all-prompts.json"))
     total = len(items)
@@ -143,6 +164,9 @@ def main():
         # indigo/blue "slop" — the exact thing we mock (Inter + indigo/blue + card grid)
         "analytics-dashboard", "luminous-ethereal-glassmorphism-onboarding",
         "linear-inspired-developer-tool-dashboard", "futuristic-sass-landing-page", "clean-fluid",
+        # broken AND thin (score <=3): compile error / trademarked copy / debug cruft / no spec
+        "radiant-prompt-input", "jelly-squish-button", "side-drawer-navigation",
+        "gsap-horizontal-scroll", "dynamic-data-display",
     }
     team = [x for x in team if x["slug"] not in EXCLUDE]
     for x in team: x["_cat"], x["_ind"], x["_s"] = page_category(x), industry(x), score(x)
@@ -175,6 +199,7 @@ def main():
 
     recs = []
     for i, it in enumerate(chosen, 1):
+        apply_patches(it)  # brand-strip + content fixes before serializing
         raw = cname(it)
         author = "Jason Zhou" if raw.lower() in ("zhou jason", "jason zhou") else (raw or "Superdesign")
         recs.append({"rank": i, "slug": it["slug"], "title": (it.get("title") or it["slug"]).strip(),

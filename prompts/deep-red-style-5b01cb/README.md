@@ -28,7 +28,7 @@ You are given a task to integrate the below html page into the current page.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Superdesign | The Design Agent</title>
+    <title>Acme | The Design Agent</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -114,7 +114,7 @@ You are given a task to integrate the below html page into the current page.
         <nav id="main-nav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-8">
             <div class="container mx-auto px-6 flex items-center justify-between">
                 <a href="#" id="nav-logo-link" class="text-2xl font-bold tracking-tighter font-serif">
-                    Superdesign.
+                    Acme.
                 </a>
                 
                 <div class="hidden md:flex items-center space-x-8">
@@ -154,7 +154,7 @@ You are given a task to integrate the below html page into the current page.
                     <div class="reveal">
                         <h1 class="text-5xl md:text-7xl font-medium leading-[1.1] tracking-tight mb-6 text-[#ffe0e0] mix-blend-overlay font-serif" 
                             style="text-shadow: 0 0 12px rgba(255,255,255,0.71);">
-                            Superdesign. <br />
+                            Acme. <br />
                             <span class="italic font-light text-[#ffe0e0]">The design agent.</span>
                         </h1>
                     </div>
@@ -277,7 +277,7 @@ You are given a task to integrate the below html page into the current page.
                 <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-12">
                     <div class="w-full md:w-auto">
                         <h2 class="text-[10vw] leading-[0.8] tracking-tighter text-white/10 font-bold select-none pointer-events-none">
-                            SUPERDESIGN.
+                            ACME.
                         </h2>
                     </div>
                     
@@ -287,7 +287,7 @@ You are given a task to integrate the below html page into the current page.
                             <a href="#" id="footer-tw-link" class="hover:text-white transition-colors">Twitter</a>
                             <a href="#" id="footer-li-link" class="hover:text-white transition-colors">LinkedIn</a>
                         </div>
-                        <p class="text-sm text-gray-600">© 2024 Superdesign. All rights reserved.</p>
+                        <p class="text-sm text-gray-600">© 2024 Acme. All rights reserved.</p>
                     </div>
                 </div>
             </div>

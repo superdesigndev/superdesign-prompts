@@ -30,7 +30,7 @@ A refined, editorial-style design system characterized by heavy geometric sans-s
     "prompts": [
       {
         "part": "Navigation",
-        "prompt": "Fixed top navigation, 80px height. Use 'SUPER TRAVEL' in bold uppercase on the left. Center menu items in 10px uppercase tracking-widest (0.2em). Far right: a pill-shaped CTA button (#e4a4bd background, #262626 text) with 32px padding-x and 12px padding-y. Apply glassmorphism effect: background rgba(253, 248, 243, 0.8) and blur(12px)."
+        "prompt": "Fixed top navigation, 80px height. Use 'ACME TRAVEL' in bold uppercase on the left. Center menu items in 10px uppercase tracking-widest (0.2em). Far right: a pill-shaped CTA button (#e4a4bd background, #262626 text) with 32px padding-x and 12px padding-y. Apply glassmorphism effect: background rgba(253, 248, 243, 0.8) and blur(12px)."
       },
       {
         "part": "Hero Section",

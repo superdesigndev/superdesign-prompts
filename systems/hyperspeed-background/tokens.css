@@ -1,0 +1,11 @@
+/* systems/hyperspeed-background/tokens.css — Hyperspeed Background
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #1A1A1B;  /* REVIEW role */
+  --fg: #F9F9F9;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Turbulent';
+  --font-body: 'Deep';
+}

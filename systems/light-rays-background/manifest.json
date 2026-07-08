@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "light-rays-background",
+  "name": "Light Rays Background",
+  "category": "Animations & Backgrounds",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "light-rays-background"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#ffffff",
+      "#00ffff",
+      "#1A1A1B"
+    ],
+    "fonts": [
+      "Atmospheric WebGL light rays background effect"
+    ]
+  }
+}

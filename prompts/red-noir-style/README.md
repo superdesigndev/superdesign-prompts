@@ -27,7 +27,7 @@ This is a reference implementation of red noir style
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Superdesign AI | Design Intelligence</title>
+    <title>Acme AI | Design Intelligence</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -144,7 +144,7 @@ This is a reference implementation of red noir style
             <nav class="max-w-5xl mx-auto flex items-center justify-between bg-black/60 backdrop-blur-xl border border-white/10 rounded-full px-6 py-3 shadow-2xl">
                 <div class="flex items-center gap-2">
                     <div class="w-5 h-5 bg-[#ef233c] rounded-sm rotate-45"></div>
-                    <span class="text-lg font-bold font-manrope tracking-tight">Superdesign</span>
+                    <span class="text-lg font-bold font-manrope tracking-tight">Acme</span>
                 </div>
                 
                 <div class="hidden md:flex items-center gap-8">
@@ -178,7 +178,7 @@ This is a reference implementation of red noir style
                             <span class="relative inline-flex rounded-full h-2 w-2 bg-[#ef233c]"></span>
                         </span>
                         <span class="text-xs font-medium text-red-100/90 tracking-wide font-manrope">
-                            Superdesign AI 2.0 is now live
+                            Acme AI 2.0 is now live
                         </span>
                         <iconify-icon icon="lucide:arrow-right" class="w-3 h-3 text-red-400"></iconify-icon>
                     </div>
@@ -196,7 +196,7 @@ This is a reference implementation of red noir style
                     </h1>
 
                     <p class="text-xl md:text-2xl text-zinc-400 max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-up" style="animation-delay: 0.3s;">
-                        Superdesign blends advanced generative algorithms with human creativity to ship world-class products 10x faster.
+                        Acme blends advanced generative algorithms with human creativity to ship world-class products 10x faster.
                     </p>
 
                     <div class="flex flex-col md:flex-row items-center justify-center gap-6 animate-fade-up" style="animation-delay: 0.4s;">
@@ -306,7 +306,7 @@ This is a reference implementation of red noir style
                         <iconify-icon icon="lucide:star" class="w-6 h-6" fill="currentColor"></iconify-icon>
                     </div>
                     <h3 class="text-3xl md:text-5xl font-bold text-black font-manrope leading-tight mb-8">
-                        "Superdesign has completely transformed how we ship products. What used to take weeks now takes hours."
+                        "Acme has completely transformed how we ship products. What used to take weeks now takes hours."
                     </h3>
                     <div class="flex items-center justify-center gap-4">
                         <div class="w-12 h-12 bg-black rounded-full overflow-hidden flex items-center justify-center">
@@ -405,7 +405,7 @@ This is a reference implementation of red noir style
                 <div class="md:col-span-2">
                     <div class="flex items-center gap-2 mb-6">
                         <div class="w-5 h-5 bg-[#ef233c] rounded-sm rotate-45"></div>
-                        <span class="text-2xl font-bold font-manrope tracking-tight">Superdesign</span>
+                        <span class="text-2xl font-bold font-manrope tracking-tight">Acme</span>
                     </div>
                     <p class="text-zinc-500 max-w-xs leading-relaxed">Pioneering the future of digital product design with artificial intelligence and human-centered design principles.</p>
                 </div>
@@ -433,11 +433,11 @@ This is a reference implementation of red noir style
 
             <!-- Huge Footer Text -->
             <div class="flex justify-center items-center py-10 opacity-20 pointer-events-none">
-                <h1 class="text-[15vw] leading-none font-bold font-manrope tracking-tighter text-stroke select-none">SUPERDESIGN</h1>
+                <h1 class="text-[15vw] leading-none font-bold font-manrope tracking-tighter text-stroke select-none">ACME</h1>
             </div>
 
             <div class="max-w-7xl mx-auto px-6 border-t border-zinc-900 pt-8 flex flex-col md:flex-row items-center justify-between text-zinc-600 text-[10px] uppercase tracking-widest">
-                <p>&copy; 2024 Superdesign AI Inc. All rights reserved.</p>
+                <p>&copy; 2024 Acme AI Inc. All rights reserved.</p>
                 <div class="flex gap-6 mt-4 md:mt-0">
                     <a href="#" id="social-twitter-link" class="hover:text-zinc-400">Twitter</a>
                     <a href="#" id="social-linkedin-link" class="hover:text-zinc-400">LinkedIn</a>
