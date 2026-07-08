@@ -14,7 +14,9 @@ try_url: "https://superdesign.dev/library/pill-nav?utm_source=github&utm_medium=
 
 A premium, minimalist pill-shaped navigation component with GSAP-powered hover effects, rotating logo animation, and responsive mobile menu. Features a unique 'rising circle' background effect on hover.
 
-<img src="preview.mp4" alt="Pill Nav" width="640">
+<img src="preview.png" alt="Pill Nav" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

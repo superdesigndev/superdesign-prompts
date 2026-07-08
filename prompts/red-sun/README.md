@@ -14,7 +14,9 @@ try_url: "https://superdesign.dev/library/red-sun?utm_source=github&utm_medium=p
 
 A sophisticated editorial-style design system named 'Red Sun', characterized by a high-contrast 'Coral and Ink' color palette. This style blends 'Instrument Serif' for high-impact typography with 'Manrope' for technical precision. Features include bento-grid layouts, glassmorphism navigation, scroll-triggered animations with subtle rotations, and soft ambient background blurs. Ideal for premium SaaS, creative agencies, AI product design tools, and fintech platforms looking for a balance between warmth and authority.
 
-<img src="preview.mp4" alt="Red sun" width="640">
+<img src="preview.png" alt="Red sun" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

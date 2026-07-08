@@ -14,7 +14,9 @@ try_url: "https://superdesign.dev/library/glassmorphism-card?utm_source=github&u
 
 A premium, high-tech glassmorphism design system characterized by deep translucent layers, dark-to-light transitions, and editorial typography. Featuring a 'Superdesign' aesthetic, it utilizes heavy background blurs, grain textures, and emerald accents. This style is ideal for SaaS, AI platforms, fintech, and high-end design agencies requiring a sophisticated, futuristic feel with bento-grid layouts and fluid animations.
 
-<img src="preview.mp4" alt="Glassmorphism card" width="640">
+<img src="preview.png" alt="Glassmorphism card" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

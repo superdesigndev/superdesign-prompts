@@ -14,7 +14,9 @@ try_url: "https://superdesign.dev/library/rolodex-text?utm_source=github&utm_med
 
 A text component that cycles through words with a 3D physical slot machine/Rolodex flip animation. Features left-aligned text for inline use and preserved 3D perspective.
 
-<img src="preview.mp4" alt="Rolodex Text" width="640">
+<img src="preview.png" alt="Rolodex Text" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

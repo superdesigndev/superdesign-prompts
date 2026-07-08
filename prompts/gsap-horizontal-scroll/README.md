@@ -12,7 +12,9 @@ try_url: "https://superdesign.dev/library/gsap-horizontal-scroll?utm_source=gith
 
 # GSAP Horizontal scroll
 
-<img src="preview.mp4" alt="GSAP Horizontal scroll" width="640">
+<img src="preview.png" alt="GSAP Horizontal scroll" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

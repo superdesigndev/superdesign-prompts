@@ -14,7 +14,9 @@ try_url: "https://superdesign.dev/library/exploded-view-assembly?utm_source=gith
 
 A scroll-driven animation where a central product or UI element explodes into its constituent parts and then reassembles into a new layout. Perfect for 'how it works' or feature breakdown sections.
 
-<img src="preview.mp4" alt=""Exploded View" Assembly" width="640">
+<img src="preview.png" alt=""Exploded View" Assembly" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

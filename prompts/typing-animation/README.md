@@ -14,7 +14,9 @@ try_url: "https://superdesign.dev/library/typing-animation?utm_source=github&utm
 
 A typing animation component that reveals each character of a headline with a 50ms delay, featuring a minimalist showcase and replay functionality.
 
-<img src="preview.mp4" alt="Typing animation" width="640">
+<img src="preview.png" alt="Typing animation" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

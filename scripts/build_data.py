@@ -111,8 +111,17 @@ def download(url, dest):
         print(f"    ! img fail {url[:45]}: {e}"); return False
 
 def img_rel(slug):
-    h = glob.glob(str(ROOT / "prompts" / slug / "preview.*"))
+    # Prefer a still image (renders in <img> everywhere); fall back to whatever exists.
+    d = ROOT / "prompts" / slug
+    for ext in ("png", "jpg", "jpeg", "webp", "gif"):
+        if (d / f"preview.{ext}").exists():
+            return f"prompts/{slug}/preview.{ext}"
+    h = glob.glob(str(d / "preview.*"))
     return f"prompts/{slug}/{pathlib.Path(h[0]).name}" if h else None
+
+def video_rel(slug):
+    p = ROOT / "prompts" / slug / "preview.mp4"
+    return f"prompts/{slug}/preview.mp4" if p.exists() else None
 
 def slugify(s): return s.lower().replace(" & ", "--").replace(" ", "-")
 
@@ -156,7 +165,8 @@ def main():
                      "category": it["_cat"], "industry": it["_ind"], "tags": it.get("tags") or [],
                      "description": (it.get("description") or "").strip(), "prompt": (it.get("prompt") or "").strip(),
                      "copyCount": it.get("copyCount") or 0, "tryCount": it.get("tryCount") or 0,
-                     "try_url": try_url(it["slug"]), "preview": img_rel(it["slug"]), "author": author})
+                     "try_url": try_url(it["slug"]), "preview": img_rel(it["slug"]),
+                     "video": video_rel(it["slug"]), "author": author})
 
     # ---- per-prompt README ----
     for r in recs:
@@ -166,6 +176,7 @@ def main():
         b = ["---", *[f"{k}: {json.dumps(v)}" for k, v in fm.items()], "---", "", f"# {r['title']}", ""]
         if r["description"]: b += [r["description"], ""]
         if r["preview"]: b += [f'<img src="{pathlib.Path(r["preview"]).name}" alt="{r["title"]}" width="640">', ""]
+        if r.get("video"): b += [f'▶ **[Watch the animated preview]({pathlib.Path(r["video"]).name})** (MP4)', ""]
         b += ["## Prompt", "", "```text", r["prompt"], "```", "",
               f"**▶ Try it live → [{LIB}/{r['slug']}]({r['try_url']})**", "",
               f"**Use it in your coding agent:** install the [Superdesign skill]({SKILL}), then:", "",
@@ -176,7 +187,7 @@ def main():
 
     # ---- machine-readable exports ----
     slim = [{k: r[k] for k in ("rank", "slug", "title", "category", "industry", "tags", "description",
-             "copyCount", "tryCount", "try_url", "preview", "author", "prompt")} for r in recs]
+             "copyCount", "tryCount", "try_url", "preview", "video", "author", "prompt")} for r in recs]
     (ROOT / "prompts.json").write_text(json.dumps(slim, indent=2))
     with open(ROOT / "prompts.csv", "w", newline="") as f:
         w = csv.writer(f); w.writerow(["rank", "slug", "title", "category", "industry", "tags",

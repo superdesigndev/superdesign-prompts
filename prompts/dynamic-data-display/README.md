@@ -12,7 +12,9 @@ try_url: "https://superdesign.dev/library/dynamic-data-display?utm_source=github
 
 # Dynamic Data Display
 
-<img src="preview.mp4" alt="Dynamic Data Display" width="640">
+<img src="preview.png" alt="Dynamic Data Display" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

@@ -14,7 +14,9 @@ try_url: "https://superdesign.dev/library/scroll-journey-line?utm_source=github&
 
 An SVG line connector that animates/draws itself based on the user's scroll percentage using Framer Motion.
 
-<img src="preview.mp4" alt="Scroll Journey Line" width="640">
+<img src="preview.png" alt="Scroll Journey Line" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

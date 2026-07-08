@@ -16,7 +16,9 @@ An elegant card swapping animation component with depth perception and perspecti
 
 Source: ReactBits
 
-<img src="preview.mp4" alt="Card Swap" width="640">
+<img src="preview.png" alt="Card Swap" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

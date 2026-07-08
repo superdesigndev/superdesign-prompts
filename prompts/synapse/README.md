@@ -14,7 +14,9 @@ try_url: "https://superdesign.dev/library/synapse?utm_source=github&utm_medium=p
 
 A high-performance 'neural' dark mode design system characterized by deep black backgrounds (#030303), vibrant neon accents in violet (#8B5CF6) and cyan (#06B6D4), and a sophisticated blend of editorial serif typography (Instrument Serif) with functional sans-serif (Inter). The style utilizes glassmorphism, animated mesh gradients, and 'shimmer' text effects to evoke a sense of advanced intelligence, encryption, and institutional-grade technology. Ideal for Fintech, AI, Cybersecurity, and Web3 verticals where speed, security, and technical sophistication are core values.
 
-<img src="preview.mp4" alt="Synapse" width="640">
+<img src="preview.png" alt="Synapse" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

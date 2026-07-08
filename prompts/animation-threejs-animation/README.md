@@ -14,7 +14,9 @@ try_url: "https://superdesign.dev/library/animation-threejs-animation?utm_source
 
 Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.
 
-<img src="preview.mp4" alt="Animation / Threejs animation" width="640">
+<img src="preview.png" alt="Animation / Threejs animation" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

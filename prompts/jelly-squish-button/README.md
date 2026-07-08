@@ -16,7 +16,9 @@ A high-fidelity interactive 3D jelly simulation that responds to vertical draggi
 
 Source: https://codepen.io/cerpow/pen/LEZYxqM
 
-<img src="preview.mp4" alt="Jelly Squish Button" width="640">
+<img src="preview.png" alt="Jelly Squish Button" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

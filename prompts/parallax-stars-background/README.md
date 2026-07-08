@@ -14,7 +14,9 @@ try_url: "https://superdesign.dev/library/parallax-stars-background?utm_source=g
 
 A mesmerizing space-themed background with animated parallax pixel stars and a radial gradient atmosphere. Features three layers of stars moving at different speeds to create depth.
 
-<img src="preview.mp4" alt="Parallax Stars Background" width="640">
+<img src="preview.png" alt="Parallax Stars Background" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 

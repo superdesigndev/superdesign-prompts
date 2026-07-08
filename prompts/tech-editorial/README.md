@@ -14,7 +14,9 @@ try_url: "https://superdesign.dev/library/tech-editorial?utm_source=github&utm_m
 
 A high-end 'Tech Editorial' aesthetic that merges brutalist precision with classic editorial sophistication. It features a muted, paper-like color palette (#f7f6f2), a structured grid-line system, and a unique pairing of high-contrast Serif (Playfair Display) for display headers and technical Mono (Space Mono) for functional UI. The style is characterized by scroll-triggered text reveals, glassmorphism navigation, and 'scan-line' animations that suggest a sophisticated AI-driven process. Ideal for high-tech SaaS, AI research labs, design agencies, and premium fintech platforms.
 
-<img src="preview.mp4" alt="Tech Editorial" width="640">
+<img src="preview.png" alt="Tech Editorial" width="640">
+
+▶ **[Watch the animated preview](preview.mp4)** (MP4)
 
 ## Prompt
 
