@@ -54,6 +54,6 @@ Build a Dashboard using the "<system-id>" design system
 - [Volt — Electric-Lime Fitness Dashboard](../../prompts/volt-electric-lime-fitness-dashboard-a7544c/) · design 8/10 · 2,343 runs
 - [Developer tool dashboard/onboarding](../../prompts/developer-tool-dashboardonboarding/) · design 8/10 · 2,148 runs
 - [Modular Card Dashboard](../../prompts/modular-card-dashboard/) · design 7/10 · 1,970 runs
+- [Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)](../../prompts/ledgerline-deep-teal-mint-fintech-startup-dashboard-hero/) · design 7/10 · 1,915 runs
 - [Tablekit — The data table your team actually wants to live in](../../prompts/tablekit-the-data-table-your-team-actually-wants-to-live-in/) · design 5/10 · 2,256 runs
 - [Workspace Settings · Formcraft (two-column, cobalt)](../../prompts/workspace-settings-formcraft-two-column-cobalt/) · design 5/10 · 1,929 runs
-- [Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)](../../prompts/ledgerline-deep-teal-mint-fintech-startup-dashboard-hero/) · design 5/10 · 1,915 runs

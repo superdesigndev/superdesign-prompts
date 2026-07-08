@@ -879,5 +879,25 @@
       "inter-primary",
       "indigo-blue-accent"
     ]
+  },
+  "counter": {
+    "deslop_score": 3,
+    "flags": [
+      "thin-interaction",
+      "inter-primary"
+    ]
+  },
+  "enterprise-admin-platform": {
+    "deslop_score": 5,
+    "flags": [
+      "inter-primary",
+      "indigo-blue-accent"
+    ]
+  },
+  "ledgerline-deep-teal-mint-fintech-startup-dashboard-hero": {
+    "deslop_score": 7,
+    "flags": [
+      "inter-primary"
+    ]
   }
 }

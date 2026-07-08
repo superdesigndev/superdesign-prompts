@@ -25,9 +25,9 @@ Build a Component using the "<system-id>" design system
 
 ## Reference prompts (best-designed first)
 
-- [Counter](../../prompts/counter/) · design 5/10 · 2,445 runs
 - [Hyper-Speed Loading State](../../prompts/hyper-speed-loading-state/) · design 5/10 · 2,182 runs
 - [Pill Nav](../../prompts/pill-nav/) · design 4/10 · 2,207 runs
+- [Counter](../../prompts/counter/) · design 3/10 · 2,445 runs
 - [Shiny Text](../../prompts/shiny-text/) · design 2/10 · 2,480 runs
 - [Interactive Card Stack](../../prompts/interactive-card-stack/) · design 2/10 · 2,469 runs
 - [Interactive Folder](../../prompts/interactive-folder/) · design 2/10 · 2,439 runs
