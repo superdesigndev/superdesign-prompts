@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "editorial-feature-announcement",
+  "name": "Editorial Feature Announcement",
+  "category": "Other",
+  "industry": "AI & Tech",
+  "source": {
+    "type": "prompt",
+    "slug": "editorial-feature-announcement"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#F7F5F0",
+      "#111111",
+      "#444444"
+    ],
+    "fonts": [
+      "Paper and Ink",
+      "Inter",
+      "Fraunces",
+      "JetBrains Mono"
+    ]
+  }
+}

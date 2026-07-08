@@ -1,7 +1,7 @@
 # Page type — Waitlist & Coming Soon
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 10 prompts in this repo.
+> Aggregated from 9 prompts in this repo.
 
 ## What this page type is
 
@@ -59,4 +59,3 @@ Build a Waitlist & Coming Soon using the "<system-id>" design system
 - [Architectural Type System Style](../../prompts/architectural-type-system-style/) · 354 copies
 - [Gen-Z Social App](../../prompts/gen-z-social-app/) · 224 copies
 - [Apple-inspired Waitlist](../../prompts/apple-inspired-waitlist/) · 16 copies
-- [Momentum — Ship Your Startup Launch Before the Idea Cools](../../prompts/momentum-ship-your-startup-launch-before-the-idea-cools/) · 0 copies

@@ -1,6 +1,6 @@
 # Design System — Enterprise Admin Platform
 
-> Category: Dashboards  ·  Industry: SaaS
+> Category: Forms & Contact  ·  Industry: SaaS
 > Auto-scaffolded from prompt [`enterprise-admin-platform`](../../prompts/enterprise-admin-platform/). Fields marked
 > `REVIEW` were best-effort extracted and should be verified.
 

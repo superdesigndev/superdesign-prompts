@@ -1,7 +1,7 @@
 ---
 title: "Chrome Extension Landing Page"
 slug: "chrome-extension-landing-page"
-category: "E-commerce"
+category: "Landing Pages"
 industry: "Dev Tools"
 tags: ["chrome extension", "landing page", "gray", "high contrast", "browser native", "developer tool", "minimalist", "macos", "chrome", "teal accent", "blue accent", "sass landing", "style", "product launch"]
 copyCount: 592
@@ -77,4 +77,4 @@ A browser-native developer tool aesthetic characterized by a 'system interface' 
 superdesign get-prompts --slugs "chrome-extension-landing-page" --json
 ```
 
-*592 copies · 2,430 tries · E-commerce · Dev Tools · chrome extension, landing page, gray, high contrast*
+*592 copies · 2,430 tries · Landing Pages · Dev Tools · chrome extension, landing page, gray, high contrast*

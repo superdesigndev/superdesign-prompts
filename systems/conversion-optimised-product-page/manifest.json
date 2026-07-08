@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "conversion-optimised-product-page",
+  "name": "Conversion-optimised Product Page",
+  "category": "E-commerce",
+  "industry": "E-commerce & Retail",
+  "source": {
+    "type": "prompt",
+    "slug": "conversion-optimised-product-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FFFFFF",
+      "#F5F5F5",
+      "#111827",
+      "#E5E7EB",
+      "#F9FAFB",
+      "#6B7280",
+      "#D1D5DB"
+    ],
+    "fonts": [
+      "General Sans"
+    ]
+  }
+}

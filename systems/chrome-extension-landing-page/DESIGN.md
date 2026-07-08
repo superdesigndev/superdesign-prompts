@@ -1,6 +1,6 @@
 # Design System — Chrome Extension Landing Page
 
-> Category: E-commerce  ·  Industry: Dev Tools
+> Category: Landing Pages  ·  Industry: Dev Tools
 > Auto-scaffolded from prompt [`chrome-extension-landing-page`](../../prompts/chrome-extension-landing-page/). Fields marked
 > `REVIEW` were best-effort extracted and should be verified.
 

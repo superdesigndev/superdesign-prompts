@@ -1,0 +1,15 @@
+/* systems/conversion-optimised-product-page/tokens.css — Conversion-optimised Product Page
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #FFFFFF;  /* REVIEW role */
+  --fg: #F5F5F5;  /* REVIEW role */
+  --accent: #111827;  /* REVIEW role */
+  --surface: #E5E7EB;  /* REVIEW role */
+  --muted: #F9FAFB;  /* REVIEW role */
+  --border: #6B7280;  /* REVIEW role */
+  --color-7: #D1D5DB;
+  /* --- typography --- */
+  --font-display: 'General Sans';
+}

@@ -6,20 +6,22 @@
 
 <div align="center">
 <!-- STATS:START -->
-  <b>150 top prompts</b> · <b>333K tries</b> · <b>57K copies</b> — hand-picked and category-balanced from a <b>964-prompt live library</b> with <b>1.7M+ tries</b>.<br>
+  <b>150 top prompts</b> · <b>334K tries</b> · <b>56K copies</b> — hand-picked and category-balanced from a <b>964-prompt live library</b> with <b>1.7M+ tries</b>.<br>
   Browse all and run any live at <b><a href="https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">superdesign.dev/library</a></b>.
 <!-- STATS:END -->
 </div>
 
 ## Why your AI UI looks generic (and how to fix it)
 
-AI-generated UI all looks the same because the agent has **no taste to anchor to** — so it reaches for the same fonts, the same card grid, the same indigo-500. Every prompt here is a **full design spec** (exact colors, type, spacing, motion, layout), and each shows its **real usage** (copies + tries) so you can see what builders actually reach for. Hand one to your agent and it builds to a real spec instead of a default.
+AI-generated UI all looks the same because the agent has **no taste to anchor to** — so it reaches for the same fonts, the same card grid, the same indigo-500. Most prompts here are a **full design spec** (exact colors, type, spacing, motion, layout); a handful are drop-in interactions and effects. Each shows its **real usage** (copies + tries) so you can see what builders actually reach for. Hand one to your agent and it builds to a real spec instead of a default.
 
 ## How to use these — 3 ways to de-slop
 
 **1. Copy → paste into your agent** (zero setup, works everywhere)
 Find a look below, open it, copy the prompt, then tell Claude Code / Cursor:
 > *"Redesign my dashboard using this design spec: [paste]"*
+
+*Tip: some specs name specific fonts (e.g. Sora, Satoshi, Space Grotesk). Install them, or tell your agent to substitute the closest Google/system font so it doesn't silently fall back to Arial.*
 
 **2. Install the skill** (best — your agent picks and applies it for you)
 ```bash
@@ -109,10 +111,12 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 | 5 | **[Red Noir Style](prompts/red-noir-style/)** | Design Systems & Styles | 2,162 | 2,234 | [▶ Try live](https://superdesign.dev/library/red-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 | 6 | **[Softly - Digital Wellness App](prompts/softly-digital-wellness-app/)** | Waitlist & Coming Soon | 1,896 | 1,527 | [▶ Try live](https://superdesign.dev/library/softly-digital-wellness-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 | 7 | **[Glassmorphism Style](prompts/glassmorphism-style/)** | Design Systems & Styles | 1,713 | 2,451 | [▶ Try live](https://superdesign.dev/library/glassmorphism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 8 | **[Mosaic Grid Architecture Style](prompts/mosaic-grid-architecture-style/)** | E-commerce | 1,688 | 2,122 | [▶ Try live](https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 8 | **[Mosaic Grid Architecture Style](prompts/mosaic-grid-architecture-style/)** | Design Systems & Styles | 1,688 | 2,122 | [▶ Try live](https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 | 9 | **[Kinetic Orange Style](prompts/kinetic-orange-style/)** | Design Systems & Styles | 1,613 | 1,624 | [▶ Try live](https://superdesign.dev/library/kinetic-orange-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 | 10 | **[Brutalist E-commerce Page](prompts/brutalist-e-commerce-page/)** | E-commerce | 1,571 | 1,531 | [▶ Try live](https://superdesign.dev/library/brutalist-e-commerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 <!-- LEADERBOARD:END -->
+
+<sub>**Copies** = the prompt text was copied · **Tries** = it was generated on the canvas. Both are real product events — some prompts are *tried* far more than *copied*, so a low copy count doesn't mean low usage.</sub>
 
 ## Browse
 

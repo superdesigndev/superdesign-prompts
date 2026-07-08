@@ -1,6 +1,6 @@
 # Design System — Graphic Comparison Report
 
-> Category: E-commerce  ·  Industry: SaaS
+> Category: Landing Pages  ·  Industry: SaaS
 > Auto-scaffolded from prompt [`graphic-comparison-report`](../../prompts/graphic-comparison-report/). Fields marked
 > `REVIEW` were best-effort extracted and should be verified.
 

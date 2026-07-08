@@ -2,7 +2,7 @@
   "schemaVersion": "sd-design-system/v1",
   "id": "enterprise-admin-platform",
   "name": "Enterprise Admin Platform",
-  "category": "Dashboards",
+  "category": "Forms & Contact",
   "industry": "SaaS",
   "source": {
     "type": "prompt",

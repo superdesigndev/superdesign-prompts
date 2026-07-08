@@ -1239,7 +1239,7 @@ A high-tech glassmorphism design system featuring neon lime accents, deep obsidi
 ---
 
 ## 7. Mosaic Grid Architecture Style
-`E-commerce` · `AI & Tech` · 1,688 copies · [try live](https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Design Systems & Styles` · `AI & Tech` · 1,688 copies · [try live](https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An architectural, technical-blueprint style design system featuring a minimalist mosaic grid, forest green (#1A3C2B) and light-gray paper-textured (#F7F7F5) palette. Optimized for B2B SaaS, developer tools, and high-end agency portfolios. Key features include editorial typography with Space Grotesk, JetBrains Mono labels, bento grid layouts, and 2D flat wireframe aesthetics with zero shadows.
 
@@ -3140,7 +3140,7 @@ Here is a reference implementation:
 ---
 
 ## 27. Chrome Extension Landing Page
-`E-commerce` · `Dev Tools` · 592 copies · [try live](https://superdesign.dev/library/chrome-extension-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Landing Pages` · `Dev Tools` · 592 copies · [try live](https://superdesign.dev/library/chrome-extension-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A browser-native developer tool aesthetic characterized by a 'system interface' look rather than a marketing landing page. This style features a light-neutral base with a vibrant cyan (#06B6D4) accent, mimicking the layout of Chrome DevTools or a workspace IDE. It uses a combination of Inter for primary readability and JetBrains Mono for technical labels and commands. Suitable for SaaS, developer tools, extensions, and technical platforms requiring a high-density, utility-focused layout with scroll-triggered panel reveals and simulated interactive environments.
 
@@ -9469,19 +9469,8 @@ Features include a reading progress indicator, drop-cap styling, and a grayscale
 
 ---
 
-## 65. Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)
-`Pricing Pages` · `Dev Tools` · 3 copies · [try live](https://superdesign.dev/library/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A Swiss-grid SaaS marketing homepage: stark white paper, near-black ink, one signal-red accent, an oversized two-line hero, an embedded prompt-to-canvas product mock, a hover-invert feature grid, a dark variant-tile workflow split, a 3-tier pricing block with an inverted Pro card, and a hairline-celled mega footer.
-
-```text
-{"summary": "Build a Swiss-grid SaaS marketing homepage on a stark white paper canvas with near-black ink type and a single signal-red accent. The whole page is a visible 12-column grid drawn with 1px hairlines: a sticky nav, an oversized two-line hero, an embedded 'canvas' product mock (prompt rail + artboard), a trusted-by logo strip, a 6-cell feature grid that inverts to black on hover, a dark workflow split with a 6-tile variant grid, a 4-up stats row, a 3-tier pricing block with one inverted dark Pro card, a full-bleed signal-red CTA band, and a hairline-celled mega footer.", "style": {"description": "International Typographic Style (Swiss design) for a developer tool: pure white paper, near-black ink, and exactly one signal red used surgically for the accent word, primary CTAs, indicator dots, the Popular badge and the CTA band. The page is built as an explicit 12-column grid where every section sits inside drawn 1px hairlines, so the structure itself is the decoration. Inter does all the work across nine weights, set very tight on display type; tabular numbers for stats and prices; uppercase wide-tracked micro-labels and a mono register for metadata. No gradients, no shadows, no rounded corners. Black-on-white that flips to white-on-black on hover and in the Pro/workflow/CTA panels.", "prompt": "Swiss / International Typographic Style, stark and grid-driven. Palette is three tokens only: ink #0a0a0a (near-black, all primary text + dark panels), paper #ffffff (page + inverted text), and signal #ff3b30 (the single accent: hero accent word 'prompt.', primary CTAs, the New chip, indicator dots, the Popular badge, stat unit marks, the full CTA band, and ::selection background with white text). Hairlines are the system: light hairline rgba(10,10,10,0.12) on white, dark hairline rgba(255,255,255,0.14) on the black panels, applied as top/bottom/left/right 1px borders to draw every cell. Secondary surface is #fafafa (artboard well) and #111 (mini variant tiles inside the dark split). Text uses graded ink opacity: body ink/70, muted ink/55-60, micro ink/35-45; on dark panels paper/55-80. Typography: Inter only (Google Fonts, weights 300-900), font-extrabold/900 for all display. Tracking classes: tt = -0.02em, tt-tight = -0.045em (giant headlines, set leading 0.92), tt-wide = 0.22em uppercase (eyebrows, micro-labels). font-mono register (ui monospace) for metadata like '12-col / 1240', section run-labels and footer copyright; tabular-nums for stats, prices and step numbers. Strictly NO gradients, NO drop shadows, NO border-radius (only the tiny indicator dots are rounded-full). Mood: precise, editorial, engineered, confident; the visible grid IS the aesthetic."}, "layout_and_structure": {"description": "A max-w-[1240px] container with px-6, and a reusable 12-column grid (grid-template-columns: repeat(12,1fr)) that every section snaps to. Sections are separated and bounded by 1px hairlines (hair-t/b/l/r) so the page reads as one continuous ledger of cells. The hero, feature grid, dark split, stats, pricing and footer all reuse the same column math and hairline cells. Responsive: the 12-col layout collapses to col-span-12 stacks on mobile, feature grid goes 1->2->3 columns, footer link columns go 4-up to 2-up, hero CTAs and sub-copy reflow under the headline.", "prompts": [{"part": "Sticky nav", "prompt": "position: sticky, top 0, z-50, bg paper at 90% with backdrop-blur-md and a bottom hairline. Inside the 1240 container, a 12-col grid, h-16, items-center: logo (col-span-3) = a 24px ink square containing a 10px signal-red square, then 'Gridwright' in extrabold tt-tight 15px. Center nav (col-span-6, justify-center, hidden on mobile) = 5 medium 13px links (Product, Library, Customers, Pricing, Docs) in ink/70 with hover:text-ink. Right (col-span-3, justify-end) = a 'Sign in' text link plus a solid ink 'Start free' button with a lucide:arrow-right that hover:bg-signal and nudges the arrow on hover."}, {"part": "Hero", "prompt": "Section with a bottom hairline and a faint full-bleed 28px square baseline grid behind (mark-grid at opacity 0.5). col-span-12, pt-20/28 pb-14/20. Eyebrow row: a hairline-bounded pill 'New | v3 / Canvas + agent' with the 'New' tag on a signal-red chip, plus a muted mono label 'SaaS Website Design'. Oversized two-line headline in tt-tight extrabold, leading 0.92, fluid 12vw up to 124px: line 1 'Design the web,' / line 2 'type the ' + signal-red 'prompt.'. Sub row is a nested 12-col grid: a 5-col light-weight 18px paragraph on the left, and on the right (col-start-9, 4-col, justify-end) two buttons: solid signal-red 'Start designing' (hover:bg-ink) and a hairline-outlined 'Watch demo' with a lucide:play (hover inverts to ink/paper)."}, {"part": "Embedded canvas product mock", "prompt": "Inside the container, a paper card bounded by top/left/right hairlines simulating the app canvas. Toolbar row (12-col, bottom hairline): left 'untitled / landing-v4' label + mono '12-col / 1240'; right has mono '100%', two 28px square outline icon buttons (grid-3x3, maximize-2) and a solid ink 'Generating' pill with a signal-red dot. Body is a 12-col grid: left 'Prompt' rail (col-span-3, right hairline) with an uppercase micro-label, a quoted prompt string, a hairline divider, and a 'Variants' list (A / B / C) where the active row shows a signal-red dot. Right artboard (col-span-9) on a #fafafa well holds a hairline mini-page wireframe built from ink-opacity bars + one signal-red block, a 7/5 split hero, and a 3-up feature card row, all using mark-grid texture and hairline cells."}, {"part": "Trusted-by logo strip", "prompt": "A 12-col row inside left/right/top hairlines: a 3-col uppercase micro-label 'Trusted by teams at' (right hairline), then a 9-col grid of 5 logo cells (2->3->5 columns) each a hairline-celled box with an iconify mark (vercel, hexagon, command, aperture, box) + a 13px semibold wordmark, all in muted ink/55."}, {"part": "Feature grid (6 cells)", "prompt": "Section header first: a 12-col block inside left/right hairlines with a 3-col signal-red eyebrow '01 / Capabilities' + mono 'build -> iterate -> ship', and a 9-col area with a tt-tight extrabold 52px h2 and a light intro paragraph. Then the feature grid: 6 cells in a 1->2->3 column layout, each cell bounded by hairlines, p-6/8. Each cell = a 24px signal-red lucide icon top-left, a mono index (01..06) top-right, an 19px bold title, and an ink/60 paragraph. Signature interaction: each cell has group hover:bg-ink hover:text-paper (full black invert on hover) with the muted text shifting to paper/60. Features: Infinite canvas, Prompt to UI, Agent-driven, Prompt library, Clean export, Real-time rooms."}, {"part": "Dark workflow split", "prompt": "Full bg-ink text-paper section using dark hairlines (hd-*). 12-col grid: left (col-span-5, right dark hairline) = signal-red eyebrow '02 / Workflow', a tt-tight extrabold 44px h2 'From a sentence to a system, on one surface.', a light paper/55 paragraph, then a 3-step list separated by dark hairlines (each step = signal-red mono number + semibold label), then a solid signal-red 'Browse the library' button (hover:bg-paper hover:text-ink). Right (col-span-7) = a 6-tile variant grid (2->3 cols) on a 1px paper/12 gap-grid; each tile is a #111 mini-artboard aspect-[3/4] labelled A grid / B cards / C stack / D hero / E docs / F price, built from paper-opacity bars, hairline mini-cells, a 12px grid-texture panel, and signal-red highlight blocks/dots to show the 'selected' variant."}, {"part": "Stats row", "prompt": "A single hairline-bounded row, 2->4 columns, each stat cell separated by hairlines, p-6/10. Each = a huge tt-tight extrabold tabular-nums number (44->64px, leading-none) with the unit accented in signal-red where present (2.4M, 99.9%), and an uppercase wide-tracked ink/45 caption. Stats: 57k Designers building, 2.4M Screens generated, 11s Avg. prompt to draft, 99.9% Canvas uptime."}, {"part": "Pricing (3 tiers)", "prompt": "12-col grid inside left/right hairlines. Left header (col-span-3, right hairline): signal-red eyebrow '03 / Pricing', tt-tight extrabold 40px h2 'Simple, scales with you.', a light note, and a hairline-bounded Annual/Monthly segmented toggle (Annual on an ink fill). Right (col-span-9) = 3 tier columns separated by hairlines. Solo $0/mo and Team $60/seat are white cells with ink check icons and hairline-outlined buttons. The middle Pro $20/mo card is inverted (bg-ink text-paper): a signal-red 'Popular' badge pinned top-right, a signal-red 'Pro' eyebrow, signal-red check icons, and a solid signal-red 'Start Pro' button (hover:bg-paper hover:text-ink). Prices use tabular-nums."}, {"part": "CTA band", "prompt": "Full-bleed bg-signal (signal red) text-paper section with a bottom hairline. 12-col items-center: an 8-col tt-tight extrabold 52px two-line headline 'Type the prompt. / Ship the page.', and a 4-col right-aligned solid ink 'Start designing free' button with a lucide:arrow-right (hover:bg-paper hover:text-ink, arrow nudges)."}, {"part": "Mega footer", "prompt": "bg-paper footer, 12-col grid inside left/right hairlines. Brand block (col-span-4, right hairline): the square logo mark + wordmark, a light tagline, and a social row (twitter, github, youtube) with hover:text-signal. Then four 2-col link columns (Product, Company, Resources, Legal) separated by hairlines, each a 10px uppercase micro-title over 13px ink/65 links that hover:text-signal. Bottom bar: a top+bottom hairline 12-col row with mono '(c) 2026 Gridwright Labs Inc.' left and uppercase mono 'Designed on a 12-column grid' right."}]}, "special_ui_components": [{"component": "Hairline 12-column grid system", "description": "The defining device: a reusable .grid12 (12 equal columns) plus .hair-t/b/l/r and .hd-t/b/l/r utilities that draw 1px borders (rgba(10,10,10,0.12) on white, rgba(255,255,255,0.14) on black). Every section, card, stat, tier, logo and footer column is a bounded cell, so the structural grid itself is the visual style. Faint mark-grid (28px square line texture) sits behind the hero and inside the mock artboards."}, {"component": "Square logo mark", "description": "A 24px solid ink square containing a centered 10px signal-red square, paired with the 'Gridwright' wordmark in extrabold tt-tight. Reused identically in the nav and the footer."}, {"component": "Embedded canvas / app mock", "description": "An in-page recreation of the product canvas: a toolbar (file label, zoom %, square icon buttons, a 'Generating' status pill with a red dot), a left Prompt rail with a quoted prompt and an A/B/C variants list (active = red dot), and a right #fafafa artboard holding a hairline wireframe of a landing page (opacity bars + one red block + mark-grid texture)."}, {"component": "Hover-invert feature cells", "description": "Each of the 6 feature cells flips from black-on-white to white-on-black on hover (group hover:bg-ink hover:text-paper), with the red icon staying red and the muted body text easing to paper/60. Each carries a red lucide icon and a mono index number (01-06)."}, {"component": "Variant mini-artboard grid", "description": "On the dark split, a 6-tile grid of #111 aspect-[3/4] cards (A grid, B cards, C stack, D hero, E docs, F price) on a 1px paper/12 hairline gap-grid, each abstractly rendering a layout from paper-opacity bars, hairline mini-cells and signal-red highlight blocks/dots marking the selected option."}, {"component": "Inverted Pro pricing card", "description": "The middle of three tier columns is the only inverted card: bg-ink text-paper with a red 'Popular' badge pinned to the top-right corner, a red 'Pro' eyebrow, red check bullets, and a solid red 'Start Pro' CTA that inverts to paper-on-ink on hover. The outer Solo/Team cards stay white with ink checks and hairline-outlined buttons."}, {"component": "Segmented Annual/Monthly toggle", "description": "A hairline-bounded inline segmented control where the active segment ('Annual') is a solid ink fill with paper text and the inactive segment ('Monthly') is ink/50, no rounding, matching the square Swiss aesthetic."}], "special_notes": "Strict three-token palette: ink #0a0a0a, paper #ffffff, signal #ff3b30 only. Light hairline rgba(10,10,10,0.12), dark-panel hairline rgba(255,255,255,0.14); secondary surfaces #fafafa and #111 inside the dark split. Inter (300-900) is the only typeface; tt-tight = -0.045em on giant display, tt-wide = 0.22em uppercase on micro-labels, mono register + tabular-nums for metadata/stats/prices. NO gradients, NO drop shadows, NO border-radius anywhere except the tiny rounded-full indicator dots. The visible 12-column hairline grid must remain the dominant visual idea (it is the brand). Restrict red to true accents (accent word, primary CTAs, dots, Popular badge, CTA band, ::selection); never let it become a second body color. Keep it fully responsive: 12-col stacks to col-span-12, feature grid 1->2->3, footer 4->2 columns, hero CTAs and sub-copy reflow. No em-dashes in any copy."}
-```
-
----
-
-## 66. Graphic Comparison Report
-`E-commerce` · `SaaS` · 17 copies · [try live](https://superdesign.dev/library/graphic-comparison-report?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+## 65. Graphic Comparison Report
+`Landing Pages` · `SaaS` · 17 copies · [try live](https://superdesign.dev/library/graphic-comparison-report?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A highly visual, typography-driven comparison report design. This style eschews traditional tables and icons for a bold, editorial layout inspired by graphic posters. Featuring a brutalist-lite aesthetic with high-contrast 'ink' and 'paper' tones, it utilizes oversized headlines, a strict 12-column grid, and structural 2px borders. Suitable for technical comparisons, whitepapers, B2B SaaS decision pages, fintech analysis, and deep-dive product evaluations where clarity and authority are paramount.
 
@@ -9542,6 +9531,17 @@ A highly visual, typography-driven comparison report design. This style eschews 
     }
   ]
 }
+```
+
+---
+
+## 66. Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)
+`Pricing Pages` · `Dev Tools` · 3 copies · [try live](https://superdesign.dev/library/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A Swiss-grid SaaS marketing homepage: stark white paper, near-black ink, one signal-red accent, an oversized two-line hero, an embedded prompt-to-canvas product mock, a hover-invert feature grid, a dark variant-tile workflow split, a 3-tier pricing block with an inverted Pro card, and a hairline-celled mega footer.
+
+```text
+{"summary": "Build a Swiss-grid SaaS marketing homepage on a stark white paper canvas with near-black ink type and a single signal-red accent. The whole page is a visible 12-column grid drawn with 1px hairlines: a sticky nav, an oversized two-line hero, an embedded 'canvas' product mock (prompt rail + artboard), a trusted-by logo strip, a 6-cell feature grid that inverts to black on hover, a dark workflow split with a 6-tile variant grid, a 4-up stats row, a 3-tier pricing block with one inverted dark Pro card, a full-bleed signal-red CTA band, and a hairline-celled mega footer.", "style": {"description": "International Typographic Style (Swiss design) for a developer tool: pure white paper, near-black ink, and exactly one signal red used surgically for the accent word, primary CTAs, indicator dots, the Popular badge and the CTA band. The page is built as an explicit 12-column grid where every section sits inside drawn 1px hairlines, so the structure itself is the decoration. Inter does all the work across nine weights, set very tight on display type; tabular numbers for stats and prices; uppercase wide-tracked micro-labels and a mono register for metadata. No gradients, no shadows, no rounded corners. Black-on-white that flips to white-on-black on hover and in the Pro/workflow/CTA panels.", "prompt": "Swiss / International Typographic Style, stark and grid-driven. Palette is three tokens only: ink #0a0a0a (near-black, all primary text + dark panels), paper #ffffff (page + inverted text), and signal #ff3b30 (the single accent: hero accent word 'prompt.', primary CTAs, the New chip, indicator dots, the Popular badge, stat unit marks, the full CTA band, and ::selection background with white text). Hairlines are the system: light hairline rgba(10,10,10,0.12) on white, dark hairline rgba(255,255,255,0.14) on the black panels, applied as top/bottom/left/right 1px borders to draw every cell. Secondary surface is #fafafa (artboard well) and #111 (mini variant tiles inside the dark split). Text uses graded ink opacity: body ink/70, muted ink/55-60, micro ink/35-45; on dark panels paper/55-80. Typography: Inter only (Google Fonts, weights 300-900), font-extrabold/900 for all display. Tracking classes: tt = -0.02em, tt-tight = -0.045em (giant headlines, set leading 0.92), tt-wide = 0.22em uppercase (eyebrows, micro-labels). font-mono register (ui monospace) for metadata like '12-col / 1240', section run-labels and footer copyright; tabular-nums for stats, prices and step numbers. Strictly NO gradients, NO drop shadows, NO border-radius (only the tiny indicator dots are rounded-full). Mood: precise, editorial, engineered, confident; the visible grid IS the aesthetic."}, "layout_and_structure": {"description": "A max-w-[1240px] container with px-6, and a reusable 12-column grid (grid-template-columns: repeat(12,1fr)) that every section snaps to. Sections are separated and bounded by 1px hairlines (hair-t/b/l/r) so the page reads as one continuous ledger of cells. The hero, feature grid, dark split, stats, pricing and footer all reuse the same column math and hairline cells. Responsive: the 12-col layout collapses to col-span-12 stacks on mobile, feature grid goes 1->2->3 columns, footer link columns go 4-up to 2-up, hero CTAs and sub-copy reflow under the headline.", "prompts": [{"part": "Sticky nav", "prompt": "position: sticky, top 0, z-50, bg paper at 90% with backdrop-blur-md and a bottom hairline. Inside the 1240 container, a 12-col grid, h-16, items-center: logo (col-span-3) = a 24px ink square containing a 10px signal-red square, then 'Gridwright' in extrabold tt-tight 15px. Center nav (col-span-6, justify-center, hidden on mobile) = 5 medium 13px links (Product, Library, Customers, Pricing, Docs) in ink/70 with hover:text-ink. Right (col-span-3, justify-end) = a 'Sign in' text link plus a solid ink 'Start free' button with a lucide:arrow-right that hover:bg-signal and nudges the arrow on hover."}, {"part": "Hero", "prompt": "Section with a bottom hairline and a faint full-bleed 28px square baseline grid behind (mark-grid at opacity 0.5). col-span-12, pt-20/28 pb-14/20. Eyebrow row: a hairline-bounded pill 'New | v3 / Canvas + agent' with the 'New' tag on a signal-red chip, plus a muted mono label 'SaaS Website Design'. Oversized two-line headline in tt-tight extrabold, leading 0.92, fluid 12vw up to 124px: line 1 'Design the web,' / line 2 'type the ' + signal-red 'prompt.'. Sub row is a nested 12-col grid: a 5-col light-weight 18px paragraph on the left, and on the right (col-start-9, 4-col, justify-end) two buttons: solid signal-red 'Start designing' (hover:bg-ink) and a hairline-outlined 'Watch demo' with a lucide:play (hover inverts to ink/paper)."}, {"part": "Embedded canvas product mock", "prompt": "Inside the container, a paper card bounded by top/left/right hairlines simulating the app canvas. Toolbar row (12-col, bottom hairline): left 'untitled / landing-v4' label + mono '12-col / 1240'; right has mono '100%', two 28px square outline icon buttons (grid-3x3, maximize-2) and a solid ink 'Generating' pill with a signal-red dot. Body is a 12-col grid: left 'Prompt' rail (col-span-3, right hairline) with an uppercase micro-label, a quoted prompt string, a hairline divider, and a 'Variants' list (A / B / C) where the active row shows a signal-red dot. Right artboard (col-span-9) on a #fafafa well holds a hairline mini-page wireframe built from ink-opacity bars + one signal-red block, a 7/5 split hero, and a 3-up feature card row, all using mark-grid texture and hairline cells."}, {"part": "Trusted-by logo strip", "prompt": "A 12-col row inside left/right/top hairlines: a 3-col uppercase micro-label 'Trusted by teams at' (right hairline), then a 9-col grid of 5 logo cells (2->3->5 columns) each a hairline-celled box with an iconify mark (vercel, hexagon, command, aperture, box) + a 13px semibold wordmark, all in muted ink/55."}, {"part": "Feature grid (6 cells)", "prompt": "Section header first: a 12-col block inside left/right hairlines with a 3-col signal-red eyebrow '01 / Capabilities' + mono 'build -> iterate -> ship', and a 9-col area with a tt-tight extrabold 52px h2 and a light intro paragraph. Then the feature grid: 6 cells in a 1->2->3 column layout, each cell bounded by hairlines, p-6/8. Each cell = a 24px signal-red lucide icon top-left, a mono index (01..06) top-right, an 19px bold title, and an ink/60 paragraph. Signature interaction: each cell has group hover:bg-ink hover:text-paper (full black invert on hover) with the muted text shifting to paper/60. Features: Infinite canvas, Prompt to UI, Agent-driven, Prompt library, Clean export, Real-time rooms."}, {"part": "Dark workflow split", "prompt": "Full bg-ink text-paper section using dark hairlines (hd-*). 12-col grid: left (col-span-5, right dark hairline) = signal-red eyebrow '02 / Workflow', a tt-tight extrabold 44px h2 'From a sentence to a system, on one surface.', a light paper/55 paragraph, then a 3-step list separated by dark hairlines (each step = signal-red mono number + semibold label), then a solid signal-red 'Browse the library' button (hover:bg-paper hover:text-ink). Right (col-span-7) = a 6-tile variant grid (2->3 cols) on a 1px paper/12 gap-grid; each tile is a #111 mini-artboard aspect-[3/4] labelled A grid / B cards / C stack / D hero / E docs / F price, built from paper-opacity bars, hairline mini-cells, a 12px grid-texture panel, and signal-red highlight blocks/dots to show the 'selected' variant."}, {"part": "Stats row", "prompt": "A single hairline-bounded row, 2->4 columns, each stat cell separated by hairlines, p-6/10. Each = a huge tt-tight extrabold tabular-nums number (44->64px, leading-none) with the unit accented in signal-red where present (2.4M, 99.9%), and an uppercase wide-tracked ink/45 caption. Stats: 57k Designers building, 2.4M Screens generated, 11s Avg. prompt to draft, 99.9% Canvas uptime."}, {"part": "Pricing (3 tiers)", "prompt": "12-col grid inside left/right hairlines. Left header (col-span-3, right hairline): signal-red eyebrow '03 / Pricing', tt-tight extrabold 40px h2 'Simple, scales with you.', a light note, and a hairline-bounded Annual/Monthly segmented toggle (Annual on an ink fill). Right (col-span-9) = 3 tier columns separated by hairlines. Solo $0/mo and Team $60/seat are white cells with ink check icons and hairline-outlined buttons. The middle Pro $20/mo card is inverted (bg-ink text-paper): a signal-red 'Popular' badge pinned top-right, a signal-red 'Pro' eyebrow, signal-red check icons, and a solid signal-red 'Start Pro' button (hover:bg-paper hover:text-ink). Prices use tabular-nums."}, {"part": "CTA band", "prompt": "Full-bleed bg-signal (signal red) text-paper section with a bottom hairline. 12-col items-center: an 8-col tt-tight extrabold 52px two-line headline 'Type the prompt. / Ship the page.', and a 4-col right-aligned solid ink 'Start designing free' button with a lucide:arrow-right (hover:bg-paper hover:text-ink, arrow nudges)."}, {"part": "Mega footer", "prompt": "bg-paper footer, 12-col grid inside left/right hairlines. Brand block (col-span-4, right hairline): the square logo mark + wordmark, a light tagline, and a social row (twitter, github, youtube) with hover:text-signal. Then four 2-col link columns (Product, Company, Resources, Legal) separated by hairlines, each a 10px uppercase micro-title over 13px ink/65 links that hover:text-signal. Bottom bar: a top+bottom hairline 12-col row with mono '(c) 2026 Gridwright Labs Inc.' left and uppercase mono 'Designed on a 12-column grid' right."}]}, "special_ui_components": [{"component": "Hairline 12-column grid system", "description": "The defining device: a reusable .grid12 (12 equal columns) plus .hair-t/b/l/r and .hd-t/b/l/r utilities that draw 1px borders (rgba(10,10,10,0.12) on white, rgba(255,255,255,0.14) on black). Every section, card, stat, tier, logo and footer column is a bounded cell, so the structural grid itself is the visual style. Faint mark-grid (28px square line texture) sits behind the hero and inside the mock artboards."}, {"component": "Square logo mark", "description": "A 24px solid ink square containing a centered 10px signal-red square, paired with the 'Gridwright' wordmark in extrabold tt-tight. Reused identically in the nav and the footer."}, {"component": "Embedded canvas / app mock", "description": "An in-page recreation of the product canvas: a toolbar (file label, zoom %, square icon buttons, a 'Generating' status pill with a red dot), a left Prompt rail with a quoted prompt and an A/B/C variants list (active = red dot), and a right #fafafa artboard holding a hairline wireframe of a landing page (opacity bars + one red block + mark-grid texture)."}, {"component": "Hover-invert feature cells", "description": "Each of the 6 feature cells flips from black-on-white to white-on-black on hover (group hover:bg-ink hover:text-paper), with the red icon staying red and the muted body text easing to paper/60. Each carries a red lucide icon and a mono index number (01-06)."}, {"component": "Variant mini-artboard grid", "description": "On the dark split, a 6-tile grid of #111 aspect-[3/4] cards (A grid, B cards, C stack, D hero, E docs, F price) on a 1px paper/12 hairline gap-grid, each abstractly rendering a layout from paper-opacity bars, hairline mini-cells and signal-red highlight blocks/dots marking the selected option."}, {"component": "Inverted Pro pricing card", "description": "The middle of three tier columns is the only inverted card: bg-ink text-paper with a red 'Popular' badge pinned to the top-right corner, a red 'Pro' eyebrow, red check bullets, and a solid red 'Start Pro' CTA that inverts to paper-on-ink on hover. The outer Solo/Team cards stay white with ink checks and hairline-outlined buttons."}, {"component": "Segmented Annual/Monthly toggle", "description": "A hairline-bounded inline segmented control where the active segment ('Annual') is a solid ink fill with paper text and the inactive segment ('Monthly') is ink/50, no rounding, matching the square Swiss aesthetic."}], "special_notes": "Strict three-token palette: ink #0a0a0a, paper #ffffff, signal #ff3b30 only. Light hairline rgba(10,10,10,0.12), dark-panel hairline rgba(255,255,255,0.14); secondary surfaces #fafafa and #111 inside the dark split. Inter (300-900) is the only typeface; tt-tight = -0.045em on giant display, tt-wide = 0.22em uppercase on micro-labels, mono register + tabular-nums for metadata/stats/prices. NO gradients, NO drop shadows, NO border-radius anywhere except the tiny rounded-full indicator dots. The visible 12-column hairline grid must remain the dominant visual idea (it is the brand). Restrict red to true accents (accent word, primary CTAs, dots, Popular badge, CTA band, ::selection); never let it become a second body color. Keep it fully responsive: 12-col stacks to col-span-12, feature grid 1->2->3, footer 4->2 columns, hero CTAs and sub-copy reflow. No em-dashes in any copy."}
 ```
 
 ---
@@ -13003,18 +13003,7 @@ Utilities, device controllers, system tools, internal apps.
 
 ---
 
-## 102. Foundry: Your SaaS Site, Designed Before You Write a Line
-`Landing Pages` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/foundry-your-saas-site-designed-before-you-write-a-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A warm editorial SaaS landing page on cream paper: big Fraunces serif headline with a terracotta italic highlight, a split hero with a dark infinite-canvas product mock, staggered feature cards, a real-reference library showcase, a pull quote, a dark palette/craft story, three-tier pricing, and an olive CTA banner.
-
-```text
-{"summary": "Build a warm editorial SaaS marketing landing page on a cream canvas with a large Fraunces serif display headline, a split hero with a dark right-hand product-canvas panel, an asymmetric features grid of staggered cards, a real-reference library showcase, a centered pull-quote testimonial, a dark craft/palette story section, a three-tier pricing block with one highlighted plan, a rounded olive CTA banner, and a four-column footer. Sticky blurred nav with an announcement bar on top; fully responsive reflow at 1280 / 768 / 390.", "style": {"description": "Warm editorial magazine aesthetic: cream paper base, ink near-black text, a terracotta accent and an olive secondary, set in Fraunces serif display over Inter body. Premium, crafted, not-generated; soft shadows, hairline borders, and pill chips, never beige AI sludge.", "prompt": "Palette is warm editorial paper: page base cream #faf6ef, ink near-black #1a1714 for text and dark panels, sand #f1e9da fills with sand-line #e6dccb hairline borders, muted #6e655a for secondary body text. Primary accent is terracotta #d4642a with a deeper hover #b8501c (used for the italic display highlight word, primary buttons, accent dot, star ratings, link underline, ::selection background). Secondary accent is olive #6b7244 / olive-deep #565c34 (announcement bar, CTA banner, the 'real reference library' card). Fonts via Google Fonts: Fraunces (serif display, optical-sizing 144, weights 300-700, letter-spacing -0.02em, line-height ~0.98) for all headlines, the wordmark and the eyebrow italic flourishes; Inter (sans body, weights 400-700) for body, nav, buttons and uppercase eyebrows (letter-spacing 0.18em). Mood: warm, literary, confident; soft layered shadows (float-card 0 30px 60px -20px rgba(26,23,20,0.28); soft-card 0 18px 40px -28px rgba(26,23,20,0.22)), inset 1px hairline pills, a faint vertical 3-column grid texture behind the hero. Accents stay terracotta + olive on cream only; no blue, no purple, no generic gradients."}, "layout_and_structure": {"description": "Centered max-width 1200px container with px-6 / md:px-10 gutters, generous vertical rhythm (py-20 / lg:py-28). The page alternates cream and dark (ink) sections for editorial contrast, leans on asymmetric grids and staggered card translate-y offsets, and reflows every section from 3-up to 1-up on mobile.", "prompts": [{"part": "announcement bar + sticky nav", "prompt": "Full-width olive #6b7244 announcement bar (h-10, centered cream text, sparkle icon + 'New: 240 editorial layouts' + an underlined 'Browse the library' link with an arrow). Below it a sticky top-0 z-50 header with nav-blur (backdrop-blur-12px, background rgba(250,246,239,0.82)) and a sand-line bottom border; 72px row: left = ink rounded-10px logo tile (cream plant/sparkle glyph) + Fraunces 'Foundry' wordmark; center = Inter nav links (Library, How it works, Craft, Pricing) each with an animated terracotta underline-on-hover; right = 'Sign in' text link + a terracotta pill 'Start designing' button. Hide center links below lg."}, {"part": "split hero", "prompt": "Two-column hero grid lg:grid-cols-[1.05fr_0.95fr], with a dark ink panel absolutely filling the right 42% on lg+. Left column: a pill eyebrow ('The prompt library for product designers' with a terracotta dot), a Fraunces display H1 clamp(2.7rem,6vw,4.6rem) with line breaks and one italic terracotta highlight word ('write a line.'), a muted lede paragraph, a button row (terracotta primary 'Design my page' with arrow + cream pill secondary 'See it generate' with play icon), and a social-proof row (five terracotta stars + '4.8 / 5 from 1,200+ founders'). Right column: a floating 'infinite canvas' product mockup card (float-card shadow, canvas chrome bar with 'Generating' pill) containing a mini dark hero preview and two mini feature cards, plus an absolutely-positioned floating prompt-chip card bottom-left. On mobile the right panel drops and the mockup stacks under the copy."}, {"part": "logo trust strip", "prompt": "Full-width band with sand/40 background and top+bottom sand-line borders; centered uppercase eyebrow 'Trusted by design-led teams shipping in public' over a wrapped row of seven faux wordmarks at ink/55 opacity, intentionally mixing Fraunces serif and Inter sans treatments (Northwind, beacon, Cobalt, Atlas, Mercato, Loop, Verde)."}, {"part": "asymmetric why/how features", "prompt": "Section grid lg:grid-cols-[0.8fr_1.2fr]. Left is a sticky (lg:sticky top-28) intro: terracotta eyebrow 'Why Foundry', Fraunces H2, muted paragraph, and a terracotta text link 'Explore 240 layouts'. Right is a 2-column card grid where each card uses a different translate-y offset (0, +8, -2, +6) for a staggered editorial rhythm; cards alternate cream-with-hairline, dark ink, cream, and solid olive backgrounds, each with a rounded icon tile, a Fraunces card title and muted body."}, {"part": "library showcase", "prompt": "sand/50 band with top+bottom hairlines. Header row: olive eyebrow 'The library' + Fraunces H2 'Layouts worth shipping' on the left, a right-aligned muted blurb on the right. Below, a 3-column card grid (md:grid-cols-3); each card is a cream rounded-2xl with a 176px colored preview thumbnail (dark ink hero mock, olive 2x2 grid mock, cream pricing mock with one terracotta-outlined column), then a footer with a Fraunces title, a category pill (Hero/Features/Pricing), and a one-line muted description."}, {"part": "pull-quote testimonial", "prompt": "Centered max-w-4xl figure: a large terracotta quote-marks icon, a Fraunces blockquote at clamp(1.8rem,4vw,3.1rem) with one italic terracotta highlight phrase, then a centered figcaption with an olive-tint circular monogram avatar, name, and role."}, {"part": "dark craft / palette story", "prompt": "Full-bleed ink #1a1714 section, cream text. Two-column lg grid: left = terracotta eyebrow 'The craft', Fraunces H2, cream/70 paragraph, and three check-icon feature rows (terracotta check + bold cream label + cream/60 subtext). Right = a glass-ish card (cream/[0.04] bg, cream/10 border) showing a 4-swatch palette row (cream, terracotta, olive, ink), a type specimen ('Fraunces display.' with italic terracotta), and three rounded tag chips (Editorial / Warm / Magazine)."}, {"part": "pricing", "prompt": "Centered intro (terracotta eyebrow, Fraunces H2 'Simple, like a good layout', muted subcopy). Three-column md grid, items-stretch, max-w-5xl: two cream tier cards (Sketch $0/forever, Atelier $79/month) flanking a highlighted dark ink center card (Studio $24/month) that is translate-y -3 with a terracotta 'Most popular' ribbon. Each card: Fraunces tier name, muted tagline, big Fraunces price with /period, a check-list of features (olive-deep checks on cream cards, terracotta checks on the dark card), and a full-width pill CTA (terracotta on the highlight, cream pill on the others)."}, {"part": "CTA banner + footer", "prompt": "A rounded-3xl olive #6b7244 CTA banner with faint cream + terracotta circle blobs, a Fraunces H2 'Ready to skip the blank page?', a cream/80 subline, and two buttons (terracotta solid + translucent cream-border). Footer: cream with a top sand-line, a 4-column grid [1.4fr_1fr_1fr_1fr] = brand block (logo + blurb + three round social icon chips) plus Product / Resources / Company link columns with uppercase eyebrow headings and terracotta-hover links; a bottom hairline bar with '© 2026 Foundry Design Labs. Crafted, not generated.' and 'Made on an infinite canvas.'"}]}, "special_ui_components": ["Sticky blurred nav (backdrop-blur, rgba cream background, sand-line border) with an animated terracotta underline-on-hover on each link", "Floating 'infinite canvas' product mockup card with a chrome bar, a 'Generating' status pill, a mini hero preview and mini feature cards, plus a detached floating prompt-chip card", "Staggered editorial feature cards using per-card translate-y offsets and alternating cream / ink / olive backgrounds", "Library showcase cards with colored skeleton preview thumbnails and category pills (Hero / Features / Pricing)", "Pull-quote testimonial with oversized terracotta quote glyph and a monogram avatar", "Palette/type specimen card (4 swatches + Fraunces type sample + tag chips) on a dark section", "Three-tier pricing with a raised, dark, 'Most popular' highlighted middle plan", "Rounded olive CTA banner with soft decorative circle blobs", "Pill components throughout using an inset 1px hairline (box-shadow inset 0 0 0 1px rgba(26,23,20,0.14)) instead of a hard border"], "special_notes": "Warm editorial, not generic SaaS: keep the Fraunces serif display + Inter body pairing, the cream/ink/terracotta/olive palette, and the one-italic-terracotta-highlight-word pattern in every major headline. Use soft layered shadows and inset-hairline pills, never heavy borders. Alternate cream and dark ink sections for rhythm and lean on asymmetric grids with staggered card offsets. Phosphor-style line icons only. Responsive: hero right panel + mockup stack on mobile, multi-column grids collapse 3->1, sticky intro becomes static. No em-dashes in any copy; keep the 'Crafted, not generated' editorial voice. Accents stay terracotta + olive on cream; no blue, purple, or default gradients."}
-```
-
----
-
-## 103. Loam — Warm Earthy Organic Agency Website
+## 102. Loam — Warm Earthy Organic Agency Website
 `Portfolios` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/loam-warm-earthy-organic-agency-website?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Warm earthy organic agency / studio website: sand + terracotta palette, Fraunces serif display type, organic leaf-blob shapes, sticky blurred nav, project-card grid, numbered services list, and a terracotta contact block with a mock prompt form.
@@ -13025,773 +13014,7 @@ Warm earthy organic agency / studio website: sand + terracotta palette, Fraunces
 
 ---
 
-## 104. Landing Page / Real-Estate
-`Landing Pages` · `General` · 30 copies · [try live](https://superdesign.dev/library/landing-page-real-estate?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Different layout structure for best converting real-estate companies
-
-```text
-You are Superdesign’s Real Estate Vertical Design Operating System.
-
-You generate:
-
-Full real estate websites (multi-page systems)
-
-Landing pages
-
-Portals / marketplaces
-
-Property detail pages
-
-Suburb SEO authority pages
-
-Developer sites
-
-Luxury brand systems
-
-Multi-office enterprise sites
-
-You do not generate generic AI-looking designs.
-
-You design for:
-
-Trust
-
-Geography
-
-Inventory states
-
-Long decision cycles
-
-High-ticket psychology
-
-Mobile inquiry behavior
-
-Your job is to design a coherent real estate ecosystem, not isolated pages.
-
-CORE DESIGN PRINCIPLES
-
-Real estate websites must be:
-
-Location-aware
-
-Inventory-aware
-
-State-aware
-
-Lead-conversion-focused
-
-Visually immersive
-
-Hierarchically structured
-
-Legally compliant
-
-Performance optimized
-
-Never resemble:
-
-SaaS dashboards
-
-Startup gradient templates
-
-Over-rounded Webflow kits
-
-Techy tone-of-voice marketing pages
-
-PHASE 1 — INTENT ROUTER
-
-Detect primary user need.
-
-Signal Activate\
-“Landing page”, “ads”, “campaign” LP\
-“Portal”, “search”, “filters”, “map” PORTAL\
-“Listing page”, “single property” PDP\
-“Rank for suburb” SEO\
-“Developer”, “project launch” DEV\
-“Luxury” LUX (overlay)\
-“Full website” SITE
-
-If unclear:\
-Ask 1 clarifying question only.
-
-If “full site”:\
-Automatically activate SITE Orchestration.
-
-PHASE 2 — SITE JOURNEY ORCHESTRATION
-
-If full website:
-
-Generate full architecture:
-
-Home
-
-Buy / Properties
-
-Property Detail Template
-
-Sell With Us
-
-Suburb Pages
-
-Agents
-
-Agent Profile
-
-Projects
-
-About
-
-Journal
-
-Offices (if multi-location)
-
-Define:
-
-Navigation structure
-
-Page relationships
-
-Cross-link logic
-
-Shared components
-
-Consistent design tokens
-
-PHASE 3 — REAL ESTATE DESIGN TOKEN SYSTEM
-
-To maintain vertical consistency:
-
-Base Tokens
-
-Border radius:
-
-Luxury: 4–6px
-
-Mid-market: 6–8px
-
-Rental: 8px max
-
-Shadows:
-
-Subtle elevation only
-
-No heavy glow
-
-Typography:
-
-Clear hierarchy (Price > Title > Meta > Body)
-
-Avoid ultra-tech fonts
-
-Editorial serif allowed for luxury
-
-Buttons:
-
-No fully pill-shaped default
-
-Balanced padding
-
-Clear hover state
-
-Spacing:
-
-Defined rhythm by tier (never uniform)
-
-Color system:
-
-Neutral base
-
-One restrained accent
-
-Status colors reserved for listing states only
-
-PHASE 4 — LISTING STATE ENGINE
-
-Real estate sites must support property states.
-
-Supported states:
-
-For Sale
-
-Under Offer
-
-Sold
-
-Auction
-
-Off-Market
-
-Coming Soon
-
-Leased
-
-Rules:
-
-Status badge top-left on property card
-
-Sold listings:
-
-Slightly muted image
-
-Retain price visibility
-
-Auction:
-
-Show countdown or event date
-
-Under Offer:
-
-Badge only, no heavy styling
-
-Filtering & sorting:
-
-Filter by state
-
-Sort by newest / price / suburb
-
-State visible in portal & suburb pages
-
-State must remain consistent across:\
-Portal → PDP → Agent page → Suburb page
-
-PHASE 5 — LAYOUT INTELLIGENCE ENGINE\
-Hero Types
-
-H1 — Cinematic (Luxury / Developer)\
-H2 — Split Form (Lead gen)\
-H3 — Search Hero (Portal)\
-H4 — Editorial SEO
-
-Property Card Spec
-
-4:3 ratio image
-
-Status badge
-
-Price dominant
-
-Specs row
-
-Location subtitle
-
-Subtle hover
-
-No glow effects
-
-PDP Layout Rules
-
-Gallery first
-
-Price + specs
-
-Inspection info
-
-Description
-
-Floor plan
-
-Map
-
-Agent contact
-
-Similar listings
-
-Disclaimer
-
-Mobile:\
-Fixed bottom inquiry bar mandatory.
-
-Portal Layout Rules
-
-Desktop:\
-45% map / 55% list split
-
-Map sticky.
-
-Mobile:\
-Toggle between full map and list.
-
-Filters visible within first viewport.
-
-PHASE 6 — MULTI-OFFICE & REGION HIERARCHY ENGINE
-
-If multiple offices:
-
-Add:
-
-Office page template:
-
-Office address
-
-Map
-
-Agents in office
-
-Suburbs covered
-
-Contact details
-
-Hierarchy:
-
-Country\
-→ State\
-→ City\
-→ Suburb\
-→ Listings
-
-Cross-link:\
-Suburb pages must link to:
-
-Relevant agents
-
-Relevant office
-
-Recent listings
-
-PHASE 7 — DATA VISUALIZATION MODULE
-
-If SEO or authority positioning:
-
-Add optional data blocks:
-
-Median price chart
-
-Sales volume trend
-
-Clearance rate visual
-
-Days on market graph
-
-Charts:
-
-Clean
-
-Minimal axis noise
-
-Neutral colors
-
-No tech dashboard styling
-
-PHASE 8 — NAVIGATION & HEADER INTELLIGENCE
-
-Header behavior:
-
-Transparent over hero if cinematic
-
-Solid on scroll
-
-Sticky header
-
-Clear primary nav:\
-Buy\
-Sell\
-Suburbs\
-Agents\
-Projects\
-About\
-Contact
-
-Mega menu allowed for:
-
-Suburbs
-
-Offices
-
-Mobile:
-
-Hierarchical drawer menu
-
-No overcrowded nav
-
-PHASE 9 — PERFORMANCE & IMAGE STRATEGY
-
-Real estate is image-heavy.
-
-Rules:
-
-Lazy load below fold
-
-Compress gallery images
-
-Responsive image sizes
-
-Prioritize hero load
-
-Avoid massive background videos unless luxury tier
-
-PHASE 10 — ACCESSIBILITY & COMPLIANCE
-
-Include:
-
-Agency license number in footer
-
-Disclaimer blocks
-
-Auction terms section
-
-Accessible contrast ratios
-
-Alt text for property images
-
-Disclaimers:\
-Small but readable.\
-Never dominate layout.
-
-PHASE 11 — INTERNATIONALIZATION LOGIC
-
-If region requires:
-
-Currency formatting
-
-Metric vs imperial toggle
-
-Language selector (optional)
-
-Never hard-code units.
-
-PHASE 12 — CONVERSION INTELLIGENCE
-
-Every page must support inquiry.
-
-Desktop:\
-Optional sticky contact panel.
-
-Mobile:\
-Fixed bottom bar:\
-Call | Message | Enquire
-
-Seller pages:\
-Appraisal CTA emphasized.
-
-PHASE 13 — LUXURY OVERLAY SYSTEM
-
-If LUX active:
-
-Increased spacing rhythm
-
-Serif headline pairing
-
-Minimal UI chrome
-
-Subtle animation
-
-Cinematic imagery
-
-Muted palette
-
-Luxury must feel restrained.
-
-No gold gradients.\
-No loud drama.
-
-PHASE 14 — ANTI-AI AESTHETIC FILTER
-
-Before output:
-
-Check:
-
-Does this resemble a SaaS site?
-
-Are there generic gradients?
-
-Overly rounded pills?
-
-Excess symmetry?
-
-Tech startup copy?
-
-Unrealistic spacing uniformity?
-
-If yes:\
-Refine silently.
-
-The output must feel:
-
-Local\
-Trustworthy\
-Human-designed\
-Photo-led\
-Grounded
-
-PHASE 15 — OUTPUT STRUCTURE
-
-Return:
-
-Detected intent
-
-Activated modules
-
-Site architecture (if SITE)
-
-Design token summary
-
-Layout strategy
-
-Component system used
-
-Listing state logic
-
-Navigation strategy
-
-Performance strategy
-
-SEO notes (if used)
-
-Conversion notes
-
-Cross-page linking logic
-
-HTML (Tailwind)
-
-Preview dimensions
-
-PHASE 16 — SELF-EVALUATION QUALITY RUBRIC (MANDATORY)
-
-Before producing final output, the agent must evaluate the design internally.
-
-If the final score is < 8.5 / 10, the agent must silently refine and re-evaluate.
-
-Only output when score ≥ 8.5.
-
-🔎 Scoring Framework (Weighted)
-
-Total Score = 10.0\
-Each category scored 0–1 unless otherwise noted.
-
-1️⃣ Intent Alignment (Weight 1.2)
-
-Ask:
-
-Did the layout match the primary intent?
-
-Is the correct module activated?
-
-Is the hero type appropriate?
-
-Is conversion type correct (lead vs browse vs authority)?
-
-Score:
-
-0 = wrong structure
-
-0.6 = partially aligned
-
-1.2 = perfectly aligned
-
-2️⃣ Real Estate Structural Accuracy (Weight 1.2)
-
-Check:
-
-Proper data hierarchy (Price > Specs > Location)
-
-Gallery-first PDP
-
-Map logic correct
-
-Property card spec respected
-
-Listing state badges applied properly
-
-Score:
-
-0 = generic layout
-
-0.6 = partially correct
-
-1.2 = fully compliant with vertical logic
-
-3️⃣ Listing State Engine Compliance (Weight 0.8)
-
-Check:
-
-Status logic implemented?
-
-State consistent across modules?
-
-Sold / Auction visually distinct?
-
-Filtering respects state?
-
-Score:
-
-0 = missing
-
-0.4 = partially implemented
-
-0.8 = fully integrated
-
-4️⃣ Layout & Spacing Rhythm (Weight 1.0)
-
-Check:
-
-Market tier spacing applied?
-
-Section rhythm varied (not uniform)?
-
-No overcrowding?
-
-Visual breathing room adequate?
-
-Score:
-
-0–1
-
-5️⃣ Navigation & Journey Coherence (Weight 1.0)
-
-Check:
-
-Logical page flow?
-
-Cross-links defined?
-
-Navigation hierarchy clear?
-
-Multi-office logic respected if relevant?
-
-Score:
-
-0–1
-
-6️⃣ Conversion Optimization (Weight 1.2)
-
-Check:
-
-CTA repetition appropriate?
-
-Sticky desktop or mobile fixed inquiry included?
-
-Seller pages emphasize appraisal?
-
-Inquiry friction minimized?
-
-Score:
-
-0–1.2
-
-7️⃣ SEO & Content Depth (Weight 1.0)
-
-(If SEO module active)
-
-Check:
-
-H1 correct?
-
-Semantic structure used?
-
-Internal link placeholders?
-
-FAQ schema-ready?
-
-Adequate content depth?
-
-If SEO not required → auto score 1.0.
-
-8️⃣ Brand & Aesthetic Authenticity (Weight 1.3)
-
-Ask:
-
-Does this feel locally authentic?
-
-Does it avoid SaaS startup vibes?
-
-No generic gradient?
-
-No over-rounded template look?
-
-Appropriate typography choice?
-
-Score:
-
-0 = looks AI template
-
-0.7 = acceptable
-
-1.3 = premium real estate authenticity
-
-This is heavily weighted.
-
-9️⃣ Performance & Accessibility (Weight 0.8)
-
-Check:
-
-Lazy loading?
-
-Responsive image strategy?
-
-Alt text considered?
-
-Disclaimers readable?
-
-Contrast sufficient?
-
-Score:
-
-0–0.8
-
-🔟 Design Token Consistency (Weight 0.5)
-
-Check:
-
-Border radius consistent?
-
-Shadow usage controlled?
-
-Button system coherent?
-
-Status color usage reserved?
-
-Score:
-
-0–0.5
-
-🧮 Total Maximum Score = 10.0
-
-Required Threshold:\
-≥ 8.5
-
-🚨 Hard Fail Conditions (Auto-Refine Required)
-
-If any of these are true, automatically fail and refine:
-
-Hero resembles SaaS gradient template
-
-Price visually weaker than title
-
-Missing mobile fixed inquiry bar (when relevant)
-
-PDP does not start with gallery
-
-Portal missing filter visibility
-
-No listing state logic in inventory pages
-
-Uniform section spacing everywhere
-
-Copy sounds tech-startup-y
-
-🔁 Evaluation Loop Logic
-
-Pseudo-logic:
-
-score = evaluate_all_categories()
-
-if score < 8.5:\
-refine_layout()\
-refine_hierarchy()\
-refine_aesthetic()\
-re-evaluate()\
-else:\
-output_final()
-
-Agent must NOT reveal internal score unless explicitly asked.
-
-“You must internally self-evaluate using the Real Estate Vertical Rubric. Only output when score ≥ 8.5/10. Do not reveal internal scoring.”
-```
-
----
-
-## 105. Ink & Acid Mono Sitemap Footer
+## 103. Ink & Acid Mono Sitemap Footer
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/ink-and-acid-mono-sitemap-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A near-black ink footer with acid-green accents and mono labels: four link columns, a newsletter, a live status pill, and a giant ghost wordmark.
@@ -13802,7 +13025,7 @@ A near-black ink footer with acid-green accents and mono labels: four link colum
 
 ---
 
-## 106. Editorial Violet SaaS Pricing Matrix
+## 104. Editorial Violet SaaS Pricing Matrix
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-violet-saas-pricing-matrix?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light, editorial SaaS pricing page led by a full-width grouped comparison matrix with a sticky 3-plan header, electric-violet accent, and a monthly/annual toggle.
@@ -13813,75 +13036,7 @@ A light, editorial SaaS pricing page led by a full-width grouped comparison matr
 
 ---
 
-## 107. Enterprise Admin Platform
-`Dashboards` · `SaaS` · 363 copies · [try live](https://superdesign.dev/library/enterprise-admin-platform?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Enterprise Admin Platform is a professional, high-trust landing page design for corporate B2B SaaS, fintech, and infrastructure tools. It features a muted corporate color palette (whites, deep slates, and technical blues), a structured grid-based layout, and a focus on operational control and security. Key elements include a high-fidelity dashboard preview, KPI count-up animations, and a glass-morphism navigation bar. Suitable for enterprise management systems, cybersecurity platforms, and developer infrastructure tools.
-
-```text
-{
-  "summary": "A clean, authoritative enterprise admin landing page using a strict grid layout, technical typography (Satoshi), and a professional color scheme of slate and primary blue. Features include a dashboard UI preview, audit log tables, and security policy management components, all enhanced by subtle fadeInUp animations and glass-morphism effects.",
-  "style": {
-    "description": "The style is 'Corporate Professional' with a focus on legibility and scale. It uses the Satoshi font family (weights 400-900) for a neutral but modern feel. The palette relies on Slate 950 (#020617) for dark backgrounds and Blue 600 (#2563eb) for actions. Micro-interactions include 0.8s ease-out fades, 12px backdrop blurs for nav panels, and scale transitions on feature cards. Borders are subtle (#e2e8f0) and layout follows a 40px grid system.",
-    "prompt": "Create a design with a professional enterprise aesthetic. \n- **Typography**: Use 'Satoshi' sans-serif. Headers should be Bold/ExtraBold with tight tracking (-0.02em). Body text in Slate 500/600 with 1.625 line-height.\n- **Colors**: Primary: #2563eb, Deep Slate: #151e2e, Background: #ffffff, Muted BG: #f8fafc. Accents: Success (#16a34a), Warning (#d97706), Error (#dc2626).\n- **Borders & Radius**: Border-radius 12px for cards, 8px for buttons. Borders should be 1px solid #e2e8f0.\n- **Effects**: Navigation uses a 'glass-panel' effect: background rgba(255, 255, 255, 0.7) with 12px backdrop-filter blur. Hero background uses a 40px x 40px gray grid line pattern.\n- **Animations**: Implement 'fadeInUp' (0.8s duration, 20px offset) for section reveals. Use cubic-bezier(0.4, 0, 0.2, 1) for all hover transitions."
-  },
-  "layout_and_structure": {
-    "description": "The layout follows a predictable, top-down enterprise narrative: Navigation -> Hero with Product Visual -> Social Proof -> Core Modules -> Quantifiable Impact (Stats) -> Security Proof -> FAQ -> CTA -> Detailed Footer.",
-    "prompts": [
-      {
-        "part": "Navigation",
-        "prompt": "Fixed header at top, 64px height. Left-aligned logo with a #020617 square icon. Center-aligned nav links (Platform, Solutions, Security) in text-sm font-medium Slate 600. Right-aligned 'Book Demo' button in Slate 900 background with white text."
-      },
-      {
-        "part": "Hero Section",
-        "prompt": "Centered layout with 128px top padding. A pill-shaped badge at the top (#eff6ff) with a pulsing green status dot. Title in 72px bold text-slate-900. Two primary CTAs: a blue primary button with right-arrow icon and a white outline button with play-circle icon. Background features a faint 40px grid overlay."
-      },
-      {
-        "part": "Dashboard Preview",
-        "prompt": "A max-width 1152px container showing a simulated browser window. Include a browser top-bar with three dots and a URL bar. The internal UI consists of a 256px sidebar (Slate 50), a header with system status indicators, a 3-column stats row (e.g., Active Users, API Requests), and a detailed data table. Table rows must show hover states with light blue background (#eff6ff)."
-      },
-      {
-        "part": "Module Grid",
-        "prompt": "3-column grid layout for core features. Each card has a 12px radius, light gray border, and a subtle icon in a tinted square box (e.g., Blue for Users, Emerald for Security). On hover, cards transition to white background with a soft shadow (shadow-xl shadow-slate-200/50)."
-      },
-      {
-        "part": "Stats Section",
-        "prompt": "Full-width section with background #020617. Features a decorative background of concentric white circles with 10% opacity. Display four major KPIs with a count-up animation script. Numbers in #60a5fa (Primary 400), labels in uppercase Slate 400."
-      },
-      {
-        "part": "Security UI Section",
-        "prompt": "Split 2-column layout. Left: Checklist of certifications (SOC2, GDPR) with blue check-circle icons. Right: A 'Policy Toggle' card showing active/inactive switches for security protocols like MFA, IP Whitelisting, and Key Rotation. Include an overlapping 'Threat Blocked' alert card in Slate 800 for depth."
-      },
-      {
-        "part": "Enterprise Footer",
-        "prompt": "6-column structure. Left-most 2 columns for logo, location, and social icons. Remaining 4 columns for Product, Resources, Company, and Legal link lists. Bottom bar includes copyright and a 'System Status' indicator with a green pulsing dot."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "KPI Count-up",
-      "description": "Animated numbers that count from zero to the target value when entering the viewport.",
-      "prompt": "Use an IntersectionObserver to trigger a 2000ms animation. Use an ease-out quartic function: 1 - Math.pow(1 - progress, 4). Format integers without decimals and percentages to 2 decimal places."
-    },
-    {
-      "component": "Audit Log Table",
-      "description": "High-density information table with status badges.",
-      "prompt": "A table component with sticky header. Rows feature a 0.2s transition-color background on hover. Use status badges: Success (Green-100/800), Warning (Yellow-100/800), Failed (Red-100/800). Time columns must be right-aligned and text-slate-400."
-    },
-    {
-      "component": "Glass-Morphism Toggle",
-      "description": "Operational switch used for security policy simulations.",
-      "prompt": "A 40px width pill-shaped toggle. Track color #2563eb for 'On'. The thumb is a white circle with shadow-sm, positioned 4px from the edge. Include a 'just-in-time' hover effect that slightly glows the track."
-    }
-  ],
-  "special_notes": "MUST: Maintain a strict vertical rhythm with 128px spacing between major sections. MUST: Use only grayscale and primary blue for main UI, reserving colors like green/red strictly for status indicators. MUST NOT: Use rounded corners larger than 12px for structural elements. MUST NOT: Use heavy gradients; keep all surfaces flat or slightly glass-morphic."
-}
-```
-
----
-
-## 108. Editorial SaaS Onboarding
+## 105. Editorial SaaS Onboarding
 `Onboarding` · `SaaS` · 16 copies · [try live](https://superdesign.dev/library/editorial-saas-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial SaaS onboarding experience featuring a calm, sophisticated aesthetic. It uses a muted warm stone palette with terracotta accents, high-contrast serif headlines (Crimson Pro) paired with clean sans-serif UI text (Inter). The layout follows a natural document flow within a product shell, avoiding scroll-locks or overlays. Suitable for premium B2B SaaS, design tools, publishing platforms, and luxury fintech applications that prioritize a confident, professional, and non-intrusive user experience.
@@ -13940,7 +13095,7 @@ An editorial SaaS onboarding experience featuring a calm, sophisticated aestheti
 
 ---
 
-## 109. Design at the Speed of Thought — Editorial Split Sign-Up
+## 106. Design at the Speed of Thought — Editorial Split Sign-Up
 `Auth & Login` · `SaaS` · 1 copies · [try live](https://superdesign.dev/library/design-at-the-speed-of-thought-editorial-split-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial, magazine-style sign-up screen built as a full split-screen landing: a sticky translucent cream nav over a two-pane main. The LEFT is an oversized Fraunces-serif brand panel on a textured deep-burgundy ground (film grain, faint concentric arcs, a soft bloom) with an 'Issue 06 . The Design Agent' eyebrow, a 'Design at the speed of thought.' display headline (italic 'speed'), a value paragraph and a pull-quote testimonial with an initials avatar plus a three-icon feature row. The RIGHT is a near-black ink account-creation column: a 'Start designing, free.' heading, Google + GitHub OAuth buttons above an 'or with email' divider, white burgundy-focus-ring email + password fields (an eye toggle + a four-segment strength meter) and a burgundy 'Create account' CTA. Below the split: a full-bleed cream 'Trusted in the studios shipping fastest' proof strip and a dark ink FAQ/footer accordion. Cream + burgundy + ink palette, Fraunces serif + Inter.
@@ -13951,7 +13106,7 @@ An editorial, magazine-style sign-up screen built as a full split-screen landing
 
 ---
 
-## 110. Swiss Grid Agency Layout
+## 107. Swiss Grid Agency Layout
 `Portfolios` · `Agency & Studio` · 1 copies · [try live](https://superdesign.dev/library/swiss-grid-agency-layout?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A Swiss / International-Typographic-Style agency homepage on a strict 12-column grid: pure black ink #0a0a0a on paper white #ffffff with one electric cobalt #1f4fff accent, a sticky paper nav with an ink hairline, an editorial index row over a 2px cobalt rule, a giant disciplined 'AGENCY SITES.' display headline (Inter) with a 2x2 stat block, an inverted black auto-scroll marquee of disciplines, a numbered Selected-Work index list with hover-cobalt titles and a nudging out-arrow, a 4-up hairline services grid (4th card inverted to solid cobalt), a large studio statement, a giant mailto contact line, and a 3-up hairline footer. JetBrains Mono micro-labels index every section.
@@ -13962,7 +13117,7 @@ A Swiss / International-Typographic-Style agency homepage on a strict 12-column 
 
 ---
 
-## 111. Create your account · Promptly — split-image emerald sign-up
+## 108. Create your account · Promptly — split-image emerald sign-up
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/create-your-account-promptly-split-image-emerald-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A two-column desktop sign-up page: focused email + Google/GitHub social form on a bright white left half, dark emerald 'brand-mesh' panel with a floating product mock and testimonial on the right; sticky translucent nav, Inter, slate neutrals with a single emerald accent.
@@ -13973,7 +13128,70 @@ A two-column desktop sign-up page: focused email + Google/GitHub social form on 
 
 ---
 
-## 112. Product Feature
+## 109. Laboratory Skincare
+`E-commerce` · `Health & Wellness` · 89 copies · [try live](https://superdesign.dev/library/laboratory-skincare?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+Laboratory Skincare is a warm academic, methodical design system inspired by research journals and clinical lab notebooks. It features a grid-based, disciplined layout with generous white space and a restrained color palette of off-whites, warm grays, and soft blacks. Ideal for medical-grade skincare, high-tech beauty, pharmaceutical brands, or scientific SaaS, the design focuses on data-driven trust, factual evidence, and structural clarity over luxury tropes. Key features include tabular data presentation, formula sheets, and a 'Protocol' approach to content organization.
+
+```text
+{
+  "summary": "A methodical 'Lab Notebook' aesthetic for e-commerce or informational sites, emphasizing clinical precision, scientific integrity, and grid-based structure. Uses high-contrast serif typography for headers and sans-serif for technical data, with a color palette rooted in off-white paper tones and technical annotations.",
+  "style": {
+    "description": "The style is defined by a 'warm clinical' theme. Typography pairs the elegant serif 'Gambetta' for emphasis and formulaic numbers with the functional sans-serif 'Satoshi' for body and labels. Colors utilize #F5F3F0 (Paper) and #2A2824 (Ink) with #8B7D6D (Warm Gray) for meta-data. Micro-interactions are minimal: simple line-drawing hover effects and 1px border transitions.",
+    "prompt": "Create a design system with an 'Academic Research' aesthetic. \n- **Color Palette**: Background #F5F3F0, Primary Text #2A2824, Secondary Text #6B665E, Accents #8B7D6D (warm gray) and #6B7D6B (muted green for success/data), Borders #D4CCC4.\n- **Typography**: Headers use 'Gambetta' (Serif) with tight tracking; body and UI labels use 'Satoshi' (Sans-serif). Use mono-spaced numbering (tabular-nums) for all data points and formula IDs.\n- **Visual Style**: Everything is contained within a rigid 1px border grid (#D4CCC4). No shadows. No rounded corners. Use 'mix-blend-multiply' for product photography on off-white backgrounds to simulate print. Imagery should be grayscale or highly desaturated to maintain a clinical tone.\n- **Animations**: Subtle 0.25s ease-out transitions for hover states. Use 'hover-underline' animations where a 1px line expands from 0% to 100% width on text."
+  },
+  "layout_and_structure": {
+    "description": "A structured, section-heavy layout that mimics a scientific report. It uses a vertical sidebar logic for section labels and a grid divide for content blocks.",
+    "prompts": [
+      {
+        "part": "Clinical Header",
+        "prompt": "Sticky header with 80px height. Left-aligned serif logo in bold uppercase. Centered nav links in 12px uppercase sans-serif with 2px letter spacing. Right-aligned 'Cart (0)' link. Bottom-border 1px #D4CCC4."
+      },
+      {
+        "part": "Opening Statement (Hero)",
+        "prompt": "Minimalist hero section. 100vh or 40vh height with a single centered H1 in Gambetta Serif (size: 64px, weight: 500). Wide margins. No imagery. The text should be the sole focus."
+      },
+      {
+        "part": "Regimen Protocol Map",
+        "prompt": "A horizontal grid section. Left sidebar (200px) with a light gray-beige background (#F0EBE5) containing the 'Protocol ID' and skin compatibility tags. Main area divided into 3 equal columns by 1px vertical borders. Each column features: Step number in large transparent serif font, product image with mix-blend-multiply, technical specs (pH, texture) in mono-font, and a 'View Formula' text link."
+      },
+      {
+        "part": "Formula Detail Sheet",
+        "prompt": "Two-column split. Left side: Formula name and ID (e.g., F-12) followed by a dashed-line list of ingredients and percentages. Use 12px uppercase labels for category headers. Right side: Large texture or product shot in a #F0EBE5 background container with a floating 'Batch ID' annotation box in the top right corner."
+      },
+      {
+        "part": "Ingredient Deep Dive (Accordion)",
+        "prompt": "A vertical stack of expandable rows. Each row header has a plus icon that rotates 45 degrees on open. Inside: A 3-column grid explaining 'Function', 'Trade-offs', and 'Source' in 14px sans-serif text. Header background #E8E4DE."
+      },
+      {
+        "part": "Clinical Proof Section",
+        "prompt": "A 4-column stat grid. Each block contains a large Serif data point (e.g., +42%, 0/50) in muted green or soft black, a bold 10px uppercase label, and a short technical description."
+      },
+      {
+        "part": "Restrained Footer",
+        "prompt": "Text-heavy 4-column layout. Column 1: Logo and address. Column 2 & 3: Link lists titled 'Index' and 'Support'. Column 4: Newsletter signup with a single underline input field. All text 13px Satoshi. Use #A89F91 for bottom-level copyright text."
+      }
+    ]
+  },
+  "special_ui_components": [
+    {
+      "component": "Formula Annotation Label",
+      "description": "A floating data tag used on images or detail sections.",
+      "prompt": "A small rectangle with 1px border (#D4CCC4), background white (opacity 90%), backdrop-blur 4px. Inside: Two lines of mono-spaced text in 10px size. Line 1: 'BATCH: [ID]'. Line 2: 'STATUS: [PASS/FAIL]' in #6B7D6B."
+    },
+    {
+      "component": "Data-Driven Review Card",
+      "description": "A factual, no-frills review layout.",
+      "prompt": "A square grid item (p-8). Features a Serif quote in 18px. Below the quote, a divider-less metadata section: Bold user name in uppercase, followed by 'Verified Purchase • [Skin Type]' in 12px secondary gray. No star icons allowed."
+    }
+  ],
+  "special_notes": "MUST: Maintain a strict 1px grid throughout. Use high-quality, desaturated photography. Focus on 'evidence' over 'lifestyle'. MUST NOT: Use vibrant colors, rounded buttons, drop shadows, or decorative illustrations. Keep whitespace intentional and 'cold' but readable."
+}
+```
+
+---
+
+## 110. Product Feature
 `Other` · `General` · 3 copies · [try live](https://superdesign.dev/library/product-feature?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Build on-brand product and feature landing pages that showcase capabilities, demonstrate value, and convert visitors into trial users or demo requests through benefit-driven design and interactive demonstrations. Use when the user wants to create a product page, feature page, solution page, product landing page, feature showcase, capability page, or product overview page.
@@ -14232,7 +13450,65 @@ Generate the product/feature page now.
 
 ---
 
-## 113. Email Template
+## 111. Minimalist Checkout
+`E-commerce` · `E-commerce & Retail` · 1 copies · [try live](https://superdesign.dev/library/minimalist-checkout?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A distraction-free, single-column checkout that removes visual competition and guides users step-by-step. Order summary is minimized or collapsible to keep attention on form completion.
+
+Best suited for
+Mobile-first stores, impulse purchases, low-priced items, audiences with short attention spans.
+
+```text
+{
+  "summary": "A distraction-free, linear checkout experience focused on visual clarity and functional simplicity. It utilizes a centered 520px column, a step-based progression indicated by numbered badges, and a collapsible summary to keep the user focused on data entry.",
+  "style": {
+    "description": "Monochrome and minimalist aesthetic. Typography uses 'General Sans' for headings and 'Satoshi' for body text, creating a clean, modern look. The palette is restricted to #000000 (Black), #FFFFFF (White), and various shades of neutral gray for borders and backgrounds. Inputs are understated with #F9FAFB backgrounds and 1px borders. Animations are subtle, including smooth opacity shifts and a 0.99 scale transform on button clicks.",
+    "prompt": "Create a design with a minimalist monochrome palette: Background #FFFFFF, Inputs #F9FAFB, Text #111827, and Accents #000000. Use 'General Sans' for headings (weights 500, 600) and 'Satoshi' for body. Headers should be 20px with tracking-tight. Form labels must be 12px, uppercase, tracking-wide, using #6B7280. Inputs should have a 1px border (#E5E7EB), a 2px border-radius, and 12px 16px padding. Active states use #000000 borders and rings. Inactive sections are styled with 40% opacity and grayscale filters. Buttons are solid black (#000000) with white text, 16px vertical padding, and a 0.99 scale transform on click."
+  },
+  "layout_and_structure": {
+    "description": "Centered single-column layout (max-width 520px) with a vertical flow. The page starts with a clean header, followed by stacked sections for shipping, payment, and review. Inactive steps are visually dimmed to focus user attention. A collapsible order summary is positioned above the final CTA.",
+    "prompts": [
+      {
+        "part": "Header",
+        "prompt": "Create a header with a bottom border (#F3F4F6). Include a 20px font-weight 600 title with a 24px icon on the left. On the right, place a 'Step X of X' indicator in 10px uppercase tracking-wider text (#9CA3AF)."
+      },
+      {
+        "part": "Step Sections",
+        "prompt": "Each section starts with an 18px medium-weight title. Include a numbered circular badge (24x24px). If active, the badge is black with white text; if inactive, it is white with a gray border. Inactive sections must have 'opacity: 0.4', 'filter: grayscale(1)', and 'pointer-events: none'."
+      },
+      {
+        "part": "Shipping Form",
+        "prompt": "Two-column grid layout for name fields and ZIP/City, while email and address occupy full width. Gap between grid items is 16px. Labels are positioned above inputs with a 6px margin."
+      },
+      {
+        "part": "Collapsible Order Summary",
+        "prompt": "A 'details' element styling. The summary row has a top/bottom border (#F3F4F6), 14px font size, and a chevron icon that rotates 180 degrees when open. The expanded content shows 64x64px product thumbnails with light gray backgrounds (#F3F4F6), item titles in 14px medium, and sub-details in 12px gray text."
+      },
+      {
+        "part": "Footer CTA",
+        "prompt": "A full-width primary button (#000000) with white text and an arrow icon. Below the button, include a small 10px lock icon and 'Secured' text centered in #9CA3AF."
+      }
+    ]
+  },
+  "special_ui_components": [
+    {
+      "component": "Numbered Progress Badge",
+      "description": "A 24px circular indicator used for step navigation.",
+      "prompt": "Design a 24x24px circle. For active steps: background #000000, text #FFFFFF, font-size 12px, font-weight bold, flexbox centering. For inactive: background transparent, border 1px solid #D1D5DB, text #9CA3AF."
+    },
+    {
+      "component": "Minimalist Input Field",
+      "description": "Ultra-clean form input with top-aligned labels.",
+      "prompt": "Label: 12px, uppercase, color #6B7280, tracking 0.05em. Input: background #F9FAFB, border 1px solid #E5E7EB, border-radius 2px, padding 12px 16px, font-size 14px. Focus state: border-color #000000, ring 1px #000000."
+    }
+  ],
+  "special_notes": "Do not use vibrant colors; stick strictly to the monochrome scale. Ensure all interactive elements have a transition of at least 200ms for border-color and opacity changes. The layout must remain centered and narrow even on wide screens to maintain the focused 'wireframe' feel."
+}
+```
+
+---
+
+## 112. Email Template
 `Other` · `General` · 2 copies · [try live](https://superdesign.dev/library/email-template?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Newsletter, Sass email templates, etc.
@@ -14512,7 +13788,7 @@ Without overwhelming them.
 
 ---
 
-## 114. Magic Link Confirmation
+## 113. Magic Link Confirmation
 `Auth & Login` · `General` · 0 copies · [try live](https://superdesign.dev/library/magic-link-confirmation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A centered, message-driven layout designed to reassure users after initiating email-based authentication. Minimal actions and generous whitespace create a calm, waiting-state experience.
@@ -14562,7 +13838,7 @@ A centered, message-driven layout designed to reassure users after initiating em
 
 ---
 
-## 115. AI System Configuration Console
+## 114. AI System Configuration Console
 `Dashboards` · `Dev Tools` · 32 copies · [try live](https://superdesign.dev/library/ai-system-configuration-console?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-fidelity AI configuration console and operating-system style interface. Features a dark slate and acid green color palette, monospaced typography, and a technical grid-based layout. Designed for SaaS backends, developer tools, AI management platforms, and cybersecurity dashboards. Includes a system canvas with nodes, a detailed inspector sidebar, terminal-style live outputs, and mechanical-inspired UI components like square range sliders and binary toggle switches.
@@ -14643,7 +13919,7 @@ Responsive: Fluid layout with 8px grid unit. Left panel (65%) canvas + right pa
 
 ---
 
-## 116. Midnight Navy Fintech Pricing
+## 115. Midnight Navy Fintech Pricing
 `Pricing Pages` · `Finance & Crypto` · 1 copies · [try live](https://superdesign.dev/library/midnight-navy-fintech-pricing-656a6d?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A deep-navy, teal-accented SaaS/fintech pricing page with a sticky blurred nav, monthly/annual toggle, and a glowing 'Most popular' middle tier across three cards.
@@ -14654,7 +13930,7 @@ A deep-navy, teal-accented SaaS/fintech pricing page with a sticky blurred nav, 
 
 ---
 
-## 117. Minimalist Wireframe Login
+## 116. Minimalist Wireframe Login
 `Auth & Login` · `General` · 8 copies · [try live](https://superdesign.dev/library/minimalist-wireframe-login?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-contrast, minimalist mobile login wireframe optimized for thumb reach and ergonomic ergonomics. It features a slate-heavy palette, industrial-style grid textures, and clean 'General Sans' typography. Suitable for SaaS dashboard entry, fintech authentication, developer tools, and high-end enterprise mobile applications requiring a professional, focus-oriented interface.
@@ -14696,6 +13972,77 @@ A high-contrast, minimalist mobile login wireframe optimized for thumb reach and
     }
   ],
   "special_notes": "MUST ensure all clickable elements (inputs/buttons) have a minimum height of 56px for accessibility. MUST use the 40px grid background to maintain the wireframe concept. DO NOT use vibrant colors; keep the palette restricted to Slate and White. Ensure the secondary sign-up link uses a font-weight of 600 to distinguish it from static text."
+}
+```
+
+---
+
+## 117. Editorial Feature Announcement
+`Other` · `AI & Tech` · 16 copies · [try live](https://superdesign.dev/library/editorial-feature-announcement?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A high-end technical editorial design system tailored for feature announcements, changelogs, and whitepapers. It features a sophisticated 'paper and ink' color palette (#F7F5F0 background), high-contrast typography pairing (Fraunces serif and Inter sans), and an asymmetric 12-column grid layout. Suitable for developer tools, fintech, research institutions, and SaaS companies that prioritize credibility and deep readability. The style emphasizes content hierarchy through vertical reading rhythms, monospace technical markers, and minimal visual noise.
+
+```text
+{
+  "summary": "An editorial-style technical announcement page that uses typography as the primary design element. It uses a 4-to-8 column layout ratio to separate metadata from long-form content, creating a vertical reading experience akin to a high-end technical journal.",
+  "style": {
+    "description": "The style is 'Technical Editorial,' combining the warmth of a paper-like background with the precision of a geometric sans-serif and the character of a variable serif. It employs a light theme with charcoal text, relying on border-based dividers and monospace utility text rather than icons or imagery.",
+    "prompt": "Create a design system using a 'Paper and Ink' palette: Background #F7F5F0 (Paper), Primary Text #111111 (Ink), Secondary Text #444444 (Graphite), and subtle Dividers #111111 at 10% opacity. Typography: Primary Sans is 'Inter' (300, 400, 600) for UI and body; Primary Serif is 'Fraunces' (9-144pt optical size, 300-600 weight) for headlines and blockquotes; Technical Mono is 'JetBrains Mono' for metadata and code. Use a 12-column grid. Links should have a 1px border-bottom instead of underline. Focus on generous line-heights (1.6 to 1.8) and 'chapter-marker' labels in 12px uppercase Mono for section indexing. Include subtle transition effects on hover (0.2s ease-in-out) for all interactive links and buttons."
+  },
+  "layout_and_structure": {
+    "description": "A structured, vertical reading experience based on an asymmetric 12-column grid. Most sections utilize a 4-column sidebar (for chapter markers/titles) and an 8-column main content area.",
+    "prompts": [
+      {
+        "part": "Navigation",
+        "prompt": "A minimalist top-bar with a max-width of 1280px. Left side: Brand mark (a 12px black square next to monospace text). Right side: Text links in 14px 'Inter' Graphite, switching to Ink on hover. Spacing: 32px vertical padding."
+      },
+      {
+        "part": "Editorial Hero",
+        "prompt": "Large header section with 80px top padding and 64px bottom padding. Features a pill-shaped status badge with a green dot and monospace version tag. Headline: 'Fraunces' serif at 96px+ size, tracking-tight, leading-[0.9], utilizing italics for emphasis. 1px divider at the bottom."
+      },
+      {
+        "part": "Abstract Section",
+        "prompt": "12-column grid. Columns 1-4: Monospace chapter marker '01 — ABSTRACT'. Columns 5-12: Large-scale introductory text (30px size, light weight, leading-snug)."
+      },
+      {
+        "part": "The 4/8 Split Content Block",
+        "prompt": "Standard content section with 1px top border. Columns 1-4: Sticky sidebar containing chapter marker and 'Fraunces' h3 title. Columns 5-12: Multi-paragraph 'Inter' body text (18px) with 1.7 line height. Include blockquotes with 2px solid left-border and serif italics."
+      },
+      {
+        "part": "Technical Comparison (Before vs After)",
+        "prompt": "Two-column grid for 'Architecture Shift'. Left column (Legacy): Monospace code-like flow with red-tinted latency labels. Right column (Modern): Monospace flow with green-tinted success labels. Separated by a vertical divider. Header for each column uses 'Fraunces' size 20px and a mono tag (e.g., 'BLOCKING I/O' vs 'NON-BLOCKING')."
+      },
+      {
+        "part": "Numeric Deep Dive",
+        "prompt": "Section with large oversized numbers (01, 02) in 10% opacity 'Fraunces'. The content is paired with an 'Inter' h3 and a light smoke-colored (#E5E2D9 at 30%) use-case box with monospace labels."
+      },
+      {
+        "part": "Step-Based Mechanics",
+        "prompt": "A vertical timeline layout. A 1px vertical line (#111111, 10% opacity) with 16px circular nodes. Content is indented with bold titles and graphite descriptions, creating a visual rhythm of process flow."
+      },
+      {
+        "part": "Technical Constraints Panel",
+        "prompt": "Full-width background of #E5E2D9 at 30% opacity. 12-column split. Sidebar has an alert icon and chapter marker. Content area uses a list of technical tags (LIMITATION, EDGE CASE, SECURITY) in monospace followed by small-text descriptions."
+      }
+    ]
+  },
+  "special_ui_components": [
+    {
+      "component": "Chapter Marker",
+      "description": "Monospace section index labels used globally.",
+      "prompt": "Font: JetBrains Mono; Size: 12px; Text-Transform: uppercase; Letter-spacing: 0.05em; Color: #444444; Format: '[Number] — [Title]'."
+    },
+    {
+      "component": "Editorial Link",
+      "description": "High-visibility document links for navigation.",
+      "prompt": "Flex container with arrow-right icon. Text: Black Ink. Border-bottom: 1px solid Ink. Animation: On hover, text opacity drops to 70% and icon translates +4px on the X-axis."
+    },
+    {
+      "component": "Code Comparison Flow",
+      "description": "Text-only representation of data flow or architecture changes.",
+      "prompt": "Font: Monospace; Size: 14px; Line-height: 2.0; Spacing: 16px indents for nested steps; Colors: Use muted reds (#B91C1C at 60%) for legacy delays and muted greens (#057A55 at 60%) for modern improvements."
+    }
+  ]
 }
 ```
 
@@ -16545,7 +15892,61 @@ Premium dark-navy multi-step signup / onboarding screen (step 1 of 3) for an AI 
 
 ---
 
-## 128. Forms that feel effortless to fill — Fieldcraft
+## 128. Conversion-optimised Product Page
+`E-commerce` · `E-commerce & Retail` · 12 copies · [try live](https://superdesign.dev/library/conversion-optimised-product-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+Traditional PDP enhanced with a sticky purchase module that remains visible during scroll. Reinforces CTAs with social proof and benefit blocks to reduce hesitation.
+
+Best suited for
+High-volume DTC brands, ads-driven traffic, products optimized for CRO.
+
+```text
+{
+  "summary": "A clean, monochrome e-commerce product layout focused on clarity and conversion. It employs a two-column structure (7:12 ratio) for primary product content, detailed variant selectors, and a floating sticky purchase bar for mobile and desktop visibility.",
+  "style": {
+    "description": "The design uses a strictly monochrome palette (#FFFFFF, #F5F5F5, #111827) and 'General Sans' typography to create a high-end, editorial feel. It emphasizes clean lines via 1px borders (#E5E7EB) and subtle micro-interactions like 500ms image zooms and ring-offset focus states for interactive elements. Layout follows a strict 1440px grid with variable padding based on screen size (24px to 80px).",
+    "prompt": "Create a minimalist monochrome design system. **Colors**: Primary Background: #FFFFFF; Secondary Background (sections/cards): #F9FAFB; Text: #111827; Secondary Text: #6B7280; Borders/Dividers: #E5E7EB; Accents: #111827 (Primary Button), #D1D5DB (Placeholders). **Typography**: Use 'General Sans' (or similar geometric sans). H1: 36px/40px weight 500, tight tracking; H2: 24px weight 500; Body: 16px weight 400, leading 1.6; Labels/Small: 14px weight 500; Captions: 12px. **Spacing**: Base unit 4px. Use 24px (6 units) for standard gaps, 48px (12 units) for section padding, and 96px (24 units) for major vertical breathing room. **Interactive Elements**: Buttons must have 6px border-radius. Product swatches should use a ring-offset-2 effect when active. Hover states for cards should trigger a 1.05 scale transform over 500ms. All borders should be 1px solid unless specified."
+  },
+  "layout_and_structure": {
+    "description": "A top-down flow starting with a functional header, moving into a 2-column product detail section (Gallery 60% / Info 40%), followed by trust-building horizontal strips (Social Proof/Benefits) and ending with a 4-column related products grid.",
+    "prompts": [
+      {
+        "part": "Navigation & Breadcrumbs",
+        "prompt": "Design a slim top navigation bar with a centered logo area (32px height) and discrete text links. Below, implement a breadcrumb trail using 14px text in #9CA3AF, separated by 'lucide:chevron-right' icons, with the current page highlighted in #111827 weight 500."
+      },
+      {
+        "part": "Product Main Section",
+        "prompt": "Implement a 2-column grid (7:5 ratio). Left Column: A vertical stack of images. Primary image at 4:5 aspect ratio with #F3F4F6 background and 1px border. Below, a 2x2 grid of supporting 4:5 images. Right Column: Sticky container (top: 32px). Include a 36px H1 title, a $120.00 price in 24px, and a star-rating row with an underline-offset-4 review link. Variant section: Color swatches (40x40px circles with 2px ring on active) and size grid (4-column buttons, active state: #111827 background with white text). Add a 56px height CTA button in #111827 with a centered text and price."
+      },
+      {
+        "part": "Social Proof and Benefits",
+        "prompt": "Full-width section with #F9FAFB background. Horizontal layout containing a 5-star rating graphic and text 'Rated 4.9/5 by 10,000+ Customers'. Followed by a 4-column benefits grid: Each item features a 48x48px circular light-gray icon container, a 16px medium title, and a 14px grayed-out description (e.g., 'Free Shipping')."
+      },
+      {
+        "part": "Related Products Carousel",
+        "prompt": "4-column grid of product cards. Each card: 3:4 aspect ratio image container with a 500ms zoom on hover. Include a 'New' or 'Sold Out' badge in the top-left (12px uppercase). Bottom metadata: Left-aligned title and category (14px), right-aligned price (14px bold)."
+      }
+    ]
+  },
+  "special_ui_components": [
+    {
+      "component": "Sticky Conversion Bar",
+      "description": "A fixed bottom bar that captures attention for conversion.",
+      "prompt": "Position: fixed bottom-0; Background: #FFFFFF; Border-top: 1px #E5E7EB; Shadow: 0 -4px 20px rgba(0,0,0,0.05). Interior: Max-width 1440px, flex-justify-between. Left side: 48px square product thumbnail + Title/Variant text stack. Right side: Price text + 48px height 'Add to Cart' button."
+    },
+    {
+      "component": "Minimalist Variant Selector",
+      "description": "A clean grid for size selection with interactive states.",
+      "prompt": "Grid layout (cols-4), gap 8px. Each button: 48px height, 1px border #E5E7EB, font-size 14px, font-medium. Hover state: #F9FAFB background. Active state: #111827 background, white text. Disabled state: #F9FAFB background, #D1D5DB text, cursor-not-allowed."
+    }
+  ],
+  "special_notes": "MUST maintain strict monochrome color usage; do not introduce accent colors other than black/white/gray. MUST use 4:5 and 3:4 aspect ratios for all product imagery to maintain an editorial vertical feel. MUST ensure the sticky purchase bar only appears after the user scrolls past the primary 'Add to Cart' button. DO NOT use heavy drop shadows; use 1px borders for depth instead."
+}
+```
+
+---
+
+## 129. Forms that feel effortless to fill — Fieldcraft
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/forms-that-feel-effortless-to-fill-fieldcraft?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A stacked, multi-section account-settings form on a white card: top-aligned labels, helper text, a 6-column responsive grid, custom checkboxes and radios, and one disciplined emerald accent for focus and the primary action.
@@ -16556,7 +15957,7 @@ A stacked, multi-section account-settings form on a white card: top-aligned labe
 
 ---
 
-## 129. Loop · Say hello, we don't bite (friendly illustrated sky)
+## 130. Loop · Say hello, we don't bite (friendly illustrated sky)
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/loop-say-hello-we-dont-bite-friendly-illustrated-sky?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm, playful illustrated contact page (Loop) in a sky-blue + coral two-accent palette on a cloud-white canvas: a sticky blurred nav, a centered two-tone "Let's chat about anything you're building" hero with a pulsing reply-time pill, and one giant rounded white card splitting a hand-drawn CSS+SVG illustration panel (floating sun, clouds, channel bubbles, grass) and copy on the left against a multi-field form with icon-prefixed sky-ring inputs, emoji topic chips and a gradient send button on the right, then a row of three alt-contact cards and a deep sky-ink footer. Heavy rounded Nunito (up to black 900), bubbly corners, cheerful and human, never a cold corporate form.
@@ -16567,7 +15968,7 @@ A warm, playful illustrated contact page (Loop) in a sky-blue + coral two-accent
 
 ---
 
-## 130. Chronological Content Feed
+## 131. Chronological Content Feed
 `Blog & Editorial` · `E-commerce & Retail` · 1 copies · [try live](https://superdesign.dev/library/chronological-content-feed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A straightforward vertical list of blog posts ordered by date. Each entry includes a thumbnail placeholder, title, excerpt, and metadata. Optimized for reading flow and content discovery over time.
@@ -16625,7 +16026,7 @@ Content marketing blogs, product updates, founder blogs, SEO-driven publishing.
 
 ---
 
-## 131. Formcraft — Workspace Settings (cobalt two-column)
+## 132. Formcraft — Workspace Settings (cobalt two-column)
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/formcraft-workspace-settings-cobalt-two-column?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A two-column SaaS workspace-settings screen: sticky app nav, left section nav, grouped settings cards with toggles, a segmented control, selectable delivery cards, and a fixed save bar, in Inter on slate with one cobalt accent.
@@ -16636,7 +16037,7 @@ A two-column SaaS workspace-settings screen: sticky app nav, left section nav, g
 
 ---
 
-## 132. Atelier · Early Access (waitlist-minimal-graphite)
+## 133. Atelier · Early Access (waitlist-minimal-graphite)
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/atelier-early-access-waitlist-minimal-graphite?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Minimal monochrome graphite-on-paper waitlist / early-access landing for an AI design tool: a warm off-white ground with near-black ink and one platinum grey (no color accent), a big tight black-weight headline, a centered single-field email + button waitlist form with overlapping social-proof avatars, scattered graphite confetti strokes, a logo trust strip, a 3-step how-it-works grid and an inverted full-bleed dark closing CTA.
@@ -16647,7 +16048,7 @@ Minimal monochrome graphite-on-paper waitlist / early-access landing for an AI d
 
 ---
 
-## 133. Editorial Image Lightbox
+## 134. Editorial Image Lightbox
 `Blog & Editorial` · `General` · 1 copies · [try live](https://superdesign.dev/library/editorial-image-lightbox?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial image lightbox modal as the live hero of a product page: a near-black coal (#0c0a09) figure with a top rail (serif 04/28 plate counter + 'Aperture Series' label, scrollable category filter pills, a circular close), a full-bleed photograph with circular glass prev/next carets and a bottom legibility gradient, and a cream (#faf6ef) caption panel (burgundy location eyebrow, a Fraunces headline, a description, Save / Copy-prompt actions), floated over a vignetted grain stage with a faded 3-up gallery echo behind and an 'Esc / arrows / 28 plates' keyboard ticker beneath. Around it: a frosted sticky cream nav, a hero with a stats card, a 3-up library grid, a four-cell anatomy band, a dark CTA band and a coal footer. Ink-on-cream editorial with a single reserved burgundy #7b2d3b accent; Fraunces + Inter, Phosphor icons.
@@ -16658,7 +16059,7 @@ An editorial image lightbox modal as the live hero of a product page: a near-bla
 
 ---
 
-## 134. Tablekit — The data table your team actually wants to live in
+## 135. Tablekit — The data table your team actually wants to live in
 `Dashboards` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/tablekit-the-data-table-your-team-actually-wants-to-live-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Dense light-mode admin data table (Tablekit): blurred sticky nav, dotted-grid hero, a cobalt-on-white panel with a filter bar, bulk-action bar, sticky-header scroll table with colored status/priority/type badges and avatar chips, and a full pagination footer.
@@ -16669,7 +16070,7 @@ Dense light-mode admin data table (Tablekit): blurred sticky nav, dotted-grid he
 
 ---
 
-## 135. Sunset Glow Wordmark Mega Footer
+## 136. Sunset Glow Wordmark Mega Footer
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/sunset-glow-wordmark-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark mega footer with a radial orange-to-magenta sunset glow, a giant gradient wordmark, newsletter capture, three link columns, and a legal bar.
@@ -16680,7 +16081,7 @@ A dark mega footer with a radial orange-to-magenta sunset glow, a giant gradient
 
 ---
 
-## 136. Atelier — Design, Spoken Into Being (editorial serif / burgundy)
+## 137. Atelier — Design, Spoken Into Being (editorial serif / burgundy)
 `Forms & Contact` · `General` · 1 copies · [try live](https://superdesign.dev/library/atelier-design-spoken-into-being-editorial-serif-burgundy?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial, print-magazine CTA: an oversized Fraunces serif statement with a single burgundy italic line on warm cream paper, closed by an understated text-link call to action and a no-card trust line, framed by a sticky nav and a newsletter footer.
@@ -16691,7 +16092,7 @@ An editorial, print-magazine CTA: an oversized Fraunces serif statement with a s
 
 ---
 
-## 137. Linear inspired developer tool dashboard
+## 138. Linear inspired developer tool dashboard
 `Dashboards` · `Dev Tools` · 33 copies · [try live](https://superdesign.dev/library/linear-inspired-developer-tool-dashboard?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-performance dark-mode console design inspired by Linear and high-end developer tools. Featuring a deep charcoal and black palette (#0e0e0e, #111113) with a vibrant indigo accent (#5e6ad2). The layout uses a classic three-pane structure: a 240px navigation sidebar, a central list view, and a 480px sliding contextual detail panel. Key aesthetics include minimal borders (white/5), Inter/JetBrains Mono typography pairing, glassmorphism overlays, and precise status indicators with subtle animations. Optimized for SaaS dashboards, developer platforms, and AI-driven workflow management tools.
@@ -16750,7 +16151,7 @@ A high-performance dark-mode console design inspired by Linear and high-end deve
 
 ---
 
-## 138. Modal Design · success-celebration (pastel) — legibility fixed
+## 139. Modal Design · success-celebration (pastel) — legibility fixed
 `Onboarding` · `General` · 0 copies · [try live](https://superdesign.dev/library/modal-design-success-celebration-pastel-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A joyful pastel success-celebration modal as the live centerpiece of a light SaaS page: a cream rounded-5xl dialog with a pulsing-ring animated checkmark badge, a gradient 'Continue to dashboard' CTA and a ghost secondary, floating over a full-bleed confetti layer on a cream-to-sky radial field. Below it a 3-up pattern-library card band, a starter-kit split with a stacked mini upgrade modal, a dark-ink CTA band and a cream footer. Pastel sky + coral are decorative-only; all colored text uses darkened >=4.5:1 tokens (#0369a1 / #be123c) and every gradient button runs deep stops behind white — legibility fixed. Poppins throughout.
@@ -16761,7 +16162,7 @@ A joyful pastel success-celebration modal as the live centerpiece of a light Saa
 
 ---
 
-## 139. Superdesign Setup - Inline Preview
+## 140. Superdesign Setup - Inline Preview
 `Onboarding` · `AI & Tech` · 10 copies · [try live](https://superdesign.dev/library/superdesign-setup-inline-preview?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A minimalist, developer-centric configuration interface featuring a monochrome technical aesthetic. It utilizes a high-contrast dark/light mode, JetBrains Mono for system labels, and Inter for UI elements. Key features include an inline state-preview logging system, custom range sliders for AI intervention thresholds, and segmented controls for workspace density. Suitable for SaaS setup wizards, developer tools, AI configuration panels, and fintech dashboards that prioritize functional clarity and a 'terminal-lite' feel.
@@ -16821,7 +16222,7 @@ A minimalist, developer-centric configuration interface featuring a monochrome t
 
 ---
 
-## 140. Verify it's you · Aperture (OTP / 2FA, graphite-platinum)
+## 141. Verify it's you · Aperture (OTP / 2FA, graphite-platinum)
 `Auth & Login` · `SaaS` · 4 copies · [try live](https://superdesign.dev/library/verify-its-you-aperture-otp-2fa-graphite-platinum?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 OTP / two-factor verification screen on warm paper with a graphite + platinum palette: a Two-factor eyebrow pill, a glass card with a lock icon, six single-digit code boxes, progress dots, a live resend countdown and a Verify code button. Inter, light mode, no saturated color.
@@ -16832,7 +16233,7 @@ OTP / two-factor verification screen on warm paper with a graphite + platinum pa
 
 ---
 
-## 141. Developer tool dashboard/onboarding
+## 142. Developer tool dashboard/onboarding
 `Dashboards` · `Dev Tools` · 14 copies · [try live](https://superdesign.dev/library/developer-tool-dashboardonboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-density, terminal-inspired dark mode design system optimized for developer tools, SaaS configuration panels, and technical dashboards. It features a matte #111111 background with a subtle 40px grid pattern, utilitarian typography pairing Space Grotesk with JetBrains Mono, and a high-contrast #FFFFFF accent color. The aesthetic is brutalist and tool-like, utilizing zero border-radius, instant transitions (<100ms), and a dual-pane layout with a live code terminal echo. Ideal for power-user interfaces where information density and technical focus are prioritized over visual decoration.
@@ -16896,7 +16297,7 @@ A high-density, terminal-inspired dark mode design system optimized for develope
 
 ---
 
-## 142. Technical System Onboarding
+## 143. Technical System Onboarding
 `Onboarding` · `AI & Tech` · 8 copies · [try live](https://superdesign.dev/library/technical-system-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A technical, research-backed onboarding system design using a dark slate palette with high-visibility signal orange accents. Optimized for high-fidelity AI systems, data science dashboards, fintech terminals, and developer tools. Features editorial modern grotesk typography, monospace metadata, grid-based layouts, and a modular 'Capabilities Matrix' structure. Emphasizes reliability, transparency, and deterministic control through structured information hierarchy and a professional, no-nonsense aesthetic.
@@ -16943,7 +16344,7 @@ A technical, research-backed onboarding system design using a dark slate palette
 
 ---
 
-## 143. Plume · Sign in to your design canvas
+## 144. Plume · Sign in to your design canvas
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/plume-sign-in-to-your-design-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Warm, illustrated AI design-agent sign-in landing in sky-blue and coral: a sticky frosted nav over a two-panel side-panel login card (gradient illustration aside plus email, password and social auth), floating blobs, dot-grid texture and rounded-everything Nunito type.
@@ -16954,7 +16355,7 @@ Warm, illustrated AI design-agent sign-in landing in sky-blue and coral: a stick
 
 ---
 
-## 144. Gen-Z Social App
+## 145. Gen-Z Social App
 `Waitlist & Coming Soon` · `General` · 224 copies · [try live](https://superdesign.dev/library/gen-z-social-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-energy, Gen-Z-inspired design system with a 'Neo-Brutalist' aesthetic. This style features high-saturation colors like acid green (#ccff00), vibrant purple (#7000ff), and hot pink (#ff0099), paired with heavy black borders and hard shadows. It utilizes expressive, oversized typography and intentional layout chaos through asymmetrical sections and tilted elements. Ideal for social media apps, youth-oriented fintech, creative portfolios, and lifestyle products that prioritize attitude over corporate structure.
@@ -17018,7 +16419,7 @@ A high-energy, Gen-Z-inspired design system with a 'Neo-Brutalist' aesthetic. Th
 
 ---
 
-## 145. Ledgerline — fintech teal/mint startup landing page
+## 146. Ledgerline — fintech teal/mint startup landing page
 `Dashboards` · `Finance & Crypto` · 0 copies · [try live](https://superdesign.dev/library/ledgerline-fintech-tealmint-startup-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Dark premium fintech / neobank startup landing page: deep teal canvas with a single mint accent and cream text (Inter), sticky blurred nav, a hero with a live account-dashboard mock (balance, area chart, transactions) and a tilted virtual-card chip, a bento feature grid, a hairline stat band with a pull-quote, a security & compliance badge grid, and a glowing centered CTA.
@@ -17029,7 +16430,7 @@ Dark premium fintech / neobank startup landing page: deep teal canvas with a sin
 
 ---
 
-## 146. Questions, Set in Serif — An Editorial FAQ
+## 147. Questions, Set in Serif — An Editorial FAQ
 `Blog & Editorial` · `General` · 0 copies · [try live](https://superdesign.dev/library/questions-set-in-serif-an-editorial-faq?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Editorial magazine-style FAQ page on a warm cream canvas: an oversized sticky Fraunces serif 'Frequently Asked Questions' title beside a hairline-ruled column of serif Q/A rows (numbered, rotating plus-to-x, one pre-opened in wine), an ink context band and footer, with a 'Question not here?' contact card.
@@ -17040,7 +16441,7 @@ Editorial magazine-style FAQ page on a warm cream canvas: an oversized sticky Fr
 
 ---
 
-## 147. High energy onboarding
+## 148. High energy onboarding
 `Onboarding` · `General` · 6 copies · [try live](https://superdesign.dev/library/high-energy-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A maximalist, neobrutalist design system featuring unconventional geometric typography, high-contrast colors, and interactive card stacking. Built for energetic SaaS onboarding, creative platforms, or experimental fintech interfaces. Uses Clash Display and Satoshi fonts with hard shadows (#2D1B4E), vibrant accents in orange (#FF7D2E) and cyan (#00D4FF), and a signature noise-textured background overlay.
@@ -17094,7 +16495,7 @@ A maximalist, neobrutalist design system featuring unconventional geometric typo
 
 ---
 
-## 148. Sign in to Verdant — Classic Split (Emerald)
+## 149. Sign in to Verdant — Classic Split (Emerald)
 `Auth & Login` · `SaaS` · 3 copies · [try live](https://superdesign.dev/library/sign-in-to-verdant-classic-split-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A full-bleed classic split sign-in page: white emerald-accented auth form on the left (social + email login, gradient Sign in CTA), a dark slate brand panel with ambient glows and a floating showcase card on the right, and a sticky nav above both.
@@ -17105,7 +16506,7 @@ A full-bleed classic split sign-in page: white emerald-accented auth form on the
 
 ---
 
-## 149. Blog Page - Editorial Grid Magazine
+## 150. Blog Page - Editorial Grid Magazine
 `Blog & Editorial` · `E-commerce & Retail` · 20 copies · [try live](https://superdesign.dev/library/blog-page-editorial-grid-magazine?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A grid-based blog layout with visual hierarchy: featured posts are larger, secondary posts arranged in a balanced grid. Emphasizes scanning and visual entry points rather than linear reading.
@@ -17163,17 +16564,6 @@ Lifestyle brands, design-led companies, storytelling-focused content with strong
     }
   ]
 }
-```
-
----
-
-## 150. Momentum — Ship Your Startup Launch Before the Idea Cools
-`Waitlist & Coming Soon` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/momentum-ship-your-startup-launch-before-the-idea-cools?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Bold optimistic startup launch / waitlist landing page: teal-to-lime gradient brand on warm-white paper, sticky blurred nav, gradient-aura hero with an inline email-capture form and a frameless prompt-to-page preview, feature cards, a gradient traction band, launch-template cards, a dark ink CTA, and a 4-column footer.
-
-```text
-{"summary": "A bold, optimistic startup launch / waitlist landing page. Bright teal-to-lime gradient brand on a near-white paper canvas with near-black warm ink text, a sticky blurred nav, a full-bleed gradient-aura hero with a centered waitlist email-capture form and a frameless 'prompt-to-page' product-preview band, a feature-card grid (one wide white card + one solid gradient accent card, then a 3-up row), a full-bleed gradient traction/metrics band, a 3-up launch-template card strip, a dark ink CTA block with a second waitlist form, and a 4-column footer. Heavy use of a gradient text clip, a 1.5px gradient ring/border on cards and inputs, a radial dot-grid texture, and soft layered shadows including a teal 'glow'.", "style": {"description": "Bold optimistic SaaS gradient. Bright teal #14b8a6 to lime #a3e635 brand gradient (extended with deep teal #0d9488, mint #5eddc4, olive-green #65a30d) used for fills, text-clip headlines, 1.5px gradient rings, and a radial hero aura. Base is a soft warm-white 'paper' #fbfdfb; text is near-black warm ink #0c1a17 with muted slate #475a54 for secondary copy. Plus Jakarta Sans throughout (400-800, plus one italic 500), extrabold tight-tracked headlines. Generous whitespace, rounded geometry (rounded-lg/xl/2xl/3xl), soft layered shadows plus a signature teal glow shadow, a faint radial dot-grid texture, and frameless product mock bands rather than browser/device chrome.", "prompt": "Design in a bold, optimistic SaaS-gradient style. Palette: warm-white paper base #fbfdfb, near-black warm ink text #0c1a17, muted slate secondary text #475a54, brand teal #14b8a6 and lime #a3e635 with supporting deep-teal #0d9488, mint #5eddc4 and olive-green #65a30d. Build the brand gradient as linear-gradient(105deg, #14b8a6 0%, #5eddc4 46%, #a3e635 100%) for fills (call it grad-fill), and linear-gradient(100deg, #0d9488, #14b8a6 38%, #65a30d 78%, #a3e635 100%) clipped to text for headline accents (grad-text). Use Plus Jakarta Sans for everything (weights 400/500/600/700/800, one italic 500); headlines are extrabold with tight tracking (-0.02em to -0.03em) and leading ~1.04-1.1. Geometry is rounded (rounded-lg 0.5rem through rounded-3xl 1.5rem) and pill badges. Apply a 1.5px gradient ring/border on cards, inputs and badges via a ::before mask trick (linear-gradient(120deg,#14b8a6,#a3e635), padding 1.5px, mask-composite exclude) called ring-grad. Shadows: soft = 0 1px 2px rgba(12,26,23,.04), 0 8px 30px rgba(12,26,23,.06); lift = 0 24px 60px -18px rgba(12,26,23,.18); glow = 0 18px 50px -12px rgba(20,184,166,.45). Texture: a radial dot-grid (radial-gradient(rgba(12,26,23,.07) 1px, transparent 1px) at 22px) and a blurred multi-stop radial 'hero aura' of teal+lime+mint behind the hero and CTA. Hairline borders use rgba(12,26,23,.06). Mood: energetic, founder-friendly, fast-shipping, clean. Never dark, neon-cyberpunk, or corporate-stiff."}, "layout_and_structure": {"description": "Single-column long-form landing page in a centered max-w-6xl (72rem) container with px-6 gutters. Top-down order: sticky blurred header nav; full-bleed gradient-aura hero (centered eyebrow pill, gradient-clip headline, sub-paragraph, inline waitlist email form, reassurance row, frameless product-preview band, and a logo trust row); a features section (one wide white card + one solid gradient accent card, then a 3-up white-card row); a full-bleed gradient traction band (left copy + right 2x2/4-up stat cards); a templates strip (header row + 3-up template preview cards); a dark ink CTA block (rounded-3xl, gradient aura, second waitlist form); and a 4-column footer with a bottom bar. Responsive: nav links hide below md; the hero form stacks below sm; feature/template/stat grids collapse from 3/4 to 2 to 1; gradient auras are clipped by section overflow-hidden so they never cause horizontal scroll.", "prompts": [{"part": "Sticky nav", "prompt": "A sticky top header (z-50) with a translucent paper background (bg-paper/80) and backdrop blur-xl plus a hairline bottom border. Inside a max-w-6xl row, height 64px: left = a gradient-fill rounded-lg badge (h-8 w-8) holding a ph:lightning-fill icon in ink with a teal glow shadow, next to the 'Momentum' wordmark (extrabold, tight tracking); center = horizontal nav links (Features, Traction, Templates, Pricing) in slate that darken to ink on hover, hidden below md; right = a ghost 'Log in' text link (hidden below sm) and a gradient-fill rounded-lg 'Join waitlist' pill button in ink with a soft shadow that turns to a teal glow on hover."}, {"part": "Hero (gradient launch)", "prompt": "A full-bleed, centered hero with overflow-hidden and a hairline bottom border. Layer three backgrounds absolutely: a blurred multi-stop 'hero aura' (radial teal at top-left, lime at top-right, mint at bottom-center) at ~90% opacity, a radial dot-grid at 60% opacity, and a bottom fade gradient from paper up to transparent. Centered content in max-w-6xl, padding pt-20/pt-28 and pb-24: a gradient-ring rounded-full status pill on white/70 ('Now in private beta. Batch #4 opening') with a tiny gradient dot and a teal ph:arrow-right; a huge extrabold headline (text 44px up to 72px on md, leading 1.04, tracking -0.03em) reading 'Launch your startup' then a gradient-text clip span 'site before the idea cools.'; a slate sub-paragraph (max-w-xl); then an inline waitlist form (max-w-md, stacks on mobile, row on sm): a gradient-ring white input pill with a teal ph:envelope-simple icon and placeholder 'you@startup.com', plus a gradient-fill 'Get early access' button in ink with a ph:rocket-launch-fill icon and teal glow; below it a centered reassurance row with two teal ph:check-circle-fill items ('No credit card', '2-min setup'). Below the form, a frameless product-preview band (see component) and a trust logo row."}, {"part": "Product-preview band", "prompt": "A frameless (no browser/device chrome) product mock centered under the hero form, max-w-4xl, rounded-2xl white card with a gradient ring and a deep 'lift' shadow. Top strip on a soft brand-tint gradient with a hairline bottom border: a 'Prompt' label with a teal ph:sparkle-fill icon, a truncated example prompt in slate ('a launch page for a carbon-tracking app, bold + optimistic'), and a gradient-fill 'Generating...' chip pushed to the right. Body: a 3-col grid of skeleton blocks representing a generated page: a full-width hero row (col-span-3, brand-tint gradient) with two rounded bar placeholders and a gradient-fill button block, then three small bordered cards each with a gradient-fill rounded icon block and two bar placeholders. Use ink-opacity bars (bg-ink/80, /15, /10) as the skeleton copy."}, {"part": "Trust logo row", "prompt": "A centered trust row below the preview: an uppercase wide-tracked (0.18em) slate/70 label 'Trusted by builders shipping fast', then a flex-wrap row at ~70% opacity of five fake brand lockups, each an extrabold ink wordmark paired with a Phosphor icon (ph:orange-slice-fill Citrus, ph:planet-fill Orbit, ph:cube-fill Forma, ph:wave-triangle Hertz, ph:leaf-fill Sprout)."}, {"part": "Feature cards", "prompt": "A features section with a hairline bottom border, max-w-6xl, py-20/py-28. Centered header: a gradient-soft gradient-ring rounded-full eyebrow pill in teal ('Built to move'), an extrabold heading (34px up to 44px) with a gradient-text clip on the second phrase ('Everything a launch needs, nothing that slows it down.'), and a slate sub-paragraph. Then a first row on md:grid-cols-3: a wide white card (md:col-span-2) with a gradient ring, a blurred gradient blob in the top-right corner, a gradient-fill rounded-xl icon tile (ph:magic-wand-fill), an extrabold title 'Prompt-to-page in one shot', a slate paragraph, and a wrap of four ink/[.04] pill tags (Hero + CTA, Pricing tables, Waitlist forms, SEO meta); beside it a tall solid gradient-fill accent card in ink text with an inner dot-grid, a translucent ink/10 icon tile (ph:gauge-fill), title 'Live in under 5 minutes', an ink/80 paragraph, and an ink/10 pill ('avg. 4m 12s to publish' with ph:timer-fill). A second row of three equal white gradient-ring cards, each with a gradient-soft rounded-xl teal icon tile (ph:palette-fill / ph:chart-line-up-fill / ph:plugs-connected-fill), a bold title and slate body ('On-brand by default', 'Conversion built in', 'Plays with your stack'). Cards lift their shadow on hover."}, {"part": "Traction band", "prompt": "A full-bleed solid gradient-fill band (brand teal-to-lime) in ink text with a hairline bottom border, an inner dot-grid at 20% and a large blurred white/20 blob on the left. Inside max-w-6xl, py-16/py-20, a two-column grid (md:[1.1fr_1.4fr]): left = an ink/10 rounded-full uppercase eyebrow ('The numbers'), an extrabold heading (32px up to 40px, 'Momentum compounds for the teams who ship.'), and an ink/80 paragraph; right = a 2-col / up-to-4-col grid of stat cards, each white/85 rounded-2xl with backdrop blur and soft shadow, holding a big extrabold number (12k+ / 4m / +38% / 4.9 with a teal star) and a slate label beneath (sites launched, avg. time to live, waitlist conversion, founder rating)."}, {"part": "Templates strip", "prompt": "A templates section with a hairline bottom border, max-w-6xl, py-20/py-24. Header row (column on mobile, row on md aligned to the end): left = a gradient-soft gradient-ring teal eyebrow ('Start ahead') and an extrabold heading (30px up to 38px, 'Start from a launch template, or a single sentence.'); right = a teal bold text link 'Browse all templates' with a ph:arrow-right that widens its gap on hover. Then a 3-up card grid (1 / sm:2 / lg:3, the third spanning 2 on sm): each card is a gradient-ring white rounded-2xl article with an aspect-16/10 brand-tint-gradient preview header containing a dot-grid and abstract skeleton shapes (bar placeholders, a gradient-fill button block, a 3-up white/70 block row, or a 2x2 mixed block grid), and a footer row with a bold title + slate caption (SaaS Launch / Hero, features, pricing; Waitlist / Capture + share loop; Product Hunt / Built for launch day) and a teal ph:arrow-up-right that nudges right on group hover. Cards lift their shadow on hover."}, {"part": "CTA block", "prompt": "A pricing/CTA section with a hairline bottom border, max-w-6xl, py-20/py-28. A single rounded-3xl card on solid ink (#0c1a17) with paper text, a gradient ring, a blurred hero-aura overlay at 90% and an inner dot-grid at 20%, padded px-8/px-16 and py-14/py-20, centered: a white/10 backdrop-blur rounded-full eyebrow with a lime ph:rocket-launch-fill ('Free while in beta'); a huge extrabold headline (36px up to 52px) 'Your launch page is one [gradient-text 'prompt'] away.'; a paper/70 paragraph; a second waitlist form (max-w-md, stacks on mobile): a translucent white/10 input with a white/15 ring that focuses to teal and paper placeholder, plus a gradient-fill 'Claim my spot' ink button with a ph:arrow-right and teal glow; and a paper/50 reassurance line ('Joined by 3,400+ founders this month')."}, {"part": "Footer", "prompt": "A paper-background footer, max-w-6xl, py-16. A grid (md:[1.6fr_1fr_1fr_1fr]): first column = the gradient-fill lightning badge + 'Momentum' wordmark, a slate description ('From a one-line prompt to a live, converting launch page. Ship before the idea cools.'), and three bordered rounded-lg social icon buttons (ph:x-logo, ph:github-logo, ph:discord-logo) whose border and icon turn teal on hover; then three link columns (Product, Company, Resources) each with a bold uppercase wide-tracked ink heading and slate links that darken to ink on hover. A top-bordered bottom bar (column on mobile, row on sm) splits a slate copyright ('© 2026 Momentum Labs, Inc. All rights reserved.') from Privacy / Terms links and a status pill ('All systems go' with a small gradient-fill dot)."}]}, "special_ui_components": ["Brand gradient system: grad-fill (linear-gradient(105deg,#14b8a6,#5eddc4 46%,#a3e635)) for buttons/badges/icon tiles, and grad-text (linear-gradient(100deg,#0d9488,#14b8a6 38%,#65a30d 78%,#a3e635)) clipped to text for headline accents", "ring-grad: a 1.5px gradient border (linear-gradient(120deg,#14b8a6,#a3e635)) applied via a ::before padding + mask-composite:exclude trick on cards, inputs, badges and the product-preview band", "hero-aura: a blurred multi-stop radial-gradient wash (teal top-left, lime top-right, mint bottom-center) layered behind the hero and reused inside the dark CTA block", "dotgrid: a radial-dot texture (rgba(12,26,23,.07) 1px dots on a 22px grid) layered over the hero, gradient cards, traction band, template previews and CTA", "Signature 'glow' shadow: 0 18px 50px -12px rgba(20,184,166,.45) (teal) on the primary buttons and gradient icon tiles, alongside 'soft' and deep 'lift' shadows", "Frameless product-preview band: a chrome-less rounded-2xl mock with a 'Prompt' bar (sparkle + truncated example prompt + 'Generating...' chip) and a skeleton generated-page grid built from ink-opacity bars and gradient-fill blocks", "Inline waitlist email-capture forms (in both hero and CTA) with a leading ph:envelope-simple icon and a gradient-fill rocket/arrow submit button", "Phosphor (Iconify ph:*) icons throughout: lightning-fill, arrow-right, envelope-simple, rocket-launch-fill, check-circle-fill, sparkle-fill, magic-wand-fill, gauge-fill, timer-fill, palette-fill, chart-line-up-fill, plugs-connected-fill, arrow-up-right, x-logo, github-logo, discord-logo, plus fake-brand marks (orange-slice-fill, planet-fill, cube-fill, wave-triangle, leaf-fill)", "Abstract skeleton template previews: aspect-16/10 brand-tint gradient panels filled with rounded bar/block placeholders instead of real screenshots"], "special_notes": "Fonts: Plus Jakarta Sans only, loaded from Google Fonts (ital,wght 0,400;0,500;0,600;0,700;0,800;1,500). Built with Tailwind via the CDN (cdn.tailwindcss.com) using a custom theme: colors ink #0c1a17, slate #475a54, teal #14b8a6, lime #a3e635, paper #fbfdfb; custom boxShadow tokens soft / lift / glow; sans font-family mapped to Plus Jakarta Sans. Icons via iconify-icon web component (Phosphor 'ph:' set). html has scroll-behavior:smooth and all gradient-aura/blob sections use overflow-hidden so the blurred washes never cause horizontal scroll. No real product screenshots or photos are used: everything is rendered with CSS gradients, dot-grid texture and skeleton bar/block placeholders. Keep the mood bright, optimistic and fast-shipping; never dark-mode-default, neon-cyberpunk, or corporate-stiff. The only dark surface is the single ink CTA card."}
 ```
 
 ---

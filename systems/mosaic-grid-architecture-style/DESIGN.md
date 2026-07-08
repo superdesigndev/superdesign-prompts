@@ -1,6 +1,6 @@
 # Design System — Mosaic Grid Architecture Style
 
-> Category: E-commerce  ·  Industry: AI & Tech
+> Category: Design Systems & Styles  ·  Industry: AI & Tech
 > Auto-scaffolded from prompt [`mosaic-grid-architecture-style`](../../prompts/mosaic-grid-architecture-style/). Fields marked
 > `REVIEW` were best-effort extracted and should be verified.
 

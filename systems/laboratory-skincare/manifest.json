@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "laboratory-skincare",
+  "name": "Laboratory Skincare",
+  "category": "E-commerce",
+  "industry": "Health & Wellness",
+  "source": {
+    "type": "prompt",
+    "slug": "laboratory-skincare"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#F5F3F0",
+      "#2A2824",
+      "#8B7D6D",
+      "#6B665E",
+      "#6B7D6B",
+      "#D4CCC4"
+    ],
+    "fonts": [
+      "Gambetta",
+      "Satoshi",
+      "Academic Research",
+      "Protocol"
+    ]
+  }
+}

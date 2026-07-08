@@ -10,7 +10,7 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common sections
 
-- Hero Section  _(in 8 prompts)_
+- Hero Section  _(in 10 prompts)_
 - Navigation  _(in 5 prompts)_
 - Footer  _(in 4 prompts)_
 - Feature Grid  _(in 2 prompts)_
@@ -36,10 +36,10 @@ skill supplies the structure — sections, layout, and the components users expe
 - Grid Sidebar Label  _(in 1 prompts)_
 - Wave Transition  _(in 1 prompts)_
 - Intelligent Card Hover  _(in 1 prompts)_
+- Property Inspector Grid  _(in 1 prompts)_
+- Simulated Selection Box  _(in 1 prompts)_
 - Vibe Input Box  _(in 1 prompts)_
 - Sticky Feature Nav  _(in 1 prompts)_
-- Animated UI Simulator  _(in 1 prompts)_
-- The 'Rotating Logo' Brand Mark  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -56,9 +56,9 @@ Build a Landing Page using the "<system-id>" design system
 - [SaaS Landing Page for Developer Tool](../../prompts/saas-landing-page-for-developer-tool/) · 950 copies
 - [Futuristic SasS Landing Page](../../prompts/futuristic-sass-landing-page/) · 942 copies
 - [Clean fluid](../../prompts/clean-fluid/) · 703 copies
+- [Chrome Extension Landing Page](../../prompts/chrome-extension-landing-page/) · 592 copies
 - [Red sun](../../prompts/red-sun/) · 513 copies
 - [Tech Editorial](../../prompts/tech-editorial/) · 510 copies
-- [Landing Page / Real-Estate](../../prompts/landing-page-real-estate/) · 30 copies
+- [Graphic Comparison Report](../../prompts/graphic-comparison-report/) · 17 copies
 - [One Pager](../../prompts/one-pager/) · 9 copies
 - [Landing Page / Local Small Business](../../prompts/landing-page-local-small-business/) · 5 copies
-- [Foundry: Your SaaS Site, Designed Before You Write a Line](../../prompts/foundry-your-saas-site-designed-before-you-write-a-line/) · 0 copies

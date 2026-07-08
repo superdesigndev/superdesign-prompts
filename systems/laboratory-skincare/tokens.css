@@ -1,0 +1,15 @@
+/* systems/laboratory-skincare/tokens.css — Laboratory Skincare
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #F5F3F0;  /* REVIEW role */
+  --fg: #2A2824;  /* REVIEW role */
+  --accent: #8B7D6D;  /* REVIEW role */
+  --surface: #6B665E;  /* REVIEW role */
+  --muted: #6B7D6B;  /* REVIEW role */
+  --border: #D4CCC4;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Gambetta';
+  --font-body: 'Satoshi';
+}

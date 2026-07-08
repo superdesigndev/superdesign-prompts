@@ -2,7 +2,7 @@
   "schemaVersion": "sd-design-system/v1",
   "id": "graphic-comparison-report",
   "name": "Graphic Comparison Report",
-  "category": "E-commerce",
+  "category": "Landing Pages",
   "industry": "SaaS",
   "source": {
     "type": "prompt",

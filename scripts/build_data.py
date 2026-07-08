@@ -38,19 +38,20 @@ def page_category(it):
     tags = " ".join((it.get("tags") or [])).lower()
     txt = f"{it.get('title') or ''} {it.get('slug','')}".lower()
     T = tags + " " + txt
+    tl = [t.strip().lower() for t in (it.get("tags") or [])]  # exact tag list (avoids "form" in "platform")
     if has(tags, "pricing", "billing-toggle", "three-tier", "comparison-table") or "pricing" in txt:
         return "Pricing Pages"
     if has(tags, "auth", "signup", "signin", "login") or has(txt, "login", "sign in", "sign-in", "signup", "sign up"):
         return "Auth & Login"
-    if "dashboard" in T or has(txt, "admin", "analytics"): return "Dashboards"
+    if "dashboard" in T or has(txt, "admin panel", "admin dashboard", "console"): return "Dashboards"
     if "onboarding" in T: return "Onboarding"
     if has(tags, "waitlist", "coming-soon") or has(txt, "waitlist", "coming soon", "coming-soon"):
         return "Waitlist & Coming Soon"
-    if has(tags, "form", "forms", "contact", "contact-form", "newsletter") or has(txt, "contact form", "contact-form"):
+    if any(t in ("form", "forms", "contact", "contact-form", "contact form", "newsletter", "newsletter-signup") for t in tl) or has(txt, "contact form", "contact-form"):
         return "Forms & Contact"
     if has(tags, "blog", "article", "news", "magazine") or has(txt, "blog", "article", "magazine"):
         return "Blog & Editorial"
-    if has(tags, "ecommerce", "e-commerce", "shopify", "apparel", "store", "cart", "checkout", "product") \
+    if has(tags, "ecommerce", "e-commerce", "shopify", "apparel", "store", "cart", "checkout") \
             or has(txt, "shop", "store", "cart", "checkout", "ecommerce", "commerce"):
         return "E-commerce"
     if "portfolio" in T: return "Portfolios"

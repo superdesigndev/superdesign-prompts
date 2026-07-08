@@ -1,7 +1,7 @@
 # Page type — Dashboards
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 8 prompts in this repo.
+> Aggregated from 7 prompts in this repo.
 
 ## What this page type is
 
@@ -18,19 +18,16 @@ skill supplies the structure — sections, layout, and the components users expe
 - Analytics Section  _(in 1 prompts)_
 - Projects Table  _(in 1 prompts)_
 - Event Stream Log  _(in 1 prompts)_
-- Navigation  _(in 1 prompts)_
-- Hero Section  _(in 1 prompts)_
-- Dashboard Preview  _(in 1 prompts)_
-- Module Grid  _(in 1 prompts)_
+- System Canvas (Left 65%)  _(in 1 prompts)_
+- Inspector Sidebar (Right 35%)  _(in 1 prompts)_
+- Settings Sections  _(in 1 prompts)_
+- Terminal Output Preview  _(in 1 prompts)_
 
 ## Common components
 
 - Grouped Bar Chart  _(in 1 prompts)_
 - Analytics Donut Chart  _(in 1 prompts)_
 - Segmented Control  _(in 1 prompts)_
-- KPI Count-up  _(in 1 prompts)_
-- Audit Log Table  _(in 1 prompts)_
-- Glass-Morphism Toggle  _(in 1 prompts)_
 - Active System Node  _(in 1 prompts)_
 - Console Range Slider  _(in 1 prompts)_
 - Action Trigger Button  _(in 1 prompts)_
@@ -40,6 +37,8 @@ skill supplies the structure — sections, layout, and the components users expe
 - Keyboard Shortcut Toast  _(in 1 prompts)_
 - Status Metadata Badge  _(in 1 prompts)_
 - The Dismiss Item  _(in 1 prompts)_
+- Vertical Node Dial  _(in 1 prompts)_
+- Terminal Code Block  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -50,7 +49,6 @@ Build a Dashboard using the "<system-id>" design system
 
 ## Reference prompts (most-used first)
 
-- [Enterprise Admin Platform](../../prompts/enterprise-admin-platform/) · 363 copies
 - [Analytics dashboard](../../prompts/analytics-dashboard/) · 85 copies
 - [Linear inspired developer tool dashboard](../../prompts/linear-inspired-developer-tool-dashboard/) · 33 copies
 - [AI System Configuration Console](../../prompts/ai-system-configuration-console/) · 32 copies

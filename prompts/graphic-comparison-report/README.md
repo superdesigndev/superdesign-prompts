@@ -1,7 +1,7 @@
 ---
 title: "Graphic Comparison Report"
 slug: "graphic-comparison-report"
-category: "E-commerce"
+category: "Landing Pages"
 industry: "SaaS"
 tags: ["comparison page", "high contrast", "offwhite", "vibrant cobalt", "technical analysis", "b2b", "product evaluation", "graphic poster", "editorial"]
 copyCount: 17
@@ -85,4 +85,4 @@ A highly visual, typography-driven comparison report design. This style eschews 
 superdesign get-prompts --slugs "graphic-comparison-report" --json
 ```
 
-*17 copies · 2,470 tries · E-commerce · SaaS · comparison page, high contrast, offwhite, vibrant cobalt*
+*17 copies · 2,470 tries · Landing Pages · SaaS · comparison page, high contrast, offwhite, vibrant cobalt*
