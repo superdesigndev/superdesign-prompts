@@ -902,7 +902,7 @@ You are given a task to integrate the below html page into the current page.
             pointer-events: none;
             opacity: 0.05;
             mix-blend-mode: overlay;
-            background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
         }
 
         /* Parallax Container Effect */
@@ -944,18 +944,18 @@ You are given a task to integrate the below html page into the current page.
             <!-- Background Atmosphere -->
             <div class="absolute inset-0 z-0 pointer-events-none select-none">
                 <div class="absolute top-0 left-0 w-full h-full opacity-60 mix-blend-screen">
-                    <img src="https://framerusercontent.com/images/9zvwRJAavKKacVyhFCwHyXW1U.png?width=1536&height=1024" alt="Atmosphere" class="w-full h-full object-cover object-center opacity-80">
+                    <img src="https://placehold.co/1536x1024" alt="Atmosphere" class="w-full h-full object-cover object-center opacity-80">
                 </div>
                 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#050505] z-10"></div>
             </div>
 
             <!-- Floating Surrealist Elements -->
             <div class="absolute -left-[10%] top-[-10%] md:left-[-5%] md:top-[-15%] w-[50vw] md:w-[40vw] max-w-[800px] z-10 pointer-events-none mix-blend-hard-light opacity-80 animate-float-left">
-                 <img src="https://framerusercontent.com/images/KNhiA5A2ykNYqNkj04Hk6BVg5A.png?width=1540&height=1320" alt="Hand Reaching" class="w-full h-auto object-contain">
+                 <img src="https://placehold.co/1540x1320" alt="Hand Reaching" class="w-full h-auto object-contain">
             </div>
 
             <div class="absolute -right-[10%] bottom-[-10%] md:right-[-5%] md:bottom-[-5%] w-[45vw] md:w-[35vw] max-w-[700px] z-10 pointer-events-none mix-blend-hard-light opacity-80 animate-float-right">
-                 <img src="https://framerusercontent.com/images/X89VFCABCEjjZ4oLGa3PjbOmsA.png?width=1542&height=1002" alt="Hand Receiving" class="w-full h-auto object-contain">
+                 <img src="https://placehold.co/1542x1002" alt="Hand Receiving" class="w-full h-auto object-contain">
             </div>
 
             <!-- Hero Content -->

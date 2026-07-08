@@ -145,6 +145,14 @@ def apply_patches(it):
     pr = pr.replace("SUPERDESIGN", "ACME").replace("Superdesign", "Acme")
     if slug in BRAND_STRIP:
         pr = re.sub(r"\bSUPER\b(?!\s*[-#.:])", "ACME", pr)  # bare SUPER wordmark, not CSS/props
+    # vendor fragile third-party assets -> stable equivalents (avoid rot in shipped templates)
+    pr = re.sub(r"https://framerusercontent\.com/images/\S*?width=(\d+)&height=(\d+)",
+                r"https://placehold.co/\1x\2", pr)  # someone's Framer project assets
+    pr = pr.replace(
+        "https://grainy-gradients.vercel.app/noise.svg",
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E"
+        "%3CfeTurbulence type='fractalNoise' baseFrequency='0.85'/%3E%3C/filter%3E"
+        "%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E")
     if slug == "developer-tool-dashboardonboarding":
         pr = pr.replace("#33333 ", "#333333 ").replace("#33333;", "#333333;")
         it["tags"] = ["saas" if t == "sass" else t for t in (it.get("tags") or [])]
