@@ -1,8 +1,8 @@
 # Stop shipping AI-slop UI
 
-> Coding agents write great code and generic interfaces: default shadcn, same fonts, no taste. This is a library of **usage-ranked design prompts, each with a live preview**, that give your agent design direction so the UI it ships actually looks designed. Powered by [Superdesign](https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
+> Coding agents write great code and generic interfaces: default shadcn, same fonts, no taste. This is a library of **design prompts — each a full design spec with a live preview and real usage data** — that give your agent design direction so the UI it ships actually looks designed. Powered by [Superdesign](https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
 
-![prompts](https://img.shields.io/badge/prompts-150-blue) ![ranked](https://img.shields.io/badge/ranked%20by-real%20usage-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![last synced](https://img.shields.io/badge/last%20synced-2026--07--08-informational) ![license](https://img.shields.io/badge/code-MIT-informational)
+![prompts](https://img.shields.io/badge/prompts-150-blue) ![backed by](https://img.shields.io/badge/backed%20by-1.7M%2B%20real%20runs-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![last synced](https://img.shields.io/badge/last%20synced-2026--07--08-informational) ![license](https://img.shields.io/badge/code-MIT-informational)
 
 <div align="center">
 <!-- STATS:START -->
@@ -13,7 +13,7 @@
 
 ## Why your AI UI looks generic (and how to fix it)
 
-AI-generated UI all looks the same because the agent has **no taste to anchor to** — so it reaches for the same fonts, the same card grid, the same indigo-500. Every prompt here is a **full design spec** (exact colors, type, spacing, motion, layout), ranked by how many real builders actually used it. Hand one to your agent and it builds to a real spec instead of a default.
+AI-generated UI all looks the same because the agent has **no taste to anchor to** — so it reaches for the same fonts, the same card grid, the same indigo-500. Every prompt here is a **full design spec** (exact colors, type, spacing, motion, layout), and each shows its **real usage** (copies + tries) so you can see what builders actually reach for. Hand one to your agent and it builds to a real spec instead of a default.
 
 ## How to use these — 3 ways to de-slop
 
@@ -31,6 +31,17 @@ Then just ask: *"/superdesign make my pricing page not look like AI slop"*. The 
 Hit **▶ Try live** on any prompt to generate and iterate it on the Superdesign canvas, then copy the result into your project.
 
 > New to this? Start with [how to make Claude Code UI look good](https://superdesign.dev/blog/how-to-make-claude-code-ui-look-good).
+
+## Why this library is different
+
+Not another static list of design prompts. The difference is what's *behind* each one:
+
+| | Most prompt lists / DESIGN.md repos | This one |
+|---|---|---|
+| Ranking | Curated by opinion | **Real usage shown** on every prompt (copies + tries); the [leaderboard](#most-used) ranks by it |
+| Format | Static text / markdown, no preview | **Live preview + one-click run** on every entry |
+| Freshness | Manual, goes stale | **Auto-synced** from a live product |
+| Coverage | A few looks | Every **page type** and **style**, browsable |
 
 ## How this fits with the Superdesign skill
 
@@ -91,14 +102,14 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 
 **By page type** (the structure): [Landing Pages](page-types/landing-pages/) · [Pricing Pages](page-types/pricing-pages/) · [Auth & Login](page-types/auth-login/) · [Dashboards](page-types/dashboards/) · [Onboarding](page-types/onboarding/) · [Waitlist & Coming Soon](page-types/waitlist-coming-soon/) · [Forms & Contact](page-types/forms-contact/) · [Blog & Editorial](page-types/blog-editorial/) · [E-commerce](page-types/e-commerce/) · [Portfolios](page-types/portfolios/) · [Mobile Apps](page-types/mobile-apps/) · [Components](page-types/components/)
 
-**By style** (the look your agent applies): browse [`systems/`](systems/) — each is a reusable style (design tokens + spec) you can drop onto any page type.
+**By style** (the look): every prompt *is* a full style spec with a live preview — browse [`prompts/`](prompts/) or the [leaderboard](#most-used) above.
 
 **Everything:** [`prompts/`](prompts/) (all 150) · machine-readable [`prompts.json`](prompts.json) · [`prompts.csv`](prompts.csv) · [`PROMPTS.md`](PROMPTS.md)
 
 <details>
-<summary><b>Advanced: recombine any style × any page</b></summary>
+<summary><b>Experimental: recombine any style × any page</b></summary>
 
-Because each prompt is factored into a **style** ([`systems/`](systems/)) and a **structure** ([`page-types/`](page-types/)), they recombine: one curated style renders many pages, one page type renders in many styles. See [`examples/recombine-demo.md`](examples/recombine-demo.md).
+Each prompt is being factored into a **style** ([`systems/`](systems/)) and a **structure** ([`page-types/`](page-types/)) so they recombine — one style renders many pages. **This is experimental:** the factored `systems/` are auto-scaffolded drafts (tokens are best-effort and may need fixing), so the prompt READMEs remain the source of truth. See [`examples/recombine-demo.md`](examples/recombine-demo.md).
 </details>
 
 ## Superdesign vs other AI design tools
@@ -127,7 +138,7 @@ Because each prompt is factored into a **style** ([`systems/`](systems/)) and a 
 
 ## Contributing
 
-This is a read-only mirror of the live [Superdesign prompt library](https://superdesign.dev/library), auto-synced and ranked by real usage. Add prompts by creating them in the app — top prompts sync here automatically. For fixes to this repo (typos, links, categorization), open a PR. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
+This is a read-only mirror of the live [Superdesign prompt library](https://superdesign.dev/library), auto-synced, with real usage shown per prompt. Add prompts by creating them in the app — top prompts sync here automatically. For fixes to this repo (typos, links, categorization), open a PR. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## License
 
