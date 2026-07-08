@@ -10,7 +10,7 @@ Warm editorial-meets-dev-tool aesthetic: an off-white cream canvas, a tall serif
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#f6f4ef`
 - `#ffffff`

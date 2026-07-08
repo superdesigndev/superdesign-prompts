@@ -10,8 +10,7 @@
   },
   "status": "draft",
   "files": {
-    "design": "DESIGN.md",
-    "tokens": "tokens.css"
+    "design": "DESIGN.md"
   },
   "extracted": {
     "colors": [],

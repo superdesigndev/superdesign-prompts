@@ -10,7 +10,7 @@ Near-black 'ink' palette: page base #0a0c0b, surfaces #101413 (ink-900) and #161
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#0a0c0b`
 - `#101413`

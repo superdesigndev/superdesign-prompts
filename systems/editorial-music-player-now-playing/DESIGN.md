@@ -10,7 +10,7 @@ Warm editorial duotone: light cream 'now playing' over a deep forest-green playl
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#fbf6ec`
 - `#efe6d3`

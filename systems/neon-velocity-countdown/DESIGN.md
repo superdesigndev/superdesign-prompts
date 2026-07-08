@@ -10,7 +10,7 @@ The style is built on a high-contrast foundation of deep blacks (#050505) and vi
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#050505`
 - `#BFFF00`

@@ -10,7 +10,7 @@ A sticky section that locks vertical scroll and translates it into horizontal mo
 
 ## 2. Color Palette & Roles
 
-_REVIEW: no colors captured from the source prompt._
+_No colors captured from the source prompt._
 
 ## 3. Typography
 

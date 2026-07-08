@@ -10,7 +10,7 @@ The design uses a strictly monochrome palette (#FFFFFF, #F5F5F5, #111827) and 'G
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#FFFFFF`
 - `#F5F5F5`

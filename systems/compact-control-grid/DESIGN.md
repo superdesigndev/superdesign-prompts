@@ -10,7 +10,7 @@ Modern high-density aesthetic using the 'Satoshi' font family for crisp readabil
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#F2F4F6`
 - `#1E293B`

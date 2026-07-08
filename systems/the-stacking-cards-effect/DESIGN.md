@@ -10,7 +10,7 @@ A portfolio section where cards stack sticky at the top as the user scrolls, cre
 
 ## 2. Color Palette & Roles
 
-_REVIEW: no colors captured from the source prompt._
+_No colors captured from the source prompt._
 
 ## 3. Typography
 

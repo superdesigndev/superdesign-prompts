@@ -10,7 +10,7 @@ Clean, modern SaaS auth aesthetic built on a single true-cobalt accent (a pigmen
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#2563eb`
 - `#eef0ff`

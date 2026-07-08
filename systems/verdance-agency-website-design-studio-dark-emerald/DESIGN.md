@@ -10,7 +10,7 @@ Premium, calm, editorial dark mode in a deep emerald 'forest' palette with a bra
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#0d1f17`
 - `#0a1711`

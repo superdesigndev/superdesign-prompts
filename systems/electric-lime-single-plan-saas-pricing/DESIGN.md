@@ -10,7 +10,7 @@ High-contrast editorial dark-frame aesthetic: a near-black charcoal page backgro
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#0a0a0b`
 - `#f4f3ef`

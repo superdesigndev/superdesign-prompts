@@ -10,7 +10,7 @@ The design follows a 'clean-tech' aesthetic using the Switzer font family (font-
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#0F172A`
 - `#F8FAFC`

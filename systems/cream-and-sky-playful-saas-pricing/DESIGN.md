@@ -10,7 +10,7 @@ A soft, playful, light-mode SaaS aesthetic: a warm cream paper canvas with a sub
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#fdfbf4`
 - `#f0f8ff`

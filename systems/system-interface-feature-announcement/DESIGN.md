@@ -10,7 +10,7 @@ Brutalist and utilitarian style. Typography combines JetBrains Mono (700 for hea
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#F5F5F5`
 - `#1A1A1A`

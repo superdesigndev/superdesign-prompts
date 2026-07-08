@@ -10,7 +10,7 @@ Electric sport: near-black charcoal with electric-lime primary + cyan secondary;
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#070A06`
 - `#10130C`

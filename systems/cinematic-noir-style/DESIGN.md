@@ -10,7 +10,7 @@ The style is built on a high-contrast monochromatic palette with a singular pop 
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#ef4444`
 - `#000000`

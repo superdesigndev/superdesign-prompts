@@ -10,7 +10,7 @@ Soft, rounded, friendly SaaS aesthetic in a sky-blue + coral palette on a near-w
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#f7fbff`
 - `#38bdf8`

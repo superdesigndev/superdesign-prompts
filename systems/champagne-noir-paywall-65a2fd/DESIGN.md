@@ -10,7 +10,7 @@ Premium champagne / 'Champagne Noir': deep charcoal near-black + gold-to-champag
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#080706`
 - `#0c0b0a`

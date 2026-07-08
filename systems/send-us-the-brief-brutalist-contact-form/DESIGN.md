@@ -10,7 +10,7 @@ Neo-brutalist / brutalist aesthetic on a warm off-white 'paper' canvas (paper #f
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#f4f1ea`
 - `#0a0a0a`

@@ -10,7 +10,7 @@ Near-black layered palette: page #060807, footer surface ink #080a0a, input pane
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#060807`
 - `#080a0a`

@@ -10,7 +10,7 @@ The style is defined by a pairing of 'Space Grotesk' (display) and 'Inter' (sans
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#F5F5F2`
 - `#1A1A1A`

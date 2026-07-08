@@ -10,7 +10,7 @@ The style is 'Industrial/Technical Minimalist'. It uses a strict dark theme (#0f
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#0f1115`
 - `#d4ff00`

@@ -10,7 +10,7 @@ The style is a mix of Brutalist typography and luxury minimalism. It uses Anton 
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#171e19`
 - `#b7c6c2`

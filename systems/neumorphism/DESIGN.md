@@ -11,7 +11,7 @@ Source: designprompts.dev
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#E0E5EC`
 - `#3D4852`

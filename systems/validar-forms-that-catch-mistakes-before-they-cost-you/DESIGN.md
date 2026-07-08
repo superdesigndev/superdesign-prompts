@@ -10,7 +10,7 @@ Modern SaaS product-marketing aesthetic in a single teal accent over a near-whit
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#f8fafc`
 - `#0f1729`

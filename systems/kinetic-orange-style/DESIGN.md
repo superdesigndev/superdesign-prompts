@@ -10,7 +10,7 @@ High-impact brutalist theme. It pairs the heavy weight of 'Archivo Black' for di
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#FF4D00`
 - `#000000`

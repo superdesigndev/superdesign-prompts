@@ -10,7 +10,7 @@ The style is 'Technical Editorial,' combining the warmth of a paper-like backgro
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#F7F5F0`
 - `#111111`

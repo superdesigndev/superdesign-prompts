@@ -1,11 +1,10 @@
 # Design Systems — the *style* axis
 
-> ⚠️ **Experimental / draft.** These systems are **auto-scaffolded** from the prompts by
-> `scripts/factor_prompts.py`. Only `analytics-dashboard/` is hand-curated; the rest are
-> best-effort extractions — the `tokens.css` role assignments (`--fg`, `--accent`, `--border`…)
-> are *guesses* and some are wrong (e.g. text/accent swapped), and some prose is truncated.
-> **Treat the prompt README (`prompts/<slug>/`) as the source of truth**, not these tokens, until
-> a system is marked curated.
+> ⚠️ **Experimental / auto-scaffolded.** Each system is a best-effort `DESIGN.md` summary of a
+> style, extracted from its prompt by `scripts/factor_prompts.py`. (Machine-readable `tokens.css`
+> files were **removed** — their CSS-variable roles were guessed by order of appearance and were
+> often wrong, e.g. text/accent swapped.) **The prompt README (`prompts/<slug>/`) is the source of
+> truth** for exact colors, roles, and tokens.
 
 Every prompt in this repo bundles two separable things:
 

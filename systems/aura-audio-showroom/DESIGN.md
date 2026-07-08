@@ -10,7 +10,7 @@ Premium Material-Minimalism. Typography pairs 'Cabinet Grotesk' for high-impact,
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#FAF7F5`
 - `#1C1917`

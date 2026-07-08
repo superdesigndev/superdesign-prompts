@@ -10,7 +10,7 @@ A fluid, smoky cursor trail effect using Three.js shader materials and post-proc
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#B19EEF`
 - `#111`

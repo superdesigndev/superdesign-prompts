@@ -10,7 +10,7 @@ The style is 'High-End Wireframe'—focused on structure and hierarchy. It uses 
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#FFFFFF`
 - `#F3F4F6`

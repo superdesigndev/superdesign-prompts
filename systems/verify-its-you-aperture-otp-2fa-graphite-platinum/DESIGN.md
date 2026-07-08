@@ -10,7 +10,7 @@ Calm, premium, light-mode security UI built on a graphite + platinum + warm-pape
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#f6f5f2`
 - `#efeee9`

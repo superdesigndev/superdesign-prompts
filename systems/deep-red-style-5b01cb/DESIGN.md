@@ -10,7 +10,7 @@ A deep red/orange atmospheric gradients, elegant serif typography, and complex s
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#050505`
 - `#FF4500`

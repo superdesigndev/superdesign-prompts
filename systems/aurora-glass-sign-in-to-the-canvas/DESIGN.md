@@ -10,7 +10,7 @@ Dark glassmorphism with a vivid aurora gradient system. Near-black ink canvas (#
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#0b0f14`
 - `#2dd4bf`

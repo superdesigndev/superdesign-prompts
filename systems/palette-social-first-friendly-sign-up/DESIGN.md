@@ -10,7 +10,7 @@ Warm, friendly, approachable indie-maker SaaS aesthetic on a soft cream canvas w
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#fdf9f3`
 - `#ffffff`

@@ -10,7 +10,7 @@ Source: https://x.com/emilylambert/status/2005113433780617713
 
 ## 2. Color Palette & Roles
 
-_REVIEW: no colors captured from the source prompt._
+_No colors captured from the source prompt._
 
 ## 3. Typography
 

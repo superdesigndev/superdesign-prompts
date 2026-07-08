@@ -10,7 +10,7 @@ A warm, playful, premium-pastel aesthetic that turns a 'success' state into a de
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#eaf6fd`
 - `#f3fbff`

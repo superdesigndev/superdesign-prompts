@@ -10,7 +10,7 @@ A text component that cycles through words with a 3D physical slot machine/Rolod
 
 ## 2. Color Palette & Roles
 
-_REVIEW: no colors captured from the source prompt._
+_No colors captured from the source prompt._
 
 ## 3. Typography
 

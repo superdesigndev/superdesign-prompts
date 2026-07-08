@@ -10,7 +10,7 @@ Deep midnight-navy fintech dark theme with a single cool teal/mint accent, a sof
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#06152b`
 - `#0b1f3a`

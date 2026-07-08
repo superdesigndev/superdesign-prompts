@@ -10,7 +10,7 @@ The style is minimalist and high-contrast, utilizing 'General Sans' as the prima
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#FFFFFF`
 - `#111827`

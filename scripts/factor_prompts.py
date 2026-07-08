@@ -154,7 +154,6 @@ _REVIEW — extracted from the source style prompt:_
 *Recombine this system with any [page-type](../../page-types/) to generate a new artifact in this style.*
 """
 
-    tokens = _tokens_css(slug, x["title"], colors, fonts)
     manifest = {
         "schemaVersion": "sd-design-system/v1",
         "id": slug,
@@ -163,13 +162,15 @@ _REVIEW — extracted from the source style prompt:_
         "industry": x.get("industry", ""),
         "source": {"type": "prompt", "slug": slug},
         "status": "draft",
-        "files": {"design": "DESIGN.md", "tokens": "tokens.css"},
+        "files": {"design": "DESIGN.md"},
         "extracted": {"colors": colors, "fonts": fonts},
     }
     out = SYS_DIR / slug
     out.mkdir(parents=True, exist_ok=True)
     (out / "DESIGN.md").write_text(design_md)
-    (out / "tokens.css").write_text(tokens)
+    # tokens.css dropped: role assignment was guessed by order and often wrong (fg/accent swapped).
+    # The prompt README is the source of truth for exact roles.
+    (out / "tokens.css").unlink(missing_ok=True)
     (out / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False))
 
 
@@ -180,8 +181,8 @@ def _clip(s, n=900):
 
 def _palette_prose(colors):
     if not colors:
-        return "_REVIEW: no colors captured from the source prompt._"
-    return "REVIEW — role assignment is a guess; verify against the preview.\n\n" + "\n".join(
+        return "_No colors captured from the source prompt._"
+    return "Colors used in this style (the prompt has their exact roles):\n\n" + "\n".join(
         f"- `{c}`" for c in colors
     )
 
@@ -196,28 +197,6 @@ def _motion_prose(text):
     hits = [ln.strip() for ln in re.split(r"[.\n]", text)
             if re.search(r"\b(transition|animat|motion|ease|hover|duration|ms)\b", ln, re.I)]
     return ("REVIEW —\n" + "\n".join(f"- {h}" for h in hits[:5])) if hits else "_REVIEW: none captured._"
-
-
-def _tokens_css(slug, name, colors, fonts):
-    lines = [f"/* systems/{slug}/tokens.css — {name}", " * DRAFT scaffold — verify role assignments (REVIEW).", " */", ":root {"]
-    if colors:
-        lines.append("  /* --- palette (ordered as found; assign roles) --- */")
-        # heuristic role guesses
-        roles = ["--bg", "--fg", "--accent", "--surface", "--muted", "--border"]
-        for i, c in enumerate(colors):
-            role = roles[i] if i < len(roles) else f"--color-{i+1}"
-            tag = "  /* REVIEW role */" if i < len(roles) else ""
-            lines.append(f"  {role}: {c};{tag}")
-    if fonts:
-        lines.append("  /* --- typography --- */")
-        lines.append(f"  --font-display: '{fonts[0]}';")
-        if len(fonts) > 1:
-            lines.append(f"  --font-body: '{fonts[1] if len(fonts)>1 else fonts[0]}';")
-        mono = next((f for f in fonts if "Mono" in f), None)
-        if mono:
-            lines.append(f"  --font-mono: '{mono}';")
-    lines.append("}")
-    return "\n".join(lines) + "\n"
 
 
 def write_page_type(cat, members):
@@ -295,15 +274,9 @@ def main():
     orphans = 0
     if SYS_DIR.exists():
         for p in SYS_DIR.iterdir():
-            if not p.is_dir() or p.name in keep:
-                continue
-            m = p / "manifest.json"  # keep hand-curated systems even if orphaned
-            try:
-                if m.exists() and json.load(open(m)).get("status") == "curated":
-                    continue
-            except (json.JSONDecodeError, OSError):
-                pass
-            shutil.rmtree(p); orphans += 1
+            # a system with no matching prompt is dangling (broken back-link) — remove it
+            if p.is_dir() and p.name not in keep:
+                shutil.rmtree(p); orphans += 1
     pt_keep = {slugify(c) for c in by_cat if c in PAGE_CATEGORIES}
     if PT_DIR.exists():
         for p in PT_DIR.iterdir():

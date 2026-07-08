@@ -10,7 +10,7 @@ A premium, minimalist pill-shaped navigation component with GSAP-powered hover e
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#F9F9F9`
 - `#1A1A1B`

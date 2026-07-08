@@ -129,7 +129,7 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 <details>
 <summary><b>Experimental: recombine any style × any page</b></summary>
 
-Each prompt is being factored into a **style** ([`systems/`](systems/)) and a **structure** ([`page-types/`](page-types/)) so they recombine — one style renders many pages. **This is experimental:** the factored `systems/` are auto-scaffolded drafts (tokens are best-effort and may need fixing), so the prompt READMEs remain the source of truth. See [`examples/recombine-demo.md`](examples/recombine-demo.md).
+Each prompt is being factored into a **style** ([`systems/`](systems/)) and a **structure** ([`page-types/`](page-types/)) so they recombine — one style renders many pages. **This is experimental:** the factored `systems/` are auto-scaffolded `DESIGN.md` summaries, so the prompt READMEs remain the source of truth for exact tokens. See [`examples/recombine-demo.md`](examples/recombine-demo.md).
 </details>
 
 ## Superdesign vs other AI design tools

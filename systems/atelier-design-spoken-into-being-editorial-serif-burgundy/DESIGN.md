@@ -10,7 +10,7 @@ Print-editorial / luxury-magazine aesthetic translated to the web: warm cream pa
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#faf6ef`
 - `#1c1815`

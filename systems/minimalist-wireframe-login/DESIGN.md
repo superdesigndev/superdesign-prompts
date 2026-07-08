@@ -10,7 +10,7 @@ The design utilizes 'General Sans' across four weights (400-700) for strict hier
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#FFFFFF`
 - `#0F172A`

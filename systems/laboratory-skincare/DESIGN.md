@@ -10,7 +10,7 @@ The style is defined by a 'warm clinical' theme. Typography pairs the elegant se
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#F5F3F0`
 - `#2A2824`

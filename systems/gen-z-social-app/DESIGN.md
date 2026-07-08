@@ -10,7 +10,7 @@ The style uses a combination of 'Space Grotesk' for bold, tight headlines and 'D
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#ccff00`
 - `#7000ff`

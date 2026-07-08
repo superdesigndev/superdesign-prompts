@@ -10,7 +10,7 @@ A bold, dark-themed landing page featuring high-contrast red accents, glassmorph
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#ef233c`
 - `#000000`

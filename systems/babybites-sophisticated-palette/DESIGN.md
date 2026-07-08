@@ -10,7 +10,7 @@ The style is defined by its 'Sophisticated Playful' aesthetic. It uses Nunito as
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#171e19`
 - `#ca0013`

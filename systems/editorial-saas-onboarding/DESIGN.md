@@ -10,7 +10,7 @@ The style is 'Editorial Minimalist'—combining the structure of a modern applic
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#F5F2EF`
 - `#FAF9F6`

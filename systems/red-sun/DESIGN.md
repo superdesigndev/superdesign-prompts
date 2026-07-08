@@ -10,7 +10,7 @@ The style is defined by its high-contrast color duo: Coral (#EF4623) and Ink (#2
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#EF4623`
 - `#2D3B42`

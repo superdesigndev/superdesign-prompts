@@ -10,7 +10,7 @@ A typing animation component that reveals each character of a headline with a 50
 
 ## 2. Color Palette & Roles
 
-_REVIEW: no colors captured from the source prompt._
+_No colors captured from the source prompt._
 
 ## 3. Typography
 

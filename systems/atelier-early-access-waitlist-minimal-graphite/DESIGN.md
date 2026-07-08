@@ -10,7 +10,7 @@ Strictly monochrome, editorial-minimal SaaS aesthetic. The canvas is warm off-wh
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#fbfbfa`
 - `#1c1c1e`

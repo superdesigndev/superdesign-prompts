@@ -10,7 +10,7 @@ Warm paper palette: cream base #FBF4EC with a softer #F4E9DB tint, hairline bord
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#FBF4EC`
 - `#F4E9DB`

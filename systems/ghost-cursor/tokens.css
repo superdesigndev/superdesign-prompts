@@ -1,9 +1,0 @@
-/* systems/ghost-cursor/tokens.css — Ghost Cursor
- * DRAFT scaffold — verify role assignments (REVIEW).
- */
-:root {
-  /* --- palette (ordered as found; assign roles) --- */
-  --bg: #B19EEF;  /* REVIEW role */
-  --fg: #111;  /* REVIEW role */
-  --accent: #fff;  /* REVIEW role */
-}

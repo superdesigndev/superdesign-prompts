@@ -10,7 +10,7 @@ Neo-brutalist acid-yellow palette: page/footer background acid yellow #f2e312 (d
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#f2e312`
 - `#e6d400`

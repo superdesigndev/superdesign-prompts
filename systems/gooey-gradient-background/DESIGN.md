@@ -10,7 +10,7 @@ A mesmerizing, interactive gooey liquid gradient background with animated blobs 
 
 ## 2. Color Palette & Roles
 
-_REVIEW: no colors captured from the source prompt._
+_No colors captured from the source prompt._
 
 ## 3. Typography
 

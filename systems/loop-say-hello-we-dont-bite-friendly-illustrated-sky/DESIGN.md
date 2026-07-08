@@ -10,7 +10,7 @@ A warm, playful, friendly LIGHT aesthetic on a soft sky-blue cloud canvas (cloud
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#f0f9ff`
 - `#bae6fd`

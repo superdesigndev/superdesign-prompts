@@ -10,7 +10,7 @@ The style essence combines 'Digital Minimalism' with 'Gen-Z Lifestyle' aesthetic
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#292524`
 - `#FDFCF8`

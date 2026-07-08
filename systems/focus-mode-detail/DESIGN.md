@@ -10,7 +10,7 @@ The style is 'Editorial Minimalism' or 'Digital Paper.' It pairs the elegant ser
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#FFFFFF`
 - `#1A1A1A`

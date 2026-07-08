@@ -10,7 +10,7 @@ Editorial, literary form UI that reads like a page in a quiet book. A warm cream
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#faf6ef`
 - `#f3ecdf`

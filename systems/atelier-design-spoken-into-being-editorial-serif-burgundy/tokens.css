@@ -1,9 +1,0 @@
-/* systems/atelier-design-spoken-into-being-editorial-serif-burgundy/tokens.css — Atelier — Design, Spoken Into Being (editorial serif / burgundy)
- * DRAFT scaffold — verify role assignments (REVIEW).
- */
-:root {
-  /* --- palette (ordered as found; assign roles) --- */
-  --bg: #faf6ef;  /* REVIEW role */
-  --fg: #1c1815;  /* REVIEW role */
-  --accent: #7b2d3b;  /* REVIEW role */
-}

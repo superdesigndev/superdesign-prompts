@@ -10,7 +10,7 @@ Brutalist-lite SaaS aesthetic. Key elements include massive display fonts (8xl-9
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#ffe17c`
 - `#171e19`

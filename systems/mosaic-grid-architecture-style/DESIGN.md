@@ -10,7 +10,7 @@ The style is 'Technical Minimalist'. It pairs a sans-serif header (Space Grotesk
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#F7F7F5`
 - `#1A3C2B`

@@ -10,7 +10,7 @@ Warm earthy organic editorial. Grounded, handcrafted, slow-and-soft mood: sand/c
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#efe7d8`
 - `#c4633f`

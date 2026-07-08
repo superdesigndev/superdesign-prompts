@@ -10,7 +10,7 @@ International Typographic Style (Swiss design) for a developer tool: pure white 
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#0a0a0a`
 - `#ffffff`

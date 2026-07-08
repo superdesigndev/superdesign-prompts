@@ -10,7 +10,7 @@ Calm, editorial SaaS aesthetic on a white canvas with a slate-900 ink palette an
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#10b981`
 - `#ffffff`

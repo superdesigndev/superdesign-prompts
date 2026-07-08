@@ -10,7 +10,7 @@ A high-performance button with a rotating light beam border effect using CSS @pr
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#8b5cf6`
 - `#06b6d4`

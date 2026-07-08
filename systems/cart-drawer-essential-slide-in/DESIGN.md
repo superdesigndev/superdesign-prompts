@@ -13,7 +13,7 @@ Fast-purchase flows, single-product stores, brands optimizing for minimal fricti
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#e5e7eb`
 

@@ -10,7 +10,7 @@ The style is defined by its 'calm minimal' approach. It uses the Switzer typefac
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#0F172A`
 - `#64748B`

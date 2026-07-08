@@ -10,7 +10,7 @@ The style combines minimalist editorial design with strategic conversion trigger
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#FDFCF8`
 - `#1C1C1C`

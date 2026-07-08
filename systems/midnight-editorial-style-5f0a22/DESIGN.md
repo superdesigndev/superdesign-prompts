@@ -10,7 +10,7 @@ A premium, ultra-modern dark aesthetic featuring deep black backgrounds (#050505
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#050505`
 - `#FF6B50`

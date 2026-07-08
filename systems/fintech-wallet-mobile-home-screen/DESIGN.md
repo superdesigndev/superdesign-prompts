@@ -10,7 +10,7 @@ Flat-teal fintech: a teal gradient hero on an off-white sheet, mint accent numer
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#14b896`
 - `#07795f`

@@ -10,7 +10,7 @@ A warm, editorial, magazine-grade aesthetic built to make a generated lightbox f
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#faf6ef`
 - `#1c1815`

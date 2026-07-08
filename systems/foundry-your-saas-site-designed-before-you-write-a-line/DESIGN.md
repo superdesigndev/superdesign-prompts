@@ -10,7 +10,7 @@ Warm editorial magazine aesthetic: cream paper base, ink near-black text, a terr
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#faf6ef`
 - `#1a1714`

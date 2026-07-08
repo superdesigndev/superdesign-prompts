@@ -10,7 +10,7 @@ Dark, premium SaaS aesthetic. A near-black midnight-navy canvas (#07162b) layere
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#07162b`
 - `#aebfd8`

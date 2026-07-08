@@ -10,7 +10,7 @@ Near-black ink base #0a0608. Signature radial 'sunset glow' anchored low-center:
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#0a0608`
 - `#ffa23a`

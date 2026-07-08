@@ -10,7 +10,7 @@ Modern minimalist aesthetic utilizing 'General Sans' for a clean, editorial look
 
 ## 2. Color Palette & Roles
 
-REVIEW — role assignment is a guess; verify against the preview.
+Colors used in this style (the prompt has their exact roles):
 
 - `#FFFFFF`
 - `#000000`
