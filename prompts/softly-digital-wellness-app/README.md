@@ -5,7 +5,7 @@ category: "Mobile Apps"
 tags: ["mobile app", "sass landing", "leads generation", "waitlist", "wellness product", "lifestyle app", "stone gray", "peach blush", "style", "landing page"]
 copyCount: 1896
 tryCount: 1527
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/softly-digital-wellness-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

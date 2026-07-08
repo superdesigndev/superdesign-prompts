@@ -5,7 +5,7 @@ category: "Components"
 tags: ["ui component"]
 copyCount: 121
 tryCount: 2469
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/interactive-card-stack?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

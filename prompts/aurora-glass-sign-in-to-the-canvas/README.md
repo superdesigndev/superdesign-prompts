@@ -5,7 +5,7 @@ category: "Design Systems & Styles"
 tags: ["login", "sign-in", "auth", "glassmorphism", "dark-mode", "aurora", "gradient", "split-screen", "saas", "hero"]
 copyCount: 6
 tryCount: 2495
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

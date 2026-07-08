@@ -5,7 +5,7 @@ category: "Components"
 tags: ["button", "ui component"]
 copyCount: 85
 tryCount: 2360
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/button-loading-state?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

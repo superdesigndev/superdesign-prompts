@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["chrome extension", "landing page", "gray", "high contrast", "browser native", "developer tool", "minimalist", "macos", "chrome", "teal accent", "blue accent", "sass landing", "style", "product launch"]
 copyCount: 592
 tryCount: 2430
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/chrome-extension-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

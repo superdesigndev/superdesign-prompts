@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["animation", "scroll animation", "landing page"]
 copyCount: 152
 tryCount: 2424
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/spotlight-mask?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

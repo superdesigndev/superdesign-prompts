@@ -5,7 +5,7 @@ category: "Components"
 tags: ["animation", "ui component", "button"]
 copyCount: 368
 tryCount: 2377
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/jelly-squish-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

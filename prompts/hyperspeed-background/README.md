@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["animation", "background"]
 copyCount: 232
 tryCount: 2306
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/hyperspeed-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

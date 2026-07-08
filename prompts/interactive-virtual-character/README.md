@@ -5,7 +5,7 @@ category: "Components"
 tags: ["ui component"]
 copyCount: 281
 tryCount: 2076
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/interactive-virtual-character?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

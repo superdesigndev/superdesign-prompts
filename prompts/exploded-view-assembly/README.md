@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["animation", "scroll animation", "landing page"]
 copyCount: 490
 tryCount: 1814
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/exploded-view-assembly?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

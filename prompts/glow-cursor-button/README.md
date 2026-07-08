@@ -5,7 +5,7 @@ category: "Components"
 tags: ["button", "ui component"]
 copyCount: 211
 tryCount: 2342
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/glow-cursor-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

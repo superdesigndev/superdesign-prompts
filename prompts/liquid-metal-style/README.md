@@ -5,7 +5,7 @@ category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 378
 tryCount: 1918
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/liquid-metal-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

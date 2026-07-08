@@ -5,7 +5,7 @@ category: "Components"
 tags: ["ui component", "animation"]
 copyCount: 306
 tryCount: 2004
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/masonry-gallery?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

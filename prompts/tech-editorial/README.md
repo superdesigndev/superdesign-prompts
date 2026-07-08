@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "style", "page"]
 copyCount: 510
 tryCount: 1515
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/tech-editorial?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

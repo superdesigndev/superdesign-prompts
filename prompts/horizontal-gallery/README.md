@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["animation", "scroll animation"]
 copyCount: 439
 tryCount: 2360
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/horizontal-gallery?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 963
 tryCount: 1931
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/midnight-editorial-style-5f0a22?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

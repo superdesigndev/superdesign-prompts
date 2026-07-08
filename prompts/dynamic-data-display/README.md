@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["text animation", "animation", "scroll animation", "landing page"]
 copyCount: 288
 tryCount: 2430
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/dynamic-data-display?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

@@ -5,7 +5,7 @@ category: "Components"
 tags: ["animation", "text animation"]
 copyCount: 370
 tryCount: 2120
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/typing-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

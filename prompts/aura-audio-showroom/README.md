@@ -5,7 +5,7 @@ category: "E-commerce"
 tags: ["shopify", "landing page", "ecommerce"]
 copyCount: 261
 tryCount: 2479
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/aura-audio-showroom?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["landing page", "hover effect", "animation"]
 copyCount: 442
 tryCount: 2456
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/hover-reveal-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

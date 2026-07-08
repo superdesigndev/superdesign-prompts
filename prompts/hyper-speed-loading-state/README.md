@@ -5,7 +5,7 @@ category: "Components"
 tags: ["animation", "loading"]
 copyCount: 749
 tryCount: 2182
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/hyper-speed-loading-state?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

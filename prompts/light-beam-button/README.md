@@ -5,7 +5,7 @@ category: "Components"
 tags: ["button", "ui component"]
 copyCount: 500
 tryCount: 2119
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/light-beam-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

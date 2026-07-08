@@ -5,7 +5,7 @@ category: "E-commerce"
 tags: ["shopify", "layout", "cart", "ecommerce"]
 copyCount: 7
 tryCount: 2493
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/cart-drawer-essential-slide-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "product launch", "waitlist", "high conversion page", "style"]
 copyCount: 354
 tryCount: 2189
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/architectural-type-system-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

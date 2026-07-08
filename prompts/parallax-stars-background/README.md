@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["background", "animation"]
 copyCount: 661
 tryCount: 1574
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/parallax-stars-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

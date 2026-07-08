@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["animation", "text animation"]
 copyCount: 97
 tryCount: 2461
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/cinematic-slideup-headline?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

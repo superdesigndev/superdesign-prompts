@@ -5,7 +5,7 @@ category: "Portfolios"
 tags: ["navy", "sage", "portfolio", "landing page", "style"]
 copyCount: 765
 tryCount: 1660
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/bold-editorial-design-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

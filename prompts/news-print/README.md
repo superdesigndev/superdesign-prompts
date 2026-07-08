@@ -5,7 +5,7 @@ category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 354
 tryCount: 2162
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/news-print?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

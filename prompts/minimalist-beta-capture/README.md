@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["high conversion page", "landing page", "product launch", "waitlist", "style"]
 copyCount: 745
 tryCount: 1975
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/minimalist-beta-capture?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

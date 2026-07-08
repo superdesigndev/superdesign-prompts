@@ -5,7 +5,7 @@ category: "Components"
 tags: ["ui component", "animation", "image gallery"]
 copyCount: 884
 tryCount: 1693
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/card-swap?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

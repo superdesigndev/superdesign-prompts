@@ -5,7 +5,7 @@ category: "Mobile Apps"
 tags: ["carousel", "coverflow", "3d-carousel", "css-3d", "perspective", "slider", "gallery", "image-carousel", "dark", "dark-mode", "aurora", "teal", "aqua", "magenta", "gradient", "glassmorphism", "backdrop-blur", "frosted-glass", "glow", "neon", "ink", "slate", "inter", "space-grotesk", "iconify-phosphor", "sticky-nav", "mobile-menu", "hamburger-menu", "pill-dots", "pagination-dots", "keyboard-nav", "hero", "landing-page", "feature-grid", "logo-strip", "terminal-card", "templates-grid", "gradient-cta", "social-footer", "glow-active-slide", "grid-texture", "marketing-page", "saas", "cinematic", "motion"]
 copyCount: 48
 tryCount: 2460
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/coverflow-carousels-that-turn-heads-dark-coverflow-aurora?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

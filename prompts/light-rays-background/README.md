@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["animation", "background"]
 copyCount: 534
 tryCount: 1700
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/light-rays-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

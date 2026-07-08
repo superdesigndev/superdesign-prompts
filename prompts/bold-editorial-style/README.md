@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["light mode", "editorial", "yellow", "navy", "sage", "waitlist", "landing page", "saas landing", "acid yellow accent", "style"]
 copyCount: 948
 tryCount: 2117
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/bold-editorial-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

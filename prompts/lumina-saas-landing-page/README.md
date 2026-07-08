@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["bold", "energetic", "yellow", "style", "landing page", "saas landing"]
 copyCount: 2259
 tryCount: 2271
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/lumina-saas-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["animation", "scroll animation", "landing page"]
 copyCount: 668
 tryCount: 1594
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/gsap-horizontal-scroll?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

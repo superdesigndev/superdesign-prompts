@@ -5,7 +5,7 @@ category: "E-commerce"
 tags: ["ecommerce", "landing page", "style", "orange accent"]
 copyCount: 1571
 tryCount: 1531
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/brutalist-e-commerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

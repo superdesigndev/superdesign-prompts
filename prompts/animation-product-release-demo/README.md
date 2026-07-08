@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["skill", "animation"]
 copyCount: 171
 tryCount: 2180
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/animation-product-release-demo?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

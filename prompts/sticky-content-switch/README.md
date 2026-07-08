@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["animation", "scroll animation", "landing page"]
 copyCount: 262
 tryCount: 2112
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/sticky-content-switch?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 1713
 tryCount: 2451
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/glassmorphism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

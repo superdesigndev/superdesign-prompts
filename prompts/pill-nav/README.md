@@ -5,7 +5,7 @@ category: "Components"
 tags: ["ui component", "nav"]
 copyCount: 318
 tryCount: 2207
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/pill-nav?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

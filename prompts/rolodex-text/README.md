@@ -5,7 +5,7 @@ category: "Components"
 tags: ["animation", "text animation"]
 copyCount: 203
 tryCount: 2386
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/rolodex-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

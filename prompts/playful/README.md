@@ -5,7 +5,7 @@ category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 564
 tryCount: 1785
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/playful?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

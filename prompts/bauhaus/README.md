@@ -5,7 +5,7 @@ category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 277
 tryCount: 2305
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/bauhaus?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "style", "page", "blue accent", "light mode"]
 copyCount: 950
 tryCount: 2046
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/saas-landing-page-for-developer-tool?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

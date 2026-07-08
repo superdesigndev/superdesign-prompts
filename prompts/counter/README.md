@@ -5,7 +5,7 @@ category: "Components"
 tags: ["ui component"]
 copyCount: 96
 tryCount: 2445
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/counter?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

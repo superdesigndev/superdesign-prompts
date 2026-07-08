@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["animation", "scroll animation"]
 copyCount: 820
 tryCount: 1610
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/scroll-journey-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

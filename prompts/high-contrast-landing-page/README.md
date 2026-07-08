@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "style"]
 copyCount: 2503
 tryCount: 2400
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

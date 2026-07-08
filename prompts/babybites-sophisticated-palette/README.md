@@ -5,7 +5,7 @@ category: "Mobile Apps"
 tags: ["mobile app", "style"]
 copyCount: 1224
 tryCount: 1547
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/babybites-sophisticated-palette?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

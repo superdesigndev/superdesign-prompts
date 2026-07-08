@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["style", "landing page", "page"]
 copyCount: 2162
 tryCount: 2234
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/red-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

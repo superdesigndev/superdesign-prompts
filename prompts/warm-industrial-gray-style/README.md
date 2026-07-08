@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["page", "landing page", "style"]
 copyCount: 594
 tryCount: 1534
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/warm-industrial-gray-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 1362
 tryCount: 2249
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/cinematic-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

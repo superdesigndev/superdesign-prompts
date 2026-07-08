@@ -5,7 +5,7 @@ category: "Components"
 tags: ["animation", "ui component"]
 copyCount: 273
 tryCount: 2439
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/interactive-folder?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

@@ -5,7 +5,7 @@ category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 300
 tryCount: 2247
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/flat-design?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

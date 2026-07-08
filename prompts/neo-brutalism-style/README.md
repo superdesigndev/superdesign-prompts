@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["page", "landing page", "style"]
 copyCount: 626
 tryCount: 1681
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/neo-brutalism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

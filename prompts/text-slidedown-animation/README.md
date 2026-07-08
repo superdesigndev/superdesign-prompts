@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["animation", "text animation", "landing page"]
 copyCount: 235
 tryCount: 2106
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/text-slidedown-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

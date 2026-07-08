@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["style", "page"]
 copyCount: 2321
 tryCount: 1905
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/deep-red-style-5b01cb?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["style", "landing page", "page"]
 copyCount: 651
 tryCount: 1593
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/cyber-serif-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

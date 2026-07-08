@@ -5,7 +5,7 @@ category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 1002
 tryCount: 1971
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/hyper-saturated-fluid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

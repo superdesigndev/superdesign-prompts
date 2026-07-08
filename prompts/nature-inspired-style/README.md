@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 1272
 tryCount: 1864
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/nature-inspired-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

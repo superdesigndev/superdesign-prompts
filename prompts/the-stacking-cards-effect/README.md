@@ -5,7 +5,7 @@ category: "Animations & Backgrounds"
 tags: ["animation", "scroll animation", "landing page"]
 copyCount: 905
 tryCount: 2253
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/the-stacking-cards-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

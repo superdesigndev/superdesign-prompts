@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["product launch", "style", "landing page", "high conversion page", "waitlist"]
 copyCount: 683
 tryCount: 1882
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/neon-velocity-countdown?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

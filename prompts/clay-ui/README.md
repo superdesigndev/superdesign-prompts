@@ -5,7 +5,7 @@ category: "Design Systems & Styles"
 tags: ["style"]
 copyCount: 440
 tryCount: 1693
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/clay-ui?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

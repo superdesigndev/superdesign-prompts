@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "style", "page"]
 copyCount: 1613
 tryCount: 1624
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/kinetic-orange-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

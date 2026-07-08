@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "page", "style"]
 copyCount: 480
 tryCount: 2208
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/dark-avant-garde-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

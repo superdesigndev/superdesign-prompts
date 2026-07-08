@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["product launch", "waitlist", "high conversion page", "landing page", "style"]
 copyCount: 456
 tryCount: 2318
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/disruptor-beta-launch?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

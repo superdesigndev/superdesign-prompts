@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "style", "cream", "pink accent"]
 copyCount: 1350
 tryCount: 2054
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/luxury-focused-design-system?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

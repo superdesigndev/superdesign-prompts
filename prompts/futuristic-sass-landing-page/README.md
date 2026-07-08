@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "page", "style", "webapp", "techfoward", "futuristic", "indigo accent", "purple accent"]
 copyCount: 942
 tryCount: 1663
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/futuristic-sass-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

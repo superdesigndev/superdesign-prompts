@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["landing page", "style", "page"]
 copyCount: 703
 tryCount: 2343
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/clean-fluid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

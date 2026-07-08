@@ -5,7 +5,7 @@ category: "Components"
 tags: ["ui component", "input"]
 copyCount: 348
 tryCount: 2289
-author: "Superdesign"
+author: "Jason Zhou"
 try_url: "https://superdesign.dev/library/radiant-prompt-input?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

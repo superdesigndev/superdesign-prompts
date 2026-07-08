@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["neutral", "low contrast", "forestgreen accent", "cream accent", "industrial", "minimal", "saas landing", "ai first product", "style", "landing page"]
 copyCount: 1688
 tryCount: 2122
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 

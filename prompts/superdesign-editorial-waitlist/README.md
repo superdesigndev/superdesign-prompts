@@ -5,7 +5,7 @@ category: "Landing Pages"
 tags: ["style", "waitlist", "landing page"]
 copyCount: 556
 tryCount: 2262
-author: "Superdesign"
+author: "Shirley Lou"
 try_url: "https://superdesign.dev/library/superdesign-editorial-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
