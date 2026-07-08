@@ -2,11 +2,11 @@
 
 > Coding agents write great code and generic interfaces: default shadcn, same fonts, no taste. This is a library of **design prompts — each a full design spec with a live preview and real usage data** — that give your agent design direction so the UI it ships actually looks designed. Powered by [Superdesign](https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
 
-![prompts](https://img.shields.io/badge/prompts-150-blue) ![backed by](https://img.shields.io/badge/backed%20by-1.7M%2B%20real%20runs-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![last synced](https://img.shields.io/badge/last%20synced-2026--07--08-informational) ![license](https://img.shields.io/badge/code-MIT-informational)
+![prompts](https://img.shields.io/badge/prompts-150-blue) ![backed by](https://img.shields.io/badge/backed%20by-1.7M%2B%20real%20runs-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![last synced](https://img.shields.io/badge/last%20synced-2026--07--09-informational) ![license](https://img.shields.io/badge/code-MIT-informational)
 
 <div align="center">
 <!-- STATS:START -->
-  <b>150 top prompts</b> · <b>334K tries</b> · <b>56K copies</b> — hand-picked and category-balanced from a <b>964-prompt live library</b> with <b>1.7M+ tries</b>.<br>
+  <b>150 top prompts</b> · <b>332K tries</b> · <b>55K copies</b> — hand-picked and category-balanced from a <b>964-prompt live library</b> with <b>1.7M+ tries</b>.<br>
   Browse all and run any live at <b><a href="https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">superdesign.dev/library</a></b>.
 <!-- STATS:END -->
 </div>
@@ -102,18 +102,18 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 ## Most-used
 
 <!-- LEADERBOARD:START -->
-| # | Prompt | Category | Copies | Tries | |
+| # | Prompt | Category | Runs | Design | |
 |---|---|---|---|---|---|
-| 1 | **[Tubes Interactive Background](prompts/tubes-interactive-background/)** | Animations & Backgrounds | 2,912 | 1,608 | [▶ Try live](https://superdesign.dev/library/tubes-interactive-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 2 | **[High Contrast Landing Page](prompts/high-contrast-landing-page/)** | Landing Pages | 2,503 | 2,400 | [▶ Try live](https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 3 | **[Deep Red Style](prompts/deep-red-style-5b01cb/)** | Design Systems & Styles | 2,321 | 1,905 | [▶ Try live](https://superdesign.dev/library/deep-red-style-5b01cb?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 4 | **[Lumina SaaS Landing Page](prompts/lumina-saas-landing-page/)** | Landing Pages | 2,259 | 2,271 | [▶ Try live](https://superdesign.dev/library/lumina-saas-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 5 | **[Red Noir Style](prompts/red-noir-style/)** | Design Systems & Styles | 2,162 | 2,234 | [▶ Try live](https://superdesign.dev/library/red-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 6 | **[Softly - Digital Wellness App](prompts/softly-digital-wellness-app/)** | Waitlist & Coming Soon | 1,896 | 1,527 | [▶ Try live](https://superdesign.dev/library/softly-digital-wellness-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 7 | **[Glassmorphism Style](prompts/glassmorphism-style/)** | Design Systems & Styles | 1,713 | 2,451 | [▶ Try live](https://superdesign.dev/library/glassmorphism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 8 | **[Mosaic Grid Architecture Style](prompts/mosaic-grid-architecture-style/)** | Design Systems & Styles | 1,688 | 2,122 | [▶ Try live](https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 9 | **[Kinetic Orange Style](prompts/kinetic-orange-style/)** | Design Systems & Styles | 1,613 | 1,624 | [▶ Try live](https://superdesign.dev/library/kinetic-orange-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 10 | **[Brutalist E-commerce Page](prompts/brutalist-e-commerce-page/)** | E-commerce | 1,571 | 1,531 | [▶ Try live](https://superdesign.dev/library/brutalist-e-commerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 1 | **[Neural Noir Interface Style](prompts/neural-noir-interface-style/)** | Design Systems & Styles | 2,501 | 7/10 | [▶ Try live](https://superdesign.dev/library/neural-noir-interface-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 2 | **[Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)](prompts/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red/)** | Pricing Pages | 2,498 | 8/10 | [▶ Try live](https://superdesign.dev/library/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 3 | **[Aurora Glass — Sign in to the canvas](prompts/aurora-glass-sign-in-to-the-canvas/)** | Auth & Login | 2,495 | 8/10 | [▶ Try live](https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 4 | **[Cart Drawer- Essential Slide in](prompts/cart-drawer-essential-slide-in/)** | E-commerce | 2,493 | 3/10 | [▶ Try live](https://superdesign.dev/library/cart-drawer-essential-slide-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 5 | **[Focus Mode Detail](prompts/focus-mode-detail/)** | Mobile Apps | 2,493 | 8/10 | [▶ Try live](https://superdesign.dev/library/focus-mode-detail?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 6 | **[ATELIER — Mono Uppercase Fashion (legibility-fixed)](prompts/atelier-mono-uppercase-fashion-legibility-fixed/)** | E-commerce | 2,489 | 9/10 | [▶ Try live](https://superdesign.dev/library/atelier-mono-uppercase-fashion-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 7 | **[Landing Page / Local Small Business](prompts/landing-page-local-small-business/)** | Landing Pages | 2,486 | 5/10 | [▶ Try live](https://superdesign.dev/library/landing-page-local-small-business?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 8 | **[Palette — Social-first friendly sign-up](prompts/palette-social-first-friendly-sign-up/)** | Auth & Login | 2,486 | 8/10 | [▶ Try live](https://superdesign.dev/library/palette-social-first-friendly-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 9 | **[Slate ROI-Calculator Pricing](prompts/slate-roi-calculator-pricing/)** | Pricing Pages | 2,481 | 8/10 | [▶ Try live](https://superdesign.dev/library/slate-roi-calculator-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 10 | **[Shiny Text](prompts/shiny-text/)** | Components | 2,480 | 2/10 | [▶ Try live](https://superdesign.dev/library/shiny-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 <!-- LEADERBOARD:END -->
 
 <sub>**Copies** = the prompt text was copied · **Tries** = it was generated on the canvas. Both are real product events — some prompts are *tried* far more than *copied*, so a low copy count doesn't mean low usage.</sub>

@@ -1,0 +1,13 @@
+/* systems/verdance-agency-website-design-studio-dark-emerald/tokens.css — Verdance — Agency Website Design Studio (Dark Emerald)
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #0d1f17;  /* REVIEW role */
+  --fg: #0a1711;  /* REVIEW role */
+  --accent: #f1ede3;  /* REVIEW role */
+  --surface: #b8b3a6;  /* REVIEW role */
+  --muted: #1f6f4f;  /* REVIEW role */
+  --border: #2c8a63;  /* REVIEW role */
+  --color-7: #c9a227;
+}

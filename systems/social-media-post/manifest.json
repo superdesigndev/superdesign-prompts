@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "social-media-post",
+  "name": "Social Media Post",
+  "category": "Other",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "social-media-post"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": [
+      "Website banner",
+      "CTR",
+      "Mass Market",
+      "Premium",
+      "Ultra Luxury",
+      "PNG"
+    ]
+  }
+}

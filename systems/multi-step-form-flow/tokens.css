@@ -1,0 +1,20 @@
+/* systems/multi-step-form-flow/tokens.css — Multi-step Form Flow
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #f9fafb;  /* REVIEW role */
+  --fg: #f3f4f6;  /* REVIEW role */
+  --accent: #e5e7eb;  /* REVIEW role */
+  --surface: #d1d5db;  /* REVIEW role */
+  --muted: #9ca3af;  /* REVIEW role */
+  --border: #6b7280;  /* REVIEW role */
+  --color-7: #4b5563;
+  --color-8: #374151;
+  --color-9: #1f2937;
+  --color-10: #111827;
+  --color-11: #fff;
+  /* --- typography --- */
+  --font-display: 'General Sans';
+  --font-body: 'Security Setup';
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "lightning-background",
+  "name": "Lightning Background",
+  "category": "Animations & Backgrounds",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "lightning-background"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#1A1A1B",
+      "#F9F9F9"
+    ],
+    "fonts": [
+      "Reply Action",
+      "WebGL atmospheric lightning background",
+      "WebGL not supported"
+    ]
+  }
+}

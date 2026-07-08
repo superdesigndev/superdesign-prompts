@@ -1,0 +1,13 @@
+/* systems/forge-launch-waitlist-dark-warm-ember/tokens.css — Forge — Launch Waitlist (dark, warm-ember)
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #0a0a0f;  /* REVIEW role */
+  --fg: #f4f3ef;  /* REVIEW role */
+  --accent: #ff5a4d;  /* REVIEW role */
+  --surface: #ff8c3c;  /* REVIEW role */
+  --muted: #ffaa5a;  /* REVIEW role */
+  --border: #ffffff;  /* REVIEW role */
+  --color-7: #b9b8b3;
+}

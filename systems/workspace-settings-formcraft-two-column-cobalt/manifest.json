@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "workspace-settings-formcraft-two-column-cobalt",
+  "name": "Workspace Settings · Formcraft (two-column, cobalt)",
+  "category": "Dashboards",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "workspace-settings-formcraft-two-column-cobalt"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#2563eb",
+      "#1d4ed8",
+      "#eff4ff",
+      "#dbe6fe",
+      "#93b4fd",
+      "#f8fafc",
+      "#ffffff",
+      "#e2e8f0",
+      "#f1f5f9",
+      "#64748b",
+      "#0f172a",
+      "#334155",
+      "#475569",
+      "#94a3b8",
+      "#ecfdf5",
+      "#047857"
+    ],
+    "fonts": [
+      "Danger zone"
+    ]
+  }
+}

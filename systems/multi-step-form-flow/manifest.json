@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "multi-step-form-flow",
+  "name": "Multi-step Form Flow",
+  "category": "Onboarding",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "multi-step-form-flow"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f9fafb",
+      "#f3f4f6",
+      "#e5e7eb",
+      "#d1d5db",
+      "#9ca3af",
+      "#6b7280",
+      "#4b5563",
+      "#374151",
+      "#1f2937",
+      "#111827",
+      "#fff"
+    ],
+    "fonts": [
+      "General Sans",
+      "Security Setup",
+      "Minimum 8 characters",
+      "Identity Verification",
+      "Jordan Mitchell",
+      "Professional Profile"
+    ]
+  }
+}

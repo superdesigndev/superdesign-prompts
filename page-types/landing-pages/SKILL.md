@@ -10,11 +10,10 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common sections
 
-- Hero Section  _(in 10 prompts)_
-- Navigation  _(in 5 prompts)_
-- Footer  _(in 4 prompts)_
+- Hero Section  _(in 8 prompts)_
+- Navigation  _(in 4 prompts)_
+- Footer  _(in 3 prompts)_
 - Feature Grid  _(in 2 prompts)_
-- Testimonials  _(in 2 prompts)_
 - Philosophy / Narrative Section  _(in 1 prompts)_
 - Asymmetrical Showcase Grid  _(in 1 prompts)_
 - Bespoke Service Cards  _(in 1 prompts)_
@@ -22,6 +21,7 @@ skill supplies the structure — sections, layout, and the components users expe
 - Problem vs Solution  _(in 1 prompts)_
 - How It Works  _(in 1 prompts)_
 - Use Case Personas  _(in 1 prompts)_
+- Testimonials  _(in 1 prompts)_
 
 ## Common components
 
@@ -34,12 +34,12 @@ skill supplies the structure — sections, layout, and the components users expe
 - Poster Button  _(in 1 prompts)_
 - Typographic List Item  _(in 1 prompts)_
 - Grid Sidebar Label  _(in 1 prompts)_
-- Wave Transition  _(in 1 prompts)_
-- Intelligent Card Hover  _(in 1 prompts)_
 - Property Inspector Grid  _(in 1 prompts)_
 - Simulated Selection Box  _(in 1 prompts)_
-- Vibe Input Box  _(in 1 prompts)_
-- Sticky Feature Nav  _(in 1 prompts)_
+- Animated UI Simulator  _(in 1 prompts)_
+- The 'Rotating Logo' Brand Mark  _(in 1 prompts)_
+- Scan-Line Progress Bar  _(in 1 prompts)_
+- Animated CTA Button  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -58,7 +58,7 @@ Build a Landing Page using the "<system-id>" design system
 - [SaaS Landing Page for Developer Tool](../../prompts/saas-landing-page-for-developer-tool/) · design 8/10 · 2,046 runs
 - [Chrome Extension Landing Page](../../prompts/chrome-extension-landing-page/) · design 7/10 · 2,430 runs
 - [Synapse](../../prompts/synapse/) · design 7/10 · 1,808 runs
-- [Clean fluid](../../prompts/clean-fluid/) · design 6/10 · 2,343 runs
 - [Landing Page / Local Small Business](../../prompts/landing-page-local-small-business/) · design 5/10 · 2,486 runs
-- [One Pager](../../prompts/one-pager/) · design 5/10 · 2,482 runs
-- [Futuristic SasS Landing Page](../../prompts/futuristic-sass-landing-page/) · design 5/10 · 1,663 runs
+- [Foundry: Your SaaS Site, Designed Before You Write a Line](../../prompts/foundry-your-saas-site-designed-before-you-write-a-line/) · design 5/10 · 2,390 runs
+- [Landing Page / SEO Keyword Page](../../prompts/landing-page-seo-keyword-page/) · design 5/10 · 2,372 runs
+- [Landing Page / Real-Estate](../../prompts/landing-page-real-estate/) · design 5/10 · 2,329 runs

@@ -1,8 +1,0 @@
-/* systems/animation-threejs-animation/tokens.css — Animation / Threejs animation
- * DRAFT scaffold — verify role assignments (REVIEW).
- */
-:root {
-  /* --- typography --- */
-  --font-display: 'Walk';
-  --font-body: 'SkinnedMesh';
-}

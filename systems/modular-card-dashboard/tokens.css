@@ -1,0 +1,12 @@
+/* systems/modular-card-dashboard/tokens.css — Modular Card Dashboard
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #111111;  /* REVIEW role */
+  --fg: #F5F5F5;  /* REVIEW role */
+  --accent: #FFFFFF;  /* REVIEW role */
+  --surface: #6B7280;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Switzer';
+}

@@ -1,0 +1,8 @@
+/* systems/social-media-post/tokens.css — Social Media Post
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- typography --- */
+  --font-display: 'Website banner';
+  --font-body: 'CTR';
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "verdance-agency-website-design-studio-dark-emerald",
+  "name": "Verdance — Agency Website Design Studio (Dark Emerald)",
+  "category": "Portfolios",
+  "industry": "Agency & Studio",
+  "source": {
+    "type": "prompt",
+    "slug": "verdance-agency-website-design-studio-dark-emerald"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0d1f17",
+      "#0a1711",
+      "#f1ede3",
+      "#b8b3a6",
+      "#1f6f4f",
+      "#2c8a63",
+      "#c9a227"
+    ],
+    "fonts": []
+  }
+}

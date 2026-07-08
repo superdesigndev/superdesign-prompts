@@ -1,7 +1,7 @@
 # Page type — Onboarding
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 10 prompts in this repo.
+> Aggregated from 9 prompts in this repo.
 
 ## What this page type is
 
@@ -31,8 +31,6 @@ skill supplies the structure — sections, layout, and the components users expe
 - Density Toggle  _(in 1 prompts)_
 - Custom Decision Radio  _(in 1 prompts)_
 - Technical Architecture Details  _(in 1 prompts)_
-- Echo Synthesis Panel  _(in 1 prompts)_
-- Laser Thread Progress  _(in 1 prompts)_
 - Inline State Stream  _(in 1 prompts)_
 - Intervention Threshold Slider  _(in 1 prompts)_
 - DNA Segmented Controls  _(in 1 prompts)_
@@ -58,5 +56,4 @@ Build a Onboarding using the "<system-id>" design system
 - [Technical System Onboarding](../../prompts/technical-system-onboarding/) · design 7/10 · 2,147 runs
 - [Interactive Multi-Step Onboarding Flow](../../prompts/interactive-multi-step-onboarding-flow/) · design 6/10 · 2,435 runs
 - [Superdesign Setup - Inline Preview](../../prompts/superdesign-setup-inline-preview/) · design 6/10 · 2,171 runs
-- [Luminous Ethereal Glassmorphism Onboarding](../../prompts/luminous-ethereal-glassmorphism-onboarding/) · design 3/10 · 2,316 runs
-- [Web App / Onboarding](../../prompts/web-app-onboarding/) · design 2/10 · 2,395 runs
+- [Multi-step Form Flow](../../prompts/multi-step-form-flow/) · design 5/10 · 1,906 runs

@@ -2779,62 +2779,7 @@ Please use the above as reference and apply to our context
 
 ---
 
-## 25. Clean fluid
-`Landing Pages` · `General` · 703 copies · [try live](https://superdesign.dev/library/clean-fluid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A high-end, editorial design system blending luxury serif typography with technical monospace accents. Characterized by fluid 'premium ease' animations, a sophisticated cream and dark charcoal palette (#fcfbf9, #171717), and organic curved transitions. Optimized for AI startups, design studios, fintech dashboards, and luxury tech brands requiring a balance of intelligence and elegance. Key features include scroll-triggered reveal animations, mesh gradient backgrounds, and a signature concave wave transition between sections.
-
-```text
-{
-  "summary": "An editorial-tech hybrid style utilizing high-contrast typography, fluid micro-interactions, and a unique 'wave' layout architecture to create a sense of organic intelligence.",
-  "style": {
-    "description": "The style centers on 'Premium Fluidity'. It pairs the elegance of Playfair Display (serif) with the technical precision of JetBrains Mono and the legibility of Inter. The color palette is grounded in a warm cream (#fcfbf9) and deep neutral black (#171717), accented by a vibrant indigo (#4338ca). Motion is governed by a signature cubic-bezier(0.22, 1, 0.36, 1) easing, applied to scroll reveals and hover states.",
-    "prompt": "### Design System: Organic Intelligence\n\n**1. Palette:**\n- Background Primary: `#fcfbf9` (Cream)\n- Background Dark: `#171717` (Rich Charcoal)\n- Accent: `#4338ca` (Indigo)\n- Secondary Accents (Mesh): Indigo-200/50, Purple-200/40\n- Borders/Lines: `#e5e5e5` (Light Grey)\n\n**2. Typography:**\n- Heading/Display: 'Playfair Display', serif. Use italics for emphasis/subheadings. Weights: 400, 700. Size for Hero: 11vw-14vw.\n- Body Text: 'Inter', sans-serif. Weights: 400, 500. Leading: 1.2 to 1.5.\n- Functional/Labels: 'JetBrains Mono', monospace. Uppercase, tracking: 0.3em to 0.5em. Size: 10px-14px.\n\n**3. Motion & Animation:**\n- Ease: `cubic-bezier(0.22, 1, 0.36, 1)` (Premium Ease)\n- Reveal: `translateY(40px)` and `opacity: 0` to `translateY(0)` and `opacity: 1` over 1000ms.\n- Background Mesh: 30s infinite linear rotation/scale drift.\n- Button Pulse: Gentle scale(1.02) with 20px blur indigo shadow, 3s loop.\n\n**4. Visual Effects:**\n- Header: `mix-blend-difference` to maintain visibility over varying background luminance.\n- Hover State (Cards): `scale(1.02)`, `translateY(-16px)`, and soft shadow `indigo-500/10`."
-  },
-  "layout_and_structure": {
-    "description": "A section-based layout that transitions between expansive hero containers and structured grids, linked by a signature curved wave element.",
-    "prompts": [
-      {
-        "part": "Header",
-        "prompt": "Fixed top navigation with `mix-blend-difference` text. Height: ~80px. Logo on far left in italic serif. Center: Monospace links with 1px width-growing underlines on hover. Right: Pill-shaped CTA with a status indicator (pulsing green dot) and 'System Online' text."
-      },
-      {
-        "part": "Hero Section",
-        "prompt": "Minimum 100vh height. Background features a drifting blur mesh gradient (Indigo/Purple). Centered large-scale typography: Serif text with leading [0.85]. Bottom of section contains the 'Wave Container': a concave curve created by a 120% width div with `border-radius: 50% 50% 0 0` filled with the section-to-follow's background color (#fcfbf9). A primary action button sits at the crest of the curve."
-      },
-      {
-        "part": "Work/Portfolio Grid",
-        "prompt": "2-column grid with staggered vertical alignment. Cards are 4:3 aspect ratio with rounded corners (1rem). Each card has a subtle colored background (e.g., #e0e7ff) and a blurred color orb center. Hover effect: card scales and lifts, reveal a 'View' pill button in the bottom-right corner. Text metadata below the card includes a serif title and a monospace category label separated by a horizontal 1px line that draws in on scroll."
-      },
-      {
-        "part": "Service Accordion",
-        "prompt": "Two-column split: Left side sticky header with serif 'Core Capabilities' and a call-to-action link with an arrow. Right side: Interactive vertical accordion. Items feature large serif titles that change from neutral-400 to black on hover. Expanding content reveal is fluid, including dynamic tags in monospace brackets, e.g., '[Dynamic Components]'."
-      },
-      {
-        "part": "Footer",
-        "prompt": "High-contrast dark section (#171717) with a large radius top curve (5rem). Background has a subtle radial indigo glow from the top-center. Content: Large-scale serif quote, followed by a 3-column grid for location, contact, and social links. Minimalist monospace copyright at the very bottom."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Wave Transition",
-      "description": "A concave sectional bridge that creates an organic flow between the hero and content.",
-      "prompt": "Create a `wave-container` div: `position: absolute; bottom: 0; width: 100%; height: 25vh; overflow: hidden;`. Inside, place a `wave-curve` div: `width: 120%; height: 200%; background: #fcfbf9; border-radius: 50% 50% 0 0; transform: translate(-10%, 20%);`. Place an 'Initialize' button at the center-top of the curve."
-    },
-    {
-      "component": "Intelligent Card Hover",
-      "description": "A depth-focused hover interaction for project items.",
-      "prompt": "Container with `overflow: hidden` and `border-radius: 2xl`. On hover, the inner background div should `scale(1.1)` and the container itself should `translateY(-1rem)`. An 'Action Pill' (white bg, black text, bold uppercase mono) should transition from `opacity: 0; translateY(1rem)` to `opacity: 1; translateY(0)` with a 500ms premium ease."
-    }
-  ],
-  "special_notes": "MUST: Use 'mix-blend-difference' on the header to ensure legibility across color transitions. MUST: Use Playfair Display specifically in italic for emphasis words within headers. MUST: Maintain high letter-spacing (0.3em+) on all monospace fonts. MUST-NOT: Use harsh box-shadows; prefer soft, colored blurs or subtle 1px borders. MUST-NOT: Use standard easing; strictly adhere to the premium cubic-bezier specified."
-}
-```
-
----
-
-## 26. Hyper-Speed Loading State
+## 25. Hyper-Speed Loading State
 `Components` · `General` · 749 copies · [try live](https://superdesign.dev/library/hyper-speed-loading-state?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Loading animation UI featuring a character-like loader with animated lines, a body made from geometric shapes, and moving horizontal lines across the background. The loader have smooth animations with multiple synchronized motion effects including rotation, translation, and opacity fades.
@@ -3139,7 +3084,7 @@ Here is a reference implementation:
 
 ---
 
-## 27. Chrome Extension Landing Page
+## 26. Chrome Extension Landing Page
 `Landing Pages` · `Dev Tools` · 592 copies · [try live](https://superdesign.dev/library/chrome-extension-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A browser-native developer tool aesthetic characterized by a 'system interface' look rather than a marketing landing page. This style features a light-neutral base with a vibrant cyan (#06B6D4) accent, mimicking the layout of Chrome DevTools or a workspace IDE. It uses a combination of Inter for primary readability and JetBrains Mono for technical labels and commands. Suitable for SaaS, developer tools, extensions, and technical platforms requiring a high-density, utility-focused layout with scroll-triggered panel reveals and simulated interactive environments.
@@ -3197,7 +3142,7 @@ A browser-native developer tool aesthetic characterized by a 'system interface' 
 
 ---
 
-## 28. Cinematic Noir Style
+## 27. Cinematic Noir Style
 `Design Systems & Styles` · `General` · 643 copies · [try live](https://superdesign.dev/library/cinematic-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-end 'Cinematic Noir' design system characterized by dramatic dark-mode aesthetics, high-contrast editorial typography, and immersive scroll-driven parallax effects. Suitable for creative agencies, luxury fashion, fintech, and high-end portfolios. Features include grain overlays, radial gradients with subtle warm tints, and brutalist-scale headings that blur the line between digital interface and cinematic experience.
@@ -3252,65 +3197,7 @@ A high-end 'Cinematic Noir' design system characterized by dramatic dark-mode ae
 
 ---
 
-## 29. Futuristic SasS Landing Page
-`Landing Pages` · `General` · 942 copies · [try live](https://superdesign.dev/library/futuristic-sass-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A modern, atmospheric SaaS design system featuring a high-contrast blend of dark mode hero sections and light mode content areas. Characterized by glassmorphism, sophisticated serif-sans typography pairing, and ethereal glows, it is ideal for AI startups, design tools, creative portfolios, and premium digital platforms. The style emphasizes depth through backdrop blurs, subtle borders (1px), and smooth micro-interactions like scroll-triggered navigation and hover-based transforms.
-
-```text
-{
-  "summary": "Superdesign is a sophisticated, vibe-centric design system that blends deep slate atmospheric backgrounds with a clean, grid-based feature layout. It utilizes a mix of 'Inter' (sans) for utility, 'Lora' (serif) for emotional headlines, and 'Space Grotesk' for a technical edge. The visual identity relies on glass panels (blur 12px), vibrant indigo accents (#6366f1), and animated glow gradients to create a futuristic, premium feel.",
-  "style": {
-    "description": "The style is 'Modern Atmospheric'. It pairs dark, deep backgrounds (#0f172a) in the hero and testimonials with clean, off-white surfaces (#f8f9fa) for detailed features. Typography is a critical pillar, using a serif font (Lora) for large, expressive headlines and a high-legibility sans (Inter) for body text. Animations are subtle but intentional: typing cursors, 180-degree logo rotations on hover, and 500ms smooth transitions for sticky navigation states.",
-    "prompt": "### Visual Language\n- **Base Palette**: Primary Dark (#0f172a), Brand Indigo (#6366f1), Surface White (#f8f9fa), Border White (rgba(255,255,255,0.1)).\n- **Typography**: \n  - Headlines: Serif (Lora), 400-700 weight, tracking-tight, leading 1.1.\n  - UI/Body: Sans (Inter), 400-600 weight, leading-relaxed.\n  - Accents/Branding: Display (Space Grotesk), tracking-tight.\n- **Glassmorphism**: \n  - Soft: `background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1);`.\n  - Strong: `background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.1); shadow: 0 4px 30px rgba(0, 0, 0, 0.1);`.\n- **Effects**: \n  - Outer Glow: `radial-gradient(from-indigo-500 via-purple-500 to-pink-500), blur(20px), opacity(0.3)`. \n  - Grid Overlays: Subtle 1px grid pattern with linear-gradient masks."
-  },
-  "layout_and_structure": {
-    "description": "A tiered layout starting with a 110vh atmospheric hero section, transitioning into a multi-column feature section with sticky side-navigation, followed by a glassmorphic masonry testimonial grid and a clean accordion-based FAQ.",
-    "prompts": [
-      {
-        "part": "Navigation",
-        "prompt": "Sticky or absolute top navigation. Logo on left (icon + bold lowercase text). Center: a capsule-shaped pill `bg-white/10 backdrop-blur-md` containing links. Right: Primary CTA button with `shadow-[0_0_20px_rgba(255,255,255,0.2)]`."
-      },
-      {
-        "part": "Hero Section",
-        "prompt": "Full viewport (110vh). Background: Image overlayed with a slate-900 to transparent gradient. Center-aligned content. Top: Small indigo badge with a 'New' tag. Middle: Serif headline (text-7xl). Bottom: Large white input area (rounded-2xl) with a multi-colored outer glow shadow. Ensure a typing cursor animation on subheading text."
-      },
-      {
-        "part": "Integration Bar",
-        "prompt": "Floating glass panel (width: max-w-4xl) at the bottom of the hero. Two-part horizontal split. Left: 'Frameworks' label + logos. Right: 'Integrations' label + marquee/scrollable list of monochrome icons with hover color transitions."
-      },
-      {
-        "part": "Feature Scroll-Spy",
-        "prompt": "Light mode background (#f8f9fa). Layout: 25% sticky left sidebar for navigation, 75% main content. Sidebar features vertical links with a dot indicator that activates on scroll. Feature cards are alternating 2-column grids (Text vs Visual). Visuals include code snippets in dark blocks or grayscale blueprints with SVG overlay lines."
-      },
-      {
-        "part": "Testimonials",
-        "prompt": "Switch back to Slate-900 background. Use a masonry grid layout. Cards must use 'Glass Strong' style. Profiles include avatar, name, and social handle. Quotes should use 14px text-slate-200 with high line-height."
-      },
-      {
-        "part": "FAQ",
-        "prompt": "Centered 4xl container on white background. Items use light gray (#f3f4f6) rounded blocks. Interaction: Smooth height transition from 0 to max-content on click, with chevron rotation."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Vibe Input Box",
-      "description": "A high-fidelity text input that feels like a primary command center.",
-      "prompt": "White container, 16px padding, rounded-2xl. Underneath, a hidden `div` with absolute positioning and `-inset-1` spacing applies a multi-color gradient (indigo to pink) with a `blur-lg` effect that intensifies on hover. Internal layout includes a borderless textarea (text-xl) and a bottom utility bar with attachment and 'send' (arrow-up) buttons."
-    },
-    {
-      "component": "Sticky Feature Nav",
-      "description": "Vertical navigation that tracks user progress through content sections.",
-      "prompt": "Left-aligned list. Items transition from text-slate-400 (medium) to text-slate-900 (bold) based on scroll intersection. A 6px rounded circle (bg-black) appears to the left of the active item. Use a 500ms ease-in-out transition for the opacity and color shift."
-    }
-  ]
-}
-```
-
----
-
-## 30. Minimalist Beta Capture
+## 28. Minimalist Beta Capture
 `Waitlist & Coming Soon` · `General` · 745 copies · [try live](https://superdesign.dev/library/minimalist-beta-capture?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-end 'Editorial Brutalist' style guide optimized for SaaS waitlists, fintech, or premium developer tools. It features a dark-mode palette (#080808), high-contrast monochromatic typography (DM Serif Display + Geist Mono), and sophisticated glassmorphism. The layout utilizes a bento-grid structure and fluid width (92vw) with oversized hero typography. Key features include scroll-triggered slide-up animations, a silver-metallic gradient system, and a persistent floating mobile navigation bar.
@@ -3370,7 +3257,7 @@ A high-end 'Editorial Brutalist' style guide optimized for SaaS waitlists, finte
 
 ---
 
-## 31. Card Swap
+## 29. Card Swap
 `Components` · `General` · 884 copies · [try live](https://superdesign.dev/library/card-swap?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An elegant card swapping animation component with depth perception and perspective. Features automated cycling of cards with a premium floating feel.
@@ -3793,7 +3680,7 @@ Help me integrate this into my design
 
 ---
 
-## 32. Brutalist Style Ecommerce Page
+## 30. Brutalist Style Ecommerce Page
 `E-commerce` · `E-commerce & Retail` · 945 copies · [try live](https://superdesign.dev/library/brutalist-style-ecommerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A brutalist editorial design system for high-fashion, streetwear, or luxury brands. Featuring a raw, industrial aesthetic with massive typography, high-contrast photography, and utilitarian components. Key elements include a noise-grain texture overlay, a monochromatic palette with burnt orange and neon green accents, and asymmetrical layout grids. The style uses 'Clash Grotesk' for aggressive impact and 'General Sans' for technical clarity. Ideal for product launches, lookbooks, and fashion portfolios looking for a 'Raw Campaign' or 'Modern Brutalist' feel with scroll-triggered visual impact.
@@ -3856,7 +3743,7 @@ A brutalist editorial design system for high-fashion, streetwear, or luxury bran
 
 ---
 
-## 33. Superdesign Editorial Waitlist
+## 31. Superdesign Editorial Waitlist
 `Waitlist & Coming Soon` · `General` · 556 copies · [try live](https://superdesign.dev/library/superdesign-editorial-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Editorial waiting list landing page with a cinematic, high-fashion aesthetic. Features a deep matte #181818 background, warm beige #EBDCC4 typography, and a brutalist yet refined grid. Key elements include oversized edge-to-edge display type, subtle noise textures, and a layered text depth effect. Ideal for luxury tech, creative agency portfolios, high-end SaaS tools, architecture firms, and invite-only exclusivity campaigns. Layout utilizes strong typographic hierarchy and generous negative space with accent tones in coral, rust, and sage.
@@ -3907,7 +3794,7 @@ Editorial waiting list landing page with a cinematic, high-fashion aesthetic. Fe
 
 ---
 
-## 34. Hover reveal effect
+## 32. Hover reveal effect
 `Animations & Backgrounds` · `General` · 442 copies · [try live](https://superdesign.dev/library/hover-reveal-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Source: https://x.com/emilylambert/status/2005113433780617713
@@ -3922,7 +3809,7 @@ All text elements (my name, the Portfolio link, and the social icons) should dyn
 
 ---
 
-## 35. Force Field Background
+## 33. Force Field Background
 `Animations & Backgrounds` · `General` · 865 copies · [try live](https://superdesign.dev/library/force-field-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An interactive, particle-based force field background effect that reacts to mouse movement. Uses p5.js to render particles based on image brightness maps, creating a fluid, magnetic visual experience.
@@ -4536,7 +4423,7 @@ Help me integrate this into my design
 
 ---
 
-## 36. Scroll Journey Line
+## 34. Scroll Journey Line
 `Animations & Backgrounds` · `General` · 820 copies · [try live](https://superdesign.dev/library/scroll-journey-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An SVG line connector that animates/draws itself based on the user's scroll percentage using Framer Motion.
@@ -4547,7 +4434,7 @@ Animate an SVG line (like a connector or 'journey' line) that draws itself forwa
 
 ---
 
-## 37. Neon Velocity Countdown
+## 35. Neon Velocity Countdown
 `Waitlist & Coming Soon` · `General` · 683 copies · [try live](https://superdesign.dev/library/neon-velocity-countdown?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-velocity, futuristic dark-mode design system characterized by neon accents, brutalist typography, and 3D glassmorphism. Featuring a 'Laser Green' and 'Navy Black' palette, it utilizes 'Plus Jakarta Sans' for high-impact headlines and 'Geist Mono' for technical metadata. This aesthetic is ideal for high-growth tech startups, SaaS platforms, developer tools, and fintech products that want to convey speed, precision, and cutting-edge innovation. The layout uses a bento-grid structure, fluid typography, and sophisticated scroll-triggered reveal animations.
@@ -4602,7 +4489,7 @@ A high-velocity, futuristic dark-mode design system characterized by neon accent
 
 ---
 
-## 38. Gooey Gradient Background
+## 36. Gooey Gradient Background
 `Animations & Backgrounds` · `General` · 485 copies · [try live](https://superdesign.dev/library/gooey-gradient-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A mesmerizing, interactive gooey liquid gradient background with animated blobs and mouse-following effect. Perfect for immersive landing pages.
@@ -4941,7 +4828,7 @@ Help me integrate this into my design
 
 ---
 
-## 39. Horizontal Gallery
+## 37. Horizontal Gallery
 `Animations & Backgrounds` · `General` · 439 copies · [try live](https://superdesign.dev/library/horizontal-gallery?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A sticky section that locks vertical scroll and translates it into horizontal movement to showcase a gallery. Features robust GSAP ScrollTrigger initialization.
@@ -4954,7 +4841,7 @@ Create a 'sticky' section where the vertical scroll locks, and the content slide
 
 ---
 
-## 40. Disruptor Beta Launch
+## 38. Disruptor Beta Launch
 `Waitlist & Coming Soon` · `General` · 456 copies · [try live](https://superdesign.dev/library/disruptor-beta-launch?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-impact Neo-Brutalist design system designed for product launches and disruptive SaaS platforms. Characterized by stark color contrasts, industrial typography, and heavy geometric borders. The aesthetic utilizes a dark mode base (#121212) punctuated by vibrant 'Volt' accents (#CCFF00) and crisp white containers. Key features include 'sticker-style' rotated elements, massive display type, solid 8px offsets (Neo-shadows), and vertical navigation elements. Ideal for high-growth tech, developer tools, fintech, and creative agencies looking for an aggressive, authoritative, and innovative brand presence.
@@ -5013,7 +4900,7 @@ A high-impact Neo-Brutalist design system designed for product launches and disr
 
 ---
 
-## 41. Bold Editorial Design Style
+## 39. Bold Editorial Design Style
 `Portfolios` · `Personal & Portfolio` · 765 copies · [try live](https://superdesign.dev/library/bold-editorial-design-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A premium, bold editorial design system characterized by high-contrast brutalist typography and a sophisticated dark navy and sage color palette. Optimized for creative agencies, design portfolios, luxury architecture, and high-end digital studios. Features include 'Anton' display headers, a custom crosshair cursor, floating ambient gradients, asymmetric masonry layouts, and smooth scroll-triggered reveal animations. The aesthetic balances minimalist white space with massive, impactful type and subtle micro-interactions like mix-blend-mode navigation and grayscale-to-color image transitions.
@@ -5080,7 +4967,7 @@ A premium, bold editorial design system characterized by high-contrast brutalist
 
 ---
 
-## 42. Light Beam Button
+## 40. Light Beam Button
 `Components` · `General` · 500 copies · [try live](https://superdesign.dev/library/light-beam-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-performance button with a rotating light beam border effect using CSS @property and conic gradients. Features a shiny hover state and gradient border animation.
@@ -5285,7 +5172,7 @@ Help me integrate this into my design
 
 ---
 
-## 43. Jelly Squish Button
+## 41. Jelly Squish Button
 `Components` · `General` · 368 copies · [try live](https://superdesign.dev/library/jelly-squish-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-fidelity interactive 3D jelly simulation that responds to vertical dragging and mouse movement. Uses GSAP for physics-based animation and optimized image sequencing. Perfect for playful hero sections or interactive showcases.
@@ -5711,7 +5598,7 @@ Help me integrate this into my design
 
 ---
 
-## 44. Ghost Cursor
+## 42. Ghost Cursor
 `Components` · `General` · 417 copies · [try live](https://superdesign.dev/library/ghost-cursor?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A fluid, smoky cursor trail effect using Three.js shader materials and post-processing bloom.
@@ -6374,7 +6261,7 @@ Help me integrate this into my design
 
 ---
 
-## 45. Dynamic Data Display
+## 43. Dynamic Data Display
 `Animations & Backgrounds` · `General` · 288 copies · [try live](https://superdesign.dev/library/dynamic-data-display?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 ```text
@@ -6383,7 +6270,7 @@ Numbers are displayed in large font with a **count-up animation**, triggering a 
 
 ---
 
-## 46. Aura Audio Showroom
+## 44. Aura Audio Showroom
 `E-commerce` · `E-commerce & Retail` · 261 copies · [try live](https://superdesign.dev/library/aura-audio-showroom?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Product Walkthrough is a product-first electronics landing page built around a Showroom Flow layout—product theater followed by guided model selection, scenario-based feature explanations, lightweight comparison, and a confident close—making it best suited for consumer electronics and DTC hardware brands with multiple models or configurations that want a clear, trust-building shopping experience without spec overload or lifestyle clichés.
@@ -6445,7 +6332,7 @@ Product Walkthrough is a product-first electronics landing page built around a S
 
 ---
 
-## 47. Radiant Prompt Input
+## 45. Radiant Prompt Input
 `Components` · `General` · 348 copies · [try live](https://superdesign.dev/library/radiant-prompt-input?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-fidelity, kinetic input interface featuring a mesmerizing, continuously rotating conic gradient border. Designed for next-generation AI interactions, this component elevates simple text entry into a focal point of engagement, blending futuristic aesthetics with organic fluid motion. Ideal for LLM chat interfaces, command palettes, or hero search bars that require a premium, 'magical' feel.
@@ -6785,7 +6672,7 @@ Help me integrate this into my design
 
 ---
 
-## 48. Interactive Folder
+## 46. Interactive Folder
 `Components` · `General` · 273 copies · [try live](https://superdesign.dev/library/interactive-folder?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An interactive, premium folder component with a playful opening animation and drifting paper elements. Features smooth CSS transitions and mouse-tracking interactions.
@@ -7139,7 +7026,7 @@ Help me integrate this into my design
 
 ---
 
-## 49. GSAP Horizontal scroll
+## 47. GSAP Horizontal scroll
 `Animations & Backgrounds` · `General` · 668 copies · [try live](https://superdesign.dev/library/gsap-horizontal-scroll?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 ```text
@@ -7156,7 +7043,7 @@ Vibe: It should feel like reading a really long ticker tape, not flipping throug
 
 ---
 
-## 50. Architectural Type System Style
+## 48. Architectural Type System Style
 `Waitlist & Coming Soon` · `General` · 354 copies · [try live](https://superdesign.dev/library/architectural-type-system-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-contrast, architectural design system rooted in Swiss Modernism and Brutalist minimalism. Characterized by a monochrome palette, massive 'Inter Tight' display typography, and a rigid grid defined by 0.5px hairlines. Features a technical 'JetBrains Mono' font for metadata and system status indicators, creating an engineering-first aesthetic. Suitable for high-end SaaS, developer tools, fintech, architecture portfolios, and design agencies. Includes a persistent noise overlay for texture and grid-based layouts that utilize viewport-relative sizing for maximalist impact.
@@ -7212,7 +7099,7 @@ A high-contrast, architectural design system rooted in Swiss Modernism and Bruta
 
 ---
 
-## 51. Parallax Stars Background
+## 49. Parallax Stars Background
 `Animations & Backgrounds` · `General` · 661 copies · [try live](https://superdesign.dev/library/parallax-stars-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A mesmerizing space-themed background with animated parallax pixel stars and a radial gradient atmosphere. Features three layers of stars moving at different speeds to create depth.
@@ -7435,7 +7322,7 @@ Help me integrate this into my design
 
 ---
 
-## 52. Typing animation
+## 50. Typing animation
 `Components` · `General` · 370 copies · [try live](https://superdesign.dev/library/typing-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A typing animation component that reveals each character of a headline with a 50ms delay, featuring a minimalist showcase and replay functionality.
@@ -7446,7 +7333,7 @@ Create a typing animation that reveals each character with a 50ms delay between 
 
 ---
 
-## 53. Shiny Text
+## 51. Shiny Text
 `Components` · `General` · 182 copies · [try live](https://superdesign.dev/library/shiny-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A text component with a customizable shining gradient animation effect that sweeps across the text.
@@ -7715,7 +7602,7 @@ Help me integrate this into my design
 
 ---
 
-## 54. Pill Nav
+## 52. Pill Nav
 `Components` · `General` · 318 copies · [try live](https://superdesign.dev/library/pill-nav?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A premium, minimalist pill-shaped navigation component with GSAP-powered hover effects, rotating logo animation, and responsive mobile menu. Features a unique 'rising circle' background effect on hover.
@@ -8359,558 +8246,7 @@ Help me integrate this into my design
 
 ---
 
-## 55. Animation / Threejs animation
-`Animations & Backgrounds` · `General` · 307 copies · [try live](https://superdesign.dev/library/animation-threejs-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.
-
-```text
-# Three.js Animation
-
-## Quick Start
-
-```javascript
-import * as THREE from "three";
-
-// Simple procedural animation
-const clock = new THREE.Clock();
-
-function animate() {
-  const delta = clock.getDelta();
-  const elapsed = clock.getElapsedTime();
-
-  mesh.rotation.y += delta;
-  mesh.position.y = Math.sin(elapsed) * 0.5;
-
-  requestAnimationFrame(animate);
-  renderer.render(scene, camera);
-}
-animate();
-```
-
-## Animation System Overview
-
-Three.js animation system has three main components:
-
-1. **AnimationClip** - Container for keyframe data
-2. **AnimationMixer** - Plays animations on a root object
-3. **AnimationAction** - Controls playback of a clip
-
-## AnimationClip
-
-Stores keyframe animation data.
-
-```javascript
-// Create animation clip
-const times = [0, 1, 2]; // Keyframe times (seconds)
-const values = [0, 1, 0]; // Values at each keyframe
-
-const track = new THREE.NumberKeyframeTrack(
-  ".position[y]", // Property path
-  times,
-  values,
-);
-
-const clip = new THREE.AnimationClip("bounce", 2, [track]);
-```
-
-### KeyframeTrack Types
-
-```javascript
-// Number track (single value)
-new THREE.NumberKeyframeTrack(".opacity", times, [1, 0]);
-new THREE.NumberKeyframeTrack(".material.opacity", times, [1, 0]);
-
-// Vector track (position, scale)
-new THREE.VectorKeyframeTrack(".position", times, [
-  0,
-  0,
-  0, // t=0
-  1,
-  2,
-  0, // t=1
-  0,
-  0,
-  0, // t=2
-]);
-
-// Quaternion track (rotation)
-const q1 = new THREE.Quaternion().setFromEuler(new THREE.Euler(0, 0, 0));
-const q2 = new THREE.Quaternion().setFromEuler(new THREE.Euler(0, Math.PI, 0));
-new THREE.QuaternionKeyframeTrack(
-  ".quaternion",
-  [0, 1],
-  [q1.x, q1.y, q1.z, q1.w, q2.x, q2.y, q2.z, q2.w],
-);
-
-// Color track
-new THREE.ColorKeyframeTrack(".material.color", times, [
-  1,
-  0,
-  0, // red
-  0,
-  1,
-  0, // green
-  0,
-  0,
-  1, // blue
-]);
-
-// Boolean track
-new THREE.BooleanKeyframeTrack(".visible", [0, 0.5, 1], [true, false, true]);
-
-// String track (for morph targets)
-new THREE.StringKeyframeTrack(
-  ".morphTargetInfluences[smile]",
-  [0, 1],
-  ["0", "1"],
-);
-```
-
-### Interpolation Modes
-
-```javascript
-const track = new THREE.VectorKeyframeTrack(".position", times, values);
-
-// Interpolation
-track.setInterpolation(THREE.InterpolateLinear); // Default
-track.setInterpolation(THREE.InterpolateSmooth); // Cubic spline
-track.setInterpolation(THREE.InterpolateDiscrete); // Step function
-```
-
-## AnimationMixer
-
-Plays animations on an object and its descendants.
-
-```javascript
-const mixer = new THREE.AnimationMixer(model);
-
-// Create action from clip
-const action = mixer.clipAction(clip);
-action.play();
-
-// Update in animation loop
-function animate() {
-  const delta = clock.getDelta();
-  mixer.update(delta); // Required!
-
-  requestAnimationFrame(animate);
-  renderer.render(scene, camera);
-}
-```
-
-### Mixer Events
-
-```javascript
-mixer.addEventListener("finished", (e) => {
-  console.log("Animation finished:", e.action.getClip().name);
-});
-
-mixer.addEventListener("loop", (e) => {
-  console.log("Animation looped:", e.action.getClip().name);
-});
-```
-
-## AnimationAction
-
-Controls playback of an animation clip.
-
-```javascript
-const action = mixer.clipAction(clip);
-
-// Playback control
-action.play();
-action.stop();
-action.reset();
-action.halt(fadeOutDuration);
-
-// Playback state
-action.isRunning();
-action.isScheduled();
-
-// Time control
-action.time = 0.5; // Current time
-action.timeScale = 1; // Playback speed (negative = reverse)
-action.paused = false;
-
-// Weight (for blending)
-action.weight = 1; // 0-1, contribution to final pose
-action.setEffectiveWeight(1);
-
-// Loop modes
-action.loop = THREE.LoopRepeat; // Default: loop forever
-action.loop = THREE.LoopOnce; // Play once and stop
-action.loop = THREE.LoopPingPong; // Alternate forward/backward
-action.repetitions = 3; // Number of loops (Infinity default)
-
-// Clamping
-action.clampWhenFinished = true; // Hold last frame when done
-
-// Blending
-action.blendMode = THREE.NormalAnimationBlendMode;
-action.blendMode = THREE.AdditiveAnimationBlendMode;
-```
-
-### Fade In/Out
-
-```javascript
-// Fade in
-action.reset().fadeIn(0.5).play();
-
-// Fade out
-action.fadeOut(0.5);
-
-// Crossfade between animations
-const action1 = mixer.clipAction(clip1);
-const action2 = mixer.clipAction(clip2);
-
-action1.play();
-
-// Later, crossfade to action2
-action1.crossFadeTo(action2, 0.5, true);
-action2.play();
-```
-
-## Loading GLTF Animations
-
-Most common source of skeletal animations.
-
-```javascript
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
-
-const loader = new GLTFLoader();
-loader.load("model.glb", (gltf) => {
-  const model = gltf.scene;
-  scene.add(model);
-
-  // Create mixer
-  const mixer = new THREE.AnimationMixer(model);
-
-  // Get all clips
-  const clips = gltf.animations;
-  console.log(
-    "Available animations:",
-    clips.map((c) => c.name),
-  );
-
-  // Play first animation
-  if (clips.length > 0) {
-    const action = mixer.clipAction(clips[0]);
-    action.play();
-  }
-
-  // Play specific animation by name
-  const walkClip = THREE.AnimationClip.findByName(clips, "Walk");
-  if (walkClip) {
-    mixer.clipAction(walkClip).play();
-  }
-
-  // Store mixer for update loop
-  window.mixer = mixer;
-});
-
-// Animation loop
-function animate() {
-  const delta = clock.getDelta();
-  if (window.mixer) window.mixer.update(delta);
-
-  requestAnimationFrame(animate);
-  renderer.render(scene, camera);
-}
-```
-
-## Skeletal Animation
-
-### Skeleton and Bones
-
-```javascript
-// Access skeleton from skinned mesh
-const skinnedMesh = model.getObjectByProperty("type", "SkinnedMesh");
-const skeleton = skinnedMesh.skeleton;
-
-// Access bones
-skeleton.bones.forEach((bone) => {
-  console.log(bone.name, bone.position, bone.rotation);
-});
-
-// Find specific bone by name
-const headBone = skeleton.bones.find((b) => b.name === "Head");
-if (headBone) headBone.rotation.y = Math.PI / 4; // Turn head
-
-// Skeleton helper
-const helper = new THREE.SkeletonHelper(model);
-scene.add(helper);
-```
-
-### Programmatic Bone Animation
-
-```javascript
-function animate() {
-  const time = clock.getElapsedTime();
-
-  // Animate bone
-  const headBone = skeleton.bones.find((b) => b.name === "Head");
-  if (headBone) {
-    headBone.rotation.y = Math.sin(time) * 0.3;
-  }
-
-  // Update mixer if also playing clips
-  mixer.update(clock.getDelta());
-}
-```
-
-### Bone Attachments
-
-```javascript
-// Attach object to bone
-const weapon = new THREE.Mesh(weaponGeometry, weaponMaterial);
-const handBone = skeleton.bones.find((b) => b.name === "RightHand");
-if (handBone) handBone.add(weapon);
-
-// Offset attachment
-weapon.position.set(0, 0, 0.5);
-weapon.rotation.set(0, Math.PI / 2, 0);
-```
-
-## Morph Targets
-
-Blend between different mesh shapes.
-
-```javascript
-// Morph targets are stored in geometry
-const geometry = mesh.geometry;
-console.log("Morph attributes:", Object.keys(geometry.morphAttributes));
-
-// Access morph target influences
-mesh.morphTargetInfluences; // Array of weights
-mesh.morphTargetDictionary; // Name -> index mapping
-
-// Set morph target by index
-mesh.morphTargetInfluences[0] = 0.5;
-
-// Set by name
-const smileIndex = mesh.morphTargetDictionary["smile"];
-mesh.morphTargetInfluences[smileIndex] = 1;
-```
-
-### Animating Morph Targets
-
-```javascript
-// Procedural
-function animate() {
-  const t = clock.getElapsedTime();
-  mesh.morphTargetInfluences[0] = (Math.sin(t) + 1) / 2;
-}
-
-// With keyframe animation
-const track = new THREE.NumberKeyframeTrack(
-  ".morphTargetInfluences[smile]",
-  [0, 0.5, 1],
-  [0, 1, 0],
-);
-const clip = new THREE.AnimationClip("smile", 1, [track]);
-mixer.clipAction(clip).play();
-```
-
-## Animation Blending
-
-Mix multiple animations together.
-
-```javascript
-// Setup actions
-const idleAction = mixer.clipAction(idleClip);
-const walkAction = mixer.clipAction(walkClip);
-const runAction = mixer.clipAction(runClip);
-
-// Play all with different weights
-idleAction.play();
-walkAction.play();
-runAction.play();
-
-// Set initial weights
-idleAction.setEffectiveWeight(1);
-walkAction.setEffectiveWeight(0);
-runAction.setEffectiveWeight(0);
-
-// Blend based on speed
-function updateAnimations(speed) {
-  if (speed < 0.1) {
-    idleAction.setEffectiveWeight(1);
-    walkAction.setEffectiveWeight(0);
-    runAction.setEffectiveWeight(0);
-  } else if (speed < 5) {
-    const t = speed / 5;
-    idleAction.setEffectiveWeight(1 - t);
-    walkAction.setEffectiveWeight(t);
-    runAction.setEffectiveWeight(0);
-  } else {
-    const t = Math.min((speed - 5) / 5, 1);
-    idleAction.setEffectiveWeight(0);
-    walkAction.setEffectiveWeight(1 - t);
-    runAction.setEffectiveWeight(t);
-  }
-}
-```
-
-### Additive Blending
-
-```javascript
-// Base pose
-const baseAction = mixer.clipAction(baseClip);
-baseAction.play();
-
-// Additive layer (e.g., breathing)
-const additiveAction = mixer.clipAction(additiveClip);
-additiveAction.blendMode = THREE.AdditiveAnimationBlendMode;
-additiveAction.play();
-
-// Convert clip to additive
-THREE.AnimationUtils.makeClipAdditive(additiveClip);
-```
-
-## Animation Utilities
-
-```javascript
-import * as THREE from "three";
-
-// Find clip by name
-const clip = THREE.AnimationClip.findByName(clips, "Walk");
-
-// Create subclip
-const subclip = THREE.AnimationUtils.subclip(clip, "subclip", 0, 30, 30);
-
-// Convert to additive
-THREE.AnimationUtils.makeClipAdditive(clip);
-THREE.AnimationUtils.makeClipAdditive(clip, 0, referenceClip);
-
-// Clone clip
-const clone = clip.clone();
-
-// Get clip duration
-clip.duration;
-
-// Optimize clip (remove redundant keyframes)
-clip.optimize();
-
-// Reset clip to first frame
-clip.resetDuration();
-```
-
-## Procedural Animation Patterns
-
-### Smooth Damping
-
-```javascript
-// Smooth follow/lerp
-const target = new THREE.Vector3();
-const current = new THREE.Vector3();
-const velocity = new THREE.Vector3();
-
-function smoothDamp(current, target, velocity, smoothTime, deltaTime) {
-  const omega = 2 / smoothTime;
-  const x = omega * deltaTime;
-  const exp = 1 / (1 + x + 0.48 * x * x + 0.235 * x * x * x);
-  const change = current.clone().sub(target);
-  const temp = velocity
-    .clone()
-    .add(change.clone().multiplyScalar(omega))
-    .multiplyScalar(deltaTime);
-  velocity.sub(temp.clone().multiplyScalar(omega)).multiplyScalar(exp);
-  return target.clone().add(change.add(temp).multiplyScalar(exp));
-}
-
-function animate() {
-  current.copy(smoothDamp(current, target, velocity, 0.3, delta));
-  mesh.position.copy(current);
-}
-```
-
-### Spring Physics
-
-```javascript
-class Spring {
-  constructor(stiffness = 100, damping = 10) {
-    this.stiffness = stiffness;
-    this.damping = damping;
-    this.position = 0;
-    this.velocity = 0;
-    this.target = 0;
-  }
-
-  update(dt) {
-    const force = -this.stiffness * (this.position - this.target);
-    const dampingForce = -this.damping * this.velocity;
-    this.velocity += (force + dampingForce) * dt;
-    this.position += this.velocity * dt;
-    return this.position;
-  }
-}
-
-const spring = new Spring(100, 10);
-spring.target = 1;
-
-function animate() {
-  mesh.position.y = spring.update(delta);
-}
-```
-
-### Oscillation
-
-```javascript
-function animate() {
-  const t = clock.getElapsedTime();
-
-  // Sine wave
-  mesh.position.y = Math.sin(t * 2) * 0.5;
-
-  // Bouncing
-  mesh.position.y = Math.abs(Math.sin(t * 3)) * 2;
-
-  // Circular motion
-  mesh.position.x = Math.cos(t) * 2;
-  mesh.position.z = Math.sin(t) * 2;
-
-  // Figure 8
-  mesh.position.x = Math.sin(t) * 2;
-  mesh.position.z = Math.sin(t * 2) * 1;
-}
-```
-
-## Performance Tips
-
-1. **Share clips**: Same AnimationClip can be used on multiple mixers
-2. **Optimize clips**: Call `clip.optimize()` to remove redundant keyframes
-3. **Disable when off-screen**: Stop mixer updates for invisible objects
-4. **Use LOD for animations**: Simpler rigs for distant characters
-5. **Limit active mixers**: Each mixer.update() has a cost
-
-```javascript
-// Pause animation when not visible
-mesh.onBeforeRender = () => {
-  action.paused = false;
-};
-
-mesh.onAfterRender = () => {
-  // Check if will be visible next frame
-  if (!isInFrustum(mesh)) {
-    action.paused = true;
-  }
-};
-
-// Cache clips
-const clipCache = new Map();
-function getClip(name) {
-  if (!clipCache.has(name)) {
-    clipCache.set(name, loadClip(name));
-  }
-  return clipCache.get(name);
-}
-```
-```
-
----
-
-## 56. "Exploded View" Assembly
+## 53. "Exploded View" Assembly
 `Animations & Backgrounds` · `General` · 490 copies · [try live](https://superdesign.dev/library/exploded-view-assembly?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A scroll-driven animation where a central product or UI element explodes into its constituent parts and then reassembles into a new layout. Perfect for 'how it works' or feature breakdown sections.
@@ -8925,7 +8261,7 @@ Perfect for showing product components or "how it works."
 
 ---
 
-## 57. Rolodex Text
+## 54. Rolodex Text
 `Components` · `General` · 203 copies · [try live](https://superdesign.dev/library/rolodex-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A text component that cycles through words with a 3D physical slot machine/Rolodex flip animation. Features left-aligned text for inline use and preserved 3D perspective.
@@ -8944,7 +8280,372 @@ Do not center it, or variable word lengths will create awkward gaps.
 
 ---
 
-## 58. Glow Cursor Button
+## 55. Lightning Background
+`Animations & Backgrounds` · `General` · 252 copies · [try live](https://superdesign.dev/library/lightning-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A high-performance WebGL-powered lightning/electric discharge background effect. Features adjustable hue, intensity, speed, and scale. Built with GLSL shaders for smooth atmospheric motion.
+
+Source: ReactBits
+
+```text
+You are given a task to integrate an existing React component in the codebase
+
+~~~/README.md
+# LightningBackground
+
+A high-performance WebGL-powered atmospheric lightning background effect. Built with GLSL shaders for smooth, fluid electric discharge animations.
+
+## Dependencies
+
+- `react`: ^18.0.0
+- `lucide-react`: ^0.454.0
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `hue` | `number` | `230` | The hue of the lightning in degrees (0-360). |
+| `xOffset` | `number` | `0` | Horizontal displacement of the lightning bolt. |
+| `speed` | `number` | `1.0` | Animation speed multiplier. |
+| `intensity` | `number` | `1.0` | Brightness and glow intensity. |
+| `size` | `number` | `1.0` | Scale and complexity of the noise pattern. |
+| `className` | `string` | `""` | Optional CSS classes for the canvas container. |
+
+## Usage
+
+```tsx
+import { Lightning } from '@/sd-components/5a42589e-b96a-43a8-9dde-7ec4e869715b';
+
+export default function MyComponent() {
+  return (
+    <div style={{ width: '100%', height: '500px', position: 'relative' }}>
+      <Lightning 
+        hue={210} 
+        speed={1.2} 
+        intensity={1.5} 
+      />
+    </div>
+  );
+}
+```
+~~~
+
+~~~/src/App.tsx
+/**
+ * Demo application showcasing the LightningBackground component.
+ * Displays a fullscreen atmospheric lightning effect with minimal UI.
+ */
+
+import React from 'react';
+import { Lightning } from './Component';
+
+export default function App() {
+  return (
+    <div className="relative w-full h-screen overflow-hidden bg-[#1A1A1B]">
+      {/* Background Layer */}
+      <div className="absolute inset-0 z-0">
+        <Lightning 
+          hue={210} 
+          speed={0.8} 
+          intensity={1.2} 
+          size={0.9} 
+        />
+      </div>
+
+      {/* Content Overlay */}
+      <div className="absolute inset-0 z-10 flex flex-col items-center justify-center p-8 bg-gradient-to-t from-[#1A1A1B]/40 to-transparent">
+        <div className="max-w-2xl text-center space-y-6">
+          <h1 className="text-5xl md:text-7xl font-medium tracking-tight text-[#F9F9F9] drop-shadow-2xl">
+            Lightning Discharge
+          </h1>
+          <p className="text-lg text-[#F9F9F9]/60 font-normal">
+            Atmospheric WebGL background rendering with fluid noise dynamics.
+          </p>
+          
+          <div className="pt-8">
+            <button 
+              className="px-8 py-3 bg-[#F9F9F9] text-[#1A1A1B] rounded-full font-medium transition-all hover:scale-105 active:scale-95 shadow-xl"
+              onClick={() => alert('Reply Action')}
+            >
+              Reply
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Aesthetic Framing */}
+      <div className="absolute inset-0 pointer-events-none border-[1px] border-[#F9F9F9]/5 m-4 rounded-3xl" />
+    </div>
+  );
+}
+~~~
+
+~~~/package.json
+{
+  "name": "lightning-background",
+  "description": "WebGL atmospheric lightning background",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.454.0"
+  }
+}
+~~~
+
+~~~/src/Component.tsx
+/**
+ * Lightning Component
+ * A high-performance WebGL-powered electric discharge effect.
+ * Features customizable hue, intensity, speed, and size via GLSL shaders.
+ */
+
+import React, { useRef, useEffect } from 'react';
+
+export interface LightningProps {
+  /** Hue of the lightning in degrees (0-360) */
+  hue?: number;
+  /** Horizontal offset of the effect */
+  xOffset?: number;
+  /** Animation speed multiplier */
+  speed?: number;
+  /** Visual intensity/brightness multiplier */
+  intensity?: number;
+  /** Scale/complexity of the noise pattern */
+  size?: number;
+  /** Optional className for the canvas container */
+  className?: string;
+}
+
+export const Lightning: React.FC<LightningProps> = ({ 
+  hue = 230, 
+  xOffset = 0, 
+  speed = 1, 
+  intensity = 1, 
+  size = 1,
+  className = ""
+}) => {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const gl = canvas.getContext('webgl', { antialias: true, alpha: true });
+    if (!gl) {
+      console.error('WebGL not supported');
+      return;
+    }
+
+    const resizeCanvas = () => {
+      const displayWidth = canvas.clientWidth;
+      const displayHeight = canvas.clientHeight;
+      if (canvas.width !== displayWidth || canvas.height !== displayHeight) {
+        canvas.width = displayWidth;
+        canvas.height = displayHeight;
+        gl.viewport(0, 0, canvas.width, canvas.height);
+      }
+    };
+
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+
+    const vertexShaderSource = `
+      attribute vec2 aPosition;
+      void main() {
+        gl_Position = vec4(aPosition, 0.0, 1.0);
+      }
+    `;
+
+    const fragmentShaderSource = `
+      precision mediump float;
+      uniform vec2 iResolution;
+      uniform float iTime;
+      uniform float uHue;
+      uniform float uXOffset;
+      uniform float uSpeed;
+      uniform float uIntensity;
+      uniform float uSize;
+      
+      #define OCTAVE_COUNT 10
+
+      vec3 hsv2rgb(vec3 c) {
+          vec3 rgb = clamp(abs(mod(c.x * 6.0 + vec3(0.0,4.0,2.0), 6.0) - 3.0) - 1.0, 0.0, 1.0);
+          return c.z * mix(vec3(1.0), rgb, c.y);
+      }
+
+      float hash11(float p) {
+          p = fract(p * .1031);
+          p *= p + 33.33;
+          p *= p + p;
+          return fract(p);
+      }
+
+      float hash12(vec2 p) {
+          vec3 p3 = fract(vec3(p.xyx) * .1031);
+          p3 += dot(p3, p3.yzx + 33.33);
+          return fract((p3.x + p3.y) * p3.z);
+      }
+
+      mat2 rotate2d(float theta) {
+          float c = cos(theta);
+          float s = sin(theta);
+          return mat2(c, -s, s, c);
+      }
+
+      float noise(vec2 p) {
+          vec2 ip = floor(p);
+          vec2 fp = fract(p);
+          float a = hash12(ip);
+          float b = hash12(ip + vec2(1.0, 0.0));
+          float c = hash12(ip + vec2(0.0, 1.0));
+          float d = hash12(ip + vec2(1.0, 1.0));
+          
+          vec2 t = smoothstep(0.0, 1.0, fp);
+          return mix(mix(a, b, t.x), mix(c, d, t.x), t.y);
+      }
+
+      float fbm(vec2 p) {
+          float value = 0.0;
+          float amplitude = 0.5;
+          for (int i = 0; i < OCTAVE_COUNT; ++i) {
+              value += amplitude * noise(p);
+              p *= rotate2d(0.45);
+              p *= 2.0;
+              amplitude *= 0.5;
+          }
+          return value;
+      }
+
+      void main() {
+          vec2 uv = gl_FragCoord.xy / iResolution.xy;
+          uv = 2.0 * uv - 1.0;
+          uv.x *= iResolution.x / iResolution.y;
+          uv.x += uXOffset;
+          
+          float time = iTime * uSpeed;
+          
+          // Warp UV coordinates with FBM for lightning shape
+          uv += 2.0 * fbm(uv * uSize + 0.8 * time) - 1.0;
+          
+          float dist = abs(uv.x);
+          
+          // Color based on hue and flickering
+          vec3 baseColor = hsv2rgb(vec3(uHue / 360.0, 0.7, 0.8));
+          
+          // Flickering effect
+          float flicker = mix(0.0, 0.07, hash11(time));
+          
+          // Core discharge effect
+          vec3 col = baseColor * (flicker / max(dist, 0.001)) * uIntensity;
+          
+          // Glow and falloff
+          col = pow(col, vec3(1.1));
+          
+          gl_FragColor = vec4(col, 1.0);
+      }
+    `;
+
+    const compileShader = (source: string, type: number): WebGLShader | null => {
+      const shader = gl.createShader(type);
+      if (!shader) return null;
+      gl.shaderSource(shader, source);
+      gl.compileShader(shader);
+      if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+        console.error('Shader compile error:', gl.getShaderInfoLog(shader));
+        gl.deleteShader(shader);
+        return null;
+      }
+      return shader;
+    };
+
+    const vertexShader = compileShader(vertexShaderSource, gl.VERTEX_SHADER);
+    const fragmentShader = compileShader(fragmentShaderSource, gl.FRAGMENT_SHADER);
+
+    if (!vertexShader || !fragmentShader) return;
+
+    const program = gl.createProgram();
+    if (!program) return;
+    gl.attachShader(program, vertexShader);
+    gl.attachShader(program, fragmentShader);
+    gl.linkProgram(program);
+
+    if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+      console.error('Program linking error:', gl.getProgramInfoLog(program));
+      return;
+    }
+
+    gl.useProgram(program);
+
+    const vertices = new Float32Array([-1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1]);
+    const vertexBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
+
+    const aPosition = gl.getAttribLocation(program, 'aPosition');
+    gl.enableVertexAttribArray(aPosition);
+    gl.vertexAttribPointer(aPosition, 2, gl.FLOAT, false, 0, 0);
+
+    const uniforms = {
+      iResolution: gl.getUniformLocation(program, 'iResolution'),
+      iTime: gl.getUniformLocation(program, 'iTime'),
+      uHue: gl.getUniformLocation(program, 'uHue'),
+      uXOffset: gl.getUniformLocation(program, 'uXOffset'),
+      uSpeed: gl.getUniformLocation(program, 'uSpeed'),
+      uIntensity: gl.getUniformLocation(program, 'uIntensity'),
+      uSize: gl.getUniformLocation(program, 'uSize'),
+    };
+
+    const startTime = performance.now();
+    let animationFrameId: number;
+
+    const render = () => {
+      resizeCanvas();
+      
+      gl.uniform2f(uniforms.iResolution, canvas.width, canvas.height);
+      const currentTime = performance.now();
+      gl.uniform1f(uniforms.iTime, (currentTime - startTime) / 1000.0);
+      gl.uniform1f(uniforms.uHue, hue);
+      gl.uniform1f(uniforms.uXOffset, xOffset);
+      gl.uniform1f(uniforms.uSpeed, speed);
+      gl.uniform1f(uniforms.uIntensity, intensity);
+      gl.uniform1f(uniforms.uSize, size);
+
+      gl.drawArrays(gl.TRIANGLES, 0, 6);
+      animationFrameId = requestAnimationFrame(render);
+    };
+
+    animationFrameId = requestAnimationFrame(render);
+
+    return () => {
+      window.removeEventListener('resize', resizeCanvas);
+      cancelAnimationFrame(animationFrameId);
+    };
+  }, [hue, xOffset, speed, intensity, size]);
+
+  return (
+    <canvas 
+      ref={canvasRef} 
+      className={`w-full h-full block bg-black ${className}`} 
+    />
+  );
+};
+
+export default Lightning;
+~~~
+
+Implementation Guidelines
+
+1. Analyze the component structure, styling, animation implementations
+2. Review the component's arguments and state
+3. Think through what is the best place to adopt this component/style into the design we are doing
+4. Then adopt the component/design to our current system
+
+Help me integrate this into my design
+```
+
+---
+
+## 56. Glow Cursor Button
 `Components` · `General` · 211 copies · [try live](https://superdesign.dev/library/glow-cursor-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 ```text
@@ -8953,7 +8654,7 @@ Interactive call-to-action button featuring a right-arrow SVG icon and custom **
 
 ---
 
-## 59. Red sun
+## 57. Red sun
 `Landing Pages` · `General` · 513 copies · [try live](https://superdesign.dev/library/red-sun?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A sophisticated editorial-style design system named 'Red Sun', characterized by a high-contrast 'Coral and Ink' color palette. This style blends 'Instrument Serif' for high-impact typography with 'Manrope' for technical precision. Features include bento-grid layouts, glassmorphism navigation, scroll-triggered animations with subtle rotations, and soft ambient background blurs. Ideal for premium SaaS, creative agencies, AI product design tools, and fintech platforms looking for a balance between warmth and authority.
@@ -9012,7 +8713,7 @@ A sophisticated editorial-style design system named 'Red Sun', characterized by 
 
 ---
 
-## 60. Coverflow — Carousels that turn heads (dark coverflow aurora)
+## 58. Coverflow — Carousels that turn heads (dark coverflow aurora)
 `Mobile Apps` · `AI & Tech` · 48 copies · [try live](https://superdesign.dev/library/coverflow-carousels-that-turn-heads-dark-coverflow-aurora?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark, aurora-lit 3D coverflow carousel landing page: a sticky frosted-ink nav, then a centered hero (a 'depth-aware coverflow engine' status pill, a big 'Carousels that turn heads, not stomachs.' heading whose 'turn heads' is teal-to-magenta gradient text, and a soft lead) wrapping a real CSS 3D coverflow stage. Seven gradient cards sit on a 1600px perspective stage: the active card faces front with a teal glow ring while neighbours rotate ~42-48deg and recede in Z, scaling and fading by distance, each card carrying a top-left sheen and a bottom gradient label. Below the stage, a round glass prev button, pill dots (active = a wide teal-to-magenta gradient bar), and a next button; clicks, dots, arrows and the left/right keys re-lay the stage. Then a CTA pair, a grayscale logo strip, a 3-up glass feature grid, a 'from prompt to motion' showcase split with a faux terminal card, a gradient-thumb templates grid, a dark gradient CTA, and a social footer. Inter + Space Grotesk fonts, near-black ink #0b0f14 ground, aqua #2dd4bf + magenta #e879f9 accents, glass panels and aurora blobs, Iconify Phosphor icons; responsive geometry drops far cards on small screens and collapses the nav into a hamburger.
@@ -9023,7 +8724,7 @@ A dark, aurora-lit 3D coverflow carousel landing page: a sticky frosted-ink nav,
 
 ---
 
-## 61. Tech Editorial
+## 59. Tech Editorial
 `Landing Pages` · `General` · 510 copies · [try live](https://superdesign.dev/library/tech-editorial?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-end 'Tech Editorial' aesthetic that merges brutalist precision with classic editorial sophistication. It features a muted, paper-like color palette (#f7f6f2), a structured grid-line system, and a unique pairing of high-contrast Serif (Playfair Display) for display headers and technical Mono (Space Mono) for functional UI. The style is characterized by scroll-triggered text reveals, glassmorphism navigation, and 'scan-line' animations that suggest a sophisticated AI-driven process. Ideal for high-tech SaaS, AI research labs, design agencies, and premium fintech platforms.
@@ -9095,7 +8796,7 @@ A high-end 'Tech Editorial' aesthetic that merges brutalist precision with class
 
 ---
 
-## 62. Aurora Glass — Sign in to the canvas
+## 60. Aurora Glass — Sign in to the canvas
 `Auth & Login` · `SaaS` · 6 copies · [try live](https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Dark aurora-glass split sign-in screen: frosted glassmorphic auth card with a glowing aqua focus ring and an aqua-to-magenta gradient CTA, floating over neon aurora blobs on near-black ink, beside a product pitch column. Space Grotesk + Inter.
@@ -9153,7 +8854,7 @@ Dark aurora-glass split sign-in screen: frosted glassmorphic auth card with a gl
 
 ---
 
-## 63. Cart Drawer- Essential Slide in
+## 61. Cart Drawer- Essential Slide in
 `E-commerce` · `E-commerce & Retail` · 7 copies · [try live](https://superdesign.dev/library/cart-drawer-essential-slide-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A narrow slide-in drawer from the right that lists cart items vertically with quantity controls, subtotal, and a single primary Checkout CTA at the bottom. No secondary content, no distractions.
@@ -9411,7 +9112,7 @@ Here is a reference implementation:
 
 ---
 
-## 64. Focus Mode Detail
+## 62. Focus Mode Detail
 `Mobile Apps` · `General` · 6 copies · [try live](https://superdesign.dev/library/focus-mode-detail?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Features include a reading progress indicator, drop-cap styling, and a grayscale image aesthetic. This design is ideal for long-form journalism, philosophical blogs, high-end lifestyle magazines, or premium SaaS documentation systems that prioritize content clarity over interface chrome.
@@ -9469,7 +9170,7 @@ Features include a reading progress indicator, drop-cap styling, and a grayscale
 
 ---
 
-## 65. Graphic Comparison Report
+## 63. Graphic Comparison Report
 `Landing Pages` · `SaaS` · 17 copies · [try live](https://superdesign.dev/library/graphic-comparison-report?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A highly visual, typography-driven comparison report design. This style eschews traditional tables and icons for a bold, editorial layout inspired by graphic posters. Featuring a brutalist-lite aesthetic with high-contrast 'ink' and 'paper' tones, it utilizes oversized headlines, a strict 12-column grid, and structural 2px borders. Suitable for technical comparisons, whitepapers, B2B SaaS decision pages, fintech analysis, and deep-dive product evaluations where clarity and authority are paramount.
@@ -9535,7 +9236,7 @@ A highly visual, typography-driven comparison report design. This style eschews 
 
 ---
 
-## 66. Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)
+## 64. Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)
 `Pricing Pages` · `Dev Tools` · 3 copies · [try live](https://superdesign.dev/library/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A Swiss-grid SaaS marketing homepage: stark white paper, near-black ink, one signal-red accent, an oversized two-line hero, an embedded prompt-to-canvas product mock, a hover-invert feature grid, a dark variant-tile workflow split, a 3-tier pricing block with an inverted Pro card, and a hairline-celled mega footer.
@@ -9546,717 +9247,7 @@ A Swiss-grid SaaS marketing homepage: stark white paper, near-black ink, one sig
 
 ---
 
-## 67. One Pager
-`Landing Pages` · `General` · 9 copies · [try live](https://superdesign.dev/library/one-pager?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Generate high-quality one-pagers in two formats — (A) Static decision one-pager (true 1 page, print/PDF-safe) or (B) Motion narrative one-pager
-
-```text
----
-name: one-pager-engine
-description: Generate high-quality one-pagers in two formats — (A) Static decision one-pager (true 1 page, print/PDF-safe) or (B) Motion narrative one-pager (Canva-style scroll story, minimal text, visuals-first). Supports output as HTML (no JS) or GSAP + ScrollTrigger. Includes Motion Scene Library (20 reusable scroll recipes), Style Token Extractor schema, and full responsive spec. Use when creating one-pagers, sales sheets, investor teasers, scroll stories, Canva-style docs, or single-page narratives.
----
-
-# One-Pager Engine v3.2 — Motion Library + Token Extractor
-
-You are a One-Pager Engine that generates high-quality one-pagers in two formats:
-
-- **Static decision one-pager** — true 1 printed page; fast decision artifact; print/PDF-safe
-- **Motion narrative one-pager** — single story page; scroll sections; minimal text; motion-led (Canva-style scroll story)
-
-Supports output as HTML (no JS) or GSAP + ScrollTrigger.
-
----
-
-## Core Concepts
-
-A "one-pager" has two meanings:
-
-| Type | Description |
-|------|-------------|
-| **Static decision sheet** | True one printed page; fast decision artifact |
-| **Scroll narrative page** | Single story page; scroll sections; minimal text; motion-led |
-
----
-
-## 1) Discovery Phase (Mandatory)
-
-### Must ask first:
-
-> "Do you want a **Static** one-pager (print/PDF-like) or a **Motion** one-pager (Canva-style scroll story)?"
-
-Options: `static` or `motion`
-
-### Then ask:
-
-- **Audience** — who is this for?
-- **Objective** — single action the reader should take
-- **Content inputs available** — metrics, testimonial, logos, images, case study
-- **Brand kit or reference** — brand kit, website URL, or inspiration links/images
-- **Output stack** — `html_no_js` or `gsap_scrolltrigger`
-- **Motion intensity preference** — `subtle`, `medium`, or `bold`
-- **Accessibility preference** — `standard` or `prefers_reduced_motion_strict`
-
----
-
-## 2) Intent Router
-
-Based on the format choice:
-
-- `static` → activate **Static Engine**
-- `motion` → activate **Motion Engine**
-
----
-
-## 3) Static Engine
-
-### Definition
-
-- Must fit on one page
-- Target read time: 3–6 minutes
-- 10-second scan test
-- Single objective required
-- Single primary CTA required
-
-### Constraints
-
-| Rule | Value |
-|------|-------|
-| Max pages | 1 |
-| Max words (low/medium density) | 650 |
-| Max words (high density) | 850 |
-| Max sections | 8 |
-| Max bullets per section | 5 |
-| Max proof blocks | 3 |
-| Max charts | 1 |
-
-### Layout Defaults
-
-| Setting | Value |
-|---------|-------|
-| Page size | A4 |
-| Margins | 16–18mm |
-| Grid columns | 12 |
-| Body font | 16px |
-| Line height | 1.35–1.5 |
-| Include print CSS | yes |
-
-### Output Stack Rules — `html_no_js`
-
-- Allowed motion: CSS transitions only
-- Forbid scroll triggers
-
----
-
-## 4) Motion Engine
-
-### Definition
-
-- Single story scroll page
-- Minimal text, visual-first
-- Sections as chapters
-- Primary trigger: scroll
-- Reading experience: fast, snackable, visual
-
-### Constraints
-
-- Allow multiple screen heights
-- Still single objective required
-- Single primary CTA required
-- Max paragraphs per section: 2
-- Headline required each section
-- Use more visuals than text
-
-### Narrative Structure Template — Editorial Agency Style
-
-Sections:
-
-1. Hero — serif headline with capsule images
-2. About — split grid, image left / text right with divider
-3. What We Do — services grid
-4. Statement block — full width
-5. Proof or clients strip
-6. Leadership message
-7. Single CTA footer
-
-Recommended scenes: `SCENE_01`, `SCENE_03`, `SCENE_05`, `SCENE_07`, `SCENE_09`
-
-### Output Stack Rules — `html_no_js`
-
-> No JS means no true scroll-triggered animation. Use layout-driven storytelling + CSS entrance on load + anchors, and prioritize typography/imagery (Canva-like feel, not Canva-like mechanics).
-
-Allowed motion:
-
-- CSS keyframes on load
-- Hover microinteractions
-- `prefers-reduced-motion` support
-
-Forbidden: ScrollTrigger behavior
-
-### Output Stack Rules — `gsap_scrolltrigger`
-
-- Enable true scroll animation
-- Use Motion Scene Library
-
-**Performance rules:**
-
-- Avoid heavy filters
-- Lazyload images
-- Prefer `transform` + `opacity` over layout properties
-- Clamp parallax strength
-- Respect `prefers-reduced-motion`
-
-**Accessibility — if `prefers-reduced-motion`:**
-
-- Disable parallax
-- Disable pin
-- Replace countup with static values
-- Replace mask reveal with fade
-
-### Presentation Modes
-
-| Mode | Description | Default |
-|------|-------------|---------|
-| `website_scroll` | Standard scrolling sections. Useful for actual landing pages. | no |
-| `doc_canvas_shell` | Canva-like document on a workspace canvas. Fixed artboard width, strong margins, no nav, page/chapter feel. | **yes** |
-
-### Doc Canvas Shell Spec
-
-**Workspace background:** `#0b0b0c`, `#111111`, or `#f4f1ea`
-
-**Artboard:**
-
-| Property | Value |
-|----------|-------|
-| Width | 900–1040px |
-| Min height | 92vh |
-| Corner radius | 18px |
-| Border | `1px solid rgba(255,255,255,0.08)` |
-| Shadow | `0 40px 120px rgba(0,0,0,0.55)` |
-| Padding | 56–72px |
-
-**UI chrome:**
-
-- Show page label: yes
-- Show progress pips: yes
-- Show navbar: no
-- Show footer: no
-
-### Motion Modes
-
-| Mode | Description | Default |
-|------|-------------|---------|
-| `section_reveal` | Scroll reveals per section. No pin. | no |
-| `canva_timeline_pages` | Each page is a pinned scene; scroll scrubs timeline; then transitions to next page. Matches Canva "motion doc" feel. | **yes** |
-
-### GSAP + ScrollTrigger Defaults (Canva Timeline Pages)
-
-- `scrub: true`
-- `anticipatePin: 1`
-- Every chapter is pinned
-- Each chapter has a timeline
-- Chapter duration range: `+=80%` to `+=180%`
-- Enable scroll snap between chapters
-- Require enter/exit states
-- Add reduced motion path
-
----
-
-## 5) Responsiveness Spec (Motion Engine)
-
-> Looks like a designed doc on every device, never a cramped website.
-
-### Must Support
-
-- Mobile portrait
-- Mobile landscape
-- Tablet
-- Desktop
-- Ultra-wide
-
-### Core Strategy
-
-- Doc canvas adaptive artboard
-- Fluid type clamp
-- Safe area padding
-- Layout mode switch at breakpoints
-- Motion degradation on small screens
-
-### Breakpoints
-
-| Token | Width |
-|-------|-------|
-| `xs` | 360px |
-| `sm` | 480px |
-| `md` | 768px |
-| `lg` | 1024px |
-| `xl` | 1280px |
-| `xxl` | 1536px |
-
-### Artboard Responsive Rules
-
-**Desktop (lg+):**
-- Width: 1040px
-- Padding: 72px
-- Border radius: 20px
-
-**Tablet (md–lg):**
-- Width: `min(92vw, 920px)`
-- Padding: 56px
-- Border radius: 18px
-
-**Mobile (sm–md):**
-- Width: 94vw
-- Padding: 22px
-- Border radius: 16px
-- Workspace padding: 14px
-
-**Mobile (xs):**
-- Width: 96vw
-- Padding: 18px
-- Border radius: 14px
-- Workspace padding: 10px
-
-### Typography Responsive Rules
-
-| Element | Clamp | Line height |
-|---------|-------|-------------|
-| Hero headline | `clamp(40px, 8vw, 96px)` | 0.92–1.02 |
-| Section headline | `clamp(22px, 4.6vw, 44px)` | 1.05–1.15 |
-| Body | `clamp(14px, 1.4vw, 18px)` | 1.45–1.6 |
-| Labels / small caps | `clamp(11px, 1.1vw, 13px)` | — |
-
-### Spacing Responsive Rules
-
-| Element | Clamp |
-|---------|-------|
-| Section gap | `clamp(28px, 4.5vw, 72px)` |
-| Image gap | `clamp(14px, 2.2vw, 28px)` |
-| Rule margin | `clamp(14px, 2.2vw, 26px)` |
-
-### Layout Mode Switcher
-
-Switch complex split layouts into stacked layouts on small screens:
-
-| Component | Desktop | Tablet | Mobile |
-|-----------|---------|--------|--------|
-| About split grid (image left / text right + divider) | 2-col split with vertical rule | — | Stacked (image first), horizontal rule |
-| Service grid 3×2 | 3 columns | 2 columns | 1 column |
-| Portrait + CEO message | Image left / text right | — | Image top / text below; name badge pinned near image |
-
-### Media Responsiveness
-
-**Images:**
-- Always use aspect-ratio boxes
-- Prefer `object-fit: cover`
-- Clamp max height on mobile: 42vh
-- Allow capsule masks to scale down
-
-**Video (if present):**
-- Optional
-- Never autoplay on mobile without user gesture
-
-### Motion Responsiveness
-
-> Motion should scale down gracefully on small screens.
-
-**Mobile:**
-- Disable parallax
-- Reduce pin duration: `end +=60%` (shorter chapters)
-- Reduce stagger count
-- Avoid long scrubbed sequences
-- Prefer simple reveal
-
-**Tablet:**
-- Allow pin
-- Limit parallax strength: low
-
-**Desktop:**
-- Full Canva timeline pages
-
-**Reduced motion handling (`prefers-reduced-motion`):**
-- Pin sections → replace with non-pin fades
-- Clip masks → replace with opacity
-- Countups → static final values
-
-### GSAP Responsive Implementation Rules
-
-- Create breakpoint-aware timelines
-- Use `matchMedia`
-- Recompute on resize
-- Prevent layout shift:
-  - Precompute heights
-  - Set min-heights for pinned sections
-  - Reserve space for images
-- Touch scroll quality:
-  - Avoid over-pin on mobile
-  - No filter animations
-  - Transform only
-  - `will-change` used sparingly
-
----
-
-## 6) Universal Laws
-
-1. Audience first
-2. Single objective
-3. Outcome over features
-4. Evidence required
-5. Scannability
-6. Action oriented
-
----
-
-## 7) Anti-AI Style Gate
-
-### Forbid
-
-- Generic purple SaaS gradients
-- Template feature grid only
-- Decorative 3D icons
-- Excessive shadows
-- Filler copy tone
-
-### Enforce
-
-- Intentional typography hierarchy
-- Restrained palette
-- Strong grid alignment
-- One signature detail per design
-- Whitespace as design tool
-- Editorial rules (lines, caps, labels) optional
-
----
-
-## 8) Style Presets (20)
-
-1. Modern Minimal
-2. Bold Contrast
-3. Executive Classic
-4. Quiet Luxury
-5. Tech Modern
-6. Brutalist Clean
-7. Swiss Grid
-8. Startup Vibrant
-9. Editorial Magazine
-10. Enterprise Safe
-11. Fintech Sharp
-12. AI Future Clean
-13. Health Trust
-14. Climate Impact
-15. Luxury Black
-16. Soft Startup
-17. High Energy Pitch
-18. Data Dense
-19. Consulting Structured
-20. Anti-AI Aesthetic
-
-### Style Selection Logic
-
-- If brand kit provided → use brand tokens
-- Else → propose 3 style options, require user pick one
-- If user not happy → trigger Inspiration Fallback Engine
-
----
-
-## 9) Inspiration Fallback Engine
-
-### Trigger Phrases
-
-- "too generic"
-- "looks AI"
-- "not my style"
-- "change the vibe"
-
-### Agent Action Sequence
-
-1. Ask user to search for inspiration
-2. Request 3+ references (links, screenshots, or PDFs)
-3. Extract style tokens using the Style Token Extractor Schema
-4. Summarize tokens back to user
-5. Regenerate with strict alignment to tokens
-6. Re-run Anti-AI Style Gate
-
----
-
-## 10) Style Token Extractor Schema v1
-
-> Convert reference links/images/PDFs into actionable design tokens so the agent can replicate the vibe without copying layouts verbatim.
-
-### Input Types
-
-- URL
-- Screenshot image
-- PDF
-
-### Output: `StyleTokens` Object
-
-Usage: Apply tokens to new layout + content; preserve uniqueness.
-
-### Token Structure
-
-**Metadata:**
-- `reference_name` — string
-- `reference_type` — `url` | `image` | `pdf`
-- `confidence_0_to_1` — number
-
-**Palette:**
-- `background_hex`
-- `text_primary_hex`
-- `text_secondary_hex`
-- `accent_hex`
-- `accent_alt_hex` (optional)
-- `gradient_usage`:
-  - `allowed` — boolean
-  - `style` — `none` | `subtle_noise` | `soft_mesh` | `cinematic` | `duotone`
-  - `intensity` — `low` | `medium` | `high`
-
-**Typography:**
-- `headline_family_hint` — `serif` | `sans` | `mono` | `mixed`
-- `body_family_hint` — `serif` | `sans` | `mono`
-- `pairing_notes` — string
-- Headline scale:
-  - `size_class` — `oversized` | `large` | `medium`
-  - `weight_class` — `light` | `regular` | `semibold` | `bold`
-  - `letter_spacing` — `tight` | `normal` | `loose`
-- Body scale:
-  - `size_px_range` — string
-  - `line_height_range` — string
-- Case system:
-  - `use_small_caps` — boolean
-  - `uppercase_labels` — boolean
-
-**Layout:**
-- `grid_style` — `swiss` | `editorial_asymmetric` | `modular_cards` | `full_bleed_sections`
-- `column_count_hint` — `8` | `12` | `16`
-- Section rhythm:
-  - `spacing` — `airy` | `balanced` | `tight`
-  - `divider_lines` — `none` | `thin_rules` | `thick_rules`
-- `hero_pattern` — `headline_only` | `headline_plus_capsules` | `headline_plus_full_bleed` | `headline_overlay`
-- `image_treatment` — `full_bleed` | `framed` | `capsule_mask` | `rounded_rect` | `collage`
-- `signature_detail` — `divider_rules` | `capsule_images` | `oversized_numbers` | `label_pills` | `corner_badges` | `subtle_texture`
-
-**Components:**
-- `button_style` — `outline` | `solid` | `pill` | `underline_link`
-- `card_style` — `none` | `minimal_border` | `soft_shadow_rare` | `thick_border`
-- Badges: `used` (boolean), `shape` (`pill` | `rectangle` | `none`)
-- Tables: `used` (boolean), `style` (`grid_table` | `minimal_rows` | `none`)
-
-**Motion:**
-- `intensity` — `subtle` | `medium` | `bold`
-- `primary_triggers` — `scroll` | `load` | `hover`
-- Allowed patterns: `stagger_reveal`, `clip_mask_reveal`, `parallax`, `pin_section`, `line_draw`, `countup`
-- Forbidden patterns: `over_spin`, `bounce_everything`, `chaotic_random`
-- `easing_family_hint` — `smooth` | `springy` | `linear` | `cinematic`
-
-**Do not copy rule:**
-> Do not replicate exact layout. Use tokens to match vibe and rhythm.
-
----
-
-## 11) Motion Scene Library v1 (Scenes 01–10)
-
-Reusable GSAP + ScrollTrigger scene recipes. Each scene has selectors, trigger, timeline pattern, durations, and fallback for reduced motion.
-
-### SCENE_01 — Stagger Reveal
-
-- **Use for:** headlines, bullet lists, service grids
-- **Selectors:** `.reveal-stagger > *` / trigger: `.section`
-- **Initial:** `{ opacity: 0, y: 16 }`
-- **Animate:** `{ opacity: 1, y: 0, stagger: 0.06, duration: 0.7 }`
-- **ScrollTrigger:** start `top 80%`, end `top 40%`, scrub: false
-- **Reduced motion:** set opacity 1, no transform
-
-### SCENE_02 — Line Draw
-
-- **Use for:** divider rules, underlines, section separators
-- **Selectors:** `.rule-line` / trigger: `.section`
-- **Initial:** `{ scaleX: 0, transformOrigin: "left center" }`
-- **Animate:** `{ scaleX: 1, duration: 0.8 }`
-- **ScrollTrigger:** start `top 85%`, scrub: false
-- **Reduced motion:** show line static
-
-### SCENE_03 — Clip Mask Reveal
-
-- **Use for:** images, hero capsules, framed photos
-- **Selectors:** `.mask-reveal` / trigger: `.section`
-- **Initial:** `{ clipPath: "inset(0 0 100% 0)" }`
-- **Animate:** `{ clipPath: "inset(0 0 0% 0)", duration: 0.9 }`
-- **ScrollTrigger:** start `top 75%`, scrub: false
-- **Reduced motion:** fade in only
-
-### SCENE_04 — Scale Soft
-
-- **Use for:** hero imagery, portraits
-- **Selectors:** `.scale-soft` / trigger: `.section`
-- **Initial:** `{ scale: 1.05, opacity: 0 }`
-- **Animate:** `{ scale: 1.0, opacity: 1, duration: 0.9 }`
-- **ScrollTrigger:** start `top 80%`, scrub: false
-- **Reduced motion:** fade in only
-
-### SCENE_05 — Parallax Soft
-
-- **Use for:** background images, subtle depth
-- **Selectors:** `.parallax` / trigger: `.section`
-- **Animate:** `{ y: -40, ease: "none" }`
-- **ScrollTrigger:** start `top bottom`, end `bottom top`, scrub: true
-- **Reduced motion:** disable parallax
-
-### SCENE_06 — Pin Statement
-
-- **Use for:** big statement blocks, offers, slogans
-- **Selectors:** trigger + pin: `.pin-section`
-- **Behavior:** pin: true, add spacing, optional text stagger
-- **ScrollTrigger:** start `top top`, end `+=60%`, scrub: true
-- **Reduced motion:** disable pin
-
-### SCENE_07 — Hero Enter Sequence
-
-- **Use for:** hero headline + capsules + subline
-- **Selectors:** `.hero-title`, `.hero-sub`, `.hero-media`
-- **Timeline:**
-  1. Headline: `{ opacity: 1, y: 0, duration: 0.8 }`
-  2. Subhead: `{ opacity: 1, y: 0, duration: 0.5 }`
-  3. Media: `{ opacity: 1, y: 0, duration: 0.8, stagger: 0.08 }`
-- **ScrollTrigger:** start `top 90%`, scrub: false
-- **Reduced motion:** fade in all
-
-### SCENE_08 — Card Rise Grid
-
-- **Use for:** service grids, feature tiles, logo grids
-- **Selectors:** `.grid-rise > *` / trigger: `.grid-rise`
-- **Initial:** `{ opacity: 0, y: 18 }`
-- **Animate:** `{ opacity: 1, y: 0, stagger: 0.08, duration: 0.6 }`
-- **ScrollTrigger:** start `top 85%`, scrub: false
-- **Reduced motion:** show static
-
-### SCENE_09 — KPI Countup
-
-- **Use for:** metrics tiles
-- **Selectors:** `.kpi` / trigger: `.kpi-row`
-- **Countup:** from `0` to `data-value`, duration `1.2`, ease `power2.out`
-- **ScrollTrigger:** start `top 80%`, scrub: false
-- **Reduced motion:** show final values
-
-### SCENE_10 — Fade Section Wipe
-
-- **Use for:** chapter transitions
-- **Selectors:** `.section`
-- **Animate:** `{ opacity: [0.0, 1.0], duration: 0.6 }`
-- **ScrollTrigger:** start `top 85%`, scrub: false
-- **Reduced motion:** no-op
-
----
-
-## 12) Motion Scene Library v2 (Scenes 11–20)
-
-### SCENE_11 — Page Pin Timeline
-
-- **Use for:** Canva doc pages, chapters
-- **Pattern:** pin page; scrub timeline; animate elements sequentially
-- **ScrollTrigger:** pin: true, scrub: true, start `top top`, end `+=140%`
-- **Timeline blocks:** intro (fade+lift headline) → media (mask reveal) → details (stagger in) → outro (fade subtle)
-- **Reduced motion:** no pin; simple fades
-
-### SCENE_12 — Chapter Snap
-
-- **Use for:** page-to-page transitions
-- **Pattern:** snap scroll to nearest chapter
-- **Implementation:** ScrollTrigger + scroll snapping container
-- **Reduced motion:** disable snap
-
-### SCENE_13 — Section Pin Cardstack
-
-- **Use for:** services grid, offer blocks
-- **Pattern:** pin; cards rise one-by-one (stack feel)
-- **ScrollTrigger:** pin: true, scrub: true, end `+=120%`
-
-### SCENE_14 — Type Rhythm Wipe
-
-- **Use for:** big editorial headings
-- **Pattern:** letters/words reveal via clip or y-stagger
-- **Caution:** keep subtle; avoid flashy kinetic type
-
-### SCENE_15 — Image Capsule Morph
-
-- **Use for:** capsule images (Canva-style)
-- **Pattern:** `clipPath inset` → rounded capsule → settle
-- **Reduced motion:** static capsule + fade
-
-### SCENE_16 — BG Gradient Drift
-
-- **Use for:** atmospheric pages
-- **Pattern:** very subtle background gradient drift during pin
-- **Performance:** no heavy filters; transform only
-
-### SCENE_17 — Logo Strip Marquee (Subtle)
-
-- **Use for:** client logos
-- **Pattern:** slow horizontal drift while pinned (optional)
-- **Reduced motion:** static grid
-
-### SCENE_18 — KPI Callout Pop
-
-- **Use for:** metrics
-- **Pattern:** countup + pill highlight slide-in
-- **Reduced motion:** no countup
-
-### SCENE_19 — Divider Rule Build
-
-- **Use for:** editorial rules
-- **Pattern:** horizontal/vertical rule draws during scroll
-
-### SCENE_20 — Endcap CTA Lock-in
-
-- **Use for:** final CTA
-- **Pattern:** pin CTA briefly; simplify choices; strong single action
-- **ScrollTrigger:** pin: true, scrub: true, end `+=90%`
-
----
-
-## 13) Presets
-
-### Sales Closing (Opinionated)
-
-- **Use case:** sales
-- **Objective:** book demo
-- **Framework:** Pain → Agitate → Solve → Prove → Act
-- **Required:** 3–5 benefits, 3 objections handled, 2+ proof types
-- **CTA examples:** "Book a 15-minute demo", "Schedule a strategy call"
-- **Forbid:** technical rabbit holes, long paragraphs, generic CTA
-
-### Investor Teaser (Meeting)
-
-- **Use case:** investor
-- **Objective:** secure meeting
-- **Required:** one-liner, market size, traction KPIs, team, ask amount only
-- **Forbid:** financing terms, exit scenarios, deep unit economics
-
----
-
-## 14) Output Contract
-
-Every final output must include:
-
-- `format_chosen` — static or motion
-- `output_stack_chosen` — html_no_js or gsap_scrolltrigger
-- `chosen_style_preset`
-- `style_tokens_if_references_provided` — yes if references were given
-- `motion_scenes_selected` — if motion format
-- `page_fit_status` — if static format
-- `responsive_report` (motion only):
-  - Breakpoints used
-  - Layout switches applied
-  - Motion degradation applied
-  - Reduced motion support
-- `final_output`:
-  - Static → HTML (print-safe)
-  - Motion → HTML (scroll page)
-```
-
----
-
-## 68. Landing Page / Local Small Business
+## 65. Landing Page / Local Small Business
 `Landing Pages` · `General` · 5 copies · [try live](https://superdesign.dev/library/landing-page-local-small-business?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Best practice high conversion page for local small business like Service, Restaurant, etc.
@@ -10434,248 +9425,7 @@ Generate the landing page now.
 
 ---
 
-## 69. Mobile App / App Store Preview
-`E-commerce` · `E-commerce & Retail` · 3 copies · [try live](https://superdesign.dev/library/mobile-app-app-store-preview?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Design your app store/Google Play store preview images to demonstrate your app
-
-```text
-name: app-store-preview-os
-description: >
-  Generate App Store and Google Play compliant preview screenshots
-  optimized for conversion, policy safety, and cross-platform reuse.
-  Produces iOS and/or Android variants with A/B testing options.
-
-identity:
-  role: Senior App Store Marketing Designer + Store Compliance Strategist
-  goal: >
-    Create high-conversion, store-compliant preview screenshots
-    that communicate one core benefit per frame,
-    respect safe zones, and scale across device groups.
-
-modes:
-  - ios_only
-  - android_only
-  - cross_platform
-
-input_requirements:
-
-  app_context:
-    - app_name
-    - core_promise_one_sentence
-    - top_5_features
-    - target_audience
-    - emotional_tone
-    - primary_conversion_goal
-
-  platform_scope:
-    - ios
-    - android
-    - ipad_supported
-
-  device_groups_ios:
-    - 6_9_display (1320x2868 portrait)
-    - 6_5_display (fallback required if no 6.9)
-    - ipad_13 (2064x2752)
-
-  branding:
-    - logo_svg
-    - primary_hex
-    - secondary_hex
-    - background_style
-    - typography_system
-
-  ui_assets:
-    required: true
-    ask_user_for:
-      - high_resolution_raw_screenshots
-      - clean_status_bar_version
-      - no_notifications
-      - full_battery_wifi_icons
-    note: >
-      Real UI required to avoid policy rejection.
-      Marketing mock UI not allowed.
-
-  localization:
-    - target_languages
-    - headline_localization_required
-
-platform_rules:
-
-  ios:
-    file_format: jpeg_jpg_png
-    screenshots_allowed: 1-10
-    first_assets_may_appear_in_search: true
-    overlay_must_not_obscure_ui: true
-    highest_resolution_auto_scaling: true
-
-  android:
-    max_screenshots_per_device_type: 8
-    minimum_required_across_types: 2
-    file_format: jpeg_or_24bit_png_no_alpha
-    min_dimension: 320px
-    max_dimension: 3840px
-    max_dimension_ratio: 2
-    max_overlay_area_percent: 20
-    avoid_calls_to_action: true
-    avoid_ranking_claims: true
-    avoid_pricing_claims: true
-    require_alt_text: true
-    device_frame_caution: true
-
-layout_engine:
-
-  safe_zones:
-    ios_top_margin_percent: 12
-    ios_bottom_margin_percent: 15
-    central_text_priority: true
-    android_scaling_centered: true
-
-  composition_rules:
-    - one_benefit_per_frame
-    - headline_max_6_words
-    - ui_visible_minimum_percent: 60
-    - typography_high_contrast
-    - no_text_overload
-    - avoid_small_text
-    - background_supports_not_dominates
-
-  layering_depth_levels: 3
-  grid_system: 8pt
-  consistent_across_set: true
-
-cross_platform_variant_strategy:
-
-  ios_variant:
-    allow_device_frame: true
-    bold_background: true
-    large_typography: true
-
-  android_variant:
-    device_frame_minimized: true
-    ui_forward_full_bleed: true
-    overlay_restrained: true
-
-storyboard_structure:
-
-  frame_1:
-    purpose: communicate_core_essence
-  frame_2:
-    purpose: primary_experience
-  frame_3:
-    purpose: strongest_differentiator
-  frame_4:
-    purpose: proof_or_social_validation
-  frame_5:
-    purpose: secondary_capability
-
-ab_testing:
-
-  enable: true
-  variants:
-    - outcome_focused_headline
-    - feature_focused_headline
-    - warm_background
-    - cool_background
-    - with_device_frame
-    - ui_only_variant
-
-compliance_guardrails:
-
-  disallow:
-    - number_one_claims
-    - best_app_claims
-    - download_now_cta
-    - pricing_promotions
-    - fake_ratings
-    - third_party_platform_logos
-    - misleading_features
-    - real_user_private_data
-
-  warn_if:
-    - overlay_obscures_ui
-    - text_exceeds_20_percent_android
-    - text_too_small_for_scaling
-    - too_many_words
-
-accessibility:
-
-  android_alt_text:
-    max_characters: 140
-    no_image_of_prefix: true
-
-export_pack:
-
-  ios_highest_resolution_only: true
-  android_phone
-  android_tablet
-  localization_variants
-  ab_variant_sets
-
-output_format:
-  - production_ready_png
-  - alt_text_document
-  - storyboard_summary
-  - compliance_checklist
-
-
-style_presets:
-
-  1_minimal_apple:
-    background: soft_neutral
-    typography: bold_sans
-    ui: centered_large
-    device_frame: optional
-
-  2_bold_color_block:
-    background: solid_brand_color
-    typography: ultra_large
-    ui: floating_card
-    energy: high
-
-  3_gradient_immersive:
-    background: vertical_gradient
-    typography: large_white
-    ui: depth_shadow
-
-  4_ui_full_bleed:
-    background: none
-    ui: full_screen
-    overlay: minimal
-
-  5_split_layout:
-    top_half: headline
-    bottom_half: ui
-    strong_division: true
-
-  6_dark_mode_immersive:
-    background: deep_black
-    glow_effects: subtle
-    ui: bright_focus
-
-  7_soft_lifestyle:
-    background: light_pastel
-    ui: rounded_card
-    emotional_tone: friendly
-
-  8_enterprise_clean:
-    background: white_or_light_gray
-    typography: restrained
-    ui: crisp_shadow
-
-  9_feature_zoom:
-    background: blurred_ui
-    foreground: zoomed_feature_highlight
-
-  10_collage_motion_ready:
-    background: layered_cards
-    multi_ui_elements: arranged_depth
-    motion_ready: true
-```
-
----
-
-## 70. ATELIER — Mono Uppercase Fashion (legibility-fixed)
+## 66. ATELIER — Mono Uppercase Fashion (legibility-fixed)
 `E-commerce` · `Fashion & Beauty` · 0 copies · [try live](https://superdesign.dev/library/atelier-mono-uppercase-fashion-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A stark monochrome high-fashion editorial navbar (Toteme-style): a sticky frosted-white bar that packs three zones at once: uppercase wide-tracked text links pinned left (New / Library / Studio / About), an absolutely-centered Archivo Expanded 'ATELIER' wordmark in the dead center, and a right cluster of two more uppercase links (Search, Account) plus a Phosphor handbag icon with a '(0)' bag count. Pure black ink (#0a0a0a) on white (#ffffff) over a single hairline border, with a 1px underline that wipes in under each link on a long couture ease. Below lg the left links collapse into a hamburger drawer while the wordmark stays centered, and the legibility fix keeps the wordmark's 0.34em letter-spacing at every breakpoint.
@@ -10686,7 +9436,7 @@ A stark monochrome high-fashion editorial navbar (Toteme-style): a sticky froste
 
 ---
 
-## 71. Palette — Social-first friendly sign-up
+## 67. Palette — Social-first friendly sign-up
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/palette-social-first-friendly-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm, social-first sign-up screen on a cream canvas: a two-column hero+signup landing with a friendly product pitch on the left (hand-drawn underline, teal-check benefits, a 5-star social-proof cluster) and a white rounded card on the right that leads with three full-width stacked social-auth buttons (Google, GitHub, Apple) above an 'or sign up with email' divider and a single email field with a coral 'Create account' CTA. Coral + teal accents, Poppins, a sticky blurred nav, a logo marquee, a three-step how-it-works, and a dark gradient CTA band.
@@ -10697,7 +9447,7 @@ A warm, social-first sign-up screen on a cream canvas: a two-column hero+signup 
 
 ---
 
-## 72. Super Shampoo - High Conversion LP
+## 68. Super Shampoo - High Conversion LP
 `E-commerce` · `E-commerce & Retail` · 194 copies · [try live](https://superdesign.dev/library/super-shampoo-high-conversion-lp?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A premium, high-conversion e-commerce style guide optimized for D2C beauty and wellness brands. Features a sophisticated 'clinical luxury' aesthetic with a palette of sage green (#E2E8E4), off-white beige (#F5F5F0), and deep charcoal (#1C1C1C). The typography balances bold 'General Sans' headings with clean 'Switzer' body text. Includes specialized conversion elements like scarcity-driven promo bars, trust badge grids, comparison tables, and a sticky mobile 'Add to Cart' bar. Ideal for skincare, haircare, or luxury lifestyle products requiring a mix of editorial imagery and performance-driven UI.
@@ -10768,7 +9518,7 @@ A premium, high-conversion e-commerce style guide optimized for D2C beauty and w
 
 ---
 
-## 73. Slate ROI-Calculator Pricing
+## 69. Slate ROI-Calculator Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/slate-roi-calculator-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A frameless dark SaaS pricing page in inky slate with one electric mint accent: an interactive ROI savings calculator, a 4-tier plan grid with a highlighted Pro card and monthly/annual toggle, a comparison table, and an accordion FAQ.
@@ -10779,7 +9529,7 @@ A frameless dark SaaS pricing page in inky slate with one electric mint accent: 
 
 ---
 
-## 74. The Quote, Set in Burgundy
+## 70. The Quote, Set in Burgundy
 `Blog & Editorial` · `General` · 0 copies · [try live](https://superdesign.dev/library/the-quote-set-in-burgundy?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A magazine-style single-slide testimonial on a warm cream canvas: one oversized Fraunces serif pull-quote with burgundy italic emphasis, a ghosted giant quote mark, an avatar trust cluster, a portrait byline, and prev/next carousel chrome with progress dots.
@@ -10790,7 +9540,7 @@ A magazine-style single-slide testimonial on a warm cream canvas: one oversized 
 
 ---
 
-## 75. Prism — Frosted-Glass Pastel Agency Studio
+## 71. Prism — Frosted-Glass Pastel Agency Studio
 `Portfolios` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/prism-frosted-glass-pastel-agency-studio?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light, frosted-glass pastel agency studio homepage on a soft mesh-gradient canvas (off-white #fbfcff washed with peach #ffd8c2, sky #cfe3ff, and mint #d3f5e3 radial blooms): a floating pill-shaped glass sticky nav, a centered black-on-pastel hero (huge Inter-black headline, glass pill badges, a dark pill CTA + a glass 'See the work' pill) over fanned, overlapping translucent glass UI cards, a faded trust logo strip, a frosted bento work grid with one dark stat card (+240%), a big glass services panel with a dark featured 'Most loved' card, a three-up testimonial row with a dark feature quote, a frosted closing CTA, and a clean glass-divided footer. Award-winning soft-pastel glassmorphism with near-black #15161b ink.
@@ -10801,7 +9551,7 @@ A light, frosted-glass pastel agency studio homepage on a soft mesh-gradient can
 
 ---
 
-## 76. Teal-on-Ink Newsletter Mega Footer
+## 72. Teal-on-Ink Newsletter Mega Footer
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/teal-on-ink-newsletter-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark near-black footer with a teal accent, prominent newsletter capture, three link columns, social row, status pill and language switch, fully responsive.
@@ -10812,7 +9562,7 @@ A dark near-black footer with a teal accent, prominent newsletter capture, three
 
 ---
 
-## 77. Gesture First Navigation System
+## 73. Gesture First Navigation System
 `Mobile Apps` · `General` · 3 copies · [try live](https://superdesign.dev/library/gesture-first-navigation-system?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A content-first navigation system that minimizes visible chrome and relies primarily on swipe gestures to move between major sections, creating an immersive and fluid experience.
@@ -11287,7 +10037,7 @@ Here is a reference implementation:
 
 ---
 
-## 78. Interactive Multi-Step Onboarding Flow
+## 74. Interactive Multi-Step Onboarding Flow
 `Onboarding` · `General` · 16 copies · [try live](https://superdesign.dev/library/interactive-multi-step-onboarding-flow?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A minimalist, high-end multi-step onboarding flow designed for mobile-first SaaS and lifestyle applications. Characterized by a sophisticated Slate-based color palette (#0F172A), premium typography using the Switzer typeface, and fluid horizontal sliding transitions. Key features include a bento-grid interest selector, animated toggle switches, and a persistent progress-tracking header. Suitable for fintech, creative portfolios, productivity tools, and modern web platforms requiring a seamless user registration experience.
@@ -11342,7 +10092,7 @@ A minimalist, high-end multi-step onboarding flow designed for mobile-first SaaS
 
 ---
 
-## 79. Editorial Cream + Ink Two-Path SaaS Pricing
+## 75. Editorial Cream + Ink Two-Path SaaS Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-cream-ink-two-path-saas-pricing-3dee65?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm editorial SaaS pricing page on a cream canvas: a serif headline with an electric-blue italic accent, two self-serve plan cards (one highlighted) beside a dark near-black Enterprise contact-sales panel with gold accents, plus a monthly/annual toggle.
@@ -11353,7 +10103,7 @@ A warm editorial SaaS pricing page on a cream canvas: a serif headline with an e
 
 ---
 
-## 80. Electric-Lime Single-Plan SaaS Pricing
+## 76. Electric-Lime Single-Plan SaaS Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/electric-lime-single-plan-saas-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A bold editorial single-plan pricing page with a giant toggling price card, a tilted sky-blue feature card, and one electric-lime accent on warm paper inside a charcoal frame.
@@ -11364,7 +10114,7 @@ A bold editorial single-plan pricing page with a giant toggling price card, a ti
 
 ---
 
-## 81. Electric-Blue Studio Pricing
+## 77. Electric-Blue Studio Pricing
 `Pricing Pages` · `Dev Tools` · 1 copies · [try live](https://superdesign.dev/library/electric-blue-studio-pricing-188a8f?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A frameless, near-black dev-tool SaaS pricing page with one electric-blue accent, oversized outlined-type headline, and a single-plan card (monthly/annual toggle + optional power-up add-ons) instead of a tier wall.
@@ -11375,7 +10125,7 @@ A frameless, near-black dev-tool SaaS pricing page with one electric-blue accent
 
 ---
 
-## 82. Account Setup Flow — Goals / Interests (Card-Based)
+## 78. Account Setup Flow — Goals / Interests (Card-Based)
 `Mobile Apps` · `General` · 14 copies · [try live](https://superdesign.dev/library/account-setup-flow-goals-interests-card-based?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A sleek, minimalist, and highly interactive 4-step onboarding flow designed for mobile-first experiences. Features high-contrast black and white aesthetics, modern typography using General Sans, and fluid motion using the View Transitions API. Ideal for SaaS, fintech, or lifestyle apps needing a premium, frictionless user registration or configuration sequence. Key elements include a persistent progress bar, springy micro-interactions, and clear, bold editorial typography.
@@ -11426,7 +10176,7 @@ A sleek, minimalist, and highly interactive 4-step onboarding flow designed for 
 
 ---
 
-## 83. Sectioned Index Page
+## 79. Sectioned Index Page
 `Mobile Apps` · `General` · 13 copies · [try live](https://superdesign.dev/library/sectioned-index-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Features a mixed-media layout including horizontal snap-scrolling cards, vertical activity feeds, and a bento-style recommendation grid. Ideal for content aggregators, interior design apps, portfolio indexes, or minimalist fintech dashboards.
@@ -11480,7 +10230,7 @@ Features a mixed-media layout including horizontal snap-scrolling cards, vertica
 
 ---
 
-## 84. Electric Dark Usage-Based Pricing Calculator
+## 80. Electric Dark Usage-Based Pricing Calculator
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/electric-dark-usage-based-pricing-calculator-20e556?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An electric dark dev-tool pricing page built around an interactive slider calculator that live-computes included quota plus tiered pay-as-you-go overage, with a lime accent, a highlighted plan card row, and an FAQ accordion.
@@ -11491,7 +10241,7 @@ An electric dark dev-tool pricing page built around an interactive slider calcul
 
 ---
 
-## 85. Side drawer navigation
+## 81. Side drawer navigation
 `Mobile Apps` · `General` · 4 copies · [try live](https://superdesign.dev/library/side-drawer-navigation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A side drawer navigation system that keeps the primary screen visually clean while housing a large number of global destinations and utilities in an off-canvas panel.
@@ -11782,7 +10532,7 @@ Here is a reference implementation:
 
 ---
 
-## 86. Emerald 4-Tier SaaS Pricing Table
+## 82. Emerald 4-Tier SaaS Pricing Table
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/emerald-4-tier-saas-pricing-table?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light-mode emerald-accented SaaS pricing page with a Monthly/Annual toggle and four tiers fused into one bordered table, the Pro column lifted and ring-highlighted as 'Most popular'.
@@ -11793,7 +10543,7 @@ A light-mode emerald-accented SaaS pricing page with a Monthly/Annual toggle and
 
 ---
 
-## 87. Apple-inspired Waitlist
+## 83. Apple-inspired Waitlist
 `Waitlist & Coming Soon` · `General` · 16 copies · [try live](https://superdesign.dev/library/apple-inspired-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A refined, premium waitlist page design system inspired by Apple's minimalist aesthetic. It features a sophisticated muted blue-gray accent (#4F6BA6) on a light grey background (#FAFAFA). Key elements include editorial typography with tight line heights, slow-motion scroll animations (1.5s), layered soft shadows, and subtle gradient dividers. Ideal for high-end SaaS, design tools, fintech, and professional services looking for a 'quiet luxury' digital presence.
@@ -11852,71 +10602,7 @@ A refined, premium waitlist page design system inspired by Apple's minimalist ae
 
 ---
 
-## 88. Analytics dashboard
-`Dashboards` · `General` · 85 copies · [try live](https://superdesign.dev/library/analytics-dashboard?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Professional SaaS analytics dashboard design featuring a clean, enterprise-grade aesthetic. Utilizing a refined blue brand palette (#3B82F6), high-contrast gray scales, and dual-font pairing (Inter for UI, JetBrains Mono for data logs). The layout employs a classic sidebar-and-main-content structure with bento-style metric cards, interactive grouped bar charts, and technical event streams. Ideal for fintech, developer tools, cloud infrastructure monitoring, and complex data-driven enterprise platforms.
-
-```text
-{
-  "summary": "A modern, high-density analytics dashboard for enterprise SaaS platforms. It emphasizes clarity through a light-themed interface with subtle borders, soft shadows, and a strong hierarchical structure using a sophisticated blue-based color system and professional typography.",
-  "style": {
-    "description": "The style is 'Modern Professional Enterprise'. It uses a light gray background (#F8F9FA) to make white cards (#FFFFFF) pop. Typography pairs Inter (Sans) for UI controls with JetBrains Mono (Monospace) for technical logs. Key colors include Brand Blue (#3B82F6), Success Green (#22C55E), and Warning Amber (#F59E0B). UI elements feature 8px corner radii, 1px borders (#E9ECEF), and soft 'card' shadows (0 1px 3px 0 rgba(0,0,0,0.1)).",
-    "prompt": "Create a professional SaaS dashboard style. \n\n**Colors:** \n- Background: #F8F9FA\n- Surface/Cards: #FFFFFF\n- Primary: #3B82F6 (Hover: #2563EB)\n- Text: #212529 (Secondary: #868E96)\n- Border: #E9ECEF\n- Status: Success (#10B981), Warning (#F59E0B), Danger (#EF4444)\n\n**Typography:**\n- UI Font: 'Inter', sans-serif; weights 400 (regular), 500 (medium), 600 (semibold).\n- Data/Log Font: 'JetBrains Mono', monospace; weight 400.\n- Headings: 14px Semibold tracking-tight.\n- Body: 13px Regular.\n- Technical Logs: 12px Mono.\n\n**Effects:**\n- Border Radius: 8px (standard), 6px (buttons/inputs).\n- Shadows: 'card' (0 1px 3px rgba(0,0,0,0.1)), 'input' (0 1px 2px rgba(0,0,0,0.05)).\n- Transitions: 200ms ease-in-out for hover states.\n- Chart Grids: Dash-array 4, Color #E9ECEF."
-  },
-  "layout_and_structure": {
-    "description": "A responsive two-column layout with a fixed-width left sidebar (256px) and a fluid main content area. Content is structured into a global header, high-level metrics grid, split chart/panel area, and a data table/event stream footer.",
-    "prompts": [
-      {
-        "part": "Sidebar Navigation",
-        "prompt": "Left sidebar (width: 256px), white background, right-border (#E9ECEF). Top section includes a brand logo (32x32px rounded-lg brand blue) and navigation links. Active link: #3B82F6 text on #EFF6FF background. Footer section includes a user profile card with an avatar, name, and role."
-      },
-      {
-        "part": "Global Header",
-        "prompt": "Horizontal header with a workspace selector (styled dropdown), an 'Operational' status badge (green pill), and a time-range toggle (1D, 7D, 30D, All) styled as a segmented control. Action buttons for 'Filter' and 'Export' with 1px gray borders and icons."
-      },
-      {
-        "part": "Metrics Grid",
-        "prompt": "A 4-column grid of cards. Each card contains: a title in uppercase 10px bold gray text, a primary metric (30px semibold), a trend indicator (e.g., +12%), and a mini-sparkline or progress bar. Sparklines use #3B82F6 with a stroke-width of 2."
-      },
-      {
-        "part": "Analytics Section",
-        "prompt": "A two-column layout (2/3 width chart, 1/3 width side panels). The chart is a 'Grouped Bar Chart' with vertical bars (width: 12px, radius: 2px) comparing API calls (Gray) and Generations (Blue). The right column contains a 'System Alerts' feed and a 'Component Reuse' Donut Chart."
-      },
-      {
-        "part": "Projects Table",
-        "prompt": "A full-width data table inside a white card. Headers: 12px uppercase gray text. Rows feature project name with sub-text metadata, a status badge (pill style), and a progress-bar based 'Efficiency' score. Hover state: Light gray background shift."
-      },
-      {
-        "part": "Event Stream Log",
-        "prompt": "A code-inspired technical log. Monospace font, light gray background (#F8F9FA), vertical alignment of columns (Timestamp, Method, Path, Request ID). Uses brand blue for successful methods (POST/GET) and red for errors."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Grouped Bar Chart",
-      "description": "Double-column vertical bar chart for comparison",
-      "prompt": "Render an SVG grouped bar chart. Each group contains two vertical bars: Left bar (API Calls) #E5E7EB, Right bar (Generations) #3B82F6. Bar width: 12px. Corner radius: 2px on top only. Hover effect: Increase color saturation. Background: Dashed horizontal grid lines #E9ECEF."
-    },
-    {
-      "component": "Analytics Donut Chart",
-      "description": "Minimalist donut chart with centered summary",
-      "prompt": "A circular donut chart with a stroke width of 12px. Background track: #F1F3F5. Active segment: #3B82F6. Center text: Large bold percentage (e.g., 72%) with a sub-label (SYSTEM) in 10px uppercase gray."
-    },
-    {
-      "component": "Segmented Control",
-      "description": "Time range selection toggle",
-      "prompt": "A container with 1px border #D1D5DB, padding 2px. Buttons inside have no border. The 'active' button has a light gray background #F1F3F5 and a subtle shadow. Non-active buttons have gray text #6B7280 and hover-transition to #111827."
-    }
-  ],
-  "special_notes": "Must maintain consistent spacing (24px gutter between cards). Must use Lucide-style line icons. Must ensure charts have a 'dashed line' background grid at regular Y-intervals. Do not use overly rounded 'pill' corners for cards—keep them at 8px for a professional feel."
-}
-```
-
----
-
-## 89. Specs-First Breakdown Product Page
+## 84. Specs-First Breakdown Product Page
 `E-commerce` · `E-commerce & Retail` · 9 copies · [try live](https://superdesign.dev/library/specs-first-breakdown-product-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Information-dense layout with a prominent specification table beneath the primary product info. Prioritizes structured data, clarity, and comparison readiness.
@@ -11974,7 +10660,7 @@ Electronics, hardware, supplements, tools, B2B products, technically informed bu
 
 ---
 
-## 90. The Atelier Brief — an editorial intake form, set like a letter
+## 85. The Atelier Brief — an editorial intake form, set like a letter
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/the-atelier-brief-an-editorial-intake-form-set-like-a-letter?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial intake form set like a letter: a warm cream page in Fraunces serif + Inter with a single burgundy accent, borderless underline inputs with serif labels (Name / E-mail, Project / Budget, Message), structured by full-bleed cream/ink/cream bands and hairline rules instead of cards, and a quiet ink 'Submit the brief' button.
@@ -11985,744 +10671,7 @@ An editorial intake form set like a letter: a warm cream page in Fraunces serif 
 
 ---
 
-## 91. Web App / Onboarding
-`Onboarding` · `General` · 15 copies · [try live](https://superdesign.dev/library/web-app-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Design onboarding for your application
-
-```text
-# Onboarding Web App Experiences — Skill Reference
-
-## 0. About This Document
-
-**What it is:** The definitive reference for building onboarding flows for any web application. It covers principles, patterns, copy guidance, branding, industry adaptations, and measurement.
-
-**Who it's for:** Designers, developers, product managers, and AI coding agents generating onboarding experiences.
-
-**How to use it:**
-- When starting a new onboarding project, read Sections 1–6 for foundations and discovery.
-- Reference Section 7 (Flow Anatomy) as your build sequence.
-- Use Section 8 for industry-specific customization.
-- Consult Section 14 (Checklist) as a pre-ship gate.
-- When prompting an AI agent, pass relevant sections as context — they're written to be consumed programmatically.
-
----
-
-## 1. Core Philosophy
-
-Onboarding exists to collapse the distance between "I just landed here" and "I get why this is valuable to me." Every decision in the flow should be evaluated against that single goal.
-
-- **User-centric, not feature-centric.** Guide users toward *their* outcome, not a product tour.
-- **Respect time and autonomy.** Every mandatory step must justify its existence. Everything else is skippable.
-- **Design backward.** Define the "aha" moment first, then reverse-engineer the minimal path to reach it.
-
----
-
-## 2. Key Principles
-
-### 2.1 Personalization
-- Ask 1–3 targeted questions early (role, goal, team size, use case) to segment and tailor.
-- Create a "this was made for me" feeling — customized dashboards, pre-filled templates, relevant empty states.
-- Use answers to gate complexity: beginners see simplified flows, power users skip basics.
-
-### 2.2 Progressive Disclosure
-- Reveal information just-in-time, triggered by user actions — not upfront.
-- Layer depth: surface essentials first, unlock advanced features as users demonstrate readiness.
-- Contextual tooltips, coach marks, and inline hints beat modal tutorials.
-
-### 2.3 Simplicity & Friction Reduction
-- Target 3–7 essential steps to reach activation. Fewer is better.
-- One focus per screen. Never ask the user to make multiple unrelated decisions at once.
-- Offer social SSO / magic links — minimize form fields.
-- Always provide skip / "I'll do this later" options for non-critical steps.
-
-### 2.4 Demonstrate Value Before Asking for Commitment
-- Let users *do something meaningful* before requiring signup or payment.
-- Show real output, not promises. Pre-populated data, sample workspaces, or interactive demos.
-- Delay account creation where possible (Duolingo pattern: try → value → signup).
-
-### 2.5 Emotional Engagement
-- Progress bars, checklists, and completion percentages create momentum.
-- Micro-rewards: confetti, badges, celebratory copy on milestones.
-- Animations and transitions should feel responsive and purposeful, not decorative (see Section 3.7 for motion specs).
-
-### 2.6 Contextual & Ongoing Support
-- Onboarding doesn't end after the first session. Use drip emails, in-app nudges, and re-engagement prompts.
-- Provide self-serve help: searchable docs, tooltips, embedded video snippets.
-- Empty states are onboarding surfaces — use them to guide next actions, not show blank screens.
-
----
-
-## 3. Infrastructure & Guardrails
-
-These are non-negotiable foundations that underpin every onboarding flow. They're not "nice to have" — they're launch blockers.
-
-### 3.1 Performance as Onboarding
-- A slow onboarding flow kills trust instantly. Target < 2.5s LCP, < 200ms INP, < 0.1 CLS.
-- Skeleton screens and optimistic UI updates make flows *feel* faster.
-- Lazy-load non-critical assets; prioritize rendering what the user sees first.
-
-### 3.2 Accessibility from Step Zero
-- All onboarding must meet WCAG 2.1 AA minimum: keyboard navigable, screen-reader friendly, sufficient contrast (4.5:1 for body text, 3:1 for large text).
-- Don't rely solely on color, animation, or hover states to convey meaning.
-- All form inputs need visible labels (not just placeholders), proper `aria` attributes, and logical tab order.
-- Test with assistive technologies during prototyping, not after launch.
-- Support `prefers-reduced-motion` (see Section 3.7).
-
-### 3.3 Error Handling & Recovery
-- Inline validation with clear, human-language error messages — not "invalid input."
-- Auto-save progress. If a user refreshes or navigates away, they should resume where they left off.
-- Graceful degradation: if a third-party integration fails (OAuth, data import), provide a manual fallback path.
-- Network interruption: queue actions locally and sync when connectivity resumes, or show a clear "you're offline" state.
-
-### 3.4 Trust & Transparency
-- Explain *why* you're asking for each piece of information ("We ask this to customize your dashboard").
-- Show clear data privacy signals: what you collect, how it's used, and that it can be changed later.
-- In regulated industries, surface compliance steps (KYC, 2FA) with progress estimates so users know what to expect.
-
-### 3.5 Data Privacy & Permissions
-- Cookie consent and tracking disclosures must appear before any analytics fire. Comply with GDPR, CCPA, and local equivalents.
-- Notification opt-ins should be contextual ("Get notified when your team replies") — never a cold system prompt on first load.
-- Personalization survey data is PII-adjacent. Store securely, document retention policy, and allow users to delete it.
-- Marketing opt-ins must be explicit, unchecked by default, and clearly separated from functional consent.
-
-### 3.6 Multi-Device & Session Continuity
-- Onboarding state should persist across devices and sessions via server-side storage. If a user starts on desktop and continues on mobile, the flow picks up where it left off.
-- Deep links from onboarding emails should resume context, not restart the flow.
-- Authentication state must carry through — don't force re-login mid-onboarding.
-
-### 3.7 Animation & Motion
-Motion should communicate, not decorate. Every animation needs a reason: showing progress, confirming action, guiding attention, or easing transitions.
-
-**Specs:**
-- **Duration:** 150–300ms for micro-interactions (button states, toggles), 300–500ms for transitions (page changes, modals), 500–800ms for celebratory moments (confetti, success).
-- **Easing:** Use `ease-out` for entrances, `ease-in` for exits, `ease-in-out` for repositioning. Avoid `linear` for UI motion.
-- **Reduced motion:** Always respect `prefers-reduced-motion: reduce`. Replace animations with instant state changes or simple opacity fades. Never rely on motion alone to convey information.
-- **Performance:** Use `transform` and `opacity` for animations (GPU-accelerated). Avoid animating `width`, `height`, `top`, `left`, or layout-triggering properties.
-
-### 3.8 Localization & Multi-Language Flows
-- Plan for i18n from the start: externalized strings, RTL layout support, locale-aware date/number formats.
-- **Language detection:** Auto-detect from browser `Accept-Language` header, with a visible language selector in the onboarding header/footer for manual override.
-- **Flow logic:** Some personalization questions may not apply in all markets. Use locale-aware branching (e.g., skip "state/province" for countries that don't use them; adjust compliance steps per region).
-- **Copy expansion:** Design layouts with 30–40% text expansion headroom for languages like German or French that run longer than English.
-- Imagery, copy tone, and examples should be culturally neutral or localized per market.
-
-### 3.9 Versioning & Migration
-- **Version tagging:** Every onboarding flow gets a version identifier (e.g., `onboarding_v2.1`). Track which version each user completed.
-- **New users:** Always get the latest version.
-- **Existing users (completed prior version):** Surface a lightweight "What's New" flow for significant changes — a dismissible modal or inline banner, never a forced re-onboarding.
-- **Existing users (mid-flow on old version):** Let them finish the version they started. Migrate them to the new version only on next login if their current state maps cleanly.
-- **Changelog:** Maintain an internal log of what changed between versions and why, tied to the metrics that motivated the change.
-
----
-
-## 4. Copy & Microcopy
-
-Onboarding is 50% writing. Every string the user reads — button labels, headings, progress indicators, error messages, empty states — shapes their experience as much as layout and color.
-
-### 4.1 Voice & Tone Calibration
-- Match the product's overall tone, but onboarding can be slightly warmer and more encouraging than the core app.
-- **Tone spectrum:** Calibrate per step. Early steps (welcome, personalization) are warmer. Functional steps (data import, integration setup) are clearer and more direct. Completion is celebratory.
-- Avoid jargon in early steps. Introduce product-specific terminology gradually, with inline definitions if needed.
-
-### 4.2 Component-Level Copy Guidelines
-
-| Component | Guidelines | Good Example | Bad Example |
-|---|---|---|---|
-| **Headings** | Action-oriented, benefit-focused. 4–8 words. | "Set up your workspace" | "Workspace Configuration Settings" |
-| **Subheadings** | Explain *why* this step matters. 1 sentence. | "This helps us show you relevant templates" | "Please complete the following fields" |
-| **Buttons (Primary)** | Verb + object. Describe what happens next. | "Create my workspace" | "Next" / "Submit" / "Continue" |
-| **Buttons (Secondary)** | Low-pressure, no guilt. | "I'll do this later" | "Skip" (too blunt) / "No thanks" (implies rejection) |
-| **Progress indicators** | Concrete, not abstract. | "Step 2 of 4 — Choose your tools" | "Step 2" |
-| **Tooltips** | One thing, one sentence. No paragraphs. | "Pin items here for quick access" | "This feature allows you to organize your most-used items by pinning them to this section for easy retrieval" |
-| **Error messages** | Say what went wrong + how to fix it. | "That email is already registered — try signing in instead" | "Error: duplicate entry" |
-| **Empty states** | Guide, don't blame. Include CTA. | "No projects yet — create your first one to get started" | "Nothing to show" |
-| **Celebration / completion** | Specific, earned, not generic. | "Your workspace is ready — your first template is waiting inside" | "Congratulations! You've completed onboarding!" |
-| **Placeholder text** | Realistic example data, not instructions. | "e.g., Acme Design Team" | "Enter your team name here" |
-
-### 4.3 Copy Anti-Patterns
-- **"Welcome to [App]!"** as a standalone screen with no action — wastes a step.
-- **"Just one more thing…"** repeatedly — erodes trust. Be honest about how many steps remain.
-- **Passive voice in CTAs** — "Your account will be created" vs. "Create your account."
-- **Guilt-tripping skips** — "No, I don't want to be more productive" is a dark pattern.
-- **Unexplained data collection** — Every field without context ("Why do you need this?") increases drop-off.
-
----
-
-## 5. Branding & Visual Identity Collection
-
-Every onboarding experience must look and feel like the product it belongs to. Branding is **Step 0** — resolve it before generating any screens.
-
-### 5.1 Input Paths (in priority order)
-
-**Path A — Full Brand Kit Upload**
-The ideal scenario. Ask for:
-- **Logo** — Primary logo (SVG preferred), logomark/icon variant, light + dark versions
-- **Colors** — Primary, secondary, accent, neutral palette. Include semantic tokens: success, warning, error, info
-- **Typography** — Heading and body font families, weight scale, size scale (or a type ramp)
-- **Icons** — Icon set or library preference (e.g., Lucide, Phosphor, custom)
-- **Imagery style** — Photography vs. illustration, mood references, do/don't examples
-- **Tone of voice** — Formal ↔ casual, playful ↔ serious, technical ↔ approachable. Include sample copy if available
-- **Spacing / radius / elevation** — Border radius tokens, shadow styles, spacing scale
-- **Existing design system** — Link to Figma library, Storybook, or component docs if they exist
-
-**Path B — Auto-Extract from Existing Site/URL**
-If the user provides a live URL:
-- Scrape and extract: dominant colors, font stacks, logo images, favicon, spacing patterns
-- Present extracted tokens for user confirmation/adjustment before applying
-- Flag any inconsistencies ("Your site uses 4 different font sizes — want to consolidate?")
-
-**Path C — Basics Only (Logo + Colors + Fonts)**
-Minimum viable branding:
-- Logo upload (any format)
-- Primary + secondary color (hex or color picker)
-- Font preference (Google Fonts selection or upload)
-- Generate remaining tokens (neutrals, semantic colors, type scale) automatically from these inputs
-
-**Path D — No Brand Kit (Preset Themes)**
-For users starting from scratch or prototyping:
-- Offer 4–6 curated preset themes (e.g., "Clean & Minimal," "Bold & Vibrant," "Dark & Technical," "Warm & Friendly")
-- Each theme includes a complete token set: colors, fonts, radius, shadows
-- Allow customization on top of the preset (swap primary color, change font)
-- Make it clear this can be replaced with real branding later
-
-### 5.2 Branding Collection UX Guidelines
-
-- Ask for branding **before** generating any onboarding screens — it's a dependency, not an afterthought.
-- Keep the upload flow itself frictionless: drag-and-drop, paste URL, or pick a preset. No 20-field forms.
-- Show a **live preview** of the brand applied to a sample onboarding screen as assets are added.
-- Auto-generate a **design token file** (CSS variables / JSON) from collected assets for downstream use.
-- Allow users to revisit and update branding at any time without regenerating everything manually.
-
-### 5.3 Fallback Behavior
-
-| Scenario | System Behavior |
-|---|---|
-| No logo provided | Use app name as styled text (primary font, primary color) |
-| No colors provided | Default to preset theme; prompt user to customize |
-| No fonts provided | Default to a safe, modern system font stack |
-| Incomplete palette | Auto-generate neutrals, semantic colors, and tints/shades from provided primary |
-| Conflicting assets (e.g., low-contrast combinations) | Flag accessibility issues and suggest corrections |
-
----
-
-## 6. Discovery & Needs Assessment
-
-Before designing any onboarding flow, answer these questions. Skip this at your own risk — most onboarding failures trace back to assumptions made here.
-
-### 6.1 Understand the Challenge
-- What are users trying to accomplish when they arrive?
-- What's confusing or unclear about the current experience (if one exists)?
-- Where do users currently get stuck or drop off? (Analytics, support tickets, session recordings)
-- What is the "aha moment" — the single action or realization that converts a visitor into an engaged user?
-
-### 6.2 Understand the Users
-- **Experience level:** Beginners, power users, or mixed? Do they know the category or is this entirely new?
-- **Motivation:** Excited and exploring? Required by work/admin? Evaluating against a competitor?
-- **Time commitment:** Do they have 2 minutes or 20? Are they in a meeting, on mobile, or focused at a desk?
-- **Prior mental models:** Coming from a competitor (map to familiar concepts)? New to the category (explain the "why" first)?
-
-### 6.3 Define Success
-- What's the minimum a user needs to learn to get value? (Not "everything" — the 20% that delivers 80%)
-- What's the key activation action? (First project created? First invite sent? First output generated?)
-- What metrics prove onboarding worked? (Activation rate, time to value, D7 retention, support ticket reduction)
-
-### 6.4 Decide If You Even Need Onboarding
-Not every app needs a dedicated flow. Test without one first. If users can figure out the core value from the interface alone, your "onboarding" might just be good empty states and contextual hints. Add formal onboarding only when:
-- The product has novel interaction patterns users won't have seen before
-- Personalization significantly changes the experience
-- There's a multi-step setup that can't be deferred
-- The "aha moment" requires guidance to reach
-
----
-
-## 7. Onboarding Flow Anatomy
-
-A well-structured onboarding flow follows this general sequence. Not all steps are required for every app — pick what serves the user. Branding (Section 5) must be resolved before any screens are generated.
-
-```
-0. Branding Resolution (Section 5)
-   — Collect or resolve brand assets before generating screens
-
-1. Landing / Entry Point
-   - Clear value proposition, single primary CTA
-   - Social proof (logos, testimonials, user count)
-
-2. Signup / Authentication
-   - Social SSO, magic link, or minimal email + password
-   - Defer to post-value if possible
-
-3. Personalization Survey (1–3 questions)
-   - Role, goal, use case, team size
-   - Use answers to branch the flow
-
-4. Workspace / Environment Setup
-   - Pre-populated templates based on survey answers
-   - Import existing data if applicable (CSV, integrations)
-
-5. First Meaningful Action (the "aha" moment)
-   - Guided task that produces real output
-   - Interactive, not passive (no slideshow tours)
-
-6. Contextual Feature Education
-   - Tooltips, coach marks, inline hints — triggered by user behavior
-   - Drip over time, don't front-load
-
-7. Social / Team Setup (if applicable)
-   - Invite teammates, configure roles
-   - Shared checklist for team activation
-
-8. Ongoing Engagement
-   - Checklists, progress tracking, drip emails
-   - In-app help center, empty state guidance
-   - Re-engagement nudges for dormant users
-```
-
----
-
-## 8. Industry-Specific Adaptations
-
-### 7.1 Quick Reference
-
-| Industry | Key Focus | Typical Pattern | Watch Out For |
-|---|---|---|---|
-| **SaaS / Productivity** | Quick wins, role-based personalization | Self-select → template → first task | Over-touring features nobody asked about |
-| **Finance / Fintech** | Security, compliance (KYC/AML), trust | Progressive verification with time estimates | Making compliance feel punitive; hiding fees |
-| **E-Commerce** | Immediate browsing, low friction | Guest access → value → account creation post-purchase | Forcing signup before showing products |
-| **Healthcare** | Privacy, sensitivity, trust | Gentle screening, non-judgmental copy | Clinical tone; overwhelming consent forms |
-| **Education** | Bite-sized intros, gamification | Assessment → personalized path → streak/reward | Front-loading complex lessons |
-| **Gaming / Entertainment** | Instant engagement, visual cues | Play immediately → progressive mechanics | Text-heavy tutorials; blocking core content |
-| **Social Media** | Fast connections, privacy controls | Social login → interest selection → first post | Aggressive permission requests upfront |
-| **Developer Tools** | Code-first, minimal hand-holding | Quick install → "Hello World" → docs | See 7.2 |
-| **AI / ML Products** | Demystify, set expectations, show output | Interactive demo → real result → iterate | See 7.3 |
-
-### 7.2 Developer Tools — Deep Dive
-
-Developer onboarding is fundamentally different from consumer onboarding. Developers are impatient with hand-holding but appreciate clear, thorough documentation.
-
-**Principles:**
-- **Code-first:** The fastest path to value is running code, not reading slides. Prioritize "Hello World" in under 2 minutes.
-- **Respect expertise variance:** A senior backend engineer and a junior frontend developer have very different needs. Segment by experience level and language/framework preference.
-- **CLI + dashboard parity:** If your product has both a CLI and a web dashboard, onboarding should support both paths without favoring one.
-- **Copy-paste ready:** Every code snippet shown during onboarding should be directly copy-pasteable and functional. No pseudocode, no `...` placeholders.
-
-**Flow pattern:**
-```
-1. Quick start selector: language / framework / use case
-2. Install / connect (one command, copy-pasteable)
-3. "Hello World" — first successful API call or build
-4. Guided second task (something closer to their real use case)
-5. Point to docs, community, and support — then get out of the way
-```
-
-**What to avoid:**
-- Assuming all developers have the same context (DevOps ≠ frontend ≠ data science)
-- Onboarding that requires leaving the terminal to complete
-- Marketing copy in technical flows — developers actively distrust it
-- Broken code samples (test every snippet in CI)
-
-### 7.3 AI / ML Products — Deep Dive
-
-AI products face a unique onboarding challenge: users arrive with wildly varying mental models of what AI can do, ranging from "magic" to "useless." Onboarding must calibrate expectations while demonstrating genuine value.
-
-**Principles:**
-- **Show, don't tell.** Let users see real AI output within the first 60 seconds. An interactive demo with their own input beats any explanation.
-- **Set honest expectations.** Surface limitations early: "Works best with X, less reliable for Y." Users who understand boundaries trust the product more than those who discover them painfully.
-- **Teach prompting as onboarding.** If the product involves user input that shapes AI output (prompts, configurations, parameters), make the onboarding *about* building that skill. Show before/after examples of good vs. poor inputs.
-- **Provide escape hatches.** Always show users how to edit, regenerate, or override AI output. Autonomy reduces anxiety.
-
-**Flow pattern:**
-```
-1. Brief context: what the AI does (1 sentence, not a paragraph)
-2. Interactive demo: user provides real input → AI generates real output
-3. "Before / After" comparison: show how better input improves output
-4. Guided iteration: user refines their first result
-5. Explain controls: editing, regenerating, adjusting parameters
-6. Set ongoing expectations: where to get help, how the AI improves
-```
-
-**What to avoid:**
-- Overpromising capabilities ("AI that does everything")
-- Hiding the AI's role — be transparent that output is AI-generated
-- Onboarding that only shows cherry-picked perfect examples
-- No feedback loop — users need to report bad output easily from day one
-
----
-
-## 9. Responsive & Multi-Device Strategy
-
-Onboarding must work across screen sizes, not just "fit." Flows designed for desktop often break on mobile — not technically, but experientially.
-
-### 8.1 Adaptive Flow Design
-- **Step reduction on mobile:** A 7-step desktop flow may need to consolidate to 4–5 steps on mobile. Combine related questions into single screens or defer non-essential steps.
-- **Input optimization:** Use native input types (`type="email"`, `type="tel"`, date pickers) for mobile keyboards. Prefer selection (taps) over text input where possible.
-- **Thumb zone awareness:** Primary CTAs belong in the bottom 40% of the screen on mobile. Avoid top-right actions that require hand repositioning.
-- **Swipe vs. click:** Horizontal swipe navigation works well for linear mobile onboarding (cards, carousels). Always provide a tap alternative.
-
-### 8.2 Layout Adaptations
-
-| Element | Desktop | Mobile |
-|---|---|---|
-| **Personalization survey** | Side-by-side questions with illustration | Stacked single question per screen |
-| **Progress indicator** | Horizontal step bar at top | Compact dots or "2 of 4" text |
-| **Feature education** | Tooltip anchored to UI element | Full-width bottom sheet or inline card |
-| **Media (video/image)** | Embedded inline with text | Above the fold, auto-scaled, optional play |
-| **Multi-column layouts** | 2–3 columns for options/cards | Single column, vertically scrollable |
-
-### 8.3 Testing Requirements
-- Test on real devices, not just browser emulators. Touch targets, scroll behavior, and keyboard interactions differ.
-- Validate that auto-save and session continuity (Section 3.6) work across device switches mid-onboarding.
-
----
-
-## 10. Design Patterns & UI Components
-
-### 10.1 Patterns to Use
-- **Checklists** — Visible progress, clickable steps, completion state. Exploit the Zeigarnik Effect (Section 10).
-- **Empty States** — Every blank screen is a missed onboarding opportunity. Use illustration + CTA + guiding copy (see Section 4.2 for empty state copy).
-- **Inline Tooltips / Coach Marks** — Contextual, dismissible, triggered by first encounter with a feature. One tooltip at a time — never stack them.
-- **Welcome Modals** — Brief (1–2 screens max), skippable, focused on immediate next step.
-- **Sample / Demo Data** — Pre-populated content so users see the product "alive" before investing effort.
-- **Progress Bars** — Show completion percentage for multi-step flows. Start at ~20% not 0% (Endowed Progress Effect — Section 10).
-
-### 10.2 Patterns to Avoid
-- **Multi-screen slideshow tours** — Low engagement, high skip rate. Users retain almost nothing.
-- **Video-only onboarding** — No interactivity; can't be skimmed; accessibility issues; requires captions and transcripts.
-- **Mandatory feature tours** — Users resent being forced; provide on-demand access instead.
-- **Wall-of-text welcomes** — Nobody reads paragraphs in a setup flow. If you need to explain, use visuals.
-
-### 10.3 Empty State Taxonomy
-
-Empty states are one of the most powerful onboarding surfaces in any app. Every blank screen is a teaching moment. Design them intentionally based on *why* the state is empty:
-
-| Type | Context | Design Approach |
-|---|---|---|
-| **First use** | User has never used this feature | Emphasize value ("Projects help you organize work and collaborate"). Offer templates or examples. Strong CTA: "Create your first project" or "Start from template." Include illustration or preview of what populated state looks like. |
-| **User cleared** | User intentionally deleted/archived everything | Light touch. They know the feature — don't re-explain value. Easy path to recreate: "Create new" with minimal friction. |
-| **No results** | Search or filter returned nothing | Acknowledge the attempt. Suggest alternatives: "Try a different search term" or "Clear filters." Never just show a blank screen. |
-| **No permissions** | User can't access this area | Explain *why* clearly ("You need Admin access to view this"). Show *how* to get access ("Ask your team admin") or who to contact. |
-| **Error / failed to load** | Data couldn't be retrieved | Explain what happened in plain language. Offer retry. Don't blame the user. Provide fallback or cached state if possible. |
-
-**Every empty state must include:**
-1. **What will be here** — "Your recent projects will appear here"
-2. **Why it matters** — "Projects help you organize work and track progress"
-3. **How to get started** — Clear CTA: `[Create project]` or `[Import from template]`
-4. **Visual interest** — Illustration, icon, or preview (not just text on a blank page)
-5. **Contextual help** — "Need help? [Watch 2-min tutorial]" (optional but valuable)
-
-### 10.4 Feature Discovery & Ongoing Adoption
-
-Onboarding doesn't end after initial setup. Feature discovery is the long tail of onboarding — surfacing the right capability at the right moment throughout the user's lifecycle.
-
-**Feature announcements (new releases):**
-- Highlight what's new and *why it matters to this user* (not just changelog items)
-- Let users try immediately from the announcement — link directly to the feature
-- Dismissable, never blocking. Show once, respect dismissal.
-- Consider segmenting: only show announcements relevant to the user's role/usage pattern.
-
-**Progressive feature badges:**
-- Subtle indicators (dot, "New" badge) on unused features the user would benefit from.
-- Remove automatically after first use or manual dismissal.
-- Don't badge everything — pick 1–2 features at a time based on the user's stage.
-
-**Contextual feature suggestions:**
-- Triggered by user behavior: "You've created 5 projects manually — did you know you can import from CSV?"
-- Must be dismissable with "Don't show again" that is actually permanent.
-- Appear at point of use, not in a disconnected notification center.
-
-**"What's New" changelog:**
-- Accessible from help menu or settings — users should be able to browse at their pace.
-- Organized by recency with clear dates.
-- Each entry: what changed, why, and a link to try it or learn more.
-
-### 10.5 Guided Tours & Walkthroughs
-
-Tours have a bad reputation because most are poorly designed. When done right — short, interactive, and optional — they can be effective for complex interfaces.
-
-**When tours ARE appropriate:**
-- Complex interfaces with many features where the core workflow isn't obvious
-- Significant UI changes to an existing product (existing users need reorientation)
-- Industry-specific tools where domain knowledge affects how features are understood
-
-**When to skip tours:**
-- The interface follows standard conventions users already know
-- The app is simple enough that empty states and tooltips suffice
-- Users are primarily power users who resent hand-holding
-
-**How to design effective tours:**
-- **Spotlight pattern:** Highlight one UI element at a time, dim the rest of the page. Focus attention.
-- **Keep it short:** 3–7 steps maximum per tour. If you need more, break into multiple contextual tours.
-- **Interactive, not passive:** Let users click real buttons, fill real fields — not just "Next, Next, Next."
-- **Workflow-oriented copy:** "Create a project" not "This is the project button." Focus on what to do, not what things are.
-- **Provide sample data** so actions during the tour produce real results.
-- **Allow free navigation:** Users should be able to click through steps freely, go back, or exit at any point.
-- **Always include "Skip tour"** — visible, not hidden. No guilt.
-- **Make replayable:** Add "Replay tour" to the help menu. Users who skipped initially may want it later.
-
-**Interactive tutorials / sandbox:**
-For high-stakes or complex products, consider a sandbox environment:
-- Pre-loaded with sample data so actions are risk-free
-- Clear objectives: "Create a chart showing sales by region"
-- Step-by-step guidance with validation (confirm they did it right)
-- Graduation moment: "You're ready! Here's your real workspace."
-- Keep sandbox data deletable — don't pollute the real environment.
-
-### 10.6 In-Product Help System
-
-A well-designed help system is the safety net beneath your onboarding. Users who skip or forget onboarding steps should always have a path to help.
-
-**Help patterns to implement:**
-- **`?` icon** near complex features or unfamiliar terminology — opens a brief inline explanation or links to docs.
-- **Keyboard shortcut hints** shown inline on relevant elements (`⌘K` on the search box, `⌘N` on create buttons). Teaches power-user shortcuts passively.
-- **Contextual "Learn more" links** in tooltips and feature descriptions — link to specific doc sections, not generic help home.
-- **Searchable help center** accessible from a persistent help icon (bottom-right or in the header). Must support keyword search across docs, FAQs, and tutorials.
-- **Video tutorials** for complex workflows — keep under 2 minutes each, with chapters/timestamps. Embed in-product at point of use, not just in an external knowledge base.
-- **Command palette** (`⌘K` or `/` shortcut) that surfaces both actions and help content in one search. Users increasingly expect this pattern.
-
-**Help behavior rules:**
-- Help content should be contextual to the current screen/feature, not generic.
-- Never show the same dismissed tooltip or hint again (track dismissals per user, server-side).
-- Returning users who completed onboarding should never see initial onboarding again — only new feature announcements and contextual help.
-
----
-
-## 11. Psychological Principles at Play
-
-| Principle | What It Means | Concrete Implementation |
-|---|---|---|
-| **Zeigarnik Effect** | People remember and are drawn to incomplete tasks. | Show a checklist with 1 item pre-completed on first load. Place it persistently in the sidebar or dashboard. Users will return to finish it. |
-| **Endowed Progress Effect** | People are more likely to finish if they feel they've already started. | Initialize the onboarding progress bar at 15–20% after signup. Label it: "You're already on your way — 3 steps to go." |
-| **Hick's Law** | More choices = slower decisions = higher abandonment. | Max 3–4 options per screen. For personalization surveys, use curated presets, not open-ended fields. |
-| **Jakob's Law** | Users expect your app to work like others they know. | Use conventional patterns: top-left logo, left sidebar nav, bottom-right primary CTA on mobile. Don't reinvent standard flows. |
-| **Peak-End Rule** | Users judge an experience by its most intense moment and its ending. | Invest in two moments: the "aha" (first meaningful output) and the completion celebration. Make both feel specific and earned. |
-| **Aesthetic-Usability Effect** | Beautiful interfaces are perceived as more usable and trustworthy. | Invest in visual polish for onboarding screens — they are the first impression. A polished flow buys forgiveness for rough edges elsewhere. |
-| **Doherty Threshold** | System response under 400ms keeps users in flow state. | Every onboarding interaction (button click, step transition, data save) should respond in < 400ms. Use optimistic UI and skeleton states. |
-| **Commitment & Consistency** | Small early commitments increase follow-through on larger ones. | Start with a trivially easy action (choose an avatar, pick a color theme) before asking for meaningful input. Each "yes" makes the next one easier. |
-| **Serial Position Effect** | People remember the first and last items in a sequence best. | Put the most important personalization question first and the most memorable action (the "aha") last. Bury friction in the middle. |
-
----
-
-## 12. Measuring Success
-
-### 11.1 Key Metrics
-
-| Metric | What It Tells You | Target Benchmark |
-|---|---|---|
-| **Activation Rate** | % of signups completing the key "aha" action | > 40% for B2B SaaS, > 60% for consumer |
-| **Time to Value (TTV)** | Duration from signup to first meaningful outcome | < 3 minutes for simple apps, < 10 for complex |
-| **Onboarding Completion Rate** | % who finish the full flow | > 70% (with per-step breakdown for drop-off) |
-| **Step Drop-off Rate** | Where users abandon | Any single step losing > 20% needs investigation |
-| **Retention (D1 / D7 / D30)** | Are onboarded users coming back? | D1 > 40%, D7 > 25%, D30 > 15% (varies by category) |
-| **Support Ticket Volume** | Is onboarding reducing "how do I…" tickets? | Decreasing trend post-launch |
-| **NPS / CSAT** | User sentiment post-onboarding | NPS > 30 |
-
-### 11.2 Instrumentation
-- Track every step as a discrete event: `step_viewed`, `step_completed`, `step_skipped`, `step_error`.
-- Log time-on-step to identify confusion (too long) or meaninglessness (too short / instant skip).
-- Build funnel visualizations to identify drop-off points.
-- Segment metrics by user type, acquisition channel, device, locale, and personalization branch.
-- Use tools like Mixpanel, Amplitude, PostHog, or similar for path analysis and cohort tracking.
-
-### 11.3 Optimization Loop
-```
-Measure → Identify drop-off → Hypothesize cause → A/B test fix → Ship winner → Repeat
-```
-Run this loop continuously. Onboarding is never "done."
-
----
-
-## 13. Technical Considerations
-
-- **State management** — Persist onboarding progress server-side. Users should resume, never restart. Store: current step, survey answers, branding selections, timestamp per step.
-- **Feature flags** — Gate onboarding variations behind flags for A/B testing and gradual rollouts. Minimum flags: `onboarding_version`, `onboarding_variant`, `show_onboarding`.
-- **Analytics events** — Instrument every interaction: step views, completions, skips, errors, time-on-step (see Section 12.2).
-- **Responsive design** — Onboarding must work flawlessly on mobile, tablet, and desktop. See Section 9 for adaptive strategies.
-- **Loading performance** — Onboarding screens should be among the fastest pages in your app. Preload the next step's assets while the user is on the current step.
-- **Graceful degradation** — If JS fails, a CDN is slow, or an integration times out, the flow should still be usable with a manual fallback.
-- **Deep link support** — Email CTAs and invite links should land users at the right step, with auth state and context preserved.
-- **Design tokens** — Generate CSS custom properties / JSON tokens from branding input (Section 5). All onboarding components consume these tokens — no hardcoded colors or font names.
-- **Component architecture** — Build onboarding as a composable step system (step renderer, progress tracker, survey engine, branding provider) so flows can be reconfigured without rewriting UI code.
-- **Dismissal & completion tracking** — Store per-user state for every tooltip, tour, and feature announcement (server-side, not just localStorage). Respect dismissals permanently. Never re-show completed onboarding to returning users.
-
-### 13.1 Recommended Libraries & Tools
-
-| Category | Libraries | Notes |
-|---|---|---|
-| **Tooltips** | Tippy.js, Floating UI (Popper.js successor) | Lightweight, accessible, customizable positioning |
-| **Guided tours** | Shepherd.js, React Joyride, Intro.js | Spotlight/dim pattern, step sequencing, skip support |
-| **Modals** | Radix Dialog, Headless UI, Ariakit | Focus trap, backdrop, ESC-to-close, accessible by default |
-| **Progress tracking** | Custom (server-side preferred) | Store completion state per user, per step. Don't rely solely on localStorage. |
-| **Analytics** | Mixpanel, Amplitude, PostHog, Segment | Event tracking, funnel visualization, cohort analysis |
-| **A/B testing** | LaunchDarkly, Statsig, Unleash, PostHog | Feature flags + experiment framework |
-| **Help center** | Intercom, Crisp, custom searchable docs | In-product contextual help, search, and video embedding |
-| **Command palette** | cmdk (React), Ninja Keys, kbar | `⌘K` pattern for actions + help search |
-
----
-
-## 14. Checklist Before Shipping
-
-### 🔴 Must Ship (Launch Blockers)
-
-- [ ] Can a new user reach the "aha" moment in under 3 minutes?
-- [ ] Is every mandatory step truly necessary? Can any be deferred or removed?
-- [ ] Are all steps skippable except authentication?
-- [ ] Is branding resolved (uploaded, extracted, or preset selected) before screens are generated?
-- [ ] Do all screens use resolved design tokens consistently?
-- [ ] Is progress saved server-side across sessions and devices?
-- [ ] Is the flow accessible (keyboard nav, screen reader, 4.5:1 contrast, `prefers-reduced-motion`)?
-- [ ] Is performance optimized (< 2.5s LCP on onboarding screens)?
-- [ ] Are analytics events firing for every step (view, complete, skip, error)?
-- [ ] Does the flow handle errors gracefully (validation, network issues, integration failures)?
-- [ ] Has it been tested with real users (not just the team)?
-- [ ] Is copy reviewed: no jargon, action-oriented CTAs, no guilt-trip skips?
-- [ ] Are privacy/consent requirements met (cookie consent, GDPR, marketing opt-ins)?
-
-### 🟡 Ship Soon After (First Iteration)
-
-- [ ] Does the flow adapt based on user type / survey answers (personalization branching)?
-- [ ] Are empty states designed with guidance and CTAs?
-- [ ] Is there a team/collaborative onboarding path (admin vs. invited member)?
-- [ ] Are drip emails and re-engagement nudges set up for post-onboarding?
-- [ ] Is the flow tested on real mobile devices (not just emulators)?
-- [ ] Is localization scaffolded (externalized strings, RTL support, expansion headroom)?
-
-### 🟢 Optimization Phase (Data-Driven)
-
-- [ ] A/B test framework in place for step variations?
-- [ ] Drop-off funnel dashboard built and monitored?
-- [ ] Post-onboarding NPS/CSAT survey implemented?
-- [ ] Onboarding versioning and migration strategy documented (Section 3.9)?
-- [ ] Is there a plan for ongoing iteration based on data?
-
----
-
-## 15. Collaborative & Team Onboarding
-
-For multi-user products, onboarding isn't one flow — it's at least two.
-
-### 14.1 Admin / Creator Path
-The person who sets up the workspace:
-- Account creation → workspace naming → branding/config → invite team
-- Provide setup checklist with team-visible progress ("Your team setup is 60% complete")
-- Allow admins to customize what invited members see on first login
-
-### 14.2 Invited Member Path
-People joining an existing workspace:
-- Accept invite → authenticate (SSO auto-join if configured) → land in pre-configured workspace
-- Show brief orientation to the *team's* setup, not the product's full feature set
-- Personalization is lighter: role, notification preferences, display name
-- Pre-filled context from admin setup (team name, project, relevant channels already visible)
-
-### 14.3 Shared Team Progress
-- "Your team has completed 3 of 5 setup steps" — visible to all members
-- Social proof within the team: "12 of 15 members have joined"
-- Admin dashboard showing who has/hasn't completed onboarding
-
----
-
-## 16. Dark Patterns — Explicit Prohibitions
-
-These are not "anti-patterns to avoid" — they are practices that must never appear in any onboarding flow.
-
-- ❌ **Disguised marketing opt-ins** — Pre-checked newsletter boxes, or bundling marketing consent with functional consent.
-- ❌ **Artificial urgency** — "Complete setup in the next 10 minutes!" with a countdown timer.
-- ❌ **Confirm-shaming** — "No thanks, I don't want to grow my business" as a skip option.
-- ❌ **Hidden costs** — Revealing pricing or limitations only after the user has invested time in setup.
-- ❌ **Punishment for skipping** — Degrading experience, hiding features, or showing passive-aggressive messaging when users skip optional steps.
-- ❌ **Roach motel** — Easy to start, impossible to cancel or delete account. Offboarding should be as clear as onboarding.
-- ❌ **Forced continuity** — Silently converting a free trial to a paid plan without clear, advance notification.
-- ❌ **Misdirection** — Using visual hierarchy to make the "less favorable to user" option look like the primary CTA.
-
----
-
-## 17. Anti-AI Design — Avoiding the "AI Look"
-
-AI-generated interfaces share a recognizable visual DNA that instantly signals "this wasn't designed by a human." Avoiding these patterns is critical for credibility and trust.
-
-### 16.1 The Problem
-
-Users increasingly recognize AI-generated design. When an onboarding flow looks "AI-made," it signals low effort, undermines brand trust, and makes the product feel generic. The goal isn't to hide AI — it's to produce output that meets the same quality bar as human-crafted design.
-
-### 16.2 The Grid Problem
-
-The most common AI design tell is **rigid, uniform grid layouts** — evenly spaced cards, perfectly symmetrical columns, identical spacing everywhere. Real design uses intentional asymmetry and visual hierarchy.
-
-**What AI defaults to:**
-- 3-column or 4-column grids with identically sized cards
-- Uniform padding and margins on every element
-- Perfect symmetry on every screen
-- Feature grids where every item has: icon → heading → description, repeated 6–12 times
-- Bento grids with no clear visual priority
-
-**What good design does instead:**
-- **Vary element sizes** to create hierarchy. The most important item is largest. Not everything gets equal weight.
-- **Break the grid intentionally.** A full-width hero, followed by a 2-column section, followed by a single centered CTA is more effective than 3 uniform columns.
-- **Use whitespace asymmetrically.** More space around the primary action, tighter grouping for related secondary elements.
-- **Limit card-based layouts.** If you must use cards, vary their sizes, use a max of 3, and make one visually dominant.
-
-### 16.3 Other AI Design Tells to Avoid
-
-| AI Tell | Why It Looks AI-Generated | Human Design Alternative |
-|---|---|---|
-| **Uniform icon grids** | 6+ icons in a grid, same size, same style, evenly spaced — looks like a template | Use icons sparingly. 2–3 max per section. Vary placement — inline with text, not always above headings. |
-| **Generic gradient blobs** | Purple-to-blue blobs as background decoration — the AI aesthetic cliché of 2024–2025 | Use brand colors. If gradients, make them subtle and purposeful. Or skip them entirely for flat/textured backgrounds. |
-| **Overuse of glassmorphism** | Frosted glass cards stacked everywhere with no functional reason | Reserve glass effects for one focal element (e.g., a modal or hero card). Not every surface needs blur. |
-| **Generic stock illustrations** | Flat vector people in purple/blue sitting at laptops | Use product screenshots, real UI previews, or brand-specific illustration. If no assets, use abstract shapes over generic people. |
-| **"Hero + 3 features + CTA" layout** | Every section follows the same structure, which is the default template of every AI tool | Vary section structures. Mix full-width, split-screen, single-column prose, and embedded interactive elements. |
-| **Excessive border radius** | Every element has `rounded-2xl` or higher — soft pill shapes everywhere | Mix radius values. Cards might be `rounded-lg`, buttons `rounded-md`, avatars `rounded-full`. Consistency ≠ uniformity. |
-| **Too many shadows/elevations** | Every card, button, and container has a drop shadow | Reserve elevation for interactive elements (buttons, modals, dropdowns). Flat surfaces should be the default. |
-| **Decorative-only animations** | Floating particles, rotating gradients, parallax for no reason | Every animation should communicate something: progress, state change, attention. If it doesn't serve a purpose, remove it. |
-| **Perfect visual balance everywhere** | No visual tension, no focal point, everything feels equally weighted | Good design has a clear visual hierarchy. One thing is the star of each screen. Everything else supports it. |
-| **Lorem-ipsum-quality copy** | Headings like "Streamline Your Workflow" and "Unlock Your Potential" | Write specific, concrete copy about what the product actually does. See Section 4. |
-
-### 16.4 Design Principles That Counter AI Defaults
-
-1. **One hero per screen.** Every screen has exactly one focal element — a heading, an image, an interactive widget. Everything else is subordinate. If everything is emphasized, nothing is.
-
-2. **Intentional imperfection.** Real design has deliberate quirks: an oversized heading, a full-bleed image that breaks the container, a pull quote that disrupts the flow. These create personality.
-
-3. **Content-driven layout.** Let the actual content determine the layout, not a grid template. A screen with one question needs a centered single-column layout, not a card in a grid.
-
-4. **Restraint over decoration.** Fewer visual elements, more whitespace, less color. A confident design doesn't need gradients, blobs, and shadows on every surface to feel "designed."
-
-5. **Specific over generic.** Show the actual product UI in onboarding screens, not abstract illustrations of what the product might do. Use real data, real screenshots, real output.
-
-6. **Typographic hierarchy over visual clutter.** A strong type system (varied sizes, weights, and spacing) can create visual interest without icons, illustrations, or decorative elements.
-
-7. **Brand personality over polish.** A slightly rough, distinctive design with strong brand identity beats a pixel-perfect generic template. The goal is recognizable, not flawless.
-
-### 16.5 Implementation Checklist
-
-- [ ] No more than one card grid per screen, and grid items vary in size/emphasis
-- [ ] At least one layout section per flow that breaks the column grid (full-width, asymmetric, or centered)
-- [ ] No generic gradient blobs or floating decorative elements
-- [ ] Border radius values vary by component type (not uniform `rounded-2xl` everywhere)
-- [ ] Shadows reserved for interactive/elevated elements only
-- [ ] Every illustration or image is brand-specific or product-specific (no generic vectors)
-- [ ] Copy is specific to the product, not interchangeable with any other SaaS
-- [ ] Visual hierarchy is testable: can you identify the #1 thing on each screen in under 2 seconds?
-
----
-
-## 18. Reference Examples
-
-| App | What to Study | Teardown / Resource |
-|---|---|---|
-| **Notion** | Personalization questions → tailored workspace; progressive tooltips | [DesignerUp: 200+ Onboarding Flows](https://designerup.co/blog/ux-ui-onboarding-flows/) |
-| **Slack** | Bot-guided setup; playful empty states; team invite flow | [Sendbird: Top 6 Onboarding Examples](https://sendbird.com/blog/top-examples-app-onboarding-experiences) |
-| **Duolingo** | Value before signup; gamification loop; streak psychology | [VWO: Ultimate Onboarding Guide](https://vwo.com/blog/app-onboarding/) |
-| **Linear** | Keyboard-first speed; minimal steps; premium aesthetic | [Softr: 12 Iconic Web App Designs](https://www.softr.io/blog/web-application-design) |
-| **Figma** | Zero-friction collaboration; serves beginners and power users | [Justinmind: 20 Onboarding Examples](https://www.justinmind.com/blog/user-onboarding-best-practices-examples/) |
-| **Stripe** | Developer onboarding via docs + dashboard; complex data made scannable | [Stripe Docs](https://stripe.com/docs) |
-| **Canva** | Home screen as onboarding surface; template-first exploration | [Userpilot: 12 Onboarding Practices](https://userpilot.com/blog/app-onboarding-best-practices/) |
-| **Basecamp** | CEO welcome note; project templates for instant utility | [Justinmind: Basecamp Teardown](https://www.justinmind.com/blog/user-onboarding-best-practices-examples/) |
-| **Spotify** | Interest selection → instant personalized output | [NN Group: Mobile Onboarding Analysis](https://www.nngroup.com/articles/mobile-app-onboarding/) |
-| **Coinbase** | Progressive KYC timeline; transparency in regulated flow | [VWO: Fintech Onboarding](https://vwo.com/blog/app-onboarding/) |
-```
-
----
-
-## 92. Send Us the Brief — Brutalist Contact Form
+## 86. Send Us the Brief — Brutalist Contact Form
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/send-us-the-brief-brutalist-contact-form?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Loud neo-brutalist contact page for a design-tool brand (Formcast), built around a blunt two-field 'brief box'. A paper-and-ink base (paper #f4f1ea canvas, ink #0a0a0a text/borders) with exactly one high-voltage acid-yellow accent (#e8ff00), thick 2px/4px ink borders, hard offset drop shadows (zero blur, e.g. 8px 8px 0 0 #0a0a0a), depress-on-press chunky buttons, and an acid focus shadow on the fields, in a heavy Archivo (up to 900) + Space Mono pairing. A sticky paper nav (an ink+acid logo tile + a FORMCAST wordmark, How it works/Library/Brief us hover-fill links and an acid 'Start' button) sits over a scrolling ink marquee strip and a hero (an acid eyebrow pill, a giant uppercase 'SEND US THE BRIEF.' headline with 'brief.' highlighted in acid, and a '38s' avg-turnaround stat card). The centerpiece is a contact section split into a left rail of three numbered instruction tiles and a big bordered FORM CARD with an oversized E-Mail input + Message textarea, a Brutalist/Editorial/Minimal/Surprise-me style-chip row, and a chunky Cancel + acid 'Send' button row. A 'Three blunt steps' card row and a dark ink footer with an acid CTA close the page. The reusable signature is the neo-brutalist contact form: thick ink borders + hard offset shadows + one acid accent + a heavy Archivo/Space Mono voice.
@@ -12733,7 +10682,7 @@ Loud neo-brutalist contact page for a design-tool brand (Formcast), built around
 
 ---
 
-## 93. Editorial Music Player (Now Playing)
+## 87. Editorial Music Player (Now Playing)
 `Mobile Apps` · `General` · 1 copies · [try live](https://superdesign.dev/library/editorial-music-player-now-playing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-contrast editorial "Now Playing" mobile music player: a light cream top with a warm sunset gradient album art, bold track title + scrubber, dark high-contrast transport controls on cream circles, over a deep forest-green "Up Next" playlist with a coral now-playing highlight.
@@ -12767,7 +10716,7 @@ A high-contrast editorial "Now Playing" mobile music player: a light cream top w
 
 ---
 
-## 94. Collection Page- Filtered Product Grid
+## 88. Collection Page- Filtered Product Grid
 `E-commerce` · `E-commerce & Retail` · 9 copies · [try live](https://superdesign.dev/library/collection-page-filtered-product-grid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A utility-first collection layout with a persistent filter sidebar and a dense product grid. Designed for fast scanning, narrowing, and comparison. Prioritizes efficiency over storytelling.
@@ -12825,7 +10774,7 @@ Large catalogs, apparel, marketplaces, multi-SKU brands, products where users al
 
 ---
 
-## 95. Cream & Sky Playful SaaS Pricing
+## 89. Cream & Sky Playful SaaS Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/cream-and-sky-playful-saas-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm, friendly light-mode SaaS pricing page on a cream paper canvas with sky-blue accents, serif display type, rounded cards, a monthly/yearly toggle, and a highlighted middle tier.
@@ -12836,7 +10785,7 @@ A warm, friendly light-mode SaaS pricing page on a cream paper canvas with sky-b
 
 ---
 
-## 96. Editorial Crimson Dev-Tool Pricing
+## 90. Editorial Crimson Dev-Tool Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-crimson-dev-tool-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light, serif-accented SaaS pricing page on white with a single crimson accent, audience segmented tabs, a monthly/annual toggle, and a 4-tier grid with one elevated 'most popular' card.
@@ -12847,7 +10796,7 @@ A light, serif-accented SaaS pricing page on white with a single crimson accent,
 
 ---
 
-## 97. Card Grid Browse
+## 91. Card Grid Browse
 `Mobile Apps` · `General` · 6 copies · [try live](https://superdesign.dev/library/card-grid-browse?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A sophisticated, mobile-first product browsing layout emphasizing whitespace, clean typography, and a stable 2-column grid. The design utilizes a monochrome base with slate-toned neutrals to create a high-end 'boutique' feel, prioritizing product imagery and effortless navigation. Suitable for premium furniture, fashion, architecture, or design-focused platforms.
@@ -12894,7 +10843,7 @@ A sophisticated, mobile-first product browsing layout emphasizing whitespace, cl
 
 ---
 
-## 98. Acid-Yellow Neo-Brutalist Mega Footer
+## 92. Acid-Yellow Neo-Brutalist Mega Footer
 `Forms & Contact` · `General` · 1 copies · [try live](https://superdesign.dev/library/acid-yellow-neo-brutalist-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Neo-brutalist acid-yellow mega footer with hard offset shadows, a giant hollow-stroke wordmark, a marquee, three link columns, and a newsletter card.
@@ -12905,7 +10854,7 @@ Neo-brutalist acid-yellow mega footer with hard offset shadows, a giant hollow-s
 
 ---
 
-## 99. Validar — Forms that catch mistakes before they cost you
+## 93. Validar — Forms that catch mistakes before they cost you
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/validar-forms-that-catch-mistakes-before-they-cost-you?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A teal-on-paper SaaS landing page for an inline form-validation tool: a sticky glass nav, a split hero with a live account-creation card showing all four field states (idle, active, valid, error) at once, a four-up state-model band, a dark-teal 'submit unlocks itself' section, a benefit grid, and a footer. Color + icon + plain-words validation, Inter, soft layered shadows.
@@ -12916,7 +10865,7 @@ A teal-on-paper SaaS landing page for an inline form-validation tool: a sticky g
 
 ---
 
-## 100. Champagne Noir Paywall
+## 94. Champagne Noir Paywall
 `Pricing Pages` · `General` · 0 copies · [try live](https://superdesign.dev/library/champagne-noir-paywall-65a2fd?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A premium dark subscription paywall: champagne/gold accents on near-black, an italic-serif value headline, a Free-vs-Pro feature table, a yearly(best-value)/monthly plan toggle, and a gold "Start free trial" CTA.
@@ -12949,7 +10898,7 @@ A premium dark subscription paywall: champagne/gold accents on near-black, an it
 
 ---
 
-## 101. Compact Control Grid
+## 95. Compact Control Grid
 `Mobile Apps` · `General` · 11 copies · [try live](https://superdesign.dev/library/compact-control-grid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dense arrangement of controls using grids and grouped sections. Prioritizes scanability and speed over storytelling.
@@ -13003,7 +10952,18 @@ Utilities, device controllers, system tools, internal apps.
 
 ---
 
-## 102. Loam — Warm Earthy Organic Agency Website
+## 96. Foundry: Your SaaS Site, Designed Before You Write a Line
+`Landing Pages` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/foundry-your-saas-site-designed-before-you-write-a-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A warm editorial SaaS landing page on cream paper: big Fraunces serif headline with a terracotta italic highlight, a split hero with a dark infinite-canvas product mock, staggered feature cards, a real-reference library showcase, a pull quote, a dark palette/craft story, three-tier pricing, and an olive CTA banner.
+
+```text
+{"summary": "Build a warm editorial SaaS marketing landing page on a cream canvas with a large Fraunces serif display headline, a split hero with a dark right-hand product-canvas panel, an asymmetric features grid of staggered cards, a real-reference library showcase, a centered pull-quote testimonial, a dark craft/palette story section, a three-tier pricing block with one highlighted plan, a rounded olive CTA banner, and a four-column footer. Sticky blurred nav with an announcement bar on top; fully responsive reflow at 1280 / 768 / 390.", "style": {"description": "Warm editorial magazine aesthetic: cream paper base, ink near-black text, a terracotta accent and an olive secondary, set in Fraunces serif display over Inter body. Premium, crafted, not-generated; soft shadows, hairline borders, and pill chips, never beige AI sludge.", "prompt": "Palette is warm editorial paper: page base cream #faf6ef, ink near-black #1a1714 for text and dark panels, sand #f1e9da fills with sand-line #e6dccb hairline borders, muted #6e655a for secondary body text. Primary accent is terracotta #d4642a with a deeper hover #b8501c (used for the italic display highlight word, primary buttons, accent dot, star ratings, link underline, ::selection background). Secondary accent is olive #6b7244 / olive-deep #565c34 (announcement bar, CTA banner, the 'real reference library' card). Fonts via Google Fonts: Fraunces (serif display, optical-sizing 144, weights 300-700, letter-spacing -0.02em, line-height ~0.98) for all headlines, the wordmark and the eyebrow italic flourishes; Inter (sans body, weights 400-700) for body, nav, buttons and uppercase eyebrows (letter-spacing 0.18em). Mood: warm, literary, confident; soft layered shadows (float-card 0 30px 60px -20px rgba(26,23,20,0.28); soft-card 0 18px 40px -28px rgba(26,23,20,0.22)), inset 1px hairline pills, a faint vertical 3-column grid texture behind the hero. Accents stay terracotta + olive on cream only; no blue, no purple, no generic gradients."}, "layout_and_structure": {"description": "Centered max-width 1200px container with px-6 / md:px-10 gutters, generous vertical rhythm (py-20 / lg:py-28). The page alternates cream and dark (ink) sections for editorial contrast, leans on asymmetric grids and staggered card translate-y offsets, and reflows every section from 3-up to 1-up on mobile.", "prompts": [{"part": "announcement bar + sticky nav", "prompt": "Full-width olive #6b7244 announcement bar (h-10, centered cream text, sparkle icon + 'New: 240 editorial layouts' + an underlined 'Browse the library' link with an arrow). Below it a sticky top-0 z-50 header with nav-blur (backdrop-blur-12px, background rgba(250,246,239,0.82)) and a sand-line bottom border; 72px row: left = ink rounded-10px logo tile (cream plant/sparkle glyph) + Fraunces 'Foundry' wordmark; center = Inter nav links (Library, How it works, Craft, Pricing) each with an animated terracotta underline-on-hover; right = 'Sign in' text link + a terracotta pill 'Start designing' button. Hide center links below lg."}, {"part": "split hero", "prompt": "Two-column hero grid lg:grid-cols-[1.05fr_0.95fr], with a dark ink panel absolutely filling the right 42% on lg+. Left column: a pill eyebrow ('The prompt library for product designers' with a terracotta dot), a Fraunces display H1 clamp(2.7rem,6vw,4.6rem) with line breaks and one italic terracotta highlight word ('write a line.'), a muted lede paragraph, a button row (terracotta primary 'Design my page' with arrow + cream pill secondary 'See it generate' with play icon), and a social-proof row (five terracotta stars + '4.8 / 5 from 1,200+ founders'). Right column: a floating 'infinite canvas' product mockup card (float-card shadow, canvas chrome bar with 'Generating' pill) containing a mini dark hero preview and two mini feature cards, plus an absolutely-positioned floating prompt-chip card bottom-left. On mobile the right panel drops and the mockup stacks under the copy."}, {"part": "logo trust strip", "prompt": "Full-width band with sand/40 background and top+bottom sand-line borders; centered uppercase eyebrow 'Trusted by design-led teams shipping in public' over a wrapped row of seven faux wordmarks at ink/55 opacity, intentionally mixing Fraunces serif and Inter sans treatments (Northwind, beacon, Cobalt, Atlas, Mercato, Loop, Verde)."}, {"part": "asymmetric why/how features", "prompt": "Section grid lg:grid-cols-[0.8fr_1.2fr]. Left is a sticky (lg:sticky top-28) intro: terracotta eyebrow 'Why Foundry', Fraunces H2, muted paragraph, and a terracotta text link 'Explore 240 layouts'. Right is a 2-column card grid where each card uses a different translate-y offset (0, +8, -2, +6) for a staggered editorial rhythm; cards alternate cream-with-hairline, dark ink, cream, and solid olive backgrounds, each with a rounded icon tile, a Fraunces card title and muted body."}, {"part": "library showcase", "prompt": "sand/50 band with top+bottom hairlines. Header row: olive eyebrow 'The library' + Fraunces H2 'Layouts worth shipping' on the left, a right-aligned muted blurb on the right. Below, a 3-column card grid (md:grid-cols-3); each card is a cream rounded-2xl with a 176px colored preview thumbnail (dark ink hero mock, olive 2x2 grid mock, cream pricing mock with one terracotta-outlined column), then a footer with a Fraunces title, a category pill (Hero/Features/Pricing), and a one-line muted description."}, {"part": "pull-quote testimonial", "prompt": "Centered max-w-4xl figure: a large terracotta quote-marks icon, a Fraunces blockquote at clamp(1.8rem,4vw,3.1rem) with one italic terracotta highlight phrase, then a centered figcaption with an olive-tint circular monogram avatar, name, and role."}, {"part": "dark craft / palette story", "prompt": "Full-bleed ink #1a1714 section, cream text. Two-column lg grid: left = terracotta eyebrow 'The craft', Fraunces H2, cream/70 paragraph, and three check-icon feature rows (terracotta check + bold cream label + cream/60 subtext). Right = a glass-ish card (cream/[0.04] bg, cream/10 border) showing a 4-swatch palette row (cream, terracotta, olive, ink), a type specimen ('Fraunces display.' with italic terracotta), and three rounded tag chips (Editorial / Warm / Magazine)."}, {"part": "pricing", "prompt": "Centered intro (terracotta eyebrow, Fraunces H2 'Simple, like a good layout', muted subcopy). Three-column md grid, items-stretch, max-w-5xl: two cream tier cards (Sketch $0/forever, Atelier $79/month) flanking a highlighted dark ink center card (Studio $24/month) that is translate-y -3 with a terracotta 'Most popular' ribbon. Each card: Fraunces tier name, muted tagline, big Fraunces price with /period, a check-list of features (olive-deep checks on cream cards, terracotta checks on the dark card), and a full-width pill CTA (terracotta on the highlight, cream pill on the others)."}, {"part": "CTA banner + footer", "prompt": "A rounded-3xl olive #6b7244 CTA banner with faint cream + terracotta circle blobs, a Fraunces H2 'Ready to skip the blank page?', a cream/80 subline, and two buttons (terracotta solid + translucent cream-border). Footer: cream with a top sand-line, a 4-column grid [1.4fr_1fr_1fr_1fr] = brand block (logo + blurb + three round social icon chips) plus Product / Resources / Company link columns with uppercase eyebrow headings and terracotta-hover links; a bottom hairline bar with '© 2026 Foundry Design Labs. Crafted, not generated.' and 'Made on an infinite canvas.'"}]}, "special_ui_components": ["Sticky blurred nav (backdrop-blur, rgba cream background, sand-line border) with an animated terracotta underline-on-hover on each link", "Floating 'infinite canvas' product mockup card with a chrome bar, a 'Generating' status pill, a mini hero preview and mini feature cards, plus a detached floating prompt-chip card", "Staggered editorial feature cards using per-card translate-y offsets and alternating cream / ink / olive backgrounds", "Library showcase cards with colored skeleton preview thumbnails and category pills (Hero / Features / Pricing)", "Pull-quote testimonial with oversized terracotta quote glyph and a monogram avatar", "Palette/type specimen card (4 swatches + Fraunces type sample + tag chips) on a dark section", "Three-tier pricing with a raised, dark, 'Most popular' highlighted middle plan", "Rounded olive CTA banner with soft decorative circle blobs", "Pill components throughout using an inset 1px hairline (box-shadow inset 0 0 0 1px rgba(26,23,20,0.14)) instead of a hard border"], "special_notes": "Warm editorial, not generic SaaS: keep the Fraunces serif display + Inter body pairing, the cream/ink/terracotta/olive palette, and the one-italic-terracotta-highlight-word pattern in every major headline. Use soft layered shadows and inset-hairline pills, never heavy borders. Alternate cream and dark ink sections for rhythm and lean on asymmetric grids with staggered card offsets. Phosphor-style line icons only. Responsive: hero right panel + mockup stack on mobile, multi-column grids collapse 3->1, sticky intro becomes static. No em-dashes in any copy; keep the 'Crafted, not generated' editorial voice. Accents stay terracotta + olive on cream; no blue, purple, or default gradients."}
+```
+
+---
+
+## 97. Loam — Warm Earthy Organic Agency Website
 `Portfolios` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/loam-warm-earthy-organic-agency-website?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Warm earthy organic agency / studio website: sand + terracotta palette, Fraunces serif display type, organic leaf-blob shapes, sticky blurred nav, project-card grid, numbered services list, and a terracotta contact block with a mock prompt form.
@@ -13014,7 +10974,773 @@ Warm earthy organic agency / studio website: sand + terracotta palette, Fraunces
 
 ---
 
-## 103. Ink & Acid Mono Sitemap Footer
+## 98. Landing Page / Real-Estate
+`Landing Pages` · `General` · 30 copies · [try live](https://superdesign.dev/library/landing-page-real-estate?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+Different layout structure for best converting real-estate companies
+
+```text
+You are Superdesign’s Real Estate Vertical Design Operating System.
+
+You generate:
+
+Full real estate websites (multi-page systems)
+
+Landing pages
+
+Portals / marketplaces
+
+Property detail pages
+
+Suburb SEO authority pages
+
+Developer sites
+
+Luxury brand systems
+
+Multi-office enterprise sites
+
+You do not generate generic AI-looking designs.
+
+You design for:
+
+Trust
+
+Geography
+
+Inventory states
+
+Long decision cycles
+
+High-ticket psychology
+
+Mobile inquiry behavior
+
+Your job is to design a coherent real estate ecosystem, not isolated pages.
+
+CORE DESIGN PRINCIPLES
+
+Real estate websites must be:
+
+Location-aware
+
+Inventory-aware
+
+State-aware
+
+Lead-conversion-focused
+
+Visually immersive
+
+Hierarchically structured
+
+Legally compliant
+
+Performance optimized
+
+Never resemble:
+
+SaaS dashboards
+
+Startup gradient templates
+
+Over-rounded Webflow kits
+
+Techy tone-of-voice marketing pages
+
+PHASE 1 — INTENT ROUTER
+
+Detect primary user need.
+
+Signal Activate\
+“Landing page”, “ads”, “campaign” LP\
+“Portal”, “search”, “filters”, “map” PORTAL\
+“Listing page”, “single property” PDP\
+“Rank for suburb” SEO\
+“Developer”, “project launch” DEV\
+“Luxury” LUX (overlay)\
+“Full website” SITE
+
+If unclear:\
+Ask 1 clarifying question only.
+
+If “full site”:\
+Automatically activate SITE Orchestration.
+
+PHASE 2 — SITE JOURNEY ORCHESTRATION
+
+If full website:
+
+Generate full architecture:
+
+Home
+
+Buy / Properties
+
+Property Detail Template
+
+Sell With Us
+
+Suburb Pages
+
+Agents
+
+Agent Profile
+
+Projects
+
+About
+
+Journal
+
+Offices (if multi-location)
+
+Define:
+
+Navigation structure
+
+Page relationships
+
+Cross-link logic
+
+Shared components
+
+Consistent design tokens
+
+PHASE 3 — REAL ESTATE DESIGN TOKEN SYSTEM
+
+To maintain vertical consistency:
+
+Base Tokens
+
+Border radius:
+
+Luxury: 4–6px
+
+Mid-market: 6–8px
+
+Rental: 8px max
+
+Shadows:
+
+Subtle elevation only
+
+No heavy glow
+
+Typography:
+
+Clear hierarchy (Price > Title > Meta > Body)
+
+Avoid ultra-tech fonts
+
+Editorial serif allowed for luxury
+
+Buttons:
+
+No fully pill-shaped default
+
+Balanced padding
+
+Clear hover state
+
+Spacing:
+
+Defined rhythm by tier (never uniform)
+
+Color system:
+
+Neutral base
+
+One restrained accent
+
+Status colors reserved for listing states only
+
+PHASE 4 — LISTING STATE ENGINE
+
+Real estate sites must support property states.
+
+Supported states:
+
+For Sale
+
+Under Offer
+
+Sold
+
+Auction
+
+Off-Market
+
+Coming Soon
+
+Leased
+
+Rules:
+
+Status badge top-left on property card
+
+Sold listings:
+
+Slightly muted image
+
+Retain price visibility
+
+Auction:
+
+Show countdown or event date
+
+Under Offer:
+
+Badge only, no heavy styling
+
+Filtering & sorting:
+
+Filter by state
+
+Sort by newest / price / suburb
+
+State visible in portal & suburb pages
+
+State must remain consistent across:\
+Portal → PDP → Agent page → Suburb page
+
+PHASE 5 — LAYOUT INTELLIGENCE ENGINE\
+Hero Types
+
+H1 — Cinematic (Luxury / Developer)\
+H2 — Split Form (Lead gen)\
+H3 — Search Hero (Portal)\
+H4 — Editorial SEO
+
+Property Card Spec
+
+4:3 ratio image
+
+Status badge
+
+Price dominant
+
+Specs row
+
+Location subtitle
+
+Subtle hover
+
+No glow effects
+
+PDP Layout Rules
+
+Gallery first
+
+Price + specs
+
+Inspection info
+
+Description
+
+Floor plan
+
+Map
+
+Agent contact
+
+Similar listings
+
+Disclaimer
+
+Mobile:\
+Fixed bottom inquiry bar mandatory.
+
+Portal Layout Rules
+
+Desktop:\
+45% map / 55% list split
+
+Map sticky.
+
+Mobile:\
+Toggle between full map and list.
+
+Filters visible within first viewport.
+
+PHASE 6 — MULTI-OFFICE & REGION HIERARCHY ENGINE
+
+If multiple offices:
+
+Add:
+
+Office page template:
+
+Office address
+
+Map
+
+Agents in office
+
+Suburbs covered
+
+Contact details
+
+Hierarchy:
+
+Country\
+→ State\
+→ City\
+→ Suburb\
+→ Listings
+
+Cross-link:\
+Suburb pages must link to:
+
+Relevant agents
+
+Relevant office
+
+Recent listings
+
+PHASE 7 — DATA VISUALIZATION MODULE
+
+If SEO or authority positioning:
+
+Add optional data blocks:
+
+Median price chart
+
+Sales volume trend
+
+Clearance rate visual
+
+Days on market graph
+
+Charts:
+
+Clean
+
+Minimal axis noise
+
+Neutral colors
+
+No tech dashboard styling
+
+PHASE 8 — NAVIGATION & HEADER INTELLIGENCE
+
+Header behavior:
+
+Transparent over hero if cinematic
+
+Solid on scroll
+
+Sticky header
+
+Clear primary nav:\
+Buy\
+Sell\
+Suburbs\
+Agents\
+Projects\
+About\
+Contact
+
+Mega menu allowed for:
+
+Suburbs
+
+Offices
+
+Mobile:
+
+Hierarchical drawer menu
+
+No overcrowded nav
+
+PHASE 9 — PERFORMANCE & IMAGE STRATEGY
+
+Real estate is image-heavy.
+
+Rules:
+
+Lazy load below fold
+
+Compress gallery images
+
+Responsive image sizes
+
+Prioritize hero load
+
+Avoid massive background videos unless luxury tier
+
+PHASE 10 — ACCESSIBILITY & COMPLIANCE
+
+Include:
+
+Agency license number in footer
+
+Disclaimer blocks
+
+Auction terms section
+
+Accessible contrast ratios
+
+Alt text for property images
+
+Disclaimers:\
+Small but readable.\
+Never dominate layout.
+
+PHASE 11 — INTERNATIONALIZATION LOGIC
+
+If region requires:
+
+Currency formatting
+
+Metric vs imperial toggle
+
+Language selector (optional)
+
+Never hard-code units.
+
+PHASE 12 — CONVERSION INTELLIGENCE
+
+Every page must support inquiry.
+
+Desktop:\
+Optional sticky contact panel.
+
+Mobile:\
+Fixed bottom bar:\
+Call | Message | Enquire
+
+Seller pages:\
+Appraisal CTA emphasized.
+
+PHASE 13 — LUXURY OVERLAY SYSTEM
+
+If LUX active:
+
+Increased spacing rhythm
+
+Serif headline pairing
+
+Minimal UI chrome
+
+Subtle animation
+
+Cinematic imagery
+
+Muted palette
+
+Luxury must feel restrained.
+
+No gold gradients.\
+No loud drama.
+
+PHASE 14 — ANTI-AI AESTHETIC FILTER
+
+Before output:
+
+Check:
+
+Does this resemble a SaaS site?
+
+Are there generic gradients?
+
+Overly rounded pills?
+
+Excess symmetry?
+
+Tech startup copy?
+
+Unrealistic spacing uniformity?
+
+If yes:\
+Refine silently.
+
+The output must feel:
+
+Local\
+Trustworthy\
+Human-designed\
+Photo-led\
+Grounded
+
+PHASE 15 — OUTPUT STRUCTURE
+
+Return:
+
+Detected intent
+
+Activated modules
+
+Site architecture (if SITE)
+
+Design token summary
+
+Layout strategy
+
+Component system used
+
+Listing state logic
+
+Navigation strategy
+
+Performance strategy
+
+SEO notes (if used)
+
+Conversion notes
+
+Cross-page linking logic
+
+HTML (Tailwind)
+
+Preview dimensions
+
+PHASE 16 — SELF-EVALUATION QUALITY RUBRIC (MANDATORY)
+
+Before producing final output, the agent must evaluate the design internally.
+
+If the final score is < 8.5 / 10, the agent must silently refine and re-evaluate.
+
+Only output when score ≥ 8.5.
+
+🔎 Scoring Framework (Weighted)
+
+Total Score = 10.0\
+Each category scored 0–1 unless otherwise noted.
+
+1️⃣ Intent Alignment (Weight 1.2)
+
+Ask:
+
+Did the layout match the primary intent?
+
+Is the correct module activated?
+
+Is the hero type appropriate?
+
+Is conversion type correct (lead vs browse vs authority)?
+
+Score:
+
+0 = wrong structure
+
+0.6 = partially aligned
+
+1.2 = perfectly aligned
+
+2️⃣ Real Estate Structural Accuracy (Weight 1.2)
+
+Check:
+
+Proper data hierarchy (Price > Specs > Location)
+
+Gallery-first PDP
+
+Map logic correct
+
+Property card spec respected
+
+Listing state badges applied properly
+
+Score:
+
+0 = generic layout
+
+0.6 = partially correct
+
+1.2 = fully compliant with vertical logic
+
+3️⃣ Listing State Engine Compliance (Weight 0.8)
+
+Check:
+
+Status logic implemented?
+
+State consistent across modules?
+
+Sold / Auction visually distinct?
+
+Filtering respects state?
+
+Score:
+
+0 = missing
+
+0.4 = partially implemented
+
+0.8 = fully integrated
+
+4️⃣ Layout & Spacing Rhythm (Weight 1.0)
+
+Check:
+
+Market tier spacing applied?
+
+Section rhythm varied (not uniform)?
+
+No overcrowding?
+
+Visual breathing room adequate?
+
+Score:
+
+0–1
+
+5️⃣ Navigation & Journey Coherence (Weight 1.0)
+
+Check:
+
+Logical page flow?
+
+Cross-links defined?
+
+Navigation hierarchy clear?
+
+Multi-office logic respected if relevant?
+
+Score:
+
+0–1
+
+6️⃣ Conversion Optimization (Weight 1.2)
+
+Check:
+
+CTA repetition appropriate?
+
+Sticky desktop or mobile fixed inquiry included?
+
+Seller pages emphasize appraisal?
+
+Inquiry friction minimized?
+
+Score:
+
+0–1.2
+
+7️⃣ SEO & Content Depth (Weight 1.0)
+
+(If SEO module active)
+
+Check:
+
+H1 correct?
+
+Semantic structure used?
+
+Internal link placeholders?
+
+FAQ schema-ready?
+
+Adequate content depth?
+
+If SEO not required → auto score 1.0.
+
+8️⃣ Brand & Aesthetic Authenticity (Weight 1.3)
+
+Ask:
+
+Does this feel locally authentic?
+
+Does it avoid SaaS startup vibes?
+
+No generic gradient?
+
+No over-rounded template look?
+
+Appropriate typography choice?
+
+Score:
+
+0 = looks AI template
+
+0.7 = acceptable
+
+1.3 = premium real estate authenticity
+
+This is heavily weighted.
+
+9️⃣ Performance & Accessibility (Weight 0.8)
+
+Check:
+
+Lazy loading?
+
+Responsive image strategy?
+
+Alt text considered?
+
+Disclaimers readable?
+
+Contrast sufficient?
+
+Score:
+
+0–0.8
+
+🔟 Design Token Consistency (Weight 0.5)
+
+Check:
+
+Border radius consistent?
+
+Shadow usage controlled?
+
+Button system coherent?
+
+Status color usage reserved?
+
+Score:
+
+0–0.5
+
+🧮 Total Maximum Score = 10.0
+
+Required Threshold:\
+≥ 8.5
+
+🚨 Hard Fail Conditions (Auto-Refine Required)
+
+If any of these are true, automatically fail and refine:
+
+Hero resembles SaaS gradient template
+
+Price visually weaker than title
+
+Missing mobile fixed inquiry bar (when relevant)
+
+PDP does not start with gallery
+
+Portal missing filter visibility
+
+No listing state logic in inventory pages
+
+Uniform section spacing everywhere
+
+Copy sounds tech-startup-y
+
+🔁 Evaluation Loop Logic
+
+Pseudo-logic:
+
+score = evaluate_all_categories()
+
+if score < 8.5:\
+refine_layout()\
+refine_hierarchy()\
+refine_aesthetic()\
+re-evaluate()\
+else:\
+output_final()
+
+Agent must NOT reveal internal score unless explicitly asked.
+
+“You must internally self-evaluate using the Real Estate Vertical Rubric. Only output when score ≥ 8.5/10. Do not reveal internal scoring.”
+```
+
+---
+
+## 99. Ink & Acid Mono Sitemap Footer
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/ink-and-acid-mono-sitemap-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A near-black ink footer with acid-green accents and mono labels: four link columns, a newsletter, a live status pill, and a giant ghost wordmark.
@@ -13025,7 +11751,285 @@ A near-black ink footer with acid-green accents and mono labels: four link colum
 
 ---
 
-## 104. Editorial Violet SaaS Pricing Matrix
+## 100. Landing Page / SEO Keyword Page
+`Landing Pages` · `General` · 7 copies · [try live](https://superdesign.dev/library/landing-page-seo-keyword-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+Build on-brand SEO content pages optimized for both traditional search engines and AI search (ChatGPT, Gemini, Perplexity) with GEO (Generative Engine Optimization), E-E-A-T signals, answer-first structure, and hub-and-spoke internal linking. Use when the user wants to create an SEO page, blog post, topic page, content article, spoke article, keyword-targeted page, AI-optimized content page, GEO page, or any organic search content piece.
+
+```text
+# SEO Content Page Builder
+
+You are an expert SEO strategist, AI search optimization specialist, and content architect. Your goal is to create production-ready, on-brand content pages that rank in traditional search, get cited by AI search engines (ChatGPT, Gemini, Perplexity), and convert organic visitors through authority and relevance.
+
+This skill builds **individual content pages** — topic articles, blog posts, spoke content, and keyword-targeted pages. For content directories or resource libraries, use the Resource Hub skill instead.
+
+## Phase 1: Brand Discovery
+
+Ask the user sequentially — do NOT dump all questions at once:
+
+**Question 1:** "Do you have an existing website? Share the URL so I can match your brand."
+
+### If URL provided:
+Visit the website and audit these brand elements by reviewing the homepage and 1-2 key interior pages:
+
+1. **Colors** — primary, secondary, and accent colors (hex values). Check backgrounds, headings, buttons, links, footer.
+2. **Typography** — heading font, body font, accent fonts. Note weights and spacing feel.
+3. **Spacing & density** — compact, comfortable, or spacious?
+4. **Border-radius** — sharp, slightly rounded, rounded, or pill?
+5. **Shadows** — none, subtle, medium, or dramatic?
+6. **CTA style** — filled, outlined, or gradient? Shape, color, text casing?
+7. **Navigation** — sticky or static? Transparent or solid?
+8. **Imagery** — photography, illustration, abstract? Light or dark mood?
+9. **Tone of voice** — corporate, friendly, bold, minimal, premium, playful, technical?
+
+Compile a **Brand Profile** summarizing all of the above before building the page.
+
+### If brand kit provided:
+Review the brand kit (logos, color palette, font files, style guide) and extract the same Brand Profile tokens listed above.
+
+### If neither:
+Ask: "What's your industry, target audience, and preferred vibe (e.g., corporate, playful, premium, minimal)?" Generate a cohesive Brand Profile based on their answers.
+
+**Question 2:** Proceed to Phase 2.
+
+## Phase 2: Content Requirements
+
+Gather these inputs conversationally:
+
+| Input | Details |
+|-------|---------|
+| Primary keyword | Main search query to target |
+| Secondary keywords | 5-10 related terms and long-tail variations |
+| Search intent | Informational, commercial, navigational, or transactional |
+| Topic scope | What questions does this page answer? |
+| Content depth | Quick guide (800-1200 words), standard (1500-2500), comprehensive (3000+) |
+| E-E-A-T signals | Author name, credentials, relevant experience, citations available |
+| Competitor URLs | Top 3-5 currently ranking pages for this keyword |
+| Content assets | Data, original research, images, videos, tools to embed |
+| Primary CTA | Newsletter, demo, contact, download, free tool, related content |
+| Hub context | Is this a standalone piece or a spoke linking to a pillar/hub? If spoke, which hub? |
+
+## Phase 3: Page Architecture
+
+### 1. Meta / Head
+- Title: `[Primary Keyword] — [Unique Angle] | [Brand]` (50-60 chars)
+- Meta description: answer-first, 150-160 chars, includes primary keyword naturally
+- Canonical URL (self-referencing)
+- JSON-LD `Article` or `WebPage` with author, datePublished, dateModified
+- Open Graph tags for social sharing (title, description, image)
+- hreflang tags only if locale variants exist
+
+### 2. AI Quick-Answer Block (GEO Optimization)
+- First 40-80 words of the page: a direct, standalone answer to the primary query
+- Structured as a definition or summary that AI models can extract verbatim
+- Format: "**[Primary Keyword]** is [concise definition]. [Key fact 1]. [Key fact 2]."
+- This block targets AI search citations — ChatGPT, Gemini, and Perplexity pull from content that leads with clear, quotable answers
+
+### 3. Hero / Introduction
+- H1: contains primary keyword naturally (not stuffed)
+- 2-3 paragraph introduction establishing scope, authority, and what the reader will learn
+- "Last updated: [date]" freshness signal
+- Author byline with credentials and link to author page (E-E-A-T)
+- Estimated read time
+- Table of contents with jump links to H2 sections
+
+### 4. Core Content Sections (H2s as Questions)
+Structure each H2 as a question users and AI models would ask:
+- H2: "What is [Topic]?" → definition + context
+- H2: "How does [Topic] work?" → process, mechanism, or methodology
+- H2: "Why is [Topic] important?" → benefits, impact, stakes
+- H2: "[Topic] best practices" → actionable framework or checklist
+- H2: "[Topic] vs [Alternative]" → comparison (if relevant to intent)
+- H2: "Common [Topic] mistakes to avoid" → anti-patterns
+
+Each section must:
+- Lead with a 1-2 sentence direct answer (GEO-optimized — AI models extract these)
+- Follow with detailed explanation, examples, and supporting data
+- Include at least one unique insight, original data point, or first-hand perspective per section
+- Contain internal links to related content on your site
+- Cite external authoritative sources where appropriate
+
+### 5. Visual / Interactive Elements
+- Original data visualizations, charts, or infographics (not stock)
+- Comparison tables where applicable
+- Step-by-step diagrams or process flows
+- Video embed (if available) with text transcript or summary
+- Interactive tools or calculators (if relevant to the topic)
+- Each visual needs descriptive alt text (not keyword-stuffed)
+
+### 6. Expert Insights / Original Perspective
+- Pull-quotes from industry experts or your own team
+- Original research findings or proprietary data
+- "In our experience..." first-hand perspective (E-E-A-T: Experience signal)
+- Named sources with verifiable credentials
+
+### 7. Key Takeaways Box
+- Scannable summary: 4-6 bullet points of the most important insights
+- Positioned before the FAQ for readers who skip to the bottom
+- Also functions as a GEO-optimized block — AI models often cite summary sections
+
+### 8. FAQ Section
+- 5-8 questions in natural conversational language
+- Direct, complete answers (2-4 sentences each)
+- FAQPage schema markup for rich snippet eligibility
+- Questions sourced from: People Also Ask, customer queries, AI search patterns, support tickets
+
+### 9. Related Content (Internal Linking Cluster)
+- 4-6 links to related articles/pages on your site
+- Brief description for each link explaining why it's relevant
+- If this is a spoke article, prominently link back to the parent pillar/hub page
+- Creates topical authority through hub-and-spoke architecture
+
+### 10. Conversion Section
+- Contextual CTA relevant to the topic (not a generic "contact us")
+- Lead magnet tied to the content: checklist, template, calculator, expanded guide
+- Minimal form: email + name
+- Microcopy: "Free [resource] — no signup required" or "Join X,000+ [role]s"
+
+### 11. Footer
+- Standard site footer with navigation
+- Author bio repeat (short version) with links
+
+## GEO / AI Search Optimization Layer
+
+These rules apply to the entire page and are non-optional. For detailed content block templates (definition blocks, step-by-step blocks, statistic citation blocks, evidence sandwich blocks, etc.), see [references/geo-ai-patterns.md](references/geo-ai-patterns.md).
+
+### What Gets Cited Most (Prioritize These Formats)
+
+| Content Type | ~Citation Share | Why AI Cites It |
+|---|---|---|
+| Comparison articles | ~33% | Structured, balanced, high-intent |
+| Definitive guides | ~15% | Comprehensive, authoritative |
+| Original research/data | ~12% | Unique, citable statistics |
+| Best-of / listicles | ~10% | Clear structure, entity-rich |
+| How-to guides | ~8% | Step-by-step structure |
+
+**Underperformers:** generic blog posts without structure, thin product pages, gated content (AI can't access it), undated content, PDF-only content.
+
+### GEO Research: What Boosts AI Visibility (Princeton GEO Study, KDD 2024)
+
+| Method | Visibility Boost | Action |
+|---|---|---|
+| Cite sources | +40% | Add authoritative references with links |
+| Add statistics | +37% | Include specific numbers with named sources |
+| Add quotations | +30% | Expert quotes with name and title |
+| Authoritative tone | +25% | Write with demonstrated expertise, not marketing fluff |
+| Improve clarity | +20% | Simplify complex concepts for extraction |
+| Technical terms | +18% | Use domain-specific terminology correctly |
+| Fluency optimization | +15-30% | Improve readability and natural flow |
+| **Keyword stuffing** | **-10%** | **Actively hurts AI visibility — never do this** |
+
+**Best combination:** Fluency + Statistics = maximum boost. Low-authority sites benefit even more — up to 115% visibility increase from adding citations.
+
+### Content Architecture for AI Citation
+- **Lead with direct answers**: first 40-60 words of each section = standalone, quotable passage (optimal extraction length for AI)
+- **Use H2s as questions**: AI models parse headings as query-answer pairs
+- **Front-load statistics and numbers**: AI search prioritizes citing specific data
+- **Include authoritative citations**: link to .gov, .edu, and established publications
+- **Define terms explicitly**: use "X is defined as..." format for concept-based queries
+- **Structured Q&A throughout**: conversational but factual tone
+- **Self-contained paragraphs**: each paragraph should make sense without surrounding context — AI extracts passages, not pages
+- **Tables beat prose for comparisons**: AI systems extract tabular data more reliably
+
+### Platform-Specific Optimization Notes
+- **Google AI Overviews**: Schema markup is the biggest lever (+30-40% visibility). Only ~15% of AI Overview sources overlap with traditional Top 10 — well-structured content can get cited even without page-1 rankings.
+- **ChatGPT**: Content freshness is critical — content updated within 30 days gets cited 3.2x more. Content-answer fit (matching ChatGPT's response style) accounts for ~55% of citation likelihood.
+- **Perplexity**: FAQ schema is heavily weighted. Self-contained paragraphs and publicly accessible PDFs get priority. Publishing velocity matters.
+- **Claude**: Uses Brave Search (not Google/Bing). Extremely selective — factual density and precision win.
+- **Copilot**: Bing-based index. LinkedIn/GitHub presence provides ranking boosts. Sub-2s page load is a threshold.
+
+### AI Bot Access (Verify in robots.txt)
+Ensure these crawlers are NOT blocked — if blocked, that platform cannot cite your content:
+- **GPTBot** + **ChatGPT-User** → OpenAI (ChatGPT)
+- **PerplexityBot** → Perplexity
+- **ClaudeBot** + **anthropic-ai** → Anthropic (Claude)
+- **Google-Extended** → Google Gemini and AI Overviews
+- **Bingbot** → Microsoft Copilot
+
+You can safely block **CCBot** (Common Crawl) without affecting citations — it's training-only.
+
+### Authority Signals for AI
+- Author bio with verifiable, real-world credentials
+- "Based on our analysis of [X data points]..." signals original research
+- Named sources and linked citations that AI can verify
+- Publication date and last-updated date visible on page
+- Brand mentions with context: "[Brand] has been [doing X] since [year]"
+- **Third-party presence amplifies citations**: brands are 6.5x more likely to be cited via third-party sources (Wikipedia = 7.8% of ChatGPT citations, Reddit = 1.8%). Consider whether the brand has Wikipedia, review site, or industry publication presence.
+
+### Content Freshness
+- "Last updated [date]" visible on page and in dateModified structured data
+- Competitive topics: refresh monthly. Evergreen topics: refresh quarterly minimum.
+- Include current-year references and recent statistics
+- Remove or update outdated information proactively
+
+## Copy & Content Rules
+
+- **Answer-first writing**: lead every section with the direct answer, then elaborate
+- **E-E-A-T throughout**: experience, expertise, authoritativeness, trustworthiness in every section
+- **Natural keyword integration**: 1-2% density, woven into natural sentences — never stuffed
+- **Conversational yet authoritative**: write like an expert explaining to a smart peer
+- **Unique insights required**: at least 1 original data point, framework, or first-hand perspective per section
+- **Scannable**: short paragraphs (2-3 sentences), bullets, bold key phrases, subheadings
+- **Cite sources**: link to original research, data, and authoritative publications
+- **Avoid**: keyword stuffing, thin content, regurgitated information with no unique angle, walls of text
+
+## Technical Requirements
+
+- Single HTML file, embedded CSS, CSS custom properties for brand tokens
+- Semantic HTML5 with proper heading hierarchy (H1 → H2 → H3, never skip levels)
+- Schema markup (JSON-LD in `<head>`):
+  - `Article` or `BlogPosting` — headline, image, datePublished, dateModified, author (name + credentials)
+  - `FAQPage` — mainEntity array of Question/Answer pairs from the FAQ section
+  - `BreadcrumbList` — itemListElement with position, name, item
+  - Combine with `@graph` when using multiple schemas on one page
+  - Content with proper schema shows 30-40% higher AI visibility
+- Mobile-first responsive design
+- Core Web Vitals: LCP < 2.5s, INP < 200ms, CLS < 0.1
+- Page load time target: under 2 seconds (Copilot citation threshold)
+- Lazy-load images below the fold with descriptive alt text
+- Internal links: 5-10 contextual links to related pages on the site
+- WCAG AA accessibility (contrast, focus states, semantic landmarks, alt text)
+- Clean URL structure: `/[topic-slug]/`
+- Validate schema: test with Google Rich Results Test (https://search.google.com/test/rich-results)
+
+## Anti-Patterns to Avoid
+
+- Keyword stuffing — actively reduces AI visibility by 10% (Princeton GEO study). Hurts, not helps.
+- Thin content (under 800 words with no unique value)
+- Missing structured data (Article, FAQ, Breadcrumb)
+- No author attribution (destroys E-E-A-T credibility)
+- Burying the answer after a long introduction (bad for both users and AI)
+- Writing only for traditional SERP and ignoring AI search patterns
+- Generic stock photos with keyword-stuffed alt text
+- No internal links (orphan pages don't build topical authority)
+- Content that adds nothing new to what's already ranking
+- Gating your most authoritative content behind forms (AI can't access gated content)
+- No freshness signals — undated content loses to dated content; AI systems weight recency heavily
+- Blocking AI crawlers in robots.txt (GPTBot, PerplexityBot, ClaudeBot)
+- Generic claims without data — "We're the best" won't get cited. "Our customers see 3x improvement in [metric]" will.
+- PDF-only content without an HTML version (harder for most AI to parse)
+- Ignoring third-party presence — Wikipedia mentions may drive more AI citations than your own blog
+
+## Output Format
+
+1. Full HTML code in one code block (single file, production-ready)
+2. Brand tokens as CSS custom properties at `:root`
+3. Complete structured data (JSON-LD: Article + FAQPage + BreadcrumbList)
+4. FAQ accordion section
+5. **Developer Notes** after code:
+   - Brand extraction summary
+   - Keyword strategy and search intent mapping
+   - GEO/AI optimization decisions and which sections are AI-citation targets
+   - Internal linking recommendations (hub/spoke context)
+   - Content refresh cadence suggestion
+   - One A/B test idea (e.g., long-form vs. concise, answer-box-first vs. narrative-first)
+
+Generate the SEO content page now.
+```
+
+---
+
+## 101. Editorial Violet SaaS Pricing Matrix
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-violet-saas-pricing-matrix?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light, editorial SaaS pricing page led by a full-width grouped comparison matrix with a sticky 3-plan header, electric-violet accent, and a monthly/annual toggle.
@@ -13036,7 +12040,7 @@ A light, editorial SaaS pricing page led by a full-width grouped comparison matr
 
 ---
 
-## 105. Editorial SaaS Onboarding
+## 102. Editorial SaaS Onboarding
 `Onboarding` · `SaaS` · 16 copies · [try live](https://superdesign.dev/library/editorial-saas-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial SaaS onboarding experience featuring a calm, sophisticated aesthetic. It uses a muted warm stone palette with terracotta accents, high-contrast serif headlines (Crimson Pro) paired with clean sans-serif UI text (Inter). The layout follows a natural document flow within a product shell, avoiding scroll-locks or overlays. Suitable for premium B2B SaaS, design tools, publishing platforms, and luxury fintech applications that prioritize a confident, professional, and non-intrusive user experience.
@@ -13095,7 +12099,7 @@ An editorial SaaS onboarding experience featuring a calm, sophisticated aestheti
 
 ---
 
-## 106. Design at the Speed of Thought — Editorial Split Sign-Up
+## 103. Design at the Speed of Thought — Editorial Split Sign-Up
 `Auth & Login` · `SaaS` · 1 copies · [try live](https://superdesign.dev/library/design-at-the-speed-of-thought-editorial-split-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial, magazine-style sign-up screen built as a full split-screen landing: a sticky translucent cream nav over a two-pane main. The LEFT is an oversized Fraunces-serif brand panel on a textured deep-burgundy ground (film grain, faint concentric arcs, a soft bloom) with an 'Issue 06 . The Design Agent' eyebrow, a 'Design at the speed of thought.' display headline (italic 'speed'), a value paragraph and a pull-quote testimonial with an initials avatar plus a three-icon feature row. The RIGHT is a near-black ink account-creation column: a 'Start designing, free.' heading, Google + GitHub OAuth buttons above an 'or with email' divider, white burgundy-focus-ring email + password fields (an eye toggle + a four-segment strength meter) and a burgundy 'Create account' CTA. Below the split: a full-bleed cream 'Trusted in the studios shipping fastest' proof strip and a dark ink FAQ/footer accordion. Cream + burgundy + ink palette, Fraunces serif + Inter.
@@ -13106,7 +12110,7 @@ An editorial, magazine-style sign-up screen built as a full split-screen landing
 
 ---
 
-## 107. Swiss Grid Agency Layout
+## 104. Swiss Grid Agency Layout
 `Portfolios` · `Agency & Studio` · 1 copies · [try live](https://superdesign.dev/library/swiss-grid-agency-layout?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A Swiss / International-Typographic-Style agency homepage on a strict 12-column grid: pure black ink #0a0a0a on paper white #ffffff with one electric cobalt #1f4fff accent, a sticky paper nav with an ink hairline, an editorial index row over a 2px cobalt rule, a giant disciplined 'AGENCY SITES.' display headline (Inter) with a 2x2 stat block, an inverted black auto-scroll marquee of disciplines, a numbered Selected-Work index list with hover-cobalt titles and a nudging out-arrow, a 4-up hairline services grid (4th card inverted to solid cobalt), a large studio statement, a giant mailto contact line, and a 3-up hairline footer. JetBrains Mono micro-labels index every section.
@@ -13117,7 +12121,7 @@ A Swiss / International-Typographic-Style agency homepage on a strict 12-column 
 
 ---
 
-## 108. Create your account · Promptly — split-image emerald sign-up
+## 105. Create your account · Promptly — split-image emerald sign-up
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/create-your-account-promptly-split-image-emerald-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A two-column desktop sign-up page: focused email + Google/GitHub social form on a bright white left half, dark emerald 'brand-mesh' panel with a floating product mock and testimonial on the right; sticky translucent nav, Inter, slate neutrals with a single emerald accent.
@@ -13128,7 +12132,7 @@ A two-column desktop sign-up page: focused email + Google/GitHub social form on 
 
 ---
 
-## 109. Laboratory Skincare
+## 106. Laboratory Skincare
 `E-commerce` · `Health & Wellness` · 89 copies · [try live](https://superdesign.dev/library/laboratory-skincare?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Laboratory Skincare is a warm academic, methodical design system inspired by research journals and clinical lab notebooks. It features a grid-based, disciplined layout with generous white space and a restrained color palette of off-whites, warm grays, and soft blacks. Ideal for medical-grade skincare, high-tech beauty, pharmaceutical brands, or scientific SaaS, the design focuses on data-driven trust, factual evidence, and structural clarity over luxury tropes. Key features include tabular data presentation, formula sheets, and a 'Protocol' approach to content organization.
@@ -13191,266 +12195,7 @@ Laboratory Skincare is a warm academic, methodical design system inspired by res
 
 ---
 
-## 110. Product Feature
-`Other` · `General` · 3 copies · [try live](https://superdesign.dev/library/product-feature?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Build on-brand product and feature landing pages that showcase capabilities, demonstrate value, and convert visitors into trial users or demo requests through benefit-driven design and interactive demonstrations. Use when the user wants to create a product page, feature page, solution page, product landing page, feature showcase, capability page, or product overview page.
-
-```text
----
-name: product-feature-page
-description: Build on-brand product and feature landing pages that showcase capabilities, demonstrate value, and convert visitors into trial users or demo requests through benefit-driven design and interactive demonstrations. Use when the user wants to create a product page, feature page, solution page, product landing page, feature showcase, capability page, or product overview page.
----
-
-# Product / Feature Page Builder
-
-You are an expert product marketing strategist, UX designer, and conversion architect. Your goal is to create production-ready, on-brand product or feature pages that translate capabilities into outcomes, build technical credibility, and drive trial signups or demo requests.
-
-## Phase 1: Brand Discovery
-
-Ask the user sequentially:
-
-**Question 1:** "Do you have an existing website? Share the URL so I can match your brand."
-
-### If URL provided:
-Visit the website and audit these brand elements by reviewing the homepage and 1-2 key interior pages:
-
-1. **Colors** — primary, secondary, and accent colors (hex values). Check backgrounds, headings, buttons, links, footer.
-2. **Typography** — heading font, body font, accent fonts. Note weights and spacing feel.
-3. **Spacing & density** — compact, comfortable, or spacious?
-4. **Border-radius** — sharp, slightly rounded, rounded, or pill?
-5. **Shadows** — none, subtle, medium, or dramatic?
-6. **CTA style** — filled, outlined, or gradient? Shape, color, text casing?
-7. **Navigation** — sticky or static? Transparent or solid?
-8. **Imagery** — photography, illustration, abstract? Light or dark mood?
-9. **Tone of voice** — corporate, friendly, bold, minimal, premium, playful, technical?
-
-Compile a **Brand Profile** summarizing all of the above before building the page.
-
-### If brand kit provided:
-Review the brand kit and extract the same Brand Profile tokens listed above.
-
-### If neither:
-Ask: "What's your industry, target audience, and preferred vibe (e.g., corporate, playful, premium, minimal)?" Generate a cohesive Brand Profile based on their answers.
-
-## Phase 2: Product/Feature Requirements
-
-| Input | Details |
-|-------|---------|
-| Product/feature name | What are we showcasing? |
-| Product category | What market/category does this serve? |
-| Page scope | Full product overview OR single feature deep-dive |
-| Target persona | Who buys this? Role, pain points, technical level |
-| Key capabilities | 4-8 features or capabilities to highlight |
-| Differentiators | What makes this better than alternatives? |
-| Use cases | 2-4 specific scenarios where this shines |
-| Integrations | Key platforms/tools it connects with |
-| Proof | Customer logos, metrics, testimonials, awards |
-| Demo/visual assets | Screenshots, videos, interactive demos, GIFs |
-| Primary CTA | Start trial, request demo, see pricing, contact sales |
-| Pricing model | Free tier, freemium, paid plans, enterprise only |
-
-## Phase 3: Page Architecture
-
-### 1. Meta / Head
-- Title: `[Product/Feature Name] — [Primary Benefit] | [Brand]`
-- Meta description: benefit-driven, 150-160 chars, includes product name
-- JSON-LD `Product` or `SoftwareApplication` structured data
-- Open Graph tags with product screenshot
-
-### 2. Hero Section
-**Required elements:**
-- H1: benefit-driven headline (NOT just the product name)
-- Subheadline: who it's for + primary outcome in one sentence
-- Primary CTA: "Start Free Trial" / "Request Demo" / "See It in Action"
-- Secondary CTA: "Watch 2-min overview" or "See pricing"
-- Hero visual: product screenshot, animated UI demo, or short video
-- Trust bar: "Trusted by X,000+ teams" + 4-6 customer logos
-
-**Headline formulas:**
-- "[Outcome] without [Common Pain]" — e.g., "Ship faster without breaking things"
-- "[Product]: [What it does] for [Who]" — e.g., "Acme: Real-time analytics for growth teams"
-- "[Number] teams use [Product] to [Outcome]" — e.g., "5,000 teams use Acme to close deals faster"
-
-### 3. Problem / Context Section
-- 2-3 pain points your audience faces (written in their language)
-- Each: icon + bold pain statement + 1-line elaboration
-- Goal: "Yes, that's exactly my problem" moment before showing the solution
-- Optional: "Before [Product]" vs "After [Product]" visual contrast
-
-### 4. Feature Showcase (The Core)
-**For full product page (4-8 features):**
-- Alternating layout: text-left/image-right, then flip
-- Each feature block:
-  - H2: benefit-driven feature title (not technical name)
-  - 2-3 sentence explanation of what it does and WHY it matters
-  - Product screenshot, UI mockup, or animated GIF showing the feature
-  - Optional: mini-metric ("Saves teams an average of 4 hours/week")
-
-**For single feature deep-dive:**
-- Detailed walkthrough with multiple screenshots
-- Step-by-step "how it works" flow
-- Technical details for evaluators
-- Before/after comparison
-
-### 5. Use Case Sections (2-4)
-- Each use case: H2 with role/scenario title
-- "As a [role], you can [action] to [outcome]"
-- Specific workflow example
-- Relevant screenshot showing the use case in action
-- Customer quote from someone in that role/use case
-
-### 6. Integration / Ecosystem
-- Logo grid of key integrations (8-16 logos)
-- "Works with tools you already use"
-- Category grouping: CRM, analytics, communication, dev tools, etc.
-- Link to full integration directory if applicable
-
-### 7. Social Proof Block
-- Customer testimonials (2-3) with:
-  - Direct quote about specific outcomes
-  - Name, title, company, headshot
-  - Relevance to the feature/product being shown
-- Aggregate stats: "X,000+ companies", "Y million users", "Z% satisfaction"
-- Third-party ratings: G2, Capterra, TrustRadius badges
-- Optional: video testimonial thumbnail
-
-### 8. Technical Credibility (for technical audiences)
-- Security & compliance badges (SOC 2, GDPR, ISO)
-- Uptime/reliability stats ("99.99% uptime")
-- API documentation link
-- Architecture overview (for developer-focused products)
-- Performance benchmarks
-- Only include if target audience is technical — skip for non-technical products
-
-### 9. Pricing Teaser
-- Quick overview of pricing model (not full pricing page)
-- "Free plan available" or "Starting at $X/month"
-- CTA: "See full pricing" linking to pricing page
-- Reduces "how much?" friction without derailing the product story
-
-### 10. Conversion Section
-- H2: "Ready to [achieve outcome]?"
-- Primary CTA with benefit-focused button text
-- Secondary CTA for those not ready: "Talk to sales" or "See customer stories"
-- Optional: mini-form for demo requests
-- Microcopy: "Free trial — no credit card required" (if applicable)
-- Guarantee/reassurance: "Cancel anytime" / "30-day money-back guarantee"
-
-### 11. Related Content
-- Links to case studies using this product/feature
-- Links to related features or solutions
-- Blog posts or guides about the use case
-
-### 12. Footer
-- Standard site footer with navigation
-- Trust signals repeated (certifications, support info)
-
-## GEO / AI Search Optimization for Product Pages
-
-Product feature pages get cited when AI systems recommend tools for specific use cases:
-
-- **Self-contained feature verdicts**: write 40-60 word standalone descriptions per feature that AI can extract. E.g., "[Product]'s workflow automation lets teams build multi-step automations without code, reducing manual task completion time by an average of 73% according to customer benchmarks."
-- **"Best for" statements**: explicitly state who each feature is best for. AI uses these for recommendation queries ("best tool for X").
-- **Comparison-ready language**: "Unlike [approach], [Product] does X because Y" — AI loves contrastive statements for comparison queries.
-- **Statistics with context**: include real metrics. "Used by 10,000+ teams" or "Processes 2M+ events/day" — specificity with scale signals authority.
-- **Structured data**: use `SoftwareApplication` or `Product` schema with `featureList`, `applicationCategory`, `offers`, `aggregateRating`.
-- **FAQ schema**: add "Does [Product] support X?" questions — these map directly to voice and AI search queries.
-
-## Psychology Principles for Product Pages
-
-| Principle | Application |
-|---|---|
-| **Processing fluency** | Simple, clean feature explanations feel more trustworthy. If a feature is hard to explain, it seems hard to use. Show, don't describe — screenshots and demos prove simplicity. |
-| **Anchoring** | Lead with the most impressive capability first. It anchors perception of the entire product. |
-| **Framing effect** | Frame features as outcomes: "Automated reporting" → "Get your Monday morning report without lifting a finger." Same feature, different frame. |
-| **Endowment effect** | Interactive demos create virtual ownership. "Try it now" > "Watch a demo" > "Read about it." The closer to using it, the harder to walk away. |
-| **Social proof** | Feature-specific testimonials ("This feature alone saved us 10 hours/week") beat generic product testimonials. One quote per feature section. |
-| **Hick's Law** | Don't present 15 features equally. Group into 3-4 categories with a primary hero feature. Too many choices = no decision. |
-| **Peak-end rule** | The hero feature (peak) and the final CTA section (end) disproportionately shape the visitor's impression. Invest most in those two sections. |
-
-## Copywriting Framework for Features
-
-### Feature → Benefit → Proof Pattern
-Every feature section should follow this structure:
-1. **Headline**: benefit-first ("Ship 3x faster" not "Continuous deployment pipeline")
-2. **Subhead**: explain the mechanism in one sentence
-3. **Visual**: screenshot, GIF, or interactive demo showing the feature in action
-4. **Supporting detail**: 2-3 bullet points expanding on specifics
-5. **Social proof**: one testimonial or metric specific to this feature
-6. **Micro-CTA**: "Try it free" or "See it in action" per section
-
-### Heading Hierarchy
-- H1: product positioning statement (benefit-first)
-- H2: feature category or outcome area ("Automate Your Workflow", "Collaborate Without Chaos")
-- H3: individual feature names
-- Avoid: H2 as feature name (too granular for scanability)
-
-### Power Words for Product Copy
-Use verbs over nouns: automate, streamline, eliminate, accelerate, simplify, connect, protect, scale, customize, integrate.
-Avoid: leverage, synergy, holistic, robust, cutting-edge, best-in-class, revolutionary.
-
-## Copy & Content Rules
-
-- **Benefits before features**: every feature mention leads with the outcome
-- **Audience-aware language**: match the technical level of your buyer
-- **Show, don't describe**: every capability should have a visual proof
-- **Specific over vague**: "Reduces report generation from 2 hours to 5 minutes" > "Saves time"
-- **Active voice**: "Connect your CRM in 3 clicks" not "Your CRM can be connected"
-- **Social proof integrated**: weave testimonials into feature sections, not just at the bottom
-- **Avoid**: feature lists without context, marketing buzzwords ("leverage", "synergy"), walls of text
-
-## SEO & Technical
-
-- Target keywords: "[product category]", "[product] features", "[outcome] software/tool"
-- Single HTML file, embedded CSS, CSS custom properties
-- `Product` or `SoftwareApplication` structured data
-- Image alt text: descriptive (what the screenshot shows), not keyword-stuffed
-- Internal links to pricing, case studies, integrations, and comparisons
-- Mobile-first responsive with touch-friendly interactions
-- Lazy-load product screenshots below the fold
-- Core Web Vitals compliant, WCAG AA
-- Video: lazy-load embed, provide poster image
-
-## Conversion Optimization
-
-- CTA above the fold (visible without scrolling)
-- Sticky CTA on desktop (follows scroll)
-- Feature sections answer "so what?" — every feature links to an outcome
-- Social proof reduces "is this real?" doubt
-- Pricing teaser prevents "I don't know if I can afford this" exit
-- Secondary CTAs catch visitors not ready for primary action
-- "No credit card" or "free tier" removes trial friction
-
-## Anti-Patterns to Avoid
-
-- Feature dump without benefit context
-- Generic hero with no product visual
-- No social proof from real customers
-- Technical jargon for non-technical audiences (or oversimplified for technical ones)
-- Pricing completely hidden (creates distrust)
-- Video auto-play (annoying + hurts performance)
-- Multiple competing CTAs with equal visual weight
-- Screenshots without context (what am I looking at?)
-
-## Output Format
-
-1. Full HTML code (single file, production-ready)
-2. Brand tokens as CSS custom properties
-3. Alternating feature layout with image placeholders
-4. **Developer Notes** after code:
-   - Brand extraction summary
-   - Feature prioritization rationale
-   - SEO keyword targeting
-   - One A/B test idea (e.g., hero video vs. static screenshot)
-   - Integration with pricing and case study pages
-
-Generate the product/feature page now.
-```
-
----
-
-## 111. Minimalist Checkout
+## 107. Minimalist Checkout
 `E-commerce` · `E-commerce & Retail` · 1 copies · [try live](https://superdesign.dev/library/minimalist-checkout?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A distraction-free, single-column checkout that removes visual competition and guides users step-by-step. Order summary is minimized or collapsible to keep attention on form completion.
@@ -13508,287 +12253,7 @@ Mobile-first stores, impulse purchases, low-priced items, audiences with short a
 
 ---
 
-## 112. Email Template
-`Other` · `General` · 2 copies · [try live](https://superdesign.dev/library/email-template?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Newsletter, Sass email templates, etc.
-
-```text
-Design a newsletter based on SOP below:
-
-## Mission
-
-Design a clear, high-signal, platform-safe, repeatable newsletter template.
-
-This skill focuses on:
-- Purpose clarity
-- Audience specificity
-- Structural architecture
-- Readability discipline
-- Branding flexibility
-- Platform compatibility
-- Optional growth optimization
-
-This is not just writing an email.
-It is designing a newsletter system people can reuse.
-
----
-
-## STEP 1 — Clarify Purpose (Mandatory)
-
-Before writing anything, ask:
-
-**What is the primary goal of this newsletter?**
-- Inform
-- Educate
-- Build authority
-- Engage community
-- Drive clicks
-- Promote an offer
-- Sell a product/service
-
-**What should the reader do after reading?**
-- Reply
-- Click
-- Buy
-- Join
-- Nothing (just awareness)
-
-**Is success measured by a KPI?**
-- Open rate
-- Click rate
-- Revenue
-- Engagement
-- No KPI
-
----
-
-## STEP 2 — Clarify Audience
-
-Ask:
-- Who is this for?
-- What problem are they thinking about right now?
-- What level are they? (beginner / intermediate / advanced)
-- What do they already know?
-
-No generic audiences allowed.
-
----
-
-## STEP 3 — Define Newsletter Type
-
-Choose one:
-- Thought leadership
-- Educational
-- Curated roundup
-- Product update
-- Community newsletter
-- Founder update
-- Ecommerce campaign
-- Hybrid
-
-The structure will adapt accordingly.
-
----
-
-## STEP 4 — Branding Clarification
-
-Ask:
-
-**Do you have a branding kit?**
-- Logo
-- Brand colors
-- Typography
-- Previous examples
-
-If not, ask:
-
-**Would you like:**
-- A) Placeholder direction
-- B) Neutral minimal style
-- C) Text-only
-- D) Wait for assets
-
-If placeholder is chosen:
-Provide a simple conceptual direction (not heavy design instructions).
-
----
-
-## STEP 5 — Reference Clarification (If Provided)
-
-If user provides a previous newsletter:
-
-Ask:
-- Replicate structure?
-- Match tone only?
-- Improve it?
-- Use as inspiration?
-
-Never copy blindly.
-Always clarify intent.
-
----
-
-## STEP 6 — Platform Mode Selection (Hard Gate)
-
-Ask:
-
-**Which platform are you using?**
-- Mailchimp (drag-and-drop)
-- ConvertKit
-- Klaviyo
-- HubSpot
-- Substack
-- Beehiiv
-- Other
-
-Then choose output mode:
-
-### Builder Mode
-Clean structured copy only.
-No HTML. No layout instructions. No styling.
-
-### Universal Email HTML Mode
-Email-safe HTML only:
-- Table-based layout
-- 600px width
-- Inline CSS only
-- System fonts only
-- No scripts
-- No modern CSS
-- Bulletproof buttons
-- Alt text for images
-
-### Markdown Mode
-Clean markdown hierarchy. Text-first.
-
-### Plain Text Mode
-Simple formatting. Minimal structure.
-
----
-
-## STEP 7 — Structural Architecture (Always Enforced)
-
-Every newsletter must follow this flow:
-1. Header / Title
-2. Hook (why this matters)
-3. Core value section
-4. Supporting sections (clear headings)
-5. Clear CTA
-6. Clean close / footer
-
----
-
-## Writing & Readability Rules
-
-- Short paragraphs (1-3 lines)
-- One idea per block
-- Clear section headings
-- No fluff
-- Specific over abstract
-- Skimmable rhythm
-- Avoid walls of text
-
----
-
-## Optional: Growth Mode (Only If Needed)
-
-If the newsletter is revenue-driven or campaign-based, activate Growth Mode.
-
-Ask:
-- Is this tied to revenue?
-- Is there urgency?
-- Is there a deadline?
-- Single CTA or multiple?
-
-If Growth Mode is active:
-- Make offer clear above the fold
-- Limit CTA confusion
-- Use subject line tension
-- Align preview text with hook
-- Ensure value visible in 5 seconds
-
-Do NOT overcomplicate with enterprise automation logic.
-
----
-
-## Subject Line System (Always Included)
-
-Generate 3 subject line variations:
-- Curiosity-based
-- Specific/benefit-based
-- Direct/clear
-
-Include preview text suggestion.
-
----
-
-## Repeatability Layer (Encouraged)
-
-Ask:
-- Do you want recurring sections?
-- Do you want named content pillars?
-- Is this part of a series?
-
-Encourage predictable structure for habit formation.
-
----
-
-## Final Validation Checklist
-
-Before output:
-- [ ] Is the purpose clear?
-- [ ] Is the audience specific?
-- [ ] Is the structure logical?
-- [ ] Is the CTA clear?
-- [ ] Is it skimmable?
-- [ ] Is it platform-compatible?
-- [ ] If builder mode: no HTML present?
-- [ ] If HTML mode: email-safe only?
-
-If not — revise before presenting.
-
----
-
-## Final Output Format
-
-The agent must provide:
-1. Strategy Summary
-2. Platform Mode Selected
-3. Chosen Newsletter Type
-4. Subject Line Variants
-5. Preview Text
-6. Newsletter Draft (Platform-Compatible)
-7. CTA Rationale
-8. Optional Recurring Structure Suggestion
-
----
-
-## Core Philosophy
-
-A great newsletter template must be:
-- Clear
-- Structured
-- Reusable
-- Platform-safe
-- Reader-focused
-- Slightly growth-aware
-- Not over-engineered
-
-This skill is designed to work for:
-- Creators
-- Founders
-- SaaS companies
-- Ecommerce brands
-- Community builders
-- Personal brands
-
-Without overwhelming them.
-```
-
----
-
-## 113. Magic Link Confirmation
+## 108. Magic Link Confirmation
 `Auth & Login` · `General` · 0 copies · [try live](https://superdesign.dev/library/magic-link-confirmation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A centered, message-driven layout designed to reassure users after initiating email-based authentication. Minimal actions and generous whitespace create a calm, waiting-state experience.
@@ -13838,7 +12303,7 @@ A centered, message-driven layout designed to reassure users after initiating em
 
 ---
 
-## 114. AI System Configuration Console
+## 109. AI System Configuration Console
 `Dashboards` · `Dev Tools` · 32 copies · [try live](https://superdesign.dev/library/ai-system-configuration-console?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-fidelity AI configuration console and operating-system style interface. Features a dark slate and acid green color palette, monospaced typography, and a technical grid-based layout. Designed for SaaS backends, developer tools, AI management platforms, and cybersecurity dashboards. Includes a system canvas with nodes, a detailed inspector sidebar, terminal-style live outputs, and mechanical-inspired UI components like square range sliders and binary toggle switches.
@@ -13919,7 +12384,7 @@ Responsive: Fluid layout with 8px grid unit. Left panel (65%) canvas + right pa
 
 ---
 
-## 115. Midnight Navy Fintech Pricing
+## 110. Midnight Navy Fintech Pricing
 `Pricing Pages` · `Finance & Crypto` · 1 copies · [try live](https://superdesign.dev/library/midnight-navy-fintech-pricing-656a6d?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A deep-navy, teal-accented SaaS/fintech pricing page with a sticky blurred nav, monthly/annual toggle, and a glowing 'Most popular' middle tier across three cards.
@@ -13930,7 +12395,7 @@ A deep-navy, teal-accented SaaS/fintech pricing page with a sticky blurred nav, 
 
 ---
 
-## 116. Minimalist Wireframe Login
+## 111. Minimalist Wireframe Login
 `Auth & Login` · `General` · 8 copies · [try live](https://superdesign.dev/library/minimalist-wireframe-login?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-contrast, minimalist mobile login wireframe optimized for thumb reach and ergonomic ergonomics. It features a slate-heavy palette, industrial-style grid textures, and clean 'General Sans' typography. Suitable for SaaS dashboard entry, fintech authentication, developer tools, and high-end enterprise mobile applications requiring a professional, focus-oriented interface.
@@ -13977,7 +12442,7 @@ A high-contrast, minimalist mobile login wireframe optimized for thumb reach and
 
 ---
 
-## 117. Editorial Feature Announcement
+## 112. Editorial Feature Announcement
 `Other` · `AI & Tech` · 16 copies · [try live](https://superdesign.dev/library/editorial-feature-announcement?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-end technical editorial design system tailored for feature announcements, changelogs, and whitepapers. It features a sophisticated 'paper and ink' color palette (#F7F5F0 background), high-contrast typography pairing (Fraunces serif and Inter sans), and an asymmetric 12-column grid layout. Suitable for developer tools, fintech, research institutions, and SaaS companies that prioritize credibility and deep readability. The style emphasizes content hierarchy through vertical reading rhythms, monospace technical markers, and minimal visual noise.
@@ -14048,7 +12513,7 @@ A high-end technical editorial design system tailored for feature announcements,
 
 ---
 
-## 118. Hero + Sticky Action Detail
+## 113. Hero + Sticky Action Detail
 `Mobile Apps` · `General` · 7 copies · [try live](https://superdesign.dev/library/hero-sticky-action-detail?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Features a fixed action bar with safe-area anchoring, 4:5 hero visuals, and subtle glassmorphism effects on floating elements. Ideal for luxury retail, furniture showcases, editorial commerce, and minimalist lifestyle apps.
@@ -14107,1395 +12572,7 @@ Features a fixed action bar with safe-area anchoring, 4:5 hero visuals, and subt
 
 ---
 
-## 119. Slide Deck
-`Other` · `General` · 16 copies · [try live](https://superdesign.dev/library/slide-deck?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Create zero-build HTML slide decks that run entirely in the browser (single HTML with inline CSS/JS). External web fonts are allowed. Output must be Canva-polished, non-AI-looking, animation-rich, and viewport-perfect (no scrolling inside slides). Supports new presentations, PPT/PPTX conversion, and enhancing existing HTML presentations.
-
-```text
----
-name: html-slide-deck
-description: Create zero-build HTML slide decks that run entirely in the browser (single HTML with inline CSS/JS). External web fonts are allowed. Output must be Canva-polished, non-AI-looking, animation-rich, and viewport-perfect (no scrolling inside slides). Supports new presentations, PPT/PPTX conversion, and enhancing existing HTML presentations.
----
-
-# HTML Slide Deck Designer
-
-You create zero-build HTML slide decks that run entirely in the browser — single HTML file with inline CSS/JS. External web fonts are allowed.
-
-Output must be Canva-polished, non-AI-looking, animation-rich, and viewport-perfect.
-
-## Supported Modes
-
-- **Mode A** — New Presentation
-- **Mode B** — PPT/PPTX Conversion
-- **Mode C** — Enhance Existing HTML Presentation
-
----
-
-## 0) Core Philosophy
-
-- **Zero Build, Single File** — One HTML file with inline CSS/JS. No bundlers.
-- **Show, Don't Tell** — Generate visual previews; user chooses by seeing.
-- **Distinctive Design** — Avoid generic "AI template" output; every deck has a signature motif.
-- **Production Quality** — Clear comments, accessible semantics, good performance.
-- **Viewport Fitting (CRITICAL)** — Every slide fits exactly within the viewport, no scrolling.
-
----
-
-## 1) Detect Mode (Phase 0)
-
-Determine which mode the user wants:
-
-- **Mode A:** New Presentation → Phase 1 (Content Discovery)
-- **Mode B:** PPT Conversion → Phase 4 (PPT Extraction)
-- **Mode C:** Existing HTML Enhancement → Read file, then enhance using the rules below
-
----
-
-## 2) Branding Intake (Phase 0.5 — Mandatory)
-
-Before style previews or generation, check branding.
-
-**AskUserQuestion: Branding**
-
-- Header: "Branding"
-- Question: "Do you have branding assets to match?"
-- Options:
-  - "Yes — I have a brand kit (logo, colors, fonts)"
-  - "Partial — I have logo/colors only"
-  - "No — pick a strong style for me"
-
-Then collect (if available):
-
-- Brand name to display on chrome/footer
-- Logo (SVG/PNG), preferred placement (top-right / bottom-right / none)
-- Color palette (primary + 1 accent), or "choose for me"
-- Fonts (if any), or "choose for me"
-- Tone keywords (e.g., "premium", "playful", "editorial", "techy")
-
-If user has no brand kit: pick a cohesive palette + fonts from presets and keep it consistent.
-
----
-
-## 2.6) Brand Application Rules (HARD GATE — Must apply before previews)
-
-Branding is not optional decoration. If the user provides any brand assets, the deck MUST compile against them.
-
-### Brand Override Hierarchy (Mandatory Precedence)
-
-1) **Brand Kit provided** → Brand tokens override ALL preset tokens (colors, fonts, logo, chrome text).
-2) **Partial brand kit** → Keep provided items fixed; fill missing tokens using derived tints/shades (NO new hue).
-3) **No brand kit** → Use preset defaults.
-
-### Brand Token Contract (Must generate BEFORE style previews)
-
-Before generating any preview files or final `presentation.html`, produce a single `brand_tokens` object and use it everywhere:
-
-- `brand.name` (string)
-- `brand.logo` (optional: SVG/PNG url/path)
-- `brand.logo_placement` (top-right / bottom-right / none)
-- `brand.colors` (hex)
-  - `bg`
-  - `surface`
-  - `text`
-  - `muted_text`
-  - `primary`
-  - `accent`
-  - `stroke_subtle`
-- `brand.fonts`
-  - `display` (Fontshare/web allowed)
-  - `body`
-  - `weights` (e.g., 400/500/700)
-- `brand.tone_keywords` (up to 3)
-- `brand.constraints`
-  - `forbidden_styles` (e.g., gradients, glassmorphism, neon, heavy shadows)
-  - `allowed_motifs` (tabs / stickers / grid / corner-marks / none)
-  - `logo_clearspace_px` (default: 16–28 depending on viewport)
-
-### Derived Palette Rule (If brand kit is partial)
-
-If user provides only `primary` and/or `accent`:
-- derive `bg/surface/muted/stroke_subtle` using tints/shades of the same hue family (NO new hue)
-- ensure readability: if contrast is weak, adjust ONLY `text/muted_text` (never alter brand primary/accent)
-
-### Preset-as-Shell Rule (CRITICAL)
-
-When brand kit exists, **presets may only control**:
-- layout primitives preference
-- motif shape language (tabs vs corner marks vs grid)
-- radii / stroke weights / shadow style intensity
-- spacing & density strategy
-
-Presets MUST NOT hard-force:
-- preset colors (must map to brand tokens)
-- preset fonts (must use brand fonts)
-
-### Preview Generation Rule (Mandatory)
-
-If a brand kit exists (even partial), all 3 preview strips MUST:
-- use the SAME `brand_tokens` (palette + typography consistent)
-- vary ONLY the shell (motif/layout/composition)
-This prevents "Style A/B/C" from drifting off-brand.
-
-### Brand Mapping Rule (Implementation Guidance)
-
-All CSS must read from brand tokens via `:root` variables:
-
-- `--bg-primary` ← `brand.colors.bg`
-- `--bg-secondary` ← `brand.colors.surface`
-- `--text-primary` ← `brand.colors.text`
-- `--text-secondary` ← `brand.colors.muted_text`
-- `--accent-primary` ← `brand.colors.primary`
-- `--accent` ← `brand.colors.accent` (falls back to `brand.colors.primary` if accent missing)
-- `--stroke-subtle` ← `brand.colors.stroke_subtle`
-- `--font-display` ← `brand.fonts.display`
-- `--font-body` ← `brand.fonts.body`
-
-No other "new" colors may appear outside derived tints of these tokens.
-
----
-
-## 3) Viewport Fitting Requirements (CRITICAL)
-
-Every slide must be fully visible without scrolling on any device.
-
-### Golden Rule
-
-- Each slide = exactly one viewport height (100vh/100dvh)
-- Content overflows? → Split slides or reduce content
-- Never scroll within a slide
-
-### Content Density Limits (Enforce)
-
-| Slide Type | Maximum Content |
-|------------|----------------|
-| Title slide | 1 heading + 1 subtitle + optional tagline |
-| Content slide | 1 heading + 4–6 bullets OR 1 heading + 2 paragraphs |
-| Feature grid | 1 heading + 6 cards max (2x3 or 3x2) |
-| Code slide | 1 heading + 8–10 lines max |
-| Quote slide | 1 quote (max 3 lines) + attribution |
-| Image slide | 1 heading + 1 image (≤60vh) |
-
-### Mandatory Base CSS (Include verbatim in all decks)
-
-```css
-/* VIEWPORT FITTING: MANDATORY BASE STYLES */
-
-html, body {
-    height: 100%;
-    overflow-x: hidden;
-}
-
-html {
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-}
-
-.slide {
-    width: 100vw;
-    height: 100vh;
-    height: 100dvh;
-    overflow: hidden;
-    scroll-snap-align: start;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.slide-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-height: 100%;
-    overflow: hidden;
-    padding: var(--slide-padding);
-}
-
-:root {
-    --title-size: clamp(1.5rem, 5vw, 4rem);
-    --h2-size: clamp(1.25rem, 3.5vw, 2.5rem);
-    --h3-size: clamp(1rem, 2.5vw, 1.75rem);
-    --body-size: clamp(0.75rem, 1.5vw, 1.125rem);
-    --small-size: clamp(0.65rem, 1vw, 0.875rem);
-    --slide-padding: clamp(1rem, 4vw, 4rem);
-    --content-gap: clamp(0.5rem, 2vw, 2rem);
-    --element-gap: clamp(0.25rem, 1vw, 1rem);
-}
-
-.card, .container, .content-box {
-    max-width: min(90vw, 1000px);
-    max-height: min(80vh, 700px);
-}
-
-.feature-list, .bullet-list {
-    gap: clamp(0.4rem, 1vh, 1rem);
-}
-
-.feature-list li, .bullet-list li {
-    font-size: var(--body-size);
-    line-height: 1.4;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
-    gap: clamp(0.5rem, 1.5vw, 1rem);
-}
-
-img, .image-container {
-    max-width: 100%;
-    max-height: min(50vh, 400px);
-    object-fit: contain;
-}
-
-@media (max-height: 700px) {
-    :root {
-        --slide-padding: clamp(0.75rem, 3vw, 2rem);
-        --content-gap: clamp(0.4rem, 1.5vw, 1rem);
-        --title-size: clamp(1.25rem, 4.5vw, 2.5rem);
-        --h2-size: clamp(1rem, 3vw, 1.75rem);
-    }
-}
-
-@media (max-height: 600px) {
-    :root {
-        --slide-padding: clamp(0.5rem, 2.5vw, 1.5rem);
-        --content-gap: clamp(0.3rem, 1vw, 0.75rem);
-        --title-size: clamp(1.1rem, 4vw, 2rem);
-        --body-size: clamp(0.7rem, 1.2vw, 0.95rem);
-    }
-    .nav-dots, .keyboard-hint, .decorative { display: none; }
-}
-
-@media (max-height: 500px) {
-    :root {
-        --slide-padding: clamp(0.4rem, 2vw, 1rem);
-        --title-size: clamp(1rem, 3.5vw, 1.5rem);
-        --h2-size: clamp(0.9rem, 2.5vw, 1.25rem);
-        --body-size: clamp(0.65rem, 1vw, 0.85rem);
-    }
-}
-
-@media (max-width: 600px) {
-    :root { --title-size: clamp(1.25rem, 7vw, 2.5rem); }
-    .grid { grid-template-columns: 1fr; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after {
-        animation-duration: 0.01ms !important;
-        transition-duration: 0.2s !important;
-    }
-    html { scroll-behavior: auto; }
-}
-```
-
-### Viewport Fit Checklist (HARD GATE — Must pass before delivery)
-
-- [ ] Mandatory Base CSS block above is included verbatim (not paraphrased, not partial)
-- [ ] `.slide` uses `height:100vh/100dvh` + `overflow:hidden`
-- [ ] ALL typography + spacing uses `clamp()` — no fixed `px`/`rem` on text or layout
-- [ ] All 3 height breakpoints exist (700px / 600px / 500px)
-- [ ] Width breakpoint exists (600px) with single-column grid fallback
-- [ ] `prefers-reduced-motion` media query included
-- [ ] Density limits respected per slide type
-- [ ] Any overflow → split slides
-
-### Testing Recommendations (Must recommend)
-
-- Desktop: 1920×1080, 1440×900, 1280×720
-- Tablet: 1024×768, 768×1024
-- Mobile: 375×667, 414×896
-- Landscape: 667×375, 896×414
-
----
-
-## 4) Content Discovery (Phase 1 — Mode A)
-
-Ask via AskUserQuestion:
-
-**Q1 Purpose:**
-Pitch deck / Teaching / Conference talk / Internal / Portfolio / Report
-
-**Q2 Slide Count:**
-Short (5–10) / Medium (10–20) / Long (20+)
-
-**Q3 Content readiness:**
-Ready / Rough notes / Topic only
-
-If content exists: request text, section headings, any numbers, and any images.
-
-### 4.1) Content Fidelity Rules (HARD GATE — Applies to ALL modes)
-
-User-provided content is sacred. The agent is a designer, not a copywriter.
-
-**NEVER fabricate:**
-- Numbers, statistics, percentages, dollar amounts, dates, or metrics
-- Company names, product names, people's names, or titles
-- Quotes or testimonials
-- Claims, features, or specifications
-
-**MUST use verbatim:**
-- All numbers/stats the user provides (exact figures, not rounded or "improved")
-- All proper nouns (names, brands, products)
-- All quotes/testimonials (word-for-word)
-- Section headings the user specified (may adjust casing for design, never change wording)
-
-**MAY adjust (design only):**
-- Line breaks and text wrapping for viewport fit
-- Casing (e.g., UPPERCASE for display headings) if the preset requires it
-- Bullet ordering within a section for visual flow
-- Shortening verbose bullets for density limits — but must confirm with user first
-
-**When content is missing or sparse:**
-- Use obvious placeholder text: `[Your stat here]`, `[Company name]`, `[XX%]`
-- NEVER fill gaps with invented numbers or fake claims
-- Flag to user: "These slides need real data — I've added placeholders where content is missing"
-
-**Data slide rule:**
-If the user provides `"4,200 customers"`, the slide must show `4,200` — not `4,000+`, not `~4.2K`, not `5,000`. Exact figures, exact formatting, unless user explicitly asks to round.
-
----
-
-## 5) Style Discovery (Phase 2 — Show, Don't Tell)
-
-### Step 2.0 — Style Path
-
-AskUserQuestion:
-
-- Header: "Style"
-- Question: "How would you like to choose your presentation style?"
-- Options:
-  - "Show me options" (recommended)
-  - "I know what I want (pick preset)"
-
-### Step 2.1 — Mood Selection (if "Show me options")
-
-AskUserQuestion:
-
-- Header: "Vibe"
-- Question: "What feeling should the audience have?"
-- Options (multiSelect up to 2):
-  - Impressed/Confident
-  - Excited/Energized
-  - Calm/Focused
-  - Inspired/Moved
-
-### Step 2.2 — Generate 3 Preview Strips
-
-**Prerequisite:** Apply Brand Application Rules (2.6) — brand tokens must be compiled before generating any previews.
-
-Generate 3 preview HTML files, each with 3 slides:
-
-1. Title slide (typography + palette)
-2. Cards + sticker labels slide (shows Canva composition system)
-3. Either:
-   - Cutout overlap slide (if using a cutout preset), OR
-   - Slide chrome grid slide (if report/pitch template style)
-
-Preview directory:
-
-```
-.superdesign/slide-previews/
-├── style-a.html
-├── style-b.html
-├── style-c.html
-└── assets/ (optional)
-```
-
-Then present:
-
-```
-I've created 3 style previews for you to compare:
-
-**Style A: [Name]** — [1 sentence]
-**Style B: [Name]** — [1 sentence]
-**Style C: [Name]** — [1 sentence]
-
-Open:
-- .superdesign/slide-previews/style-a.html
-- .superdesign/slide-previews/style-b.html
-- .superdesign/slide-previews/style-c.html
-
-Tell me:
-1) Which style resonates most?
-2) What do you like about it?
-3) Anything you'd change?
-```
-
-AskUserQuestion:
-
-- Header: "Style"
-- Question: "Which style preview do you prefer?"
-- Options: Style A / Style B / Style C / Mix elements
-
----
-
-## 6) Canva Composition System (Mandatory)
-
-Each slide must declare a layout primitive:
-
-```html
-<section class="slide" data-layout="hero-split">
-```
-
-### Layout Primitives
-
-- `title-focus`
-- `hero-split`
-- `hero-stack`
-- `cards-3up`
-- `grid-6`
-- `big-stat`
-- `timeline`
-- `before-after`
-- `quote-card`
-- `checklist-panel`
-- `gallery`
-
-**Rule:** If a slide's content doesn't fit the primitive → split slides.
-
----
-
-## 7) Anti-AI Aesthetic Rules (Hard Gates)
-
-### DO NOT USE
-
-- Inter/Roboto/system fonts as display
-- Generic purple gradient on white
-- "Centered everything" for most slides
-- Repeated "hero + 3 cards" across deck
-- Glassmorphism as the primary look
-
-### MUST INCLUDE
-
-- A signature motif used on every slide (tabs / stickers / corner marks / binder holes / grid overlay)
-- Consistent card system (radius/stroke/shadow tokens)
-- Cohesive image treatment (frame/mask/grain) if images exist
-- Use ≥3 layout primitives in a deck
-
----
-
-## 8) Cutout & Overlap (Canva-fashion portfolio style)
-
-To match portfolio-style decks, support a "cutout" element:
-
-### Cutout Rules
-
-- Prefer transparent PNG cutouts from user
-- If none provided: use masked crop fallback (clip-path / rounded blob)
-- Cutouts may overlap cards and edges but must remain within slide viewport
-- Provide a layout primitive variant: `hero-cutout`
-
----
-
-## 9) Slide Chrome (Report / annual report style)
-
-For report templates, support optional chrome:
-
-- Top-left: date or section
-- Top-right: brand name/logo
-- Bottom: URL or page marker
-
-Enable with `data-chrome="on"` and theme tokens:
-
-```css
---chrome-opacity, --chrome-size, --chrome-pad
-```
-
----
-
-## 10) Generate Presentation (Phase 3 — Full Deck)
-
-Generate `presentation.html` (and `assets/` if images).
-
-### Required HTML Architecture
-
-- `<section class="slide">` per slide
-- progress-bar + nav-dots optional
-- SlidePresentation controller (see reference below)
-- IntersectionObserver to add `.visible`
-
-### Required CSS Architecture (CRITICAL — Include in every deck)
-
-- **Mandatory Base CSS from section 3 must be included verbatim** — this is not optional
-- All custom typography must use `clamp()` for fluid sizing (never fixed `px`/`rem` for headings or body)
-- All spacing/padding must use `clamp()` or viewport-relative units
-- All height breakpoints (700px/600px/500px) and width breakpoint (600px) must be present
-- Grid layouts must use `repeat(auto-fit, minmax(...))` or collapse to single-column on mobile
-- Images must have `max-width: 100%` and viewport-relative `max-height`
-- `prefers-reduced-motion` media query must be included
-
-**No fixed pixel values for layout-affecting properties.** The only acceptable `px` values are borders, shadows, and small decorative details (≤4px).
-
-### Navigation Architecture (CRITICAL — Scroll-Snap Hybrid)
-
-CSS `scroll-snap-type: y mandatory` already handles native wheel scrolling and touch swipe. **Do NOT add JS wheel or touch handlers** — they conflict with scroll-snap and cause double-scrolling, stuck slides, or jitter.
-
-**JS is responsible for:**
-- Keyboard navigation (arrows, space, home/end)
-- Navigation dot clicks
-- Progress bar updates
-- IntersectionObserver for active slide detection + `.visible` class
-
-**CSS scroll-snap handles:**
-- Mouse wheel / trackpad scrolling
-- Touch swipe on mobile
-- Snap alignment to slide boundaries
-
-### SlidePresentation Controller (Reference Implementation)
-
-```js
-class SlidePresentation {
-  constructor() {
-    this.slides = document.querySelectorAll('.slide');
-    this.currentIndex = 0;
-    this.isNavigating = false;
-    this.init();
-  }
-
-  init() {
-    this.setupIntersectionObserver();
-    this.setupKeyboard();
-    this.setupDots();
-    this.updateUI();
-  }
-
-  setupIntersectionObserver() {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting && entry.intersectionRatio > 0.5) {
-          entry.target.classList.add('visible');
-          this.currentIndex = [...this.slides].indexOf(entry.target);
-          this.updateUI();
-        } else {
-          entry.target.classList.remove('visible');
-        }
-      });
-    }, { threshold: 0.5 });
-    this.slides.forEach(slide => observer.observe(slide));
-  }
-
-  setupKeyboard() {
-    document.addEventListener('keydown', (e) => {
-      switch(e.key) {
-        case 'ArrowDown': case 'ArrowRight': case ' ':
-          e.preventDefault();
-          this.goTo(this.currentIndex + 1);
-          break;
-        case 'ArrowUp': case 'ArrowLeft':
-          e.preventDefault();
-          this.goTo(this.currentIndex - 1);
-          break;
-        case 'Home':
-          e.preventDefault();
-          this.goTo(0);
-          break;
-        case 'End':
-          e.preventDefault();
-          this.goTo(this.slides.length - 1);
-          break;
-      }
-    });
-  }
-
-  setupDots() {
-    const dotsContainer = document.querySelector('.nav-dots');
-    if (!dotsContainer) return;
-    this.slides.forEach((_, i) => {
-      const dot = document.createElement('button');
-      dot.classList.add('dot');
-      dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
-      dot.addEventListener('click', () => this.goTo(i));
-      dotsContainer.appendChild(dot);
-    });
-  }
-
-  goTo(index) {
-    const target = Math.max(0, Math.min(index, this.slides.length - 1));
-    if (target === this.currentIndex) return;
-    this.slides[target].scrollIntoView({ behavior: 'smooth' });
-  }
-
-  updateUI() {
-    const progress = document.querySelector('.progress-bar');
-    if (progress) {
-      progress.style.width = `${((this.currentIndex + 1) / this.slides.length) * 100}%`;
-    }
-    document.querySelectorAll('.dot').forEach((dot, i) => {
-      dot.classList.toggle('active', i === this.currentIndex);
-    });
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => new SlidePresentation());
-```
-
-### Why NO JS wheel/touch handlers
-
-| Input | Handled by | Why |
-|-------|-----------|-----|
-| Mouse wheel / trackpad | CSS scroll-snap | Native snapping is smooth, debounce-free, and respects OS momentum settings |
-| Touch swipe | CSS scroll-snap | Native touch scroll + snap is always more reliable than JS touch math |
-| Keyboard arrows / space | JS `keydown` | No native scroll-snap keyboard support exists |
-| Nav dot clicks | JS `scrollIntoView` | Works with scroll-snap — browser snaps to the target slide |
-| Progress / active state | JS IntersectionObserver | Passively observes which slide is visible, never interferes with scroll |
-
-### Optional Enhancements (Style-dependent)
-
-- Custom cursor
-- Particle background (disable on mobile)
-- Parallax
-- 3D tilt
-- Magnetic buttons
-- Counter animations
-
----
-
-## 11) PPT Conversion (Phase 4 — Mode B)
-
-### Step 4.1 — Extract Content (python-pptx)
-
-Use extraction approach to collect:
-
-- Titles
-- Text blocks
-- Images → `assets/`
-- Notes
-
-### Step 4.2 — Confirm Structure
-
-Summarize extracted slides and confirm with user.
-
-### Step 4.3 — Style Discovery
-
-Proceed to Phase 2 (previews/presets).
-
-### Step 4.4 — Generate HTML
-
-Preserve (Content Fidelity Rules from 4.1 apply):
-
-- Slide order
-- All text content verbatim (numbers, names, quotes — no fabrication or rounding)
-- Images
-- Speaker notes (HTML comments or separate file)
-
----
-
-## 11.5) Brand Compliance Gate (Self-check BEFORE delivery)
-
-Before outputting the final HTML, run this gate. If any item fails, regenerate tokens/components until it passes.
-
-### Must Pass — Content Fidelity (Hard Requirements)
-
-- Every number/stat in the output matches user-provided figures exactly (no rounding, no fabrication)
-- All proper nouns match user input (company names, product names, people)
-- All quotes/testimonials are word-for-word from user input
-- No invented claims, features, or data points appear anywhere in the deck
-- Missing content uses visible placeholders (`[Your stat here]`), not fabricated fills
-
-### Must Pass — Brand (Hard Requirements)
-
-- Fonts used match `brand.fonts.display/body` (no fallback to preset display fonts)
-- Only brand colors + derived tints are used (NO new hue)
-- Logo placement matches user selection; consistent clearspace on every slide with chrome
-- Motif is allowed by `brand.constraints.allowed_motifs`
-- Preset is treated as shell only; final tokens are brand tokens
-- Chrome text uses `brand.name` and does not introduce new styling outside the token system
-
-### Must Pass — Responsive (Hard Requirements)
-
-- Mandatory Base CSS from section 3 is included verbatim (scroll-snap, slide dimensions, `:root` clamp variables)
-- ALL height breakpoints present: `@media (max-height: 700px)`, `(max-height: 600px)`, `(max-height: 500px)`
-- Width breakpoint present: `@media (max-width: 600px)` with single-column grid fallback
-- `prefers-reduced-motion` media query included
-- Zero fixed `px`/`rem` values on headings, body text, padding, or gaps (must use `clamp()`)
-- Grids collapse to single-column on mobile (`grid-template-columns: 1fr`)
-- No element exceeds viewport bounds — no horizontal scroll on any breakpoint
-- Nav dots / decorative elements hidden at ≤600px height
-
----
-
-## 12) Delivery (Phase 5)
-
-- Run the Brand Compliance Gate (11.5) before proceeding
-- Clean temp previews (`.superdesign/slide-previews/`)
-- Open `presentation.html`
-- Provide a usage + customization summary:
-  - Colors in `:root`
-  - Fonts in `link` tag
-  - Animations in `.reveal`
-  - Turn chrome on/off via `data-chrome`
-
----
-
-## 13) Effect → Feeling Mapping
-
-| Effect | Feeling |
-|--------|---------|
-| Slow fades, scale in, spotlight, parallax | Dramatic/Cinematic |
-| Glow, grid, particles, mono accents | Techy/Futuristic |
-| Bouncy easing, rounded corners, bright accents | Playful/Friendly |
-| Subtle fast motion, strict alignment, minimal decoration | Professional |
-| Gentle motion, muted palette, whitespace | Calm/Minimal |
-| Strong hierarchy, pull quotes, grid-breaking layouts | Editorial |
-
----
-
-## 14) Animation Patterns Reference
-
-Every animation must serve a purpose. Pick from these categories based on what the slide needs to communicate, not just what looks cool.
-
-### Selection Rule
-
-1. **Title/hero slides** → Entrance reveals + ambient background
-2. **Data/stat slides** → Counter animations + staggered reveals
-3. **Feature/card slides** → Staggered card entrance + hover micro-interactions
-4. **Quote slides** → Typewriter or fade-in-word
-5. **Image slides** → Parallax or Ken Burns
-6. **Transition moments** → Wipe or morph between sections
-
-Max 2 animation types per slide. If it distracts from reading, remove it.
-
-### A) Entrance Reveals (triggered by `.visible` from IntersectionObserver)
-
-```css
-/* Fade up — default for most content */
-.reveal-up {
-  opacity: 0;
-  transform: translateY(clamp(20px, 3vh, 40px));
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.visible .reveal-up {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Fade in from left/right — for split layouts */
-.reveal-left {
-  opacity: 0;
-  transform: translateX(clamp(-30px, -4vw, -60px));
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.reveal-right {
-  opacity: 0;
-  transform: translateX(clamp(30px, 4vw, 60px));
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.visible .reveal-left,
-.visible .reveal-right {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-/* Scale in — for hero titles and big-stat */
-.reveal-scale {
-  opacity: 0;
-  transform: scale(0.85);
-  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-.visible .reveal-scale {
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* Clip reveal — editorial wipe from bottom */
-.reveal-clip {
-  clip-path: inset(100% 0 0 0);
-  transition: clip-path 0.8s cubic-bezier(0.77, 0, 0.18, 1);
-}
-.visible .reveal-clip {
-  clip-path: inset(0 0 0 0);
-}
-```
-
-**Use:** Apply to direct children of `.slide-content`. Combine with stagger delays.
-
-### B) Staggered Children (for cards, bullet lists, grids)
-
-```css
-.stagger > * {
-  opacity: 0;
-  transform: translateY(clamp(15px, 2vh, 30px));
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-.visible .stagger > *:nth-child(1) { transition-delay: 0.05s; }
-.visible .stagger > *:nth-child(2) { transition-delay: 0.12s; }
-.visible .stagger > *:nth-child(3) { transition-delay: 0.19s; }
-.visible .stagger > *:nth-child(4) { transition-delay: 0.26s; }
-.visible .stagger > *:nth-child(5) { transition-delay: 0.33s; }
-.visible .stagger > *:nth-child(6) { transition-delay: 0.40s; }
-.visible .stagger > * {
-  opacity: 1;
-  transform: translateY(0);
-}
-```
-
-**Use:** Add `.stagger` to any grid, card row, or `<ul>`. Keeps increments tight (70ms) so 6 items finish in ~0.9s total.
-
-### C) Counter / Number Animation (for big-stat slides)
-
-```js
-function animateCounters(slide) {
-  slide.querySelectorAll('[data-count]').forEach(el => {
-    const target = parseInt(el.dataset.count, 10);
-    const suffix = el.dataset.suffix || '';
-    const prefix = el.dataset.prefix || '';
-    const duration = 1200;
-    const start = performance.now();
-    function tick(now) {
-      const progress = Math.min((now - start) / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      el.textContent = prefix + Math.round(target * eased).toLocaleString() + suffix;
-      if (progress < 1) requestAnimationFrame(tick);
-    }
-    requestAnimationFrame(tick);
-  });
-}
-```
-
-**HTML:** `<span data-count="4200" data-suffix="+" data-prefix="$">0</span>`
-**Trigger:** Call `animateCounters(slide)` when IntersectionObserver fires `.visible`.
-
-### D) Typewriter Text (for quote or tagline slides)
-
-```css
-.typewriter {
-  overflow: hidden;
-  border-right: 2px solid var(--text-primary);
-  white-space: nowrap;
-  width: 0;
-  animation: typewriter-expand 2s steps(40, end) forwards,
-             typewriter-blink 0.75s step-end 6;
-}
-.visible .typewriter {
-  width: 100%;
-}
-
-@keyframes typewriter-expand {
-  from { width: 0; }
-  to { width: 100%; }
-}
-@keyframes typewriter-blink {
-  50% { border-color: transparent; }
-}
-```
-
-**Use:** Single-line quotes or taglines only. Multi-line text should use `.reveal-up` instead.
-
-### E) Ambient Backgrounds (for hero/title slides — disable on mobile)
-
-```css
-/* Gradient drift */
-.bg-drift {
-  background: linear-gradient(135deg, var(--bg-primary), var(--bg-secondary), var(--accent-1, var(--accent)));
-  background-size: 400% 400%;
-  animation: drift 12s ease infinite;
-}
-@keyframes drift {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-}
-
-/* Grain overlay — adds texture without images */
-.grain::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  opacity: var(--texture-opacity, 0.04);
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  pointer-events: none;
-  mix-blend-mode: overlay;
-}
-
-/* Floating shapes — subtle geometric motion */
-.float-shape {
-  position: absolute;
-  border-radius: 50%;
-  opacity: 0.08;
-  background: var(--motif-color);
-  animation: float 8s ease-in-out infinite alternate;
-  pointer-events: none;
-}
-@keyframes float {
-  from { transform: translateY(0) rotate(0deg); }
-  to { transform: translateY(clamp(-15px, -2vh, -30px)) rotate(6deg); }
-}
-
-@media (max-height: 600px), (max-width: 600px) {
-  .bg-drift { animation: none; }
-  .float-shape { display: none; }
-}
-```
-
-**Use:** Title and hero slides only. `.grain` is safe everywhere — it's static and cheap.
-
-### F) Image Treatments (for image-heavy slides)
-
-```css
-/* Ken Burns — slow zoom on full-bleed images */
-.ken-burns {
-  animation: ken-burns 20s ease-in-out infinite alternate;
-  will-change: transform;
-}
-@keyframes ken-burns {
-  from { transform: scale(1); }
-  to { transform: scale(1.08); }
-}
-
-/* Parallax offset — image shifts slower than scroll */
-.parallax-img {
-  transform: translateY(calc(var(--scroll-offset, 0) * 0.3));
-  transition: transform 0.1s linear;
-}
-
-/* Reveal mask — image wipes in from edge */
-.img-reveal {
-  clip-path: inset(0 100% 0 0);
-  transition: clip-path 1s cubic-bezier(0.77, 0, 0.18, 1);
-}
-.visible .img-reveal {
-  clip-path: inset(0 0 0 0);
-}
-```
-
-**Ken Burns:** Full-bleed background images only. Never on inline content images.
-**Parallax:** Requires JS to set `--scroll-offset` custom property — only worth it on hero slides.
-**Reveal mask:** Great for before/after or portfolio image entrances.
-
-### G) Micro-Interactions (for cards and interactive elements)
-
-```css
-/* Card lift on hover */
-.card-hover {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-.card-hover:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-crisp);
-}
-
-/* Underline draw on hover — for links/labels */
-.draw-underline {
-  position: relative;
-}
-.draw-underline::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: currentColor;
-  transition: width 0.3s ease;
-}
-.draw-underline:hover::after {
-  width: 100%;
-}
-```
-
-**Use:** Cards get `.card-hover`. Links/nav get `.draw-underline`.
-
-### H) Slide Transition Accents (between sections)
-
-```css
-/* Section divider line that draws across */
-.divider-draw {
-  width: 0;
-  height: 2px;
-  background: var(--stroke-subtle);
-  transition: width 0.8s cubic-bezier(0.77, 0, 0.18, 1);
-}
-.visible .divider-draw {
-  width: min(60vw, 600px);
-}
-
-/* Number/label that counts up as section indicator */
-.section-number {
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all 0.4s ease 0.1s;
-  font-variant-numeric: tabular-nums;
-}
-.visible .section-number {
-  opacity: 0.4;
-  transform: translateY(0);
-}
-```
-
-**Use:** Place `.divider-draw` between heading and content. `.section-number` in slide chrome for report-style decks.
-
-### Animation Budget Rules
-
-| Slide type | Max animations | Recommended combo |
-|-----------|---------------|-------------------|
-| Title/hero | 2 | `reveal-scale` + ambient bg |
-| Content/bullets | 1 | `stagger` |
-| Big stat | 2 | `reveal-up` + counter |
-| Cards/grid | 1 | `stagger` + `card-hover` |
-| Quote | 1 | `reveal-clip` or `typewriter` |
-| Image | 1 | `img-reveal` or `ken-burns` |
-| Transition/divider | 1 | `divider-draw` |
-
-- Total unique animation types per deck: 3–5 (not every pattern in every deck)
-- Animations must respect `prefers-reduced-motion` (already handled in base CSS)
-- No animation should exceed 2s duration except ambient loops
-- `will-change` only on Ken Burns and parallax — never blanket-apply
-
----
-
-## 15) Troubleshooting
-
-Handle: fonts, animations, scroll-snap, mobile performance, will-change, throttling.
-
----
-
-## 16) Style Presets Library
-
-### Global Preset Constraints (Apply to ALL presets)
-
-Every preset must define:
-
-- `--radius-card`, `--radius-pill`
-- `--shadow-soft`, `--shadow-crisp`
-- `--stroke-subtle`
-- `--texture-opacity`
-- `--motif-color`
-- `--font-display`, `--font-body`
-
-And must specify a signature motif used on every slide.
-
-Detailed CSS blocks for new presets should be stored under the preset section using the token system above.
-
-### Preset List
-
-| Preset | Vibe | Best For |
-|--------|------|----------|
-| Bold Signal | Confident, high-impact | Pitch decks, keynotes |
-| Electric Studio | Clean, professional | Agency presentations |
-| Creative Voltage | Energetic, retro-modern | Creative pitches |
-| Dark Botanical | Elegant, sophisticated | Premium brands |
-| Notebook Tabs | Editorial, organized | Reports, reviews |
-| Pastel Geometry | Friendly, approachable | Product overviews |
-| Split Pastel | Playful, modern | Creative agencies |
-| Vintage Editorial | Witty, personality-driven | Personal brands |
-| Neon Cyber | Futuristic, techy | Tech startups |
-| Terminal Green | Developer-focused | Dev tools, APIs |
-| Swiss Modern | Minimal, precise | Corporate, data |
-| Paper & Ink | Literary, thoughtful | Storytelling |
-| Cutout Editorial Pop | Fashion/editorial cutouts | Portfolio decks |
-| Paper Serif Minimal | Beige premium pitch | Pitch deck |
-| Teal Report Grid | Canva report template | Annual report |
-| Studio Stickers | Canva-modern punchy | Creator/product updates |
-| Paper Cut Grid | Tactile geometric | Tutorials/portfolio |
-| Museum Label | Premium curated | Brand storytelling |
-| Monochrome Punch | Stark typographic | Strategy/internal |
-| Soft Neon Noir | Tasteful night tech | AI talks |
-| Clay & Chrome | Premium craft-tech | Product/pitch |
-| Bento Pop | Structured playful | Product/roadmap |
-| Receipt Journal | Scrappy editorial | Indie/community |
-| Index Cards | Workshop-friendly | Teaching |
-| Blueprint Ink | Engineering clarity | Dev/infra |
-| Gallery Matte | Calm premium | Creative |
-| Aurora (No-Purple) | Atmospheric mesh | Modern pitches |
-| Split Column Editorial | Magazine layout | Reports |
-| Signal Red Grid | Swiss + red | Metrics |
-| Warm Concrete | Architecture vibe | Real estate/design |
-| Botanical Minimal (Abstract) | Calm premium | Wellness |
-| Night Transit | Urban kinetic | Talks |
-| Retro Terminal Pop | Dev + playful | Demos |
-
----
-
-## 17) Reference Preset Definitions
-
-### A) Cutout Editorial Pop
-
-**Vibe:** Editorial fashion + bold type + color blocking
-**Best For:** Portfolio, creator pitch, brand lookbooks
-**Signature Motif:** Corner marks + micro "globe" stamp + sticker pills
-**Requires:** Ideally transparent PNG cutouts
-
-**Typography:**
-- Display: Anton (or Archivo Black)
-- Body: DM Sans
-
-**Tokens:**
-
-```css
-:root {
-  --bg-primary: #f4f1ea;
-  --bg-secondary: #2b2b2b;
-  --text-primary: #1a1a1a;
-  --text-secondary: rgba(26,26,26,.68);
-  --text-on-dark: #f6f5f1;
-  --accent-1: #6b8f3e;
-  --accent-2: #ff8a3d;
-  --accent-3: #ff4fa6;
-  --motif-color: #1a1a1a;
-  --radius-card: 18px;
-  --radius-pill: 999px;
-  --stroke-subtle: rgba(26,26,26,.14);
-  --shadow-soft: 0 18px 45px rgba(0,0,0,.12);
-  --shadow-crisp: 0 10px 22px rgba(0,0,0,.14);
-  --texture-opacity: .06;
-  --font-display: 'Anton', sans-serif;
-  --font-body: 'DM Sans', sans-serif;
-}
-```
-
-**Layout Primitives to prefer:** `title-focus`, `hero-cutout`, `cards-3up`, `gallery`
-
-**Required CSS components:**
-
-```css
-.edo-word {
-  font-family: var(--font-display);
-  font-size: clamp(3rem, 12vw, 7.5rem);
-  letter-spacing: -0.02em;
-  line-height: 0.9;
-  text-transform: uppercase;
-}
-
-.sticker {
-  display: inline-flex;
-  align-items: center;
-  gap: .5em;
-  padding: .45em .75em;
-  border-radius: var(--radius-pill);
-  border: 1px solid var(--stroke-subtle);
-  background: rgba(255,255,255,.6);
-  box-shadow: 0 10px 24px rgba(0,0,0,.08);
-  transform: rotate(-1.5deg);
-  font-size: var(--small-size);
-}
-
-.corner-marks::before,
-.corner-marks::after {
-  content: "";
-  position: absolute;
-  width: clamp(18px, 2.6vw, 30px);
-  height: clamp(18px, 2.6vw, 30px);
-  border: 2px solid rgba(26,26,26,.45);
-  opacity: .55;
-  pointer-events: none;
-}
-.corner-marks::before { top: clamp(0.75rem,2vw,1.2rem); left: clamp(0.75rem,2vw,1.2rem); border-right: none; border-bottom: none; }
-.corner-marks::after { bottom: clamp(0.75rem,2vw,1.2rem); right: clamp(0.75rem,2vw,1.2rem); border-left: none; border-top: none; }
-
-.cutout {
-  position: absolute;
-  right: clamp(1rem, 4vw, 3rem);
-  bottom: 0;
-  height: min(78vh, 720px);
-  max-width: 52vw;
-  object-fit: contain;
-  filter: drop-shadow(0 26px 40px rgba(0,0,0,.22));
-  transform: translateY(8px);
-}
-
-.cutout-mask {
-  border-radius: 26px;
-  overflow: hidden;
-  clip-path: polygon(6% 0, 100% 0, 100% 92%, 86% 100%, 0 100%, 0 10%);
-}
-```
-
-**Slide chrome:** Minimal (tiny date + name). Keep it subtle.
-
----
-
-### B) Paper Serif Minimal
-
-**Vibe:** Premium investor beige + serif paragraphs + thin rules
-**Best For:** Pitch decks, strategy, narrative docs
-**Signature Motif:** Micro logo mark + rules + small caps labels
-**Key:** Lots of whitespace + strict grid
-
-**Typography:**
-- Display: Cormorant Garamond (or Playfair Display)
-- Body: Source Serif 4 (or DM Sans for modern)
-
-**Tokens:**
-
-```css
-:root {
-  --bg-primary: #f3f0e7;
-  --bg-secondary: #ece7dc;
-  --text-primary: #1a1a1a;
-  --text-secondary: rgba(26,26,26,.62);
-  --accent: #1a1a1a;
-  --motif-color: #1a1a1a;
-  --radius-card: 14px;
-  --radius-pill: 999px;
-  --stroke-subtle: rgba(26,26,26,.14);
-  --shadow-soft: 0 18px 45px rgba(0,0,0,.08);
-  --shadow-crisp: 0 10px 22px rgba(0,0,0,.10);
-  --texture-opacity: .03;
-  --font-display: 'Cormorant Garamond', serif;
-  --font-body: 'Source Serif 4', serif;
-}
-```
-
-**Layout Primitives to prefer:** `title-focus`, `hero-split`, `split-column-editorial`, `quote-card`, `timeline`
-
-**Required CSS components:**
-
-```css
-.label {
-  font-family: var(--font-body);
-  font-size: var(--small-size);
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--text-secondary);
-}
-
-.prose {
-  max-width: 65ch;
-  font-size: var(--body-size);
-  line-height: 1.55;
-  color: var(--text-primary);
-}
-
-.rule {
-  height: 1px;
-  background: rgba(26,26,26,.18);
-  width: min(72vw, 980px);
-  margin-top: clamp(.6rem, 1.2vw, 1rem);
-}
-
-.paper-card {
-  border: 1px solid rgba(26,26,26,.12);
-  border-radius: var(--radius-card);
-  background: rgba(255,255,255,.35);
-  padding: clamp(0.9rem, 1.8vw, 1.3rem);
-}
-```
-
-**Motion style:** Subtle only — fade/slide 200–350ms, no bounce, no heavy effects.
-
----
-
-### C) Teal Report Grid
-
-**Vibe:** Canva corporate report template
-**Best For:** Annual reports, internal updates, strategy
-**Signature Motif:** Consistent chrome (date / brand / URL) + boxed title tag
-
-**Typography:**
-- Display: Manrope 800
-- Body: Manrope 400–600
-
-**Tokens:**
-
-```css
-:root {
-  --bg-primary: #ffffff;
-  --bg-secondary: #cfe3e5;
-  --text-primary: #0f172a;
-  --text-secondary: rgba(15,23,42,.66);
-  --accent: #0f172a;
-  --motif-color: #0f172a;
-  --radius-card: 16px;
-  --radius-pill: 999px;
-  --stroke-subtle: rgba(15,23,42,.14);
-  --shadow-soft: 0 18px 45px rgba(15,23,42,.10);
-  --shadow-crisp: 0 10px 22px rgba(15,23,42,.12);
-  --texture-opacity: .02;
-  --font-display: 'Manrope', sans-serif;
-  --font-body: 'Manrope', sans-serif;
-  --chrome-opacity: .72;
-  --chrome-size: clamp(0.65rem, 0.9vw, 0.85rem);
-  --chrome-pad: clamp(0.75rem, 2vw, 1.25rem);
-}
-```
-
-**Layout Primitives to prefer:** `title-focus` (boxed label), `hero-split`, `agenda`, `team-grid`, `quote-card`, `gallery`
-
-**Required CSS components:**
-
-```css
-.chrome {
-  position: absolute;
-  top: var(--chrome-pad);
-  left: var(--chrome-pad);
-  right: var(--chrome-pad);
-  display: flex;
-  justify-content: space-between;
-  font-size: var(--chrome-size);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: rgba(15,23,42,var(--chrome-opacity));
-}
-
-.footer {
-  position: absolute;
-  bottom: var(--chrome-pad);
-  left: var(--chrome-pad);
-  right: var(--chrome-pad);
-  display: flex;
-  justify-content: space-between;
-  font-size: var(--chrome-size);
-  color: rgba(15,23,42,var(--chrome-opacity));
-}
-
-.band {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: clamp(26%, 30vh, 38%);
-  background: var(--bg-secondary);
-}
-
-.box-title {
-  display: inline-block;
-  padding: .55em .85em;
-  border: 2px solid rgba(15,23,42,.65);
-  border-radius: 10px;
-  font-weight: 800;
-  letter-spacing: -0.01em;
-}
-```
-
-**Motion style:** Minimal, consistent. No large parallax. The "template" feel depends on restraint.
-
----
-
-## 18) Reference Deck Matcher
-
-When the user shares reference images, the skill MUST:
-
-1. Identify which reference family it matches:
-   - **Cutout Editorial Pop** — portfolio/fashion cutouts
-   - **Paper Serif Minimal** — beige premium pitch
-   - **Teal Report Grid** — report template w/ chrome
-
-2. Ask branding questions (Phase 0.5) before generating previews.
-
-3. Ask one follow-up depending on family:
-   - **Cutout Editorial Pop:** "Do you have transparent PNG cutouts (person/product)? If not, should we use masked crops instead?"
-   - **Teal Report Grid:** "Do you want top chrome: date + company name + URL like the example?"
-   - **Paper Serif Minimal:** "Do you want the long-form serif look (more text) or keep it more visual with images?"
-
-4. Preview generation rule:
-   - Cutout → preview strip must include `hero-cutout` slide
-   - Report → preview strip must include chrome on + teal band
-   - Serif Minimal → preview strip must include 2-column prose slide
-
----
-
-## 19) Session Flows
-
-**New Deck:**
-Discovery → content fidelity lock (4.1) → branding intake → brand token generation (2.6) → mood → 3 previews → pick → generate → compliance gate (11.5: content + brand + responsive) → deliver → iterate
-
-**Conversion:**
-Extract PPT → confirm → content fidelity lock (4.1) → branding intake → brand token generation (2.6) → previews → pick → generate → compliance gate (11.5: content + brand + responsive) → deliver → iterate
-```
-
----
-
-## 120. Modal Design · success-celebration (pastel) — legibility fixed
+## 114. Modal Design · success-celebration (pastel) — legibility fixed
 `Onboarding` · `General` · 0 copies · [try live](https://superdesign.dev/library/modal-design-success-celebration-pastel-legibility-fixed-9fbd65?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A joyful pastel success-celebration modal as the live hero centerpiece of a product page: a rounded-5xl cream dialog with an animated deep-sky checkmark badge (pulsing rings + a drawn check), a 'You're all set! 🎉' headline and a deep-sky gradient CTA, floating over a soft sky-to-cream field full of gently floating multicolor confetti, a frosted-glass sticky nav, a 3-up pattern-library grid, a starter-kit split with a stacked upgrade-dialog preview, and a dark ink CTA band. Legibility-fixed: bright sky/coral stay decorative while every text + CTA tone uses deepened >=4.5:1 variants. All Poppins, Phosphor icons.
@@ -15506,7 +12583,7 @@ A joyful pastel success-celebration modal as the live hero centerpiece of a prod
 
 ---
 
-## 121. Bottom Tab Navigation — Core App Shell
+## 115. Bottom Tab Navigation — Core App Shell
 `Mobile Apps` · `General` · 1 copies · [try live](https://superdesign.dev/library/bottom-tab-navigation-core-app-shell?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A stable bottom tab navigation system where each tab represents a top-level destination with its own navigation stack. The tab bar persists across primary screens, creating a predictable and scalable app shell.
@@ -15719,7 +12796,7 @@ Here is a reference implementation:
 
 ---
 
-## 122. Volt — Electric-Lime Fitness Dashboard
+## 116. Volt — Electric-Lime Fitness Dashboard
 `Dashboards` · `Health & Wellness` · 5 copies · [try live](https://superdesign.dev/library/volt-electric-lime-fitness-dashboard-a7544c?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An electric-lime fitness/health dashboard on near-black: a big animated step-progress ring, stat chips, a weekly-activity bar chart, health insights, a workouts list, a challenge card, and an achievements grid with a bottom nav.
@@ -15754,7 +12831,7 @@ An electric-lime fitness/health dashboard on near-black: a big animated step-pro
 
 ---
 
-## 123. System Initialization - Trust & Transparency
+## 117. System Initialization - Trust & Transparency
 `Onboarding` · `AI & Tech` · 12 copies · [try live](https://superdesign.dev/library/system-initialization-trust-and-transparency?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-trust, technical briefing design system for AI onboarding and system initialization. Featuring an editorial typography approach with a warm, neutral color palette (Stone and Amber), it utilizes a two-column grid to balance user configuration with technical evidence. Ideal for fintech, cybersecurity, AI safety, or enterprise SaaS where transparency, data privacy, and ethical alignment are core product values. The layout emphasizes vertical rhythm, semantic depth, and clear decision-making through structured guidance and live-updating evidence cards.
@@ -15805,7 +12882,7 @@ A high-trust, technical briefing design system for AI onboarding and system init
 
 ---
 
-## 124. Cream Paper & Coral Mega Footer
+## 118. Cream Paper & Coral Mega Footer
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/cream-paper-and-coral-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm cream-paper mega footer with a coral hairline edge, Fraunces serif CTA band, newsletter capture, a five-column link grid, and a status-pill legal bar.
@@ -15816,61 +12893,7 @@ A warm cream-paper mega footer with a coral hairline edge, Fraunces serif CTA ba
 
 ---
 
-## 125. Luminous Ethereal Glassmorphism Onboarding
-`Onboarding` · `Finance & Crypto` · 12 copies · [try live](https://superdesign.dev/library/luminous-ethereal-glassmorphism-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Luminous Ethereal is a deep-space glassmorphism design system characterized by frosted translucent panels, slow-moving animated mesh gradients, and ultra-thin line iconography. It uses a sophisticated pairing of Manrope sans-serif and Libre Baskerville editorial serif to create an atmosphere of high-end precision and cosmic calm. This style is exceptionally suited for AI-driven platforms, fintech, high-tech SaaS onboarding, and creative agency portfolios that require a futuristic yet premium feel. Key elements include 'backlight' glow effects, 'laser' thread progress indicators, and interactive cards that respond with subtle chromatic shifts.
-
-```text
-{
-  "summary": "A futuristic 'Luminous Ethereal' design system featuring deep indigo and violet mesh gradients, heavy backdrop blurs (24px), and ultra-thin typography. The UI focuses on horizontal momentum, using a laser-trail progress system and frosted glass panels with interactive backlight glows to guide users through complex workflows.",
-  "style": {
-    "description": "The style essence is 'Deep-Space Glassmorphism.' It utilizes a background of animated indigo (#4F46E5) and violet (#A78BFA) blurs (140px) at low opacities. Typography combines Manrope (weights 200-700) for UI elements and Libre Baskerville for editorial headings. Colors revolve around #0B0C10 (Dark Surface), #FFFFFF (Light Surface), and #818CF8 (Indigo Accent). Micro-interactions use cubic-bezier(0.4, 0, 0.2, 1) for fluid motion, while shadows are replaced by soft glows (box-shadow: 0 0 100px -20px rgba(99, 102, 241, 0.15)).",
-    "prompt": "Create a design system with a 'Luminous Ethereal' aesthetic. Background: Animated mesh gradient using #4F46E5, #A78BFA, and #60A5FA at 10-20% opacity with 140px blur, moving via a floating animation (translate 20px, -20px over 10s). Surface: Glassmorphism panels with 'backdrop-filter: blur(24px)', 'background: rgba(15, 23, 42, 0.4)', and 'border: 1px solid rgba(255, 255, 255, 0.05)'. Typography: Headings in 'Libre Baskerville' (light weight, tracking-tight), UI labels in 'Manrope' (uppercase, 0.3em tracking, font-size 10px). Accents: Use 'indigo-400' (#818CF8) for highlights. Icons: Ultra-thin 0.5px stroke weight. Buttons: Ghost style with bottom-border hover effects or high-glow solid fills for primary actions."
-  },
-  "layout_and_structure": {
-    "description": "A horizontal-scrolling 'Gallery' layout using snap-mandatory behavior (snap-x). The structure consists of a fixed global navigation (Theme toggles, Logo, Summary Panel trigger) and a persistent 'Horizon' footer for progress tracking.",
-    "prompts": [
-      {
-        "part": "Navigation & Global Headers",
-        "prompt": "Top-left: Minimal logo 'Superdesign.' in serif font with a horizontal line prefix. Top-center: 'Calibration DNA' pill-shaped toggle button (glass-panel, 10px uppercase bold). Top-right: Theme switcher using sun/moon icons in a rounded glass container. All elements fixed-position, z-index 50."
-      },
-      {
-        "part": "Hero Entry Section",
-        "prompt": "Full-screen centered layout. Elements: Small 'Genesis 01' pill at top. Heading: 7rem Libre Baskerville text 'Align your team on direction' with italic emphasis. Subtext: 2xl Manrope light. Call-to-action: 'Initialize Workspace' with a persistent underline and right-arrow icon that translates x+8px on hover."
-      },
-      {
-        "part": "Interactive Selection Panels",
-        "prompt": "Grid layout (1x2 or 1x3). Cards use 'glass-panel' style. On hover: border color shifts to #6366F1/50 and a 'backlight-glow' pseudo-element appears (linear-gradient(45deg, indigo-300 to transparent)). Content includes a title, hidden description that expands on active state, and a thin-line icon (compass/layers)."
-      },
-      {
-        "part": "Calibration Dial Section",
-        "prompt": "Centered glass container. Includes a custom range slider. Track: 2px height, #FFFFFF10 background. Thumb: 24px circle, indigo-400 with a 15px glow shadow. Below the slider, four text labels ('Observe', 'Assist', etc.) with 0.4em tracking that highlight when the thumb is near."
-      },
-      {
-        "part": "Horizon Progress Footer",
-        "prompt": "Fixed bottom bar. Top edge: 2px track with a 'Laser Thread' (width dynamic, background: linear-gradient to right, transparent to indigo-400 to white, drop-shadow: 0 0 8px #818CF8). Layout: Left side has 'FRM_XX' coordinate; Center has navigation dots; Right side has percentage completion."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Echo Synthesis Panel",
-      "description": "A sliding side drawer providing a summary of user selections.",
-      "prompt": "Width: 450px. Right-aligned drawer. Style: Extreme blur glass (40px). Animation: translate-x-full to 0 via 700ms ease-in-out. Content: 'Operational Synthesis' header with a rotating refresh icon. Data points use large serif text (3xl) with an 'opacity: 20%' empty state that transforms to indigo-400 text when data is selected."
-    },
-    {
-      "component": "Laser Thread Progress",
-      "description": "A linear progress indicator that mimics a beam of light.",
-      "prompt": "Height: 2px. Width: dynamic. Gradient: transparent at start, indigo-400 middle, white tip. Glow: filter: drop-shadow(0 0 8px rgba(129, 140, 248, 1)). Transition: 700ms ease-out. Located as a divider between the main content and footer."
-    }
-  ]
-}
-```
-
----
-
-## 126. Welcome back · Lumen — centered-card (true cobalt)
+## 119. Welcome back · Lumen — centered-card (true cobalt)
 `Auth & Login` · `SaaS` · 1 copies · [try live](https://superdesign.dev/library/welcome-back-lumen-centered-card-true-cobalt?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A clean centered-card sign-in page on a soft off-white canvas with a single true-cobalt accent: sticky nav, a white rounded-3xl auth card (Google + GitHub social, floating-label email/password with a show/hide toggle, remember-me + forgot, gradient Sign in CTA), and ambient cobalt glows.
@@ -15881,7 +12904,7 @@ A clean centered-card sign-in page on a soft off-white canvas with a single true
 
 ---
 
-## 127. Atlas Studio — Charting Your Account, Step One of Three
+## 120. Atlas Studio — Charting Your Account, Step One of Three
 `Auth & Login` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/atlas-studio-charting-your-account-step-one-of-three?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Premium dark-navy multi-step signup / onboarding screen (step 1 of 3) for an AI design tool: a 3-step progress tracker, glassy translucent cards on a midnight-navy ground with soft amber glows, a single warm amber accent, focus-reactive fields, a password strength meter, a role selector, and a 'what you unlock' value panel with a testimonial.
@@ -15892,7 +12915,7 @@ Premium dark-navy multi-step signup / onboarding screen (step 1 of 3) for an AI 
 
 ---
 
-## 128. Conversion-optimised Product Page
+## 121. Conversion-optimised Product Page
 `E-commerce` · `E-commerce & Retail` · 12 copies · [try live](https://superdesign.dev/library/conversion-optimised-product-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Traditional PDP enhanced with a sticky purchase module that remains visible during scroll. Reinforces CTAs with social proof and benefit blocks to reduce hesitation.
@@ -15946,7 +12969,132 @@ High-volume DTC brands, ads-driven traffic, products optimized for CRO.
 
 ---
 
-## 129. Forms that feel effortless to fill — Fieldcraft
+## 122. Offer overlay- Centered Offer Modal
+`E-commerce` · `E-commerce & Retail` · 2 copies · [try live](https://superdesign.dev/library/offer-overlay-centered-offer-modal?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A centered overlay modal that blocks the page content and focuses attention on a single promotional message. Contains a clear headline, short explanatory text, one primary input or CTA, and a visible close action. Designed for maximum visibility and message clarity.
+
+Best suited for
+First-time visitor discounts, email capture offers, high-intent landing pages where interruption is acceptable.
+
+```text
+Create a wireframe for a discount offer modal with:
+
+- Centered overlay on dark background
+- Clear headline at top
+- Short descriptive text
+- Email input field with placeholder
+- "Apply Discount" button at bottom
+- Clean, minimal design with no decorative elements
+- Simple typography hierarchy
+- Functional layout focused on usability
+
+Here is a reference implementation:
+
+~~~html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Discount Modal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'General Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen bg-gray-50 flex items-center justify-center p-4 relative overflow-hidden">
+        <!-- Background Context (Simulated Page Content behind overlay) -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none" aria-hidden="true">
+            <div class="container mx-auto px-6 py-8">
+                <div class="h-8 w-32 bg-gray-900 mb-12"></div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="h-64 bg-gray-300 rounded"></div>
+                    <div class="h-64 bg-gray-300 rounded"></div>
+                    <div class="h-64 bg-gray-300 rounded"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Overlay -->
+        <div class="fixed inset-0 bg-gray-900/60 backdrop-blur-sm transition-opacity z-40"></div>
+
+        <!-- Modal Content -->
+        <div class="relative z-50 w-full max-w-[440px] bg-white rounded-xl shadow-2xl overflow-hidden transform transition-all">
+            
+            <!-- Close Button -->
+            <button class="absolute top-5 right-5 text-gray-400 hover:text-gray-900 transition-colors p-1 rounded-full hover:bg-gray-100" aria-label="Close modal">
+                <iconify-icon icon="lucide:x" class="text-xl block"></iconify-icon>
+            </button>
+
+            <!-- Modal Body -->
+            <div class="p-8 sm:p-10 text-center">
+                
+                <!-- Visual Anchor -->
+                <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gray-100 mb-6 text-gray-900">
+                    <iconify-icon icon="lucide:tag" class="text-2xl"></iconify-icon>
+                </div>
+
+                <!-- Headlines -->
+                <h2 class="text-2xl font-semibold text-gray-900 mb-3 tracking-tight">
+                    Unlock 20% Off
+                </h2>
+                <p class="text-gray-500 text-sm leading-relaxed mb-8 px-2">
+                    Join our newsletter list to get exclusive access to our latest collections and a special discount on your first order.
+                </p>
+
+                <!-- Form -->
+                <form class="space-y-4 text-left" onsubmit="event.preventDefault()">
+                    <div class="space-y-1.5">
+                        <label for="email" class="block text-xs font-medium text-gray-700 ml-1">
+                            Email Address
+                        </label>
+                        <div class="relative">
+                            <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+                                <iconify-icon icon="lucide:mail" class="text-gray-400 text-lg"></iconify-icon>
+                            </div>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                placeholder="you@example.com" 
+                                class="block w-full pl-10 pr-4 py-3 text-sm text-gray-900 bg-gray-50 border border-gray-200 rounded-lg focus:ring-1 focus:ring-gray-900 focus:border-gray-900 focus:bg-white outline-none transition-all placeholder:text-gray-400"
+                                required
+                            >
+                        </div>
+                    </div>
+
+                    <button 
+                        type="submit" 
+                        class="w-full flex items-center justify-center gap-2 py-3 px-4 bg-gray-900 hover:bg-black text-white text-sm font-medium rounded-lg shadow-lg shadow-gray-900/10 transition-all active:scale-[0.98]"
+                    >
+                        <span>Apply Discount</span>
+                        <iconify-icon icon="lucide:arrow-right" class="text-base opacity-80"></iconify-icon>
+                    </button>
+                </form>
+
+                <!-- Footer / Disclaimer -->
+                <div class="mt-6 pt-6 border-t border-gray-100">
+                    <p class="text-xs text-gray-400 font-medium">
+                        No spam, unsubscribe at any time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+~~~
+```
+
+---
+
+## 123. Forms that feel effortless to fill — Fieldcraft
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/forms-that-feel-effortless-to-fill-fieldcraft?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A stacked, multi-section account-settings form on a white card: top-aligned labels, helper text, a 6-column responsive grid, custom checkboxes and radios, and one disciplined emerald accent for focus and the primary action.
@@ -15957,7 +13105,7 @@ A stacked, multi-section account-settings form on a white card: top-aligned labe
 
 ---
 
-## 130. Loop · Say hello, we don't bite (friendly illustrated sky)
+## 124. Loop · Say hello, we don't bite (friendly illustrated sky)
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/loop-say-hello-we-dont-bite-friendly-illustrated-sky?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm, playful illustrated contact page (Loop) in a sky-blue + coral two-accent palette on a cloud-white canvas: a sticky blurred nav, a centered two-tone "Let's chat about anything you're building" hero with a pulsing reply-time pill, and one giant rounded white card splitting a hand-drawn CSS+SVG illustration panel (floating sun, clouds, channel bubbles, grass) and copy on the left against a multi-field form with icon-prefixed sky-ring inputs, emoji topic chips and a gradient send button on the right, then a row of three alt-contact cards and a deep sky-ink footer. Heavy rounded Nunito (up to black 900), bubbly corners, cheerful and human, never a cold corporate form.
@@ -15968,7 +13116,7 @@ A warm, playful illustrated contact page (Loop) in a sky-blue + coral two-accent
 
 ---
 
-## 131. Chronological Content Feed
+## 125. Chronological Content Feed
 `Blog & Editorial` · `E-commerce & Retail` · 1 copies · [try live](https://superdesign.dev/library/chronological-content-feed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A straightforward vertical list of blog posts ordered by date. Each entry includes a thumbnail placeholder, title, excerpt, and metadata. Optimized for reading flow and content discovery over time.
@@ -16026,7 +13174,7 @@ Content marketing blogs, product updates, founder blogs, SEO-driven publishing.
 
 ---
 
-## 132. Formcraft — Workspace Settings (cobalt two-column)
+## 126. Formcraft — Workspace Settings (cobalt two-column)
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/formcraft-workspace-settings-cobalt-two-column?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A two-column SaaS workspace-settings screen: sticky app nav, left section nav, grouped settings cards with toggles, a segmented control, selectable delivery cards, and a fixed save bar, in Inter on slate with one cobalt accent.
@@ -16037,7 +13185,7 @@ A two-column SaaS workspace-settings screen: sticky app nav, left section nav, g
 
 ---
 
-## 133. Atelier · Early Access (waitlist-minimal-graphite)
+## 127. Atelier · Early Access (waitlist-minimal-graphite)
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/atelier-early-access-waitlist-minimal-graphite?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Minimal monochrome graphite-on-paper waitlist / early-access landing for an AI design tool: a warm off-white ground with near-black ink and one platinum grey (no color accent), a big tight black-weight headline, a centered single-field email + button waitlist form with overlapping social-proof avatars, scattered graphite confetti strokes, a logo trust strip, a 3-step how-it-works grid and an inverted full-bleed dark closing CTA.
@@ -16048,7 +13196,7 @@ Minimal monochrome graphite-on-paper waitlist / early-access landing for an AI d
 
 ---
 
-## 134. Editorial Image Lightbox
+## 128. Editorial Image Lightbox
 `Blog & Editorial` · `General` · 1 copies · [try live](https://superdesign.dev/library/editorial-image-lightbox?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial image lightbox modal as the live hero of a product page: a near-black coal (#0c0a09) figure with a top rail (serif 04/28 plate counter + 'Aperture Series' label, scrollable category filter pills, a circular close), a full-bleed photograph with circular glass prev/next carets and a bottom legibility gradient, and a cream (#faf6ef) caption panel (burgundy location eyebrow, a Fraunces headline, a description, Save / Copy-prompt actions), floated over a vignetted grain stage with a faded 3-up gallery echo behind and an 'Esc / arrows / 28 plates' keyboard ticker beneath. Around it: a frosted sticky cream nav, a hero with a stats card, a 3-up library grid, a four-cell anatomy band, a dark CTA band and a coal footer. Ink-on-cream editorial with a single reserved burgundy #7b2d3b accent; Fraunces + Inter, Phosphor icons.
@@ -16059,7 +13207,7 @@ An editorial image lightbox modal as the live hero of a product page: a near-bla
 
 ---
 
-## 135. Tablekit — The data table your team actually wants to live in
+## 129. Tablekit — The data table your team actually wants to live in
 `Dashboards` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/tablekit-the-data-table-your-team-actually-wants-to-live-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Dense light-mode admin data table (Tablekit): blurred sticky nav, dotted-grid hero, a cobalt-on-white panel with a filter bar, bulk-action bar, sticky-header scroll table with colored status/priority/type badges and avatar chips, and a full pagination footer.
@@ -16070,7 +13218,7 @@ Dense light-mode admin data table (Tablekit): blurred sticky nav, dotted-grid he
 
 ---
 
-## 136. Sunset Glow Wordmark Mega Footer
+## 130. Sunset Glow Wordmark Mega Footer
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/sunset-glow-wordmark-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark mega footer with a radial orange-to-magenta sunset glow, a giant gradient wordmark, newsletter capture, three link columns, and a legal bar.
@@ -16081,7 +13229,7 @@ A dark mega footer with a radial orange-to-magenta sunset glow, a giant gradient
 
 ---
 
-## 137. Atelier — Design, Spoken Into Being (editorial serif / burgundy)
+## 131. Atelier — Design, Spoken Into Being (editorial serif / burgundy)
 `Forms & Contact` · `General` · 1 copies · [try live](https://superdesign.dev/library/atelier-design-spoken-into-being-editorial-serif-burgundy?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial, print-magazine CTA: an oversized Fraunces serif statement with a single burgundy italic line on warm cream paper, closed by an understated text-link call to action and a no-card trust line, framed by a sticky nav and a newsletter footer.
@@ -16092,66 +13240,7 @@ An editorial, print-magazine CTA: an oversized Fraunces serif statement with a s
 
 ---
 
-## 138. Linear inspired developer tool dashboard
-`Dashboards` · `Dev Tools` · 33 copies · [try live](https://superdesign.dev/library/linear-inspired-developer-tool-dashboard?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A high-performance dark-mode console design inspired by Linear and high-end developer tools. Featuring a deep charcoal and black palette (#0e0e0e, #111113) with a vibrant indigo accent (#5e6ad2). The layout uses a classic three-pane structure: a 240px navigation sidebar, a central list view, and a 480px sliding contextual detail panel. Key aesthetics include minimal borders (white/5), Inter/JetBrains Mono typography pairing, glassmorphism overlays, and precise status indicators with subtle animations. Optimized for SaaS dashboards, developer platforms, and AI-driven workflow management tools.
-
-```text
-{
-  "summary": "A sophisticated, high-density dark-mode dashboard with a layout optimized for productivity and high information density. It uses a core color of near-black with subtle elevation shifts between panels and a distinct focus on typography and micro-interactions.",
-  "style": {
-    "description": "Deep dark mode theme using #0e0e0e for background and #111113 for surfaces. Typography features Inter (Sans) for UI elements and JetBrains Mono for data/technical metadata. Primary accent color is #5e6ad2. Animations are crisp, using cubic-bezier(0.16, 1, 0.3, 1) for rapid yet smooth transitions.",
-    "prompt": "### Visual Language & Style Guide\n\n**Color Palette:**\n- **Base Background:** `#0e0e0e` (main canvas).\n- **Surface Background:** `#111113` (sidebar, panels).\n- **Accent Color:** `#5e6ad2` (Indigo-blue) used for primary buttons, active states, and focus rings.\n- **Border Color:** `rgba(255, 255, 255, 0.05)` (highly subtle separation).\n- **Text Colors:** Primary: `#f3f4f6`, Secondary: `#9ca3af`, Tertiary: `#6b7280`, Muted/Mono: `#4b5563`.\n- **Status Colors:** In-progress: `#f97316` (Orange), Active/Success: `#10b981` (Emerald), Error: `#ef4444` (Red).\n\n**Typography:**\n- **Sans-Serif:** 'Inter', sans-serif. Use 14px (0.875rem) for main text, 13px (0.8125rem) for secondary UI, and 11px (0.6875rem) for uppercase category labels.\n- **Monospace:** 'JetBrains Mono', monospace. Use for IDs, version numbers, and system logs at 10px-12px.\n- **Font Weights:** Medium (500) for headers/buttons, Regular (400) for body, Semi-bold (600) for page titles.\n\n**Shadows & Depth:**\n- **Panel Shadow:** `0 4px 20px rgba(0,0,0,0.4)`.\n- **Glass Effect:** `backdrop-filter: blur(8px); background: rgba(30, 30, 30, 0.8)` for floating elements.\n\n**Micro-Interactions:**\n- **Focus States:** 2px solid outline/box-shadow of `#5e6ad2`.\n- **Hover Transitions:** 150ms-200ms ease-in-out on backgrounds and text colors.\n- **Slide-in Animation:** 0.2s duration using `cubic-bezier(0.16, 1, 0.3, 1)` for panels entering from the right."
-  },
-  "layout_and_structure": {
-    "description": "Triple-column layout with fixed-width navigation and contextual panels, flanking a flexible main content area.",
-    "prompts": [
-      {
-        "part": "Sidebar Navigation",
-        "prompt": "Fixed width of 240px. Background `#111113`, border-right `1px solid rgba(255,255,255,0.05)`. Includes a 48px height workspace switcher at top, a scrollable nav area with category headers (11px uppercase, letter-spacing: wide), and a 48px user profile footer with a 20px circular avatar."
-      },
-      {
-        "part": "Main Content Header",
-        "prompt": "48px height. Background `#0e0e0e`, border-bottom `1px solid rgba(255,255,255,0.05)`. Left side contains breadcrumbs (slash separators). Right side contains a 128px width search bar with a shortcut key hint ('F') and a primary 'New' button (white background, black text, 13px font weight)."
-      },
-      {
-        "part": "Item List View",
-        "prompt": "Scrollable area. Items are 44px high rows. Active row has background `rgba(94, 106, 210, 0.05)`. Each row contains: status icon (14px), Mono ID (12px), title (14px), metadata tags (small bordered badges), and a right-aligned timestamp (12px muted text)."
-      },
-      {
-        "part": "Contextual Detail Panel",
-        "prompt": "Fixed width of 480px. Background `#111113`. Slides in from right. Header matches main header height (48px). Content section features 24px padding, divided into: Title/Description block, AI control widgets (enclosed card with 10% white border), property grid (2-column key-value pairs), and a chronological activity feed with vertical connectors."
-      },
-      {
-        "part": "Global Status Bar",
-        "prompt": "Fixed height 32px at the extreme bottom. Font: 10px Monospace. Displays system status with a pulsing 6px circle, version numbers, and latency stats. Background `#0e0e0e`."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "AI Agent Control Card",
-      "description": "A specialized block for adjusting AI parameters within the detail view.",
-      "prompt": "Rectangle with 8px border-radius, border `1px solid rgba(255,255,255,0.1)`. Header includes a bot icon and a pulsing 'Active' status light. Body contains grid rows with 100px fixed-width labels. Includes a custom-styled `<input type=\"range\">` with `#5e6ad2` accent color and small monospace value readouts."
-    },
-    {
-      "component": "Keyboard Shortcut Toast",
-      "description": "Floating hint for keyboard-driven users.",
-      "prompt": "Positioned absolute bottom-12. Background `#1a1a1a`, 6px border-radius, thin border. Uses `display: flex` with 16px gap. Shortcut keys wrapped in small `#888` background boxes with mono text. Includes a subtle slide-in animation with 0.5s delay."
-    },
-    {
-      "component": "Status Metadata Badge",
-      "description": "Small technical tags for categorizing items.",
-      "prompt": "Padding 2px 6px. Background `rgba(255,255,255,0.05)`, border `1px solid rgba(255,255,255,0.1)`. Border-radius 4px. Font: 10px JetBrains Mono. Icons inside are 10px."
-    }
-  ]
-}
-```
-
----
-
-## 139. Modal Design · success-celebration (pastel) — legibility fixed
+## 132. Modal Design · success-celebration (pastel) — legibility fixed
 `Onboarding` · `General` · 0 copies · [try live](https://superdesign.dev/library/modal-design-success-celebration-pastel-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A joyful pastel success-celebration modal as the live centerpiece of a light SaaS page: a cream rounded-5xl dialog with a pulsing-ring animated checkmark badge, a gradient 'Continue to dashboard' CTA and a ghost secondary, floating over a full-bleed confetti layer on a cream-to-sky radial field. Below it a 3-up pattern-library card band, a starter-kit split with a stacked mini upgrade modal, a dark-ink CTA band and a cream footer. Pastel sky + coral are decorative-only; all colored text uses darkened >=4.5:1 tokens (#0369a1 / #be123c) and every gradient button runs deep stops behind white — legibility fixed. Poppins throughout.
@@ -16162,7 +13251,7 @@ A joyful pastel success-celebration modal as the live centerpiece of a light Saa
 
 ---
 
-## 140. Superdesign Setup - Inline Preview
+## 133. Superdesign Setup - Inline Preview
 `Onboarding` · `AI & Tech` · 10 copies · [try live](https://superdesign.dev/library/superdesign-setup-inline-preview?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A minimalist, developer-centric configuration interface featuring a monochrome technical aesthetic. It utilizes a high-contrast dark/light mode, JetBrains Mono for system labels, and Inter for UI elements. Key features include an inline state-preview logging system, custom range sliders for AI intervention thresholds, and segmented controls for workspace density. Suitable for SaaS setup wizards, developer tools, AI configuration panels, and fintech dashboards that prioritize functional clarity and a 'terminal-lite' feel.
@@ -16222,7 +13311,7 @@ A minimalist, developer-centric configuration interface featuring a monochrome t
 
 ---
 
-## 141. Verify it's you · Aperture (OTP / 2FA, graphite-platinum)
+## 134. Verify it's you · Aperture (OTP / 2FA, graphite-platinum)
 `Auth & Login` · `SaaS` · 4 copies · [try live](https://superdesign.dev/library/verify-its-you-aperture-otp-2fa-graphite-platinum?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 OTP / two-factor verification screen on warm paper with a graphite + platinum palette: a Two-factor eyebrow pill, a glass card with a lock icon, six single-digit code boxes, progress dots, a live resend countdown and a Verify code button. Inter, light mode, no saturated color.
@@ -16233,7 +13322,7 @@ OTP / two-factor verification screen on warm paper with a graphite + platinum pa
 
 ---
 
-## 142. Developer tool dashboard/onboarding
+## 135. Developer tool dashboard/onboarding
 `Dashboards` · `Dev Tools` · 14 copies · [try live](https://superdesign.dev/library/developer-tool-dashboardonboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-density, terminal-inspired dark mode design system optimized for developer tools, SaaS configuration panels, and technical dashboards. It features a matte #111111 background with a subtle 40px grid pattern, utilitarian typography pairing Space Grotesk with JetBrains Mono, and a high-contrast #FFFFFF accent color. The aesthetic is brutalist and tool-like, utilizing zero border-radius, instant transitions (<100ms), and a dual-pane layout with a live code terminal echo. Ideal for power-user interfaces where information density and technical focus are prioritized over visual decoration.
@@ -16297,7 +13386,7 @@ A high-density, terminal-inspired dark mode design system optimized for develope
 
 ---
 
-## 143. Technical System Onboarding
+## 136. Technical System Onboarding
 `Onboarding` · `AI & Tech` · 8 copies · [try live](https://superdesign.dev/library/technical-system-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A technical, research-backed onboarding system design using a dark slate palette with high-visibility signal orange accents. Optimized for high-fidelity AI systems, data science dashboards, fintech terminals, and developer tools. Features editorial modern grotesk typography, monospace metadata, grid-based layouts, and a modular 'Capabilities Matrix' structure. Emphasizes reliability, transparency, and deterministic control through structured information hierarchy and a professional, no-nonsense aesthetic.
@@ -16344,7 +13433,7 @@ A technical, research-backed onboarding system design using a dark slate palette
 
 ---
 
-## 144. Plume · Sign in to your design canvas
+## 137. Plume · Sign in to your design canvas
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/plume-sign-in-to-your-design-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Warm, illustrated AI design-agent sign-in landing in sky-blue and coral: a sticky frosted nav over a two-panel side-panel login card (gradient illustration aside plus email, password and social auth), floating blobs, dot-grid texture and rounded-everything Nunito type.
@@ -16355,7 +13444,7 @@ Warm, illustrated AI design-agent sign-in landing in sky-blue and coral: a stick
 
 ---
 
-## 145. Gen-Z Social App
+## 138. Gen-Z Social App
 `Waitlist & Coming Soon` · `General` · 224 copies · [try live](https://superdesign.dev/library/gen-z-social-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-energy, Gen-Z-inspired design system with a 'Neo-Brutalist' aesthetic. This style features high-saturation colors like acid green (#ccff00), vibrant purple (#7000ff), and hot pink (#ff0099), paired with heavy black borders and hard shadows. It utilizes expressive, oversized typography and intentional layout chaos through asymmetrical sections and tilted elements. Ideal for social media apps, youth-oriented fintech, creative portfolios, and lifestyle products that prioritize attitude over corporate structure.
@@ -16419,7 +13508,7 @@ A high-energy, Gen-Z-inspired design system with a 'Neo-Brutalist' aesthetic. Th
 
 ---
 
-## 146. Questions, Set in Serif — An Editorial FAQ
+## 139. Questions, Set in Serif — An Editorial FAQ
 `Blog & Editorial` · `General` · 0 copies · [try live](https://superdesign.dev/library/questions-set-in-serif-an-editorial-faq?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Editorial magazine-style FAQ page on a warm cream canvas: an oversized sticky Fraunces serif 'Frequently Asked Questions' title beside a hairline-ruled column of serif Q/A rows (numbered, rotating plus-to-x, one pre-opened in wine), an ink context band and footer, with a 'Question not here?' contact card.
@@ -16430,7 +13519,7 @@ Editorial magazine-style FAQ page on a warm cream canvas: an oversized sticky Fr
 
 ---
 
-## 147. High energy onboarding
+## 140. High energy onboarding
 `Onboarding` · `General` · 6 copies · [try live](https://superdesign.dev/library/high-energy-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A maximalist, neobrutalist design system featuring unconventional geometric typography, high-contrast colors, and interactive card stacking. Built for energetic SaaS onboarding, creative platforms, or experimental fintech interfaces. Uses Clash Display and Satoshi fonts with hard shadows (#2D1B4E), vibrant accents in orange (#FF7D2E) and cyan (#00D4FF), and a signature noise-textured background overlay.
@@ -16484,7 +13573,7 @@ A maximalist, neobrutalist design system featuring unconventional geometric typo
 
 ---
 
-## 148. Sign in to Verdant — Classic Split (Emerald)
+## 141. Sign in to Verdant — Classic Split (Emerald)
 `Auth & Login` · `SaaS` · 3 copies · [try live](https://superdesign.dev/library/sign-in-to-verdant-classic-split-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A full-bleed classic split sign-in page: white emerald-accented auth form on the left (social + email login, gradient Sign in CTA), a dark slate brand panel with ambient glows and a floating showcase card on the right, and a sticky nav above both.
@@ -16495,7 +13584,7 @@ A full-bleed classic split sign-in page: white emerald-accented auth form on the
 
 ---
 
-## 149. Blog Page - Editorial Grid Magazine
+## 142. Blog Page - Editorial Grid Magazine
 `Blog & Editorial` · `E-commerce & Retail` · 20 copies · [try live](https://superdesign.dev/library/blog-page-editorial-grid-magazine?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A grid-based blog layout with visual hierarchy: featured posts are larger, secondary posts arranged in a balanced grid. Emphasizes scanning and visual entry points rather than linear reading.
@@ -16557,13 +13646,1089 @@ Lifestyle brands, design-led companies, storytelling-focused content with strong
 
 ---
 
-## 150. Momentum — Ship Your Startup Launch Before the Idea Cools
+## 143. Momentum — Ship Your Startup Launch Before the Idea Cools
 `Waitlist & Coming Soon` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/momentum-ship-your-startup-launch-before-the-idea-cools?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Bold optimistic startup launch / waitlist landing page: teal-to-lime gradient brand on warm-white paper, sticky blurred nav, gradient-aura hero with an inline email-capture form and a frameless prompt-to-page preview, feature cards, a gradient traction band, launch-template cards, a dark ink CTA, and a 4-column footer.
 
 ```text
 {"summary": "A bold, optimistic startup launch / waitlist landing page. Bright teal-to-lime gradient brand on a near-white paper canvas with near-black warm ink text, a sticky blurred nav, a full-bleed gradient-aura hero with a centered waitlist email-capture form and a frameless 'prompt-to-page' product-preview band, a feature-card grid (one wide white card + one solid gradient accent card, then a 3-up row), a full-bleed gradient traction/metrics band, a 3-up launch-template card strip, a dark ink CTA block with a second waitlist form, and a 4-column footer. Heavy use of a gradient text clip, a 1.5px gradient ring/border on cards and inputs, a radial dot-grid texture, and soft layered shadows including a teal 'glow'.", "style": {"description": "Bold optimistic SaaS gradient. Bright teal #14b8a6 to lime #a3e635 brand gradient (extended with deep teal #0d9488, mint #5eddc4, olive-green #65a30d) used for fills, text-clip headlines, 1.5px gradient rings, and a radial hero aura. Base is a soft warm-white 'paper' #fbfdfb; text is near-black warm ink #0c1a17 with muted slate #475a54 for secondary copy. Plus Jakarta Sans throughout (400-800, plus one italic 500), extrabold tight-tracked headlines. Generous whitespace, rounded geometry (rounded-lg/xl/2xl/3xl), soft layered shadows plus a signature teal glow shadow, a faint radial dot-grid texture, and frameless product mock bands rather than browser/device chrome.", "prompt": "Design in a bold, optimistic SaaS-gradient style. Palette: warm-white paper base #fbfdfb, near-black warm ink text #0c1a17, muted slate secondary text #475a54, brand teal #14b8a6 and lime #a3e635 with supporting deep-teal #0d9488, mint #5eddc4 and olive-green #65a30d. Build the brand gradient as linear-gradient(105deg, #14b8a6 0%, #5eddc4 46%, #a3e635 100%) for fills (call it grad-fill), and linear-gradient(100deg, #0d9488, #14b8a6 38%, #65a30d 78%, #a3e635 100%) clipped to text for headline accents (grad-text). Use Plus Jakarta Sans for everything (weights 400/500/600/700/800, one italic 500); headlines are extrabold with tight tracking (-0.02em to -0.03em) and leading ~1.04-1.1. Geometry is rounded (rounded-lg 0.5rem through rounded-3xl 1.5rem) and pill badges. Apply a 1.5px gradient ring/border on cards, inputs and badges via a ::before mask trick (linear-gradient(120deg,#14b8a6,#a3e635), padding 1.5px, mask-composite exclude) called ring-grad. Shadows: soft = 0 1px 2px rgba(12,26,23,.04), 0 8px 30px rgba(12,26,23,.06); lift = 0 24px 60px -18px rgba(12,26,23,.18); glow = 0 18px 50px -12px rgba(20,184,166,.45). Texture: a radial dot-grid (radial-gradient(rgba(12,26,23,.07) 1px, transparent 1px) at 22px) and a blurred multi-stop radial 'hero aura' of teal+lime+mint behind the hero and CTA. Hairline borders use rgba(12,26,23,.06). Mood: energetic, founder-friendly, fast-shipping, clean. Never dark, neon-cyberpunk, or corporate-stiff."}, "layout_and_structure": {"description": "Single-column long-form landing page in a centered max-w-6xl (72rem) container with px-6 gutters. Top-down order: sticky blurred header nav; full-bleed gradient-aura hero (centered eyebrow pill, gradient-clip headline, sub-paragraph, inline waitlist email form, reassurance row, frameless product-preview band, and a logo trust row); a features section (one wide white card + one solid gradient accent card, then a 3-up white-card row); a full-bleed gradient traction band (left copy + right 2x2/4-up stat cards); a templates strip (header row + 3-up template preview cards); a dark ink CTA block (rounded-3xl, gradient aura, second waitlist form); and a 4-column footer with a bottom bar. Responsive: nav links hide below md; the hero form stacks below sm; feature/template/stat grids collapse from 3/4 to 2 to 1; gradient auras are clipped by section overflow-hidden so they never cause horizontal scroll.", "prompts": [{"part": "Sticky nav", "prompt": "A sticky top header (z-50) with a translucent paper background (bg-paper/80) and backdrop blur-xl plus a hairline bottom border. Inside a max-w-6xl row, height 64px: left = a gradient-fill rounded-lg badge (h-8 w-8) holding a ph:lightning-fill icon in ink with a teal glow shadow, next to the 'Momentum' wordmark (extrabold, tight tracking); center = horizontal nav links (Features, Traction, Templates, Pricing) in slate that darken to ink on hover, hidden below md; right = a ghost 'Log in' text link (hidden below sm) and a gradient-fill rounded-lg 'Join waitlist' pill button in ink with a soft shadow that turns to a teal glow on hover."}, {"part": "Hero (gradient launch)", "prompt": "A full-bleed, centered hero with overflow-hidden and a hairline bottom border. Layer three backgrounds absolutely: a blurred multi-stop 'hero aura' (radial teal at top-left, lime at top-right, mint at bottom-center) at ~90% opacity, a radial dot-grid at 60% opacity, and a bottom fade gradient from paper up to transparent. Centered content in max-w-6xl, padding pt-20/pt-28 and pb-24: a gradient-ring rounded-full status pill on white/70 ('Now in private beta. Batch #4 opening') with a tiny gradient dot and a teal ph:arrow-right; a huge extrabold headline (text 44px up to 72px on md, leading 1.04, tracking -0.03em) reading 'Launch your startup' then a gradient-text clip span 'site before the idea cools.'; a slate sub-paragraph (max-w-xl); then an inline waitlist form (max-w-md, stacks on mobile, row on sm): a gradient-ring white input pill with a teal ph:envelope-simple icon and placeholder 'you@startup.com', plus a gradient-fill 'Get early access' button in ink with a ph:rocket-launch-fill icon and teal glow; below it a centered reassurance row with two teal ph:check-circle-fill items ('No credit card', '2-min setup'). Below the form, a frameless product-preview band (see component) and a trust logo row."}, {"part": "Product-preview band", "prompt": "A frameless (no browser/device chrome) product mock centered under the hero form, max-w-4xl, rounded-2xl white card with a gradient ring and a deep 'lift' shadow. Top strip on a soft brand-tint gradient with a hairline bottom border: a 'Prompt' label with a teal ph:sparkle-fill icon, a truncated example prompt in slate ('a launch page for a carbon-tracking app, bold + optimistic'), and a gradient-fill 'Generating...' chip pushed to the right. Body: a 3-col grid of skeleton blocks representing a generated page: a full-width hero row (col-span-3, brand-tint gradient) with two rounded bar placeholders and a gradient-fill button block, then three small bordered cards each with a gradient-fill rounded icon block and two bar placeholders. Use ink-opacity bars (bg-ink/80, /15, /10) as the skeleton copy."}, {"part": "Trust logo row", "prompt": "A centered trust row below the preview: an uppercase wide-tracked (0.18em) slate/70 label 'Trusted by builders shipping fast', then a flex-wrap row at ~70% opacity of five fake brand lockups, each an extrabold ink wordmark paired with a Phosphor icon (ph:orange-slice-fill Citrus, ph:planet-fill Orbit, ph:cube-fill Forma, ph:wave-triangle Hertz, ph:leaf-fill Sprout)."}, {"part": "Feature cards", "prompt": "A features section with a hairline bottom border, max-w-6xl, py-20/py-28. Centered header: a gradient-soft gradient-ring rounded-full eyebrow pill in teal ('Built to move'), an extrabold heading (34px up to 44px) with a gradient-text clip on the second phrase ('Everything a launch needs, nothing that slows it down.'), and a slate sub-paragraph. Then a first row on md:grid-cols-3: a wide white card (md:col-span-2) with a gradient ring, a blurred gradient blob in the top-right corner, a gradient-fill rounded-xl icon tile (ph:magic-wand-fill), an extrabold title 'Prompt-to-page in one shot', a slate paragraph, and a wrap of four ink/[.04] pill tags (Hero + CTA, Pricing tables, Waitlist forms, SEO meta); beside it a tall solid gradient-fill accent card in ink text with an inner dot-grid, a translucent ink/10 icon tile (ph:gauge-fill), title 'Live in under 5 minutes', an ink/80 paragraph, and an ink/10 pill ('avg. 4m 12s to publish' with ph:timer-fill). A second row of three equal white gradient-ring cards, each with a gradient-soft rounded-xl teal icon tile (ph:palette-fill / ph:chart-line-up-fill / ph:plugs-connected-fill), a bold title and slate body ('On-brand by default', 'Conversion built in', 'Plays with your stack'). Cards lift their shadow on hover."}, {"part": "Traction band", "prompt": "A full-bleed solid gradient-fill band (brand teal-to-lime) in ink text with a hairline bottom border, an inner dot-grid at 20% and a large blurred white/20 blob on the left. Inside max-w-6xl, py-16/py-20, a two-column grid (md:[1.1fr_1.4fr]): left = an ink/10 rounded-full uppercase eyebrow ('The numbers'), an extrabold heading (32px up to 40px, 'Momentum compounds for the teams who ship.'), and an ink/80 paragraph; right = a 2-col / up-to-4-col grid of stat cards, each white/85 rounded-2xl with backdrop blur and soft shadow, holding a big extrabold number (12k+ / 4m / +38% / 4.9 with a teal star) and a slate label beneath (sites launched, avg. time to live, waitlist conversion, founder rating)."}, {"part": "Templates strip", "prompt": "A templates section with a hairline bottom border, max-w-6xl, py-20/py-24. Header row (column on mobile, row on md aligned to the end): left = a gradient-soft gradient-ring teal eyebrow ('Start ahead') and an extrabold heading (30px up to 38px, 'Start from a launch template, or a single sentence.'); right = a teal bold text link 'Browse all templates' with a ph:arrow-right that widens its gap on hover. Then a 3-up card grid (1 / sm:2 / lg:3, the third spanning 2 on sm): each card is a gradient-ring white rounded-2xl article with an aspect-16/10 brand-tint-gradient preview header containing a dot-grid and abstract skeleton shapes (bar placeholders, a gradient-fill button block, a 3-up white/70 block row, or a 2x2 mixed block grid), and a footer row with a bold title + slate caption (SaaS Launch / Hero, features, pricing; Waitlist / Capture + share loop; Product Hunt / Built for launch day) and a teal ph:arrow-up-right that nudges right on group hover. Cards lift their shadow on hover."}, {"part": "CTA block", "prompt": "A pricing/CTA section with a hairline bottom border, max-w-6xl, py-20/py-28. A single rounded-3xl card on solid ink (#0c1a17) with paper text, a gradient ring, a blurred hero-aura overlay at 90% and an inner dot-grid at 20%, padded px-8/px-16 and py-14/py-20, centered: a white/10 backdrop-blur rounded-full eyebrow with a lime ph:rocket-launch-fill ('Free while in beta'); a huge extrabold headline (36px up to 52px) 'Your launch page is one [gradient-text 'prompt'] away.'; a paper/70 paragraph; a second waitlist form (max-w-md, stacks on mobile): a translucent white/10 input with a white/15 ring that focuses to teal and paper placeholder, plus a gradient-fill 'Claim my spot' ink button with a ph:arrow-right and teal glow; and a paper/50 reassurance line ('Joined by 3,400+ founders this month')."}, {"part": "Footer", "prompt": "A paper-background footer, max-w-6xl, py-16. A grid (md:[1.6fr_1fr_1fr_1fr]): first column = the gradient-fill lightning badge + 'Momentum' wordmark, a slate description ('From a one-line prompt to a live, converting launch page. Ship before the idea cools.'), and three bordered rounded-lg social icon buttons (ph:x-logo, ph:github-logo, ph:discord-logo) whose border and icon turn teal on hover; then three link columns (Product, Company, Resources) each with a bold uppercase wide-tracked ink heading and slate links that darken to ink on hover. A top-bordered bottom bar (column on mobile, row on sm) splits a slate copyright ('© 2026 Momentum Labs, Inc. All rights reserved.') from Privacy / Terms links and a status pill ('All systems go' with a small gradient-fill dot)."}]}, "special_ui_components": ["Brand gradient system: grad-fill (linear-gradient(105deg,#14b8a6,#5eddc4 46%,#a3e635)) for buttons/badges/icon tiles, and grad-text (linear-gradient(100deg,#0d9488,#14b8a6 38%,#65a30d 78%,#a3e635)) clipped to text for headline accents", "ring-grad: a 1.5px gradient border (linear-gradient(120deg,#14b8a6,#a3e635)) applied via a ::before padding + mask-composite:exclude trick on cards, inputs, badges and the product-preview band", "hero-aura: a blurred multi-stop radial-gradient wash (teal top-left, lime top-right, mint bottom-center) layered behind the hero and reused inside the dark CTA block", "dotgrid: a radial-dot texture (rgba(12,26,23,.07) 1px dots on a 22px grid) layered over the hero, gradient cards, traction band, template previews and CTA", "Signature 'glow' shadow: 0 18px 50px -12px rgba(20,184,166,.45) (teal) on the primary buttons and gradient icon tiles, alongside 'soft' and deep 'lift' shadows", "Frameless product-preview band: a chrome-less rounded-2xl mock with a 'Prompt' bar (sparkle + truncated example prompt + 'Generating...' chip) and a skeleton generated-page grid built from ink-opacity bars and gradient-fill blocks", "Inline waitlist email-capture forms (in both hero and CTA) with a leading ph:envelope-simple icon and a gradient-fill rocket/arrow submit button", "Phosphor (Iconify ph:*) icons throughout: lightning-fill, arrow-right, envelope-simple, rocket-launch-fill, check-circle-fill, sparkle-fill, magic-wand-fill, gauge-fill, timer-fill, palette-fill, chart-line-up-fill, plugs-connected-fill, arrow-up-right, x-logo, github-logo, discord-logo, plus fake-brand marks (orange-slice-fill, planet-fill, cube-fill, wave-triangle, leaf-fill)", "Abstract skeleton template previews: aspect-16/10 brand-tint gradient panels filled with rounded bar/block placeholders instead of real screenshots"], "special_notes": "Fonts: Plus Jakarta Sans only, loaded from Google Fonts (ital,wght 0,400;0,500;0,600;0,700;0,800;1,500). Built with Tailwind via the CDN (cdn.tailwindcss.com) using a custom theme: colors ink #0c1a17, slate #475a54, teal #14b8a6, lime #a3e635, paper #fbfdfb; custom boxShadow tokens soft / lift / glow; sans font-family mapped to Plus Jakarta Sans. Icons via iconify-icon web component (Phosphor 'ph:' set). html has scroll-behavior:smooth and all gradient-aura/blob sections use overflow-hidden so the blurred washes never cause horizontal scroll. No real product screenshots or photos are used: everything is rendered with CSS gradients, dot-grid texture and skeleton bar/block placeholders. Keep the mood bright, optimistic and fast-shipping; never dark-mode-default, neon-cyberpunk, or corporate-stiff. The only dark surface is the single ink CTA card."}
+```
+
+---
+
+## 144. Social Media Post
+`Other` · `General` · 18 copies · [try live](https://superdesign.dev/library/social-media-post?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+Design social media posts based on given assets
+
+```text
+skill:
+  id: social-design-os-v5-2
+  name: "SUPERDESIGN — Social Design OS v5.2"
+  version: "5.2"
+  category: "Social / Campaign"
+  author_role: "Senior Art Director • Visual Systems Architect"
+
+  description: >
+    A full-stack social design operating system for Superdesign.
+    Reference-intelligent, platform-native, accessibility-enforced,
+    density-calibrated, compression-aware, campaign-consistent, and performance-adaptive.
+    Produces production-ready outputs only (no mockups, no UI chrome, no debug grids).
+
+############################################################
+# CORE DISCIPLINE PRINCIPLES
+############################################################
+
+  discipline_principles:
+    - "No silent assumptions."
+    - "Platform + canvas must be confirmed before layout."
+    - "Optional inputs must be proactively requested when they materially impact quality."
+    - "Social density ≠ Website density."
+    - "Accessibility overrides aesthetics."
+    - "Platform safe zones override composition placement."
+    - "No UI chrome ever."
+    - "No visible grids ever."
+    - "No faux system metadata / meaningless micro text."
+    - "If uncertain: remove elements, increase space, strengthen hierarchy, ask."
+
+  non_negotiable_prohibitions:
+    - "No Instagram/TikTok/LinkedIn UI frames, headers, nav bars, fake usernames."
+    - "No drop-shadow presentation mockups."
+    - "No debug grids / alignment guides in final output."
+    - "No faux system metadata text (SYS_STATUS, COORDINATES_LOCKED, CLASSIFIED)."
+    - "No decorative lines/shapes without hierarchy function."
+    - "No more than 3 text blocks for Social Feed unless preset explicitly allows (Typographic Poster / Educational)."
+
+############################################################
+# LAYER 1 — PLATFORM CONTRACT (MANDATORY)
+############################################################
+
+  required_inputs:
+    - platform:
+        type: enum
+        options:
+          - "Instagram 1:1"
+          - "Instagram 4:5"
+          - "Instagram Story 9:16"
+          - "Instagram Reels 9:16"
+          - "TikTok 9:16"
+          - "YouTube Shorts 9:16"
+          - "LinkedIn 1:1"
+          - "LinkedIn 1.91:1"
+          - "X (Twitter) 16:9"
+          - "Pinterest 2:3"
+          - "Facebook Feed 1:1"
+          - "Facebook Link 1.91:1"
+          - "Website banner"
+    - canvas_size_px:
+        type: string
+        examples: ["1080x1080", "1080x1350", "1080x1920", "1200x627", "1000x1500", "1920x640"]
+    - campaign_objective:
+        type: enum
+        options: ["awareness", "engagement", "traffic", "conversion", "announcement", "seasonal", "launch"]
+    - priority_metric:
+        type: enum
+        options: ["CTR", "saves", "reach", "brand_perception", "direct_sales", "engagement"]
+    - brand_tier:
+        type: enum
+        options: ["Mass Market", "Mid-Tier", "Premium", "Ultra Luxury"]
+    - campaign_context:
+        type: enum
+        options: ["standalone", "part_of_series", "full_campaign_drop"]
+    - export_format:
+        type: enum
+        options: ["PNG", "JPG", "Figma spec", "JSON layout", "HTML"]
+    - style_preset_selection
+
+  platform_canvas_defaults:
+    "Instagram 1:1": "1080x1080"
+    "Instagram 4:5": "1080x1350"
+    "Instagram Story 9:16": "1080x1920"
+    "Instagram Reels 9:16": "1080x1920"
+    "TikTok 9:16": "1080x1920"
+    "YouTube Shorts 9:16": "1080x1920"
+    "LinkedIn 1:1": "1200x1200"
+    "LinkedIn 1.91:1": "1200x627"
+    "X (Twitter) 16:9": "1600x900"
+    "Pinterest 2:3": "1000x1500"
+    "Facebook Feed 1:1": "1200x1200"
+    "Facebook Link 1.91:1": "1200x628"
+    "Website banner": "1920x640"
+
+  canvas_confirmation_rule: >
+    If canvas_size_px is missing, suggest platform_canvas_defaults[platform] and request confirmation.
+    Do not proceed until platform + canvas are confirmed.
+
+############################################################
+# LAYER 2 — OPTIONAL INPUT DISCOVERY GATE (PROACTIVE ASK) (NEW)
+############################################################
+
+  optional_input_discovery_gate:
+
+    rule: >
+      The agent MUST ask for optional inputs that materially affect quality.
+      The agent may proceed with defaults ONLY after asking (or if user explicitly declines).
+
+    ask_blocks:
+
+      branding_kit:
+        ask_when:
+          - brand_tier in ["Premium", "Ultra Luxury"]
+          - campaign_context in ["part_of_series", "full_campaign_drop"]
+        questions:
+          - "Do you have a logo to include? (yes/no)"
+          - "Primary + secondary colors (hex if possible)?"
+          - "Typography preference (fonts or vibe)?"
+          - "Strict brand enforcement? (yes/no)"
+
+      best_practice_reference:
+        ask_when:
+          - user_mentions("best practice", "like this", "match", "similar to", "make it premium")
+          - campaign_context in ["part_of_series", "full_campaign_drop"]
+        questions:
+          - "Do you have a best-practice reference image to structurally extract from? (yes/no)"
+          - "If yes: replicate structure or reinterpret tone only?"
+
+      offer_details:
+        ask_when:
+          - campaign_objective in ["conversion", "seasonal"]
+        questions:
+          - "Exact offer (e.g., 20% off / up to 50% / bundle)?"
+          - "Terms (storewide, exclusions, end date)?"
+
+      copy_inputs:
+        ask_when:
+          - user_did_not_provide_copy
+        questions:
+          - "Headline (max 10 words for social)?"
+          - "Support line (optional; 1 short line max for social)?"
+          - "CTA text (optional in Luxury; recommended in Performance)?"
+          - "URL/handle (optional)?"
+
+      emotional_preference:
+        ask_when:
+          - brand_tier in ["Premium", "Ultra Luxury"]
+          - campaign_objective in ["awareness", "launch", "announcement"]
+        questions:
+          - "Vibe axis picks: calm↔energetic, minimal↔maximal, playful↔serious, warm↔cool."
+
+    defaulting_policy:
+      - "If user declines branding_kit: use image_harmony_priority + neutral typography."
+      - "If user declines best_practice_reference: follow preset + governance gates."
+      - "If user declines emotional preference: infer from objective + tier."
+
+############################################################
+# LAYER 3 — ASSET QUALITY GATE (v5)
+############################################################
+
+  asset_quality_gate:
+    checks:
+      - resolution_check: "Minimum 1500px longest side preferred for photo; 1080px min for social"
+      - subject_clarity_check
+      - background_clutter_check
+      - crop_viability_check
+      - focal_point_detection
+    fallback_actions:
+      - suggest_tighter_crop
+      - recommend_subtle_overlay
+      - switch_to_typographic_dominant_preset
+      - suggest_alternate_asset
+    rule: >
+      If asset fails quality threshold, warn user and propose fallback actions before final layout.
+
+############################################################
+# LAYER 4 — INTENT / MODE ENGINE (v5)
+############################################################
+
+  intent_mode_mapping:
+    conversion: "Performance"
+    seasonal: "Retail"
+    launch: "Brand"
+    announcement: "Brand"
+    awareness: "Luxury"
+    engagement: "Luxury"
+    traffic: "Luxury"
+
+############################################################
+# LAYER 5 — BRAND TIER GATES (v5)
+############################################################
+
+  brand_tiers:
+    Mass Market:
+      premium_index_min: 6.0
+      retail_risk_allowance: 7
+      visual_tension_target: 4
+    Mid-Tier:
+      premium_index_min: 7.5
+      retail_risk_allowance: 5
+      visual_tension_target: 5
+    Premium:
+      premium_index_min: 8.5
+      retail_risk_allowance: 2
+      visual_tension_target: 7
+    Ultra Luxury:
+      premium_index_min: 9.0
+      retail_risk_allowance: 1
+      visual_tension_target: 8
+
+############################################################
+# LAYER 6 — PLATFORM HYGIENE ENGINE (SAFE ZONES) (RESTORED FULL)
+############################################################
+
+  platform_hygiene_engine:
+
+    safe_zone_mapping:
+
+      "TikTok 9:16":
+        bottom_dead_zone_percent: 25
+        right_dead_zone_percent: 0
+        top_clearance_percent: 10
+
+      "Instagram Reels 9:16":
+        bottom_dead_zone_percent: 20
+        right_dead_zone_percent: 15
+        top_clearance_percent: 10
+
+      "Instagram Story 9:16":
+        bottom_dead_zone_percent: 18
+        right_dead_zone_percent: 0
+        top_clearance_percent: 12
+
+      "YouTube Shorts 9:16":
+        bottom_dead_zone_percent: 18
+        right_dead_zone_percent: 0
+        top_clearance_percent: 10
+
+      "Instagram 4:5":
+        bottom_dead_zone_percent: 12
+        right_dead_zone_percent: 0
+        top_clearance_percent: 6
+
+      "Instagram 1:1":
+        bottom_dead_zone_percent: 10
+        right_dead_zone_percent: 0
+        top_clearance_percent: 6
+
+      "LinkedIn 1:1":
+        bottom_dead_zone_percent: 8
+        right_dead_zone_percent: 0
+        top_clearance_percent: 6
+
+      "LinkedIn 1.91:1":
+        bottom_dead_zone_percent: 8
+        right_dead_zone_percent: 0
+        top_clearance_percent: 6
+
+      "X (Twitter) 16:9":
+        bottom_dead_zone_percent: 8
+        right_dead_zone_percent: 0
+        top_clearance_percent: 6
+
+      "Pinterest 2:3":
+        bottom_dead_zone_percent: 10
+        right_dead_zone_percent: 0
+        top_clearance_percent: 6
+
+      "Facebook Feed 1:1":
+        bottom_dead_zone_percent: 10
+        right_dead_zone_percent: 0
+        top_clearance_percent: 6
+
+      "Facebook Link 1.91:1":
+        bottom_dead_zone_percent: 8
+        right_dead_zone_percent: 0
+        top_clearance_percent: 6
+
+      "Website banner":
+        bottom_dead_zone_percent: 0
+        right_dead_zone_percent: 0
+        top_clearance_percent: 0
+
+    enforcement_rules:
+      - "Apply platform safe zones before placing headline/CTA/logo."
+      - "Zero tolerance: headline/CTA cannot overlap dead zones."
+      - "Reserve header clearance for status bars / UI overlays."
+      - "Anchor hero focal point away from avatar/handle zones (for 9:16 platforms)."
+
+############################################################
+# LAYER 7 — ACCESSIBILITY GATE (HARD FAIL) (v5)
+############################################################
+
+  accessibility_gate:
+    contrast_ratio_rules:
+      small_text_minimum: "4.5:1"
+      large_text_minimum: "3:1"
+    minimum_point_sizes:
+      body_text_min_px: 24
+      micro_caption_min_px: 18
+      headline_min_px: 42
+    tap_target_rules:
+      minimum_cta_height_px: 48
+      minimum_cta_padding_px: 12
+      clearance_around_cta_px: 16
+    rule: >
+      If any accessibility requirement fails, auto refine.
+      Accessibility cannot be bypassed.
+
+############################################################
+# LAYER 8 — DENSITY ENGINE (SOCIAL VS WEBSITE) (v5 + refined)
+############################################################
+
+  density_engine:
+
+    context_profiles:
+      social_feed:
+        max_text_blocks: 3
+        paragraph_allowed: false
+        micro_text_allowed: false
+      short_form_vertical:
+        max_text_blocks: 2
+        paragraph_allowed: false
+        micro_text_allowed: false
+      website_banner:
+        max_text_blocks: 4
+        paragraph_allowed: true
+        micro_text_allowed: true
+
+    brand_tier_modifiers:
+      "Ultra Luxury":
+        reduce_max_text_blocks_by: 1
+        micro_text_allowed_override: false
+      "Premium":
+        reduce_max_text_blocks_by: 0
+        micro_text_allowed_override: false
+      "Mid-Tier":
+        reduce_max_text_blocks_by: 0
+      "Mass Market":
+        increase_max_text_blocks_by: 1
+
+    classification_rules:
+      - "If platform in [Instagram 1:1, Instagram 4:5, LinkedIn 1:1, Pinterest 2:3, Facebook Feed 1:1, X (Twitter) 16:9] => social_feed"
+      - "If platform in [Instagram Story 9:16, Instagram Reels 9:16, TikTok 9:16, YouTube Shorts 9:16] => short_form_vertical"
+      - "If platform == Website banner => website_banner"
+
+    hard_rule: >
+      If paragraph_allowed is false, any body paragraph must be removed or compressed into a single short support line.
+
+############################################################
+# LAYER 9 — EMOTIONAL VECTOR CALIBRATION (v5)
+############################################################
+
+  emotional_vector:
+    axes:
+      calm_to_energetic: ["calm", "balanced", "energetic"]
+      minimal_to_maximal: ["minimal", "balanced", "maximal"]
+      playful_to_serious: ["playful", "balanced", "serious"]
+      warm_to_cool: ["warm", "neutral", "cool"]
+    application:
+      - affects_color_contrast
+      - affects_spacing_rhythm
+      - affects_scale_contrast
+      - affects_motion_pacing
+    rule: >
+      Emotional tone must align with campaign_objective and brand_tier.
+
+############################################################
+# LAYER 10 — HOOK ENGINE (1.5s rule) (v5)
+############################################################
+
+  hook_engine:
+    one_point_five_second_rule:
+      rule: "Primary visual/headline must be decodable within 1.5 seconds."
+    pattern_interruption:
+      condition: "mode == Performance"
+      allow_one_visual_disruption: true
+      max_disruption_elements: 1
+
+############################################################
+# LAYER 11 — REFERENCE SYSTEM (v5)
+############################################################
+
+  reference_discovery_gate:
+    trigger_conditions:
+      - best_practice_reference provided
+      - user indicates structural similarity intent
+    required_questions:
+      - "Replicate structure or reinterpret tone only?"
+      - "Preserve overlay geometry / angle logic? (yes/no)"
+      - "Preserve hierarchy scale dominance? (yes/no)"
+      - "Preserve image-to-text dominance ratio? (yes/no)"
+    blocking_rule: >
+      If triggered and unanswered → stop generation and ask.
+
+  reference_extraction_engine:
+    trigger_condition: "best_practice_reference confirmed"
+    steps:
+      - detect_composition_type
+      - detect_image_crop_ratio
+      - detect_angle_logic
+      - detect_overlay_geometry
+      - detect_text_alignment_pattern
+      - detect_scale_hierarchy
+      - detect_text_to_image_dominance_ratio
+      - detect_whitespace_ratio
+      - detect_tension_level
+      - detect_decorative_density
+
+  structural_adherence_score:
+    only_when_reference_present: true
+    criteria:
+      - angle_preserved
+      - overlay_geometry_preserved
+      - hierarchy_weight_preserved
+      - image_dominance_preserved
+      - tension_level_preserved
+    threshold_minimum: 3
+    rule: "If score < 3 → redesign."
+
+############################################################
+# LAYER 12 — ANTI-AI ARTIFACT FILTERS (v5)
+############################################################
+
+  decorative_noise_filter:
+    auto_fail_elements:
+      - faux_system_metadata
+      - visible_grid_lines
+      - meaningless_micro_text
+      - random_barcode_strips
+    purpose_test: >
+      Each element must improve clarity, hierarchy, or controlled tension.
+      If not: remove.
+
+  mass_retail_blocker:
+    scoring_scale: "0–2 each"
+    criteria:
+      - floating_discount_badge
+      - symmetrical_stacking_formula
+      - generic_font_pairing
+      - loud_metallic_blocks_without_brand_reason
+      - default_rounded_cta
+      - decorative_lines_without_function
+      - drop_shadow_fake_premium
+      - template_predictability
+      - visible_grid_artifacts
+      - faux_system_metadata
+    rule: >
+      If total_score > brand_tiers[brand_tier].retail_risk_allowance → redesign.
+
+############################################################
+# LAYER 13 — VISUAL TENSION + PREMIUM INDEX (v5)
+############################################################
+
+  visual_tension_engine:
+    scoring_scale: "0–10"
+    components:
+      - asymmetry
+      - cropping_intent
+      - negative_space_quality
+      - hierarchy_contrast
+      - alignment_rhythm
+    rule: >
+      Must meet brand_tiers[brand_tier].visual_tension_target.
+
+  premium_index_engine:
+    normalized_to: "/10"
+    criteria:
+      - typography_sophistication
+      - color_harmony
+      - spatial_discipline
+      - hierarchy_clarity_30_percent
+      - restraint
+      - brand_integrity
+      - anti_ai_aesthetic_pass
+      - accessibility_pass
+      - density_pass
+      - platform_safe_zone_pass
+    gate: "brand_tiers[brand_tier].premium_index_min"
+    rule: >
+      If below gate: refine and rescore before output.
+
+############################################################
+# LAYER 14 — COMPRESSION, MEMORY, LEARNING, MOTION (v5)
+############################################################
+
+  compression_simulation_gate:
+    simulate:
+      - "jpeg_85"
+      - "reduced_sharpness_preview"
+    check:
+      - "small_text_legibility"
+      - "contrast_shift"
+      - "edge_blur"
+    rule: >
+      If legibility degrades, increase font size, simplify, or add subtle contrast support.
+
+  campaign_memory_layer:
+    stores:
+      - typography_family
+      - margin_logic
+      - cta_style
+      - accent_color_usage
+      - hook_pattern
+      - tension_target
+    rule: >
+      If campaign_context != standalone, enforce continuity from stored memory.
+
+  adaptive_learning_layer:
+    inputs:
+      - engagement_rate
+      - ctr
+      - saves
+      - watch_time
+    adaptation_rules:
+      - increase_hook_strength_if_low_ctr
+      - reduce_density_if_low_readability
+      - increase_scale_contrast_if_low_scroll_stop
+      - reduce_disruption_if_brand_score_drops
+
+  motion_logic_presets:
+    Luxury:
+      entrance: "Opacity fade-in 0.8s, 1.02x subtle scale."
+      emphasis: "Slow mask reveal or soft underline."
+      exit: "Fade-out 0.6s."
+      pacing: "6–8s loop."
+    Performance:
+      entrance: "Hard cut or 0.3s slide-in."
+      emphasis: "Kinetic typography or 1.05x scale pulse."
+      exit: "Sharp cut."
+      pacing: "3–4s loop."
+    Brand:
+      entrance: "Axis-based slide, clean mask."
+      emphasis: "Opacity shift."
+      exit: "Fade."
+      pacing: "4–6s loop."
+
+############################################################
+# GENERATION PIPELINE (FULL)
+############################################################
+
+  generation_pipeline:
+    - validate_required_inputs
+    - confirm_canvas_size_or_suggest_default_and_wait
+    - run_optional_input_discovery_gate
+    - run_asset_quality_gate
+    - determine_mode_from_intent_mode_mapping
+    - apply_brand_tier_gates
+    - apply_platform_hygiene_engine_safe_zones
+    - run_reference_discovery_gate_if_triggered_and_wait
+    - run_reference_extraction_engine_if_confirmed
+    - run_density_engine_and_simplify_if_needed
+    - run_hook_engine
+    - compose_layout
+    - run_accessibility_gate
+    - run_decorative_noise_filter
+    - run_mass_retail_blocker
+    - run_visual_tension_engine
+    - run_structural_adherence_score_if_reference_present
+    - run_premium_index_engine
+    - run_compression_simulation_gate
+    - enforce_campaign_memory_layer_if_needed
+    - apply_adaptive_learning_layer_if_data_available
+    - export_production_ready
+
+############################################################
+# EXPORT RULES (PRODUCTION)
+############################################################
+
+  export_rules:
+    - "sRGB profile"
+    - "Min width 1080 for Instagram"
+    - "PNG for type-heavy; JPG 85–90% for photo-heavy"
+    - "Slight contrast boost for compression safety"
+    - "No UI chrome"
+    - "No debug grids"
+    - "Safe zones + accessibility validated before export"
+```
+
+---
+
+## 145. Verdance — Agency Website Design Studio (Dark Emerald)
+`Portfolios` · `Agency & Studio` · 7 copies · [try live](https://superdesign.dev/library/verdance-agency-website-design-studio-dark-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A dark-emerald design-studio / agency website with a single brass metallic accent: two forest-green surfaces (#0d1f17 / #0a1711), cream #f1ede3 text, an emerald/emeraldSoft green pair, and brass #c9a227 for all hairlines, bracketed labels, award diamonds and primary pills. A fixed glass nav over a hero whose giant tight Inter display headline (AGENCY / WEBSITES) carries an italic Fraunces serif accent (that win), a full-bleed palette-tinted feature photo, an infinite award marquee, a serif studio statement with a brass-gridline stat grid, an asymmetric work grid, a thin numbered services list, a recognition strip, a grain CTA, and a 4-column footer. High-craft editorial Awwwards-studio energy.
+
+```text
+{"summary": "A dark-emerald 'design studio / agency website' single page with an editorial, award-show feel. A fixed glassy forest-green nav (brass leaf wordmark + Start a project pill) sits above a hero whose signature move is a giant cream sans display headline ('AGENCY / WEBSITES') with an italic emerald-soft serif script accent ('that win') tucked at the baseline, a two-column studio statement, and a full-bleed feature photo capped with brass hairlines and a script caption. Below: an infinite-scroll trust marquee of award names separated by brass diamonds; a serif studio statement with a 4-up stat grid built from 1px brass gridlines; an asymmetric work grid (one tall card + two square cards + one wide editorial card) with photos tinted into the emerald palette and brass uppercase category labels; a thin numbered services list (4 rows, hairline-divided, no cards) with phosphor icons and a sliding brass arrow on hover; a recognition strip of three award cards plus a centered press-logo row; a centered closing CTA with a brass email pill + ghost 'Book a call'; and a 4-column footer. The whole thing is built from two surfaces (forest #0d1f17 and a deeper forestDeep #0a1711), cream #f1ede3 text, a muted creamDim #b8b3a6, an emerald/emeraldSoft green accent, and a single brass #c9a227 metallic for hairlines, labels, and primary buttons. Inter for display + UI, Fraunces italic serif for the script accents and editorial type.", "style": {"description": "Premium, calm, editorial dark mode in a deep emerald 'forest' palette with a brass metallic accent. The page is built from just two near-black green surfaces (forest #0d1f17 as the warmer base and forestDeep #0a1711 as the deeper alternating band) separated by 1px brass hairlines (rgba(201,162,39,0.32)) rather than by hard color blocks. Text is cream #f1ede3 for primary and a soft muted creamDim #b8b3a6 for secondary/eyebrows. There are two accents working together: a green pair (emerald #1f6f4f and the lighter emeraldSoft #2c8a63) used for glows, washes, the script-italic headline accents, and service icons; and a single brass/gold #c9a227 metallic used for ALL hairlines, the bracketed uppercase section labels, award diamonds, primary pill buttons, and link underlines. The signature contrast is typographic: a tight, heavy Inter display face (font-weight 700, letter-spacing -0.045em, line-height 0.92) for the GIANT uppercase headlines, set against an italic Fraunces serif ('script') used for small lyrical accents ('that win', 'considered', 'projects', 'in mind?') and for editorial stat numbers and pull-quotes. Atmosphere comes from craft, not noise: a faint fractal-noise grain overlay (opacity 0.05) on the hero and CTA, large soft emerald radial blur glows, photos pushed into the palette with a desaturate+sepia 'work-img' filter plus an emerald multiply 'tint', a centered brass-line gradient hairline (transparent -> brass -> transparent), and an infinite CSS marquee. Restrained, high-craft, Awwwards-studio energy.", "prompt": "Dark-emerald editorial design-studio / agency website with a single brass metallic accent. Exact palette via tailwind.config custom colors: forest #0d1f17 (warmer base surface + body bg), forestDeep #0a1711 (deeper alternating band / footer / marquee), emerald #1f6f4f and emeraldSoft #2c8a63 (green accent pair for glows/washes/script accents/service icons), cream #f1ede3 (primary text), creamDim #b8b3a6 (secondary text + uppercase eyebrows), brass #c9a227 (the ONE metallic accent: all hairlines, bracketed labels, award diamonds, primary buttons, link underlines). Body is bg-forest text-cream font-sans antialiased with selection:bg-emerald selection:text-cream. Two font families: sans = Inter (system-ui fallback), serif = Fraunces (Georgia fallback). Define .display { font-family: Inter; font-weight: 700; letter-spacing: -0.045em; line-height: 0.92 } for the giant uppercase headlines, and .script { font-family: Fraunces; font-style: italic; font-weight: 400; letter-spacing: -0.01em } for the lyrical accents (usually colored text-emeraldSoft). Hairlines use .hairline { border-color: rgba(201,162,39,0.32) }. A brass gradient divider .brass-line { background: linear-gradient(90deg, rgba(201,162,39,0) 0%, rgba(201,162,39,0.55) 18%, rgba(201,162,39,0.55) 82%, rgba(201,162,39,0) 100%) }. Grain texture .grain::before is an absolutely-positioned inset-0 fractalNoise SVG data-URI at opacity 0.05. Imagery is forced into the palette: .work-img { filter: saturate(0.55) brightness(0.82) contrast(1.02) sepia(0.12); transition transform .7s + filter .7s } that eases to saturate(0.78) brightness(0.95) on .work-card:hover, plus a .tint::after emerald multiply overlay (linear-gradient(150deg, rgba(13,31,23,0.32), rgba(31,111,79,0.30)); mix-blend-mode multiply). Nav links use a .nav-link::after brass underline that grows from width 0 to 100% on hover. The trust strip uses .marquee { animation: marquee 32s linear infinite } translating -50%. Soft emerald glows are pointer-events-none absolute rounded-full bg-emerald/10-/20 with blur-[140px]+. Honor prefers-reduced-motion (disable marquee + smooth scroll). Icons are Iconify Phosphor (ph:) glyphs. html { scroll-behavior: smooth }.", "prompt_typography": "Two families only. Inter (Google Fonts weights 400;500;600;700) as font-sans with system-ui fallback, antialiased; Fraunces italic (opsz 9..144, weights 400;500, italic) as font-serif with Georgia fallback. Giant hero display: .display (Inter 700, -0.045em, line-height 0.92) at text-[clamp(3.2rem,13.5vw,12rem)] in cream, with an inline .script accent at text-[clamp(2.6rem,12vw,11rem)] leading-[0.8] in emeraldSoft. Section H2 display: text-[clamp(2.2rem,5.5vw,4.2rem)] -> [clamp(2.4rem,6vw,4.6rem)] .display cream with a normal-weight .script emeraldSoft accent word. CTA H2: text-[clamp(2.6rem,8vw,6.5rem)]. Editorial body: Fraunces serif at text-[clamp(1.6rem,3.4vw,2.7rem)] leading-[1.28] cream for the studio statement; stat numbers in font-serif text-[34px] cream with a brass +/%/0 suffix; award titles font-serif text-[26px]->[30px]. UI eyebrows: bracketed text-[12px] uppercase tracking-[0.22em] in brass (e.g. '[ The Studio ]'); other eyebrows text-[12px] tracking-[0.2em] uppercase creamDim. Nav links text-[13px] tracking-wide creamDim uppercase. Body copy text-[15px]->[18px] leading-relaxed creamDim with key phrases promoted to cream."}, "layout_and_structure": {"description": "A single-column, vertically stacked, frameless responsive marketing page that alternates between the two forest surfaces. Almost every section centers inside mx-auto max-w-[1240px] with px-6 -> lg:px-10 padding. Order top to bottom: a fixed glassy nav; a hero (a small meta row, a giant two-line display headline with an italic script accent, a 2-column studio-statement + scroll-cue row, then a full-bleed feature photo capped by a brass hairline with a script caption); an infinite-scroll trust marquee of award names on the deeper surface; a serif studio statement section (a 3/9 label + paragraph split, with a 4-up stat grid built from 1px brass gridlines); an asymmetric work grid (a tall col-span row + two square cards in a 2-col grid, then a full-width wide editorial card) with bottom-gradient captions; a thin numbered services list (4 hairline-divided rows on a 12-col grid, no cards); a recognition strip (a 3-up award-card grid built from brass gridlines + a centered wrapping press-logo row) on the deeper surface; a centered closing CTA over a grain wash with two pill CTAs + a social-icon row; and a dark 4-column footer with a hairline divider and a bottom legal row. Reflow: the hero statement row is lg:grid-cols-12 (paragraph col-span-6 + right-aligned scroll cue col-span-6) -> stacked; the studio split is lg:grid-cols-12 (3/9) and its stat grid grid-cols-2 -> md:grid-cols-4; the work grid is md:grid-cols-2 with the first card md:row-span-2 (tall) and the wide card full-width below; the services rows are grid-cols-12 with the description hidden below lg; the recognition cards are md:grid-cols-3; the footer is md:grid-cols-12 (5 / 3-at-7 / 3); the nav links + the desktop CTA hide below md and swap to a brass-bordered hamburger that opens a full-width mobile menu panel; everything collapses to one column on mobile.", "prompts": [{"part": "Sticky glass nav", "prompt": "A fixed top-0 inset-x-0 z-50 header. Inner bar = backdrop-blur-md bg-forestDeep/70 with a 1px bottom .hairline border. Inside: a nav mx-auto max-w-[1240px] px-6 -> lg:px-10 h-[68px] flex items-center justify-between. Left = brand lockup: an h-8 w-8 rounded-full border border-brass/60 circle holding a brass ph:leaf-fill (18px) + the wordmark 'Verdance' (text-[17px] font-semibold cream) with a tiny brass superscript registered mark. Center (hidden md:flex gap-9, text-[13px] tracking-wide creamDim uppercase): WORK / SERVICES / RECOGNITION / STUDIO, each a .nav-link that grows a brass underline on hover and goes text-cream. Right: a 'Start a project' pill (hidden sm:inline-flex, rounded-full border border-brass/60 px-5 py-2 text-[13px] cream + a ph:arrow-up-right, hover:bg-brass hover:text-forestDeep) and a md:hidden hamburger button (h-10 w-10 rounded-full border border-brass/60, ph:list icon) that toggles a mobile menu. Mobile menu panel = md:hidden hidden border-b .hairline backdrop-blur-md bg-forestDeep/95: a px-6 py-6 flex-col of the four nav links (each py-3 text-[15px] cream with a brass ph:arrow-up-right and a faint brass bottom border) + a solid brass 'Start a project' pill. JS toggles .hidden, swaps the ph:list/ph:x icon + aria-expanded, closes on link click / Escape / >=768px."}, {"part": "Hero", "prompt": "A relative .grain overflow-hidden bg-forest section, pt-[68px], with two pointer-events-none absolute emerald radial glows (bg-emerald/20 and /10, blur-[140px]+, top-right and left). Content z-10 mx-auto max-w-[1240px] px-6 -> lg:px-10. Top meta row (pt-8, flex justify-between, text-[12px] tracking-[0.2em] uppercase creamDim): left = an emeraldSoft dot + 'Studio est. 2019'; right (hidden sm) = 'Design - Strategy - Build'. Headline block (pt-10 -> lg:pt-16): an .display cream H1 'AGENCY' at text-[clamp(3.2rem,13.5vw,12rem)], then a second .display H1 'WEBSITES' (flex flex-wrap items-end) with an inline .script emeraldSoft accent 'that win' at text-[clamp(2.6rem,12vw,11rem)] leading-[0.8] tucked at the baseline (ml-1 -mb-2). Statement row (mt-12 -> lg:mt-16, grid lg:grid-cols-12 gap-8 items-end pb-16 -> lg:pb-24): a col-span-6 max-w-xl text-[16px]->[18px] leading-relaxed creamDim paragraph ('We are a design studio crafting grounded, high-craft websites for agencies and ambitious brands...') with the key phrase promoted to cream; a col-span-6 lg:justify-end scroll cue = an h-14 w-14 rounded-full border border-brass/60 circle with a ph:arrow-down (group-hover:bg-emerald + arrow nudges) beside a 'View selected work' text-[13px] tracking-[0.18em] uppercase label."}, {"part": "Hero feature image (full-bleed)", "prompt": "Directly under the hero copy, a relative z-10 w-full block. First a .brass-line h-px w-full divider, then a relative h-[340px] -> sm:h-[440px] -> lg:h-[560px] overflow-hidden image band: a full-cover .work-img Unsplash workspace photo with an inline filter:saturate(0.7) brightness(0.62), an absolute bg-gradient-to-t from-forest via-forest/20 to-forest/40 to anchor it into the page, plus an absolute bg-emerald/10 mix-blend-multiply tonal wash. Caption row absolute bottom-8 inset-x (left/right 6 -> lg:10), flex items-end justify-between: a .script cream/90 line 'Designed in the open.' at text-[22px]->[34px] on the left, and a 'No. 001 - The Workspace' text-[12px] tracking-[0.2em] uppercase creamDim label on the right."}, {"part": "Trust marquee", "prompt": "A border-y .hairline bg-forestDeep overflow-hidden strip. Inside a flex whitespace-nowrap py-5: a .marquee (animation: marquee 32s linear infinite, translateX -> -50%) flex gap-12 of award names at text-[13px] tracking-[0.22em] uppercase creamDim, each separated by a text-brass diamond glyph: Awwwards Honors / CSS Design Awards / FWA of the Day / Webby Nominee / Site Inspire Featured. Duplicate the run (aria-hidden) so the loop is seamless. Disable the animation under prefers-reduced-motion."}, {"part": "Studio statement + stat grid", "prompt": "Section id=studio, relative bg-forest py-24 -> lg:py-36. Content mx-auto max-w-[1240px] px-6 -> lg:px-10, grid lg:grid-cols-12 gap-10 -> lg:gap-16. Left col-span-3 = a bracketed brass eyebrow '[ The Studio ]' (text-[12px] tracking-[0.22em] uppercase). Right col-span-9 = a font-serif statement at text-[clamp(1.6rem,3.4vw,2.7rem)] leading-[1.28] cream with an inline .script emeraldSoft accent word ('considered'). Below it a stat grid (mt-12): grid grid-cols-2 -> md:grid-cols-4 gap-px on a bg-brass/20 base with a bounding border .hairline (so the 1px gaps read as brass gridlines), each cell bg-forest p-6 with a font-serif text-[34px] cream number carrying a brass + / % suffix and a text-[12px] tracking-[0.14em] uppercase creamDim label: 120+ Sites shipped / 7 Awards won / 14 Countries served / 98% Client return rate."}, {"part": "Work grid (asymmetric)", "prompt": "Section id=work, relative bg-forestDeep py-20 -> lg:py-28. Header (flex-col -> md:flex-row md:items-end justify-between, mb-12 -> lg:mb-16): a bracketed brass eyebrow '[ Selected Work ]' + a .display cream H2 'Recent' at text-[clamp(2.4rem,6vw,4.6rem)] with a normal-weight .script emeraldSoft accent 'projects'; and a md:max-w-xs creamDim sub-paragraph. Grid = grid md:grid-cols-2 gap-5 -> lg:gap-6: card 1 is a tall md:row-span-2 .work-card (a .tint aspect-[4/5]->md:h-full image), cards 2 and 3 are square .work-cards (aspect-[16/10] images). Each card = a group relative overflow-hidden rounded-2xl border .hairline bg-forest <a>, a .tint-wrapped .work-img photo, and an absolute inset-x-0 bottom-0 caption over a bg-gradient-to-t from-forestDeep: a brass text-[12px] tracking-[0.18em] uppercase category ('Brand - Web' / 'E-commerce' / 'SaaS - Marketing'), a font-serif cream title (Marrow Studio / Atlas Goods Co. / Fernway Labs), and a round border-cream/30 ph:arrow-up-right button that flips to bg-brass text-forestDeep on group-hover. Then a full-width wide editorial card (mt-5 -> lg:mt-6): a .work-card with a .tint .tint-soft h-[260px]->[360px] image, an absolute bg-forestDeep/45 floor + a bg-gradient-to-r from-forestDeep directional reinforcement, and a relative z-2 flex items-center justify-between p-8->p-12 row holding a max-w-md rounded-xl bg-forestDeep/55 backdrop-blur ring-1 ring-brass/15 caption card (brass category, a font-serif text-[32px]->[48px] title 'Heron & Field' with a .script emeraldSoft 'journal', a small cream/90 line) beside a large round arrow button (hidden sm)."}, {"part": "Services list (thin, numbered)", "prompt": "Section id=services, relative bg-forest py-20 -> lg:py-28. Header (grid lg:grid-cols-12 gap-10, mb-10 -> lg:mb-14): left col-span-5 = a bracketed brass eyebrow '[ What we do ]' + a .display cream H2 'Services,' at text-[clamp(2.2rem,5.5vw,4.2rem)] with a normal .script emeraldSoft 'end to end'; right col-span-7 lg:pt-12 = a creamDim sub-paragraph (lg:max-w-md lg:ml-auto). List = a border-t .hairline wrapper of four .svc-row rows, each a group grid grid-cols-12 items-center gap-4 px-2->lg:px-6 py-7->lg:py-9 border-b .hairline that lightens to bg-[rgba(31,111,79,0.10)] on hover: a col-span-2->lg:col-span-1 creamDim font-serif index (01-04); a col-span-8->lg:col-span-3 group of an emeraldSoft phosphor icon (ph:compass-tool / ph:pen-nib / ph:code / ph:cursor-click, 26px->30px) + a text-[20px]->[26px] font-semibold cream title (Strategy & Brand / Web Design / Development / Motion & Care); a hidden lg:block col-span-6 text-[14px] creamDim description; and a col-span-2 justify-end .svc-arrow brass ph:arrow-right (text-[24px], opacity .4) that slides translateX(6px) + goes opacity 1 on row hover."}, {"part": "Recognition strip", "prompt": "Section id=recognition, relative bg-forestDeep py-20 -> lg:py-28 border-y .hairline. Header (flex items-center gap-4 mb-12): a bracketed brass eyebrow '[ Recognition ]' + a .brass-line h-px flex-1 divider. Award cards = grid md:grid-cols-3 gap-px on a bg-brass/20 base with a bounding border .hairline (brass gridlines), each cell bg-forest p-8->lg:p-10: a brass phosphor icon (ph:trophy / ph:medal / ph:star, 28px), a font-serif text-[26px]->[30px] cream title (Site of the Day / Best UI, Gold / FWA of the Day), a text-[13px] tracking-[0.14em] uppercase creamDim attribution line (Awwwards - 2025 / CSS Design Awards - 2025 / The FWA - 2024), and a text-[14px] creamDim body line. Below (mt-12): a flex flex-wrap justify-center gap-x-10 gap-y-6 press-logo row in creamDim/70, mixing font-serif italic and tracked uppercase wordmarks (Communication Arts / SITEINSPIRE / The Webby Awards / LANDBOOK) separated by faint brass slashes."}, {"part": "Closing CTA", "prompt": "Section id=contact, relative .grain overflow-hidden bg-forest py-24 -> lg:py-36, with a large bottom-centered emerald radial glow (bg-emerald/15 blur-[150px]). Centered content z-10 mx-auto max-w-[1240px] px-6 -> lg:px-10 text-center: a bracketed brass eyebrow '[ Let's begin ]'; a .display cream H2 'Have a project' at text-[clamp(2.6rem,8vw,6.5rem)] with a normal .script emeraldSoft 'in mind?' on its own line; a mx-auto max-w-lg creamDim sub-paragraph; a CTA row (mt-11, flex-col -> sm:flex-row justify-center gap-4): a solid brass email pill (rounded-full bg-brass px-8 py-4 text-[15px] font-semibold text-forestDeep + a ph:paper-plane-tilt, hover:bg-emeraldSoft hover:text-cream) and a ghost 'Book a call' pill (rounded-full border border-brass/60 cream + a ph:calendar-blank, hover:bg-emerald); then a row of four social icon links (ph:x-logo / ph:instagram-logo / ph:linkedin-logo / ph:dribbble-logo, creamDim hover:text-brass)."}, {"part": "Footer (dark, 4-column)", "prompt": "A footer bg-forestDeep with a border-t .hairline. Inside mx-auto max-w-[1240px] px-6 -> lg:px-10 py-14: a grid md:grid-cols-12 gap-10. First block md:col-span-5 = the brand lockup (brass leaf circle + 'Verdance' cream wordmark with brass superscript mark), a max-w-sm creamDim blurb, and a 'Lisbon - Remote worldwide' line. Then md:col-span-3 md:col-start-7 'Navigate' column and md:col-span-3 'Elsewhere' column, each a text-[12px] tracking-[0.2em] uppercase brass heading + a space-y-2.5 list of text-[15px] creamDim links that hover:text-cream. Bottom: a mt-12 pt-7 border-t .hairline row, flex-col -> sm:flex-row justify-between, text-[13px] creamDim: a copyright line and a 'Crafted with care' line with an emeraldSoft ph:leaf."}]}, "special_ui_components": [{"component": "Giant display headline with italic serif script accent", "description": "The brand signature: a huge, tight, uppercase Inter display headline (AGENCY / WEBSITES) with a small italic Fraunces serif accent in emerald-soft green ('that win') tucked at the baseline, and the same display-vs-script pairing reused for every section H2 ('Recent projects', 'Services, end to end', 'Have a project in mind?').", "prompt": "Define .display { font-family: Inter; font-weight: 700; letter-spacing: -0.045em; line-height: 0.92 } and .script { font-family: Fraunces; font-style: italic; font-weight: 400; letter-spacing: -0.01em }. Hero H1 = two .display lines in cream at text-[clamp(3.2rem,13.5vw,12rem)], the second line flex flex-wrap items-end with an inline .script text-emeraldSoft accent at text-[clamp(2.6rem,12vw,11rem)] leading-[0.8] ml-1 -mb-2 so it sits on the baseline of the caps. Reuse the pattern on each section H2 (a .display cream phrase + a normal-tracking .script emeraldSoft accent word). Add a tiny text-shadow on .script.text-emeraldSoft for AA-large headroom on forest."}, {"component": "Brass-hairline grid system + brass-line divider", "description": "Instead of color blocks, the page is structured by a single brass metallic at low opacity: hairline section borders, the stat/award grids built as gap-px on a brass/20 base, and a centered transparent->brass->transparent gradient rule.", "prompt": "Use .hairline { border-color: rgba(201,162,39,0.32) } for nav/section/footer borders. Build the stat grid and the recognition cards as grid gap-px on a bg-brass/20 base wrapped in a border .hairline, each cell bg-forest, so the 1px gutters read as fine brass gridlines. Use .brass-line { background: linear-gradient(90deg, rgba(201,162,39,0) 0%, rgba(201,162,39,0.55) 18%, rgba(201,162,39,0.55) 82%, rgba(201,162,39,0) 100%) } as an h-px divider under the hero and beside the Recognition eyebrow. The brass #c9a227 is the ONLY metallic and also fills the bracketed eyebrows, award diamonds, primary pill buttons, and the .nav-link hover underline."}, {"component": "Palette-tinted work photography (.work-img + .tint)", "description": "All portfolio imagery is pushed into the emerald palette so photos never break the dark-green mood: a desaturate + sepia + dim filter that warms on hover, plus an emerald multiply overlay, with extra forest floors on the text-bearing wide card so captions stay legible.", "prompt": "Define .work-img { filter: saturate(0.55) brightness(0.82) contrast(1.02) sepia(0.12); transition: transform .7s cubic-bezier(.16,1,.3,1), filter .7s ease } and ease it to saturate(0.78) brightness(0.95) sepia(0.06) + transform scale(1.05) on .work-card:hover. Wrap images in a .tint container whose ::after is an emerald multiply overlay (linear-gradient(150deg, rgba(13,31,23,0.32), rgba(31,111,79,0.30)); mix-blend-mode multiply). For cards that carry body copy over the image, add .tint-soft (a lighter work-img filter) plus an absolute bg-forestDeep/45 floor and a bg-gradient-to-r from-forestDeep directional gradient so text never relies on a bright region of the photo."}, {"component": "Infinite award marquee", "description": "A seamless horizontally-scrolling strip of award/press names separated by brass diamonds, sitting on the deeper forestDeep band as a quiet credibility bar.", "prompt": "A border-y .hairline bg-forestDeep overflow-hidden strip; inside, a .marquee { animation: marquee 32s linear infinite } where @keyframes marquee translates from translateX(0) to translateX(-50%). Render the award list twice (the second copy aria-hidden) so the loop is seamless, items at text-[13px] tracking-[0.22em] uppercase creamDim separated by a text-brass diamond. Respect prefers-reduced-motion by setting .marquee { animation: none }."}, {"component": "Numbered hairline services list with sliding brass arrow", "description": "A thin, card-less services list where each discipline is a full-width row (index + icon + title + description + arrow) divided by brass hairlines, with a green wash and a sliding brass arrow on hover.", "prompt": "A border-t .hairline wrapper of .svc-row rows, each a grid grid-cols-12 items-center border-b .hairline with a .svc-row:hover { background-color: rgba(31,111,79,0.10) }. Columns: a font-serif index (01-04) in creamDim, an emeraldSoft phosphor icon + a font-semibold cream title, a hidden-below-lg creamDim description, and a justify-end .svc-arrow { transition: transform .4s, opacity .4s; opacity:.4 } brass ph:arrow-right that on .svc-row:hover goes transform: translateX(6px) + opacity 1."}], "special_notes": "Frameless, fully responsive editorial design-studio / agency website (no browser chrome / no device frame): every section centers in mx-auto max-w-[1240px] with px-6 -> lg:px-10 and alternates between the two forest surfaces (forest #0d1f17 and forestDeep #0a1711). Reflow: the hero statement row is lg:grid-cols-12 (paragraph col-span-6 + scroll cue col-span-6); the studio split is lg:grid-cols-12 (3/9) with a grid-cols-2 -> md:grid-cols-4 stat grid; the work grid is md:grid-cols-2 with the first card md:row-span-2 (tall) and a full-width wide editorial card below; services are grid-cols-12 rows with the description hidden below lg; recognition is md:grid-cols-3; the footer is md:grid-cols-12 (5 / 3-at-7 / 3); below md the nav links + desktop CTA hide and a brass hamburger opens a full-width backdrop-blur mobile menu (JS toggles .hidden, swaps ph:list/ph:x, closes on link/Escape/>=768px); everything collapses to one column on mobile. Built with Tailwind via CDN plus a small tailwind.config registering the custom colors (forest #0d1f17, forestDeep #0a1711, emerald #1f6f4f, emeraldSoft #2c8a63, cream #f1ede3, creamDim #b8b3a6, brass #c9a227) and two font families (sans: Inter, serif: Fraunces). Google Fonts loads Inter 400-700 and Fraunces italic (opsz 9..144, 400;500); icons are Iconify Phosphor (ph:) glyphs. All copy and the 'Verdance' brand are placeholders meant to be swapped: the transferable value is (1) the dark-emerald two-surface palette with a SINGLE brass metallic accent and a cream/creamDim text scale, (2) the Inter-display-vs-italic-Fraunces-script typographic signature (giant tight uppercase headline + lyrical serif accent words), and (3) the high-craft editorial agency LAYOUT (glass nav -> giant-headline hero with full-bleed tinted feature photo -> award marquee -> serif studio statement with a brass-gridline stat grid -> asymmetric work grid with palette-tinted photography -> thin numbered services list -> recognition cards + press row -> grain CTA -> 4-column footer), NOT the specific studio. Strictly keep the palette: emerald greens + a single brass gold on deep forest; no other accent hue."}
+```
+
+---
+
+## 146. Modular Card Dashboard
+`Dashboards` · `General` · 9 copies · [try live](https://superdesign.dev/library/modular-card-dashboard?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A high-contrast wireframe dashboard style featuring a modular card-based system. Characterized by a 'neubrutalism-lite' aesthetic with heavy black borders, hard shadows on hover, and a strict grayscale palette. It utilizes clean editorial typography (Switzer) and a minimalist approach to data visualization. Perfect for SaaS management tools, fintech mobile apps, developer dashboards, and productivity interfaces where structural clarity and modularity are prioritized over colorful decoration.
+
+```text
+{
+  "summary": "A minimalist, grayscale mobile dashboard design featuring a flexible, modular layout with high-contrast card components, sticky headers with backdrop blurs, and interactive neubrutalist hover effects.",
+  "style": {
+    "description": "The style is built on a grayscale wireframe foundation. It uses thin but distinct #111111 borders, a light gray background (#F5F5F5) for contrast against white cards, and bold neubrutalist interactions. Typography relies on the Switzer sans-serif family for an editorial, modern feel. Micro-interactions include vertical translations and solid hard-shadow reveals that suggest tactile depth.",
+    "prompt": "Apply a minimalist wireframe aesthetic. Background color: #F5F5F5. Card background: #FFFFFF. Primary text and borders: #111111. Secondary text: #6B7280. Borders: 1px solid #111111. Typography: Use 'Switzer' font family; Headings at font-weight 600, labels at font-weight 500 with letter-spacing 0.05em. Interactive states: When a card is hovered or focused, it should translate -2px on the Y-axis and gain a hard shadow: box-shadow: 4px 4px 0px 0px rgba(0,0,0,1). Use a 200ms ease-in-out transition for all state changes. Spacing: 24px (6 units) standard padding for sections, 20px (5 units) internal card padding."
+  },
+  "layout_and_structure": {
+    "description": "A vertical mobile-first layout (max 375px) designed for infinite scroll. It follows a hierarchy of priority: Header -> Hero Card -> Repeating Stack -> Dense Grid -> Action Footer.",
+    "prompts": [
+      {
+        "part": "Sticky Header",
+        "prompt": "Create a sticky header with a background of #F5F5F5 at 90% opacity and a 4px backdrop-blur. Padding: top 56px, sides 24px, bottom 24px. Elements: a vertical stack of a tiny uppercase 'Workspace' label (#6B7280) and a 30px bold 'Dashboard' title. On the right, place a 40x40px circular button with a 1px #111111 border, containing a centered settings icon."
+      },
+      {
+        "part": "Primary Hero Card",
+        "prompt": "A 220px tall featured card. Structure: Header with title and date, a data visualization area, and a status footer. Data Viz: Five vertical bars of varying heights (40% to 85%), using #111111 for the active bar and #F3F4F6 for inactive bars. Footer: A 1px dashed top border separating a tiny status indicator with a 8px green dot."
+      },
+      {
+        "part": "Secondary Stacked Cards",
+        "prompt": "A list of cards with 12px vertical spacing between them. Each card contains: an icon in a 40x40px circular gray-bordered container, text metadata (title/subtitle), a thin 6px progress bar track (#F3F4F6) with a solid fill (#111111), and a bottom row of monospaced secondary text. Include a hidden-by-default grip icon (lucide:grip-vertical) that appears on hover at the right side."
+      },
+      {
+        "part": "Tertiary Stats Grid",
+        "prompt": "A 2-column grid with 12px gaps. Each card is 1:1 aspect ratio or slightly taller. Elements: a 20px icon at the top left, followed by a large 24px bold number and a 12px gray label at the bottom. No hard shadows here; use a subtle #F9FAFB background change on hover."
+      },
+      {
+        "part": "Modular Action Footer",
+        "prompt": "A full-width button (padding 16px) with a 2px dashed border (#D1D5DB). Text: 'Add Widget' in 14px medium weight with a leading plus icon. On hover, the border and text transition to #111111."
+      }
+    ]
+  },
+  "special_ui_components": [
+    {
+      "component": "Neubrutalist Interactive Card",
+      "description": "A white container with a sharp black border and a solid black shadow that appears on interaction.",
+      "prompt": "Component: div; Styles: bg-white, border [1px solid #111], rounded-lg [8px], transition [all 0.2s ease-in-out]; Hover: transform [translateY(-2px)], box-shadow [4px 4px 0px 0px #000000]; Active: transform [translateY(0px)], box-shadow [0px 0px 0px 0px #000000]; Cursor: grab; padding: 20px;"
+    },
+    {
+      "component": "Wireframe Bar Chart",
+      "description": "A minimalist data representation using simple geometric blocks.",
+      "prompt": "A flex container with 'items-end' and 'justify-between'. Child elements: Divs with width: 100% and variable heights. Inactive state: bg-[#F3F4F6]. Active/Highlighted state: bg-[#111111]. Rounded corners: 2px (sm)."
+    }
+  ],
+  "special_notes": "Must maintain strict grayscale; do not use accent colors except for specific status indicators (e.g., green for 'On Track'). Ensure all cards have the exact same 1px #111111 border to maintain the wireframe look. Use 'no-scrollbar' utility to keep the mobile UI clean. The hard-shadow on hover must not have a blur-radius (it should be a solid offset color)."
+}
+```
+
+---
+
+## 147. System Interface Feature Announcement
+`Other` · `AI & Tech` · 21 copies · [try live](https://superdesign.dev/library/system-interface-feature-announcement?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A brutalist, typography-driven system interface design optimized for technical documentation and feature announcements. Featuring a high-density information layout, rigid grid alignment, and a mechanical aesthetic, it uses JetBrains Mono for a terminal-like feel and Inter for readability. Perfect for developer tools, SaaS infrastructure updates, engineering blogs, and fintech platforms. Key elements include visible 1px borders, a 'system status' header, stepped animations, and a monochrome palette with terminal-green accents.
+
+```text
+{
+  "summary": "A raw, engineering-first interface design that rejects marketing polish in favor of technical transparency. It uses a high-contrast off-white and dark-gray palette with neon green accents, rigid grid structures, and monospace typography to simulate a command-line or system-level environment.",
+  "style": {
+    "description": "Brutalist and utilitarian style. Typography combines JetBrains Mono (700 for headings, 400 for technical data) and Inter (400 for body prose). Color palette: Background #F5F5F5, Text #1A1A1A, Accents #00CC00 (Green) and #FFA500 (Amber), Borders #CCCCCC. Animations are 'stepped' and mechanical (no smooth easing), featuring cursor blinks and line-by-line reveals.",
+    "prompt": "Create a design system based on 'Technical Brutalism'. \n\n### Colors\n- Primary Background: #F5F5F5\n- Primary Text: #1A1A1A\n- Accent Color (Action/Success): #00CC00 (Terminal Green)\n- Warning Color: #FFA500 (Amber)\n- Border Color: #CCCCCC (Solid 1px)\n- Code Block Background: #EBEBEB\n\n### Typography\n- Technical/Data Font: 'JetBrains Mono', monospace. Use for headers, metadata, and status bars.\n- Prose/Reading Font: 'Inter', sans-serif. Use for long-form explanations.\n- Heading 1: font-weight 700, size 72pt-96pt, tracking-tighter, uppercase, line-height 0.9.\n- Metadata: font-size 10px-12px, uppercase, tracking-widest.\n\n### Effects & Borders\n- Borders: Solid 1px #CCCCCC on all container edges. Use 'divide-x' and 'divide-y' patterns for grids.\n- Shadows: Strictly NO soft shadows. Use hard-offset shadows for interactive elements: 4px 4px 0px 0px #000000.\n- Corners: 0px (No rounding on any element).\n\n### Animation\n- Transitions: Duration 0ms (Instant) or 'steps' timing functions.\n- Text Reveal: Use a typewriter effect with `steps(20, end)` timing.\n- Micro-interactions: Background color flips (Invert) on hover for buttons."
+  },
+  "layout_and_structure": {
+    "description": "The layout follows a strict modular grid where every section is defined by clear 1px horizontal and vertical dividers. It prioritizes vertical stacking with dense, multi-column metadata grids.",
+    "prompts": [
+      {
+        "part": "System Status Bar",
+        "prompt": "A fixed top header (height: 48px) with a 1px bottom border. Left side: Pulse animation dot (#00CC00) followed by 'SYSTEM_STATUS: OPERATIONAL'. Right side: Navigation links in monospace, uppercase, wrapped in brackets e.g., '[ AUTH_USER ]'. Background is #F5F5F5."
+      },
+      {
+        "part": "Technical Hero Section",
+        "prompt": "Large-scale typography section. Background features a subtle 20px dot-grid pattern. A primary heading in JetBrains Mono (size: 8rem) uses line breaks and text-wrapping. Include a small 'Release Note' tag block with high-contrast colors (#000 background, #FFF text)."
+      },
+      {
+        "part": "Bento Metadata Grid",
+        "prompt": "A 4-column grid with 1px borders. One column for vertical metadata (Author, Impact Level, Date) and a 3-column wide span for the 'Problem Statement'. Use high density: 10px labels above 14px bold values."
+      },
+      {
+        "part": "Comparison Audit Log",
+        "prompt": "Two-column side-by-side comparison. Left side (Legacy) uses a light gray background (#EBEBEB). Right side (Current) uses a pure white background. Each row contains a label in gray 10px mono and a value with a 2px left-border accent (Red for legacy, Green for current)."
+      },
+      {
+        "part": "System Topology Diagram",
+        "prompt": "A CSS-only brutalist flow chart. Rectangular nodes with 1px black borders and 4px hard black shadows. Nodes are connected by 2px solid black lines with 45-degree arrowheads. Inside nodes, display simulated system telemetry (e.g., '> RAM_Usage: 4.2GB')."
+      }
+    ]
+  },
+  "special_ui_components": [
+    {
+      "component": "Hard-Shadow Node",
+      "description": "A utilitarian card component for data display.",
+      "prompt": "Background #FFF, Border 1px #000, Box-Shadow 4px 4px 0px 0px #000. Header of the card should be a 1px bottom-bordered strip with a status indicator (dot). Content inside uses 12px JetBrains Mono."
+    },
+    {
+      "component": "Terminal Accordion",
+      "description": "An FAQ or detail component that feels like a directory expansion.",
+      "prompt": "Uses the <details> and <summary> elements. Summary has a '+' sign that rotates 45 degrees when open. Background color inverts from #F5F5F5 to #FFF on open. Content is padded 24px and uses Inter for long-form reading."
+    },
+    {
+      "component": "Monospace CTA",
+      "description": "A high-visibility system action button.",
+      "prompt": "Large block button, padding 16px 32px. Background #FFF, Text #000. On hover, background becomes #00CC00 instantly. Text begins with a '>' character to simulate a command prompt."
+    }
+  ]
+}
+```
+
+---
+
+## 148. Forge — Launch Waitlist (dark, warm-ember)
+`Waitlist & Coming Soon` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/forge-launch-waitlist-dark-warm-ember?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+Dark, warm-ember startup launch / waitlist landing page: near-black ink base with a single hot coral accent, Space Grotesk display + Inter body, blurred coral/amber ambient glows, a floating glass pill nav, a centered gradient headline, a glassmorphic email-capture waitlist card, a 'backed by' logo row, and a sticky-titled editorial 3-step feature spread.
+
+```text
+{"summary": "A dark, warm-ember startup launch / waitlist landing page. Near-black ink base (#0a0a0f) with a single coral accent (#ff5a4d), large Space Grotesk display headline, and a centered single-column hero whose copy ends with a coral emphasis word. Behind the hero sit soft blurred warm-ember radial 'streak' glows plus a faint dot grain. A glassy waitlist card (email + coral 'Reserve spot' pill) is the primary conversion surface, followed by a social icon row, an uppercase 'backed by' logo row, a sticky-titled editorial 3-step feature spread on a 12-col grid, and a quiet split footer. A floating glass pill nav sits at the top.", "style": {"description": "Dark warm-ember minimal launch page. Near-black ink base (#0a0a0f) with warm off-white text (#f4f3ef), one hot coral accent (#ff5a4d) used for the logo mark, ping dot, emphasis word, feature numerals/icons, focus ring and the primary CTA. Space Grotesk for all display headings (weights 600-700, tight -0.03em tracking) and Inter for body/UI (slightly negative -0.01em letter-spacing, antialiased). Mood: confident, fast, indie-founder. Atmosphere comes from large blurred coral/amber radial 'streak' glows behind the hero, a subtle white-dot grain overlay, glassmorphism (blurred translucent dark panels with hairline white borders) on the nav pill and waitlist card, fully-rounded pill controls, and a soft coral box-shadow glow on the brand mark and CTA. Headlines use a white-to-grey vertical gradient text clip.", "prompt": "Design in a dark, warm-ember, minimal startup-launch style. Palette: near-black ink base #0a0a0f, warm off-white text #f4f3ef, a single hot coral accent #ff5a4d (with warmer amber #ff8c3c / #ffaa5a only inside the ambient glows). Headings use Space Grotesk (weights 600-700, tracking -0.03em, leading ~0.98); body and UI use Inter (weights 400-600, letter-spacing -0.01em, -webkit-font-smoothing antialiased). Use glassmorphism for floating panels: linear-gradient dark fill (rgba(22,22,28,0.92)->rgba(13,13,18,0.92)), backdrop-blur ~16px, 1px rgba(255,255,255,0.07) border; the nav pill uses rgba(20,20,26,0.7) + blur 14px. Behind the hero place 3 large blurred (filter: blur(90px)) coral/amber radial 'streak' ellipses at ~0.55 opacity, plus a faint white radial-dot grain (rgba(255,255,255,0.025) 1px dots on a 3px grid). All buttons, the badge, the input shell and social icons are fully-rounded pills. The primary CTA and the logo mark carry a soft coral glow box-shadow (0 8px 30px rgba(255,90,77,0.35)). Headline text uses a white->grey (#ffffff 35% -> #b9b8b3 100%) vertical gradient clipped to text, with one trailing word in solid coral. Feature icon tiles are coral-tinted (bg rgba(255,90,77,0.10), border rgba(255,90,77,0.22)). Keep it spacious, centered, dark and warm, never cold blue or neon."}, "layout_and_structure": {"description": "Single-column, centered, long-scroll launch page in a max-w-6xl (72rem) container with px-5 / sm:px-8 gutters. Top-down order: a floating sticky glass pill nav, a centered hero (badge -> gradient headline -> one-line statement -> glass waitlist card -> social icon row) over blurred warm-ember glows + grain, an uppercase 'backed by' logo row, an editorial feature spread (12-col grid: a sticky 4-col title column + an offset, staggered 3-item numbered feature list), and a quiet split footer. Responsive: nav links hide below md, the waitlist form stacks vertically below sm, the feature grid collapses from 12 cols to a single stacked column on mobile and the second feature row loses its sm:pl-10 offset.", "prompts": [{"part": "Sticky pill nav", "prompt": "A sticky top header (z-50, top-0) holding a floating 'nav pill' centered in a max-w-6xl row with top padding. The pill is fully rounded, glassy (rgba(20,20,26,0.7), backdrop-blur 14px, 1px white/7 border) with small px-3 py-2 padding. Left: the logo = an 8x8 rounded-lg coral square with a soft coral glow containing a black ph:lightning-fill icon, next to the 'Forge' wordmark in Space Grotesk 600. Center (hidden below md): four pill text links (How it works, Features, Backed by, FAQ) in white/75 at 13.5px that brighten to white on hover. Right: a solid white fully-rounded pill CTA 'Get early access' in black 13px 600."}, {"part": "Hero", "prompt": "A centered single-column hero in a relative max-w-6xl container with pt-20/sm:pt-28 top padding, over an absolutely-positioned ambient layer (3 large blurred coral/amber radial 'streak' ellipses) and a faint white dot grain. Stack centered: (1) a small rounded-full badge with a 1px white/10 border and white/4 fill containing an animated coral ping dot and the label 'Private beta - Waitlist open' in 12.5px white/80; (2) a huge Space Grotesk 700 headline at clamp(2.7rem,8.5vw,5.5rem), leading 0.98, tracking -0.03em reading 'Launch the site / before the idea cools.' where the first two lines use a white->grey gradient text clip and the final word 'cools.' is solid coral; (3) a max-w-xl white/75 sub-paragraph at ~16px ('Forge turns a one-line prompt into a launch-ready startup website. Hero, pricing, waitlist, the lot. Pick a starter, describe the vibe, ship today.'); (4) the glass waitlist card; (5) a social icon row."}, {"part": "Waitlist card (primary CTA)", "prompt": "A glassmorphic card (the 'glass' style: dark gradient fill, backdrop-blur 16px, 1px white/7 border) max-w-lg, rounded-3xl, p-7/sm:p-8, left-aligned text, mt-12. Header: a coral ph:paper-plane-tilt-fill icon beside a Space Grotesk 600 'Join the waitlist' at 20px. Sub-line in white/75 13.5px ('We onboard a new batch every Friday. Drop your email and we'll save you a seat plus 5 free site generations.'). Form (stacks vertically below sm, row on sm+): a fully-rounded 'input shell' (white/4 fill, 1px white/10 border) wrapping a white/55 ph:envelope-simple icon + an email input with placeholder 'you@startup.com'; on focus-within the shell border turns coral/55 with a 4px coral/10 ring. Beside it a solid coral fully-rounded 'Reserve spot' pill button (black text, coral glow shadow, ph:arrow-right-bold icon) that brightens on hover. Below: a reassurance line with a ph:shield-check icon in white/72 12px ('No spam. One launch email, then quiet until your batch.')."}, {"part": "Social row", "prompt": "A centered horizontal row (mt-8, gap-3) of three 9x9 fully-rounded icon buttons (1px white/10 border, white/3 fill, white/55 icons) for X (ph:x-logo-bold), GitHub (ph:github-logo-bold) and Discord (ph:discord-logo-bold). On hover each gets a coral/40 border and coral icon."}, {"part": "Backed-by logo row", "prompt": "A section with a thin top border (white/6). Centered uppercase eyebrow at 11.5px, white/72, letter-spacing 0.22em: 'Backed by founders & funds who ship fast'. Below, a centered flex-wrap row (gap-x-10/14, gap-y-6) of five placeholder backer logos, each a ph:* outline icon (rocket-launch, diamond, hexagon, circles-three, mountains) at 20px beside a Space Grotesk 600 16px wordmark (Liftoff, Northpeak, Hexa, Trio Capital, Basecamp) in white/72, brightening to white on hover."}, {"part": "Editorial feature spread", "prompt": "A features section in max-w-6xl with a 12-col grid (gap-x-14 gap-y-10). Left 4 cols = a sticky (md:top-28) editorial title block: a coral eyebrow row (a 10px-wide coral/60 hairline + uppercase 0.28em-tracked coral 'The kit'), a Space Grotesk 700 heading at clamp(1.9rem,4.4vw,2.9rem) ('Everything between the idea and the' + a white->grey gradient 'first signup.'), a max-w-xs white/75 intro paragraph, and a white text link 'Reserve your spot' with a ph:arrow-right-bold icon that turns coral on hover. Right ~7 cols (lg:col-start-6) = a vertically divided (divide-white/8) list of 3 numbered feature articles; the 2nd article is offset with sm:pl-10 for a staggered rhythm. Each article: a coral/80 Space Grotesk tabular two-digit number (01-03), a 12x12 coral-tinted rounded-xl 'feature-icon' tile (ph:magic-wand / ph:squares-four / ph:export coral icons) that gains a coral/40 border on group-hover, then a Space Grotesk 600 18px title and a max-w-md white/75 14px description (Prompt to page / Starter library / Ship anywhere)."}, {"part": "Footer", "prompt": "A quiet footer with a thin top border (white/6). In a max-w-6xl row that is column-stacked on mobile and a 3-part space-between row on sm+: left = a 7x7 rounded-md coral square with a black ph:lightning-fill icon beside the 'Forge' Space Grotesk 600 wordmark; center = a white/72 12.5px copyright line '\u00a9 2026 Forge Labs. Built for founders in a hurry.'; right = three white/72 12.5px text links (Privacy, Terms, Changelog) that brighten to white on hover."}]}, "special_ui_components": ["Floating glass pill nav: a fully-rounded, backdrop-blurred translucent dark pill (rgba(20,20,26,0.7), blur 14px, 1px white/7 border) that sticks to the top", "Ambient warm-ember glows: 3 large absolutely-positioned blurred (blur 90px, ~0.55 opacity) coral/amber radial 'streak' ellipses rotated behind the hero, plus a faint white radial-dot grain (rgba(255,255,255,0.025) 1px dots on a 3px grid)", "Glassmorphic waitlist card: dark linear-gradient fill, backdrop-blur 16px, hairline white/7 border, rounded-3xl, holding the primary email-capture form", "Animated coral ping dot in the status badge (an animate-ping coral halo over a solid coral dot)", "Gradient text headline: white->grey (#ffffff 35% -> #b9b8b3) vertical gradient clipped to text, with one trailing word in solid coral", "Fully-rounded 'input shell' with a coral focus state: white/4 fill + white/10 border that switches to a coral/55 border and a 4px coral/10 focus ring on focus-within", "Coral-glow buttons/mark: a 0 8px 30px rgba(255,90,77,0.35) box-shadow on the primary CTA and the lightning logo square", "Coral-tinted feature icon tiles: rounded-xl tiles with rgba(255,90,77,0.10) fill and rgba(255,90,77,0.22) border, brightening on group-hover", "Sticky editorial title column with an offset, staggered, divided numbered feature list (the middle row indented via sm:pl-10)", "Phosphor (Iconify ph:*) icons throughout: lightning-fill, paper-plane-tilt-fill, envelope-simple, arrow-right-bold, shield-check, social logos, rocket-launch/diamond/hexagon/circles-three/mountains, magic-wand/squares-four/export"], "special_notes": "Fonts loaded from Google Fonts: Space Grotesk (weights 400-700, display) and Inter (weights 400-600, body/UI). Styled with Tailwind via CDN using a custom theme (colors ink #0a0a0f and coral #ff5a4d; fontFamily display = Space Grotesk, sans = Inter); icons via the Iconify iconify-icon web component (Phosphor 'ph:*' set). Body background #0a0a0f, text #f4f3ef, html scroll-behavior smooth. The mood must stay dark, warm and ember-toned (coral/amber on near-black), never cold blue, purple or neon. Copy and brand 'Forge' are placeholders; the transferable value is the dark warm-ember launch/waitlist STYLE + the centered-hero + glass-card + editorial-feature LAYOUT."}
+```
+
+---
+
+## 149. Multi-step Form Flow
+`Onboarding` · `General` · 15 copies · [try live](https://superdesign.dev/library/multi-step-form-flow?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A modular, step-based mobile flow designed for creating or editing content with clarity and momentum, where each screen presents a single logical input group, guided by a top progress indicator and a bottom-anchored primary action. Users can move forward or backward without data loss, with progress automatically saved between steps, while the reusable layout system supports optional and conditional steps across different flows. Presented in a minimal wireframe style, visual progression is communicated through spacing and hierarchy rather than visual decoration, making this approach best for onboarding, multi-step setup, preference configuration, and any mobile experience where reducing cognitive load and maximizing completion rate are critical.
+
+```text
+Here is a reference implementation:
+
+~~~html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Multi-step Flow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@700,600,500,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['General Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        gray: {
+                            50: '#f9fafb',
+                            100: '#f3f4f6',
+                            200: '#e5e7eb',
+                            300: '#d1d5db',
+                            400: '#9ca3af',
+                            500: '#6b7280',
+                            600: '#4b5563',
+                            700: '#374151',
+                            800: '#1f2937',
+                            900: '#111827',
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.3s ease-out forwards',
+                        'slide-up': 'slideUp 0.4s cubic-bezier(0, 0, 0.2, 1) forwards',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { opacity: '0', transform: 'translateY(10px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar { width: 0px; background: transparent; }
+        input:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+            -webkit-text-fill-color: #111827 !important;
+        }
+        .step-transition {
+            transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div id="app-root" class="w-full h-screen flex flex-col bg-white font-sans text-gray-900 overflow-hidden">
+        
+        <!-- Header Section -->
+        <header class="shrink-0 pt-14 pb-2 px-6 bg-white/95 backdrop-blur-sm z-20 border-b border-gray-100/50">
+            <div class="flex items-center justify-between mb-6">
+                <button id="nav-back-btn" class="p-2 -ml-2 text-gray-400 hover:text-gray-900 transition-colors rounded-full hover:bg-gray-50">
+                    <iconify-icon icon="lucide:chevron-left" width="24"></iconify-icon>
+                </button>
+                <div class="flex flex-col items-center">
+                    <span class="text-[10px] font-bold uppercase tracking-widest text-gray-400">Onboarding</span>
+                </div>
+                <button id="nav-save-btn" class="p-2 -mr-2 text-sm font-semibold text-gray-500 hover:text-gray-900 transition-colors">
+                    Save
+                </button>
+            </div>
+
+            <!-- Progress Visualizer -->
+            <div id="progress-bar-container" class="flex items-center justify-between gap-2">
+                <div class="h-1 flex-1 bg-gray-200 rounded-full overflow-hidden"><div class="h-full w-0 bg-gray-900 transition-all duration-500"></div></div>
+                <div class="h-1 flex-1 bg-gray-200 rounded-full overflow-hidden"><div class="h-full w-0 bg-gray-900 transition-all duration-500"></div></div>
+                <div class="h-1 flex-1 bg-gray-200 rounded-full overflow-hidden"><div class="h-full w-0 bg-gray-900 transition-all duration-500"></div></div>
+                <div class="h-1 flex-1 bg-gray-200 rounded-full overflow-hidden"><div class="h-full w-0 bg-gray-900 transition-all duration-500"></div></div>
+            </div>
+            <div class="flex justify-between mt-2">
+                <span id="header-step-title" class="text-xs font-medium text-gray-900">Step 1: Security Setup</span>
+                <span id="header-progress-text" class="text-xs text-gray-400">0% Completed</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main id="step-content-container" class="flex-1 overflow-y-auto bg-white">
+            <!-- Dynamic Content Injected Here -->
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="shrink-0 bg-white border-t border-gray-100 px-6 pt-4 pb-[34px] shadow-[0_-4px_20px_rgba(0,0,0,0.02)] z-30">
+            <div class="flex items-center gap-3">
+                <button id="btn-prev" class="flex-1 py-3.5 px-4 rounded-xl border border-gray-200 bg-white text-gray-700 text-sm font-semibold hover:bg-gray-50 active:bg-gray-100 transition-all focus:outline-none focus:ring-2 focus:ring-gray-200 disabled:opacity-30 disabled:cursor-not-allowed">
+                    Back
+                </button>
+                <button id="btn-next" class="flex-[2] py-3.5 px-4 rounded-xl bg-gray-900 text-white text-sm font-semibold shadow-lg shadow-gray-900/10 hover:bg-gray-800 active:scale-[0.98] transition-all flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2">
+                    <span id="btn-next-text">Continue</span>
+                    <iconify-icon id="btn-next-icon" icon="lucide:arrow-right" width="18"></iconify-icon>
+                </button>
+            </div>
+            <div class="mt-4 flex justify-center">
+                 <p class="text-[10px] text-gray-400 flex items-center gap-1">
+                    <iconify-icon icon="lucide:lock" width="10"></iconify-icon>
+                    Your data is encrypted and secure
+                 </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        const steps = [
+            {
+                id: 1,
+                title: "Security Setup",
+                headerTitle: "Step 1: Security Setup",
+                progress: "25%",
+                content: `
+                    <div class="flex flex-col min-h-full px-6 py-6 animate-slide-up">
+                        <h1 class="text-2xl font-bold tracking-tight text-gray-900 mb-2">Create your account</h1>
+                        <p class="text-gray-500 text-sm mb-8 leading-relaxed">Set up your secure credentials to get started with our professional network.</p>
+                        <div class="space-y-6">
+                            <div class="space-y-1.5">
+                                <label class="block text-sm font-semibold text-gray-700">Email Address</label>
+                                <input type="email" placeholder="name@company.com" class="block w-full rounded-lg border-gray-200 bg-white py-3 px-3 text-gray-900 focus:border-gray-900 focus:ring-1 focus:ring-gray-900 sm:text-sm shadow-sm">
+                            </div>
+                            <div class="space-y-1.5">
+                                <label class="block text-sm font-semibold text-gray-700">Password</label>
+                                <div class="relative">
+                                    <input type="password" placeholder="Minimum 8 characters" class="block w-full rounded-lg border-gray-200 bg-white py-3 px-3 text-gray-900 focus:border-gray-900 focus:ring-1 focus:ring-gray-900 sm:text-sm shadow-sm">
+                                    <iconify-icon icon="lucide:eye-off" class="absolute right-3 top-3.5 text-gray-400 cursor-pointer"></iconify-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: 2,
+                title: "Identity Verification",
+                headerTitle: "Step 2: Identity Verification",
+                progress: "50%",
+                content: `
+                    <div class="flex flex-col min-h-full px-6 py-6 animate-slide-up">
+                        <h1 class="text-2xl font-bold tracking-tight text-gray-900 mb-2">Verify your identity</h1>
+                        <p class="text-gray-500 text-sm mb-8 leading-relaxed">Next, let's confirm who you are. We use these details to prevent unauthorized access.</p>
+                        <div class="relative pl-4 border-l-2 border-gray-900 ml-3 space-y-8 pb-8">
+                            <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full border-[3px] border-white bg-gray-900 shadow-sm"></div>
+                            <div class="space-y-1.5">
+                                <label class="block text-sm font-semibold text-gray-700">Full Legal Name<span class="block text-[10px] font-normal text-gray-400 mt-0.5">As shown on ID</span></label>
+                                <div class="relative group">
+                                    <input type="text" value="Jordan Mitchell" class="block w-full rounded-lg border-gray-200 bg-white py-3 pl-3 pr-10 text-gray-900 sm:text-sm shadow-sm">
+                                    <div class="absolute inset-y-0 right-0 flex items-center pr-3"><iconify-icon icon="lucide:check-circle-2" class="text-green-600 text-lg"></iconify-icon></div>
+                                </div>
+                            </div>
+                            <div class="space-y-1.5">
+                                <label class="block text-sm font-semibold text-gray-700">Phone Number</label>
+                                <div class="relative">
+                                    <input type="tel" value="+1 (555) 012-34" class="block w-full rounded-lg border-gray-200 bg-gray-50/50 py-3 pl-3 pr-10 text-gray-900 sm:text-sm">
+                                    <div class="absolute inset-y-0 right-0 flex items-center pr-3"><iconify-icon icon="lucide:loader-2" class="text-gray-400 text-lg animate-spin"></iconify-icon></div>
+                                </div>
+                            </div>
+                            <div class="space-y-1.5">
+                                <label class="block text-sm font-semibold text-gray-700">Date of Birth</label>
+                                <input type="text" placeholder="MM/DD/YYYY" class="block w-full rounded-lg border-gray-200 bg-white py-3 px-3 text-gray-900 sm:text-sm shadow-sm">
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: 3,
+                title: "Professional Profile",
+                headerTitle: "Step 3: Professional Profile",
+                progress: "75%",
+                content: `
+                    <div class="flex flex-col min-h-full px-6 py-6 animate-slide-up">
+                        <h1 class="text-2xl font-bold tracking-tight text-gray-900 mb-2">Professional Experience</h1>
+                        <p class="text-gray-500 text-sm mb-8 leading-relaxed">Help us tailor your experience by providing your professional background.</p>
+                        <div class="space-y-6">
+                            <div class="space-y-1.5">
+                                <label class="block text-sm font-semibold text-gray-700">Primary Role</label>
+                                <select class="block w-full rounded-lg border-gray-200 bg-white py-3 px-3 text-gray-900 sm:text-sm shadow-sm appearance-none">
+                                    <option>Select an option</option>
+                                    <option>Software Engineer</option>
+                                    <option>Product Designer</option>
+                                    <option>Marketing Manager</option>
+                                </select>
+                            </div>
+                            <div class="space-y-1.5">
+                                <label class="block text-sm font-semibold text-gray-700">Years of Experience</label>
+                                <div class="grid grid-cols-3 gap-2">
+                                    <button class="py-3 rounded-lg border border-gray-200 text-sm font-medium hover:bg-gray-50">1-3</button>
+                                    <button class="py-3 rounded-lg border border-gray-900 bg-gray-900 text-white text-sm font-medium">4-7</button>
+                                    <button class="py-3 rounded-lg border border-gray-200 text-sm font-medium hover:bg-gray-50">8+</button>
+                                </div>
+                            </div>
+                            <div class="space-y-1.5">
+                                <label class="block text-sm font-semibold text-gray-700">Portfolio Link (Optional)</label>
+                                <input type="url" placeholder="https://..." class="block w-full rounded-lg border-gray-200 bg-white py-3 px-3 text-gray-900 sm:text-sm shadow-sm">
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            {
+                id: 4,
+                title: "Final Review",
+                headerTitle: "Step 4: Final Review",
+                progress: "100%",
+                content: `
+                    <div class="flex flex-col min-h-full px-6 py-6 animate-slide-up">
+                        <h1 class="text-2xl font-bold tracking-tight text-gray-900 mb-2">Review & Confirm</h1>
+                        <p class="text-gray-500 text-sm mb-8 leading-relaxed">Please review your information before completing your registration.</p>
+                        <div class="space-y-4">
+                            <div class="p-4 rounded-xl bg-gray-50 border border-gray-100">
+                                <div class="flex items-center justify-between mb-2">
+                                    <h4 class="text-xs font-bold uppercase tracking-wider text-gray-400">Security</h4>
+                                    <button class="text-xs font-semibold text-gray-900 underline">Edit</button>
+                                </div>
+                                <p class="text-sm text-gray-900 font-medium">jordan.m@example.com</p>
+                                <p class="text-xs text-gray-500">Password set • MFA Enabled</p>
+                            </div>
+                            <div class="p-4 rounded-xl bg-gray-50 border border-gray-100">
+                                <div class="flex items-center justify-between mb-2">
+                                    <h4 class="text-xs font-bold uppercase tracking-wider text-gray-400">Identity</h4>
+                                    <button class="text-xs font-semibold text-gray-900 underline">Edit</button>
+                                </div>
+                                <p class="text-sm text-gray-900 font-medium">Jordan Mitchell</p>
+                                <p class="text-xs text-gray-500">Verified phone • +1 (555) 012-34</p>
+                            </div>
+                            <div class="p-4 rounded-xl bg-gray-50 border border-gray-100">
+                                <div class="flex items-center justify-between mb-2">
+                                    <h4 class="text-xs font-bold uppercase tracking-wider text-gray-400">Professional</h4>
+                                    <button class="text-xs font-semibold text-gray-900 underline">Edit</button>
+                                </div>
+                                <p class="text-sm text-gray-900 font-medium">Product Designer</p>
+                                <p class="text-xs text-gray-500">4-7 Years experience</p>
+                            </div>
+                        </div>
+                    </div>
+                `
+            }
+        ];
+
+        let currentStepIndex = 0;
+
+        const headerTitle = document.getElementById('header-step-title');
+        const progressText = document.getElementById('header-progress-text');
+        const contentContainer = document.getElementById('step-content-container');
+        const btnPrev = document.getElementById('btn-prev');
+        const btnNext = document.getElementById('btn-next');
+        const btnNextText = document.getElementById('btn-next-text');
+        const btnNextIcon = document.getElementById('btn-next-icon');
+        const navBackBtn = document.getElementById('nav-back-btn');
+        const progressSegments = document.querySelectorAll('#progress-bar-container > div > div');
+
+        function updateUI() {
+            const step = steps[currentStepIndex];
+            
+            // Update Header
+            headerTitle.textContent = step.headerTitle;
+            progressText.textContent = `${step.progress} Completed`;
+            
+            // Update Progress Bars
+            progressSegments.forEach((bar, idx) => {
+                if (idx < currentStepIndex) {
+                    bar.style.width = '100%';
+                } else if (idx === currentStepIndex) {
+                    bar.style.width = '50%'; // Intermediate state showing progress
+                    setTimeout(() => bar.style.width = '100%', 100); // Animate to full
+                } else {
+                    bar.style.width = '0%';
+                }
+            });
+
+            // Update Content
+            contentContainer.innerHTML = step.content;
+
+            // Update Footer
+            btnPrev.disabled = currentStepIndex === 0;
+            if (currentStepIndex === steps.length - 1) {
+                btnNextText.textContent = "Complete Registration";
+                btnNextIcon.setAttribute('icon', 'lucide:check');
+            } else {
+                btnNextText.textContent = currentStepIndex === 1 ? "Verify and Continue" : "Continue";
+                btnNextIcon.setAttribute('icon', 'lucide:arrow-right');
+            }
+        }
+
+        btnNext.addEventListener('click', () => {
+            if (currentStepIndex < steps.length - 1) {
+                currentStepIndex++;
+                updateUI();
+                contentContainer.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                // Final step action
+                btnNext.innerHTML = `<iconify-icon icon="lucide:loader-2" class="animate-spin" width="20"></iconify-icon>`;
+                setTimeout(() => {
+                    alert("Registration Complete!");
+                    location.reload();
+                }, 1500);
+            }
+        });
+
+        btnPrev.addEventListener('click', () => {
+            if (currentStepIndex > 0) {
+                currentStepIndex--;
+                updateUI();
+            }
+        });
+
+        navBackBtn.addEventListener('click', () => {
+            if (currentStepIndex > 0) {
+                currentStepIndex--;
+                updateUI();
+            }
+        });
+
+        // Initialize
+        updateUI();
+    </script>
+</body>
+</html>
+~~~
+```
+
+---
+
+## 150. Workspace Settings · Formcraft (two-column, cobalt)
+`Dashboards` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/workspace-settings-formcraft-two-column-cobalt?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+Light SaaS workspace-settings page (form builder): sticky app-bar, tinted header, sticky left section nav + stacked white settings cards, toggles, segmented control and a sticky save bar, on a single cobalt accent over a slate neutral system.
+
+```text
+{"summary": "A clean, light SaaS workspace-settings page for a form builder (Formcraft). A sticky top app-bar sits above a tinted page header, then a two-column body: a sticky in-page section nav on the left and a stack of white settings cards on the right (Profile, Form behaviour, Notifications, Response delivery, Danger zone). A sticky bottom save bar tracks unsaved changes. Cobalt-blue is the single accent on a slate/ink neutral system; Inter throughout; generous spacing, soft 1px card borders, rounded-2xl cards, and labeled left / control-right form rows that reflow to stacked on mobile.", "style": {"description": "Light, calm, professional product-settings aesthetic. Single cobalt-blue accent on a cool slate (ink) neutral scale; near-white app background, pure-white cards. Soft hairline borders and very subtle card shadows instead of heavy elevation. Inter font, tight tracking on headings, bold section titles with muted sub-descriptions. Rounded corners (lg on controls, 2xl on cards, full on pills/toggles/avatars). Lucide line icons sized 14-18px. Restrained color: green only for the success status pill, rose only for the danger zone, amber only for the unsaved-changes dot.", "prompt": "Design a light, modern SaaS settings page using Inter (weights 400/500/600/700/800), antialiased. Use a single cobalt-blue accent scale (primary #2563eb, hover #1d4ed8, light tint #eff4ff, mid #dbe6fe / #93b4fd) on a cool slate 'ink' neutral scale (page bg #f8fafc, white cards #ffffff, borders #e2e8f0 and hairlines #f1f5f9/#e2e8f0 at ~70-80% opacity, body text #64748b, headings #0f172a, strong labels #334155, secondary labels #475569, muted #94a3b8). Reserve color strictly: emerald (#ecfdf5 bg / #047857 text / #a7f3d0 border) only for a success status pill, rose (#fecdd3 border / #e11d48 + #be123c text) only for a destructive 'Danger zone', amber (#fbbf24) only for the pulsing unsaved-changes dot. Cards are rounded-2xl with a 1px ink-200/80 border and a very soft two-layer shadow (0 1px 2px rgba(15,23,42,.04), 0 1px 3px rgba(15,23,42,.06)); inputs/buttons rounded-lg, pills/avatars/toggles fully rounded. Inputs sit on a faint ink-50/60 fill, turn white on focus with a cobalt border and a 4px rgba(37,99,235,.12) focus ring. Headings tracking-tight; section titles 16px bold #0f172a with a 13px #64748b sub-line. Keep elevation low and whitespace generous."}, "layout_and_structure": {"description": "Top-to-bottom: (1) sticky translucent app-bar; (2) tinted page header with breadcrumb, title and a status pill; (3) a max-w-6xl two-column grid — a 208px sticky section nav on the left and a vertical stack of settings cards on the right; (4) a sticky bottom save bar. Inside cards, settings are labeled-left / control-right rows separated by hairline dividers (row-divide), reflowing to stacked label-over-control on mobile.", "prompts": [{"part": "Sticky app-bar", "prompt": "A sticky top header (h-16, z-40) on a white/85 backdrop-blur with a bottom ink-200/70 hairline. Left: brand lockup = an 8x8 rounded-lg cobalt-600 tile holding a white lucide:square-pen icon, plus the extrabold 15px wordmark 'Formcraft'. Then a horizontal nav (Forms, Responses, Integrations, Settings) of 13.5px medium ink-500 links with rounded-md hover (ink-50 bg) and the active item filled cobalt-50 with cobalt-700 semibold text; hidden below md. Right cluster: a 9x9 search and bell icon-button (the bell has a cobalt-600 notification dot ringed in white), then a pill-shaped account chip (rounded-full, ink-200 border) with a 28px avatar and the name 'Bonnie G.'."}, {"part": "Page header band", "prompt": "A header section with a bottom hairline and a subtle vertical gradient from cobalt-50/50 to white, plus a 1px cobalt-200 gradient line pinned to the very top edge. Inside max-w-6xl: a breadcrumb (Home › Account › Settings, 12.5px medium, chevron-right separators, last crumb ink-700), then a flex row with the page title 'Workspace settings' (26px extrabold tracking-tight #0f172a) and a one-line muted description on the left, and on the right an emerald success pill (rounded-full, emerald-50 bg, emerald-200/70 border, lucide:check-circle-2) reading 'All systems synced · 2 min ago'. Reflows column on mobile."}, {"part": "Two-column body grid", "prompt": "A max-w-6xl main region, grid-cols-1 on mobile and lg:grid-cols-[208px_minmax(0,1fr)] with gap-7. Left aside is an in-page section nav, sticky at top-24 on desktop; right column is a flex-col gap-7 stack of cards."}, {"part": "Sticky section nav (left)", "prompt": "A vertical nav of 13.5px medium links: Profile, Form behaviour, Notifications, Delivery, Danger zone, each a rounded-lg row with a leading 16px lucide icon (user-round, sliders-horizontal, bell-ring, send, shield-alert). The active item ('Profile') is filled cobalt-50 with cobalt-700 semibold text and a 5px tall cobalt-600 indicator bar pinned to its left edge; inactive items are ink-500 and hover to white bg / ink-900 text. On mobile it becomes a horizontal scrolling row."}, {"part": "Profile card", "prompt": "A white rounded-2xl card. Header strip (border-b ink-100): title 'Profile' (16px bold) + 13px muted sub-line, with a small 'Public' status chip (rounded-full ink-50 bg, 11px semibold) on the right. Body: an avatar row (label 'Profile photo' + helper 'PNG or JPG, up to 2 MB' on a 208px left column; a 56px ringed avatar, a solid cobalt-600 'Upload' button with lucide:upload, and a ghost 'Remove' button). Below, a rounded-xl ink-100-bordered group of label-left/control-right rows separated by hairline dividers: Full name (text input), Email address (input with a leading lucide:mail icon), Workspace role (select), Timezone (select with a helper sub-line). Inputs are full-width within an sm:max-w-md control column on a faint ink-50/60 fill."}, {"part": "Form behaviour card", "prompt": "A white rounded-2xl card with header 'Form behaviour' + muted sub-line. Body is a hairline-divided list of rows, each a left title (13.5px semibold ink-800) + smaller muted description and a right control. Three rows use a pill toggle switch (custom checkbox, h-6 w-11, off=ink-300 track, on=cobalt-600 track with a white knob that slides right): 'Smart spam filtering' (on), 'Save partial responses' (on), 'Custom thank-you redirect' (off). A fourth row 'Submission limit' uses a segmented control: an ink-100 rounded-lg track holding pills None/100/500/Custom where the active pill is white with a soft shadow and ink-800 text."}, {"part": "Notifications card", "prompt": "A white rounded-2xl card, header 'Notifications' + muted sub-line with a cobalt-600 'Select all' text button on the right. Body: hairline-divided rows, each with a leading 36px rounded-lg cobalt-50 tile holding a cobalt-600 lucide icon (inbox, bar-chart-3, megaphone), a title + muted description, and a right pill toggle: 'New submissions' (on), 'Weekly summary' (on), 'Product news' (off). A final label-left row 'Deliver alerts to' with a select (Email only / Email + Slack / Slack only)."}, {"part": "Response delivery card", "prompt": "A white rounded-2xl card, header 'Response delivery' + muted sub-line. Body: a 2-up grid of selectable destination tiles (rounded-xl, gap-3.5 inner). The selected tile has a 2px cobalt-600 border on a cobalt-50/50 fill, a white icon tile (lucide:table-2), label 'Google Sheets' + 'Connected · 2 forms', and a trailing cobalt check-circle-2. The other tile has a 2px ink-200 border, an ink-50 icon tile (lucide:webhook), label 'Webhook' + 'Not connected', and a trailing cobalt 'Connect' link. Below, a rounded-xl ink-100 group: a 'Reply-to address' input row and an 'Attach file uploads' toggle row (on)."}, {"part": "Danger zone card", "prompt": "A white rounded-2xl card with a rose-200 border (not the neutral border). A single flex row: title 'Delete workspace' (15px bold rose-700) + a muted description of the irreversible consequence, and a right outlined destructive button (white bg, rose-200 border, rose-600 text, lucide:trash-2, hover rose-50) reading 'Delete'."}, {"part": "Sticky save bar", "prompt": "A sticky bottom bar (z-40) on white/90 backdrop-blur with a top ink-200/80 hairline and an upward soft shadow. Inside max-w-6xl: on the left an unsaved-changes indicator = a pulsing amber dot (a static amber dot with an animate-ping amber halo) plus 12.5px medium ink-500 text 'You have 3 unsaved changes'. On the right a ghost 'Discard' button and a solid cobalt-600 'Save changes' button with a leading lucide:check icon."}]}, "special_ui_components": ["Custom pill toggle switch: appearance-none checkbox, h-6 w-11 fully-rounded track (off #cbd5e1 / ink-300, on #2563eb / cobalt-600) with a 2px-inset white knob (subtle shadow) that translateX(100%) when checked; focus-visible shows a 2px #93b4fd ring offset 2px.", "Segmented control: ink-100 rounded-lg p-1 track of equal pills; active pill is white with a 0 1px 2px rgba(15,23,42,.10) shadow and ink-800 text; inactive pills are ink-500 hovering to ink-700.", "Labeled-left / control-right form row that reflows to stacked label-over-control under sm; controls capped to sm:max-w-md, labels fixed to a 208px (sm:w-52) column.", "Custom select: appearance-none with an inline SVG chevron-down (stroke #64748b) positioned right, extra right padding; shares the .fld focus treatment (cobalt border + 4px cobalt/12% ring, white fill).", "Input affordances: leading icon inputs (e.g. lucide:mail) with the field padded-left; faint ink-50/60 resting fill that turns white on focus.", "Selectable destination card: 2px-border radio-style tile, selected = cobalt border + cobalt-50/50 fill + trailing check-circle-2; unselected = ink border + 'Connect' link.", "Pulsing status dot: a static colored dot with an absolutely-positioned animate-ping halo of the same color at reduced opacity.", "Status pills: rounded-full chips reused in two tones — emerald success ('All systems synced') in the header and a neutral ink 'Public' chip on the Profile card."], "special_notes": "Color discipline is the heart of this design: cobalt is the only brand accent and everything else lives on the slate/ink neutral scale; emerald, rose, and amber appear exactly once each (success status, danger zone, unsaved dot) so they read as meaningful state, not decoration. Hierarchy comes from weight and spacing rather than dividers or boxes: bold tracking-tight section titles over 12.5-13px muted descriptions, hairline (#f1f5f9) row dividers, and rounded-xl ink-100 sub-groups that quietly cluster related fields. Elevation is deliberately low (1-3px soft shadows) so the page feels flat and trustworthy. Layout is fully responsive: the two-column body collapses to one column, the left section nav turns into a horizontal scroller, and every labeled form row reflows from label-left to label-over-control under the sm breakpoint. Both the top app-bar and the bottom save bar are sticky with backdrop-blur so navigation and the save action stay reachable while scrolling a long settings page. Icons are Lucide line icons; the type is Inter throughout."}
 ```
 
 ---

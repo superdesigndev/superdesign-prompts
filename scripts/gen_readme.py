@@ -57,12 +57,13 @@ def build_gallery(prompts, cols=4, rows=3):
 
 
 def build_leaderboard(prompts, n=10):
-    top = sorted(prompts, key=lambda z: num(z, "copyCount"), reverse=True)[:n]
-    rows = ["| # | Prompt | Category | Copies | Tries | |", "|---|---|---|---|---|---|"]
+    # Ranked by RUNS (tries), not copies — copies were found to reward generic prompts.
+    top = sorted(prompts, key=lambda z: num(z, "tryCount"), reverse=True)[:n]
+    rows = ["| # | Prompt | Category | Runs | Design | |", "|---|---|---|---|---|---|"]
     for i, x in enumerate(top, 1):
         rows.append(
             f'| {i} | **[{x["title"]}](prompts/{x["slug"]}/)** | {x.get("category","")} | '
-            f'{num(x,"copyCount"):,} | {num(x,"tryCount"):,} | [▶ Try live]({try_url(x["slug"])}) |'
+            f'{num(x,"tryCount"):,} | {num(x,"deslop_score")}/10 | [▶ Try live]({try_url(x["slug"])}) |'
         )
     return "\n".join(rows)
 

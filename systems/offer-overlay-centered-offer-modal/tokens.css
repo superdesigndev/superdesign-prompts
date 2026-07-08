@@ -1,0 +1,8 @@
+/* systems/offer-overlay-centered-offer-modal/tokens.css — Offer overlay- Centered Offer Modal
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- typography --- */
+  --font-display: 'Apply Discount';
+  --font-body: 'General Sans';
+}

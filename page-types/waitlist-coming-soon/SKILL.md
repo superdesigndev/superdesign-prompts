@@ -1,7 +1,7 @@
 # Page type — Waitlist & Coming Soon
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 10 prompts in this repo.
+> Aggregated from 11 prompts in this repo.
 
 ## What this page type is
 
@@ -13,6 +13,7 @@ skill supplies the structure — sections, layout, and the components users expe
 - Hero Section  _(in 7 prompts)_
 - Bento Feature Grid  _(in 4 prompts)_
 - Navigation  _(in 3 prompts)_
+- Footer  _(in 2 prompts)_
 - Horizontal Scenario Scroll  _(in 1 prompts)_
 - App Experience Preview  _(in 1 prompts)_
 - Diary Entry Testimonials  _(in 1 prompts)_
@@ -21,7 +22,6 @@ skill supplies the structure — sections, layout, and the components users expe
 - How It Works  _(in 1 prompts)_
 - Final CTA  _(in 1 prompts)_
 - Header / Navigation  _(in 1 prompts)_
-- Beta Capture Form  _(in 1 prompts)_
 
 ## Common components
 
@@ -60,3 +60,4 @@ Build a Waitlist & Coming Soon using the "<system-id>" design system
 - [Softly - Digital Wellness App](../../prompts/softly-digital-wellness-app/) · design 8/10 · 1,527 runs
 - [Apple-inspired Waitlist](../../prompts/apple-inspired-waitlist/) · design 7/10 · 2,407 runs
 - [Architectural Type System Style](../../prompts/architectural-type-system-style/) · design 7/10 · 2,189 runs
+- [Forge — Launch Waitlist (dark, warm-ember)](../../prompts/forge-launch-waitlist-dark-warm-ember/) · design 5/10 · 1,962 runs

@@ -1,7 +1,7 @@
 # Page type — Portfolios
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 4 prompts in this repo.
+> Aggregated from 5 prompts in this repo.
 
 ## What this page type is
 
@@ -12,6 +12,7 @@ skill supplies the structure — sections, layout, and the components users expe
 
 - Footer  _(in 3 prompts)_
 - Sticky nav  _(in 2 prompts)_
+- Hero  _(in 2 prompts)_
 - Navigation  _(in 1 prompts)_
 - Hero Section  _(in 1 prompts)_
 - Portfolio Grid  _(in 1 prompts)_
@@ -21,7 +22,6 @@ skill supplies the structure — sections, layout, and the components users expe
 - Floating glass sticky nav  _(in 1 prompts)_
 - Hero (centered, pastel)  _(in 1 prompts)_
 - Fanned floating glass cards  _(in 1 prompts)_
-- Trust logo strip  _(in 1 prompts)_
 
 ## Common components
 
@@ -38,6 +38,8 @@ skill supplies the structure — sections, layout, and the components users expe
 - Inverted auto-scroll marquee strip  _(in 1 prompts)_
 - Indexed work list with hover-cobalt + nudging arrow  _(in 1 prompts)_
 - Inverted cobalt service card  _(in 1 prompts)_
+- Giant display headline with italic serif script accent  _(in 1 prompts)_
+- Brass-hairline grid system + brass-line divider  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -52,3 +54,4 @@ Build a Portfolio using the "<system-id>" design system
 - [Swiss Grid Agency Layout](../../prompts/swiss-grid-agency-layout/) · design 9/10 · 2,378 runs
 - [Bold Editorial Design Style](../../prompts/bold-editorial-design-style/) · design 8/10 · 1,660 runs
 - [Prism — Frosted-Glass Pastel Agency Studio](../../prompts/prism-frosted-glass-pastel-agency-studio/) · design 7/10 · 2,478 runs
+- [Verdance — Agency Website Design Studio (Dark Emerald)](../../prompts/verdance-agency-website-design-studio-dark-emerald/) · design 5/10 · 1,997 runs

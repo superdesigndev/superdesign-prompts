@@ -135,6 +135,16 @@ def main():
     dspath = ROOT / "data" / "deslop-scores.json"
     DS = json.load(open(dspath)) if dspath.exists() else {}  # de-slop quality scores (curation pass)
     team = [x for x in items if cname(x).lower() in ALLOWED]
+    # Curation exclusions (2026-07-09, from the de-slop pass — docs/PROMPT-MIRROR-CURATION-ISSUES):
+    EXCLUDE = {
+        # non-design SOPs / cheatsheets (not design prompts at all)
+        "email-template", "slide-deck", "product-feature", "web-app-onboarding",
+        "animation-threejs-animation", "mobile-app-app-store-preview", "one-pager",
+        # indigo/blue "slop" — the exact thing we mock (Inter + indigo/blue + card grid)
+        "analytics-dashboard", "luminous-ethereal-glassmorphism-onboarding",
+        "linear-inspired-developer-tool-dashboard", "futuristic-sass-landing-page", "clean-fluid",
+    }
+    team = [x for x in team if x["slug"] not in EXCLUDE]
     for x in team: x["_cat"], x["_ind"], x["_s"] = page_category(x), industry(x), score(x)
     team.sort(key=lambda x: x["_s"], reverse=True)
 

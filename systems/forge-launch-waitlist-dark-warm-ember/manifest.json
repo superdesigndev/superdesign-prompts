@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "forge-launch-waitlist-dark-warm-ember",
+  "name": "Forge — Launch Waitlist (dark, warm-ember)",
+  "category": "Waitlist & Coming Soon",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "forge-launch-waitlist-dark-warm-ember"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0a0f",
+      "#f4f3ef",
+      "#ff5a4d",
+      "#ff8c3c",
+      "#ffaa5a",
+      "#ffffff",
+      "#b9b8b3"
+    ],
+    "fonts": []
+  }
+}
