@@ -122,7 +122,7 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 
 **By page type** (the structure): [Landing Pages](page-types/landing-pages/) · [Pricing Pages](page-types/pricing-pages/) · [Auth & Login](page-types/auth-login/) · [Dashboards](page-types/dashboards/) · [Onboarding](page-types/onboarding/) · [Waitlist & Coming Soon](page-types/waitlist-coming-soon/) · [Forms & Contact](page-types/forms-contact/) · [Blog & Editorial](page-types/blog-editorial/) · [E-commerce](page-types/e-commerce/) · [Portfolios](page-types/portfolios/) · [Mobile Apps](page-types/mobile-apps/) · [Components](page-types/components/)
 
-**By style** (the look): every prompt *is* a full style spec with a live preview — browse [`prompts/`](prompts/) or the [leaderboard](#most-used) above.
+**By style** (the look): [Glassmorphism](prompts/glassmorphism-style/) · [Brutalist](prompts/brutalist-e-commerce-page/) · [Editorial](prompts/bold-editorial-style/) · [Cinematic](prompts/red-noir-style/) · [Neumorphism](prompts/neumorphism/) · [Luxury](prompts/luxury-focused-design-system/) · [Minimalist](prompts/high-contrast-landing-page/) · [Dark / Neon](prompts/synapse/) · [Kinetic / Bold](prompts/kinetic-orange-style/) · [Organic / Nature](prompts/nature-inspired-style/). Every prompt *is* a full style spec with a live preview — or browse all in [`prompts/`](prompts/).
 
 **Everything:** [`prompts/`](prompts/) (all 150) · machine-readable [`prompts.json`](prompts.json) · [`prompts.csv`](prompts.csv) · [`PROMPTS.md`](PROMPTS.md)
 
