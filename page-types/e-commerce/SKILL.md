@@ -48,17 +48,17 @@ Build a E-commerce using the "<system-id>" design system
 (see systems/<system-id>/DESIGN.md). Include the common sections above.
 ```
 
-## Reference prompts (most-used first)
+## Reference prompts (best-designed first)
 
-- [Brutalist E-commerce Page](../../prompts/brutalist-e-commerce-page/) · 1,571 copies
-- [Brutalist Style Ecommerce Page](../../prompts/brutalist-style-ecommerce-page/) · 945 copies
-- [Aura Audio Showroom](../../prompts/aura-audio-showroom/) · 261 copies
-- [Super Shampoo - High Conversion LP](../../prompts/super-shampoo-high-conversion-lp/) · 194 copies
-- [Laboratory Skincare](../../prompts/laboratory-skincare/) · 89 copies
-- [Conversion-optimised Product Page](../../prompts/conversion-optimised-product-page/) · 12 copies
-- [Specs-First Breakdown Product Page](../../prompts/specs-first-breakdown-product-page/) · 9 copies
-- [Collection Page- Filtered Product Grid](../../prompts/collection-page-filtered-product-grid/) · 9 copies
-- [Cart Drawer- Essential Slide in](../../prompts/cart-drawer-essential-slide-in/) · 7 copies
-- [Mobile App / App Store Preview](../../prompts/mobile-app-app-store-preview/) · 3 copies
-- [Minimalist Checkout](../../prompts/minimalist-checkout/) · 1 copies
-- [ATELIER — Mono Uppercase Fashion (legibility-fixed)](../../prompts/atelier-mono-uppercase-fashion-legibility-fixed/) · 0 copies
+- [ATELIER — Mono Uppercase Fashion (legibility-fixed)](../../prompts/atelier-mono-uppercase-fashion-legibility-fixed/) · design 9/10 · 2,489 runs
+- [Brutalist Style Ecommerce Page](../../prompts/brutalist-style-ecommerce-page/) · design 9/10 · 1,568 runs
+- [Brutalist E-commerce Page](../../prompts/brutalist-e-commerce-page/) · design 9/10 · 1,531 runs
+- [Laboratory Skincare](../../prompts/laboratory-skincare/) · design 8/10 · 2,196 runs
+- [Super Shampoo - High Conversion LP](../../prompts/super-shampoo-high-conversion-lp/) · design 8/10 · 2,096 runs
+- [Aura Audio Showroom](../../prompts/aura-audio-showroom/) · design 7/10 · 2,479 runs
+- [Specs-First Breakdown Product Page](../../prompts/specs-first-breakdown-product-page/) · design 7/10 · 2,415 runs
+- [Conversion-optimised Product Page](../../prompts/conversion-optimised-product-page/) · design 7/10 · 2,310 runs
+- [Collection Page- Filtered Product Grid](../../prompts/collection-page-filtered-product-grid/) · design 5/10 · 2,398 runs
+- [Minimalist Checkout](../../prompts/minimalist-checkout/) · design 5/10 · 2,370 runs
+- [Cart Drawer- Essential Slide in](../../prompts/cart-drawer-essential-slide-in/) · design 3/10 · 2,493 runs
+- [Mobile App / App Store Preview](../../prompts/mobile-app-app-store-preview/) · design 3/10 · 2,483 runs

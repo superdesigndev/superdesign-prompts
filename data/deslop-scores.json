@@ -1,0 +1,790 @@
+{
+  "tubes-interactive-background": {
+    "deslop_score": 3,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "high-contrast-landing-page": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "lumina-saas-landing-page": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "red-noir-style": {
+    "deslop_score": 6,
+    "flags": [
+      "brand-copy"
+    ]
+  },
+  "deep-red-style-5b01cb": {
+    "deslop_score": 6,
+    "flags": [
+      "brand-copy"
+    ]
+  },
+  "glassmorphism-style": {
+    "deslop_score": 9,
+    "flags": [
+      "brand-copy"
+    ]
+  },
+  "mosaic-grid-architecture-style": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "softly-digital-wellness-app": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "neural-noir-interface-style": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "cinematic-style": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "kinetic-orange-style": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "luxury-focused-design-system": {
+    "deslop_score": 8,
+    "flags": [
+      "brand-copy"
+    ]
+  },
+  "brutalist-e-commerce-page": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "nature-inspired-style": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "glassmorphism-card": {
+    "deslop_score": 6,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "bold-editorial-studio-style": {
+    "deslop_score": 7,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "neumorphism": {
+    "deslop_score": 8,
+    "flags": [
+      "indigo-blue-accent"
+    ]
+  },
+  "the-stacking-cards-effect": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction",
+      "vague"
+    ]
+  },
+  "synapse": {
+    "deslop_score": 7,
+    "flags": [
+      "indigo-blue-accent"
+    ]
+  },
+  "bold-editorial-style": {
+    "deslop_score": 9,
+    "flags": [
+      "brand-copy"
+    ]
+  },
+  "babybites-sophisticated-palette": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "hyper-saturated-fluid": {
+    "deslop_score": 7,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "saas-landing-page-for-developer-tool": {
+    "deslop_score": 8,
+    "flags": [
+      "indigo-blue-accent"
+    ]
+  },
+  "midnight-editorial-style-5f0a22": {
+    "deslop_score": 7,
+    "flags": [
+      "brand-copy"
+    ]
+  },
+  "clean-fluid": {
+    "deslop_score": 6,
+    "flags": [
+      "indigo-blue-accent"
+    ]
+  },
+  "hyper-speed-loading-state": {
+    "deslop_score": 5,
+    "flags": []
+  },
+  "chrome-extension-landing-page": {
+    "deslop_score": 7,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "cinematic-noir-style": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "futuristic-sass-landing-page": {
+    "deslop_score": 5,
+    "flags": [
+      "indigo-blue-accent",
+      "inter-primary"
+    ]
+  },
+  "minimalist-beta-capture": {
+    "deslop_score": 8,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "card-swap": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "brutalist-style-ecommerce-page": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "superdesign-editorial-waitlist": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "hover-reveal-effect": {
+    "deslop_score": 4,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "force-field-background": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "scroll-journey-line": {
+    "deslop_score": 1,
+    "flags": [
+      "thin-interaction",
+      "vague"
+    ]
+  },
+  "neon-velocity-countdown": {
+    "deslop_score": 8,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "gooey-gradient-background": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "horizontal-gallery": {
+    "deslop_score": 1,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "disruptor-beta-launch": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "bold-editorial-design-style": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "light-beam-button": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "jelly-squish-button": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction",
+      "mislabeled"
+    ]
+  },
+  "ghost-cursor": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction",
+      "mislabeled"
+    ]
+  },
+  "dynamic-data-display": {
+    "deslop_score": 1,
+    "flags": [
+      "thin-interaction",
+      "vague"
+    ]
+  },
+  "aura-audio-showroom": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "radiant-prompt-input": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction",
+      "broken"
+    ]
+  },
+  "interactive-folder": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "gsap-horizontal-scroll": {
+    "deslop_score": 3,
+    "flags": [
+      "thin-interaction",
+      "brand-copy"
+    ]
+  },
+  "architectural-type-system-style": {
+    "deslop_score": 7,
+    "flags": [
+      "indigo-blue-accent",
+      "inter-primary"
+    ]
+  },
+  "parallax-stars-background": {
+    "deslop_score": 4,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "typing-animation": {
+    "deslop_score": 1,
+    "flags": [
+      "thin-interaction",
+      "vague"
+    ]
+  },
+  "shiny-text": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction",
+      "indigo-blue-accent"
+    ]
+  },
+  "pill-nav": {
+    "deslop_score": 4,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "animation-threejs-animation": {
+    "deslop_score": 1,
+    "flags": [
+      "thin-interaction",
+      "mislabeled"
+    ]
+  },
+  "exploded-view-assembly": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction",
+      "vague"
+    ]
+  },
+  "rolodex-text": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "glow-cursor-button": {
+    "deslop_score": 2,
+    "flags": [
+      "thin-interaction",
+      "vague"
+    ]
+  },
+  "red-sun": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "coverflow-carousels-that-turn-heads-dark-coverflow-aurora": {
+    "deslop_score": 8,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "tech-editorial": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "aurora-glass-sign-in-to-the-canvas": {
+    "deslop_score": 8,
+    "flags": [
+      "inter-primary",
+      "indigo-blue-accent"
+    ]
+  },
+  "cart-drawer-essential-slide-in": {
+    "deslop_score": 3,
+    "flags": [
+      "generic-card-grid"
+    ]
+  },
+  "focus-mode-detail": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "graphic-comparison-report": {
+    "deslop_score": 8,
+    "flags": [
+      "indigo-blue-accent"
+    ]
+  },
+  "gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red": {
+    "deslop_score": 8,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "one-pager": {
+    "deslop_score": 5,
+    "flags": [
+      "mislabeled",
+      "vague"
+    ]
+  },
+  "landing-page-local-small-business": {
+    "deslop_score": 5,
+    "flags": [
+      "vague"
+    ]
+  },
+  "mobile-app-app-store-preview": {
+    "deslop_score": 3,
+    "flags": [
+      "mislabeled",
+      "vague"
+    ]
+  },
+  "atelier-mono-uppercase-fashion-legibility-fixed": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "palette-social-first-friendly-sign-up": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "super-shampoo-high-conversion-lp": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "slate-roi-calculator-pricing": {
+    "deslop_score": 8,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "the-quote-set-in-burgundy": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "prism-frosted-glass-pastel-agency-studio": {
+    "deslop_score": 7,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "teal-on-ink-newsletter-mega-footer": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "gesture-first-navigation-system": {
+    "deslop_score": 4,
+    "flags": [
+      "thin-interaction"
+    ]
+  },
+  "interactive-multi-step-onboarding-flow": {
+    "deslop_score": 6,
+    "flags": []
+  },
+  "editorial-cream-ink-two-path-saas-pricing-3dee65": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "electric-lime-single-plan-saas-pricing": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "electric-blue-studio-pricing-188a8f": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "account-setup-flow-goals-interests-card-based": {
+    "deslop_score": 5,
+    "flags": [
+      "generic-card-grid"
+    ]
+  },
+  "sectioned-index-page": {
+    "deslop_score": 5,
+    "flags": []
+  },
+  "electric-dark-usage-based-pricing-calculator-20e556": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "side-drawer-navigation": {
+    "deslop_score": 3,
+    "flags": [
+      "thin-interaction",
+      "vague"
+    ]
+  },
+  "emerald-4-tier-saas-pricing-table": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "apple-inspired-waitlist": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "analytics-dashboard": {
+    "deslop_score": 4,
+    "flags": [
+      "inter-primary",
+      "indigo-blue-accent",
+      "generic-card-grid"
+    ]
+  },
+  "specs-first-breakdown-product-page": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "the-atelier-brief-an-editorial-intake-form-set-like-a-letter": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "web-app-onboarding": {
+    "deslop_score": 2,
+    "flags": [
+      "mislabeled",
+      "vague"
+    ]
+  },
+  "send-us-the-brief-brutalist-contact-form": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "editorial-music-player-now-playing": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "collection-page-filtered-product-grid": {
+    "deslop_score": 5,
+    "flags": [
+      "generic-card-grid"
+    ]
+  },
+  "cream-and-sky-playful-saas-pricing": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "editorial-crimson-dev-tool-pricing": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "card-grid-browse": {
+    "deslop_score": 4,
+    "flags": [
+      "generic-card-grid"
+    ]
+  },
+  "acid-yellow-neo-brutalist-mega-footer": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "validar-forms-that-catch-mistakes-before-they-cost-you": {
+    "deslop_score": 6,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "champagne-noir-paywall-65a2fd": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "compact-control-grid": {
+    "deslop_score": 6,
+    "flags": [
+      "indigo-blue-accent"
+    ]
+  },
+  "loam-warm-earthy-organic-agency-website": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "ink-and-acid-mono-sitemap-footer": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "editorial-violet-saas-pricing-matrix": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "editorial-saas-onboarding": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "design-at-the-speed-of-thought-editorial-split-sign-up": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "swiss-grid-agency-layout": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "create-your-account-promptly-split-image-emerald-sign-up": {
+    "deslop_score": 5,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "laboratory-skincare": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "product-feature": {
+    "deslop_score": 2,
+    "flags": [
+      "mislabeled",
+      "vague"
+    ]
+  },
+  "minimalist-checkout": {
+    "deslop_score": 5,
+    "flags": []
+  },
+  "email-template": {
+    "deslop_score": 1,
+    "flags": [
+      "mislabeled",
+      "vague"
+    ]
+  },
+  "magic-link-confirmation": {
+    "deslop_score": 4,
+    "flags": []
+  },
+  "ai-system-configuration-console": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "midnight-navy-fintech-pricing-656a6d": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "minimalist-wireframe-login": {
+    "deslop_score": 5,
+    "flags": []
+  },
+  "editorial-feature-announcement": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "hero-sticky-action-detail": {
+    "deslop_score": 4,
+    "flags": []
+  },
+  "slide-deck": {
+    "deslop_score": 2,
+    "flags": [
+      "mislabeled",
+      "vague"
+    ]
+  },
+  "modal-design-success-celebration-pastel-legibility-fixed-9fbd65": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "bottom-tab-navigation-core-app-shell": {
+    "deslop_score": 3,
+    "flags": [
+      "thin-interaction",
+      "generic-card-grid"
+    ]
+  },
+  "volt-electric-lime-fitness-dashboard-a7544c": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "system-initialization-trust-and-transparency": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "cream-paper-and-coral-mega-footer": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "luminous-ethereal-glassmorphism-onboarding": {
+    "deslop_score": 3,
+    "flags": [
+      "indigo-blue-accent"
+    ]
+  },
+  "welcome-back-lumen-centered-card-true-cobalt": {
+    "deslop_score": 6,
+    "flags": [
+      "inter-primary",
+      "indigo-blue-accent"
+    ]
+  },
+  "atlas-studio-charting-your-account-step-one-of-three": {
+    "deslop_score": 7,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "conversion-optimised-product-page": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "forms-that-feel-effortless-to-fill-fieldcraft": {
+    "deslop_score": 6,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "loop-say-hello-we-dont-bite-friendly-illustrated-sky": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "chronological-content-feed": {
+    "deslop_score": 6,
+    "flags": []
+  },
+  "formcraft-workspace-settings-cobalt-two-column": {
+    "deslop_score": 5,
+    "flags": [
+      "inter-primary",
+      "indigo-blue-accent"
+    ]
+  },
+  "atelier-early-access-waitlist-minimal-graphite": {
+    "deslop_score": 6,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "editorial-image-lightbox": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "tablekit-the-data-table-your-team-actually-wants-to-live-in": {
+    "deslop_score": 5,
+    "flags": [
+      "inter-primary",
+      "indigo-blue-accent"
+    ]
+  },
+  "sunset-glow-wordmark-mega-footer": {
+    "deslop_score": 7,
+    "flags": [
+      "mislabeled"
+    ]
+  },
+  "atelier-design-spoken-into-being-editorial-serif-burgundy": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "linear-inspired-developer-tool-dashboard": {
+    "deslop_score": 5,
+    "flags": [
+      "inter-primary",
+      "indigo-blue-accent"
+    ]
+  },
+  "modal-design-success-celebration-pastel-legibility-fixed": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "superdesign-setup-inline-preview": {
+    "deslop_score": 6,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "verify-its-you-aperture-otp-2fa-graphite-platinum": {
+    "deslop_score": 6,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "developer-tool-dashboardonboarding": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "technical-system-onboarding": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "plume-sign-in-to-your-design-canvas": {
+    "deslop_score": 7,
+    "flags": []
+  },
+  "gen-z-social-app": {
+    "deslop_score": 9,
+    "flags": []
+  },
+  "questions-set-in-serif-an-editorial-faq": {
+    "deslop_score": 8,
+    "flags": []
+  },
+  "high-energy-onboarding": {
+    "deslop_score": 8,
+    "flags": [
+      "brand-copy"
+    ]
+  },
+  "sign-in-to-verdant-classic-split-emerald": {
+    "deslop_score": 6,
+    "flags": [
+      "inter-primary"
+    ]
+  },
+  "blog-page-editorial-grid-magazine": {
+    "deslop_score": 5,
+    "flags": [
+      "generic-card-grid",
+      "indigo-blue-accent"
+    ]
+  },
+  "momentum-ship-your-startup-launch-before-the-idea-cools": {
+    "deslop_score": 8,
+    "flags": []
+  }
+}

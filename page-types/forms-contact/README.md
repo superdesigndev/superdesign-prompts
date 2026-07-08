@@ -40,17 +40,17 @@ Build a Forms & Contact using the "<system-id>" design system
 (see systems/<system-id>/DESIGN.md). Include the common sections above.
 ```
 
-## Reference prompts (most-used first)
+## Reference prompts (best-designed first)
 
-- [Acid-Yellow Neo-Brutalist Mega Footer](../../prompts/acid-yellow-neo-brutalist-mega-footer/) · 1 copies
-- [Atelier — Design, Spoken Into Being (editorial serif / burgundy)](../../prompts/atelier-design-spoken-into-being-editorial-serif-burgundy/) · 1 copies
-- [Teal-on-Ink Newsletter Mega Footer](../../prompts/teal-on-ink-newsletter-mega-footer/) · 0 copies
-- [The Atelier Brief — an editorial intake form, set like a letter](../../prompts/the-atelier-brief-an-editorial-intake-form-set-like-a-letter/) · 0 copies
-- [Send Us the Brief — Brutalist Contact Form](../../prompts/send-us-the-brief-brutalist-contact-form/) · 0 copies
-- [Validar — Forms that catch mistakes before they cost you](../../prompts/validar-forms-that-catch-mistakes-before-they-cost-you/) · 0 copies
-- [Ink & Acid Mono Sitemap Footer](../../prompts/ink-and-acid-mono-sitemap-footer/) · 0 copies
-- [Cream Paper & Coral Mega Footer](../../prompts/cream-paper-and-coral-mega-footer/) · 0 copies
-- [Forms that feel effortless to fill — Fieldcraft](../../prompts/forms-that-feel-effortless-to-fill-fieldcraft/) · 0 copies
-- [Loop · Say hello, we don't bite (friendly illustrated sky)](../../prompts/loop-say-hello-we-dont-bite-friendly-illustrated-sky/) · 0 copies
-- [Formcraft — Workspace Settings (cobalt two-column)](../../prompts/formcraft-workspace-settings-cobalt-two-column/) · 0 copies
-- [Sunset Glow Wordmark Mega Footer](../../prompts/sunset-glow-wordmark-mega-footer/) · 0 copies
+- [The Atelier Brief — an editorial intake form, set like a letter](../../prompts/the-atelier-brief-an-editorial-intake-form-set-like-a-letter/) · design 9/10 · 2,430 runs
+- [Send Us the Brief — Brutalist Contact Form](../../prompts/send-us-the-brief-brutalist-contact-form/) · design 9/10 · 2,424 runs
+- [Acid-Yellow Neo-Brutalist Mega Footer](../../prompts/acid-yellow-neo-brutalist-mega-footer/) · design 9/10 · 2,401 runs
+- [Atelier — Design, Spoken Into Being (editorial serif / burgundy)](../../prompts/atelier-design-spoken-into-being-editorial-serif-burgundy/) · design 9/10 · 2,239 runs
+- [Teal-on-Ink Newsletter Mega Footer](../../prompts/teal-on-ink-newsletter-mega-footer/) · design 8/10 · 2,473 runs
+- [Ink & Acid Mono Sitemap Footer](../../prompts/ink-and-acid-mono-sitemap-footer/) · design 8/10 · 2,388 runs
+- [Cream Paper & Coral Mega Footer](../../prompts/cream-paper-and-coral-mega-footer/) · design 8/10 · 2,343 runs
+- [Loop · Say hello, we don't bite (friendly illustrated sky)](../../prompts/loop-say-hello-we-dont-bite-friendly-illustrated-sky/) · design 8/10 · 2,299 runs
+- [Sunset Glow Wordmark Mega Footer](../../prompts/sunset-glow-wordmark-mega-footer/) · design 7/10 · 2,256 runs
+- [Validar — Forms that catch mistakes before they cost you](../../prompts/validar-forms-that-catch-mistakes-before-they-cost-you/) · design 6/10 · 2,401 runs
+- [Forms that feel effortless to fill — Fieldcraft](../../prompts/forms-that-feel-effortless-to-fill-fieldcraft/) · design 6/10 · 2,299 runs
+- [Formcraft — Workspace Settings (cobalt two-column)](../../prompts/formcraft-workspace-settings-cobalt-two-column/) · design 5/10 · 2,284 runs

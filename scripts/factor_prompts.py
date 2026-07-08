@@ -234,8 +234,8 @@ def write_page_type(cat, members):
                 parts_counter[pt["part"]] += 1
 
     member_rows = "\n".join(
-        f"- [{x['title']}](../../prompts/{x['slug']}/) · {x.get('copyCount',0):,} copies"
-        for x, _ in sorted(members, key=lambda m: -(m[0].get("copyCount") or 0))
+        f"- [{x['title']}](../../prompts/{x['slug']}/) · design {x.get('deslop_score',5)}/10 · {x.get('tryCount',0):,} runs"
+        for x, _ in sorted(members, key=lambda m: (m[0].get("deslop_score", 5), m[0].get("tryCount") or 0), reverse=True)
     )
     common_parts = "\n".join(f"- {p}  _(in {n} prompts)_" for p, n in parts_counter.most_common(12)) or "_REVIEW_"
     common_comps = "\n".join(f"- {c}  _(in {n} prompts)_" for c, n in comp_counter.most_common(15)) or "_REVIEW_"
@@ -265,7 +265,7 @@ Build a {cat.rstrip('s')} using the "<system-id>" design system
 (see systems/<system-id>/DESIGN.md). Include the common sections above.
 ```
 
-## Reference prompts (most-used first)
+## Reference prompts (best-designed first)
 
 {member_rows}
 """

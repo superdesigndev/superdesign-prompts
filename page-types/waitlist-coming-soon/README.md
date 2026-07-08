@@ -48,15 +48,15 @@ Build a Waitlist & Coming Soon using the "<system-id>" design system
 (see systems/<system-id>/DESIGN.md). Include the common sections above.
 ```
 
-## Reference prompts (most-used first)
+## Reference prompts (best-designed first)
 
-- [Softly - Digital Wellness App](../../prompts/softly-digital-wellness-app/) · 1,896 copies
-- [Bold Editorial Style](../../prompts/bold-editorial-style/) · 948 copies
-- [Minimalist Beta Capture](../../prompts/minimalist-beta-capture/) · 745 copies
-- [Neon Velocity Countdown](../../prompts/neon-velocity-countdown/) · 683 copies
-- [Superdesign Editorial Waitlist](../../prompts/superdesign-editorial-waitlist/) · 556 copies
-- [Disruptor Beta Launch](../../prompts/disruptor-beta-launch/) · 456 copies
-- [Architectural Type System Style](../../prompts/architectural-type-system-style/) · 354 copies
-- [Gen-Z Social App](../../prompts/gen-z-social-app/) · 224 copies
-- [Apple-inspired Waitlist](../../prompts/apple-inspired-waitlist/) · 16 copies
-- [Momentum — Ship Your Startup Launch Before the Idea Cools](../../prompts/momentum-ship-your-startup-launch-before-the-idea-cools/) · 0 copies
+- [Disruptor Beta Launch](../../prompts/disruptor-beta-launch/) · design 9/10 · 2,318 runs
+- [Superdesign Editorial Waitlist](../../prompts/superdesign-editorial-waitlist/) · design 9/10 · 2,262 runs
+- [Bold Editorial Style](../../prompts/bold-editorial-style/) · design 9/10 · 2,117 runs
+- [Gen-Z Social App](../../prompts/gen-z-social-app/) · design 9/10 · 1,664 runs
+- [Momentum — Ship Your Startup Launch Before the Idea Cools](../../prompts/momentum-ship-your-startup-launch-before-the-idea-cools/) · design 8/10 · 2,051 runs
+- [Minimalist Beta Capture](../../prompts/minimalist-beta-capture/) · design 8/10 · 1,975 runs
+- [Neon Velocity Countdown](../../prompts/neon-velocity-countdown/) · design 8/10 · 1,882 runs
+- [Softly - Digital Wellness App](../../prompts/softly-digital-wellness-app/) · design 8/10 · 1,527 runs
+- [Apple-inspired Waitlist](../../prompts/apple-inspired-waitlist/) · design 7/10 · 2,407 runs
+- [Architectural Type System Style](../../prompts/architectural-type-system-style/) · design 7/10 · 2,189 runs

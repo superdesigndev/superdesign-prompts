@@ -48,17 +48,17 @@ Build a Landing Page using the "<system-id>" design system
 (see systems/<system-id>/DESIGN.md). Include the common sections above.
 ```
 
-## Reference prompts (most-used first)
+## Reference prompts (best-designed first)
 
-- [High Contrast Landing Page](../../prompts/high-contrast-landing-page/) · 2,503 copies
-- [Lumina SaaS Landing Page](../../prompts/lumina-saas-landing-page/) · 2,259 copies
-- [Synapse](../../prompts/synapse/) · 1,110 copies
-- [SaaS Landing Page for Developer Tool](../../prompts/saas-landing-page-for-developer-tool/) · 950 copies
-- [Futuristic SasS Landing Page](../../prompts/futuristic-sass-landing-page/) · 942 copies
-- [Clean fluid](../../prompts/clean-fluid/) · 703 copies
-- [Chrome Extension Landing Page](../../prompts/chrome-extension-landing-page/) · 592 copies
-- [Red sun](../../prompts/red-sun/) · 513 copies
-- [Tech Editorial](../../prompts/tech-editorial/) · 510 copies
-- [Graphic Comparison Report](../../prompts/graphic-comparison-report/) · 17 copies
-- [One Pager](../../prompts/one-pager/) · 9 copies
-- [Landing Page / Local Small Business](../../prompts/landing-page-local-small-business/) · 5 copies
+- [High Contrast Landing Page](../../prompts/high-contrast-landing-page/) · design 9/10 · 2,400 runs
+- [Lumina SaaS Landing Page](../../prompts/lumina-saas-landing-page/) · design 9/10 · 2,271 runs
+- [Red sun](../../prompts/red-sun/) · design 9/10 · 1,616 runs
+- [Tech Editorial](../../prompts/tech-editorial/) · design 9/10 · 1,515 runs
+- [Graphic Comparison Report](../../prompts/graphic-comparison-report/) · design 8/10 · 2,470 runs
+- [SaaS Landing Page for Developer Tool](../../prompts/saas-landing-page-for-developer-tool/) · design 8/10 · 2,046 runs
+- [Chrome Extension Landing Page](../../prompts/chrome-extension-landing-page/) · design 7/10 · 2,430 runs
+- [Synapse](../../prompts/synapse/) · design 7/10 · 1,808 runs
+- [Clean fluid](../../prompts/clean-fluid/) · design 6/10 · 2,343 runs
+- [Landing Page / Local Small Business](../../prompts/landing-page-local-small-business/) · design 5/10 · 2,486 runs
+- [One Pager](../../prompts/one-pager/) · design 5/10 · 2,482 runs
+- [Futuristic SasS Landing Page](../../prompts/futuristic-sass-landing-page/) · design 5/10 · 1,663 runs

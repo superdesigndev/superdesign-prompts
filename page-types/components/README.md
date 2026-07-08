@@ -23,17 +23,17 @@ Build a Component using the "<system-id>" design system
 (see systems/<system-id>/DESIGN.md). Include the common sections above.
 ```
 
-## Reference prompts (most-used first)
+## Reference prompts (best-designed first)
 
-- [Card Swap](../../prompts/card-swap/) · 884 copies
-- [Hyper-Speed Loading State](../../prompts/hyper-speed-loading-state/) · 749 copies
-- [Light Beam Button](../../prompts/light-beam-button/) · 500 copies
-- [Ghost Cursor](../../prompts/ghost-cursor/) · 417 copies
-- [Typing animation](../../prompts/typing-animation/) · 370 copies
-- [Jelly Squish Button](../../prompts/jelly-squish-button/) · 368 copies
-- [Radiant Prompt Input](../../prompts/radiant-prompt-input/) · 348 copies
-- [Pill Nav](../../prompts/pill-nav/) · 318 copies
-- [Interactive Folder](../../prompts/interactive-folder/) · 273 copies
-- [Glow Cursor Button](../../prompts/glow-cursor-button/) · 211 copies
-- [Rolodex Text](../../prompts/rolodex-text/) · 203 copies
-- [Shiny Text](../../prompts/shiny-text/) · 182 copies
+- [Hyper-Speed Loading State](../../prompts/hyper-speed-loading-state/) · design 5/10 · 2,182 runs
+- [Pill Nav](../../prompts/pill-nav/) · design 4/10 · 2,207 runs
+- [Shiny Text](../../prompts/shiny-text/) · design 2/10 · 2,480 runs
+- [Interactive Folder](../../prompts/interactive-folder/) · design 2/10 · 2,439 runs
+- [Rolodex Text](../../prompts/rolodex-text/) · design 2/10 · 2,386 runs
+- [Jelly Squish Button](../../prompts/jelly-squish-button/) · design 2/10 · 2,377 runs
+- [Glow Cursor Button](../../prompts/glow-cursor-button/) · design 2/10 · 2,342 runs
+- [Radiant Prompt Input](../../prompts/radiant-prompt-input/) · design 2/10 · 2,289 runs
+- [Ghost Cursor](../../prompts/ghost-cursor/) · design 2/10 · 2,217 runs
+- [Light Beam Button](../../prompts/light-beam-button/) · design 2/10 · 2,119 runs
+- [Card Swap](../../prompts/card-swap/) · design 2/10 · 1,693 runs
+- [Typing animation](../../prompts/typing-animation/) · design 1/10 · 2,120 runs

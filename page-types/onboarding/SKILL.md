@@ -48,15 +48,15 @@ Build a Onboarding using the "<system-id>" design system
 (see systems/<system-id>/DESIGN.md). Include the common sections above.
 ```
 
-## Reference prompts (most-used first)
+## Reference prompts (best-designed first)
 
-- [Interactive Multi-Step Onboarding Flow](../../prompts/interactive-multi-step-onboarding-flow/) · 16 copies
-- [Editorial SaaS Onboarding](../../prompts/editorial-saas-onboarding/) · 16 copies
-- [Web App / Onboarding](../../prompts/web-app-onboarding/) · 15 copies
-- [System Initialization - Trust & Transparency](../../prompts/system-initialization-trust-and-transparency/) · 12 copies
-- [Luminous Ethereal Glassmorphism Onboarding](../../prompts/luminous-ethereal-glassmorphism-onboarding/) · 12 copies
-- [Superdesign Setup - Inline Preview](../../prompts/superdesign-setup-inline-preview/) · 10 copies
-- [Technical System Onboarding](../../prompts/technical-system-onboarding/) · 8 copies
-- [High energy onboarding](../../prompts/high-energy-onboarding/) · 6 copies
-- [Modal Design · success-celebration (pastel) — legibility fixed](../../prompts/modal-design-success-celebration-pastel-legibility-fixed-9fbd65/) · 0 copies
-- [Modal Design · success-celebration (pastel) — legibility fixed](../../prompts/modal-design-success-celebration-pastel-legibility-fixed/) · 0 copies
+- [Modal Design · success-celebration (pastel) — legibility fixed](../../prompts/modal-design-success-celebration-pastel-legibility-fixed-9fbd65/) · design 8/10 · 2,362 runs
+- [System Initialization - Trust & Transparency](../../prompts/system-initialization-trust-and-transparency/) · design 8/10 · 2,327 runs
+- [High energy onboarding](../../prompts/high-energy-onboarding/) · design 8/10 · 2,085 runs
+- [Editorial SaaS Onboarding](../../prompts/editorial-saas-onboarding/) · design 7/10 · 2,349 runs
+- [Modal Design · success-celebration (pastel) — legibility fixed](../../prompts/modal-design-success-celebration-pastel-legibility-fixed/) · design 7/10 · 2,221 runs
+- [Technical System Onboarding](../../prompts/technical-system-onboarding/) · design 7/10 · 2,147 runs
+- [Interactive Multi-Step Onboarding Flow](../../prompts/interactive-multi-step-onboarding-flow/) · design 6/10 · 2,435 runs
+- [Superdesign Setup - Inline Preview](../../prompts/superdesign-setup-inline-preview/) · design 6/10 · 2,171 runs
+- [Luminous Ethereal Glassmorphism Onboarding](../../prompts/luminous-ethereal-glassmorphism-onboarding/) · design 3/10 · 2,316 runs
+- [Web App / Onboarding](../../prompts/web-app-onboarding/) · design 2/10 · 2,395 runs

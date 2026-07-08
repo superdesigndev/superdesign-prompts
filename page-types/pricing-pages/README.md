@@ -48,17 +48,17 @@ Build a Pricing Page using the "<system-id>" design system
 (see systems/<system-id>/DESIGN.md). Include the common sections above.
 ```
 
-## Reference prompts (most-used first)
+## Reference prompts (best-designed first)
 
-- [Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)](../../prompts/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red/) · 3 copies
-- [Electric-Blue Studio Pricing](../../prompts/electric-blue-studio-pricing-188a8f/) · 1 copies
-- [Midnight Navy Fintech Pricing](../../prompts/midnight-navy-fintech-pricing-656a6d/) · 1 copies
-- [Slate ROI-Calculator Pricing](../../prompts/slate-roi-calculator-pricing/) · 0 copies
-- [Editorial Cream + Ink Two-Path SaaS Pricing](../../prompts/editorial-cream-ink-two-path-saas-pricing-3dee65/) · 0 copies
-- [Electric-Lime Single-Plan SaaS Pricing](../../prompts/electric-lime-single-plan-saas-pricing/) · 0 copies
-- [Electric Dark Usage-Based Pricing Calculator](../../prompts/electric-dark-usage-based-pricing-calculator-20e556/) · 0 copies
-- [Emerald 4-Tier SaaS Pricing Table](../../prompts/emerald-4-tier-saas-pricing-table/) · 0 copies
-- [Cream & Sky Playful SaaS Pricing](../../prompts/cream-and-sky-playful-saas-pricing/) · 0 copies
-- [Editorial Crimson Dev-Tool Pricing](../../prompts/editorial-crimson-dev-tool-pricing/) · 0 copies
-- [Champagne Noir Paywall](../../prompts/champagne-noir-paywall-65a2fd/) · 0 copies
-- [Editorial Violet SaaS Pricing Matrix](../../prompts/editorial-violet-saas-pricing-matrix/) · 0 copies
+- [Editorial Cream + Ink Two-Path SaaS Pricing](../../prompts/editorial-cream-ink-two-path-saas-pricing-3dee65/) · design 9/10 · 2,466 runs
+- [Electric-Lime Single-Plan SaaS Pricing](../../prompts/electric-lime-single-plan-saas-pricing/) · design 9/10 · 2,462 runs
+- [Electric Dark Usage-Based Pricing Calculator](../../prompts/electric-dark-usage-based-pricing-calculator-20e556/) · design 9/10 · 2,451 runs
+- [Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)](../../prompts/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red/) · design 8/10 · 2,498 runs
+- [Slate ROI-Calculator Pricing](../../prompts/slate-roi-calculator-pricing/) · design 8/10 · 2,481 runs
+- [Electric-Blue Studio Pricing](../../prompts/electric-blue-studio-pricing-188a8f/) · design 8/10 · 2,458 runs
+- [Emerald 4-Tier SaaS Pricing Table](../../prompts/emerald-4-tier-saas-pricing-table/) · design 8/10 · 2,447 runs
+- [Cream & Sky Playful SaaS Pricing](../../prompts/cream-and-sky-playful-saas-pricing/) · design 8/10 · 2,415 runs
+- [Editorial Crimson Dev-Tool Pricing](../../prompts/editorial-crimson-dev-tool-pricing/) · design 8/10 · 2,413 runs
+- [Champagne Noir Paywall](../../prompts/champagne-noir-paywall-65a2fd/) · design 8/10 · 2,397 runs
+- [Editorial Violet SaaS Pricing Matrix](../../prompts/editorial-violet-saas-pricing-matrix/) · design 8/10 · 2,385 runs
+- [Midnight Navy Fintech Pricing](../../prompts/midnight-navy-fintech-pricing-656a6d/) · design 7/10 · 2,366 runs

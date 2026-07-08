@@ -132,6 +132,8 @@ def slugify(s): return s.lower().replace(" & ", "--").replace(" ", "-")
 def main():
     items = json.load(open(ROOT / "data" / "all-prompts.json"))
     total = len(items)
+    dspath = ROOT / "data" / "deslop-scores.json"
+    DS = json.load(open(dspath)) if dspath.exists() else {}  # de-slop quality scores (curation pass)
     team = [x for x in items if cname(x).lower() in ALLOWED]
     for x in team: x["_cat"], x["_ind"], x["_s"] = page_category(x), industry(x), score(x)
     team.sort(key=lambda x: x["_s"], reverse=True)
@@ -170,7 +172,9 @@ def main():
                      "description": (it.get("description") or "").strip(), "prompt": (it.get("prompt") or "").strip(),
                      "copyCount": it.get("copyCount") or 0, "tryCount": it.get("tryCount") or 0,
                      "try_url": try_url(it["slug"]), "preview": img_rel(it["slug"]),
-                     "video": video_rel(it["slug"]), "author": author})
+                     "video": video_rel(it["slug"]), "author": author,
+                     "deslop_score": DS.get(it["slug"], {}).get("deslop_score", 5),
+                     "deslop_flags": DS.get(it["slug"], {}).get("flags", [])})
 
     # ---- per-prompt README ----
     for r in recs:
@@ -191,7 +195,7 @@ def main():
 
     # ---- machine-readable exports ----
     slim = [{k: r[k] for k in ("rank", "slug", "title", "category", "industry", "tags", "description",
-             "copyCount", "tryCount", "try_url", "preview", "video", "author", "prompt")} for r in recs]
+             "copyCount", "tryCount", "deslop_score", "try_url", "preview", "video", "author", "prompt")} for r in recs]
     (ROOT / "prompts.json").write_text(json.dumps(slim, indent=2))
     with open(ROOT / "prompts.csv", "w", newline="") as f:
         w = csv.writer(f); w.writerow(["rank", "slug", "title", "category", "industry", "tags",

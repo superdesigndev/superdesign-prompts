@@ -47,11 +47,11 @@ Build a Dashboard using the "<system-id>" design system
 (see systems/<system-id>/DESIGN.md). Include the common sections above.
 ```
 
-## Reference prompts (most-used first)
+## Reference prompts (best-designed first)
 
-- [Analytics dashboard](../../prompts/analytics-dashboard/) · 85 copies
-- [Linear inspired developer tool dashboard](../../prompts/linear-inspired-developer-tool-dashboard/) · 33 copies
-- [AI System Configuration Console](../../prompts/ai-system-configuration-console/) · 32 copies
-- [Developer tool dashboard/onboarding](../../prompts/developer-tool-dashboardonboarding/) · 14 copies
-- [Volt — Electric-Lime Fitness Dashboard](../../prompts/volt-electric-lime-fitness-dashboard-a7544c/) · 5 copies
-- [Tablekit — The data table your team actually wants to live in](../../prompts/tablekit-the-data-table-your-team-actually-wants-to-live-in/) · 0 copies
+- [AI System Configuration Console](../../prompts/ai-system-configuration-console/) · design 9/10 · 2,306 runs
+- [Volt — Electric-Lime Fitness Dashboard](../../prompts/volt-electric-lime-fitness-dashboard-a7544c/) · design 8/10 · 2,343 runs
+- [Developer tool dashboard/onboarding](../../prompts/developer-tool-dashboardonboarding/) · design 8/10 · 2,148 runs
+- [Tablekit — The data table your team actually wants to live in](../../prompts/tablekit-the-data-table-your-team-actually-wants-to-live-in/) · design 5/10 · 2,256 runs
+- [Linear inspired developer tool dashboard](../../prompts/linear-inspired-developer-tool-dashboard/) · design 5/10 · 2,155 runs
+- [Analytics dashboard](../../prompts/analytics-dashboard/) · design 4/10 · 2,264 runs

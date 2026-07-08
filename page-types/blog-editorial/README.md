@@ -43,10 +43,10 @@ Build a Blog & Editorial using the "<system-id>" design system
 (see systems/<system-id>/DESIGN.md). Include the common sections above.
 ```
 
-## Reference prompts (most-used first)
+## Reference prompts (best-designed first)
 
-- [Blog Page - Editorial Grid Magazine](../../prompts/blog-page-editorial-grid-magazine/) · 20 copies
-- [Chronological Content Feed](../../prompts/chronological-content-feed/) · 1 copies
-- [Editorial Image Lightbox](../../prompts/editorial-image-lightbox/) · 1 copies
-- [The Quote, Set in Burgundy](../../prompts/the-quote-set-in-burgundy/) · 0 copies
-- [Questions, Set in Serif — An Editorial FAQ](../../prompts/questions-set-in-serif-an-editorial-faq/) · 0 copies
+- [Editorial Image Lightbox](../../prompts/editorial-image-lightbox/) · design 9/10 · 2,273 runs
+- [The Quote, Set in Burgundy](../../prompts/the-quote-set-in-burgundy/) · design 8/10 · 2,479 runs
+- [Questions, Set in Serif — An Editorial FAQ](../../prompts/questions-set-in-serif-an-editorial-faq/) · design 8/10 · 2,102 runs
+- [Chronological Content Feed](../../prompts/chronological-content-feed/) · design 6/10 · 2,292 runs
+- [Blog Page - Editorial Grid Magazine](../../prompts/blog-page-editorial-grid-magazine/) · design 5/10 · 2,032 runs

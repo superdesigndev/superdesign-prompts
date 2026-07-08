@@ -37,8 +37,11 @@ def human(n):
 
 
 def build_gallery(prompts, cols=4, rows=3):
-    imgs = [p for p in prompts if p.get("preview", "").lower().rsplit(".", 1)[-1] in IMG_EXT]
-    top = sorted(imgs, key=lambda z: num(z, "copyCount"), reverse=True)[: cols * rows]
+    # showcase = best-designed (de-slop curation), not merely most-copied (which surfaced thin prompts)
+    imgs = [p for p in prompts
+            if p.get("preview", "").lower().rsplit(".", 1)[-1] in IMG_EXT and num(p, "deslop_score") >= 6]
+    top = sorted(imgs, key=lambda z: (num(z, "deslop_score"), num(z, "copyCount") + num(z, "tryCount")),
+                 reverse=True)[: cols * rows]
     out = ["<table>"]
     for i in range(0, len(top), cols):
         out.append("<tr>")
@@ -46,7 +49,7 @@ def build_gallery(prompts, cols=4, rows=3):
             out.append(
                 f'<td width="{100//cols}%" align="center" valign="top">'
                 f'<a href="{try_url(x["slug"])}"><img src="{x["preview"]}" width="200" alt="{x["title"]}"></a><br>'
-                f'<sub><b><a href="prompts/{x["slug"]}/">{x["title"]}</a></b><br>{num(x,"copyCount"):,} copies</sub></td>'
+                f'<sub><b><a href="prompts/{x["slug"]}/">{x["title"]}</a></b><br>{num(x,"tryCount"):,} runs</sub></td>'
             )
         out.append("</tr>")
     out.append("</table>")
