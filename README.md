@@ -2,10 +2,14 @@
 
 > Coding agents write great code and generic interfaces: default shadcn, same fonts, no taste. This is a library of **usage-ranked design prompts, each with a live preview**, that give your agent design direction so the UI it ships actually looks designed. Powered by [Superdesign](https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
 
-<!-- badges: fill OWNER/REPO on publish -->
-![prompts](https://img.shields.io/badge/prompts-150-blue) ![ranked](https://img.shields.io/badge/ranked%20by-real%20usage-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![license](https://img.shields.io/badge/code-MIT-informational)
+![prompts](https://img.shields.io/badge/prompts-150-blue) ![ranked](https://img.shields.io/badge/ranked%20by-real%20usage-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![last synced](https://img.shields.io/badge/last%20synced-2026--07--08-informational) ![license](https://img.shields.io/badge/code-MIT-informational)
 
-**Curated from a live library with 1.7M+ real prompt runs.** These are the top 150 team-authored prompts, balanced across every page type and ranked by how many builders actually used them.
+<div align="center">
+<!-- STATS:START -->
+  <b>150 top prompts</b> · <b>333K tries</b> · <b>57K copies</b> — hand-picked and category-balanced from a <b>964-prompt live library</b> with <b>1.7M+ tries</b>.<br>
+  Browse all and run any live at <b><a href="https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">superdesign.dev/library</a></b>.
+<!-- STATS:END -->
+</div>
 
 ## Why your AI UI looks generic (and how to fix it)
 
@@ -13,29 +17,20 @@ AI-generated UI all looks the same because the agent has **no taste to anchor to
 
 ## How to use these — 3 ways to de-slop
 
-**1. Copy → paste into your agent** (zero setup, works everywhere)  
-Find a look below, open it, copy the prompt, then tell Claude Code / Cursor:  
+**1. Copy → paste into your agent** (zero setup, works everywhere)
+Find a look below, open it, copy the prompt, then tell Claude Code / Cursor:
 > *"Redesign my dashboard using this design spec: [paste]"*
 
-**2. Install the skill** (best — your agent picks and applies it for you)  
+**2. Install the skill** (best — your agent picks and applies it for you)
 ```bash
 npx skills add superdesigndev/superdesign-skill
 ```
 Then just ask: *"/superdesign make my pricing page not look like AI slop"*. The agent searches this library, pulls the right prompt, and applies it to your code. [Skill repo](https://github.com/superdesigndev/superdesign-skill).
 
-**3. Try it live** (see it first, then take the code)  
+**3. Try it live** (see it first, then take the code)
 Hit **▶ Try live** on any prompt to generate and iterate it on the Superdesign canvas, then copy the result into your project.
 
 > New to this? Start with [how to make Claude Code UI look good](https://superdesign.dev/blog/how-to-make-claude-code-ui-look-good).
-
-## Why this library is different
-
-| | Most prompt lists / DESIGN.md repos | This one |
-|---|---|---|
-| Ranking | Curated by opinion | **Ranked by real usage** (copies + tries) |
-| Format | Static text / markdown, no preview | **Live preview + one-click run** |
-| Freshness | Manual, goes stale | **Auto-synced** from a live product |
-| Coverage | A few categories | **Every page type + industry**, Webflow-style |
 
 ## How this fits with the Superdesign skill
 
@@ -50,290 +45,66 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 
 `superdesign get-prompts` pulls straight from this library's data. **Browse here, run it there.**
 
-## Browse by page type
+## Top prompts
 
-- [Landing Pages](#landing-pages) (12)
-- [Pricing Pages](#pricing-pages) (12)
-- [Auth & Login](#auth--login) (12)
-- [Dashboards](#dashboards) (8)
-- [Onboarding](#onboarding) (10)
-- [Waitlist & Coming Soon](#waitlist--coming-soon) (10)
-- [Forms & Contact](#forms--contact) (12)
-- [Blog & Editorial](#blog--editorial) (5)
-- [E-commerce](#e-commerce) (12)
-- [Portfolios](#portfolios) (4)
-- [Mobile Apps](#mobile-apps) (12)
-- [Components](#components) (12)
-- [Animations & Backgrounds](#animations--backgrounds) (12)
-- [Design Systems & Styles](#design-systems--styles) (14)
-- [Other](#other) (3)
+<!-- GALLERY:START -->
+<table>
+<tr>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/tubes-interactive-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/tubes-interactive-background/preview.png" width="200" alt="Tubes Interactive Background"></a><br><sub><b><a href="prompts/tubes-interactive-background/">Tubes Interactive Background</a></b><br>2,912 copies</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/high-contrast-landing-page/preview.png" width="200" alt="High Contrast Landing Page"></a><br><sub><b><a href="prompts/high-contrast-landing-page/">High Contrast Landing Page</a></b><br>2,503 copies</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/deep-red-style-5b01cb?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/deep-red-style-5b01cb/preview.png" width="200" alt="Deep Red Style"></a><br><sub><b><a href="prompts/deep-red-style-5b01cb/">Deep Red Style</a></b><br>2,321 copies</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/lumina-saas-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/lumina-saas-landing-page/preview.png" width="200" alt="Lumina SaaS Landing Page"></a><br><sub><b><a href="prompts/lumina-saas-landing-page/">Lumina SaaS Landing Page</a></b><br>2,259 copies</sub></td>
+</tr>
+<tr>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/red-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/red-noir-style/preview.png" width="200" alt="Red Noir Style"></a><br><sub><b><a href="prompts/red-noir-style/">Red Noir Style</a></b><br>2,162 copies</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/softly-digital-wellness-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/softly-digital-wellness-app/preview.png" width="200" alt="Softly - Digital Wellness App"></a><br><sub><b><a href="prompts/softly-digital-wellness-app/">Softly - Digital Wellness App</a></b><br>1,896 copies</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/glassmorphism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/glassmorphism-style/preview.png" width="200" alt="Glassmorphism Style"></a><br><sub><b><a href="prompts/glassmorphism-style/">Glassmorphism Style</a></b><br>1,713 copies</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/mosaic-grid-architecture-style/preview.png" width="200" alt="Mosaic Grid Architecture Style"></a><br><sub><b><a href="prompts/mosaic-grid-architecture-style/">Mosaic Grid Architecture Style</a></b><br>1,688 copies</sub></td>
+</tr>
+<tr>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/kinetic-orange-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/kinetic-orange-style/preview.png" width="200" alt="Kinetic Orange Style"></a><br><sub><b><a href="prompts/kinetic-orange-style/">Kinetic Orange Style</a></b><br>1,613 copies</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/brutalist-e-commerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/brutalist-e-commerce-page/preview.png" width="200" alt="Brutalist E-commerce Page"></a><br><sub><b><a href="prompts/brutalist-e-commerce-page/">Brutalist E-commerce Page</a></b><br>1,571 copies</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/cinematic-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/cinematic-style/preview.png" width="200" alt="Cinematic Style"></a><br><sub><b><a href="prompts/cinematic-style/">Cinematic Style</a></b><br>1,362 copies</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/luxury-focused-design-system?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/luxury-focused-design-system/preview.png" width="200" alt="Luxury-focused Design System"></a><br><sub><b><a href="prompts/luxury-focused-design-system/">Luxury-focused Design System</a></b><br>1,350 copies</sub></td>
+</tr>
+</table>
+<!-- GALLERY:END -->
 
-## Browse by industry
+## Most-used
 
-- [SaaS](#by-industry) (21)
-- [AI & Tech](#by-industry) (5)
-- [Dev Tools](#by-industry) (15)
-- [Agency & Studio](#by-industry) (5)
-- [Health & Wellness](#by-industry) (2)
-- [Fashion & Beauty](#by-industry) (1)
-- [Finance & Crypto](#by-industry) (3)
-- [E-commerce & Retail](#by-industry) (10)
-- [Personal & Portfolio](#by-industry) (1)
-- [General](#by-industry) (87)
+<!-- LEADERBOARD:START -->
+| # | Prompt | Category | Copies | Tries | |
+|---|---|---|---|---|---|
+| 1 | **[Tubes Interactive Background](prompts/tubes-interactive-background/)** | Animations & Backgrounds | 2,912 | 1,608 | [▶ Try live](https://superdesign.dev/library/tubes-interactive-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 2 | **[High Contrast Landing Page](prompts/high-contrast-landing-page/)** | Landing Pages | 2,503 | 2,400 | [▶ Try live](https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 3 | **[Deep Red Style](prompts/deep-red-style-5b01cb/)** | Design Systems & Styles | 2,321 | 1,905 | [▶ Try live](https://superdesign.dev/library/deep-red-style-5b01cb?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 4 | **[Lumina SaaS Landing Page](prompts/lumina-saas-landing-page/)** | Landing Pages | 2,259 | 2,271 | [▶ Try live](https://superdesign.dev/library/lumina-saas-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 5 | **[Red Noir Style](prompts/red-noir-style/)** | Design Systems & Styles | 2,162 | 2,234 | [▶ Try live](https://superdesign.dev/library/red-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 6 | **[Softly - Digital Wellness App](prompts/softly-digital-wellness-app/)** | Waitlist & Coming Soon | 1,896 | 1,527 | [▶ Try live](https://superdesign.dev/library/softly-digital-wellness-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 7 | **[Glassmorphism Style](prompts/glassmorphism-style/)** | Design Systems & Styles | 1,713 | 2,451 | [▶ Try live](https://superdesign.dev/library/glassmorphism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 8 | **[Mosaic Grid Architecture Style](prompts/mosaic-grid-architecture-style/)** | E-commerce | 1,688 | 2,122 | [▶ Try live](https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 9 | **[Kinetic Orange Style](prompts/kinetic-orange-style/)** | Design Systems & Styles | 1,613 | 1,624 | [▶ Try live](https://superdesign.dev/library/kinetic-orange-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 10 | **[Brutalist E-commerce Page](prompts/brutalist-e-commerce-page/)** | E-commerce | 1,571 | 1,531 | [▶ Try live](https://superdesign.dev/library/brutalist-e-commerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+<!-- LEADERBOARD:END -->
 
-[Comparison](#superdesign-vs-other-ai-design-tools) · [FAQ](#faq) · [Contributing](#contributing)
+## Browse
 
-## Landing Pages
+**By page type** (the structure): [Landing Pages](page-types/landing-pages/) · [Pricing Pages](page-types/pricing-pages/) · [Auth & Login](page-types/auth-login/) · [Dashboards](page-types/dashboards/) · [Onboarding](page-types/onboarding/) · [Waitlist & Coming Soon](page-types/waitlist-coming-soon/) · [Forms & Contact](page-types/forms-contact/) · [Blog & Editorial](page-types/blog-editorial/) · [E-commerce](page-types/e-commerce/) · [Portfolios](page-types/portfolios/) · [Mobile Apps](page-types/mobile-apps/) · [Components](page-types/components/)
 
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/high-contrast-landing-page/preview.png" width="200"> | **[High Contrast Landing Page](prompts/high-contrast-landing-page/)**<br><sub>landing page, style</sub> | General | 2,503 | [▶ Try live](https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/lumina-saas-landing-page/preview.png" width="200"> | **[Lumina SaaS Landing Page](prompts/lumina-saas-landing-page/)**<br><sub>bold, energetic, yellow</sub> | SaaS | 2,259 | [▶ Try live](https://superdesign.dev/library/lumina-saas-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/synapse/preview.mp4" width="200"> | **[Synapse](prompts/synapse/)**<br><sub>landing page, page, style</sub> | General | 1,110 | [▶ Try live](https://superdesign.dev/library/synapse?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/saas-landing-page-for-developer-tool/preview.png" width="200"> | **[SaaS Landing Page for Developer Tool](prompts/saas-landing-page-for-developer-tool/)**<br><sub>landing page, style, page</sub> | Dev Tools | 950 | [▶ Try live](https://superdesign.dev/library/saas-landing-page-for-developer-tool?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/futuristic-sass-landing-page/preview.png" width="200"> | **[Futuristic SasS Landing Page](prompts/futuristic-sass-landing-page/)**<br><sub>landing page, page, style</sub> | General | 942 | [▶ Try live](https://superdesign.dev/library/futuristic-sass-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/clean-fluid/preview.png" width="200"> | **[Clean fluid](prompts/clean-fluid/)**<br><sub>landing page, style, page</sub> | General | 703 | [▶ Try live](https://superdesign.dev/library/clean-fluid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/red-sun/preview.mp4" width="200"> | **[Red sun](prompts/red-sun/)**<br><sub>landing page, page, style</sub> | General | 513 | [▶ Try live](https://superdesign.dev/library/red-sun?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/tech-editorial/preview.mp4" width="200"> | **[Tech Editorial](prompts/tech-editorial/)**<br><sub>landing page, style, page</sub> | General | 510 | [▶ Try live](https://superdesign.dev/library/tech-editorial?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/landing-page-real-estate/preview.png" width="200"> | **[Landing Page / Real-Estate](prompts/landing-page-real-estate/)**<br><sub>skill</sub> | General | 30 | [▶ Try live](https://superdesign.dev/library/landing-page-real-estate?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/one-pager/preview.png" width="200"> | **[One Pager](prompts/one-pager/)**<br><sub>skill</sub> | General | 9 | [▶ Try live](https://superdesign.dev/library/one-pager?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/landing-page-local-small-business/preview.png" width="200"> | **[Landing Page / Local Small Business](prompts/landing-page-local-small-business/)**<br><sub>skill</sub> | General | 5 | [▶ Try live](https://superdesign.dev/library/landing-page-local-small-business?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/foundry-your-saas-site-designed-before-you-write-a-line/preview.png" width="200"> | **[Foundry: Your SaaS Site, Designed Before You Write a Line](prompts/foundry-your-saas-site-designed-before-you-write-a-line/)**<br><sub>saas-website, landing-page, editorial</sub> | SaaS | 0 | [▶ Try live](https://superdesign.dev/library/foundry-your-saas-site-designed-before-you-write-a-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+**By style** (the look your agent applies): browse [`systems/`](systems/) — each is a reusable style (design tokens + spec) you can drop onto any page type.
 
-## Pricing Pages
+**Everything:** [`prompts/`](prompts/) (all 150) · machine-readable [`prompts.json`](prompts.json) · [`prompts.csv`](prompts.csv) · [`PROMPTS.md`](PROMPTS.md)
 
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red/preview.png" width="200"> | **[Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)](prompts/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red/)**<br><sub>saas-website, swiss-grid, international-typographic-style</sub> | Dev Tools | 3 | [▶ Try live](https://superdesign.dev/library/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/electric-blue-studio-pricing-188a8f/preview.png" width="200"> | **[Electric-Blue Studio Pricing](prompts/electric-blue-studio-pricing-188a8f/)**<br><sub>pricing page, saas, dark</sub> | Dev Tools | 1 | [▶ Try live](https://superdesign.dev/library/electric-blue-studio-pricing-188a8f?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/midnight-navy-fintech-pricing-656a6d/preview.png" width="200"> | **[Midnight Navy Fintech Pricing](prompts/midnight-navy-fintech-pricing-656a6d/)**<br><sub>pricing page, saas, fintech</sub> | Finance & Crypto | 1 | [▶ Try live](https://superdesign.dev/library/midnight-navy-fintech-pricing-656a6d?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/slate-roi-calculator-pricing/preview.png" width="200"> | **[Slate ROI-Calculator Pricing](prompts/slate-roi-calculator-pricing/)**<br><sub>pricing page, saas, dark</sub> | Dev Tools | 0 | [▶ Try live](https://superdesign.dev/library/slate-roi-calculator-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/editorial-cream-ink-two-path-saas-pricing-3dee65/preview.png" width="200"> | **[Editorial Cream + Ink Two-Path SaaS Pricing](prompts/editorial-cream-ink-two-path-saas-pricing-3dee65/)**<br><sub>pricing page, saas, light</sub> | Dev Tools | 0 | [▶ Try live](https://superdesign.dev/library/editorial-cream-ink-two-path-saas-pricing-3dee65?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/electric-lime-single-plan-saas-pricing/preview.png" width="200"> | **[Electric-Lime Single-Plan SaaS Pricing](prompts/electric-lime-single-plan-saas-pricing/)**<br><sub>pricing page, saas, single-plan</sub> | Dev Tools | 0 | [▶ Try live](https://superdesign.dev/library/electric-lime-single-plan-saas-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/electric-dark-usage-based-pricing-calculator-20e556/preview.png" width="200"> | **[Electric Dark Usage-Based Pricing Calculator](prompts/electric-dark-usage-based-pricing-calculator-20e556/)**<br><sub>pricing page, saas, dark</sub> | Dev Tools | 0 | [▶ Try live](https://superdesign.dev/library/electric-dark-usage-based-pricing-calculator-20e556?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/emerald-4-tier-saas-pricing-table/preview.png" width="200"> | **[Emerald 4-Tier SaaS Pricing Table](prompts/emerald-4-tier-saas-pricing-table/)**<br><sub>pricing page, saas, light</sub> | Dev Tools | 0 | [▶ Try live](https://superdesign.dev/library/emerald-4-tier-saas-pricing-table?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/cream-and-sky-playful-saas-pricing/preview.png" width="200"> | **[Cream & Sky Playful SaaS Pricing](prompts/cream-and-sky-playful-saas-pricing/)**<br><sub>pricing page, saas, light</sub> | Dev Tools | 0 | [▶ Try live](https://superdesign.dev/library/cream-and-sky-playful-saas-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/editorial-crimson-dev-tool-pricing/preview.png" width="200"> | **[Editorial Crimson Dev-Tool Pricing](prompts/editorial-crimson-dev-tool-pricing/)**<br><sub>pricing page, saas, light</sub> | Dev Tools | 0 | [▶ Try live](https://superdesign.dev/library/editorial-crimson-dev-tool-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/champagne-noir-paywall-65a2fd/preview.png" width="200"> | **[Champagne Noir Paywall](prompts/champagne-noir-paywall-65a2fd/)**<br><sub>mobile app, paywall, subscription</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/champagne-noir-paywall-65a2fd?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/editorial-violet-saas-pricing-matrix/preview.png" width="200"> | **[Editorial Violet SaaS Pricing Matrix](prompts/editorial-violet-saas-pricing-matrix/)**<br><sub>pricing page, comparison-table, saas</sub> | Dev Tools | 0 | [▶ Try live](https://superdesign.dev/library/editorial-violet-saas-pricing-matrix?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+<details>
+<summary><b>Advanced: recombine any style × any page</b></summary>
 
-## Auth & Login
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/minimalist-wireframe-login/preview.png" width="200"> | **[Minimalist Wireframe Login](prompts/minimalist-wireframe-login/)**<br><sub>mobile app, login, auth</sub> | General | 8 | [▶ Try live](https://superdesign.dev/library/minimalist-wireframe-login?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/aurora-glass-sign-in-to-the-canvas/preview.png" width="200"> | **[Aurora Glass — Sign in to the canvas](prompts/aurora-glass-sign-in-to-the-canvas/)**<br><sub>login, sign-in, auth</sub> | SaaS | 6 | [▶ Try live](https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/verify-its-you-aperture-otp-2fa-graphite-platinum/preview.png" width="200"> | **[Verify it's you · Aperture (OTP / 2FA, graphite-platinum)](prompts/verify-its-you-aperture-otp-2fa-graphite-platinum/)**<br><sub>login, otp, 2fa</sub> | SaaS | 4 | [▶ Try live](https://superdesign.dev/library/verify-its-you-aperture-otp-2fa-graphite-platinum?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/sign-in-to-verdant-classic-split-emerald/preview.png" width="200"> | **[Sign in to Verdant — Classic Split (Emerald)](prompts/sign-in-to-verdant-classic-split-emerald/)**<br><sub>login, sign-in, auth</sub> | SaaS | 3 | [▶ Try live](https://superdesign.dev/library/sign-in-to-verdant-classic-split-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/design-at-the-speed-of-thought-editorial-split-sign-up/preview.png" width="200"> | **[Design at the Speed of Thought — Editorial Split Sign-Up](prompts/design-at-the-speed-of-thought-editorial-split-sign-up/)**<br><sub>signup, auth, sign-up</sub> | SaaS | 1 | [▶ Try live](https://superdesign.dev/library/design-at-the-speed-of-thought-editorial-split-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/welcome-back-lumen-centered-card-true-cobalt/preview.png" width="200"> | **[Welcome back · Lumen — centered-card (true cobalt)](prompts/welcome-back-lumen-centered-card-true-cobalt/)**<br><sub>login, sign-in, auth</sub> | SaaS | 1 | [▶ Try live](https://superdesign.dev/library/welcome-back-lumen-centered-card-true-cobalt?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/palette-social-first-friendly-sign-up/preview.png" width="200"> | **[Palette — Social-first friendly sign-up](prompts/palette-social-first-friendly-sign-up/)**<br><sub>signup, auth, login</sub> | SaaS | 0 | [▶ Try live](https://superdesign.dev/library/palette-social-first-friendly-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/create-your-account-promptly-split-image-emerald-sign-up/preview.png" width="200"> | **[Create your account · Promptly — split-image emerald sign-up](prompts/create-your-account-promptly-split-image-emerald-sign-up/)**<br><sub>signup, sign-up, create-account</sub> | SaaS | 0 | [▶ Try live](https://superdesign.dev/library/create-your-account-promptly-split-image-emerald-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/magic-link-confirmation/preview.png" width="200"> | **[Magic Link Confirmation](prompts/magic-link-confirmation/)**<br><sub>mobile app, auth, layout</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/magic-link-confirmation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/atlas-studio-charting-your-account-step-one-of-three/preview.png" width="200"> | **[Atlas Studio — Charting Your Account, Step One of Three](prompts/atlas-studio-charting-your-account-step-one-of-three/)**<br><sub>signup, onboarding, multi-step</sub> | Agency & Studio | 0 | [▶ Try live](https://superdesign.dev/library/atlas-studio-charting-your-account-step-one-of-three?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/atelier-early-access-waitlist-minimal-graphite/preview.png" width="200"> | **[Atelier · Early Access (waitlist-minimal-graphite)](prompts/atelier-early-access-waitlist-minimal-graphite/)**<br><sub>signup, waitlist, early-access</sub> | SaaS | 0 | [▶ Try live](https://superdesign.dev/library/atelier-early-access-waitlist-minimal-graphite?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/plume-sign-in-to-your-design-canvas/preview.png" width="200"> | **[Plume · Sign in to your design canvas](prompts/plume-sign-in-to-your-design-canvas/)**<br><sub>login, sign-in, auth</sub> | SaaS | 0 | [▶ Try live](https://superdesign.dev/library/plume-sign-in-to-your-design-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## Dashboards
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/enterprise-admin-platform/preview.png" width="200"> | **[Enterprise Admin Platform](prompts/enterprise-admin-platform/)**<br><sub>slate colour, high contrast, enterprise software</sub> | SaaS | 363 | [▶ Try live](https://superdesign.dev/library/enterprise-admin-platform?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/analytics-dashboard/preview.png" width="200"> | **[Analytics dashboard](prompts/analytics-dashboard/)**<br><sub>dashboard, analytics dashboard, neutral</sub> | General | 85 | [▶ Try live](https://superdesign.dev/library/analytics-dashboard?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/linear-inspired-developer-tool-dashboard/preview.png" width="200"> | **[Linear inspired developer tool dashboard](prompts/linear-inspired-developer-tool-dashboard/)**<br><sub>dark mode, linear inspired, minimalist</sub> | Dev Tools | 33 | [▶ Try live](https://superdesign.dev/library/linear-inspired-developer-tool-dashboard?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/ai-system-configuration-console/preview.png" width="200"> | **[AI System Configuration Console](prompts/ai-system-configuration-console/)**<br><sub>technical dashboard, dark mode, acid green accent</sub> | Dev Tools | 32 | [▶ Try live](https://superdesign.dev/library/ai-system-configuration-console?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/developer-tool-dashboardonboarding/preview.png" width="200"> | **[Developer tool dashboard/onboarding](prompts/developer-tool-dashboardonboarding/)**<br><sub>monochromatic, dark mode, high contrast</sub> | Dev Tools | 14 | [▶ Try live](https://superdesign.dev/library/developer-tool-dashboardonboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/volt-electric-lime-fitness-dashboard-a7544c/preview.png" width="200"> | **[Volt — Electric-Lime Fitness Dashboard](prompts/volt-electric-lime-fitness-dashboard-a7544c/)**<br><sub>mobile app, fitness, health</sub> | Health & Wellness | 5 | [▶ Try live](https://superdesign.dev/library/volt-electric-lime-fitness-dashboard-a7544c?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/tablekit-the-data-table-your-team-actually-wants-to-live-in/preview.png" width="200"> | **[Tablekit — The data table your team actually wants to live in](prompts/tablekit-the-data-table-your-team-actually-wants-to-live-in/)**<br><sub>table, admin, dashboard</sub> | SaaS | 0 | [▶ Try live](https://superdesign.dev/library/tablekit-the-data-table-your-team-actually-wants-to-live-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/ledgerline-fintech-tealmint-startup-landing-page/preview.png" width="200"> | **[Ledgerline — fintech teal/mint startup landing page](prompts/ledgerline-fintech-tealmint-startup-landing-page/)**<br><sub>startup-website, landing-page, fintech</sub> | Finance & Crypto | 0 | [▶ Try live](https://superdesign.dev/library/ledgerline-fintech-tealmint-startup-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## Onboarding
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/interactive-multi-step-onboarding-flow/preview.png" width="200"> | **[Interactive Multi-Step Onboarding Flow](prompts/interactive-multi-step-onboarding-flow/)**<br><sub>mobile app, account setup, layout</sub> | General | 16 | [▶ Try live](https://superdesign.dev/library/interactive-multi-step-onboarding-flow?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/editorial-saas-onboarding/preview.png" width="200"> | **[Editorial SaaS Onboarding](prompts/editorial-saas-onboarding/)**<br><sub>sass, onboarding, modern</sub> | SaaS | 16 | [▶ Try live](https://superdesign.dev/library/editorial-saas-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/web-app-onboarding/preview.png" width="200"> | **[Web App / Onboarding](prompts/web-app-onboarding/)**<br><sub>skill</sub> | General | 15 | [▶ Try live](https://superdesign.dev/library/web-app-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/system-initialization-trust-and-transparency/preview.png" width="200"> | **[System Initialization - Trust & Transparency](prompts/system-initialization-trust-and-transparency/)**<br><sub>onboarding, page, trust-building</sub> | AI & Tech | 12 | [▶ Try live](https://superdesign.dev/library/system-initialization-trust-and-transparency?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/luminous-ethereal-glassmorphism-onboarding/preview.png" width="200"> | **[Luminous Ethereal Glassmorphism Onboarding](prompts/luminous-ethereal-glassmorphism-onboarding/)**<br><sub>onboarding, fintech, glassmorphic</sub> | Finance & Crypto | 12 | [▶ Try live](https://superdesign.dev/library/luminous-ethereal-glassmorphism-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/superdesign-setup-inline-preview/preview.png" width="200"> | **[Superdesign Setup - Inline Preview](prompts/superdesign-setup-inline-preview/)**<br><sub>onboarding, developer, high contrast</sub> | AI & Tech | 10 | [▶ Try live](https://superdesign.dev/library/superdesign-setup-inline-preview?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/technical-system-onboarding/preview.png" width="200"> | **[Technical System Onboarding](prompts/technical-system-onboarding/)**<br><sub>onboarding, page, dark mode</sub> | AI & Tech | 8 | [▶ Try live](https://superdesign.dev/library/technical-system-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/high-energy-onboarding/preview.png" width="200"> | **[High energy onboarding](prompts/high-energy-onboarding/)**<br><sub>onboarding, page, maximalist</sub> | General | 6 | [▶ Try live](https://superdesign.dev/library/high-energy-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/modal-design-success-celebration-pastel-legibility-fixed-9fbd65/preview.png" width="200"> | **[Modal Design · success-celebration (pastel) — legibility fixed](prompts/modal-design-success-celebration-pastel-legibility-fixed-9fbd65/)**<br><sub>modal, success, celebration</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/modal-design-success-celebration-pastel-legibility-fixed-9fbd65?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/modal-design-success-celebration-pastel-legibility-fixed/preview.png" width="200"> | **[Modal Design · success-celebration (pastel) — legibility fixed](prompts/modal-design-success-celebration-pastel-legibility-fixed/)**<br><sub>modal, success, celebration</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/modal-design-success-celebration-pastel-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## Waitlist & Coming Soon
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/softly-digital-wellness-app/preview.png" width="200"> | **[Softly - Digital Wellness App](prompts/softly-digital-wellness-app/)**<br><sub>mobile app, sass landing, leads generation</sub> | Health & Wellness | 1,896 | [▶ Try live](https://superdesign.dev/library/softly-digital-wellness-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/bold-editorial-style/preview.png" width="200"> | **[Bold Editorial Style](prompts/bold-editorial-style/)**<br><sub>light mode, editorial, yellow</sub> | SaaS | 948 | [▶ Try live](https://superdesign.dev/library/bold-editorial-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/minimalist-beta-capture/preview.png" width="200"> | **[Minimalist Beta Capture](prompts/minimalist-beta-capture/)**<br><sub>high conversion page, landing page, product launch</sub> | General | 745 | [▶ Try live](https://superdesign.dev/library/minimalist-beta-capture?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/neon-velocity-countdown/preview.png" width="200"> | **[Neon Velocity Countdown](prompts/neon-velocity-countdown/)**<br><sub>product launch, style, landing page</sub> | General | 683 | [▶ Try live](https://superdesign.dev/library/neon-velocity-countdown?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/superdesign-editorial-waitlist/preview.png" width="200"> | **[Superdesign Editorial Waitlist](prompts/superdesign-editorial-waitlist/)**<br><sub>style, waitlist, landing page</sub> | General | 556 | [▶ Try live](https://superdesign.dev/library/superdesign-editorial-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/disruptor-beta-launch/preview.jpg" width="200"> | **[Disruptor Beta Launch](prompts/disruptor-beta-launch/)**<br><sub>product launch, waitlist, high conversion page</sub> | General | 456 | [▶ Try live](https://superdesign.dev/library/disruptor-beta-launch?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/architectural-type-system-style/preview.png" width="200"> | **[Architectural Type System Style](prompts/architectural-type-system-style/)**<br><sub>landing page, product launch, waitlist</sub> | General | 354 | [▶ Try live](https://superdesign.dev/library/architectural-type-system-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/gen-z-social-app/preview.png" width="200"> | **[Gen-Z Social App](prompts/gen-z-social-app/)**<br><sub>acid lime accent, high contrast, neon accents</sub> | General | 224 | [▶ Try live](https://superdesign.dev/library/gen-z-social-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/apple-inspired-waitlist/preview.png" width="200"> | **[Apple-inspired Waitlist](prompts/apple-inspired-waitlist/)**<br><sub>waitlist, beta access, product launch</sub> | General | 16 | [▶ Try live](https://superdesign.dev/library/apple-inspired-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/momentum-ship-your-startup-launch-before-the-idea-cools/preview.png" width="200"> | **[Momentum — Ship Your Startup Launch Before the Idea Cools](prompts/momentum-ship-your-startup-launch-before-the-idea-cools/)**<br><sub>startup-website, landing-page, waitlist</sub> | SaaS | 0 | [▶ Try live](https://superdesign.dev/library/momentum-ship-your-startup-launch-before-the-idea-cools?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## Forms & Contact
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/acid-yellow-neo-brutalist-mega-footer/preview.png" width="200"> | **[Acid-Yellow Neo-Brutalist Mega Footer](prompts/acid-yellow-neo-brutalist-mega-footer/)**<br><sub>footer, mega-footer, neo-brutalist</sub> | General | 1 | [▶ Try live](https://superdesign.dev/library/acid-yellow-neo-brutalist-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/atelier-design-spoken-into-being-editorial-serif-burgundy/preview.png" width="200"> | **[Atelier — Design, Spoken Into Being (editorial serif / burgundy)](prompts/atelier-design-spoken-into-being-editorial-serif-burgundy/)**<br><sub>cta, editorial, serif</sub> | General | 1 | [▶ Try live](https://superdesign.dev/library/atelier-design-spoken-into-being-editorial-serif-burgundy?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/teal-on-ink-newsletter-mega-footer/preview.png" width="200"> | **[Teal-on-Ink Newsletter Mega Footer](prompts/teal-on-ink-newsletter-mega-footer/)**<br><sub>footer, mega-footer, newsletter</sub> | SaaS | 0 | [▶ Try live](https://superdesign.dev/library/teal-on-ink-newsletter-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/the-atelier-brief-an-editorial-intake-form-set-like-a-letter/preview.png" width="200"> | **[The Atelier Brief — an editorial intake form, set like a letter](prompts/the-atelier-brief-an-editorial-intake-form-set-like-a-letter/)**<br><sub>form, contact-form, intake-form</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/the-atelier-brief-an-editorial-intake-form-set-like-a-letter?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/send-us-the-brief-brutalist-contact-form/preview.png" width="200"> | **[Send Us the Brief — Brutalist Contact Form](prompts/send-us-the-brief-brutalist-contact-form/)**<br><sub>contact-form, contact, brutalist</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/send-us-the-brief-brutalist-contact-form?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/validar-forms-that-catch-mistakes-before-they-cost-you/preview.png" width="200"> | **[Validar — Forms that catch mistakes before they cost you](prompts/validar-forms-that-catch-mistakes-before-they-cost-you/)**<br><sub>form, validation, saas</sub> | SaaS | 0 | [▶ Try live](https://superdesign.dev/library/validar-forms-that-catch-mistakes-before-they-cost-you?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/ink-and-acid-mono-sitemap-footer/preview.png" width="200"> | **[Ink & Acid Mono Sitemap Footer](prompts/ink-and-acid-mono-sitemap-footer/)**<br><sub>footer, mega-footer, newsletter</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/ink-and-acid-mono-sitemap-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/cream-paper-and-coral-mega-footer/preview.png" width="200"> | **[Cream Paper & Coral Mega Footer](prompts/cream-paper-and-coral-mega-footer/)**<br><sub>footer, mega-footer, newsletter</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/cream-paper-and-coral-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/forms-that-feel-effortless-to-fill-fieldcraft/preview.png" width="200"> | **[Forms that feel effortless to fill — Fieldcraft](prompts/forms-that-feel-effortless-to-fill-fieldcraft/)**<br><sub>form, forms, settings</sub> | SaaS | 0 | [▶ Try live](https://superdesign.dev/library/forms-that-feel-effortless-to-fill-fieldcraft?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/loop-say-hello-we-dont-bite-friendly-illustrated-sky/preview.png" width="200"> | **[Loop · Say hello, we don't bite (friendly illustrated sky)](prompts/loop-say-hello-we-dont-bite-friendly-illustrated-sky/)**<br><sub>contact-form, contact, light</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/loop-say-hello-we-dont-bite-friendly-illustrated-sky?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/formcraft-workspace-settings-cobalt-two-column/preview.png" width="200"> | **[Formcraft — Workspace Settings (cobalt two-column)](prompts/formcraft-workspace-settings-cobalt-two-column/)**<br><sub>form, settings, saas</sub> | SaaS | 0 | [▶ Try live](https://superdesign.dev/library/formcraft-workspace-settings-cobalt-two-column?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/sunset-glow-wordmark-mega-footer/preview.png" width="200"> | **[Sunset Glow Wordmark Mega Footer](prompts/sunset-glow-wordmark-mega-footer/)**<br><sub>footer, mega-footer, newsletter</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/sunset-glow-wordmark-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## Blog & Editorial
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/blog-page-editorial-grid-magazine/preview.png" width="200"> | **[Blog Page - Editorial Grid Magazine](prompts/blog-page-editorial-grid-magazine/)**<br><sub>shopify, ecommerce, layout</sub> | E-commerce & Retail | 20 | [▶ Try live](https://superdesign.dev/library/blog-page-editorial-grid-magazine?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/chronological-content-feed/preview.png" width="200"> | **[Chronological Content Feed](prompts/chronological-content-feed/)**<br><sub>shopify, blog, layout</sub> | E-commerce & Retail | 1 | [▶ Try live](https://superdesign.dev/library/chronological-content-feed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/editorial-image-lightbox/preview.png" width="200"> | **[Editorial Image Lightbox](prompts/editorial-image-lightbox/)**<br><sub>modal, lightbox, image-lightbox</sub> | General | 1 | [▶ Try live](https://superdesign.dev/library/editorial-image-lightbox?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/the-quote-set-in-burgundy/preview.png" width="200"> | **[The Quote, Set in Burgundy](prompts/the-quote-set-in-burgundy/)**<br><sub>testimonial, testimonials, single-quote</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/the-quote-set-in-burgundy?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/questions-set-in-serif-an-editorial-faq/preview.png" width="200"> | **[Questions, Set in Serif — An Editorial FAQ](prompts/questions-set-in-serif-an-editorial-faq/)**<br><sub>faq, help-center, accordion</sub> | General | 0 | [▶ Try live](https://superdesign.dev/library/questions-set-in-serif-an-editorial-faq?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## E-commerce
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/mosaic-grid-architecture-style/preview.png" width="200"> | **[Mosaic Grid Architecture Style](prompts/mosaic-grid-architecture-style/)**<br><sub>neutral, low contrast, forestgreen accent</sub> | AI & Tech | 1,688 | [▶ Try live](https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/brutalist-e-commerce-page/preview.png" width="200"> | **[Brutalist E-commerce Page](prompts/brutalist-e-commerce-page/)**<br><sub>ecommerce, landing page, style</sub> | E-commerce & Retail | 1,571 | [▶ Try live](https://superdesign.dev/library/brutalist-e-commerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/brutalist-style-ecommerce-page/preview.png" width="200"> | **[Brutalist Style Ecommerce Page](prompts/brutalist-style-ecommerce-page/)**<br><sub>ecommerce, landing page, style</sub> | E-commerce & Retail | 945 | [▶ Try live](https://superdesign.dev/library/brutalist-style-ecommerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/chrome-extension-landing-page/preview.png" width="200"> | **[Chrome Extension Landing Page](prompts/chrome-extension-landing-page/)**<br><sub>chrome extension, landing page, gray</sub> | Dev Tools | 592 | [▶ Try live](https://superdesign.dev/library/chrome-extension-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/aura-audio-showroom/preview.png" width="200"> | **[Aura Audio Showroom](prompts/aura-audio-showroom/)**<br><sub>shopify, landing page, ecommerce</sub> | E-commerce & Retail | 261 | [▶ Try live](https://superdesign.dev/library/aura-audio-showroom?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/super-shampoo-high-conversion-lp/preview.png" width="200"> | **[Super Shampoo - High Conversion LP](prompts/super-shampoo-high-conversion-lp/)**<br><sub>ecommerce, shopify, landing page</sub> | E-commerce & Retail | 194 | [▶ Try live](https://superdesign.dev/library/super-shampoo-high-conversion-lp?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/graphic-comparison-report/preview.png" width="200"> | **[Graphic Comparison Report](prompts/graphic-comparison-report/)**<br><sub>comparison page, high contrast, offwhite</sub> | SaaS | 17 | [▶ Try live](https://superdesign.dev/library/graphic-comparison-report?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/specs-first-breakdown-product-page/preview.png" width="200"> | **[Specs-First Breakdown Product Page](prompts/specs-first-breakdown-product-page/)**<br><sub>shopify, layout, ecommerce</sub> | E-commerce & Retail | 9 | [▶ Try live](https://superdesign.dev/library/specs-first-breakdown-product-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/collection-page-filtered-product-grid/preview.png" width="200"> | **[Collection Page- Filtered Product Grid](prompts/collection-page-filtered-product-grid/)**<br><sub>shopify, collection page, ecommerce</sub> | E-commerce & Retail | 9 | [▶ Try live](https://superdesign.dev/library/collection-page-filtered-product-grid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/cart-drawer-essential-slide-in/preview.png" width="200"> | **[Cart Drawer- Essential Slide in](prompts/cart-drawer-essential-slide-in/)**<br><sub>shopify, layout, cart</sub> | E-commerce & Retail | 7 | [▶ Try live](https://superdesign.dev/library/cart-drawer-essential-slide-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/mobile-app-app-store-preview/preview.png" width="200"> | **[Mobile App / App Store Preview](prompts/mobile-app-app-store-preview/)**<br><sub>skill</sub> | E-commerce & Retail | 3 | [▶ Try live](https://superdesign.dev/library/mobile-app-app-store-preview?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/atelier-mono-uppercase-fashion-legibility-fixed/preview.png" width="200"> | **[ATELIER — Mono Uppercase Fashion (legibility-fixed)](prompts/atelier-mono-uppercase-fashion-legibility-fixed/)**<br><sub>navbar, monochrome, black-and-white</sub> | Fashion & Beauty | 0 | [▶ Try live](https://superdesign.dev/library/atelier-mono-uppercase-fashion-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## Portfolios
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/bold-editorial-design-style/preview.png" width="200"> | **[Bold Editorial Design Style](prompts/bold-editorial-design-style/)**<br><sub>navy, sage, portfolio</sub> | Personal & Portfolio | 765 | [▶ Try live](https://superdesign.dev/library/bold-editorial-design-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/swiss-grid-agency-layout/preview.png" width="200"> | **[Swiss Grid Agency Layout](prompts/swiss-grid-agency-layout/)**<br><sub>agency-website, swiss-grid, international-typographic-style</sub> | Agency & Studio | 1 | [▶ Try live](https://superdesign.dev/library/swiss-grid-agency-layout?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/prism-frosted-glass-pastel-agency-studio/preview.png" width="200"> | **[Prism — Frosted-Glass Pastel Agency Studio](prompts/prism-frosted-glass-pastel-agency-studio/)**<br><sub>agency-website, glassmorphism, frosted-glass</sub> | Agency & Studio | 0 | [▶ Try live](https://superdesign.dev/library/prism-frosted-glass-pastel-agency-studio?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/loam-warm-earthy-organic-agency-website/preview.png" width="200"> | **[Loam — Warm Earthy Organic Agency Website](prompts/loam-warm-earthy-organic-agency-website/)**<br><sub>agency-website, landing-page, organic</sub> | Agency & Studio | 0 | [▶ Try live](https://superdesign.dev/library/loam-warm-earthy-organic-agency-website?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## Mobile Apps
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/babybites-sophisticated-palette/preview.png" width="200"> | **[BabyBites - Sophisticated Palette](prompts/babybites-sophisticated-palette/)**<br><sub>mobile app, style</sub> | General | 1,224 | [▶ Try live](https://superdesign.dev/library/babybites-sophisticated-palette?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/coverflow-carousels-that-turn-heads-dark-coverflow-aurora/preview.png" width="200"> | **[Coverflow — Carousels that turn heads (dark coverflow aurora)](prompts/coverflow-carousels-that-turn-heads-dark-coverflow-aurora/)**<br><sub>carousel, coverflow, 3d-carousel</sub> | AI & Tech | 48 | [▶ Try live](https://superdesign.dev/library/coverflow-carousels-that-turn-heads-dark-coverflow-aurora?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/account-setup-flow-goals-interests-card-based/preview.png" width="200"> | **[Account Setup Flow — Goals / Interests (Card-Based)](prompts/account-setup-flow-goals-interests-card-based/)**<br><sub>mobile app, layout, account setup</sub> | General | 14 | [▶ Try live](https://superdesign.dev/library/account-setup-flow-goals-interests-card-based?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/sectioned-index-page/preview.png" width="200"> | **[Sectioned Index Page](prompts/sectioned-index-page/)**<br><sub>mobile app, index, browse</sub> | General | 13 | [▶ Try live](https://superdesign.dev/library/sectioned-index-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/compact-control-grid/preview.png" width="200"> | **[Compact Control Grid](prompts/compact-control-grid/)**<br><sub>mobile app, home, layout</sub> | General | 11 | [▶ Try live](https://superdesign.dev/library/compact-control-grid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/hero-sticky-action-detail/preview.png" width="200"> | **[Hero + Sticky Action Detail](prompts/hero-sticky-action-detail/)**<br><sub>mobile app, detail, layout</sub> | General | 7 | [▶ Try live](https://superdesign.dev/library/hero-sticky-action-detail?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/focus-mode-detail/preview.png" width="200"> | **[Focus Mode Detail](prompts/focus-mode-detail/)**<br><sub>mobile app, detail, layout</sub> | General | 6 | [▶ Try live](https://superdesign.dev/library/focus-mode-detail?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/card-grid-browse/preview.png" width="200"> | **[Card Grid Browse](prompts/card-grid-browse/)**<br><sub>mobile app, index, browse</sub> | General | 6 | [▶ Try live](https://superdesign.dev/library/card-grid-browse?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/side-drawer-navigation/preview.png" width="200"> | **[Side drawer navigation](prompts/side-drawer-navigation/)**<br><sub>mobile app, navigation, layout</sub> | General | 4 | [▶ Try live](https://superdesign.dev/library/side-drawer-navigation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/gesture-first-navigation-system/preview.png" width="200"> | **[Gesture First Navigation System](prompts/gesture-first-navigation-system/)**<br><sub>mobile app, navigation, layout</sub> | General | 3 | [▶ Try live](https://superdesign.dev/library/gesture-first-navigation-system?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/editorial-music-player-now-playing/preview.png" width="200"> | **[Editorial Music Player (Now Playing)](prompts/editorial-music-player-now-playing/)**<br><sub>mobile app, music player, now playing</sub> | General | 1 | [▶ Try live](https://superdesign.dev/library/editorial-music-player-now-playing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/bottom-tab-navigation-core-app-shell/preview.png" width="200"> | **[Bottom Tab Navigation — Core App Shell](prompts/bottom-tab-navigation-core-app-shell/)**<br><sub>mobile app, navigation, layout</sub> | General | 1 | [▶ Try live](https://superdesign.dev/library/bottom-tab-navigation-core-app-shell?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## Components
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/card-swap/preview.mp4" width="200"> | **[Card Swap](prompts/card-swap/)**<br><sub>ui component, animation, image gallery</sub> | General | 884 | [▶ Try live](https://superdesign.dev/library/card-swap?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/hyper-speed-loading-state/preview.png" width="200"> | **[Hyper-Speed Loading State](prompts/hyper-speed-loading-state/)**<br><sub>animation, loading</sub> | General | 749 | [▶ Try live](https://superdesign.dev/library/hyper-speed-loading-state?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/light-beam-button/preview.png" width="200"> | **[Light Beam Button](prompts/light-beam-button/)**<br><sub>button, ui component</sub> | General | 500 | [▶ Try live](https://superdesign.dev/library/light-beam-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/ghost-cursor/preview.mp4" width="200"> | **[Ghost Cursor](prompts/ghost-cursor/)**<br><sub>animation, background</sub> | General | 417 | [▶ Try live](https://superdesign.dev/library/ghost-cursor?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/typing-animation/preview.mp4" width="200"> | **[Typing animation](prompts/typing-animation/)**<br><sub>animation, text animation</sub> | General | 370 | [▶ Try live](https://superdesign.dev/library/typing-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/jelly-squish-button/preview.mp4" width="200"> | **[Jelly Squish Button](prompts/jelly-squish-button/)**<br><sub>animation, ui component, button</sub> | General | 368 | [▶ Try live](https://superdesign.dev/library/jelly-squish-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/radiant-prompt-input/preview.png" width="200"> | **[Radiant Prompt Input](prompts/radiant-prompt-input/)**<br><sub>ui component, input</sub> | General | 348 | [▶ Try live](https://superdesign.dev/library/radiant-prompt-input?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/pill-nav/preview.mp4" width="200"> | **[Pill Nav](prompts/pill-nav/)**<br><sub>ui component, nav</sub> | General | 318 | [▶ Try live](https://superdesign.dev/library/pill-nav?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/interactive-folder/preview.mp4" width="200"> | **[Interactive Folder](prompts/interactive-folder/)**<br><sub>animation, ui component</sub> | General | 273 | [▶ Try live](https://superdesign.dev/library/interactive-folder?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/glow-cursor-button/preview.mp4" width="200"> | **[Glow Cursor Button](prompts/glow-cursor-button/)**<br><sub>button, ui component</sub> | General | 211 | [▶ Try live](https://superdesign.dev/library/glow-cursor-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/rolodex-text/preview.mp4" width="200"> | **[Rolodex Text](prompts/rolodex-text/)**<br><sub>animation, text animation</sub> | General | 203 | [▶ Try live](https://superdesign.dev/library/rolodex-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/shiny-text/preview.png" width="200"> | **[Shiny Text](prompts/shiny-text/)**<br><sub>animation, text animation</sub> | General | 182 | [▶ Try live](https://superdesign.dev/library/shiny-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## Animations & Backgrounds
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/tubes-interactive-background/preview.png" width="200"> | **[Tubes Interactive Background](prompts/tubes-interactive-background/)**<br><sub>animation, background</sub> | General | 2,912 | [▶ Try live](https://superdesign.dev/library/tubes-interactive-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/the-stacking-cards-effect/preview.mp4" width="200"> | **[The "Stacking Cards" Effect](prompts/the-stacking-cards-effect/)**<br><sub>animation, scroll animation, landing page</sub> | General | 905 | [▶ Try live](https://superdesign.dev/library/the-stacking-cards-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/force-field-background/preview.png" width="200"> | **[Force Field Background](prompts/force-field-background/)**<br><sub>animation, background</sub> | General | 865 | [▶ Try live](https://superdesign.dev/library/force-field-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/scroll-journey-line/preview.mp4" width="200"> | **[Scroll Journey Line](prompts/scroll-journey-line/)**<br><sub>animation, scroll animation</sub> | General | 820 | [▶ Try live](https://superdesign.dev/library/scroll-journey-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/gsap-horizontal-scroll/preview.mp4" width="200"> | **[GSAP Horizontal scroll](prompts/gsap-horizontal-scroll/)**<br><sub>animation, scroll animation, landing page</sub> | General | 668 | [▶ Try live](https://superdesign.dev/library/gsap-horizontal-scroll?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/parallax-stars-background/preview.mp4" width="200"> | **[Parallax Stars Background](prompts/parallax-stars-background/)**<br><sub>background, animation</sub> | General | 661 | [▶ Try live](https://superdesign.dev/library/parallax-stars-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/exploded-view-assembly/preview.mp4" width="200"> | **["Exploded View" Assembly](prompts/exploded-view-assembly/)**<br><sub>animation, scroll animation, landing page</sub> | General | 490 | [▶ Try live](https://superdesign.dev/library/exploded-view-assembly?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/gooey-gradient-background/preview.mp4" width="200"> | **[Gooey Gradient Background](prompts/gooey-gradient-background/)**<br><sub>animation, background</sub> | General | 485 | [▶ Try live](https://superdesign.dev/library/gooey-gradient-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/hover-reveal-effect/preview.mp4" width="200"> | **[Hover reveal effect](prompts/hover-reveal-effect/)**<br><sub>landing page, hover effect, animation</sub> | General | 442 | [▶ Try live](https://superdesign.dev/library/hover-reveal-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/horizontal-gallery/preview.mp4" width="200"> | **[Horizontal Gallery](prompts/horizontal-gallery/)**<br><sub>animation, scroll animation</sub> | General | 439 | [▶ Try live](https://superdesign.dev/library/horizontal-gallery?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/animation-threejs-animation/preview.mp4" width="200"> | **[Animation / Threejs animation](prompts/animation-threejs-animation/)**<br><sub>skill, animation</sub> | General | 307 | [▶ Try live](https://superdesign.dev/library/animation-threejs-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/dynamic-data-display/preview.mp4" width="200"> | **[Dynamic Data Display](prompts/dynamic-data-display/)**<br><sub>text animation, animation, scroll animation</sub> | General | 288 | [▶ Try live](https://superdesign.dev/library/dynamic-data-display?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## Design Systems & Styles
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/deep-red-style-5b01cb/preview.png" width="200"> | **[Deep Red Style](prompts/deep-red-style-5b01cb/)**<br><sub>style, page</sub> | General | 2,321 | [▶ Try live](https://superdesign.dev/library/deep-red-style-5b01cb?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/red-noir-style/preview.png" width="200"> | **[Red Noir Style](prompts/red-noir-style/)**<br><sub>style, landing page, page</sub> | General | 2,162 | [▶ Try live](https://superdesign.dev/library/red-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/glassmorphism-style/preview.png" width="200"> | **[Glassmorphism Style](prompts/glassmorphism-style/)**<br><sub>landing page, page, style</sub> | General | 1,713 | [▶ Try live](https://superdesign.dev/library/glassmorphism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/kinetic-orange-style/preview.png" width="200"> | **[Kinetic Orange Style](prompts/kinetic-orange-style/)**<br><sub>landing page, style, page</sub> | General | 1,613 | [▶ Try live](https://superdesign.dev/library/kinetic-orange-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/cinematic-style/preview.png" width="200"> | **[Cinematic Style](prompts/cinematic-style/)**<br><sub>landing page, page, style</sub> | General | 1,362 | [▶ Try live](https://superdesign.dev/library/cinematic-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/luxury-focused-design-system/preview.png" width="200"> | **[Luxury-focused Design System](prompts/luxury-focused-design-system/)**<br><sub>landing page, style, cream</sub> | General | 1,350 | [▶ Try live](https://superdesign.dev/library/luxury-focused-design-system?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/neural-noir-interface-style/preview.png" width="200"> | **[Neural Noir Interface Style](prompts/neural-noir-interface-style/)**<br><sub>landing page, page, style</sub> | General | 1,280 | [▶ Try live](https://superdesign.dev/library/neural-noir-interface-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/nature-inspired-style/preview.png" width="200"> | **[Nature Inspired Style](prompts/nature-inspired-style/)**<br><sub>landing page, page, style</sub> | General | 1,272 | [▶ Try live](https://superdesign.dev/library/nature-inspired-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/glassmorphism-card/preview.mp4" width="200"> | **[Glassmorphism card](prompts/glassmorphism-card/)**<br><sub>landing page, page, style</sub> | General | 1,250 | [▶ Try live](https://superdesign.dev/library/glassmorphism-card?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/bold-editorial-studio-style/preview.png" width="200"> | **[Bold Editorial Studio Style](prompts/bold-editorial-studio-style/)**<br><sub>landing page, page, style</sub> | Agency & Studio | 1,216 | [▶ Try live](https://superdesign.dev/library/bold-editorial-studio-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/hyper-saturated-fluid/preview.png" width="200"> | **[Hyper-Saturated Fluid](prompts/hyper-saturated-fluid/)**<br><sub>style</sub> | General | 1,002 | [▶ Try live](https://superdesign.dev/library/hyper-saturated-fluid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/midnight-editorial-style-5f0a22/preview.png" width="200"> | **[Midnight Editorial Style](prompts/midnight-editorial-style-5f0a22/)**<br><sub>landing page, page, style</sub> | General | 963 | [▶ Try live](https://superdesign.dev/library/midnight-editorial-style-5f0a22?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/neumorphism/preview.png" width="200"> | **[Neumorphism](prompts/neumorphism/)**<br><sub>style</sub> | General | 834 | [▶ Try live](https://superdesign.dev/library/neumorphism?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/cinematic-noir-style/preview.png" width="200"> | **[Cinematic Noir Style](prompts/cinematic-noir-style/)**<br><sub>landing page, page, style</sub> | General | 643 | [▶ Try live](https://superdesign.dev/library/cinematic-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-## Other
-
-| Preview | Prompt | Industry | Copies | |
-|---|---|---|---|---|
-| <img src="prompts/slide-deck/preview.png" width="200"> | **[Slide Deck](prompts/slide-deck/)**<br><sub>skill</sub> | General | 16 | [▶ Try live](https://superdesign.dev/library/slide-deck?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/product-feature/preview.png" width="200"> | **[Product Feature](prompts/product-feature/)**<br><sub>skill</sub> | General | 3 | [▶ Try live](https://superdesign.dev/library/product-feature?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| <img src="prompts/email-template/preview.png" width="200"> | **[Email Template](prompts/email-template/)**<br><sub>skill</sub> | General | 2 | [▶ Try live](https://superdesign.dev/library/email-template?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-
-<a id="by-industry"></a>
-## By industry
-
-**SaaS** (21): [Lumina SaaS Landing Page](prompts/lumina-saas-landing-page/) · [Bold Editorial Style](prompts/bold-editorial-style/) · [Enterprise Admin Platform](prompts/enterprise-admin-platform/) · [Graphic Comparison Report](prompts/graphic-comparison-report/) · [Editorial SaaS Onboarding](prompts/editorial-saas-onboarding/) · [Aurora Glass — Sign in to the canvas](prompts/aurora-glass-sign-in-to-the-canvas/) · [Verify it's you · Aperture (OTP / 2FA, graphite-platinum)](prompts/verify-its-you-aperture-otp-2fa-graphite-platinum/) · [Sign in to Verdant — Classic Split (Emerald)](prompts/sign-in-to-verdant-classic-split-emerald/) · [Design at the Speed of Thought — Editorial Split Sign-Up](prompts/design-at-the-speed-of-thought-editorial-split-sign-up/) · [Welcome back · Lumen — centered-card (true cobalt)](prompts/welcome-back-lumen-centered-card-true-cobalt/) · [Palette — Social-first friendly sign-up](prompts/palette-social-first-friendly-sign-up/) · [Teal-on-Ink Newsletter Mega Footer](prompts/teal-on-ink-newsletter-mega-footer/) · [Validar — Forms that catch mistakes before they cost you](prompts/validar-forms-that-catch-mistakes-before-they-cost-you/) · [Foundry: Your SaaS Site, Designed Before You Write a Line](prompts/foundry-your-saas-site-designed-before-you-write-a-line/) · [Create your account · Promptly — split-image emerald sign-up](prompts/create-your-account-promptly-split-image-emerald-sign-up/)
-
-**AI & Tech** (5): [Mosaic Grid Architecture Style](prompts/mosaic-grid-architecture-style/) · [Coverflow — Carousels that turn heads (dark coverflow aurora)](prompts/coverflow-carousels-that-turn-heads-dark-coverflow-aurora/) · [System Initialization - Trust & Transparency](prompts/system-initialization-trust-and-transparency/) · [Superdesign Setup - Inline Preview](prompts/superdesign-setup-inline-preview/) · [Technical System Onboarding](prompts/technical-system-onboarding/)
-
-**Dev Tools** (15): [SaaS Landing Page for Developer Tool](prompts/saas-landing-page-for-developer-tool/) · [Chrome Extension Landing Page](prompts/chrome-extension-landing-page/) · [Linear inspired developer tool dashboard](prompts/linear-inspired-developer-tool-dashboard/) · [AI System Configuration Console](prompts/ai-system-configuration-console/) · [Developer tool dashboard/onboarding](prompts/developer-tool-dashboardonboarding/) · [Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)](prompts/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red/) · [Electric-Blue Studio Pricing](prompts/electric-blue-studio-pricing-188a8f/) · [Slate ROI-Calculator Pricing](prompts/slate-roi-calculator-pricing/) · [Editorial Cream + Ink Two-Path SaaS Pricing](prompts/editorial-cream-ink-two-path-saas-pricing-3dee65/) · [Electric-Lime Single-Plan SaaS Pricing](prompts/electric-lime-single-plan-saas-pricing/) · [Electric Dark Usage-Based Pricing Calculator](prompts/electric-dark-usage-based-pricing-calculator-20e556/) · [Emerald 4-Tier SaaS Pricing Table](prompts/emerald-4-tier-saas-pricing-table/) · [Cream & Sky Playful SaaS Pricing](prompts/cream-and-sky-playful-saas-pricing/) · [Editorial Crimson Dev-Tool Pricing](prompts/editorial-crimson-dev-tool-pricing/) · [Editorial Violet SaaS Pricing Matrix](prompts/editorial-violet-saas-pricing-matrix/)
-
-**Agency & Studio** (5): [Bold Editorial Studio Style](prompts/bold-editorial-studio-style/) · [Swiss Grid Agency Layout](prompts/swiss-grid-agency-layout/) · [Prism — Frosted-Glass Pastel Agency Studio](prompts/prism-frosted-glass-pastel-agency-studio/) · [Loam — Warm Earthy Organic Agency Website](prompts/loam-warm-earthy-organic-agency-website/) · [Atlas Studio — Charting Your Account, Step One of Three](prompts/atlas-studio-charting-your-account-step-one-of-three/)
-
-**Health & Wellness** (2): [Softly - Digital Wellness App](prompts/softly-digital-wellness-app/) · [Volt — Electric-Lime Fitness Dashboard](prompts/volt-electric-lime-fitness-dashboard-a7544c/)
-
-**Fashion & Beauty** (1): [ATELIER — Mono Uppercase Fashion (legibility-fixed)](prompts/atelier-mono-uppercase-fashion-legibility-fixed/)
-
-**Finance & Crypto** (3): [Luminous Ethereal Glassmorphism Onboarding](prompts/luminous-ethereal-glassmorphism-onboarding/) · [Midnight Navy Fintech Pricing](prompts/midnight-navy-fintech-pricing-656a6d/) · [Ledgerline — fintech teal/mint startup landing page](prompts/ledgerline-fintech-tealmint-startup-landing-page/)
-
-**E-commerce & Retail** (10): [Brutalist E-commerce Page](prompts/brutalist-e-commerce-page/) · [Brutalist Style Ecommerce Page](prompts/brutalist-style-ecommerce-page/) · [Aura Audio Showroom](prompts/aura-audio-showroom/) · [Super Shampoo - High Conversion LP](prompts/super-shampoo-high-conversion-lp/) · [Blog Page - Editorial Grid Magazine](prompts/blog-page-editorial-grid-magazine/) · [Specs-First Breakdown Product Page](prompts/specs-first-breakdown-product-page/) · [Collection Page- Filtered Product Grid](prompts/collection-page-filtered-product-grid/) · [Cart Drawer- Essential Slide in](prompts/cart-drawer-essential-slide-in/) · [Mobile App / App Store Preview](prompts/mobile-app-app-store-preview/) · [Chronological Content Feed](prompts/chronological-content-feed/)
-
-**Personal & Portfolio** (1): [Bold Editorial Design Style](prompts/bold-editorial-design-style/)
-
-**General** (87): [Tubes Interactive Background](prompts/tubes-interactive-background/) · [High Contrast Landing Page](prompts/high-contrast-landing-page/) · [Deep Red Style](prompts/deep-red-style-5b01cb/) · [Red Noir Style](prompts/red-noir-style/) · [Glassmorphism Style](prompts/glassmorphism-style/) · [Kinetic Orange Style](prompts/kinetic-orange-style/) · [Cinematic Style](prompts/cinematic-style/) · [Luxury-focused Design System](prompts/luxury-focused-design-system/) · [Neural Noir Interface Style](prompts/neural-noir-interface-style/) · [Nature Inspired Style](prompts/nature-inspired-style/) · [Glassmorphism card](prompts/glassmorphism-card/) · [BabyBites - Sophisticated Palette](prompts/babybites-sophisticated-palette/) · [Synapse](prompts/synapse/) · [Hyper-Saturated Fluid](prompts/hyper-saturated-fluid/) · [Midnight Editorial Style](prompts/midnight-editorial-style-5f0a22/)
+Because each prompt is factored into a **style** ([`systems/`](systems/)) and a **structure** ([`page-types/`](page-types/)), they recombine: one curated style renders many pages, one page type renders in many styles. See [`examples/recombine-demo.md`](examples/recombine-demo.md).
+</details>
 
 ## Superdesign vs other AI design tools
 
 <!-- DRAFT: verify each cell before publishing. Keep it factual. -->
+
 | | Superdesign | v0 | Lovable | Bolt | Google Stitch | Uizard |
 |---|---|---|---|---|---|---|
 | Runs inside your coding agent (Claude Code/Cursor) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -350,16 +121,18 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 
 **Do these work with Claude Code and Cursor?** Yes. Install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill) and your agent can search, pull, and apply any prompt here to your codebase.
 
-**What is the best AI design prompt?** Ranked by real usage, the most-copied are [High Contrast Landing Page](https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library), [Glassmorphism](https://superdesign.dev/library/glassmorphism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library), and [Lumina SaaS Landing Page](https://superdesign.dev/library/lumina-saas-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
-
 **What is Superdesign?** An AI product design agent that turns prompts into UI mockups, components, and full designs on an infinite canvas. See [superdesign.dev](https://superdesign.dev?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
 
 **Are the prompts free to use?** The prompt text is free to use. *(Data license TBD — see LICENSE.)*
 
 ## Contributing
 
-Read-only mirror of the live [Superdesign prompt library](https://superdesign.dev/library). Add prompts by creating them in the app (top prompts sync here, ranked by usage). Fixes: open a PR. See `CONTRIBUTING.md`.
+This is a read-only mirror of the live [Superdesign prompt library](https://superdesign.dev/library), auto-synced and ranked by real usage. Add prompts by creating them in the app — top prompts sync here automatically. For fixes to this repo (typos, links, categorization), open a PR. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## License
 
-Repo code/structure: MIT (`LICENSE`). Prompt data: **TBD** (CC0 recommended).
+Repo code and structure: MIT (see [`LICENSE`](LICENSE)). Prompt data license: **TBD** (CC0 recommended — pending decision).
+
+---
+
+<sub>Also available in [简体中文](README.zh-CN.md). The README's gallery, leaderboard, stats, and synced date are auto-generated by `scripts/gen_readme.py` — edit the prose freely, but leave the `<!-- … -->` markers in place.</sub>
