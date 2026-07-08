@@ -134,8 +134,6 @@ Each prompt is being factored into a **style** ([`systems/`](systems/)) and a **
 
 ## Superdesign vs other AI design tools
 
-<!-- DRAFT: verify each cell before publishing. Keep it factual. -->
-
 | | Superdesign | v0 | Lovable | Bolt | Google Stitch | Uizard |
 |---|---|---|---|---|---|---|
 | Runs inside your coding agent (Claude Code/Cursor) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |

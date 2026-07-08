@@ -15,7 +15,7 @@ marked `REVIEW`. Run an LLM pass (or hand-edit) to promote a draft to canonical.
 
 Run: python3 scripts/factor_prompts.py
 """
-import json, re, pathlib, collections
+import json, re, pathlib, collections, shutil
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SYS_DIR = ROOT / "systems"
@@ -271,7 +271,8 @@ Build a {cat.rstrip('s')} using the "<system-id>" design system
 """
     out = PT_DIR / slug
     out.mkdir(parents=True, exist_ok=True)
-    (out / "SKILL.md").write_text(skill)
+    (out / "README.md").write_text(skill)  # renders as the folder page on github.com
+    (out / "SKILL.md").write_text(skill)   # kept: referenced by the recombine workflow
 
 
 def main():
@@ -288,7 +289,27 @@ def main():
         if cat in PAGE_CATEGORIES:
             write_page_type(cat, members)
             n_pt += 1
-    print(f"factored: {n_sys} systems -> systems/  ·  {n_pt} page-types -> page-types/")
+
+    # cleanup: remove orphan folders left by prompts/categories that dropped out
+    keep = {x["slug"] for x in prompts}
+    orphans = 0
+    if SYS_DIR.exists():
+        for p in SYS_DIR.iterdir():
+            if not p.is_dir() or p.name in keep:
+                continue
+            m = p / "manifest.json"  # keep hand-curated systems even if orphaned
+            try:
+                if m.exists() and json.load(open(m)).get("status") == "curated":
+                    continue
+            except (json.JSONDecodeError, OSError):
+                pass
+            shutil.rmtree(p); orphans += 1
+    pt_keep = {slugify(c) for c in by_cat if c in PAGE_CATEGORIES}
+    if PT_DIR.exists():
+        for p in PT_DIR.iterdir():
+            if p.is_dir() and p.name not in pt_keep:
+                shutil.rmtree(p)
+    print(f"factored: {n_sys} systems -> systems/  ·  {n_pt} page-types -> page-types/  ·  cleaned {orphans} orphan systems")
 
 
 if __name__ == "__main__":

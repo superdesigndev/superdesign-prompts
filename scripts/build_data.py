@@ -43,7 +43,10 @@ def page_category(it):
         return "Pricing Pages"
     if has(tags, "auth", "signup", "signin", "login") or has(txt, "login", "sign in", "sign-in", "signup", "sign up"):
         return "Auth & Login"
-    if "dashboard" in T or has(txt, "admin panel", "admin dashboard", "console"): return "Dashboards"
+    # a landing page that merely *shows* a dashboard (tagged 'dashboard' + 'landing') is not a dashboard
+    if "dashboard" in txt or has(txt, "admin panel", "admin dashboard", "console") \
+            or (any("dashboard" in t for t in tl) and not any("landing" in t for t in tl)):
+        return "Dashboards"
     if "onboarding" in T: return "Onboarding"
     if has(tags, "waitlist", "coming-soon") or has(txt, "waitlist", "coming soon", "coming-soon"):
         return "Waitlist & Coming Soon"
