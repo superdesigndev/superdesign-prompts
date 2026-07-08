@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "plume-sign-in-to-your-design-canvas",
+  "name": "Plume · Sign in to your design canvas",
+  "category": "Auth & Login",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "plume-sign-in-to-your-design-canvas"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f7fbff",
+      "#38bdf8",
+      "#0ea5e9",
+      "#0284c7",
+      "#0369a1",
+      "#0c4a6e",
+      "#f0f9ff",
+      "#e0f2fe",
+      "#bae6fd",
+      "#7dd3fc",
+      "#fda4af",
+      "#fb7185",
+      "#f43f5e",
+      "#e11d48",
+      "#0f2030",
+      "#33485c"
+    ],
+    "fonts": []
+  }
+}

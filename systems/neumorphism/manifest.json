@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "neumorphism",
+  "name": "Neumorphism",
+  "category": "Design Systems & Styles",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "neumorphism"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#E0E5EC",
+      "#3D4852",
+      "#6B7280",
+      "#6C63FF",
+      "#8B84FF",
+      "#38B2AC",
+      "#A0AEC0",
+      "#A3B1C6",
+      "#8B95A5"
+    ],
+    "fonts": [
+      "Cool Grey",
+      "Plus Jakarta Sans",
+      "DM Sans"
+    ]
+  }
+}

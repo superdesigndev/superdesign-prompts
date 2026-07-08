@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "aurora-glass-sign-in-to-the-canvas",
+  "name": "Aurora Glass — Sign in to the canvas",
+  "category": "Auth & Login",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "aurora-glass-sign-in-to-the-canvas"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0b0f14",
+      "#2dd4bf",
+      "#e879f9",
+      "#ccfbf1",
+      "#5eead4",
+      "#0f766e",
+      "#fbe9ff",
+      "#f0abfc",
+      "#a21caf",
+      "#38bdf8",
+      "#6366f1",
+      "#312e81"
+    ],
+    "fonts": [
+      "Space Grotesk",
+      "Inter"
+    ]
+  }
+}

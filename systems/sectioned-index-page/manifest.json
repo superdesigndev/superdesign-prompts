@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "sectioned-index-page",
+  "name": "Sectioned Index Page",
+  "category": "Mobile Apps",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "sectioned-index-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FFFFFF",
+      "#111827",
+      "#6B7280",
+      "#9CA3AF",
+      "#F9FAFB",
+      "#F3F4F6",
+      "#000000"
+    ],
+    "fonts": [
+      "Minimalist Editorial",
+      "General Sans"
+    ]
+  }
+}

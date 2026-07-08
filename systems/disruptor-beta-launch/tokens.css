@@ -1,0 +1,14 @@
+/* systems/disruptor-beta-launch/tokens.css — Disruptor Beta Launch
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #000000;  /* REVIEW role */
+  --fg: #121212;  /* REVIEW role */
+  --accent: #FFFFFF;  /* REVIEW role */
+  --surface: #CCFF00;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Ranchers';
+  --font-body: 'Space Mono';
+  --font-mono: 'Space Mono';
+}

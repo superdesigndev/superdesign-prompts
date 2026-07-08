@@ -1,0 +1,7 @@
+/* systems/the-stacking-cards-effect/tokens.css — The "Stacking Cards" Effect
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- typography --- */
+  --font-display: 'Stacking Cards';
+}

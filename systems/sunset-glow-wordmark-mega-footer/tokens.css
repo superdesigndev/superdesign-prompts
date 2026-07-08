@@ -1,0 +1,17 @@
+/* systems/sunset-glow-wordmark-mega-footer/tokens.css — Sunset Glow Wordmark Mega Footer
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #0a0608;  /* REVIEW role */
+  --fg: #ffa23a;  /* REVIEW role */
+  --accent: #ff7322;  /* REVIEW role */
+  --surface: #ff4a2a;  /* REVIEW role */
+  --muted: #ed2a7e;  /* REVIEW role */
+  --border: #7a1648;  /* REVIEW role */
+  --color-7: #1b0a14;
+  --color-8: #ff6a2c;
+  --color-9: #ff8a3d;
+  --color-10: #ff4d8d;
+  --color-11: #e8228e;
+}

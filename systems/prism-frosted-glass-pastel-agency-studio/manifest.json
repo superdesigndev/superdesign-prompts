@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "prism-frosted-glass-pastel-agency-studio",
+  "name": "Prism — Frosted-Glass Pastel Agency Studio",
+  "category": "Portfolios",
+  "industry": "Agency & Studio",
+  "source": {
+    "type": "prompt",
+    "slug": "prism-frosted-glass-pastel-agency-studio"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#fbfcff",
+      "#ffd8c2",
+      "#cfe3ff",
+      "#d3f5e3",
+      "#15161b",
+      "#5c606e",
+      "#e88a5a",
+      "#d9743f",
+      "#4f8cd6",
+      "#3f72c4",
+      "#3fae7a"
+    ],
+    "fonts": [
+      "Most loved",
+      "Inter",
+      "See the work"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "editorial-violet-saas-pricing-matrix",
+  "name": "Editorial Violet SaaS Pricing Matrix",
+  "category": "Pricing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "editorial-violet-saas-pricing-matrix"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#fbfbfa",
+      "#eceae5",
+      "#5b4af0",
+      "#efedfd",
+      "#c9f24a",
+      "#0f1115",
+      "#2b3038",
+      "#4a525f",
+      "#6b7480",
+      "#9aa2ad",
+      "#ffffff",
+      "#4536c4"
+    ],
+    "fonts": [
+      "Space Grotesk",
+      "Inter",
+      "JetBrains Mono"
+    ]
+  }
+}

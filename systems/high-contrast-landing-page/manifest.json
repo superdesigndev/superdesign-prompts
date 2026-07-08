@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "high-contrast-landing-page",
+  "name": "High Contrast Landing Page",
+  "category": "Landing Pages",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "high-contrast-landing-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f2f2f2",
+      "#111111",
+      "#bfbfbf",
+      "#d9d9d9",
+      "#b6b5b5",
+      "#838282"
+    ],
+    "fonts": [
+      "Clash Display",
+      "Satoshi"
+    ]
+  }
+}

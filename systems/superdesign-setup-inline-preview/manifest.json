@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "superdesign-setup-inline-preview",
+  "name": "Superdesign Setup - Inline Preview",
+  "category": "Onboarding",
+  "industry": "AI & Tech",
+  "source": {
+    "type": "prompt",
+    "slug": "superdesign-setup-inline-preview"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#10b981",
+      "#e4e4e7",
+      "#27272a",
+      "#FFFFFF",
+      "#09090B",
+      "#18181B",
+      "#F4F4F5"
+    ],
+    "fonts": [
+      "Technical Minimalist",
+      "Live",
+      "Inter",
+      "JetBrains Mono"
+    ]
+  }
+}

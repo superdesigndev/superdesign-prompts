@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "analytics-dashboard",
+  "name": "Stripe-Enterprise (from Analytics dashboard)",
+  "category": "Dashboards",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "analytics-dashboard"
+  },
+  "status": "curated",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#F8F9FA",
+      "#FFFFFF",
+      "#3B82F6",
+      "#22C55E",
+      "#F59E0B",
+      "#E9ECEF",
+      "#2563EB",
+      "#212529",
+      "#868E96",
+      "#10B981",
+      "#EF4444"
+    ],
+    "fonts": [
+      "Modern Professional Enterprise",
+      "Inter",
+      "JetBrains Mono"
+    ]
+  }
+}

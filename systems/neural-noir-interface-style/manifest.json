@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "neural-noir-interface-style",
+  "name": "Neural Noir Interface Style",
+  "category": "Design Systems & Styles",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "neural-noir-interface-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0a0a",
+      "#a78b71",
+      "#c9b8a0",
+      "#e8d5b7"
+    ],
+    "fonts": [
+      "Playfair Display",
+      "Inter"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "loop-say-hello-we-dont-bite-friendly-illustrated-sky",
+  "name": "Loop · Say hello, we don't bite (friendly illustrated sky)",
+  "category": "Forms & Contact",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "loop-say-hello-we-dont-bite-friendly-illustrated-sky"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f0f9ff",
+      "#bae6fd",
+      "#fecdd3",
+      "#38bdf8",
+      "#0ea5e9",
+      "#0c4a6e",
+      "#fb7185",
+      "#f43f5e",
+      "#be123c",
+      "#475569",
+      "#0369a1",
+      "#ffffff",
+      "#08344d",
+      "#67e8f9"
+    ],
+    "fonts": [
+      "Let",
+      "Loop",
+      "Contact",
+      "Log in",
+      "Fast replies"
+    ]
+  }
+}

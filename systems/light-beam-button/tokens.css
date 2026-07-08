@@ -1,0 +1,14 @@
+/* systems/light-beam-button/tokens.css — Light Beam Button
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #8b5cf6;  /* REVIEW role */
+  --fg: #06b6d4;  /* REVIEW role */
+  --accent: #030303;  /* REVIEW role */
+  --surface: #000000;  /* REVIEW role */
+  --muted: #1a1a1a;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Action';
+  --font-body: 'Clicked';
+}

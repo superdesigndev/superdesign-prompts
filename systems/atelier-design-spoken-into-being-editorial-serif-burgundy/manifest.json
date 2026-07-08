@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "atelier-design-spoken-into-being-editorial-serif-burgundy",
+  "name": "Atelier — Design, Spoken Into Being (editorial serif / burgundy)",
+  "category": "Forms & Contact",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "atelier-design-spoken-into-being-editorial-serif-burgundy"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#faf6ef",
+      "#1c1815",
+      "#7b2d3b"
+    ],
+    "fonts": []
+  }
+}

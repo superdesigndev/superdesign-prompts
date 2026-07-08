@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "side-drawer-navigation",
+  "name": "Side drawer navigation",
+  "category": "Mobile Apps",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "side-drawer-navigation"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": [
+      "Manrope",
+      "Closed State",
+      "DOMContentLoaded"
+    ]
+  }
+}

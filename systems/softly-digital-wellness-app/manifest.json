@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "softly-digital-wellness-app",
+  "name": "Softly - Digital Wellness App",
+  "category": "Waitlist & Coming Soon",
+  "industry": "Health & Wellness",
+  "source": {
+    "type": "prompt",
+    "slug": "softly-digital-wellness-app"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#292524",
+      "#FDFCF8",
+      "#E8EFE8",
+      "#EFEDF4",
+      "#FFB7B2",
+      "#78716C"
+    ],
+    "fonts": [
+      "Digital Minimalism",
+      "Outfit",
+      "Reenie Beanie",
+      "Digital Wellness"
+    ]
+  }
+}

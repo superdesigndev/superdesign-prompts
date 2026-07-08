@@ -1,0 +1,14 @@
+/* systems/specs-first-breakdown-product-page/tokens.css — Specs-First Breakdown Product Page
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #FFFFFF;  /* REVIEW role */
+  --fg: #171717;  /* REVIEW role */
+  --accent: #E5E5E5;  /* REVIEW role */
+  --surface: #f5f5f5;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'General Sans';
+  --font-body: 'JetBrains Mono';
+  --font-mono: 'JetBrains Mono';
+}

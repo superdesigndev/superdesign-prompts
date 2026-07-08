@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "coverflow-carousels-that-turn-heads-dark-coverflow-aurora",
+  "name": "Coverflow — Carousels that turn heads (dark coverflow aurora)",
+  "category": "Mobile Apps",
+  "industry": "AI & Tech",
+  "source": {
+    "type": "prompt",
+    "slug": "coverflow-carousels-that-turn-heads-dark-coverflow-aurora"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0b0f14",
+      "#2dd4bf",
+      "#e879f9",
+      "#0e141b",
+      "#7defe0",
+      "#000"
+    ],
+    "fonts": [
+      "Start free",
+      "Inter",
+      "Space Grotesk"
+    ]
+  }
+}

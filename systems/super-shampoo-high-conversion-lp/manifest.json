@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "super-shampoo-high-conversion-lp",
+  "name": "Super Shampoo - High Conversion LP",
+  "category": "E-commerce",
+  "industry": "E-commerce & Retail",
+  "source": {
+    "type": "prompt",
+    "slug": "super-shampoo-high-conversion-lp"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FDFCF8",
+      "#1C1C1C",
+      "#E2E8E4",
+      "#D4AF37",
+      "#DC2626",
+      "#F5F5F0"
+    ],
+    "fonts": [
+      "Earth and Stone",
+      "Clinical Luxury",
+      "General Sans",
+      "Switzer",
+      "Add to Cart"
+    ]
+  }
+}

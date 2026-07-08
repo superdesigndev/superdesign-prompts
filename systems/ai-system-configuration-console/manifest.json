@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "ai-system-configuration-console",
+  "name": "AI System Configuration Console",
+  "category": "Dashboards",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "ai-system-configuration-console"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0f1115",
+      "#d4ff00",
+      "#050608",
+      "#2d333b",
+      "#cbd5e1",
+      "#64748b",
+      "#151B23",
+      "#30363D",
+      "#E6EDF3",
+      "#8B949E"
+    ],
+    "fonts": [
+      "Inter",
+      "JetBrains Mono",
+      "AI Operating Console"
+    ]
+  }
+}

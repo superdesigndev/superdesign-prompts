@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "the-quote-set-in-burgundy",
+  "name": "The Quote, Set in Burgundy",
+  "category": "Blog & Editorial",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "the-quote-set-in-burgundy"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#faf6ef",
+      "#1c1815",
+      "#7b2d3b"
+    ],
+    "fonts": [
+      "Fraunces",
+      "Inter"
+    ]
+  }
+}

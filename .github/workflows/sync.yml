@@ -1,0 +1,45 @@
+name: Sync prompts & regenerate README
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday 06:00 UTC
+  workflow_dispatch: {}   # manual "Run workflow" button
+  push:
+    paths:
+      - "prompts.json"
+      - "data/all-prompts.json"
+      - "scripts/gen_readme.py"
+
+permissions:
+  contents: write
+
+jobs:
+  regen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # If/when a live pull is wired up, fetch the latest library into
+      # prompts.json / data/all-prompts.json here (e.g. `superdesign export`
+      # or a curl to the public library API), then regenerate below.
+      # - name: Pull latest prompts
+      #   run: ./scripts/pull-prompts.sh
+
+      - name: Regenerate README (gallery, leaderboard, stats, synced date)
+        run: python3 scripts/gen_readme.py
+
+      - name: Commit changes if any
+        run: |
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: auto-sync README ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No changes to commit."
+          fi

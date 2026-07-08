@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "atelier-mono-uppercase-fashion-legibility-fixed",
+  "name": "ATELIER — Mono Uppercase Fashion (legibility-fixed)",
+  "category": "E-commerce",
+  "industry": "Fashion & Beauty",
+  "source": {
+    "type": "prompt",
+    "slug": "atelier-mono-uppercase-fashion-legibility-fixed"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0a0a",
+      "#ffffff"
+    ],
+    "fonts": [
+      "ATELIER"
+    ]
+  }
+}

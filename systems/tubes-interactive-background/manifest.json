@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "tubes-interactive-background",
+  "name": "Tubes Interactive Background",
+  "category": "Animations & Backgrounds",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "tubes-interactive-background"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f967fb",
+      "#53bc28",
+      "#6958d5",
+      "#83f36e",
+      "#fe8a2e",
+      "#ff008a",
+      "#60aed5"
+    ],
+    "fonts": [
+      "Interactive neon tubes 3D cursor effect background"
+    ]
+  }
+}

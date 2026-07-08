@@ -1,0 +1,13 @@
+/* systems/hero-sticky-action-detail/tokens.css — Hero + Sticky Action Detail
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #E5E7EB;  /* REVIEW role */
+  --fg: #FFFFFF;  /* REVIEW role */
+  --accent: #F9FAFB;  /* REVIEW role */
+  --surface: #71717A;  /* REVIEW role */
+  --muted: #111827;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Satoshi';
+}

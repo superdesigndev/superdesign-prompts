@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "lumina-saas-landing-page",
+  "name": "Lumina SaaS Landing Page",
+  "category": "Landing Pages",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "lumina-saas-landing-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#ffe17c",
+      "#171e19",
+      "#b7c6c2",
+      "#ffffff",
+      "#000000"
+    ],
+    "fonts": [
+      "Cabinet Grotesk",
+      "Satoshi",
+      "Hard Shadows"
+    ]
+  }
+}

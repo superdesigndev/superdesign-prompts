@@ -1,0 +1,18 @@
+/* systems/neumorphism/tokens.css — Neumorphism
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #E0E5EC;  /* REVIEW role */
+  --fg: #3D4852;  /* REVIEW role */
+  --accent: #6B7280;  /* REVIEW role */
+  --surface: #6C63FF;  /* REVIEW role */
+  --muted: #8B84FF;  /* REVIEW role */
+  --border: #38B2AC;  /* REVIEW role */
+  --color-7: #A0AEC0;
+  --color-8: #A3B1C6;
+  --color-9: #8B95A5;
+  /* --- typography --- */
+  --font-display: 'Cool Grey';
+  --font-body: 'Plus Jakarta Sans';
+}

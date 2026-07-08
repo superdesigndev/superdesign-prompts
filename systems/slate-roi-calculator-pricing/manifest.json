@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "slate-roi-calculator-pricing",
+  "name": "Slate ROI-Calculator Pricing",
+  "category": "Pricing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "slate-roi-calculator-pricing"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0f14",
+      "#0c1219",
+      "#0e151d",
+      "#121b25",
+      "#16202c",
+      "#1b2734",
+      "#22313f",
+      "#33485b",
+      "#5a7287",
+      "#7c93a6",
+      "#a3b5c4",
+      "#34e89e",
+      "#4dffb0",
+      "#1faf78",
+      "#0d3a2c",
+      "#ffffff"
+    ],
+    "fonts": [
+      "Space Grotesk",
+      "Inter",
+      "JetBrains Mono"
+    ]
+  }
+}

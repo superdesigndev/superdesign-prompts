@@ -1,0 +1,17 @@
+/* systems/loam-warm-earthy-organic-agency-website/tokens.css — Loam — Warm Earthy Organic Agency Website
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #efe7d8;  /* REVIEW role */
+  --fg: #c4633f;  /* REVIEW role */
+  --accent: #6b7048;  /* REVIEW role */
+  --surface: #cf9a6f;  /* REVIEW role */
+  --muted: #2b251d;  /* REVIEW role */
+  --border: #e6dac5;  /* REVIEW role */
+  --color-7: #f6f0e4;
+  --color-8: #a64f30;
+  --color-9: #565a39;
+  --color-10: #dcae84;
+  --color-11: #5c5345;
+}

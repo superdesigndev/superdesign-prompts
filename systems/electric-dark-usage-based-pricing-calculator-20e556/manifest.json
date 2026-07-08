@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "electric-dark-usage-based-pricing-calculator-20e556",
+  "name": "Electric Dark Usage-Based Pricing Calculator",
+  "category": "Pricing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "electric-dark-usage-based-pricing-calculator-20e556"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0B0C12",
+      "#11131C",
+      "#161927",
+      "#232739",
+      "#8A90A6",
+      "#B6BBD0",
+      "#FFFFFF",
+      "#C6F24E",
+      "#7C6CFF",
+      "#5B4BE0"
+    ],
+    "fonts": [
+      "Space Grotesk",
+      "Inter",
+      "JetBrains Mono"
+    ]
+  }
+}

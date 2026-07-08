@@ -1,0 +1,13 @@
+/* systems/brutalist-style-ecommerce-page/tokens.css — Brutalist Style Ecommerce Page
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #E3E2DE;  /* REVIEW role */
+  --fg: #1B0E0D;  /* REVIEW role */
+  --accent: #C72A09;  /* REVIEW role */
+  --surface: #31EF07;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Raw';
+  --font-body: 'Clash Grotesk';
+}

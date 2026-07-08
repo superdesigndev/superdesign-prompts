@@ -1,0 +1,17 @@
+/* systems/superdesign-setup-inline-preview/tokens.css — Superdesign Setup - Inline Preview
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #10b981;  /* REVIEW role */
+  --fg: #e4e4e7;  /* REVIEW role */
+  --accent: #27272a;  /* REVIEW role */
+  --surface: #FFFFFF;  /* REVIEW role */
+  --muted: #09090B;  /* REVIEW role */
+  --border: #18181B;  /* REVIEW role */
+  --color-7: #F4F4F5;
+  /* --- typography --- */
+  --font-display: 'Technical Minimalist';
+  --font-body: 'Live';
+  --font-mono: 'JetBrains Mono';
+}

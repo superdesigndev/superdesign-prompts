@@ -1,0 +1,22 @@
+/* systems/sign-in-to-verdant-classic-split-emerald/tokens.css — Sign in to Verdant — Classic Split (Emerald)
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #ffffff;  /* REVIEW role */
+  --fg: #0f172a;  /* REVIEW role */
+  --accent: #64748b;  /* REVIEW role */
+  --surface: #94a3b8;  /* REVIEW role */
+  --muted: #334155;  /* REVIEW role */
+  --border: #059669;  /* REVIEW role */
+  --color-7: #047857;
+  --color-8: #065f46;
+  --color-9: #10b981;
+  --color-10: #6ee7b7;
+  --color-11: #34d399;
+  --color-12: #ecfdf5;
+  --color-13: #d1fae5;
+  --color-14: #f8fafc;
+  --color-15: #f1f5f9;
+  --color-16: #e2e8f0;
+}

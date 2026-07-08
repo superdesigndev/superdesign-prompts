@@ -1,0 +1,14 @@
+/* systems/babybites-sophisticated-palette/tokens.css — BabyBites - Sophisticated Palette
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #171e19;  /* REVIEW role */
+  --fg: #ca0013;  /* REVIEW role */
+  --accent: #b7c6c2;  /* REVIEW role */
+  --surface: #eeebe3;  /* REVIEW role */
+  --muted: #ffffff;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Sophisticated Playful';
+  --font-body: 'Nunito';
+}

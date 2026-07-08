@@ -1,0 +1,14 @@
+/* systems/clean-fluid/tokens.css — Clean fluid
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #fcfbf9;  /* REVIEW role */
+  --fg: #171717;  /* REVIEW role */
+  --accent: #4338ca;  /* REVIEW role */
+  --surface: #e5e5e5;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Premium Fluidity';
+  --font-body: 'Playfair Display';
+  --font-mono: 'JetBrains Mono';
+}

@@ -1,0 +1,14 @@
+/* systems/aura-audio-showroom/tokens.css — Aura Audio Showroom
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #FAF7F5;  /* REVIEW role */
+  --fg: #1C1917;  /* REVIEW role */
+  --accent: #A67B5B;  /* REVIEW role */
+  --surface: #E2E8F0;  /* REVIEW role */
+  --muted: #F5F5F4;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Cabinet Grotesk';
+  --font-body: 'Satoshi';
+}

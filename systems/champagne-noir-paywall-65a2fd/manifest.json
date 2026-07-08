@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "champagne-noir-paywall-65a2fd",
+  "name": "Champagne Noir Paywall",
+  "category": "Pricing Pages",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "champagne-noir-paywall-65a2fd"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#080706",
+      "#0c0b0a",
+      "#161412",
+      "#211d18",
+      "#f6e6bd",
+      "#d9b25f",
+      "#b98f3e",
+      "#f4ecdd",
+      "#9b8f7c"
+    ],
+    "fonts": [
+      "Champagne Noir",
+      "Start free trial"
+    ]
+  }
+}

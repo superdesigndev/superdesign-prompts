@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "architectural-type-system-style",
+  "name": "Architectural Type System Style",
+  "category": "Waitlist & Coming Soon",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "architectural-type-system-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#6366f1"
+    ],
+    "fonts": [
+      "Inter Tight",
+      "JetBrains Mono",
+      "Inter"
+    ]
+  }
+}

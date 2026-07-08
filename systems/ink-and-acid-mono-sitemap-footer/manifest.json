@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "ink-and-acid-mono-sitemap-footer",
+  "name": "Ink & Acid Mono Sitemap Footer",
+  "category": "Forms & Contact",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "ink-and-acid-mono-sitemap-footer"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0c0b",
+      "#101413",
+      "#161b19",
+      "#1c2321",
+      "#283230",
+      "#5ff2a6",
+      "#27e08a",
+      "#16c476"
+    ],
+    "fonts": []
+  }
+}

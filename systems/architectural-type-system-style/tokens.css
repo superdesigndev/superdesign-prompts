@@ -1,0 +1,13 @@
+/* systems/architectural-type-system-style/tokens.css — Architectural Type System Style
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #000000;  /* REVIEW role */
+  --fg: #FFFFFF;  /* REVIEW role */
+  --accent: #6366f1;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Inter Tight';
+  --font-body: 'JetBrains Mono';
+  --font-mono: 'JetBrains Mono';
+}

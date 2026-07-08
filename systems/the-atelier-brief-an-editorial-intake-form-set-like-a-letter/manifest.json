@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "the-atelier-brief-an-editorial-intake-form-set-like-a-letter",
+  "name": "The Atelier Brief — an editorial intake form, set like a letter",
+  "category": "Forms & Contact",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "the-atelier-brief-an-editorial-intake-form-set-like-a-letter"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#faf6ef",
+      "#f3ecdf",
+      "#1c1815",
+      "#54493f",
+      "#7b2d3b",
+      "#5e1f2b",
+      "#c98a93",
+      "#e3aab2"
+    ],
+    "fonts": [
+      "Selected work",
+      "Submit the brief"
+    ]
+  }
+}

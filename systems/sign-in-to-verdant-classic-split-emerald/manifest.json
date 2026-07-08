@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "sign-in-to-verdant-classic-split-emerald",
+  "name": "Sign in to Verdant — Classic Split (Emerald)",
+  "category": "Auth & Login",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "sign-in-to-verdant-classic-split-emerald"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#ffffff",
+      "#0f172a",
+      "#64748b",
+      "#94a3b8",
+      "#334155",
+      "#059669",
+      "#047857",
+      "#065f46",
+      "#10b981",
+      "#6ee7b7",
+      "#34d399",
+      "#ecfdf5",
+      "#d1fae5",
+      "#f8fafc",
+      "#f1f5f9",
+      "#e2e8f0"
+    ],
+    "fonts": []
+  }
+}

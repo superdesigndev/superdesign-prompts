@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "light-beam-button",
+  "name": "Light Beam Button",
+  "category": "Components",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "light-beam-button"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#8b5cf6",
+      "#06b6d4",
+      "#030303",
+      "#000000",
+      "#1a1a1a"
+    ],
+    "fonts": [
+      "Action",
+      "Clicked"
+    ]
+  }
+}

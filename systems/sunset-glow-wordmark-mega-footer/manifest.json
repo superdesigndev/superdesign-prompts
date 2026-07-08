@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "sunset-glow-wordmark-mega-footer",
+  "name": "Sunset Glow Wordmark Mega Footer",
+  "category": "Forms & Contact",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "sunset-glow-wordmark-mega-footer"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0608",
+      "#ffa23a",
+      "#ff7322",
+      "#ff4a2a",
+      "#ed2a7e",
+      "#7a1648",
+      "#1b0a14",
+      "#ff6a2c",
+      "#ff8a3d",
+      "#ff4d8d",
+      "#e8228e"
+    ],
+    "fonts": []
+  }
+}

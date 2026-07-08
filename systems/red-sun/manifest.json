@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "red-sun",
+  "name": "Red sun",
+  "category": "Landing Pages",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "red-sun"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#EF4623",
+      "#2D3B42",
+      "#FDF1EE"
+    ],
+    "fonts": [
+      "Instrument Serif",
+      "Manrope",
+      "Soft Peach",
+      "Coral and Ink",
+      "Red Sun"
+    ]
+  }
+}

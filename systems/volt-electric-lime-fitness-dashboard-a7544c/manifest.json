@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "volt-electric-lime-fitness-dashboard-a7544c",
+  "name": "Volt — Electric-Lime Fitness Dashboard",
+  "category": "Dashboards",
+  "industry": "Health & Wellness",
+  "source": {
+    "type": "prompt",
+    "slug": "volt-electric-lime-fitness-dashboard-a7544c"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#070A06",
+      "#10130C",
+      "#191E13",
+      "#C6F135",
+      "#A3E635",
+      "#22E3DA",
+      "#EFFAE0",
+      "#C4CDB6"
+    ],
+    "fonts": []
+  }
+}

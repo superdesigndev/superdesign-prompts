@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "synapse",
+  "name": "Synapse",
+  "category": "Landing Pages",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "synapse"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#030303",
+      "#8B5CF6",
+      "#06B6D4",
+      "#10B981",
+      "#a78bfa",
+      "#ffffff",
+      "#22d3ee"
+    ],
+    "fonts": [
+      "Vantablack",
+      "Instrument Serif",
+      "Inter"
+    ]
+  }
+}

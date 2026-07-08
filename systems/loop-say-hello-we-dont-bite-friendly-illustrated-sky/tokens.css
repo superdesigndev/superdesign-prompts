@@ -1,0 +1,23 @@
+/* systems/loop-say-hello-we-dont-bite-friendly-illustrated-sky/tokens.css — Loop · Say hello, we don't bite (friendly illustrated sky)
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #f0f9ff;  /* REVIEW role */
+  --fg: #bae6fd;  /* REVIEW role */
+  --accent: #fecdd3;  /* REVIEW role */
+  --surface: #38bdf8;  /* REVIEW role */
+  --muted: #0ea5e9;  /* REVIEW role */
+  --border: #0c4a6e;  /* REVIEW role */
+  --color-7: #fb7185;
+  --color-8: #f43f5e;
+  --color-9: #be123c;
+  --color-10: #475569;
+  --color-11: #0369a1;
+  --color-12: #ffffff;
+  --color-13: #08344d;
+  --color-14: #67e8f9;
+  /* --- typography --- */
+  --font-display: 'Let';
+  --font-body: 'Loop';
+}

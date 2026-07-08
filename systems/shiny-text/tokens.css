@@ -1,0 +1,16 @@
+/* systems/shiny-text/tokens.css — Shiny Text
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #b5b5b5;  /* REVIEW role */
+  --fg: #ffffff;  /* REVIEW role */
+  --accent: #888888;  /* REVIEW role */
+  --surface: #3b82f6;  /* REVIEW role */
+  --muted: #1A1A1B;  /* REVIEW role */
+  --border: #222224;  /* REVIEW role */
+  --color-7: #ec4899;
+  /* --- typography --- */
+  --font-display: 'Shiny Text';
+  --font-body: 'Hover to pause';
+}

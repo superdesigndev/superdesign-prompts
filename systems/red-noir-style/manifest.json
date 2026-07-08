@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "red-noir-style",
+  "name": "Red Noir Style",
+  "category": "Design Systems & Styles",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "red-noir-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#ef233c",
+      "#000000",
+      "#fff",
+      "#1a0505",
+      "#3b82f6"
+    ],
+    "fonts": [
+      "Manrope",
+      "Inter",
+      "M0 5 Q 50 10 100 5",
+      "Enter your email"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "one-pager",
+  "name": "One Pager",
+  "category": "Landing Pages",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "one-pager"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0b0b0c",
+      "#111111",
+      "#f4f1ea"
+    ],
+    "fonts": [
+      "Schedule a strategy call"
+    ]
+  }
+}

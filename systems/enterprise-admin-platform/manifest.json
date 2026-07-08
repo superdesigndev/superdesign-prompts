@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "enterprise-admin-platform",
+  "name": "Enterprise Admin Platform",
+  "category": "Dashboards",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "enterprise-admin-platform"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#020617",
+      "#2563eb",
+      "#e2e8f0",
+      "#151e2e",
+      "#ffffff",
+      "#f8fafc",
+      "#16a34a",
+      "#d97706",
+      "#dc2626"
+    ],
+    "fonts": [
+      "Corporate Professional",
+      "Satoshi"
+    ]
+  }
+}

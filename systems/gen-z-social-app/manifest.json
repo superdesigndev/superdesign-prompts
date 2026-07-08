@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "gen-z-social-app",
+  "name": "Gen-Z Social App",
+  "category": "Waitlist & Coming Soon",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "gen-z-social-app"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#ccff00",
+      "#7000ff",
+      "#ff0099",
+      "#0a0a0a",
+      "#000000"
+    ],
+    "fonts": [
+      "Space Grotesk",
+      "DM Sans"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "midnight-editorial-style-5f0a22",
+  "name": "Midnight Editorial Style",
+  "category": "Design Systems & Styles",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "midnight-editorial-style-5f0a22"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#050505",
+      "#FF6B50",
+      "#ebebeb",
+      "#888888",
+      "#1a1a1a",
+      "#333333",
+      "#222222",
+      "#E55A40",
+      "#666666",
+      "#111111",
+      "#161616",
+      "#444444",
+      "#4F46E5",
+      "#7C3AED",
+      "#e5e5e5",
+      "#f5f5f5"
+    ],
+    "fonts": [
+      "Satoshi",
+      "Inter",
+      "Dashboard",
+      "Global",
+      "Mobile",
+      "Services"
+    ]
+  }
+}

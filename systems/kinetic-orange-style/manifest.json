@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "kinetic-orange-style",
+  "name": "Kinetic Orange Style",
+  "category": "Design Systems & Styles",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "kinetic-orange-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FF4D00",
+      "#000000",
+      "#FFFFFF"
+    ],
+    "fonts": [
+      "Archivo Black",
+      "Space Mono",
+      "Inter",
+      "Kinetic Orange"
+    ]
+  }
+}

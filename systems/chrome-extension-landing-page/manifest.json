@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "chrome-extension-landing-page",
+  "name": "Chrome Extension Landing Page",
+  "category": "E-commerce",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "chrome-extension-landing-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f3f4f6",
+      "#ffffff",
+      "#e5e7eb",
+      "#06B6D4",
+      "#d1d5db"
+    ],
+    "fonts": [
+      "DevTools",
+      "Inter",
+      "JetBrains Mono"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "superdesign-editorial-waitlist",
+  "name": "Superdesign Editorial Waitlist",
+  "category": "Waitlist & Coming Soon",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "superdesign-editorial-waitlist"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#181818",
+      "#EBDCC4",
+      "#DC9F85",
+      "#B6A596",
+      "#66473B",
+      "#35211A"
+    ],
+    "fonts": [
+      "Cinematic Editorial",
+      "Clash Grotesk",
+      "General Sans"
+    ]
+  }
+}

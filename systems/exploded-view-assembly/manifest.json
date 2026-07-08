@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "exploded-view-assembly",
+  "name": "\"Exploded View\" Assembly",
+  "category": "Animations & Backgrounds",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "exploded-view-assembly"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": [
+      "Exploded View"
+    ]
+  }
+}

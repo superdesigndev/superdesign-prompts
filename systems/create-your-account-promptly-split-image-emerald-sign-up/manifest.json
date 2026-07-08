@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "create-your-account-promptly-split-image-emerald-sign-up",
+  "name": "Create your account · Promptly — split-image emerald sign-up",
+  "category": "Auth & Login",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "create-your-account-promptly-split-image-emerald-sign-up"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f8fafc",
+      "#f1f5f9",
+      "#e2e8f0",
+      "#cbd5e1",
+      "#94a3b8",
+      "#64748b",
+      "#475569",
+      "#334155",
+      "#1e293b",
+      "#0f172a",
+      "#020617",
+      "#ecfdf5",
+      "#d1fae5",
+      "#a7f3d0",
+      "#6ee7b7",
+      "#34d399"
+    ],
+    "fonts": []
+  }
+}

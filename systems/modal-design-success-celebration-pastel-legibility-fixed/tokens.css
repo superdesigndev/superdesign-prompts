@@ -1,0 +1,20 @@
+/* systems/modal-design-success-celebration-pastel-legibility-fixed/tokens.css — Modal Design · success-celebration (pastel) — legibility fixed
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #38bdf8;  /* REVIEW role */
+  --fg: #fb7185;  /* REVIEW role */
+  --accent: #0369a1;  /* REVIEW role */
+  --surface: #be123c;  /* REVIEW role */
+  --muted: #075985;  /* REVIEW role */
+  --border: #1f2433;  /* REVIEW role */
+  --color-7: #5b6172;
+  --color-8: #eaf6fd;
+  --color-9: #e9f7ff;
+  --color-10: #fdeef0;
+  --color-11: #f3fbff;
+  --color-12: #fdf9f3;
+  /* --- typography --- */
+  --font-display: 'Continue to dashboard';
+}

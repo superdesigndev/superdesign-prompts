@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "welcome-back-lumen-centered-card-true-cobalt",
+  "name": "Welcome back · Lumen — centered-card (true cobalt)",
+  "category": "Auth & Login",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "welcome-back-lumen-centered-card-true-cobalt"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#2563eb",
+      "#eef0ff",
+      "#dde2ff",
+      "#c2caff",
+      "#9aa6ff",
+      "#6b78f6",
+      "#3f46e8",
+      "#2a2fd4",
+      "#1f24ad",
+      "#1a2289",
+      "#171f6b",
+      "#0e1347",
+      "#f4f5fb",
+      "#101524",
+      "#454c66",
+      "#5e667f"
+    ],
+    "fonts": []
+  }
+}

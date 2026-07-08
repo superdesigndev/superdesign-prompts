@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "bold-editorial-studio-style",
+  "name": "Bold Editorial Studio Style",
+  "category": "Design Systems & Styles",
+  "industry": "Agency & Studio",
+  "source": {
+    "type": "prompt",
+    "slug": "bold-editorial-studio-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#000000",
+      "#FFFFFF",
+      "#525252",
+      "#737373",
+      "#0A0A0A"
+    ],
+    "fonts": [
+      "Inter"
+    ]
+  }
+}

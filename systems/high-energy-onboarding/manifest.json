@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "high-energy-onboarding",
+  "name": "High energy onboarding",
+  "category": "Onboarding",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "high-energy-onboarding"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#2D1B4E",
+      "#FF7D2E",
+      "#00D4FF",
+      "#FFD166",
+      "#F9F7F4"
+    ],
+    "fonts": [
+      "Clash Display",
+      "Satoshi",
+      "Hard Shadows"
+    ]
+  }
+}

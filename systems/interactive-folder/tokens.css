@@ -1,0 +1,15 @@
+/* systems/interactive-folder/tokens.css — Interactive Folder
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #5227FF;  /* REVIEW role */
+  --fg: #F9F9F9;  /* REVIEW role */
+  --accent: #FF3366;  /* REVIEW role */
+  --surface: #00D1FF;  /* REVIEW role */
+  --muted: #1A1A1B;  /* REVIEW role */
+  --border: #ffffff;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'DOCUMENTS';
+  --font-body: 'RESOURCES';
+}

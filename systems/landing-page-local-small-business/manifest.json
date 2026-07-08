@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "landing-page-local-small-business",
+  "name": "Landing Page / Local Small Business",
+  "category": "Landing Pages",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "landing-page-local-small-business"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": [
+      "Get directions"
+    ]
+  }
+}

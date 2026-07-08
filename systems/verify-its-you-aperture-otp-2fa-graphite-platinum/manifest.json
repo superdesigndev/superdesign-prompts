@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "verify-its-you-aperture-otp-2fa-graphite-platinum",
+  "name": "Verify it's you · Aperture (OTP / 2FA, graphite-platinum)",
+  "category": "Auth & Login",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "verify-its-you-aperture-otp-2fa-graphite-platinum"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f6f5f2",
+      "#efeee9",
+      "#1c1c1e",
+      "#c7c7cc",
+      "#9a9aa0",
+      "#222224",
+      "#2c2c2e",
+      "#3a3a3c",
+      "#d6d6db"
+    ],
+    "fonts": [
+      "Inter"
+    ]
+  }
+}

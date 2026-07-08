@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "glow-cursor-button",
+  "name": "Glow Cursor Button",
+  "category": "Components",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "glow-cursor-button"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": []
+  }
+}

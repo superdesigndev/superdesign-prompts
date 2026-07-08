@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "design-at-the-speed-of-thought-editorial-split-sign-up",
+  "name": "Design at the Speed of Thought — Editorial Split Sign-Up",
+  "category": "Auth & Login",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "design-at-the-speed-of-thought-editorial-split-sign-up"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#faf6ef",
+      "#7b2d3b",
+      "#1c1815",
+      "#a9485a",
+      "#5e202b",
+      "#f3ecdf",
+      "#2a241f",
+      "#ffffff",
+      "#d8cdbb",
+      "#fffdfa",
+      "#a89a85",
+      "#9a8c77",
+      "#b9ab95"
+    ],
+    "fonts": [
+      "Fraunces",
+      "Georgia",
+      "Inter",
+      "Create account",
+      "Trusted in the studios shipping fastest"
+    ]
+  }
+}

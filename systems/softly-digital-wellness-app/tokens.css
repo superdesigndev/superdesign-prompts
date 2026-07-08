@@ -1,0 +1,15 @@
+/* systems/softly-digital-wellness-app/tokens.css — Softly - Digital Wellness App
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #292524;  /* REVIEW role */
+  --fg: #FDFCF8;  /* REVIEW role */
+  --accent: #E8EFE8;  /* REVIEW role */
+  --surface: #EFEDF4;  /* REVIEW role */
+  --muted: #FFB7B2;  /* REVIEW role */
+  --border: #78716C;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Digital Minimalism';
+  --font-body: 'Outfit';
+}

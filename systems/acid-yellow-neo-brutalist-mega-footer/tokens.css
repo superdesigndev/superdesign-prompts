@@ -1,0 +1,13 @@
+/* systems/acid-yellow-neo-brutalist-mega-footer/tokens.css — Acid-Yellow Neo-Brutalist Mega Footer
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #f2e312;  /* REVIEW role */
+  --fg: #e6d400;  /* REVIEW role */
+  --accent: #16150f;  /* REVIEW role */
+  --surface: #f7f3e3;  /* REVIEW role */
+  --muted: #ffffff;  /* REVIEW role */
+  --border: #fffce0;  /* REVIEW role */
+  --color-7: #047857;
+}

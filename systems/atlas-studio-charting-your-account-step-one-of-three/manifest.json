@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "atlas-studio-charting-your-account-step-one-of-three",
+  "name": "Atlas Studio — Charting Your Account, Step One of Three",
+  "category": "Auth & Login",
+  "industry": "Agency & Studio",
+  "source": {
+    "type": "prompt",
+    "slug": "atlas-studio-charting-your-account-step-one-of-three"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#07162b",
+      "#aebfd8",
+      "#f0b429",
+      "#f6f1e7",
+      "#34527f",
+      "#f4c44f",
+      "#de9b18",
+      "#f7d070",
+      "#0f263e",
+      "#234066",
+      "#7e96bd"
+    ],
+    "fonts": []
+  }
+}

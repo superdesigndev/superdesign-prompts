@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "emerald-4-tier-saas-pricing-table",
+  "name": "Emerald 4-Tier SaaS Pricing Table",
+  "category": "Pricing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "emerald-4-tier-saas-pricing-table"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#fbfdfb",
+      "#059669",
+      "#0c1410",
+      "#7d8d85",
+      "#e7efe9",
+      "#ecfdf5",
+      "#d1fae5",
+      "#a7f3d0",
+      "#6ee7b7",
+      "#34d399",
+      "#10b981",
+      "#047857",
+      "#065f46",
+      "#064e3b",
+      "#1f2a24",
+      "#566a60"
+    ],
+    "fonts": [
+      "Sora",
+      "Inter",
+      "Most popular"
+    ]
+  }
+}

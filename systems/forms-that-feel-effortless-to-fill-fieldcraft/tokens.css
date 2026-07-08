@@ -1,0 +1,17 @@
+/* systems/forms-that-feel-effortless-to-fill-fieldcraft/tokens.css — Forms that feel effortless to fill — Fieldcraft
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #10b981;  /* REVIEW role */
+  --fg: #ffffff;  /* REVIEW role */
+  --accent: #0f172a;  /* REVIEW role */
+  --surface: #64748b;  /* REVIEW role */
+  --muted: #94a3b8;  /* REVIEW role */
+  --border: #059669;  /* REVIEW role */
+  --color-7: #047857;
+  --color-8: #065f46;
+  --color-9: #e2e8f0;
+  --color-10: #cbd5e1;
+  --color-11: #f8fafc;
+}

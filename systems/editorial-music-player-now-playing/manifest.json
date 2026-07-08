@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "editorial-music-player-now-playing",
+  "name": "Editorial Music Player (Now Playing)",
+  "category": "Mobile Apps",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "editorial-music-player-now-playing"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#fbf6ec",
+      "#efe6d3",
+      "#16261f",
+      "#1f3a2e",
+      "#ff6a4d",
+      "#ff8a6e",
+      "#f2b441"
+    ],
+    "fonts": [
+      "Now Playing",
+      "Up Next"
+    ]
+  }
+}

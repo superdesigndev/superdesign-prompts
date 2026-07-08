@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "pill-nav",
+  "name": "Pill Nav",
+  "category": "Components",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "pill-nav"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#F9F9F9",
+      "#1A1A1B",
+      "#FFFFFF"
+    ],
+    "fonts": [
+      "Logo",
+      "Home",
+      "Products",
+      "About",
+      "Collection",
+      "Contact"
+    ]
+  }
+}

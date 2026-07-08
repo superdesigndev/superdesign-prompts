@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "developer-tool-dashboardonboarding",
+  "name": "Developer tool dashboard/onboarding",
+  "category": "Dashboards",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "developer-tool-dashboardonboarding"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#111111",
+      "#FFFFFF",
+      "#333333",
+      "#050505",
+      "#1A1A1A",
+      "#E5E5E5",
+      "#555555",
+      "#4ADE80"
+    ],
+    "fonts": [
+      "Space Grotesk",
+      "JetBrains Mono"
+    ]
+  }
+}

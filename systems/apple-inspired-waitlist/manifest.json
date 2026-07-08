@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "apple-inspired-waitlist",
+  "name": "Apple-inspired Waitlist",
+  "category": "Waitlist & Coming Soon",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "apple-inspired-waitlist"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FAFAFA",
+      "#1D1D1F",
+      "#4F6BA6",
+      "#86868B",
+      "#E1E8F5",
+      "#D2D2D7"
+    ],
+    "fonts": [
+      "Quiet Premium"
+    ]
+  }
+}

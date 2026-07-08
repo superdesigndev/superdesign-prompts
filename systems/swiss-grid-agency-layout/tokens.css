@@ -1,0 +1,13 @@
+/* systems/swiss-grid-agency-layout/tokens.css — Swiss Grid Agency Layout
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #ffffff;  /* REVIEW role */
+  --fg: #0a0a0a;  /* REVIEW role */
+  --accent: #1f4fff;  /* REVIEW role */
+  --surface: #fff;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'JetBrains Mono';
+  --font-mono: 'JetBrains Mono';
+}

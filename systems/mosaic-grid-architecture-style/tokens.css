@@ -1,0 +1,15 @@
+/* systems/mosaic-grid-architecture-style/tokens.css — Mosaic Grid Architecture Style
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #F7F7F5;  /* REVIEW role */
+  --fg: #1A3C2B;  /* REVIEW role */
+  --accent: #3A3A38;  /* REVIEW role */
+  --surface: #FF8C69;  /* REVIEW role */
+  --muted: #9EFFBF;  /* REVIEW role */
+  --border: #F4D35E;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Technical Minimalist';
+  --font-body: 'Paper';
+}

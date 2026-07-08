@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "minimalist-wireframe-login",
+  "name": "Minimalist Wireframe Login",
+  "category": "Auth & Login",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "minimalist-wireframe-login"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FFFFFF",
+      "#0F172A",
+      "#64748B",
+      "#E2E8F0",
+      "#CBD5E1",
+      "#F1F5F9"
+    ],
+    "fonts": [
+      "General Sans",
+      "Wireframe"
+    ]
+  }
+}

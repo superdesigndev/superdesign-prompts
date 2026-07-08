@@ -1,0 +1,7 @@
+/* systems/exploded-view-assembly/tokens.css — "Exploded View" Assembly
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- typography --- */
+  --font-display: 'Exploded View';
+}

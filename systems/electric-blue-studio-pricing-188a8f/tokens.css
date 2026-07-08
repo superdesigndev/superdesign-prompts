@@ -1,0 +1,19 @@
+/* systems/electric-blue-studio-pricing-188a8f/tokens.css — Electric-Blue Studio Pricing
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #08090c;  /* REVIEW role */
+  --fg: #0e1016;  /* REVIEW role */
+  --accent: #13161f;  /* REVIEW role */
+  --surface: #21242f;  /* REVIEW role */
+  --muted: #2563ff;  /* REVIEW role */
+  --border: #4d7bff;  /* REVIEW role */
+  --color-7: #163fb0;
+  --color-8: #bcd1ff;
+  --color-9: #4a5168;
+  /* --- typography --- */
+  --font-display: 'Space Grotesk';
+  --font-body: 'JetBrains Mono';
+  --font-mono: 'JetBrains Mono';
+}

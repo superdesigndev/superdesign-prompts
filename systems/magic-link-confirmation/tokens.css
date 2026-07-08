@@ -1,0 +1,11 @@
+/* systems/magic-link-confirmation/tokens.css — Magic Link Confirmation
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #0F172A;  /* REVIEW role */
+  --fg: #64748B;  /* REVIEW role */
+  --accent: #FFFFFF;  /* REVIEW role */
+  --surface: #F8FAFC;  /* REVIEW role */
+  --muted: #10B981;  /* REVIEW role */
+}

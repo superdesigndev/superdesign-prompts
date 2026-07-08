@@ -1,0 +1,15 @@
+/* systems/card-grid-browse/tokens.css — Card Grid Browse
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #FFFFFF;  /* REVIEW role */
+  --fg: #F1F5F9;  /* REVIEW role */
+  --accent: #64748B;  /* REVIEW role */
+  --surface: #0F172A;  /* REVIEW role */
+  --muted: #F8FAFC;  /* REVIEW role */
+  --border: #000000;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'General Sans';
+  --font-body: 'Minimalist Editorial';
+}

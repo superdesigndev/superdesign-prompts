@@ -1,0 +1,13 @@
+/* systems/send-us-the-brief-brutalist-contact-form/tokens.css — Send Us the Brief — Brutalist Contact Form
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #f4f1ea;  /* REVIEW role */
+  --fg: #0a0a0a;  /* REVIEW role */
+  --accent: #e8ff00;  /* REVIEW role */
+  --surface: #ffffff;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Three blunt steps';
+  --font-body: 'Style';
+}

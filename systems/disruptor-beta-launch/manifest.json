@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "disruptor-beta-launch",
+  "name": "Disruptor Beta Launch",
+  "category": "Waitlist & Coming Soon",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "disruptor-beta-launch"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#000000",
+      "#121212",
+      "#FFFFFF",
+      "#CCFF00"
+    ],
+    "fonts": [
+      "Ranchers",
+      "Space Mono",
+      "Plus Jakarta Sans",
+      "Volt"
+    ]
+  }
+}

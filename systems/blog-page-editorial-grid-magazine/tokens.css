@@ -1,0 +1,21 @@
+/* systems/blog-page-editorial-grid-magazine/tokens.css — Blog Page - Editorial Grid Magazine
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #FFFFFF;  /* REVIEW role */
+  --fg: #F3F4F6;  /* REVIEW role */
+  --accent: #111827;  /* REVIEW role */
+  --surface: #2563EB;  /* REVIEW role */
+  --muted: #9333EA;  /* REVIEW role */
+  --border: #E5E7EB;  /* REVIEW role */
+  --color-7: #F9FAFB;
+  --color-8: #6B7280;
+  --color-9: #9CA3AF;
+  --color-10: #059669;
+  --color-11: #EA580C;
+  --color-12: #DB2777;
+  --color-13: #D1D5DB;
+  /* --- typography --- */
+  --font-display: 'General Sans';
+}

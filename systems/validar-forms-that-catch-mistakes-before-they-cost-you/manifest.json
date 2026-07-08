@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "validar-forms-that-catch-mistakes-before-they-cost-you",
+  "name": "Validar — Forms that catch mistakes before they cost you",
+  "category": "Forms & Contact",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "validar-forms-that-catch-mistakes-before-they-cost-you"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f8fafc",
+      "#0f1729",
+      "#475569",
+      "#f0fdfa",
+      "#ccfbf1",
+      "#99f6e4",
+      "#5eead4",
+      "#2dd4bf",
+      "#14b8a6",
+      "#0d9488",
+      "#0f766e",
+      "#115e59",
+      "#134e4a",
+      "#15803d",
+      "#f0fdf4",
+      "#86efac"
+    ],
+    "fonts": []
+  }
+}

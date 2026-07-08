@@ -1,0 +1,16 @@
+/* systems/technical-system-onboarding/tokens.css — Technical System Onboarding
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #020617;  /* REVIEW role */
+  --fg: #FF4F00;  /* REVIEW role */
+  --accent: #0a0f1c;  /* REVIEW role */
+  --surface: #0f172a;  /* REVIEW role */
+  --muted: #FF6A26;  /* REVIEW role */
+  --border: #1e293b;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Space Grotesk';
+  --font-body: 'Inter';
+  --font-mono: 'JetBrains Mono';
+}

@@ -1,0 +1,14 @@
+/* systems/glassmorphism-card/tokens.css — Glassmorphism card
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #000000;  /* REVIEW role */
+  --fg: #F4F4F5;  /* REVIEW role */
+  --accent: #18181B;  /* REVIEW role */
+  --surface: #34D399;  /* REVIEW role */
+  --muted: #71717A;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Inter';
+  --font-body: 'Superdesign';
+}

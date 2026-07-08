@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "tech-editorial",
+  "name": "Tech Editorial",
+  "category": "Landing Pages",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "tech-editorial"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f7f6f2",
+      "#1c1c1c",
+      "#3d7068",
+      "#e5e4de"
+    ],
+    "fonts": [
+      "Playfair Display",
+      "Space Mono",
+      "Space Grotesk",
+      "Tech Editorial"
+    ]
+  }
+}

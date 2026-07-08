@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "atelier-early-access-waitlist-minimal-graphite",
+  "name": "Atelier · Early Access (waitlist-minimal-graphite)",
+  "category": "Auth & Login",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "atelier-early-access-waitlist-minimal-graphite"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#fbfbfa",
+      "#1c1c1e",
+      "#2c2c2e",
+      "#c7c7cc",
+      "#ffffff"
+    ],
+    "fonts": []
+  }
+}

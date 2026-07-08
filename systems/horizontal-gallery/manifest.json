@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "horizontal-gallery",
+  "name": "Horizontal Gallery",
+  "category": "Animations & Backgrounds",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "horizontal-gallery"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": []
+  }
+}

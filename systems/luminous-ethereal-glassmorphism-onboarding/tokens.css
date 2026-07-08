@@ -1,0 +1,15 @@
+/* systems/luminous-ethereal-glassmorphism-onboarding/tokens.css — Luminous Ethereal Glassmorphism Onboarding
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #4F46E5;  /* REVIEW role */
+  --fg: #A78BFA;  /* REVIEW role */
+  --accent: #0B0C10;  /* REVIEW role */
+  --surface: #FFFFFF;  /* REVIEW role */
+  --muted: #818CF8;  /* REVIEW role */
+  --border: #60A5FA;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Luminous Ethereal';
+  --font-body: 'Libre Baskerville';
+}

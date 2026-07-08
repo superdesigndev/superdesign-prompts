@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "graphic-comparison-report",
+  "name": "Graphic Comparison Report",
+  "category": "E-commerce",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "graphic-comparison-report"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#F5F5F2",
+      "#1A1A1A",
+      "#0047FF",
+      "#E6ECFF"
+    ],
+    "fonts": [
+      "Space Grotesk",
+      "Inter",
+      "Cobalt",
+      "Paper",
+      "Ink",
+      "Core DNA"
+    ]
+  }
+}

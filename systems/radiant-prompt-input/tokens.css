@@ -1,0 +1,10 @@
+/* systems/radiant-prompt-input/tokens.css — Radiant Prompt Input
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #fff;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Creative Writing';
+  --font-body: 'Code Analysis';
+}

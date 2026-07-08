@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "cream-paper-and-coral-mega-footer",
+  "name": "Cream Paper & Coral Mega Footer",
+  "category": "Forms & Contact",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "cream-paper-and-coral-mega-footer"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FBF4EC",
+      "#F4E9DB",
+      "#E7D9C7",
+      "#241A12",
+      "#62513F",
+      "#5C4D3C",
+      "#F0552B",
+      "#D6431D",
+      "#9A2F0D",
+      "#FCE2D6",
+      "#FFF7EF",
+      "#F6E9D9"
+    ],
+    "fonts": []
+  }
+}

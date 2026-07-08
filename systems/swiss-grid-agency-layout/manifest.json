@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "swiss-grid-agency-layout",
+  "name": "Swiss Grid Agency Layout",
+  "category": "Portfolios",
+  "industry": "Agency & Studio",
+  "source": {
+    "type": "prompt",
+    "slug": "swiss-grid-agency-layout"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#ffffff",
+      "#0a0a0a",
+      "#1f4fff",
+      "#fff"
+    ],
+    "fonts": [
+      "JetBrains Mono"
+    ]
+  }
+}

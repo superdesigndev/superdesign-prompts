@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "card-grid-browse",
+  "name": "Card Grid Browse",
+  "category": "Mobile Apps",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "card-grid-browse"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FFFFFF",
+      "#F1F5F9",
+      "#64748B",
+      "#0F172A",
+      "#F8FAFC",
+      "#000000"
+    ],
+    "fonts": [
+      "General Sans",
+      "Minimalist Editorial"
+    ]
+  }
+}

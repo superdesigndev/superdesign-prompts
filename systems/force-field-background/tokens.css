@@ -1,0 +1,8 @@
+/* systems/force-field-background/tokens.css — Force Field Background
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- typography --- */
+  --font-display: 'Inter';
+  --font-body: 'Randomize Parameters';
+}

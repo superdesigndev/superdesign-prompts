@@ -1,0 +1,11 @@
+/* systems/atelier-early-access-waitlist-minimal-graphite/tokens.css — Atelier · Early Access (waitlist-minimal-graphite)
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #fbfbfa;  /* REVIEW role */
+  --fg: #1c1c1e;  /* REVIEW role */
+  --accent: #2c2c2e;  /* REVIEW role */
+  --surface: #c7c7cc;  /* REVIEW role */
+  --muted: #ffffff;  /* REVIEW role */
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "acid-yellow-neo-brutalist-mega-footer",
+  "name": "Acid-Yellow Neo-Brutalist Mega Footer",
+  "category": "Forms & Contact",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "acid-yellow-neo-brutalist-mega-footer"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f2e312",
+      "#e6d400",
+      "#16150f",
+      "#f7f3e3",
+      "#ffffff",
+      "#fffce0",
+      "#047857"
+    ],
+    "fonts": []
+  }
+}

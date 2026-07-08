@@ -1,0 +1,22 @@
+/* systems/validar-forms-that-catch-mistakes-before-they-cost-you/tokens.css — Validar — Forms that catch mistakes before they cost you
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #f8fafc;  /* REVIEW role */
+  --fg: #0f1729;  /* REVIEW role */
+  --accent: #475569;  /* REVIEW role */
+  --surface: #f0fdfa;  /* REVIEW role */
+  --muted: #ccfbf1;  /* REVIEW role */
+  --border: #99f6e4;  /* REVIEW role */
+  --color-7: #5eead4;
+  --color-8: #2dd4bf;
+  --color-9: #14b8a6;
+  --color-10: #0d9488;
+  --color-11: #0f766e;
+  --color-12: #115e59;
+  --color-13: #134e4a;
+  --color-14: #15803d;
+  --color-15: #f0fdf4;
+  --color-16: #86efac;
+}

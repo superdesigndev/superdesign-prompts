@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "editorial-saas-onboarding",
+  "name": "Editorial SaaS Onboarding",
+  "category": "Onboarding",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "editorial-saas-onboarding"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#F5F2EF",
+      "#FAF9F6",
+      "#E6E2DE",
+      "#292524",
+      "#78716C",
+      "#A85338",
+      "#FDF3F0"
+    ],
+    "fonts": [
+      "Editorial Minimalist",
+      "Crimson Pro",
+      "Inter",
+      "Satoshi"
+    ]
+  }
+}

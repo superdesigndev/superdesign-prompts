@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "teal-on-ink-newsletter-mega-footer",
+  "name": "Teal-on-Ink Newsletter Mega Footer",
+  "category": "Forms & Contact",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "teal-on-ink-newsletter-mega-footer"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#060807",
+      "#080a0a",
+      "#121514",
+      "#0d0f0f",
+      "#5eead4",
+      "#2dd4bf",
+      "#14b8a6"
+    ],
+    "fonts": []
+  }
+}

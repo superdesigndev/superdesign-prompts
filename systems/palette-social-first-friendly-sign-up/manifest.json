@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "palette-social-first-friendly-sign-up",
+  "name": "Palette — Social-first friendly sign-up",
+  "category": "Auth & Login",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "palette-social-first-friendly-sign-up"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#fdf9f3",
+      "#ffffff",
+      "#ff7a59",
+      "#c8431f",
+      "#b83a16",
+      "#2bb6a3",
+      "#1fa18f",
+      "#16776a",
+      "#23201d",
+      "#736c63",
+      "#efe6d8"
+    ],
+    "fonts": [
+      "From prompt to UI in one breath",
+      "Create account"
+    ]
+  }
+}

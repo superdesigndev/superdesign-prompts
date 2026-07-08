@@ -1,0 +1,11 @@
+/* systems/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red/tokens.css — Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #0a0a0a;  /* REVIEW role */
+  --fg: #ffffff;  /* REVIEW role */
+  --accent: #ff3b30;  /* REVIEW role */
+  --surface: #fafafa;  /* REVIEW role */
+  --muted: #111;  /* REVIEW role */
+}

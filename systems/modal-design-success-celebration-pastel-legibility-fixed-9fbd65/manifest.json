@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "modal-design-success-celebration-pastel-legibility-fixed-9fbd65",
+  "name": "Modal Design · success-celebration (pastel) — legibility fixed",
+  "category": "Onboarding",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "modal-design-success-celebration-pastel-legibility-fixed-9fbd65"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#eaf6fd",
+      "#f3fbff",
+      "#fdf9f3",
+      "#38bdf8",
+      "#fb7185",
+      "#fbbf24",
+      "#34d399",
+      "#a78bfa",
+      "#0369a1",
+      "#075985",
+      "#be123c",
+      "#5b6172",
+      "#1f2433",
+      "#e9f7ff",
+      "#fdeef0",
+      "#7c3aed"
+    ],
+    "fonts": [
+      "You"
+    ]
+  }
+}

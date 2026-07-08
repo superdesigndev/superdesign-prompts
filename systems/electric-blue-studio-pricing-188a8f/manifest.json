@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "electric-blue-studio-pricing-188a8f",
+  "name": "Electric-Blue Studio Pricing",
+  "category": "Pricing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "electric-blue-studio-pricing-188a8f"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#08090c",
+      "#0e1016",
+      "#13161f",
+      "#21242f",
+      "#2563ff",
+      "#4d7bff",
+      "#163fb0",
+      "#bcd1ff",
+      "#4a5168"
+    ],
+    "fonts": [
+      "Space Grotesk",
+      "JetBrains Mono"
+    ]
+  }
+}

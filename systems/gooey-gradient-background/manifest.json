@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "gooey-gradient-background",
+  "name": "Gooey Gradient Background",
+  "category": "Animations & Backgrounds",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "gooey-gradient-background"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": [
+      "Gooey",
+      "Dongle",
+      "SourceGraphic"
+    ]
+  }
+}

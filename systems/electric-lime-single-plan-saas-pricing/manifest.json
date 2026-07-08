@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "electric-lime-single-plan-saas-pricing",
+  "name": "Electric-Lime Single-Plan SaaS Pricing",
+  "category": "Pricing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "electric-lime-single-plan-saas-pricing"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0a0b",
+      "#f4f3ef",
+      "#c8f04a",
+      "#bfe0ff",
+      "#ffffff"
+    ],
+    "fonts": [
+      "Space Grotesk",
+      "Instrument Sans",
+      "JetBrains Mono"
+    ]
+  }
+}

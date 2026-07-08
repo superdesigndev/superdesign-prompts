@@ -1,0 +1,9 @@
+/* systems/gesture-first-navigation-system/tokens.css — Gesture First Navigation System
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #f3f4f6;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Manrope';
+}

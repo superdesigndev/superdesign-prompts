@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "brutalist-e-commerce-page",
+  "name": "Brutalist E-commerce Page",
+  "category": "E-commerce",
+  "industry": "E-commerce & Retail",
+  "source": {
+    "type": "prompt",
+    "slug": "brutalist-e-commerce-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#E4E2DD",
+      "#1E1E1E",
+      "#DB4A2B",
+      "#F8A348",
+      "#FF89A9"
+    ],
+    "fonts": [
+      "Clash Display",
+      "Satoshi"
+    ]
+  }
+}

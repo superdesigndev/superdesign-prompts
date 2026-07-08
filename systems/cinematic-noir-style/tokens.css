@@ -1,0 +1,17 @@
+/* systems/cinematic-noir-style/tokens.css — Cinematic Noir Style
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #ef4444;  /* REVIEW role */
+  --fg: #000000;  /* REVIEW role */
+  --accent: #09090b;  /* REVIEW role */
+  --surface: #18181b;  /* REVIEW role */
+  --muted: #FFFFFF;  /* REVIEW role */
+  --border: #fafafa;  /* REVIEW role */
+  --color-7: #e5e5e5;
+  --color-8: #888;
+  /* --- typography --- */
+  --font-display: 'ZTNature';
+  --font-body: 'Cinematic Noir';
+}

@@ -1,0 +1,14 @@
+/* systems/account-setup-flow-goals-interests-card-based/tokens.css — Account Setup Flow — Goals / Interests (Card-Based)
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #FFFFFF;  /* REVIEW role */
+  --fg: #000000;  /* REVIEW role */
+  --accent: #F3F4F6;  /* REVIEW role */
+  --surface: #9CA3AF;  /* REVIEW role */
+  --muted: #E5E7EB;  /* REVIEW role */
+  --border: #6B7280;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'General Sans';
+}

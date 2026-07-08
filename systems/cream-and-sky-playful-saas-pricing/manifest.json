@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "cream-and-sky-playful-saas-pricing",
+  "name": "Cream & Sky Playful SaaS Pricing",
+  "category": "Pricing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "cream-and-sky-playful-saas-pricing"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#fdfbf4",
+      "#f0f8ff",
+      "#e0f1ff",
+      "#bfe2ff",
+      "#8fcaff",
+      "#5aadff",
+      "#2e8fff",
+      "#1a72ed",
+      "#1554b0",
+      "#0f4796",
+      "#0b3678",
+      "#fbf5e6",
+      "#f6ecd2",
+      "#f0e0b8",
+      "#15233b",
+      "#5a6b85"
+    ],
+    "fonts": [
+      "Fraunces",
+      "Plus Jakarta Sans"
+    ]
+  }
+}

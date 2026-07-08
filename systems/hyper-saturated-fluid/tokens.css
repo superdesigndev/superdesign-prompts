@@ -1,0 +1,14 @@
+/* systems/hyper-saturated-fluid/tokens.css — Hyper-Saturated Fluid
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #FDE047;  /* REVIEW role */
+  --fg: #0A0A0A;  /* REVIEW role */
+  --accent: #171717;  /* REVIEW role */
+  --surface: #FFFFFF;  /* REVIEW role */
+  --muted: #262626;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Hero';
+  --font-body: 'Inter';
+}

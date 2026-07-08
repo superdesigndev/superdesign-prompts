@@ -1,0 +1,16 @@
+/* systems/cinematic-style/tokens.css — Cinematic Style
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #050505;  /* REVIEW role */
+  --fg: #06B6D4;  /* REVIEW role */
+  --accent: #EC4899;  /* REVIEW role */
+  --surface: #7C3AED;  /* REVIEW role */
+  --muted: #111111;  /* REVIEW role */
+  --border: #FFFFFF;  /* REVIEW role */
+  --color-7: #999999;
+  /* --- typography --- */
+  --font-display: 'Aspekta';
+  --font-body: 'Cinematic';
+}

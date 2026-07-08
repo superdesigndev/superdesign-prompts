@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "radiant-prompt-input",
+  "name": "Radiant Prompt Input",
+  "category": "Components",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "radiant-prompt-input"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#fff"
+    ],
+    "fonts": [
+      "Creative Writing",
+      "Code Analysis",
+      "Image Gen",
+      "Enter",
+      "Add attachment",
+      "Use microphone"
+    ]
+  }
+}

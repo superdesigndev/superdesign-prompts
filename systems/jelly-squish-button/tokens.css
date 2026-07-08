@@ -1,0 +1,11 @@
+/* systems/jelly-squish-button/tokens.css — Jelly Squish Button
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #b1b3c0;  /* REVIEW role */
+  --fg: #464e60;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Follow mouse';
+  --font-body: 'Drag vertically to squeeze';
+}

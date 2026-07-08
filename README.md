@@ -1,20 +1,39 @@
-# Awesome AI Design Prompts
+# Stop shipping AI-slop UI
 
-> The most-used AI design prompts, **ranked by real usage** (not vibes). Every one has a live preview and runs in one click. Mirrored from the [Superdesign](https://superdesign.dev/library) prompt library.
+> Coding agents write great code and generic interfaces: default shadcn, same fonts, no taste. This is a library of **usage-ranked design prompts, each with a live preview**, that give your agent design direction so the UI it ships actually looks designed. Powered by [Superdesign](https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
 
 <!-- badges: fill OWNER/REPO on publish -->
-![prompts](https://img.shields.io/badge/prompts-150-blue) ![ranked](https://img.shields.io/badge/ranked%20by-real%20usage-brightgreen) ![license](https://img.shields.io/badge/code-MIT-informational)
+![prompts](https://img.shields.io/badge/prompts-150-blue) ![ranked](https://img.shields.io/badge/ranked%20by-real%20usage-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![license](https://img.shields.io/badge/code-MIT-informational)
 
-**964 prompts in the live library.** These are the top team-authored ones, **balanced across categories** so every use case is covered, sorted by real usage (copies + tries). Browse all and try any live at **[superdesign.dev/library](https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**.
+## Why your AI UI looks generic (and how to fix it)
 
-## Why this list is different
+AI-generated UI all looks the same because the agent has **no taste to anchor to** — so it reaches for the same fonts, the same card grid, the same indigo-500. Every prompt here is a **full design spec** (exact colors, type, spacing, motion, layout), ranked by how many real builders actually used it. Hand one to your agent and it builds to a real spec instead of a default.
 
-| | Most prompt lists | This one |
+## How to use these — 3 ways to de-slop
+
+**1. Copy → paste into your agent** (zero setup, works everywhere)  
+Find a look below, open it, copy the prompt, then tell Claude Code / Cursor:  
+> *"Redesign my dashboard using this design spec: [paste]"*
+
+**2. Install the skill** (best — your agent picks and applies it for you)  
+```bash
+npx skills add superdesigndev/superdesign-skill
+```
+Then just ask: *"/superdesign make my pricing page not look like AI slop"*. The agent searches this library, pulls the right prompt, and applies it to your code. [Skill repo](https://github.com/superdesigndev/superdesign-skill).
+
+**3. Try it live** (see it first, then take the code)  
+Hit **▶ Try live** on any prompt to generate and iterate it on the Superdesign canvas, then copy the result into your project.
+
+> New to this? Start with [how to make Claude Code UI look good](https://superdesign.dev/blog/how-to-make-claude-code-ui-look-good).
+
+## Why this library is different
+
+| | Most prompt lists / DESIGN.md repos | This one |
 |---|---|---|
-| Ranking | Curated by opinion | **Ranked by real usage** |
-| Format | Text to paste | **Live preview + one-click run** |
+| Ranking | Curated by opinion | **Ranked by real usage** (copies + tries) |
+| Format | Static text / markdown, no preview | **Live preview + one-click run** |
 | Freshness | Manual, goes stale | **Auto-synced** from a live product |
-| Coverage | A few categories | **Page-type + industry**, Webflow-style |
+| Coverage | A few categories | **Every page type + industry**, Webflow-style |
 
 ## Browse by page type
 
@@ -310,11 +329,13 @@
 
 ## FAQ
 
-**What is the best AI design prompt?** Ranked by real usage across the Superdesign library, the most-copied are [Tubes Interactive Background](https://superdesign.dev/library/tubes-interactive-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library), [High Contrast Landing Page](https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library), and [Lumina SaaS Landing Page](https://superdesign.dev/library/lumina-saas-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
+**Why does my AI-generated UI look generic / like AI slop?** Because the agent has no design direction, so it defaults to the same fonts, card grids, and colors every time. Give it a full design spec (like the prompts here) and it builds to that spec instead. See [how to make Claude Code UI look good](https://superdesign.dev/blog/how-to-make-claude-code-ui-look-good).
 
-**How do I use these prompts?** Open any prompt, click **Try it live** to generate it on the Superdesign canvas, or copy the prompt into your coding agent via the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill).
+**How do I use these prompts?** Three ways: copy a prompt and paste it into Claude Code / Cursor; install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill) and let your agent search + apply them; or click **Try it live** to generate on the Superdesign canvas. (See "How to use" above.)
 
-**Do these work with Claude Code and Cursor?** Yes, via the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill).
+**Do these work with Claude Code and Cursor?** Yes. Install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill) and your agent can search, pull, and apply any prompt here to your codebase.
+
+**What is the best AI design prompt?** Ranked by real usage, the most-copied are [High Contrast Landing Page](https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library), [Glassmorphism](https://superdesign.dev/library/glassmorphism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library), and [Lumina SaaS Landing Page](https://superdesign.dev/library/lumina-saas-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
 
 **What is Superdesign?** An AI product design agent that turns prompts into UI mockups, components, and full designs on an infinite canvas. See [superdesign.dev](https://superdesign.dev?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
 

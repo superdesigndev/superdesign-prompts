@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "minimalist-beta-capture",
+  "name": "Minimalist Beta Capture",
+  "category": "Waitlist & Coming Soon",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "minimalist-beta-capture"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#080808",
+      "#FFFFFF",
+      "#E2E8F0",
+      "#F8FAFC",
+      "#94A3B8"
+    ],
+    "fonts": [
+      "Modern Obsidian",
+      "DM Serif Display",
+      "Geist Mono",
+      "Inter",
+      "Editorial Brutalist"
+    ]
+  }
+}

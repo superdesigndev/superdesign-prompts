@@ -1,0 +1,15 @@
+/* systems/super-shampoo-high-conversion-lp/tokens.css — Super Shampoo - High Conversion LP
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #FDFCF8;  /* REVIEW role */
+  --fg: #1C1C1C;  /* REVIEW role */
+  --accent: #E2E8E4;  /* REVIEW role */
+  --surface: #D4AF37;  /* REVIEW role */
+  --muted: #DC2626;  /* REVIEW role */
+  --border: #F5F5F0;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Earth and Stone';
+  --font-body: 'Clinical Luxury';
+}

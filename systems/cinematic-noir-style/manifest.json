@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "cinematic-noir-style",
+  "name": "Cinematic Noir Style",
+  "category": "Design Systems & Styles",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "cinematic-noir-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#ef4444",
+      "#000000",
+      "#09090b",
+      "#18181b",
+      "#FFFFFF",
+      "#fafafa",
+      "#e5e5e5",
+      "#888"
+    ],
+    "fonts": [
+      "ZTNature",
+      "Cinematic Noir"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "tablekit-the-data-table-your-team-actually-wants-to-live-in",
+  "name": "Tablekit — The data table your team actually wants to live in",
+  "category": "Dashboards",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "tablekit-the-data-table-your-team-actually-wants-to-live-in"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f8fafc",
+      "#0f172a",
+      "#eef4ff",
+      "#dbe6ff",
+      "#bdd1ff",
+      "#93b4ff",
+      "#608dff",
+      "#3b6bff",
+      "#2563eb",
+      "#1d4ed8",
+      "#1e40af",
+      "#94a3b8",
+      "#64748b",
+      "#475569",
+      "#7c899c",
+      "#e2e8f0"
+    ],
+    "fonts": []
+  }
+}

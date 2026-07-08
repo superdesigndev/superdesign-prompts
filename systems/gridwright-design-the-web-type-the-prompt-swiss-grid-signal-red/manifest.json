@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red",
+  "name": "Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)",
+  "category": "Pricing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0a0a",
+      "#ffffff",
+      "#ff3b30",
+      "#fafafa",
+      "#111"
+    ],
+    "fonts": []
+  }
+}

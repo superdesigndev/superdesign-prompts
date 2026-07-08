@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "glassmorphism-card",
+  "name": "Glassmorphism card",
+  "category": "Design Systems & Styles",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "glassmorphism-card"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#000000",
+      "#F4F4F5",
+      "#18181B",
+      "#34D399",
+      "#71717A"
+    ],
+    "fonts": [
+      "Inter",
+      "Superdesign"
+    ]
+  }
+}

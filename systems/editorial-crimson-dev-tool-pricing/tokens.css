@@ -1,0 +1,25 @@
+/* systems/editorial-crimson-dev-tool-pricing/tokens.css — Editorial Crimson Dev-Tool Pricing
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #ffffff;  /* REVIEW role */
+  --fg: #f7f7f8;  /* REVIEW role */
+  --accent: #0e0f12;  /* REVIEW role */
+  --surface: #5a5d66;  /* REVIEW role */
+  --muted: #71747e;  /* REVIEW role */
+  --border: #90939c;  /* REVIEW role */
+  --color-7: #fff1f2;
+  --color-8: #ffe1e3;
+  --color-9: #ffc8cd;
+  --color-10: #f23a4d;
+  --color-11: #dc1d34;
+  --color-12: #b8132a;
+  --color-13: #991327;
+  --color-14: #7e1526;
+  --color-15: #eeeef0;
+  --color-16: #d9dadd;
+  /* --- typography --- */
+  --font-display: 'Fraunces';
+  --font-body: 'Inter';
+}

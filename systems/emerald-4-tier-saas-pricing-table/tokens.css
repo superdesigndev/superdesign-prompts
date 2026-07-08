@@ -1,0 +1,25 @@
+/* systems/emerald-4-tier-saas-pricing-table/tokens.css — Emerald 4-Tier SaaS Pricing Table
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #fbfdfb;  /* REVIEW role */
+  --fg: #059669;  /* REVIEW role */
+  --accent: #0c1410;  /* REVIEW role */
+  --surface: #7d8d85;  /* REVIEW role */
+  --muted: #e7efe9;  /* REVIEW role */
+  --border: #ecfdf5;  /* REVIEW role */
+  --color-7: #d1fae5;
+  --color-8: #a7f3d0;
+  --color-9: #6ee7b7;
+  --color-10: #34d399;
+  --color-11: #10b981;
+  --color-12: #047857;
+  --color-13: #065f46;
+  --color-14: #064e3b;
+  --color-15: #1f2a24;
+  --color-16: #566a60;
+  /* --- typography --- */
+  --font-display: 'Sora';
+  --font-body: 'Inter';
+}

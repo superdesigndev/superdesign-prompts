@@ -1,0 +1,13 @@
+/* systems/collection-page-filtered-product-grid/tokens.css — Collection Page- Filtered Product Grid
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #E5E7EB;  /* REVIEW role */
+  --fg: #FFFFFF;  /* REVIEW role */
+  --accent: #111827;  /* REVIEW role */
+  --surface: #6B7280;  /* REVIEW role */
+  --muted: #F9FAFB;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'General Sans';
+}

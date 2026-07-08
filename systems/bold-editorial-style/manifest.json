@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "bold-editorial-style",
+  "name": "Bold Editorial Style",
+  "category": "Waitlist & Coming Soon",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "bold-editorial-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#ffe17c",
+      "#171e19",
+      "#272727",
+      "#b7c6c2",
+      "#ffffff",
+      "#b7c6c220"
+    ],
+    "fonts": [
+      "Anton",
+      "Satoshi"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "editorial-cream-ink-two-path-saas-pricing-3dee65",
+  "name": "Editorial Cream + Ink Two-Path SaaS Pricing",
+  "category": "Pricing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "editorial-cream-ink-two-path-saas-pricing-3dee65"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f6f4ef",
+      "#ffffff",
+      "#e7e3da",
+      "#101418",
+      "#1b2127",
+      "#2a323b",
+      "#5a6671",
+      "#7c8893",
+      "#eef3ff",
+      "#dbe5ff",
+      "#3858f6",
+      "#2c46d6",
+      "#2438ad",
+      "#c8a45a"
+    ],
+    "fonts": []
+  }
+}

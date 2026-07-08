@@ -1,0 +1,13 @@
+/* systems/ledgerline-fintech-tealmint-startup-landing-page/tokens.css — Ledgerline — fintech teal/mint startup landing page
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #0f3d3e;  /* REVIEW role */
+  --fg: #0a2a2b;  /* REVIEW role */
+  --accent: #134847;  /* REVIEW role */
+  --surface: #1b5a58;  /* REVIEW role */
+  --muted: #256a67;  /* REVIEW role */
+  --border: #4fd1c5;  /* REVIEW role */
+  --color-7: #eef5f0;
+}

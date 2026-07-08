@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "the-stacking-cards-effect",
+  "name": "The \"Stacking Cards\" Effect",
+  "category": "Animations & Backgrounds",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "the-stacking-cards-effect"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": [
+      "Stacking Cards"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "technical-system-onboarding",
+  "name": "Technical System Onboarding",
+  "category": "Onboarding",
+  "industry": "AI & Tech",
+  "source": {
+    "type": "prompt",
+    "slug": "technical-system-onboarding"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#020617",
+      "#FF4F00",
+      "#0a0f1c",
+      "#0f172a",
+      "#FF6A26",
+      "#1e293b"
+    ],
+    "fonts": [
+      "Space Grotesk",
+      "Inter",
+      "JetBrains Mono",
+      "Tech Borders",
+      "Capabilities Matrix"
+    ]
+  }
+}

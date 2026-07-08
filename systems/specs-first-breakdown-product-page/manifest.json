@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "specs-first-breakdown-product-page",
+  "name": "Specs-First Breakdown Product Page",
+  "category": "E-commerce",
+  "industry": "E-commerce & Retail",
+  "source": {
+    "type": "prompt",
+    "slug": "specs-first-breakdown-product-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FFFFFF",
+      "#171717",
+      "#E5E5E5",
+      "#f5f5f5"
+    ],
+    "fonts": [
+      "General Sans",
+      "JetBrains Mono"
+    ]
+  }
+}

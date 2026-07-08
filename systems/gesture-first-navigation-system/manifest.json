@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "gesture-first-navigation-system",
+  "name": "Gesture First Navigation System",
+  "category": "Mobile Apps",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "gesture-first-navigation-system"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f3f4f6"
+    ],
+    "fonts": [
+      "Manrope"
+    ]
+  }
+}

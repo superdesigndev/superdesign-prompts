@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "cinematic-style",
+  "name": "Cinematic Style",
+  "category": "Design Systems & Styles",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "cinematic-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#050505",
+      "#06B6D4",
+      "#EC4899",
+      "#7C3AED",
+      "#111111",
+      "#FFFFFF",
+      "#999999"
+    ],
+    "fonts": [
+      "Aspekta",
+      "Cinematic"
+    ]
+  }
+}

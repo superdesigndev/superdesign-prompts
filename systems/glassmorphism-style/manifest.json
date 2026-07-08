@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "glassmorphism-style",
+  "name": "Glassmorphism Style",
+  "category": "Design Systems & Styles",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "glassmorphism-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0a0a",
+      "#ccff00",
+      "#000000",
+      "#0c0c0c",
+      "#10b981",
+      "#ebebeb"
+    ],
+    "fonts": [
+      "Space Grotesk",
+      "JetBrains Mono"
+    ]
+  }
+}

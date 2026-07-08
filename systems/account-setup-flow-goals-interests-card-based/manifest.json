@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "account-setup-flow-goals-interests-card-based",
+  "name": "Account Setup Flow — Goals / Interests (Card-Based)",
+  "category": "Mobile Apps",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "account-setup-flow-goals-interests-card-based"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FFFFFF",
+      "#000000",
+      "#F3F4F6",
+      "#9CA3AF",
+      "#E5E7EB",
+      "#6B7280"
+    ],
+    "fonts": [
+      "General Sans"
+    ]
+  }
+}

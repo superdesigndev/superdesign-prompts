@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "collection-page-filtered-product-grid",
+  "name": "Collection Page- Filtered Product Grid",
+  "category": "E-commerce",
+  "industry": "E-commerce & Retail",
+  "source": {
+    "type": "prompt",
+    "slug": "collection-page-filtered-product-grid"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#E5E7EB",
+      "#FFFFFF",
+      "#111827",
+      "#6B7280",
+      "#F9FAFB"
+    ],
+    "fonts": [
+      "General Sans"
+    ]
+  }
+}

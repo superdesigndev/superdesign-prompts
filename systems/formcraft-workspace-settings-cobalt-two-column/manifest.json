@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "formcraft-workspace-settings-cobalt-two-column",
+  "name": "Formcraft — Workspace Settings (cobalt two-column)",
+  "category": "Forms & Contact",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "formcraft-workspace-settings-cobalt-two-column"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f8fafc",
+      "#2563eb",
+      "#ffffff",
+      "#0f172a",
+      "#64748b",
+      "#94a3b8",
+      "#334155",
+      "#1e293b",
+      "#1d4ed8",
+      "#eff4ff",
+      "#e2e8f0",
+      "#f1f5f9",
+      "#fff",
+      "#fecdd3",
+      "#be123c",
+      "#e11d48"
+    ],
+    "fonts": []
+  }
+}

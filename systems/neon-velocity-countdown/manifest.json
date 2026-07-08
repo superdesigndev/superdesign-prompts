@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "neon-velocity-countdown",
+  "name": "Neon Velocity Countdown",
+  "category": "Waitlist & Coming Soon",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "neon-velocity-countdown"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#050505",
+      "#BFFF00",
+      "#FFFFFF"
+    ],
+    "fonts": [
+      "Plus Jakarta Sans",
+      "Geist Mono",
+      "Inter",
+      "Laser Green",
+      "Navy Black"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "luxury-focused-design-system",
+  "name": "Luxury-focused Design System",
+  "category": "Design Systems & Styles",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "luxury-focused-design-system"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#fdf8f3",
+      "#262626",
+      "#e4a4bd",
+      "#f5f0eb"
+    ],
+    "fonts": [
+      "League Spartan"
+    ]
+  }
+}

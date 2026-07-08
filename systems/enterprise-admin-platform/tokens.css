@@ -1,0 +1,18 @@
+/* systems/enterprise-admin-platform/tokens.css — Enterprise Admin Platform
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #020617;  /* REVIEW role */
+  --fg: #2563eb;  /* REVIEW role */
+  --accent: #e2e8f0;  /* REVIEW role */
+  --surface: #151e2e;  /* REVIEW role */
+  --muted: #ffffff;  /* REVIEW role */
+  --border: #f8fafc;  /* REVIEW role */
+  --color-7: #16a34a;
+  --color-8: #d97706;
+  --color-9: #dc2626;
+  /* --- typography --- */
+  --font-display: 'Corporate Professional';
+  --font-body: 'Satoshi';
+}

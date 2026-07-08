@@ -1,0 +1,20 @@
+/* systems/ai-system-configuration-console/tokens.css — AI System Configuration Console
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #0f1115;  /* REVIEW role */
+  --fg: #d4ff00;  /* REVIEW role */
+  --accent: #050608;  /* REVIEW role */
+  --surface: #2d333b;  /* REVIEW role */
+  --muted: #cbd5e1;  /* REVIEW role */
+  --border: #64748b;  /* REVIEW role */
+  --color-7: #151B23;
+  --color-8: #30363D;
+  --color-9: #E6EDF3;
+  --color-10: #8B949E;
+  /* --- typography --- */
+  --font-display: 'Inter';
+  --font-body: 'JetBrains Mono';
+  --font-mono: 'JetBrains Mono';
+}

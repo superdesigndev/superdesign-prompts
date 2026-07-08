@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "bold-editorial-design-style",
+  "name": "Bold Editorial Design Style",
+  "category": "Portfolios",
+  "industry": "Personal & Portfolio",
+  "source": {
+    "type": "prompt",
+    "slug": "bold-editorial-design-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#171e19",
+      "#b7c6c2",
+      "#d5f4f9",
+      "#9f8d8b",
+      "#ffffff",
+      "#d7c5b2",
+      "#bbe2f5",
+      "#302b2f"
+    ],
+    "fonts": [
+      "Anton",
+      "Plus Jakarta Sans",
+      "View"
+    ]
+  }
+}

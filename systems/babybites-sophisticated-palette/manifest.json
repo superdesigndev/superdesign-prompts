@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "babybites-sophisticated-palette",
+  "name": "BabyBites - Sophisticated Palette",
+  "category": "Mobile Apps",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "babybites-sophisticated-palette"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#171e19",
+      "#ca0013",
+      "#b7c6c2",
+      "#eeebe3",
+      "#ffffff"
+    ],
+    "fonts": [
+      "Sophisticated Playful",
+      "Nunito"
+    ]
+  }
+}

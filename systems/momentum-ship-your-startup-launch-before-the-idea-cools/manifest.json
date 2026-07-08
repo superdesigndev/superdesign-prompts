@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "momentum-ship-your-startup-launch-before-the-idea-cools",
+  "name": "Momentum — Ship Your Startup Launch Before the Idea Cools",
+  "category": "Waitlist & Coming Soon",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "momentum-ship-your-startup-launch-before-the-idea-cools"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#14b8a6",
+      "#a3e635",
+      "#0d9488",
+      "#5eddc4",
+      "#65a30d",
+      "#fbfdfb",
+      "#0c1a17",
+      "#475a54"
+    ],
+    "fonts": []
+  }
+}

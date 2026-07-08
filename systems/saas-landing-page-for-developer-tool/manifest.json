@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "saas-landing-page-for-developer-tool",
+  "name": "SaaS Landing Page for Developer Tool",
+  "category": "Landing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "saas-landing-page-for-developer-tool"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#E3E2DE",
+      "#141414",
+      "#1351AA",
+      "#444343",
+      "#7A7A7A",
+      "#C7C7C7"
+    ],
+    "fonts": [
+      "Poster Modernist",
+      "Aileron",
+      "General Sans"
+    ]
+  }
+}

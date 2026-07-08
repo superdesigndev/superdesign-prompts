@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "questions-set-in-serif-an-editorial-faq",
+  "name": "Questions, Set in Serif — An Editorial FAQ",
+  "category": "Blog & Editorial",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "questions-set-in-serif-an-editorial-faq"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#faf6ef",
+      "#fffdf9",
+      "#1c1815",
+      "#5a534c",
+      "#7b2d3b",
+      "#5e2029"
+    ],
+    "fonts": [
+      "Ask a human",
+      "Talk to us",
+      "Frequently Asked Questions"
+    ]
+  }
+}

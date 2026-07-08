@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "aura-audio-showroom",
+  "name": "Aura Audio Showroom",
+  "category": "E-commerce",
+  "industry": "E-commerce & Retail",
+  "source": {
+    "type": "prompt",
+    "slug": "aura-audio-showroom"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FAF7F5",
+      "#1C1917",
+      "#A67B5B",
+      "#E2E8F0",
+      "#F5F5F4"
+    ],
+    "fonts": [
+      "Cabinet Grotesk",
+      "Satoshi"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "futuristic-sass-landing-page",
+  "name": "Futuristic SasS Landing Page",
+  "category": "Landing Pages",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "futuristic-sass-landing-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0f172a",
+      "#f8f9fa",
+      "#6366f1"
+    ],
+    "fonts": [
+      "Modern Atmospheric"
+    ]
+  }
+}

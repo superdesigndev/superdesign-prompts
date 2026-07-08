@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "luminous-ethereal-glassmorphism-onboarding",
+  "name": "Luminous Ethereal Glassmorphism Onboarding",
+  "category": "Onboarding",
+  "industry": "Finance & Crypto",
+  "source": {
+    "type": "prompt",
+    "slug": "luminous-ethereal-glassmorphism-onboarding"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#4F46E5",
+      "#A78BFA",
+      "#0B0C10",
+      "#FFFFFF",
+      "#818CF8",
+      "#60A5FA"
+    ],
+    "fonts": [
+      "Luminous Ethereal",
+      "Libre Baskerville",
+      "Manrope"
+    ]
+  }
+}

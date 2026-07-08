@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "mobile-app-app-store-preview",
+  "name": "Mobile App / App Store Preview",
+  "category": "E-commerce",
+  "industry": "E-commerce & Retail",
+  "source": {
+    "type": "prompt",
+    "slug": "mobile-app-app-store-preview"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": []
+  }
+}

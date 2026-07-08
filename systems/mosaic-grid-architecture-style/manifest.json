@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "mosaic-grid-architecture-style",
+  "name": "Mosaic Grid Architecture Style",
+  "category": "E-commerce",
+  "industry": "AI & Tech",
+  "source": {
+    "type": "prompt",
+    "slug": "mosaic-grid-architecture-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#F7F7F5",
+      "#1A3C2B",
+      "#3A3A38",
+      "#FF8C69",
+      "#9EFFBF",
+      "#F4D35E"
+    ],
+    "fonts": [
+      "Technical Minimalist",
+      "Paper",
+      "Forest",
+      "Grid",
+      "Forest Green",
+      "Space Grotesk"
+    ]
+  }
+}

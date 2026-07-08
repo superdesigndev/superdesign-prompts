@@ -1,0 +1,11 @@
+/* systems/hyper-speed-loading-state/tokens.css — Hyper-Speed Loading State
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #000;  /* REVIEW role */
+  --fg: #FDFDFD;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Outfit';
+  --font-body: 'Space Grotesk';
+}

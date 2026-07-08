@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "forms-that-feel-effortless-to-fill-fieldcraft",
+  "name": "Forms that feel effortless to fill — Fieldcraft",
+  "category": "Forms & Contact",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "forms-that-feel-effortless-to-fill-fieldcraft"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#10b981",
+      "#ffffff",
+      "#0f172a",
+      "#64748b",
+      "#94a3b8",
+      "#059669",
+      "#047857",
+      "#065f46",
+      "#e2e8f0",
+      "#cbd5e1",
+      "#f8fafc"
+    ],
+    "fonts": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "editorial-crimson-dev-tool-pricing",
+  "name": "Editorial Crimson Dev-Tool Pricing",
+  "category": "Pricing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "editorial-crimson-dev-tool-pricing"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#ffffff",
+      "#f7f7f8",
+      "#0e0f12",
+      "#5a5d66",
+      "#71747e",
+      "#90939c",
+      "#fff1f2",
+      "#ffe1e3",
+      "#ffc8cd",
+      "#f23a4d",
+      "#dc1d34",
+      "#b8132a",
+      "#991327",
+      "#7e1526",
+      "#eeeef0",
+      "#d9dadd"
+    ],
+    "fonts": [
+      "Fraunces",
+      "Inter"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+/* systems/questions-set-in-serif-an-editorial-faq/tokens.css — Questions, Set in Serif — An Editorial FAQ
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #faf6ef;  /* REVIEW role */
+  --fg: #fffdf9;  /* REVIEW role */
+  --accent: #1c1815;  /* REVIEW role */
+  --surface: #5a534c;  /* REVIEW role */
+  --muted: #7b2d3b;  /* REVIEW role */
+  --border: #5e2029;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Ask a human';
+  --font-body: 'Talk to us';
+}

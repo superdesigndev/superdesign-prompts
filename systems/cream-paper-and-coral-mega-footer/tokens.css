@@ -1,0 +1,18 @@
+/* systems/cream-paper-and-coral-mega-footer/tokens.css — Cream Paper & Coral Mega Footer
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #FBF4EC;  /* REVIEW role */
+  --fg: #F4E9DB;  /* REVIEW role */
+  --accent: #E7D9C7;  /* REVIEW role */
+  --surface: #241A12;  /* REVIEW role */
+  --muted: #62513F;  /* REVIEW role */
+  --border: #5C4D3C;  /* REVIEW role */
+  --color-7: #F0552B;
+  --color-8: #D6431D;
+  --color-9: #9A2F0D;
+  --color-10: #FCE2D6;
+  --color-11: #FFF7EF;
+  --color-12: #F6E9D9;
+}

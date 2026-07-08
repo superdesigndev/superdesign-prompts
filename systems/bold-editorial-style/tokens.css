@@ -1,0 +1,15 @@
+/* systems/bold-editorial-style/tokens.css — Bold Editorial Style
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #ffe17c;  /* REVIEW role */
+  --fg: #171e19;  /* REVIEW role */
+  --accent: #272727;  /* REVIEW role */
+  --surface: #b7c6c2;  /* REVIEW role */
+  --muted: #ffffff;  /* REVIEW role */
+  --border: #b7c6c220;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Anton';
+  --font-body: 'Satoshi';
+}

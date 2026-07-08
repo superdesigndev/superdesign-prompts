@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "system-initialization-trust-and-transparency",
+  "name": "System Initialization - Trust & Transparency",
+  "category": "Onboarding",
+  "industry": "AI & Tech",
+  "source": {
+    "type": "prompt",
+    "slug": "system-initialization-trust-and-transparency"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#FAFAF9",
+      "#44403C",
+      "#1C1917",
+      "#57534E",
+      "#E7E5E4",
+      "#F59E0B"
+    ],
+    "fonts": [
+      "Industrial Editorial",
+      "DM Serif Display",
+      "Inter",
+      "JetBrains Mono"
+    ]
+  }
+}

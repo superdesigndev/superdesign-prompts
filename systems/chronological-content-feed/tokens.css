@@ -1,0 +1,15 @@
+/* systems/chronological-content-feed/tokens.css — Chronological Content Feed
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #FFFFFF;  /* REVIEW role */
+  --fg: #111827;  /* REVIEW role */
+  --accent: #4B5563;  /* REVIEW role */
+  --surface: #6B7280;  /* REVIEW role */
+  --muted: #F3F4F6;  /* REVIEW role */
+  --border: #E5E7EB;  /* REVIEW role */
+  --color-7: #9CA3AF;
+  /* --- typography --- */
+  --font-display: 'General Sans';
+}

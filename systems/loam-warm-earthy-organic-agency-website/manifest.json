@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "loam-warm-earthy-organic-agency-website",
+  "name": "Loam — Warm Earthy Organic Agency Website",
+  "category": "Portfolios",
+  "industry": "Agency & Studio",
+  "source": {
+    "type": "prompt",
+    "slug": "loam-warm-earthy-organic-agency-website"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#efe7d8",
+      "#c4633f",
+      "#6b7048",
+      "#cf9a6f",
+      "#2b251d",
+      "#e6dac5",
+      "#f6f0e4",
+      "#a64f30",
+      "#565a39",
+      "#dcae84",
+      "#5c5345"
+    ],
+    "fonts": []
+  }
+}

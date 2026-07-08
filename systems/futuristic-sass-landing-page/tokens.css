@@ -1,0 +1,11 @@
+/* systems/futuristic-sass-landing-page/tokens.css — Futuristic SasS Landing Page
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #0f172a;  /* REVIEW role */
+  --fg: #f8f9fa;  /* REVIEW role */
+  --accent: #6366f1;  /* REVIEW role */
+  /* --- typography --- */
+  --font-display: 'Modern Atmospheric';
+}

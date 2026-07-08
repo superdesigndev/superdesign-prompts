@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "editorial-image-lightbox",
+  "name": "Editorial Image Lightbox",
+  "category": "Blog & Editorial",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "editorial-image-lightbox"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#faf6ef",
+      "#1c1815",
+      "#0c0a09",
+      "#7b2d3b",
+      "#5e2029"
+    ],
+    "fonts": [
+      "Featured",
+      "Aperture Series"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "card-swap",
+  "name": "Card Swap",
+  "category": "Components",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "card-swap"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": [
+      "Perspective Design",
+      "Fluid Motion",
+      "Minimalist Aesthetic",
+      "Atmospheric Loops",
+      "An elegant perspective card swapping animation component",
+      "Card"
+    ]
+  }
+}

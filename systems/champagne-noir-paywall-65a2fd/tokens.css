@@ -1,0 +1,18 @@
+/* systems/champagne-noir-paywall-65a2fd/tokens.css — Champagne Noir Paywall
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #080706;  /* REVIEW role */
+  --fg: #0c0b0a;  /* REVIEW role */
+  --accent: #161412;  /* REVIEW role */
+  --surface: #211d18;  /* REVIEW role */
+  --muted: #f6e6bd;  /* REVIEW role */
+  --border: #d9b25f;  /* REVIEW role */
+  --color-7: #b98f3e;
+  --color-8: #f4ecdd;
+  --color-9: #9b8f7c;
+  /* --- typography --- */
+  --font-display: 'Champagne Noir';
+  --font-body: 'Start free trial';
+}

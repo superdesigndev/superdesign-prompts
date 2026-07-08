@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "nature-inspired-style",
+  "name": "Nature Inspired Style",
+  "category": "Design Systems & Styles",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "nature-inspired-style"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#01472e",
+      "#ccd5ae",
+      "#e9edc9",
+      "#fefae0",
+      "#a3b18a"
+    ],
+    "fonts": [
+      "Forest and Sage",
+      "Anton",
+      "Inter",
+      "Forest",
+      "Organic Brutalist"
+    ]
+  }
+}

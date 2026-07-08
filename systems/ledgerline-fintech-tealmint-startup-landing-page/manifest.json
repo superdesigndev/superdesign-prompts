@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "ledgerline-fintech-tealmint-startup-landing-page",
+  "name": "Ledgerline — fintech teal/mint startup landing page",
+  "category": "Dashboards",
+  "industry": "Finance & Crypto",
+  "source": {
+    "type": "prompt",
+    "slug": "ledgerline-fintech-tealmint-startup-landing-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0f3d3e",
+      "#0a2a2b",
+      "#134847",
+      "#1b5a58",
+      "#256a67",
+      "#4fd1c5",
+      "#eef5f0"
+    ],
+    "fonts": []
+  }
+}

@@ -1,0 +1,16 @@
+/* systems/sectioned-index-page/tokens.css — Sectioned Index Page
+ * DRAFT scaffold — verify role assignments (REVIEW).
+ */
+:root {
+  /* --- palette (ordered as found; assign roles) --- */
+  --bg: #FFFFFF;  /* REVIEW role */
+  --fg: #111827;  /* REVIEW role */
+  --accent: #6B7280;  /* REVIEW role */
+  --surface: #9CA3AF;  /* REVIEW role */
+  --muted: #F9FAFB;  /* REVIEW role */
+  --border: #F3F4F6;  /* REVIEW role */
+  --color-7: #000000;
+  /* --- typography --- */
+  --font-display: 'Minimalist Editorial';
+  --font-body: 'General Sans';
+}

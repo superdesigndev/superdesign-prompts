@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "send-us-the-brief-brutalist-contact-form",
+  "name": "Send Us the Brief — Brutalist Contact Form",
+  "category": "Forms & Contact",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "send-us-the-brief-brutalist-contact-form"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#f4f1ea",
+      "#0a0a0a",
+      "#e8ff00",
+      "#ffffff"
+    ],
+    "fonts": [
+      "Three blunt steps",
+      "Style",
+      "Start",
+      "Send",
+      "We cast it"
+    ]
+  }
+}

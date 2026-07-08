@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "force-field-background",
+  "name": "Force Field Background",
+  "category": "Animations & Backgrounds",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "force-field-background"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": [
+      "Inter",
+      "Randomize Parameters",
+      "Failed to load image"
+    ]
+  }
+}

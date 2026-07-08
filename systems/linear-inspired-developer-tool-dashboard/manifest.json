@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "linear-inspired-developer-tool-dashboard",
+  "name": "Linear inspired developer tool dashboard",
+  "category": "Dashboards",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "linear-inspired-developer-tool-dashboard"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [
+      "#0e0e0e",
+      "#111113",
+      "#5e6ad2",
+      "#f3f4f6",
+      "#9ca3af",
+      "#6b7280",
+      "#4b5563",
+      "#f97316",
+      "#10b981",
+      "#ef4444"
+    ],
+    "fonts": [
+      "Inter",
+      "JetBrains Mono"
+    ]
+  }
+}

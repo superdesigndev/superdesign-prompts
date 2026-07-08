@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "hover-reveal-effect",
+  "name": "Hover reveal effect",
+  "category": "Animations & Backgrounds",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "hover-reveal-effect"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md",
+    "tokens": "tokens.css"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": [
+      "Portfolio"
+    ]
+  }
+}
