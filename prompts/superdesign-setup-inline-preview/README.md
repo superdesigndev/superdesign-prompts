@@ -30,7 +30,7 @@ A minimalist, developer-centric configuration interface featuring a monochrome t
     "prompts": [
       {
         "part": "Header",
-        "prompt": "Sticky header with 90% opacity and backdrop-blur-sm. Elements: Left-aligned logo (20px square block next to 'Superdesign' in JetBrains Mono bold). Right-aligned theme toggle using Lucide icons (Sun/Moon)."
+        "prompt": "Sticky header with 90% opacity and backdrop-blur-sm. Elements: Left-aligned logo (20px square block next to 'Acme' in JetBrains Mono bold). Right-aligned theme toggle using Lucide icons (Sun/Moon)."
       },
       {
         "part": "Hero Section",

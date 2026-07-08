@@ -139,10 +139,11 @@ BRAND_STRIP = {
 def apply_patches(it):
     """Deterministic content fixes applied post-load (survive re-syncs). Patches the prompt/tags in place."""
     slug = it.get("slug"); pr = it.get("prompt") or ""
-    # brand-neutralize: our brand should never ship inside a reusable template
-    pr = pr.replace("hello@superdesign.dev", "hello@example.com")
+    # brand-neutralize globally: our brand must never ship inside a reusable template.
+    # (try_url is a separate field, so the live-library backlinks stay intact.)
+    pr = pr.replace("superdesign.dev", "example.com")
+    pr = pr.replace("SUPERDESIGN", "ACME").replace("Superdesign", "Acme")
     if slug in BRAND_STRIP:
-        pr = pr.replace("SUPERDESIGN", "ACME").replace("Superdesign", "Acme")
         pr = re.sub(r"\bSUPER\b(?!\s*[-#.:])", "ACME", pr)  # bare SUPER wordmark, not CSS/props
     if slug == "developer-tool-dashboardonboarding":
         pr = pr.replace("#33333 ", "#333333 ").replace("#33333;", "#333333;")

@@ -21,13 +21,13 @@ Design social media posts based on given assets
 ```text
 skill:
   id: social-design-os-v5-2
-  name: "SUPERDESIGN — Social Design OS v5.2"
+  name: "ACME — Social Design OS v5.2"
   version: "5.2"
   category: "Social / Campaign"
   author_role: "Senior Art Director • Visual Systems Architect"
 
   description: >
-    A full-stack social design operating system for Superdesign.
+    A full-stack social design operating system for Acme.
     Reference-intelligent, platform-native, accessibility-enforced,
     density-calibrated, compression-aware, campaign-consistent, and performance-adaptive.
     Produces production-ready outputs only (no mockups, no UI chrome, no debug grids).

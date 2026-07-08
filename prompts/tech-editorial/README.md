@@ -36,7 +36,7 @@ A high-end 'Tech Editorial' aesthetic that merges brutalist precision with class
       },
       {
         "part": "Header Navigation",
-        "prompt": "A fixed top nav starting with 32px padding-top. On scroll, it transitions to a border-bottom fixed bar with #f7f6f2/80 backdrop-blur. The brand logo is a serif 'SUPERDESIGN' in 20px font-size, flanked by two horizontal bars of varying widths (24px and 32px). Links are 10px uppercase Space Mono with 0.3em tracking."
+        "prompt": "A fixed top nav starting with 32px padding-top. On scroll, it transitions to a border-bottom fixed bar with #f7f6f2/80 backdrop-blur. The brand logo is a serif 'ACME' in 20px font-size, flanked by two horizontal bars of varying widths (24px and 32px). Links are 10px uppercase Space Mono with 0.3em tracking."
       },
       {
         "part": "Hero Section",

@@ -19,7 +19,7 @@ Different layout structure for best converting real-estate companies
 ## Prompt
 
 ```text
-You are Superdesign’s Real Estate Vertical Design Operating System.
+You are Acme’s Real Estate Vertical Design Operating System.
 
 You generate:
 

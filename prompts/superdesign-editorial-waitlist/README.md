@@ -34,7 +34,7 @@ Editorial waiting list landing page with a cinematic, high-fashion aesthetic. Fe
       },
       {
         "part": "Hero Headline Section",
-        "prompt": "Central hero area with edge-to-edge typography. Start with an 'Early Access' label featuring a 24px horizontal line in `#DC9F85` followed by uppercase text in `#B6A596`. The main headline 'SUPERDESIGN' (or generic title) should be oversized (`11.5vw`). Layer a 1px outlined version of the text (`#66473B`) behind the solid beige text, offset by 4px for a depth effect. On mobile, the headline must stack vertically."
+        "prompt": "Central hero area with edge-to-edge typography. Start with an 'Early Access' label featuring a 24px horizontal line in `#DC9F85` followed by uppercase text in `#B6A596`. The main headline 'ACME' (or generic title) should be oversized (`11.5vw`). Layer a 1px outlined version of the text (`#66473B`) behind the solid beige text, offset by 4px for a depth effect. On mobile, the headline must stack vertically."
       },
       {
         "part": "Bottom Content Grid",
