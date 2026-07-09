@@ -1,6 +1,6 @@
 # All prompts (full text mirror)
 
-Top 150 team-authored prompts from the [Superdesign prompt library](https://superdesign.dev/library), category-balanced. Generated from `prompts.json`.
+Top 114 team-authored prompts from the [Superdesign prompt library](https://superdesign.dev/library), category-balanced. Generated from `prompts.json`.
 
 ## 1. Tubes Interactive Background
 `Animations & Backgrounds` · `General` · 2,912 copies · [try live](https://superdesign.dev/library/tubes-interactive-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
@@ -1689,62 +1689,7 @@ A nature-inspired 'Organic Brutalist' design system perfect for wellness, sustai
 
 ---
 
-## 15. Glassmorphism card
-`Design Systems & Styles` · `General` · 1,250 copies · [try live](https://superdesign.dev/library/glassmorphism-card?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A premium, high-tech glassmorphism design system characterized by deep translucent layers, dark-to-light transitions, and editorial typography. Featuring a 'Superdesign' aesthetic, it utilizes heavy background blurs, grain textures, and emerald accents. This style is ideal for SaaS, AI platforms, fintech, and high-end design agencies requiring a sophisticated, futuristic feel with bento-grid layouts and fluid animations.
-
-```text
-{
-  "summary": "A sophisticated design system centered on glassmorphism, depth-focused layouts, and a monochrome palette with vibrant emerald highlights. It transitions from a dark, immersive hero section to a clean, structured light-mode feature set.",
-  "style": {
-    "description": "The style relies on the Inter font family for a clean, modern look. It features two primary modes: a high-contrast dark mode using deep blacks (#000000) and translucent glass layers, and a light mode using soft zinc grays (#F4F4F5). Animations are smooth, utilizing cubic-bezier curves for entry and hover states. Key visual elements include 20px-blur glass containers and a subtle grain overlay.",
-    "prompt": "### Visual Foundations\n- **Color Palette:** Primary Dark (#000000), Light Background (#F4F4F5), Zinc Accent (#18181B), Emerald Highlight (#34D399), Subtle Border (rgba(255, 255, 255, 0.1)).\n- **Typography:** Font: 'Inter', sans-serif. \n  - Headings: font-weight 500-700, tracking -0.05em, leading 1.05.\n  - Body: font-weight 300-400, color: Zinc-500 (#71717A).\n  - Labels: font-weight 700, size 10px, tracking 0.2em, uppercase.\n- **Glassmorphism:** \n  - `background: rgba(255, 255, 255, 0.05)`\n  - `backdrop-filter: blur(12px)`\n  - `border: 1px solid rgba(255, 255, 255, 0.1)`\n- **Grain Overlay:** Use a noise SVG as a fixed overlay at 15% opacity to add texture to dark sections.\n- **Corner Radius:** Standardize large containers at `2.5rem (40px)` and internal cards at `1rem (16px)` to `1.5rem (24px)`.\n- **Animations:** \n  - Entry: `fade-in-up` (TranslateY: 20px to 0, Opacity: 0 to 1) using `cubic-bezier(0.16, 1, 0.3, 1)` over 0.8s.\n  - Hover: Scaling effects (105%) and background color transitions (300ms duration)."
-  },
-  "layout_and_structure": {
-    "description": "The layout is built within a max-width 1600px container. It uses a tiered structure: an immersive full-height hero section with absolute-positioned glass elements, followed by a grid-based feature section, a dark 'productivity' block, and a bento-grid pricing layout.",
-    "prompts": [
-      {
-        "part": "Navigation",
-        "prompt": "Floating glass navbar. Features a blur of 20px, rounded-full shape, and 1.5px padding. Links use `text-white/80` with a hover state of `bg-white/10` and rounded-full background."
-      },
-      {
-        "part": "Hero Section",
-        "prompt": "Height 92vh, rounded corners (2.5rem). Background consists of a high-resolution abstract image at 60% opacity with a gradient overlay from `zinc-950/40` to `zinc-950/90`. Includes a massive background text ('CREATE') at 22vw with 3% opacity and a blur filter. Content is split between a left-aligned typography block and a right-aligned vertical stack of glass stats cards."
-      },
-      {
-        "part": "Feature Grid",
-        "prompt": "Two-column layout. Left column: Sticky header with 4xl-5xl typography and a 2x3 grid of icon+label pairs. Right column: Large display card with a 105% hover-scale image and an internal floating glass 'System Analysis' component showing progress bars and status indicators."
-      },
-      {
-        "part": "Dark Productivity Block",
-        "prompt": "Full-width section with #18181B background. Features a grayscale grid lineart overlay. Layout: 2-column. Left: List of numbered steps (01, 02) in rounded-2xl boxes. Right: 3D-transformed mock-up window (rotated 3 degrees) with internal glass-morphic code snippets and a 'bounce' animated status tag at the bottom-right."
-      },
-      {
-        "part": "Pricing Bento Grid",
-        "prompt": "3-column grid of cards. Each card: White background, 2rem radius, thin zinc-100 border. Top half: 64px height image with a gradient-to-black bottom overlay. Bottom half: Padding 1.5rem, secondary text for features, and a full-width action button."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Interactive Action Button",
-      "description": "A pill-shaped button with a nested circular icon container.",
-      "prompt": "Base: `bg-white`, `rounded-full`, `pl-6 pr-2 py-2`. Text: `font-medium`, `text-zinc-900`. Inner Icon: `w-10 h-10`, `bg-zinc-900`, `rounded-full`, containing a white icon. Interaction: Entire button scales to 105% on hover, inner icon background shifts to `bg-zinc-700`."
-    },
-    {
-      "component": "Glass Stat Card",
-      "description": "A high-transparency card used for metrics within dark sections.",
-      "prompt": "Dimensions: Width 72px (approx), Padding 1.25rem. Style: `background: rgba(255, 255, 255, 0.05)`, `backdrop-filter: blur(12px)`, `border: 1px solid rgba(255, 255, 255, 0.1)`. Elements: Large metric (text-3xl) and secondary description (text-white/60, size sm)."
-    }
-  ],
-  "special_notes": "MUST: Maintain the 2.5rem corner radius for all major section wrappers to ensure visual rhythm. MUST: Use 'grainy-gradients' noise textures on dark backgrounds to prevent banding and add 'analog' depth. MUST: Ensure all glass elements have a 1px white border with 10% opacity for edge definition. DO NOT: Use flat colors for dark backgrounds; always apply a subtle bottom-heavy gradient."
-}
-```
-
----
-
-## 16. Bold Editorial Studio Style
+## 15. Bold Editorial Studio Style
 `Design Systems & Styles` · `Agency & Studio` · 1,216 copies · [try live](https://superdesign.dev/library/bold-editorial-studio-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Bold Editorial Studio Style is a high-impact, minimalist design system characterized by massive typography, a strict monochromatic palette, and sophisticated micro-interactions. It features a signature 'editorial' look using ultra-large display fonts (up to 12vw), custom cursor logic, and fluid marquee animations. Ideal for creative agencies, high-end portfolios, fashion brands, and premium fintech products, the system leverages white space and motion to create a premium, curated feel. Key elements include mix-blend-mode navigation, staggered text reveals, and asymmetrical image containers with varied border radii.
@@ -1799,7 +1744,7 @@ Bold Editorial Studio Style is a high-impact, minimalist design system character
 
 ---
 
-## 17. Neumorphism
+## 16. Neumorphism
 `Design Systems & Styles` · `General` · 834 copies · [try live](https://superdesign.dev/library/neumorphism?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Neumorphism creates the illusion of physical depth through carefully balanced dual shadows
@@ -2083,7 +2028,7 @@ box-shadow: inset 3px 3px 6px rgb(163,177,198,0.6), inset -3px -3px 6px rgba(255
 
 ---
 
-## 18. The "Stacking Cards" Effect
+## 17. The "Stacking Cards" Effect
 `Animations & Backgrounds` · `General` · 905 copies · [try live](https://superdesign.dev/library/the-stacking-cards-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A portfolio section where cards stack sticky at the top as the user scrolls, creating a deck-of-cards effect using GSAP.
@@ -2096,7 +2041,7 @@ The "Stacking Cards" Effect:
 
 ---
 
-## 19. Synapse
+## 18. Synapse
 `Landing Pages` · `General` · 1,110 copies · [try live](https://superdesign.dev/library/synapse?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-performance 'neural' dark mode design system characterized by deep black backgrounds (#030303), vibrant neon accents in violet (#8B5CF6) and cyan (#06B6D4), and a sophisticated blend of editorial serif typography (Instrument Serif) with functional sans-serif (Inter). The style utilizes glassmorphism, animated mesh gradients, and 'shimmer' text effects to evoke a sense of advanced intelligence, encryption, and institutional-grade technology. Ideal for Fintech, AI, Cybersecurity, and Web3 verticals where speed, security, and technical sophistication are core values.
@@ -2155,7 +2100,7 @@ A high-performance 'neural' dark mode design system characterized by deep black 
 
 ---
 
-## 20. Bold Editorial Style
+## 19. Bold Editorial Style
 `Waitlist & Coming Soon` · `SaaS` · 948 copies · [try live](https://superdesign.dev/library/bold-editorial-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-contrast, editorial-style SaaS landing page design optimized for designers and creative tools. It features bold Anton display typography, a sophisticated palette of golden yellow (#ffe17c) and deep charcoal (#171e19), and a structured layout combining grid patterns and bento-box feature blocks. This style is characterized by aggressive visual hierarchy, oversized headlines, and a minimalist yet punchy aesthetic suitable for high-velocity startups, fintech, or creative agency portfolios.
@@ -2213,7 +2158,7 @@ A high-contrast, editorial-style SaaS landing page design optimized for designer
 
 ---
 
-## 21. BabyBites - Sophisticated Palette
+## 20. BabyBites - Sophisticated Palette
 `Mobile Apps` · `General` · 1,224 copies · [try live](https://superdesign.dev/library/babybites-sophisticated-palette?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 BabyBites style guide featuring a sophisticated high-contrast palette of dark charcoal, vibrant red, and sage-green. Characterized by playful but professional editorial typography, oversized rounded corners (up to 40px), and a clean, card-based layout. Ideal for parenting, nutrition, healthcare, and educational SaaS platforms. Includes scroll-triggered animations and custom view transitions for fluid mobile-first navigation.
@@ -2268,7 +2213,7 @@ BabyBites style guide featuring a sophisticated high-contrast palette of dark ch
 
 ---
 
-## 22. Hyper-Saturated Fluid
+## 21. Hyper-Saturated Fluid
 `Design Systems & Styles` · `General` · 1,002 copies · [try live](https://superdesign.dev/library/hyper-saturated-fluid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A landing page featuring a Hyper-Saturated Fluid design style. It uses a 'Cyber Yellow' primary color with organic 'liquid' sectioning, contrasting against a 'Deep Onyx' dark void. Includes glassmorphic data cards, massive typography, and pill-shaped interactive elements.
@@ -2387,7 +2332,7 @@ DON'T use gradients on the "shout" color; keep it a flat, vibrant punch.
 
 ---
 
-## 23. SaaS Landing Page for Developer Tool
+## 22. SaaS Landing Page for Developer Tool
 `Landing Pages` · `Dev Tools` · 950 copies · [try live](https://superdesign.dev/library/saas-landing-page-for-developer-tool?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A bold modernist design system inspired by exhibition poster aesthetics and technical documentation. Characterized by a high-contrast 'cream and cobalt' color palette, oversized aggressive typography, and a rigid 12-column grid layout with 1px border dividers. This style is ideal for technical SaaS, developer tools, high-end design agencies, or architectural portfolios. Key elements include tight line-heights (0.85), no rounded corners, and a unique vertical labeling system in a dedicated left-hand grid column.
@@ -2446,7 +2391,7 @@ A bold modernist design system inspired by exhibition poster aesthetics and tech
 
 ---
 
-## 24. Midnight Editorial Style
+## 23. Midnight Editorial Style
 `Design Systems & Styles` · `General` · 963 copies · [try live](https://superdesign.dev/library/midnight-editorial-style-5f0a22?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A premium, ultra-modern dark aesthetic featuring deep black backgrounds (#050505), massive 'Satoshi' typography for impact, and striking coral (#FF6B50) accents. Designed for high-end agencies and portfolios that prioritize storytelling and visual drama.
@@ -2779,312 +2724,7 @@ Please use the above as reference and apply to our context
 
 ---
 
-## 25. Hyper-Speed Loading State
-`Components` · `General` · 749 copies · [try live](https://superdesign.dev/library/hyper-speed-loading-state?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Loading animation UI featuring a character-like loader with animated lines, a body made from geometric shapes, and moving horizontal lines across the background. The loader have smooth animations with multiple synchronized motion effects including rotation, translation, and opacity fades.
-
-```text
-Create a complete loading animation UI featuring the spinner design from the provided code: a character-like loader with animated lines, a body made from geometric shapes, and moving horizontal lines across the background. The loader should have smooth animations with multiple synchronized motion effects including rotation, translation, and opacity fades. The design should showcase the full animation in action with a clean, centered presentation and minimal background to highlight the animation effects.
-
-Here is a reference implementation:
-
-~~~html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hyper-Speed Loading State</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <style>
-    @view-transition {
-      navigation: auto;
-    }
-
-    /* --- REPLICATED LOADER CSS --- */
-    .loader {
-      position: absolute;
-      top: 50%;
-      margin-left: -50px;
-      left: 50%;
-      animation: speeder 0.4s linear infinite;
-      z-index: 10;
-    }
-
-    .loader > span {
-      height: 5px;
-      width: 35px;
-      background: #000;
-      position: absolute;
-      top: -19px;
-      left: 60px;
-      border-radius: 2px 10px 1px 0;
-    }
-
-    .base span {
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-top: 6px solid transparent;
-      border-right: 100px solid #000;
-      border-bottom: 6px solid transparent;
-    }
-
-    .base span:before {
-      content: "";
-      height: 22px;
-      width: 22px;
-      border-radius: 50%;
-      background: #000;
-      position: absolute;
-      right: -110px;
-      top: -16px;
-    }
-
-    .base span:after {
-      content: "";
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-top: 0 solid transparent;
-      border-right: 55px solid #000;
-      border-bottom: 16px solid transparent;
-      top: -16px;
-      right: -98px;
-    }
-
-    .face {
-      position: absolute;
-      height: 12px;
-      width: 20px;
-      background: #000;
-      border-radius: 20px 20px 0 0;
-      transform: rotate(-40deg);
-      right: -125px;
-      top: -15px;
-    }
-
-    .face:after {
-      content: "";
-      height: 12px;
-      width: 12px;
-      background: #000;
-      right: 4px;
-      top: 7px;
-      position: absolute;
-      transform: rotate(40deg);
-      transform-origin: 50% 50%;
-      border-radius: 0 0 0 2px;
-    }
-
-    .loader > span > span:nth-child(1),
-    .loader > span > span:nth-child(2),
-    .loader > span > span:nth-child(3),
-    .loader > span > span:nth-child(4) {
-      width: 30px;
-      height: 1px;
-      background: #000;
-      position: absolute;
-      animation: fazer1 0.2s linear infinite;
-    }
-
-    .loader > span > span:nth-child(2) {
-      top: 3px;
-      animation: fazer2 0.4s linear infinite;
-    }
-
-    .loader > span > span:nth-child(3) {
-      top: 1px;
-      animation: fazer3 0.4s linear infinite;
-      animation-delay: -1s;
-    }
-
-    .loader > span > span:nth-child(4) {
-      top: 4px;
-      animation: fazer4 1s linear infinite;
-      animation-delay: -1s;
-    }
-
-    @keyframes fazer1 {
-      0% { left: 0; }
-      100% { left: -80px; opacity: 0; }
-    }
-    @keyframes fazer2 {
-      0% { left: 0; }
-      100% { left: -100px; opacity: 0; }
-    }
-    @keyframes fazer3 {
-      0% { left: 0; }
-      100% { left: -50px; opacity: 0; }
-    }
-    @keyframes fazer4 {
-      0% { left: 0; }
-      100% { left: -150px; opacity: 0; }
-    }
-
-    @keyframes speeder {
-      0% { transform: translate(2px, 1px) rotate(0deg); }
-      10% { transform: translate(-1px, -3px) rotate(-1deg); }
-      20% { transform: translate(-2px, 0px) rotate(1deg); }
-      30% { transform: translate(1px, 2px) rotate(0deg); }
-      40% { transform: translate(1px, -1px) rotate(1deg); }
-      50% { transform: translate(-1px, 3px) rotate(-1deg); }
-      60% { transform: translate(-1px, 1px) rotate(0deg); }
-      70% { transform: translate(3px, 1px) rotate(-1deg); }
-      80% { transform: translate(-2px, -1px) rotate(1deg); }
-      90% { transform: translate(2px, 1px) rotate(0deg); }
-      100% { transform: translate(1px, -2px) rotate(-1deg); }
-    }
-
-    .longfazers {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      pointer-events: none;
-    }
-
-    .longfazers span {
-      position: absolute;
-      height: 2px;
-      width: 20%;
-      background: #000;
-      opacity: 0.1;
-    }
-
-    .longfazers span:nth-child(1) {
-      top: 20%;
-      animation: lf 0.6s linear infinite;
-      animation-delay: -5s;
-    }
-
-    .longfazers span:nth-child(2) {
-      top: 40%;
-      animation: lf2 0.8s linear infinite;
-      animation-delay: -1s;
-    }
-
-    .longfazers span:nth-child(3) {
-      top: 60%;
-      animation: lf3 0.6s linear infinite;
-    }
-
-    .longfazers span:nth-child(4) {
-      top: 80%;
-      animation: lf4 0.5s linear infinite;
-      animation-delay: -3s;
-    }
-
-    @keyframes lf { 0% { left: 200%; } 100% { left: -200%; opacity: 0; } }
-    @keyframes lf2 { 0% { left: 200%; } 100% { left: -200%; opacity: 0; } }
-    @keyframes lf3 { 0% { left: 200%; } 100% { left: -100%; opacity: 0; } }
-    @keyframes lf4 { 0% { left: 200%; } 100% { left: -100%; opacity: 0; } }
-
-    /* Styling the background */
-    .noise-bg {
-      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-      opacity: 0.03;
-    }
-
-    .font-outfit { font-family: 'Outfit', sans-serif; }
-    .font-space { font-family: 'Space Grotesk', sans-serif; }
-  </style>
-</head>
-<body>
-  <div class="min-h-screen bg-[#FDFDFD] relative overflow-hidden flex flex-col items-center justify-center">
-    
-    <!-- Background Texture -->
-    <div class="absolute inset-0 noise-bg pointer-events-none"></div>
-
-    <!-- Long Fazers Background -->
-    <div class="longfazers">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
-    <!-- Loader Component Container -->
-    <div class="relative w-full max-w-2xl h-[400px] flex items-center justify-center">
-      <div class="loader">
-        <span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-        <div class="base">
-          <span></span>
-          <div class="face"></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Content Overlay -->
-    <div class="z-20 text-center mt-8 space-y-4">
-      <h1 class="font-space text-4xl font-bold tracking-tighter text-black uppercase animate-pulse">
-        Processing Request
-      </h1>
-      <p class="font-outfit text-gray-400 font-light tracking-widest uppercase text-xs">
-        Synchronizing with global neural networks
-      </p>
-
-      <!-- Progress Bar Mockup -->
-      <div class="w-64 h-1 bg-gray-100 rounded-full mx-auto mt-12 overflow-hidden relative">
-        <div class="h-full bg-black w-1/3 animate-[progress_3s_ease-in-out_infinite]"></div>
-      </div>
-    </div>
-
-    <!-- Decorative Elements -->
-    <div class="absolute bottom-12 left-12 flex flex-col items-start space-y-2 opacity-40">
-      <div class="flex items-center space-x-2 text-[10px] font-space">
-        <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-        <span class="text-black">SYSTEMS NOMINAL</span>
-      </div>
-      <div class="text-[10px] font-outfit text-gray-500 uppercase tracking-tighter">
-        X-RAY DELTA 4.0 // VECTOR PROTOCOL
-      </div>
-    </div>
-
-    <div class="absolute top-12 right-12 text-right opacity-40">
-      <iconify-icon icon="lucide:cpu" class="text-2xl text-black mb-2"></iconify-icon>
-      <div class="text-[10px] font-space text-black font-bold uppercase tracking-widest">
-        LATENCY: 14ms
-      </div>
-    </div>
-
-    <!-- Branding -->
-    <div class="absolute top-12 left-12">
-      <a href="#" id="brand-logo-link" class="flex items-center space-x-2 group">
-        <div class="w-8 h-8 bg-black flex items-center justify-center">
-          <iconify-icon icon="lucide:zap" class="text-white text-lg group-hover:scale-110 transition-transform"></iconify-icon>
-        </div>
-        <span class="font-space text-xl font-bold tracking-tighter">VELOCITY</span>
-      </a>
-    </div>
-
-  </div>
-
-  <style>
-    @keyframes progress {
-      0% { transform: translateX(-100%); }
-      50% { transform: translateX(50%); }
-      100% { transform: translateX(200%); }
-    }
-  </style>
-</body>
-</html>
-~~~
-```
-
----
-
-## 26. Chrome Extension Landing Page
+## 24. Chrome Extension Landing Page
 `Landing Pages` · `Dev Tools` · 592 copies · [try live](https://superdesign.dev/library/chrome-extension-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A browser-native developer tool aesthetic characterized by a 'system interface' look rather than a marketing landing page. This style features a light-neutral base with a vibrant cyan (#06B6D4) accent, mimicking the layout of Chrome DevTools or a workspace IDE. It uses a combination of Inter for primary readability and JetBrains Mono for technical labels and commands. Suitable for SaaS, developer tools, extensions, and technical platforms requiring a high-density, utility-focused layout with scroll-triggered panel reveals and simulated interactive environments.
@@ -3142,7 +2782,7 @@ A browser-native developer tool aesthetic characterized by a 'system interface' 
 
 ---
 
-## 27. Cinematic Noir Style
+## 25. Cinematic Noir Style
 `Design Systems & Styles` · `General` · 643 copies · [try live](https://superdesign.dev/library/cinematic-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-end 'Cinematic Noir' design system characterized by dramatic dark-mode aesthetics, high-contrast editorial typography, and immersive scroll-driven parallax effects. Suitable for creative agencies, luxury fashion, fintech, and high-end portfolios. Features include grain overlays, radial gradients with subtle warm tints, and brutalist-scale headings that blur the line between digital interface and cinematic experience.
@@ -3197,7 +2837,7 @@ A high-end 'Cinematic Noir' design system characterized by dramatic dark-mode ae
 
 ---
 
-## 28. Minimalist Beta Capture
+## 26. Minimalist Beta Capture
 `Waitlist & Coming Soon` · `General` · 745 copies · [try live](https://superdesign.dev/library/minimalist-beta-capture?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-end 'Editorial Brutalist' style guide optimized for SaaS waitlists, fintech, or premium developer tools. It features a dark-mode palette (#080808), high-contrast monochromatic typography (DM Serif Display + Geist Mono), and sophisticated glassmorphism. The layout utilizes a bento-grid structure and fluid width (92vw) with oversized hero typography. Key features include scroll-triggered slide-up animations, a silver-metallic gradient system, and a persistent floating mobile navigation bar.
@@ -3257,7 +2897,7 @@ A high-end 'Editorial Brutalist' style guide optimized for SaaS waitlists, finte
 
 ---
 
-## 29. Card Swap
+## 27. Card Swap
 `Components` · `General` · 884 copies · [try live](https://superdesign.dev/library/card-swap?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An elegant card swapping animation component with depth perception and perspective. Features automated cycling of cards with a premium floating feel.
@@ -3680,7 +3320,7 @@ Help me integrate this into my design
 
 ---
 
-## 30. Brutalist Style Ecommerce Page
+## 28. Brutalist Style Ecommerce Page
 `E-commerce` · `E-commerce & Retail` · 945 copies · [try live](https://superdesign.dev/library/brutalist-style-ecommerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A brutalist editorial design system for high-fashion, streetwear, or luxury brands. Featuring a raw, industrial aesthetic with massive typography, high-contrast photography, and utilitarian components. Key elements include a noise-grain texture overlay, a monochromatic palette with burnt orange and neon green accents, and asymmetrical layout grids. The style uses 'Clash Grotesk' for aggressive impact and 'General Sans' for technical clarity. Ideal for product launches, lookbooks, and fashion portfolios looking for a 'Raw Campaign' or 'Modern Brutalist' feel with scroll-triggered visual impact.
@@ -3743,7 +3383,7 @@ A brutalist editorial design system for high-fashion, streetwear, or luxury bran
 
 ---
 
-## 31. Superdesign Editorial Waitlist
+## 29. Superdesign Editorial Waitlist
 `Waitlist & Coming Soon` · `General` · 556 copies · [try live](https://superdesign.dev/library/superdesign-editorial-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Editorial waiting list landing page with a cinematic, high-fashion aesthetic. Features a deep matte #181818 background, warm beige #EBDCC4 typography, and a brutalist yet refined grid. Key elements include oversized edge-to-edge display type, subtle noise textures, and a layered text depth effect. Ideal for luxury tech, creative agency portfolios, high-end SaaS tools, architecture firms, and invite-only exclusivity campaigns. Layout utilizes strong typographic hierarchy and generous negative space with accent tones in coral, rust, and sage.
@@ -3794,7 +3434,7 @@ Editorial waiting list landing page with a cinematic, high-fashion aesthetic. Fe
 
 ---
 
-## 32. Hover reveal effect
+## 30. Hover reveal effect
 `Animations & Backgrounds` · `General` · 442 copies · [try live](https://superdesign.dev/library/hover-reveal-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Source: https://x.com/emilylambert/status/2005113433780617713
@@ -3809,7 +3449,7 @@ All text elements (my name, the Portfolio link, and the social icons) should dyn
 
 ---
 
-## 33. Force Field Background
+## 31. Force Field Background
 `Animations & Backgrounds` · `General` · 865 copies · [try live](https://superdesign.dev/library/force-field-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An interactive, particle-based force field background effect that reacts to mouse movement. Uses p5.js to render particles based on image brightness maps, creating a fluid, magnetic visual experience.
@@ -4423,18 +4063,7 @@ Help me integrate this into my design
 
 ---
 
-## 34. Scroll Journey Line
-`Animations & Backgrounds` · `General` · 820 copies · [try live](https://superdesign.dev/library/scroll-journey-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-An SVG line connector that animates/draws itself based on the user's scroll percentage using Framer Motion.
-
-```text
-Animate an SVG line (like a connector or 'journey' line) that draws itself forward based on the user's scroll percentage.
-```
-
----
-
-## 35. Neon Velocity Countdown
+## 32. Neon Velocity Countdown
 `Waitlist & Coming Soon` · `General` · 683 copies · [try live](https://superdesign.dev/library/neon-velocity-countdown?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-velocity, futuristic dark-mode design system characterized by neon accents, brutalist typography, and 3D glassmorphism. Featuring a 'Laser Green' and 'Navy Black' palette, it utilizes 'Plus Jakarta Sans' for high-impact headlines and 'Geist Mono' for technical metadata. This aesthetic is ideal for high-growth tech startups, SaaS platforms, developer tools, and fintech products that want to convey speed, precision, and cutting-edge innovation. The layout uses a bento-grid structure, fluid typography, and sophisticated scroll-triggered reveal animations.
@@ -4489,7 +4118,7 @@ A high-velocity, futuristic dark-mode design system characterized by neon accent
 
 ---
 
-## 36. Gooey Gradient Background
+## 33. Gooey Gradient Background
 `Animations & Backgrounds` · `General` · 485 copies · [try live](https://superdesign.dev/library/gooey-gradient-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A mesmerizing, interactive gooey liquid gradient background with animated blobs and mouse-following effect. Perfect for immersive landing pages.
@@ -4828,20 +4457,7 @@ Help me integrate this into my design
 
 ---
 
-## 37. Horizontal Gallery
-`Animations & Backgrounds` · `General` · 439 copies · [try live](https://superdesign.dev/library/horizontal-gallery?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A sticky section that locks vertical scroll and translates it into horizontal movement to showcase a gallery. Features robust GSAP ScrollTrigger initialization.
-
-```text
-Create a 'sticky' section where the vertical scroll locks, and the content slides horizontally to showcase a gallery. 
-
-**Technical Requirement**: Ensure the GSAP initialization is robust. Since this is a React component, please include a small delay or safety check inside useLayoutEffect to ensure the DOM is fully rendered and widths are accurate before the ScrollTrigger calculates the pinning logic.
-```
-
----
-
-## 38. Disruptor Beta Launch
+## 34. Disruptor Beta Launch
 `Waitlist & Coming Soon` · `General` · 456 copies · [try live](https://superdesign.dev/library/disruptor-beta-launch?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-impact Neo-Brutalist design system designed for product launches and disruptive SaaS platforms. Characterized by stark color contrasts, industrial typography, and heavy geometric borders. The aesthetic utilizes a dark mode base (#121212) punctuated by vibrant 'Volt' accents (#CCFF00) and crisp white containers. Key features include 'sticker-style' rotated elements, massive display type, solid 8px offsets (Neo-shadows), and vertical navigation elements. Ideal for high-growth tech, developer tools, fintech, and creative agencies looking for an aggressive, authoritative, and innovative brand presence.
@@ -4900,7 +4516,7 @@ A high-impact Neo-Brutalist design system designed for product launches and disr
 
 ---
 
-## 39. Bold Editorial Design Style
+## 35. Bold Editorial Design Style
 `Portfolios` · `Personal & Portfolio` · 765 copies · [try live](https://superdesign.dev/library/bold-editorial-design-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A premium, bold editorial design system characterized by high-contrast brutalist typography and a sophisticated dark navy and sage color palette. Optimized for creative agencies, design portfolios, luxury architecture, and high-end digital studios. Features include 'Anton' display headers, a custom crosshair cursor, floating ambient gradients, asymmetric masonry layouts, and smooth scroll-triggered reveal animations. The aesthetic balances minimalist white space with massive, impactful type and subtle micro-interactions like mix-blend-mode navigation and grayscale-to-color image transitions.
@@ -4967,875 +4583,7 @@ A premium, bold editorial design system characterized by high-contrast brutalist
 
 ---
 
-## 40. Light Beam Button
-`Components` · `General` · 500 copies · [try live](https://superdesign.dev/library/light-beam-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A high-performance button with a rotating light beam border effect using CSS @property and conic gradients. Features a shiny hover state and gradient border animation.
-
-```text
-You are given a task to integrate an existing React component in the codebase
-
-~~~/README.md
-# LightBeamButton
-
-A futuristic button component featuring a rotating light beam border effect, implemented with high-performance CSS `@property` animations.
-
-## Features
-- 🚀 **Hardware Accelerated**: Uses CSS variables and transforms for 60fps animations
-- 🎨 **Customizable**: Supports custom classes and children
-- 💡 **Visual Effects**: Includes rotating gradient border, internal glow, and hover shine
-- 🌙 **Dark Mode Optimized**: Designed specifically for dark-themed interfaces
-
-## Usage
-
-```tsx
-import { LightBeamButton } from '@/sd-components/218cf3c1-df31-4f2a-9aa0-6968d34dc15b';
-import { ArrowRight } from 'lucide-react';
-
-function MyComponent() {
-  return (
-    <LightBeamButton onClick={() => console.log('Action')}>
-      Start Building <ArrowRight size={16} />
-    </LightBeamButton>
-  );
-}
-```
-
-## Props
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `children` | `ReactNode` | Required | Content to display inside the button |
-| `className` | `string` | `undefined` | Additional CSS classes |
-| `onClick` | `() => void` | `undefined` | Click handler |
-| `gradientColors` | `[string, string, string]` | `['#8b5cf6', '#06b6d4', '#8b5cf6']` | Array of 3 colors for the gradient beam |
-
-## Dependencies
-
-- `framer-motion`: For interaction states (hover/tap)
-- `clsx`, `tailwind-merge`: For class handling
-~~~
-
-~~~/src/App.tsx
-import React from 'react';
-import { LightBeamButton } from './Component';
-import { ArrowRight, Sparkles } from 'lucide-react';
-
-export default function App() {
-  return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-center gap-12 bg-[#030303] p-8 text-white">
-      <div className="text-center space-y-4">
-        <h2 className="text-2xl font-serif text-neutral-400">LightBeam Button</h2>
-        <p className="text-neutral-600 max-w-md mx-auto">
-          A high-performance button with CSS @property animation for a rotating light beam effect.
-        </p>
-      </div>
-
-      <div className="flex flex-col gap-8 items-center">
-        {/* Default Variant */}
-        <LightBeamButton onClick={() => console.log('Clicked')}>
-          Start Building <ArrowRight size={16} />
-        </LightBeamButton>
-
-        {/* Text Only */}
-        <LightBeamButton className="px-10">
-          Explore Protocol
-        </LightBeamButton>
-
-        {/* With Icon Left */}
-        <LightBeamButton>
-          <Sparkles size={16} className="text-violet-400" />
-          <span>Mint NFT</span>
-        </LightBeamButton>
-      </div>
-      
-      <div className="mt-12 p-6 border border-white/5 rounded-2xl bg-white/5 backdrop-blur-sm max-w-lg">
-        <h3 className="text-sm font-medium text-neutral-400 mb-4">Dark Background Recommended</h3>
-        <p className="text-xs text-neutral-500">
-          This component relies on "screen" or additive blending concepts visually, so it works best on dark backgrounds (#000000 to #1a1a1a).
-        </p>
-      </div>
-    </div>
-  );
-}
-~~~
-
-~~~/package.json
-{
-  "name": "light-beam-button",
-  "version": "1.0.0",
-  "description": "A high-performance button with a rotating light beam border effect",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "framer-motion": "^10.16.4",
-    "clsx": "^2.1.0",
-    "tailwind-merge": "^2.2.1",
-    "lucide-react": "^0.344.0"
-  }
-}
-~~~
-
-~~~/src/Component.tsx
-import React from 'react';
-import { motion } from 'framer-motion';
-import { clsx, type ClassValue } from 'clsx';
-import { twMerge } from 'tailwind-merge';
-
-function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));
-}
-
-export interface LightBeamButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  children: React.ReactNode;
-  className?: string;
-  gradientColors?: [string, string, string]; // Optional custom gradient colors
-}
-
-/**
- * LightBeamButton
- * 
- * A high-performance button with a rotating light beam border effect.
- * Uses CSS @property for smooth gradient rotation animations on the border.
- */
-export function LightBeamButton({ 
-  children, 
-  className, 
-  onClick,
-  gradientColors = ["#8b5cf6", "#06b6d4", "#8b5cf6"], // Violet -> Cyan -> Violet
-  ...props 
-}: LightBeamButtonProps) {
-  // Construct the gradient string dynamically based on props
-  const gradientString = `conic-gradient(from var(--gradient-angle), transparent 0%, ${gradientColors[0]} 40%, ${gradientColors[1]} 50%, transparent 60%, transparent 100%)`;
-
-  return (
-    <>
-      <style>{`
-        @property --gradient-angle {
-          syntax: "<angle>";
-          initial-value: 0deg;
-          inherits: false;
-        }
-        @keyframes border-spin {
-          from { --gradient-angle: 0deg; }
-          to { --gradient-angle: 360deg; }
-        }
-        .animate-border-spin {
-          animation: border-spin 2s linear infinite;
-        }
-      `}</style>
-      
-      <motion.button
-        whileHover={{ scale: 1.02 }}
-        whileTap={{ scale: 0.98 }}
-        onClick={onClick}
-        className={cn(
-          "group relative isolate overflow-hidden rounded-full bg-neutral-950 px-8 py-3 text-sm font-medium text-white transition-all hover:bg-neutral-900",
-          "shadow-[0_0_20px_-5px_rgba(139,92,246,0.3)] hover:shadow-[0_0_25px_-5px_rgba(139,92,246,0.5)]",
-          className
-        )}
-        {...props}
-      >
-        <span className="relative z-10 flex items-center gap-2">{children}</span>
-        
-        {/* Gradient Border Simulation */}
-        <div 
-          className="absolute inset-0 -z-10 rounded-full p-[1px] animate-border-spin" 
-          style={{ 
-            '--gradient-angle': '0deg',
-            background: gradientString
-          } as React.CSSProperties} 
-        />
-        
-        {/* Inner Background (keeps text readable) */}
-        <div className="absolute inset-[1px] -z-10 rounded-full bg-neutral-950" />
-        
-        {/* Shine Effect Overlay */}
-        <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_50%_0%,rgba(139,92,246,0.15)_0%,transparent_60%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-      </motion.button>
-    </>
-  );
-}
-
-export default LightBeamButton;
-~~~
-
-Implementation Guidelines
-
-1. Analyze the component structure, styling, animation implementations
-2. Review the component's arguments and state
-3. Think through what is the best place to adopt this component/style into the design we are doing
-4. Then adopt the component/design to our current system
-
-Help me integrate this into my design
-```
-
----
-
-## 41. Ghost Cursor
-`Components` · `General` · 417 copies · [try live](https://superdesign.dev/library/ghost-cursor?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A fluid, smoky cursor trail effect using Three.js shader materials and post-processing bloom.
-
-```text
-You are given a task to integrate an existing React component in the codebase
-
-~~~/README.md
-# GhostCursor
-
-A fluid, smoky cursor trail effect using Three.js shader materials and post-processing bloom. This component adds a cinematic, ghostly trail that follows the cursor with organic movement.
-
-## Usage
-
-```tsx
-import { GhostCursor } from '@/sd-components/72b3d7f3-3ac5-4819-9e63-117cebf79200';
-
-const MyComponent = () => {
-  return (
-    <div style={{ position: 'relative', width: '100%', height: '500px' }}>
-      {/* Content here */}
-      
-      <GhostCursor 
-        color="#B19EEF"
-        trailLength={20}
-      />
-    </div>
-  );
-};
-```
-
-**Note**: The parent container should have `position: relative` or similar positioning context, as the GhostCursor uses `absolute inset-0`.
-
-## Props
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `color` | `string` | `'#B19EEF'` | Base color of the trail |
-| `brightness` | `number` | `1` | Brightness multiplier |
-| `trailLength` | `number` | `50` | Length of the motion trail (number of previous positions) |
-| `inertia` | `number` | `0.5` | Movement inertia (0-1), higher means more lag/fluidity |
-| `bloomStrength` | `number` | `0.1` | Intensity of the glow effect |
-| `bloomRadius` | `number` | `1.0` | Radius of the bloom blur |
-| `bloomThreshold` | `number` | `0.025` | Brightness threshold for bloom |
-| `grainIntensity` | `number` | `0.05` | Film grain intensity (0-1) |
-| `edgeIntensity` | `number` | `0` | Edge accentuation intensity |
-| `mixBlendMode` | `CSSProperties['mixBlendMode']` | `'screen'` | CSS blend mode for the canvas |
-| `fadeDelayMs` | `number` | `1000` (desktop) | Delay before trail fades out when idle |
-| `fadeDurationMs` | `number` | `1500` (desktop) | Duration of fade out animation |
-| `zIndex` | `number` | `10` | CSS z-index of the canvas |
-| `className` | `string` | `undefined` | Additional CSS classes |
-
-## Dependencies
-
-- `three`: Required for WebGL rendering
-~~~
-
-~~~/src/App.tsx
-import React from 'react';
-import { GhostCursor } from './Component';
-
-const App = () => {
-  return (
-    <div style={{ 
-      position: 'relative', 
-      minHeight: '100vh', 
-      backgroundColor: '#111', 
-      color: '#fff',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
-      overflow: 'hidden'
-    }}>
-      <div className="z-20 text-center pointer-events-none select-none">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tighter">Ghost Cursor</h1>
-        <p className="text-gray-400 text-lg">Move your cursor to see the effect</p>
-      </div>
-
-      <GhostCursor
-        // Visuals
-        color="#B19EEF"
-        brightness={1.2}
-        edgeIntensity={0}
-        // Trail and motion
-        trailLength={20}
-        inertia={0.4}
-        // Post-processing
-        grainIntensity={0.05}
-        bloomStrength={0.5}
-        bloomRadius={0.7}
-        bloomThreshold={0}
-        // Fade-out behavior
-        fadeDelayMs={200}
-        fadeDurationMs={1000}
-      />
-      
-      {/* Background decoration */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-tr from-purple-900/10 to-blue-900/10" />
-    </div>
-  );
-};
-
-export default App;
-~~~
-
-~~~/package.json
-{
-  "name": "ghost-cursor",
-  "version": "1.0.0",
-  "description": "A fluid, smoky cursor trail effect using Three.js",
-  "main": "src/Component.tsx",
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "three": "^0.160.0",
-    "@types/three": "^0.160.0"
-  }
-}
-~~~
-
-~~~/src/Component.tsx
-import React, { useEffect, useMemo, useRef } from 'react';
-import * as THREE from 'three';
-import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
-import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
-import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
-import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
-
-type GhostCursorProps = {
-  className?: string;
-  style?: React.CSSProperties;
-  trailLength?: number;
-  inertia?: number;
-  grainIntensity?: number;
-  bloomStrength?: number;
-  bloomRadius?: number;
-  bloomThreshold?: number;
-  brightness?: number;
-  color?: string;
-  mixBlendMode?: React.CSSProperties['mixBlendMode'];
-  edgeIntensity?: number;
-  maxDevicePixelRatio?: number;
-  targetPixels?: number;
-  fadeDelayMs?: number;
-  fadeDurationMs?: number;
-  zIndex?: number;
-};
-
-/**
- * GhostCursor component creates a fluid, smoky cursor trail effect using Three.js.
- * It uses custom shaders for the fluid simulation and post-processing for bloom/grain.
- */
-export const GhostCursor: React.FC<GhostCursorProps> = ({
-  className,
-  style,
-  trailLength = 50,
-  inertia = 0.5,
-  grainIntensity = 0.05,
-  bloomStrength = 0.1,
-  bloomRadius = 1.0,
-  bloomThreshold = 0.025,
-  brightness = 1,
-  color = '#B19EEF',
-  mixBlendMode = 'screen',
-  edgeIntensity = 0,
-  maxDevicePixelRatio = 0.5,
-  targetPixels,
-  fadeDelayMs,
-  fadeDurationMs,
-  zIndex = 10
-}) => {
-  const containerRef = useRef<HTMLDivElement | null>(null);
-  const rendererRef = useRef<THREE.WebGLRenderer | null>(null);
-  const composerRef = useRef<EffectComposer | null>(null);
-  const materialRef = useRef<THREE.ShaderMaterial | null>(null);
-  const bloomPassRef = useRef<UnrealBloomPass | null>(null);
-  const filmPassRef = useRef<ShaderPass | null>(null);
-  
-  // Trail circular buffer
-  const trailBufRef = useRef<THREE.Vector2[]>([]);
-  const headRef = useRef(0);
-  const rafRef = useRef<number | null>(null);
-  const resizeObsRef = useRef<ResizeObserver | null>(null);
-  const currentMouseRef = useRef(new THREE.Vector2(0.5, 0.5));
-  const velocityRef = useRef(new THREE.Vector2(0, 0));
-  const fadeOpacityRef = useRef(1.0);
-  const lastMoveTimeRef = useRef(typeof performance !== 'undefined' ? performance.now() : Date.now());
-  const pointerActiveRef = useRef(false);
-  const runningRef = useRef(false);
-
-  const isTouch = useMemo(
-    () => typeof window !== 'undefined' && ('ontouchstart' in window || navigator.maxTouchPoints > 0),
-    []
-  );
-
-  const pixelBudget = targetPixels ?? (isTouch ? 0.9e6 : 1.3e6);
-  const fadeDelay = fadeDelayMs ?? (isTouch ? 500 : 1000);
-  const fadeDuration = fadeDurationMs ?? (isTouch ? 1000 : 1500);
-
-  const baseVertexShader = `
-    varying vec2 vUv;
-    void main() {
-      vUv = uv;
-      gl_Position = vec4(position, 1.0);
-    }
-  `;
-
-  const fragmentShader = `
-    uniform float iTime;
-    uniform vec3  iResolution;
-    uniform vec2  iMouse;
-    uniform vec2  iPrevMouse[MAX_TRAIL_LENGTH];
-    uniform float iOpacity;
-    uniform float iScale;
-    uniform vec3  iBaseColor;
-    uniform float iBrightness;
-    uniform float iEdgeIntensity;
-
-    varying vec2  vUv;
-
-    float hash(vec2 p){ return fract(sin(dot(p,vec2(127.1,311.7))) * 43758.5453123); }
-
-    float noise(vec2 p){
-      vec2 i = floor(p), f = fract(p);
-      f = f * f * (3. - 2. * f);
-      return mix(mix(hash(i + vec2(0.,0.)), hash(i + vec2(1.,0.)), f.x),
-                 mix(hash(i + vec2(0.,1.)), hash(i + vec2(1.,1.)), f.x), f.y);
-    }
-
-    float fbm(vec2 p){
-      float v = 0.0;
-      float a = 0.5;
-      mat2 m = mat2(cos(0.5), sin(0.5), -sin(0.5), cos(0.5));
-      for(int i=0;i<5;i++){
-        v += a * noise(p);
-        p = m * p * 2.0;
-        a *= 0.5;
-      }
-      return v;
-    }
-
-    vec3 tint1(vec3 base){ return mix(base, vec3(1.0), 0.15); }
-    vec3 tint2(vec3 base){ return mix(base, vec3(0.8, 0.9, 1.0), 0.25); }
-
-    vec4 blob(vec2 p, vec2 mousePos, float intensity, float activity) {
-      vec2 q = vec2(fbm(p * iScale + iTime * 0.1), fbm(p * iScale + vec2(5.2,1.3) + iTime * 0.1));
-      vec2 r = vec2(fbm(p * iScale + q * 1.5 + iTime * 0.15), fbm(p * iScale + q * 1.5 + vec2(8.3,2.8) + iTime * 0.15));
-      float smoke = fbm(p * iScale + r * 0.8);
-      
-      float radius = 0.5 + 0.3 * (1.0 / iScale);
-      float distFactor = 1.0 - smoothstep(0.0, radius * activity, length(p - mousePos));
-      float alpha = pow(smoke, 2.5) * distFactor;
-
-      vec3 c1 = tint1(iBaseColor);
-      vec3 c2 = tint2(iBaseColor);
-      vec3 color = mix(c1, c2, sin(iTime * 0.5) * 0.5 + 0.5);
-
-      return vec4(color * alpha * intensity, alpha * intensity);
-    }
-
-    void main() {
-      vec2 uv = (gl_FragCoord.xy / iResolution.xy * 2.0 - 1.0) * vec2(iResolution.x / iResolution.y, 1.0);
-      vec2 mouse = (iMouse * 2.0 - 1.0) * vec2(iResolution.x / iResolution.y, 1.0);
-      
-      vec3 colorAcc = vec3(0.0);
-      float alphaAcc = 0.0;
-      
-      vec4 b = blob(uv, mouse, 1.0, iOpacity);
-      colorAcc += b.rgb;
-      alphaAcc += b.a;
-
-      for (int i = 0; i < MAX_TRAIL_LENGTH; i++) {
-        vec2 pm = (iPrevMouse[i] * 2.0 - 1.0) * vec2(iResolution.x / iResolution.y, 1.0);
-        float t = 1.0 - float(i) / float(MAX_TRAIL_LENGTH);
-        t = pow(t, 2.0);
-        
-        if (t > 0.01) {
-          vec4 bt = blob(uv, pm, t * 0.8, iOpacity);
-          colorAcc += bt.rgb;
-          alphaAcc += bt.a;
-        }
-      }
-
-      colorAcc *= iBrightness;
-      
-      vec2 uv01 = gl_FragCoord.xy / iResolution.xy;
-      float edgeDist = min(min(uv01.x, 1.0 - uv01.x), min(uv01.y, 1.0 - uv01.y));
-      float distFromEdge = clamp(edgeDist * 2.0, 0.0, 1.0);
-      float k = clamp(iEdgeIntensity, 0.0, 1.0);
-      float edgeMask = mix(1.0 - k, 1.0, distFromEdge);
-      
-      float outAlpha = clamp(alphaAcc * iOpacity * edgeMask, 0.0, 1.0);
-      gl_FragColor = vec4(colorAcc, outAlpha);
-    }
-  `;
-
-  const FilmGrainShader = useMemo(() => {
-    return {
-      uniforms: {
-        tDiffuse: { value: null },
-        iTime: { value: 0 },
-        intensity: { value: grainIntensity }
-      },
-      vertexShader: `
-        varying vec2 vUv;
-        void main(){
-          vUv = uv;
-          gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
-        }
-      `,
-      fragmentShader: `
-        uniform sampler2D tDiffuse;
-        uniform float iTime;
-        uniform float intensity;
-        varying vec2 vUv;
-        float hash1(float n){ return fract(sin(n)*43758.5453); }
-        void main(){
-          vec4 color = texture2D(tDiffuse, vUv);
-          float n = hash1(vUv.x*1000.0 + vUv.y*2000.0 + iTime) * 2.0 - 1.0;
-          color.rgb += n * intensity * color.rgb;
-          gl_FragColor = color;
-        }
-      `
-    };
-  }, [grainIntensity]);
-
-  const UnpremultiplyPass = useMemo(
-    () =>
-      new ShaderPass({
-        uniforms: { tDiffuse: { value: null } },
-        vertexShader: `
-          varying vec2 vUv;
-          void main(){
-            vUv = uv;
-            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
-          }
-        `,
-        fragmentShader: `
-          uniform sampler2D tDiffuse;
-          varying vec2 vUv;
-          void main(){
-            vec4 c = texture2D(tDiffuse, vUv);
-            float a = max(c.a, 1e-5);
-            vec3 straight = c.rgb / a;
-            gl_FragColor = vec4(clamp(straight, 0.0, 1.0), c.a);
-          }
-        `
-      }),
-    []
-  );
-
-  function calculateScale(el: HTMLElement) {
-    const r = el.getBoundingClientRect();
-    const base = 600;
-    const current = Math.min(Math.max(1, r.width), Math.max(1, r.height));
-    return Math.max(0.5, Math.min(2.0, current / base));
-  }
-
-  useEffect(() => {
-    const host = containerRef.current;
-    const parent = host?.parentElement;
-    if (!host || !parent) return;
-
-    // Note: Parent should be positioned relative or absolute by the user.
-    // We won't modify parent style to avoid side effects/conflicts.
-
-    const renderer = new THREE.WebGLRenderer({
-      antialias: !isTouch,
-      alpha: true,
-      depth: false,
-      stencil: false,
-      powerPreference: 'default',
-      premultipliedAlpha: false,
-      preserveDrawingBuffer: false
-    });
-
-    renderer.setClearColor(0x000000, 0);
-    rendererRef.current = renderer;
-
-    renderer.domElement.style.pointerEvents = 'none';
-    if (mixBlendMode) {
-      renderer.domElement.style.mixBlendMode = String(mixBlendMode);
-    } else {
-      renderer.domElement.style.removeProperty('mix-blend-mode');
-    }
-    renderer.domElement.style.display = 'block';
-    renderer.domElement.style.width = '100%';
-    renderer.domElement.style.height = '100%';
-    renderer.domElement.style.background = 'transparent';
-
-    host.appendChild(renderer.domElement);
-
-    const scene = new THREE.Scene();
-    const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
-    const geom = new THREE.PlaneGeometry(2, 2);
-
-    const maxTrail = Math.max(1, Math.floor(trailLength));
-    trailBufRef.current = Array.from({ length: maxTrail }, () => new THREE.Vector2(0.5, 0.5));
-    headRef.current = 0;
-
-    const baseColor = new THREE.Color(color);
-    const material = new THREE.ShaderMaterial({
-      defines: { MAX_TRAIL_LENGTH: maxTrail },
-      uniforms: {
-        iTime: { value: 0 },
-        iResolution: { value: new THREE.Vector3(1, 1, 1) },
-        iMouse: { value: new THREE.Vector2(0.5, 0.5) },
-        iPrevMouse: { value: trailBufRef.current.map(v => v.clone()) },
-        iOpacity: { value: 1.0 },
-        iScale: { value: 1.0 },
-        iBaseColor: { value: new THREE.Vector3(baseColor.r, baseColor.g, baseColor.b) },
-        iBrightness: { value: brightness },
-        iEdgeIntensity: { value: edgeIntensity }
-      },
-      vertexShader: baseVertexShader,
-      fragmentShader,
-      transparent: true,
-      depthTest: false,
-      depthWrite: false
-    });
-    materialRef.current = material;
-
-    const mesh = new THREE.Mesh(geom, material);
-    scene.add(mesh);
-
-    const composer = new EffectComposer(renderer);
-    composerRef.current = composer;
-
-    const renderPass = new RenderPass(scene, camera);
-    composer.addPass(renderPass);
-
-    const bloomPass = new UnrealBloomPass(new THREE.Vector2(1, 1), bloomStrength, bloomRadius, bloomThreshold);
-    bloomPassRef.current = bloomPass;
-    composer.addPass(bloomPass);
-
-    const filmPass = new ShaderPass(FilmGrainShader as any);
-    filmPassRef.current = filmPass;
-    composer.addPass(filmPass);
-
-    composer.addPass(UnpremultiplyPass);
-
-    const resize = () => {
-      const rect = host.getBoundingClientRect();
-      const cssW = Math.max(1, Math.floor(rect.width));
-      const cssH = Math.max(1, Math.floor(rect.height));
-
-      const currentDPR = Math.min(
-        typeof window !== 'undefined' ? window.devicePixelRatio || 1 : 1,
-        maxDevicePixelRatio
-      );
-
-      const need = cssW * cssH * currentDPR * currentDPR;
-      const scale = need <= pixelBudget ? 1 : Math.max(0.5, Math.min(1, Math.sqrt(pixelBudget / Math.max(1, need))));
-      
-      const pixelRatio = currentDPR * scale;
-      renderer.setPixelRatio(pixelRatio);
-      renderer.setSize(cssW, cssH, false);
-      composer.setPixelRatio?.(pixelRatio);
-      composer.setSize(cssW, cssH);
-
-      const wpx = Math.max(1, Math.floor(cssW * pixelRatio));
-      const hpx = Math.max(1, Math.floor(cssH * pixelRatio));
-      
-      material.uniforms.iResolution.value.set(wpx, hpx, 1);
-      material.uniforms.iScale.value = calculateScale(host);
-      bloomPass.setSize(wpx, hpx);
-    };
-
-    resize();
-    const ro = new ResizeObserver(resize);
-    resizeObsRef.current = ro;
-    ro.observe(host);
-
-    const start = typeof performance !== 'undefined' ? performance.now() : Date.now();
-
-    const animate = () => {
-      const now = performance.now();
-      const t = (now - start) / 1000;
-      
-      const mat = materialRef.current!;
-      const comp = composerRef.current!;
-
-      if (pointerActiveRef.current) {
-        velocityRef.current.set(
-          currentMouseRef.current.x - mat.uniforms.iMouse.value.x,
-          currentMouseRef.current.y - mat.uniforms.iMouse.value.y
-        );
-        mat.uniforms.iMouse.value.copy(currentMouseRef.current);
-        fadeOpacityRef.current = 1.0;
-      } else {
-        velocityRef.current.multiplyScalar(inertia);
-        if (velocityRef.current.lengthSq() > 1e-6) {
-          mat.uniforms.iMouse.value.add(velocityRef.current);
-        }
-        
-        const dt = now - lastMoveTimeRef.current;
-        if (dt > fadeDelay) {
-          const k = Math.min(1, (dt - fadeDelay) / fadeDuration);
-          fadeOpacityRef.current = Math.max(0, 1 - k);
-        }
-      }
-
-      const N = trailBufRef.current.length;
-      headRef.current = (headRef.current + 1) % N;
-      trailBufRef.current[headRef.current].copy(mat.uniforms.iMouse.value);
-      
-      const arr = mat.uniforms.iPrevMouse.value as THREE.Vector2[];
-      for (let i = 0; i < N; i++) {
-        const srcIdx = (headRef.current - i + N) % N;
-        arr[i].copy(trailBufRef.current[srcIdx]);
-      }
-
-      mat.uniforms.iOpacity.value = fadeOpacityRef.current;
-      mat.uniforms.iTime.value = t;
-
-      if (filmPassRef.current?.uniforms?.iTime) {
-        filmPassRef.current.uniforms.iTime.value = t;
-      }
-
-      comp.render();
-
-      if (!pointerActiveRef.current && fadeOpacityRef.current <= 0.001) {
-        runningRef.current = false;
-        rafRef.current = null;
-        return;
-      }
-
-      rafRef.current = requestAnimationFrame(animate);
-    };
-
-    const ensureLoop = () => {
-      if (!runningRef.current) {
-        runningRef.current = true;
-        rafRef.current = requestAnimationFrame(animate);
-      }
-    };
-
-    const onPointerMove = (e: PointerEvent) => {
-      const rect = parent.getBoundingClientRect();
-      const x = THREE.MathUtils.clamp((e.clientX - rect.left) / Math.max(1, rect.width), 0, 1);
-      const y = THREE.MathUtils.clamp(1 - (e.clientY - rect.top) / Math.max(1, rect.height), 0, 1);
-      
-      currentMouseRef.current.set(x, y);
-      pointerActiveRef.current = true;
-      lastMoveTimeRef.current = performance.now();
-      ensureLoop();
-    };
-
-    const onPointerEnter = () => {
-      pointerActiveRef.current = true;
-      ensureLoop();
-    };
-
-    const onPointerLeave = () => {
-      pointerActiveRef.current = false;
-      lastMoveTimeRef.current = performance.now();
-      ensureLoop();
-    };
-
-    parent.addEventListener('pointermove', onPointerMove, { passive: true });
-    parent.addEventListener('pointerenter', onPointerEnter, { passive: true });
-    parent.addEventListener('pointerleave', onPointerLeave, { passive: true });
-    
-    ensureLoop();
-
-    return () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      runningRef.current = false;
-      rafRef.current = null;
-      
-      parent.removeEventListener('pointermove', onPointerMove);
-      parent.removeEventListener('pointerenter', onPointerEnter);
-      parent.removeEventListener('pointerleave', onPointerLeave);
-      
-      resizeObsRef.current?.disconnect();
-      
-      scene.clear();
-      geom.dispose();
-      material.dispose();
-      composer.dispose();
-      renderer.dispose();
-      
-      if (renderer.domElement && renderer.domElement.parentElement) {
-        renderer.domElement.parentElement.removeChild(renderer.domElement);
-      }
-    };
-  }, [
-    trailLength,
-    inertia,
-    grainIntensity,
-    bloomStrength,
-    bloomRadius,
-    bloomThreshold,
-    pixelBudget,
-    fadeDelay,
-    fadeDuration,
-    isTouch,
-    color,
-    brightness,
-    mixBlendMode,
-    edgeIntensity
-  ]);
-
-  useEffect(() => {
-    if (materialRef.current) {
-      const c = new THREE.Color(color);
-      (materialRef.current.uniforms.iBaseColor.value as THREE.Vector3).set(c.r, c.g, c.b);
-    }
-  }, [color]);
-
-  useEffect(() => {
-    if (materialRef.current) {
-      materialRef.current.uniforms.iBrightness.value = brightness;
-    }
-  }, [brightness]);
-
-  useEffect(() => {
-    if (materialRef.current) {
-      materialRef.current.uniforms.iEdgeIntensity.value = edgeIntensity;
-    }
-  }, [edgeIntensity]);
-
-  useEffect(() => {
-    if (filmPassRef.current?.uniforms?.intensity) {
-      filmPassRef.current.uniforms.intensity.value = grainIntensity;
-    }
-  }, [grainIntensity]);
-
-  useEffect(() => {
-    const el = rendererRef.current?.domElement;
-    if (!el) return;
-    
-    if (mixBlendMode) {
-      el.style.mixBlendMode = String(mixBlendMode);
-    } else {
-      el.style.removeProperty('mix-blend-mode');
-    }
-  }, [mixBlendMode]);
-
-  const mergedStyle = useMemo<React.CSSProperties>(() => ({ zIndex, ...style }), [zIndex, style]);
-
-  return (
-    <div ref={containerRef} className={`pointer-events-none absolute inset-0 ${className ?? ''}`} style={mergedStyle} />
-  );
-};
-
-export default GhostCursor;
-~~~
-
-Implementation Guidelines
-
-1. Analyze the component structure, styling, animation implementations
-2. Review the component's arguments and state
-3. Think through what is the best place to adopt this component/style into the design we are doing
-4. Then adopt the component/design to our current system
-
-Help me integrate this into my design
-```
-
----
-
-## 42. Aura Audio Showroom
+## 36. Aura Audio Showroom
 `E-commerce` · `E-commerce & Retail` · 261 copies · [try live](https://superdesign.dev/library/aura-audio-showroom?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Product Walkthrough is a product-first electronics landing page built around a Showroom Flow layout—product theater followed by guided model selection, scenario-based feature explanations, lightweight comparison, and a confident close—making it best suited for consumer electronics and DTC hardware brands with multiple models or configurations that want a clear, trust-building shopping experience without spec overload or lifestyle clichés.
@@ -5897,361 +4645,7 @@ Product Walkthrough is a product-first electronics landing page built around a S
 
 ---
 
-## 43. Interactive Folder
-`Components` · `General` · 273 copies · [try live](https://superdesign.dev/library/interactive-folder?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-An interactive, premium folder component with a playful opening animation and drifting paper elements. Features smooth CSS transitions and mouse-tracking interactions.
-
-Source: ReactBits
-
-```text
-You are given a task to integrate an existing React component in the codebase
-
-~~~/README.md
-# InteractiveFolder
-
-A premium, interactive folder component with a playful opening animation and "drifting" paper elements that respond to mouse movement.
-
-## Dependencies
-- `react`: ^18.2.0
-- `framer-motion`: ^11.0.8
-- `lucide-react`: ^0.344.0
-- `clsx`: ^2.1.0
-- `tailwind-merge`: ^2.2.1
-
-## Props
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `color` | `string` | `"#5227FF"` | The main brand color for the folder flap. |
-| `size` | `number` | `1` | Scale factor for the component. |
-| `label` | `string` | `undefined` | Optional text label displayed on the folder when closed. |
-| `items` | `React.ReactNode[]` | `[]` | Array of elements (icons, text, etc.) to show as papers inside. |
-| `className` | `string` | `""` | Additional CSS classes for the wrapper. |
-
-## Usage Example
-
-```tsx
-import { InteractiveFolder } from '@/sd-components/1f6b23dd-a749-47ba-ba67-0451c5edd13a';
-import { FileText, Image, Code } from 'lucide-react';
-
-export default function MyGallery() {
-  return (
-    <InteractiveFolder 
-      size={1.5}
-      color="#5227FF"
-      label="DOCUMENTS"
-      items={[
-        <FileText className="w-6 h-6 text-slate-400" />,
-        <Image className="w-6 h-6 text-slate-400" />,
-        <Code className="w-6 h-6 text-slate-400" />
-      ]}
-    />
-  );
-}
-```
-~~~
-
-~~~/src/App.tsx
-import React from 'react';
-import { InteractiveFolder } from './Component';
-import { FileText, Image as ImageIcon, Music, Code, Mail } from 'lucide-react';
-
-export default function App() {
-  return (
-    <div className="w-full min-h-screen bg-[#F9F9F9] flex flex-col items-center justify-center p-20 gap-24">
-      {/* Centered Showcase Section */}
-      <div className="relative group">
-        <div className="absolute -inset-20 bg-gradient-to-tr from-primary/5 via-transparent to-primary/5 rounded-full blur-3xl opacity-50" />
-        <InteractiveFolder 
-          size={2} 
-          color="#5227FF" 
-          label="RESOURCES"
-          items={[
-            <FileText key="1" className="w-6 h-6 text-slate-400" />,
-            <ImageIcon key="2" className="w-6 h-6 text-slate-400" />,
-            <Code key="3" className="w-6 h-6 text-slate-400" />
-          ]}
-        />
-      </div>
-
-      {/* Variation Section */}
-      <div className="flex flex-wrap items-center justify-center gap-20">
-        <div className="flex flex-col items-center gap-4">
-          <InteractiveFolder 
-            size={1} 
-            color="#FF3366" 
-            label="ARTSETS"
-            items={[
-              <ImageIcon key="1" className="w-5 h-5 text-pink-400" />,
-              <ImageIcon key="2" className="w-5 h-5 text-pink-300" />
-            ]}
-          />
-        </div>
-
-        <div className="flex flex-col items-center gap-4">
-          <InteractiveFolder 
-            size={1} 
-            color="#00D1FF" 
-            label="TUNES"
-            items={[
-              <Music key="1" className="w-5 h-5 text-cyan-400" />
-            ]}
-          />
-        </div>
-
-        <div className="flex flex-col items-center gap-4">
-          <InteractiveFolder 
-            size={1} 
-            color="#1A1A1B" 
-            label="MAILS"
-            items={[
-              <Mail key="1" className="w-5 h-5 text-slate-500" />
-            ]}
-          />
-        </div>
-      </div>
-
-      {/* Footer Info */}
-      <div className="mt-8 text-center">
-        <h1 className="text-xl font-medium text-foreground tracking-tight">Interactive Folder</h1>
-        <p className="text-muted-foreground text-sm mt-1">Click to reveal and hover to drift</p>
-      </div>
-    </div>
-  );
-}
-~~~
-
-~~~/package.json
-{
-  "name": "interactive-folder",
-  "description": "A playful interactive folder component with drift animation",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "lucide-react": "^0.344.0",
-    "framer-motion": "^11.0.8",
-    "clsx": "^2.1.0",
-    "tailwind-merge": "^2.2.1"
-  }
-}
-~~~
-
-~~~/src/Component.tsx
-/**
- * InteractiveFolder Component
- * A premium, interactive folder UI element that opens on click
- * to reveal contents with a "drifting" animation effect.
- */
-
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-
-export interface FolderProps {
-  /** Main color of the folder */
-  color?: string;
-  /** Scale factor for the folder */
-  size?: number;
-  /** Array of React elements to display as "papers" inside the folder */
-  items?: React.ReactNode[];
-  /** Optional CSS class for the wrapper */
-  className?: string;
-  /** Title or label to display on the folder */
-  label?: string;
-}
-
-const darkenColor = (hex: string, percent: number): string => {
-  let color = hex.startsWith('#') ? hex.slice(1) : hex;
-  if (color.length === 3) {
-    color = color.split('').map(c => c + c).join('');
-  }
-  const num = parseInt(color, 16);
-  let r = (num >> 16) & 0xff;
-  let g = (num >> 8) & 0xff;
-  let b = num & 0xff;
-  r = Math.max(0, Math.min(255, Math.floor(r * (1 - percent))));
-  g = Math.max(0, Math.min(255, Math.floor(g * (1 - percent))));
-  b = Math.max(0, Math.min(255, Math.floor(b * (1 - percent))));
-  return '#' + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1).toUpperCase();
-};
-
-export function InteractiveFolder({ 
-  color = '#5227FF', 
-  size = 1, 
-  items = [], 
-  className = '',
-  label
-}: FolderProps) {
-  const [isOpen, setIsOpen] = useState(false);
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-
-  const maxVisibleItems = 3;
-  const displayItems = items.slice(0, maxVisibleItems);
-  while (displayItems.length < maxVisibleItems) {
-    displayItems.push(null);
-  }
-
-  const folderBackColor = darkenColor(color, 0.12);
-  const paperColors = [
-    darkenColor('#ffffff', 0.1),
-    darkenColor('#ffffff', 0.05),
-    '#ffffff'
-  ];
-
-  const handleMouseMove = (e: React.MouseEvent, index: number) => {
-    if (!isOpen) return;
-    const rect = e.currentTarget.getBoundingClientRect();
-    const x = (e.clientX - (rect.left + rect.width / 2)) * 0.2;
-    const y = (e.clientY - (rect.top + rect.height / 2)) * 0.2;
-    setMousePos({ x, y });
-    setHoveredIndex(index);
-  };
-
-  const handleMouseLeave = () => {
-    setMousePos({ x: 0, y: 0 });
-    setHoveredIndex(null);
-  };
-
-  const getPaperTransform = (index: number) => {
-    if (!isOpen) return { x: '-50%', y: '10%', rotate: 0 };
-    
-    const baseTransforms = [
-      { x: '-120%', y: '-75%', rotate: -15 },
-      { x: '10%', y: '-75%', rotate: 15 },
-      { x: '-50%', y: '-105%', rotate: 5 }
-    ];
-
-    const base = baseTransforms[index] || { x: '-50%', y: '-50%', rotate: 0 };
-    
-    if (hoveredIndex === index) {
-      return {
-        x: `calc(${base.x} + ${mousePos.x}px)`,
-        y: `calc(${base.y} + ${mousePos.y}px)`,
-        rotate: base.rotate,
-        scale: 1.1,
-      };
-    }
-    
-    return base;
-  };
-
-  return (
-    <div 
-      className={`relative flex items-center justify-center ${className}`}
-      style={{ transform: `scale(${size})`, width: 120, height: 100 }}
-    >
-      <div
-        className="relative cursor-pointer group select-none"
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        {/* Folder Back */}
-        <div
-          className="relative w-[110px] h-[85px] transition-all duration-500 rounded-tr-[12px] rounded-br-[12px] rounded-bl-[12px]"
-          style={{ 
-            backgroundColor: folderBackColor,
-            boxShadow: isOpen ? '0 10px 30px -5px rgba(0,0,0,0.1)' : '0 4px 12px -2px rgba(0,0,0,0.05)'
-          }}
-        >
-          {/* Tab */}
-          <div
-            className="absolute bottom-full left-0 w-[35px] h-[12px] rounded-t-[6px]"
-            style={{ backgroundColor: folderBackColor }}
-          />
-
-          {/* Papers */}
-          {displayItems.map((item, i) => (
-            <motion.div
-              key={i}
-              onMouseMove={(e) => handleMouseMove(e, i)}
-              onMouseLeave={handleMouseLeave}
-              animate={getPaperTransform(i)}
-              transition={{ 
-                type: 'spring', 
-                stiffness: 260, 
-                damping: 20,
-                mass: 1 
-              }}
-              className="absolute left-1/2 flex items-center justify-center overflow-hidden"
-              style={{
-                zIndex: 20,
-                backgroundColor: paperColors[i],
-                borderRadius: '8px',
-                width: i === 0 ? '75px' : i === 1 ? '85px' : '95px',
-                height: i === 0 ? '65px' : i === 1 ? '70px' : '75px',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
-                border: '1px solid rgba(0,0,0,0.03)'
-              }}
-            >
-              {item || (
-                <div className="w-full h-full p-2 flex flex-col gap-1.5 opacity-20">
-                  <div className="w-3/4 h-1 bg-current rounded-full" />
-                  <div className="w-1/2 h-1 bg-current rounded-full" />
-                  <div className="w-2/3 h-1 bg-current rounded-full" />
-                </div>
-              )}
-            </motion.div>
-          ))}
-
-          {/* Folder Front Flap - Left Side */}
-          <motion.div
-            animate={{
-              skewX: isOpen ? 15 : 0,
-              scaleY: isOpen ? 0.6 : 1,
-              translateY: isOpen ? 4 : 0
-            }}
-            transition={{ type: 'spring', stiffness: 300, damping: 25 }}
-            className="absolute inset-0 z-30 origin-bottom"
-            style={{
-              backgroundColor: color,
-              borderRadius: '6px 12px 12px 12px',
-              clipPath: 'polygon(0 0, 50% 0, 50% 100%, 0 100%)'
-            }}
-          />
-
-          {/* Folder Front Flap - Right Side */}
-          <motion.div
-            animate={{
-              skewX: isOpen ? -15 : 0,
-              scaleY: isOpen ? 0.6 : 1,
-              translateY: isOpen ? 4 : 0
-            }}
-            transition={{ type: 'spring', stiffness: 300, damping: 25 }}
-            className="absolute inset-0 z-30 origin-bottom"
-            style={{
-              backgroundColor: color,
-              borderRadius: '6px 12px 12px 12px',
-              clipPath: 'polygon(50% 0, 100% 0, 100% 100%, 50% 100%)'
-            }}
-          >
-             {label && !isOpen && (
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white/90 text-[10px] font-medium tracking-tight whitespace-nowrap px-2">
-                {label}
-              </div>
-            )}
-          </motion.div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default InteractiveFolder;
-~~~
-
-Implementation Guidelines
-
-1. Analyze the component structure, styling, animation implementations
-2. Review the component's arguments and state
-3. Think through what is the best place to adopt this component/style into the design we are doing
-4. Then adopt the component/design to our current system
-
-Help me integrate this into my design
-```
-
----
-
-## 44. Architectural Type System Style
+## 37. Architectural Type System Style
 `Waitlist & Coming Soon` · `General` · 354 copies · [try live](https://superdesign.dev/library/architectural-type-system-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-contrast, architectural design system rooted in Swiss Modernism and Brutalist minimalism. Characterized by a monochrome palette, massive 'Inter Tight' display typography, and a rigid grid defined by 0.5px hairlines. Features a technical 'JetBrains Mono' font for metadata and system status indicators, creating an engineering-first aesthetic. Suitable for high-end SaaS, developer tools, fintech, architecture portfolios, and design agencies. Includes a persistent noise overlay for texture and grid-based layouts that utilize viewport-relative sizing for maximalist impact.
@@ -6307,1154 +4701,7 @@ A high-contrast, architectural design system rooted in Swiss Modernism and Bruta
 
 ---
 
-## 45. Parallax Stars Background
-`Animations & Backgrounds` · `General` · 661 copies · [try live](https://superdesign.dev/library/parallax-stars-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A mesmerizing space-themed background with animated parallax pixel stars and a radial gradient atmosphere. Features three layers of stars moving at different speeds to create depth.
-
-```text
-This is a reference implementation of a parallax stars background
-
-~~~/README.md
-# Parallax Stars Background
-
-A mesmerizing space-themed background component with animated parallax pixel stars and a radial gradient atmosphere.
-
-## Features
-- **Pure CSS/JS Animation**: Uses efficient `box-shadow` rendering for thousands of particles.
-- **Parallax Effect**: Three layers of stars moving at different speeds to create depth.
-- **Radial Gradient Atmosphere**: Creates a deep space feel.
-- **Customizable**: Adjustable speed and title text.
-- **Responsive**: Adapts to screen size.
-
-## Usage
-
-```tsx
-import { ParallaxStarsBackground } from '@/sd-components/a17695b3-944f-4e4b-9d72-b0cfd61b9bb8';
-
-function App() {
-  return (
-    <ParallaxStarsBackground 
-      title="MY AWESOME\nSPACE APP" 
-      speed={1.5}
-    >
-      <button className="px-6 py-2 border border-white text-white hover:bg-white hover:text-black transition-colors rounded-full uppercase tracking-widest text-sm">
-        Enter the Void
-      </button>
-    </ParallaxStarsBackground>
-  );
-}
-```
-
-## Props
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `title` | `string` | "PURE CSS\nPARALLAX PIXEL STARS" | Main title text. Use `\n` for line breaks. |
-| `children` | `ReactNode` | undefined | Optional content to render below the title. |
-| `className` | `string` | "" | Additional classes for the container. |
-| `speed` | `number` | 1 | Animation speed multiplier. Higher is faster. |
-~~~
-
-~~~/src/App.tsx
-import React from 'react';
-import { ParallaxStarsBackground } from './Component';
-
-export default function App() {
-  return (
-    <div className="w-full min-h-screen">
-      <ParallaxStarsBackground 
-        speed={1}
-      />
-    </div>
-  );
-}
-~~~
-
-~~~/package.json
-
-{
-  "name": "parallax-stars-background",
-  "version": "1.0.0",
-  "description": "A mesmerizing space-themed background with animated parallax pixel stars and a radial gradient atmosphere.",
-  "main": "src/Component.tsx",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "lucide-react": "^0.344.0",
-    "framer-motion": "^11.0.8",
-    "clsx": "^2.1.0",
-    "tailwind-merge": "^2.2.1"
-  }
-}
-~~~
-
-~~~/src/Component.tsx
-import React, { useMemo } from 'react';
-
-// Types for the component props
-export interface ParallaxStarsBackgroundProps {
-  /**
-   * Title text to display in the center
-   * @default "PURE CSS PARALLAX PIXEL STARS"
-   */
-  title?: string;
-  /**
-   * Subtitle or additional content
-   */
-  children?: React.ReactNode;
-  /**
-   * Class name for the container
-   */
-  className?: string;
-  /**
-   * Speed multiplier for the animation
-   * @default 1
-   */
-  speed?: number;
-}
-
-// Helper to generate random box shadows
-const generateBoxShadows = (n: number) => {
-  let value = `${Math.floor(Math.random() * 2000)}px ${Math.floor(Math.random() * 2000)}px #FFF`;
-  for (let i = 2; i <= n; i++) {
-    value += `, ${Math.floor(Math.random() * 2000)}px ${Math.floor(Math.random() * 2000)}px #FFF`;
-  }
-  return value;
-};
-
-export function ParallaxStarsBackground({
-  title = "PURE CSS\nPARALLAX PIXEL STARS",
-  children,
-  className = "",
-  speed = 1
-}: ParallaxStarsBackgroundProps) {
-  // Memoize shadows so they don't regenerate on re-renders
-  const shadowsSmall = useMemo(() => generateBoxShadows(700), []);
-  const shadowsMedium = useMemo(() => generateBoxShadows(200), []);
-  const shadowsBig = useMemo(() => generateBoxShadows(100), []);
-
-  return (
-    <div className={`relative w-full h-screen overflow-hidden bg-[#090A0F] font-['Lato'] ${className}`}>
-      {/* Inline styles for the gradient and animations */}
-      <style>{`
-        .bg-radial-space {
-          background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-        }
-        @keyframes animStar {
-          from { transform: translateY(0px); }
-          to { transform: translateY(-2000px); }
-        }
-        .text-gradient-clip {
-          background: linear-gradient(to bottom, white 0%, #38495a 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-      `}</style>
-
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-radial-space z-0" />
-
-      {/* Stars Layer 1 (Small) */}
-      <div 
-        className="absolute left-0 top-0 w-[1px] h-[1px] bg-transparent z-10 animate-[animStar_50s_linear_infinite]"
-        style={{ 
-          boxShadow: shadowsSmall,
-          animationDuration: `${50 / speed}s`
-        }}
-      >
-        <div 
-          className="absolute top-[2000px] w-[1px] h-[1px] bg-transparent"
-          style={{ boxShadow: shadowsSmall }}
-        />
-      </div>
-
-      {/* Stars Layer 2 (Medium) */}
-      <div 
-        className="absolute left-0 top-0 w-[2px] h-[2px] bg-transparent z-10 animate-[animStar_100s_linear_infinite]"
-        style={{ 
-          boxShadow: shadowsMedium,
-          animationDuration: `${100 / speed}s`
-        }}
-      >
-        <div 
-          className="absolute top-[2000px] w-[2px] h-[2px] bg-transparent"
-          style={{ boxShadow: shadowsMedium }}
-        />
-      </div>
-
-      {/* Stars Layer 3 (Big) */}
-      <div 
-        className="absolute left-0 top-0 w-[3px] h-[3px] bg-transparent z-10 animate-[animStar_150s_linear_infinite]"
-        style={{ 
-          boxShadow: shadowsBig,
-          animationDuration: `${150 / speed}s`
-        }}
-      >
-        <div 
-          className="absolute top-[2000px] w-[3px] h-[3px] bg-transparent"
-          style={{ boxShadow: shadowsBig }}
-        />
-      </div>
-
-      {/* Title Content */}
-      <div className="absolute top-1/2 left-0 right-0 -mt-[60px] text-center z-20 px-4">
-        <h1 className="font-light text-[30px] md:text-[50px] tracking-[10px] text-white leading-tight">
-          {title.split('\n').map((line, i) => (
-            <React.Fragment key={i}>
-              <span className={i === 0 ? "text-gradient-clip" : "text-gradient-clip"}>
-                {line}
-              </span>
-              {i < title.split('\n').length - 1 && <br />}
-            </React.Fragment>
-          ))}
-        </h1>
-        {children && <div className="mt-8">{children}</div>}
-      </div>
-    </div>
-  );
-}
-
-export default ParallaxStarsBackground;
-~~~
-
-Implementation Guidelines
-
-1. Analyze the component structure, styling, animation implementations
-2. Review the component's arguments and state
-3. Think through what is the best place to adopt this component/style into the design we are doing
-4. Then adopt the component/design to our current system
-
-Help me integrate this into my design
-```
-
----
-
-## 46. Typing animation
-`Components` · `General` · 370 copies · [try live](https://superdesign.dev/library/typing-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A typing animation component that reveals each character of a headline with a 50ms delay, featuring a minimalist showcase and replay functionality.
-
-```text
-Create a typing animation that reveals each character with a 50ms delay between characters for the main headline.
-```
-
----
-
-## 47. Shiny Text
-`Components` · `General` · 182 copies · [try live](https://superdesign.dev/library/shiny-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A text component with a customizable shining gradient animation effect that sweeps across the text.
-
-```text
-You are given a task to integrate an existing React component in the codebase
-
-~~~/README.md
-# ShinyText
-
-A text component with a customizable shining gradient animation effect that sweeps across the text.
-
-## Props
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `text` | string | - | The text to display and animate |
-| `disabled` | boolean | false | Whether to disable the animation |
-| `speed` | number | 2 | Duration of the animation in seconds |
-| `className` | string | '' | Additional CSS classes for styling |
-| `color` | string | '#b5b5b5' | The base color of the text |
-| `shineColor` | string | '#ffffff' | The color of the shine effect |
-| `spread` | number | 120 | The spread angle of the gradient in degrees |
-| `yoyo` | boolean | false | Whether the animation should bounce back and forth |
-| `pauseOnHover` | boolean | false | Whether to pause the animation on hover |
-| `direction` | 'left' \| 'right' | 'left' | The direction of the shine movement |
-| `delay` | number | 0 | Delay before animation starts (in seconds) |
-
-## Usage
-
-```tsx
-import ShinyText from '@/sd-components/2f78ed51-fbb9-4da5-8537-b528a39fe26f';
-
-// Basic usage
-<ShinyText text="Just some shiny text!" />
-
-// Custom speed and colors
-<ShinyText 
-  text="Shiny Text" 
-  disabled={false}
-  speed={3} 
-  className="custom-class" 
-  color="#888888"
-  shineColor="#3b82f6" 
-/>
-
-// Interactive usage
-<ShinyText 
-  text="Hover to pause" 
-  pauseOnHover={true}
-  speed={1.5}
-/>
-```
-~~~
-
-~~~/src/App.tsx
-import React from 'react';
-import ShinyText from './ShinyText';
-
-export default function App() {
-  return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-[#1A1A1B] p-8 font-sans">
-      <div className="relative group rounded-3xl bg-[#222224] p-16 shadow-[0_0_40px_rgba(0,0,0,0.3)] transition-all hover:shadow-[0_0_60px_rgba(0,0,0,0.5)] border border-white/5">
-        <div className="text-center space-y-12">
-            <div>
-              <h2 className="text-sm font-medium text-white/40 mb-8 uppercase tracking-[0.2em]">Default Animation</h2>
-              <div className="text-4xl md:text-5xl font-bold tracking-tight">
-                  <ShinyText 
-                      text="✨ Shiny Text Effect" 
-                      disabled={false}
-                      speed={3} 
-                      className="custom-class" 
-                  />
-              </div>
-            </div>
-            
-             <div className="pt-12 border-t border-white/5 grid gap-8 justify-items-center">
-                <div>
-                  <p className="text-xs text-white/30 mb-4 uppercase tracking-widest">Hover to Pause</p>
-                  <ShinyText 
-                      text="Hover over me to pause the shine" 
-                      speed={2} 
-                      color="#888888"
-                      shineColor="#3b82f6" // Electric blue
-                      className="text-xl font-medium"
-                      pauseOnHover={true}
-                  />
-                </div>
-                
-                <div>
-                  <p className="text-xs text-white/30 mb-4 uppercase tracking-widest">Yoyo Effect</p>
-                   <ShinyText 
-                      text="Bouncing back and forth" 
-                      speed={1.5} 
-                      color="#888888"
-                      shineColor="#ec4899" // Pink
-                      className="text-xl font-medium"
-                      yoyo={true}
-                  />
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-~~~
-
-~~~/package.json
-{
-  "name": "shiny-text-component",
-  "version": "1.0.0",
-  "description": "A shiny text animation component using Motion",
-  "main": "src/ShinyText.tsx",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "motion": "^12.0.0",
-    "lucide-react": "^0.344.0"
-  }
-}
-~~~
-
-~~~/src/ShinyText.tsx
-import React, { useState, useCallback, useEffect, useRef } from 'react';
-import { motion, useMotionValue, useAnimationFrame, useTransform } from 'motion/react';
-
-interface ShinyTextProps {
-  text: string;
-  disabled?: boolean;
-  speed?: number;
-  className?: string;
-  color?: string;
-  shineColor?: string;
-  spread?: number;
-  yoyo?: boolean;
-  pauseOnHover?: boolean;
-  direction?: 'left' | 'right';
-  delay?: number;
-}
-
-const ShinyText: React.FC<ShinyTextProps> = ({
-  text,
-  disabled = false,
-  speed = 2,
-  className = '',
-  color = '#b5b5b5',
-  shineColor = '#ffffff',
-  spread = 120,
-  yoyo = false,
-  pauseOnHover = false,
-  direction = 'left',
-  delay = 0
-}) => {
-  const [isPaused, setIsPaused] = useState(false);
-  const progress = useMotionValue(0);
-  const elapsedRef = useRef(0);
-  const lastTimeRef = useRef<number | null>(null);
-  const directionRef = useRef(direction === 'left' ? 1 : -1);
-
-  const animationDuration = speed * 1000;
-  const delayDuration = delay * 1000;
-
-  useAnimationFrame(time => {
-    if (disabled || isPaused) {
-      lastTimeRef.current = null;
-      return;
-    }
-
-    if (lastTimeRef.current === null) {
-      lastTimeRef.current = time;
-      return;
-    }
-
-    const deltaTime = time - lastTimeRef.current;
-    lastTimeRef.current = time;
-    elapsedRef.current += deltaTime;
-
-    // Animation goes from 0 to 100
-    if (yoyo) {
-      const cycleDuration = animationDuration + delayDuration;
-      const fullCycle = cycleDuration * 2;
-      const cycleTime = elapsedRef.current % fullCycle;
-
-      if (cycleTime < animationDuration) {
-        // Forward animation: 0 -> 100
-        const p = (cycleTime / animationDuration) * 100;
-        progress.set(directionRef.current === 1 ? p : 100 - p);
-      } else if (cycleTime < cycleDuration) {
-        // Delay at end
-        progress.set(directionRef.current === 1 ? 100 : 0);
-      } else if (cycleTime < cycleDuration + animationDuration) {
-        // Reverse animation: 100 -> 0
-        const reverseTime = cycleTime - cycleDuration;
-        const p = 100 - (reverseTime / animationDuration) * 100;
-        progress.set(directionRef.current === 1 ? p : 100 - p);
-      } else {
-        // Delay at start
-        progress.set(directionRef.current === 1 ? 0 : 100);
-      }
-    } else {
-      const cycleDuration = animationDuration + delayDuration;
-      const cycleTime = elapsedRef.current % cycleDuration;
-
-      if (cycleTime < animationDuration) {
-        // Animation phase: 0 -> 100
-        const p = (cycleTime / animationDuration) * 100;
-        progress.set(directionRef.current === 1 ? p : 100 - p);
-      } else {
-        // Delay phase - hold at end (shine off-screen)
-        progress.set(directionRef.current === 1 ? 100 : 0);
-      }
-    }
-  });
-
-  useEffect(() => {
-    directionRef.current = direction === 'left' ? 1 : -1;
-    elapsedRef.current = 0;
-    progress.set(0);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [direction]);
-
-  // Transform: p=0 -> 150% (shine off right), p=100 -> -50% (shine off left)
-  const backgroundPosition = useTransform(progress, p => `${150 - p * 2}% center`);
-
-  const handleMouseEnter = useCallback(() => {
-    if (pauseOnHover) setIsPaused(true);
-  }, [pauseOnHover]);
-
-  const handleMouseLeave = useCallback(() => {
-    if (pauseOnHover) setIsPaused(false);
-  }, [pauseOnHover]);
-
-  const gradientStyle: React.CSSProperties = {
-    backgroundImage: `linear-gradient(${spread}deg, ${color} 0%, ${color} 35%, ${shineColor} 50%, ${color} 65%, ${color} 100%)`,
-    backgroundSize: '200% auto',
-    WebkitBackgroundClip: 'text',
-    backgroundClip: 'text',
-    WebkitTextFillColor: 'transparent'
-  };
-
-  return (
-    <motion.span
-      className={`inline-block ${className}`}
-      style={{ ...gradientStyle, backgroundPosition }}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      {text}
-    </motion.span>
-  );
-};
-
-export default ShinyText;
-~~~
-
-Implementation Guidelines
-
-1. Analyze the component structure, styling, animation implementations
-2. Review the component's arguments and state
-3. Think through what is the best place to adopt this component/style into the design we are doing
-4. Then adopt the component/design to our current system
-
-Help me integrate this into my design
-```
-
----
-
-## 48. Pill Nav
-`Components` · `General` · 318 copies · [try live](https://superdesign.dev/library/pill-nav?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A premium, minimalist pill-shaped navigation component with GSAP-powered hover effects, rotating logo animation, and responsive mobile menu. Features a unique 'rising circle' background effect on hover.
-
-```text
-You are given a task to integrate an existing React component in the codebase
-
-~~~/README.md
-# PillNav Component
-
-A premium, minimalist pill-shaped navigation component built with React, GSAP, and Tailwind CSS. It features distinctive hover animations where a background circle "rises" to fill the pill, and a rotating logo interaction.
-
-## Features
-
-- **GSAP Animations**: Fluid, high-performance animations for hover states and entrance.
-- **Responsive**: Fully functional mobile menu with smooth transitions.
-- **Smart Link Handling**: Automatically detects and handles both internal (React Router) and external links.
-- **Customizable**: Control colors, easing, and load animations via props.
-- **Aesthetic**: Minimalist design with high attention to detail.
-
-## Dependencies
-
-- `gsap`: ^3.12.0
-- `react-router-dom`: ^6.28.0
-- `lucide-react`: latest
-- `framer-motion`: latest (optional for additional effects)
-
-## Props
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `logo` | `string` | - | **Required**. URL/path to the logo image. |
-| `items` | `PillNavItem[]` | - | **Required**. Array of navigation items `{ label, href, ariaLabel? }`. |
-| `activeHref` | `string` | - | The href of the current active page. |
-| `logoAlt` | `string` | `"Logo"` | Alt text for the logo. |
-| `baseColor` | `string` | `hsl(var(--primary))` | Background color of the main nav containers. |
-| `pillColor` | `string` | `hsl(var(--background))` | Default background color of individual pills. |
-| `pillTextColor` | `string` | `hsl(var(--foreground))` | Default text color of individual pills. |
-| `hoveredPillTextColor`| `string` | `hsl(var(--primary-foreground))` | Text color when a pill is hovered. |
-| `ease` | `string` | `"power3.out"` | GSAP easing function for animations. |
-| `initialLoadAnimation`| `boolean`| `true` | Whether to play entrance animation on mount. |
-
-## Usage Example
-
-```tsx
-import { PillNav } from '@/sd-components/386926b7-61c2-45ee-b7bf-f86e750ca9ca';
-
-const MyNav = () => {
-  const items = [
-    { label: 'Home', href: '/' },
-    { label: 'Products', href: '/products' },
-    { label: 'About', href: '/about' }
-  ];
-
-  return (
-    <PillNav 
-      logo="/logo.svg"
-      items={items}
-      activeHref="/"
-    />
-  );
-};
-```
-~~~
-
-~~~/src/App.tsx
-import React from 'react';
-import { HashRouter } from 'react-router-dom';
-import { PillNav } from './Component';
-import { Rocket } from 'lucide-react';
-
-export default function App() {
-  const navItems = [
-    { label: 'Home', href: '/' },
-    { label: 'Collection', href: '/collection' },
-    { label: 'About', href: '/about' },
-    { label: 'Contact', href: '/contact' }
-  ];
-
-  return (
-    <HashRouter>
-      <div className="min-h-screen bg-[#F9F9F9] flex flex-col items-center justify-center p-20">
-        <div className="w-full max-w-2xl bg-white/50 backdrop-blur-sm rounded-[40px] shadow-2xl shadow-black/5 p-12 flex items-center justify-center relative overflow-visible">
-          <PillNav 
-            logo={<Rocket size={24} />}
-            items={navItems}
-            activeHref="/"
-            baseColor="#1A1A1B"
-            pillColor="#F9F9F9"
-            hoveredPillTextColor="#FFFFFF"
-            pillTextColor="#1A1A1B"
-          />
-        </div>
-        
-        <div className="mt-12 text-center">
-          <h1 className="text-2xl font-medium text-slate-900 tracking-tight">Pill Navigation</h1>
-          <p className="text-slate-500 mt-2 max-w-md mx-auto text-balance">
-            A premium navigation component with GSAP animations. Hover over the links to see the rising background effect.
-          </p>
-        </div>
-
-        {/* Reply Button (as requested by system prompt) */}
-        <button 
-          onClick={() => window.location.reload()}
-          className="fixed bottom-8 right-8 px-6 py-3 bg-slate-900 text-white rounded-full font-medium shadow-xl hover:scale-105 active:scale-95 transition-transform flex items-center gap-2"
-        >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-            <path d="M3 3v5h5" />
-          </svg>
-          Replay Animation
-        </button>
-      </div>
-    </HashRouter>
-  );
-}
-~~~
-
-~~~/package.json
-{
-  "name": "pill-nav-showcase",
-  "description": "A premium pill-shaped navigation with GSAP animations",
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "gsap": "^3.12.0",
-    "react-router-dom": "^6.28.0",
-    "lucide-react": "latest",
-    "framer-motion": "latest",
-    "clsx": "latest",
-    "tailwind-merge": "latest"
-  }
-}
-~~~
-
-~~~/src/Component.tsx
-/**
- * PillNav - A premium, GSAP-powered navigation component.
- * Features:
- * - Rising circle background animation on hover
- * - Rotating logo animation
- * - Responsive mobile menu with GSAP transitions
- * - Support for both React Router Link and standard anchor tags
- * - Customizable colors and easing
- */
-
-import React, { useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { gsap } from 'gsap';
-import { Menu, X, Rocket } from 'lucide-react';
-
-export type PillNavItem = {
-  label: string;
-  href: string;
-  ariaLabel?: string;
-};
-
-export interface PillNavProps {
-  /** Logo icon component or source URL (image or SVG) */
-  logo: React.ReactNode | string;
-  /** Alt text for the logo */
-  logoAlt?: string;
-  /** Navigation items array */
-  items: PillNavItem[];
-  /** The current active href for highlighting */
-  activeHref?: string;
-  /** Optional extra class names for the nav container */
-  className?: string;
-  /** GSAP easing function */
-  ease?: string;
-  /** The base background color of the nav pills and logo container */
-  baseColor?: string;
-  /** The color of the pill when not hovered */
-  pillColor?: string;
-  /** Text color when the pill is hovered */
-  hoveredPillTextColor?: string;
-  /** Default text color for the pills */
-  pillTextColor?: string;
-  /** Callback for mobile menu toggle */
-  onMobileMenuClick?: () => void;
-  /** Whether to play an entrance animation on mount */
-  initialLoadAnimation?: boolean;
-}
-
-export const PillNav: React.FC<PillNavProps> = ({
-  logo,
-  logoAlt = 'Logo',
-  items,
-  activeHref,
-  className = '',
-  ease = 'power3.out',
-  baseColor = 'hsl(var(--primary))',
-  pillColor = 'hsl(var(--background))',
-  hoveredPillTextColor = 'hsl(var(--primary-foreground))',
-  pillTextColor,
-  onMobileMenuClick,
-  initialLoadAnimation = true
-}) => {
-  const resolvedPillTextColor = pillTextColor ?? 'hsl(var(--foreground))';
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  
-  const containerRef = useRef<HTMLDivElement>(null);
-  const circleRefs = useRef<Array<HTMLSpanElement | null>>([]);
-  const tlRefs = useRef<Array<gsap.core.Timeline | null>>([]);
-  const activeTweenRefs = useRef<Array<gsap.core.Tween | null>>([]);
-  const logoImgRef = useRef<HTMLImageElement | null>(null);
-  const logoTweenRef = useRef<gsap.core.Tween | null>(null);
-  const hamburgerRef = useRef<HTMLButtonElement | null>(null);
-  const mobileMenuRef = useRef<HTMLDivElement | null>(null);
-  const navItemsRef = useRef<HTMLDivElement | null>(null);
-  const logoRef = useRef<HTMLAnchorElement | HTMLDivElement | null>(null);
-
-  const renderLogo = () => {
-    if (typeof logo === 'string') {
-      return (
-        <img 
-          src={logo} 
-          alt={logoAlt} 
-          ref={logoImgRef} 
-          className="w-8 h-8 object-contain pointer-events-none" 
-        />
-      );
-    }
-    return (
-      <div ref={logoImgRef} className="flex items-center justify-center">
-        {logo}
-      </div>
-    );
-  };
-
-  useEffect(() => {
-    const layout = () => {
-      circleRefs.current.forEach((circle, index) => {
-        if (!circle?.parentElement) return;
-        
-        const pill = circle.parentElement as HTMLElement;
-        const rect = pill.getBoundingClientRect();
-        const { width: w, height: h } = rect;
-        
-        // Calculate the radius for the expanding circle to cover the pill
-        const R = ((w * w) / 4 + h * h) / (2 * h);
-        const D = Math.ceil(2 * R) + 2;
-        const delta = Math.ceil(R - Math.sqrt(Math.max(0, R * R - (w * w) / 4))) + 1;
-        const originY = D - delta;
-
-        circle.style.width = `${D}px`;
-        circle.style.height = `${D}px`;
-        circle.style.bottom = `-${delta}px`;
-        
-        gsap.set(circle, {
-          xPercent: -50,
-          scale: 0,
-          transformOrigin: `50% ${originY}px`
-        });
-
-        const label = pill.querySelector<HTMLElement>('.pill-label');
-        const white = pill.querySelector<HTMLElement>('.pill-label-hover');
-        
-        if (label) gsap.set(label, { y: 0 });
-        if (white) gsap.set(white, { y: h + 12, opacity: 0 });
-
-        tlRefs.current[index]?.kill();
-        const tl = gsap.timeline({ paused: true });
-        
-        tl.to(circle, { 
-          scale: 1.2, 
-          xPercent: -50, 
-          duration: 0.8, 
-          ease, 
-          overwrite: 'auto' 
-        }, 0);
-        
-        if (label) {
-          tl.to(label, { 
-            y: -(h + 8), 
-            duration: 0.6, 
-            ease, 
-            overwrite: 'auto' 
-          }, 0);
-        }
-        
-        if (white) {
-          gsap.set(white, { y: Math.ceil(h + 20), opacity: 0 });
-          tl.to(white, { 
-            y: 0, 
-            opacity: 1, 
-            duration: 0.6, 
-            ease, 
-            overwrite: 'auto' 
-          }, 0);
-        }
-        
-        tlRefs.current[index] = tl;
-      });
-    };
-
-    layout();
-    
-    const onResize = () => layout();
-    window.addEventListener('resize', onResize);
-    
-    if (document.fonts) {
-      document.fonts.ready.then(layout).catch(() => {});
-    }
-
-    // Initial load animation
-    if (initialLoadAnimation) {
-      const logo = logoRef.current;
-      const navItems = navItemsRef.current;
-      
-      if (logo) {
-        gsap.set(logo, { scale: 0, opacity: 0 });
-        gsap.to(logo, {
-          scale: 1,
-          opacity: 1,
-          duration: 0.8,
-          ease: "back.out(1.7)"
-        });
-      }
-      
-      if (navItems) {
-        const listItems = navItems.querySelectorAll('li');
-        gsap.set(listItems, { opacity: 0, x: -20 });
-        gsap.to(listItems, {
-          opacity: 1,
-          x: 0,
-          duration: 0.6,
-          stagger: 0.05,
-          ease: "power2.out",
-          delay: 0.2
-        });
-      }
-    }
-
-    return () => window.removeEventListener('resize', onResize);
-  }, [items, ease, initialLoadAnimation]);
-
-  const handleEnter = (i: number) => {
-    const tl = tlRefs.current[i];
-    if (!tl) return;
-    activeTweenRefs.current[i]?.kill();
-    activeTweenRefs.current[i] = tl.tweenTo(tl.duration(), {
-      duration: 0.4,
-      ease,
-      overwrite: 'auto'
-    });
-  };
-
-  const handleLeave = (i: number) => {
-    const tl = tlRefs.current[i];
-    if (!tl) return;
-    activeTweenRefs.current[i]?.kill();
-    activeTweenRefs.current[i] = tl.tweenTo(0, {
-      duration: 0.3,
-      ease,
-      overwrite: 'auto'
-    });
-  };
-
-  const handleLogoEnter = () => {
-    const img = logoImgRef.current;
-    if (!img) return;
-    logoTweenRef.current?.kill();
-    logoTweenRef.current = gsap.to(img, {
-      rotate: 360,
-      duration: 0.8,
-      ease: "elastic.out(1, 0.5)",
-      overwrite: 'auto',
-      onComplete: () => gsap.set(img, { rotate: 0 })
-    });
-  };
-
-  const toggleMobileMenu = () => {
-    const newState = !isMobileMenuOpen;
-    setIsMobileMenuOpen(newState);
-    
-    const menu = mobileMenuRef.current;
-    if (menu) {
-      if (newState) {
-        gsap.set(menu, { display: 'block', opacity: 0, y: -20 });
-        gsap.to(menu, {
-          opacity: 1,
-          y: 0,
-          duration: 0.4,
-          ease: "power3.out"
-        });
-      } else {
-        gsap.to(menu, {
-          opacity: 0,
-          y: -20,
-          duration: 0.3,
-          ease: "power3.in",
-          onComplete: () => {
-            gsap.set(menu, { display: 'none' });
-          }
-        });
-      }
-    }
-    onMobileMenuClick?.();
-  };
-
-  const isExternalLink = (href: string) =>
-    href.startsWith('http://') ||
-    href.startsWith('https://') ||
-    href.startsWith('//') ||
-    href.startsWith('mailto:') ||
-    href.startsWith('tel:') ||
-    href.startsWith('#');
-
-  const isRouterLink = (href?: string) => href && !isExternalLink(href);
-
-  const cssVars = {
-    '--base': baseColor,
-    '--pill-bg': pillColor,
-    '--hover-text': hoveredPillTextColor,
-    '--pill-text': resolvedPillTextColor,
-    '--nav-h': '48px',
-    '--logo-size': '40px',
-    '--pill-pad-x': '20px',
-    '--pill-gap': '6px'
-  } as React.CSSProperties;
-
-  return (
-    <div className={`relative z-[1000] w-full max-w-4xl mx-auto ${className}`} style={cssVars}>
-      <nav
-        className="w-full flex items-center justify-between md:justify-center p-4 gap-4"
-        aria-label="Primary"
-      >
-        {/* Logo Section */}
-        <div 
-          ref={el => { logoRef.current = el as HTMLDivElement; }}
-          onMouseEnter={handleLogoEnter}
-          className="flex-shrink-0"
-        >
-          {isRouterLink(items[0]?.href) ? (
-            <Link
-              to={items[0].href}
-              className="flex items-center justify-center rounded-full overflow-hidden transition-transform hover:scale-105 active:scale-95"
-              style={{
-                width: 'var(--nav-h)',
-                height: 'var(--nav-h)',
-                background: 'var(--base)',
-                color: 'var(--pill-bg)'
-              }}
-            >
-              {renderLogo()}
-            </Link>
-          ) : (
-            <a
-              href={items[0]?.href || '#'}
-              className="flex items-center justify-center rounded-full overflow-hidden transition-transform hover:scale-105 active:scale-95"
-              style={{
-                width: 'var(--nav-h)',
-                height: 'var(--nav-h)',
-                background: 'var(--base)',
-                color: 'var(--pill-bg)'
-              }}
-            >
-              {renderLogo()}
-            </a>
-          )}
-        </div>
-
-        {/* Desktop Menu */}
-        <div
-          ref={navItemsRef}
-          className="hidden md:flex items-center rounded-full px-1.5"
-          style={{
-            height: 'var(--nav-h)',
-            background: 'var(--base)'
-          }}
-        >
-          <ul
-            role="menubar"
-            className="list-none flex items-stretch m-0 p-0 h-full"
-            style={{ gap: 'var(--pill-gap)' }}
-          >
-            {items.map((item, i) => {
-              const isActive = activeHref === item.href;
-              
-              const pillStyle: React.CSSProperties = {
-                background: 'var(--pill-bg)',
-                color: 'var(--pill-text)',
-                paddingLeft: 'var(--pill-pad-x)',
-                paddingRight: 'var(--pill-pad-x)'
-              };
-
-              const PillContent = (
-                <>
-                  <span
-                    className="hover-circle absolute left-1/2 bottom-0 rounded-full z-[1] block pointer-events-none"
-                    style={{
-                      background: 'var(--base)',
-                      willChange: 'transform'
-                    }}
-                    aria-hidden="true"
-                    ref={el => {
-                      circleRefs.current[i] = el;
-                    }}
-                  />
-                  <span className="label-stack relative inline-block leading-none z-[2] overflow-hidden py-1">
-                    <span
-                      className="pill-label relative z-[2] inline-block"
-                      style={{ willChange: 'transform' }}
-                    >
-                      {item.label}
-                    </span>
-                    <span
-                      className="pill-label-hover absolute left-0 top-1 z-[3] inline-block w-full text-center"
-                      style={{
-                        color: 'var(--hover-text)',
-                        willChange: 'transform, opacity'
-                      }}
-                      aria-hidden="true"
-                    >
-                      {item.label}
-                    </span>
-                  </span>
-                  {isActive && (
-                    <span
-                      className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-1 h-1 rounded-full z-[4]"
-                      style={{ background: 'var(--base)' }}
-                      aria-hidden="true"
-                    />
-                  )}
-                </>
-              );
-
-              const basePillClasses = "relative overflow-hidden inline-flex items-center justify-center h-[calc(var(--nav-h)-12px)] self-center no-underline rounded-full box-border font-medium text-sm uppercase tracking-wider cursor-pointer transition-colors duration-200 hover:z-10";
-
-              return (
-                <li key={item.href} role="none" className="flex items-center">
-                  {isRouterLink(item.href) ? (
-                    <Link
-                      role="menuitem"
-                      to={item.href}
-                      className={basePillClasses}
-                      style={pillStyle}
-                      aria-label={item.ariaLabel || item.label}
-                      onMouseEnter={() => handleEnter(i)}
-                      onMouseLeave={() => handleLeave(i)}
-                    >
-                      {PillContent}
-                    </Link>
-                  ) : (
-                    <a
-                      role="menuitem"
-                      href={item.href}
-                      className={basePillClasses}
-                      style={pillStyle}
-                      aria-label={item.ariaLabel || item.label}
-                      onMouseEnter={() => handleEnter(i)}
-                      onMouseLeave={() => handleLeave(i)}
-                    >
-                      {PillContent}
-                    </a>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-
-        {/* Mobile Hamburger */}
-        <button
-          ref={hamburgerRef}
-          onClick={toggleMobileMenu}
-          aria-label="Toggle menu"
-          aria-expanded={isMobileMenuOpen}
-          className="md:hidden flex items-center justify-center rounded-full transition-transform active:scale-90"
-          style={{
-            width: 'var(--nav-h)',
-            height: 'var(--nav-h)',
-            background: 'var(--base)',
-            color: 'var(--pill-bg)'
-          }}
-        >
-          {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
-        </button>
-      </nav>
-
-      {/* Mobile Menu Dropdown */}
-      <div
-        ref={mobileMenuRef}
-        className="md:hidden absolute top-full left-4 right-4 mt-2 rounded-2xl overflow-hidden shadow-2xl z-[999] hidden border border-border/10"
-        style={{
-          background: 'var(--base)'
-        }}
-      >
-        <ul className="list-none m-0 p-2 flex flex-col gap-1">
-          {items.map((item) => {
-            const isActive = activeHref === item.href;
-            return (
-              <li key={item.href}>
-                {isRouterLink(item.href) ? (
-                  <Link
-                    to={item.href}
-                    className={`block py-3 px-6 text-sm font-semibold uppercase tracking-widest rounded-xl transition-all ${
-                      isActive 
-                        ? 'bg-background text-foreground' 
-                        : 'text-primary-foreground/70 hover:bg-background/10 hover:text-primary-foreground'
-                    }`}
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    {item.label}
-                  </Link>
-                ) : (
-                  <a
-                    href={item.href}
-                    className={`block py-3 px-6 text-sm font-semibold uppercase tracking-widest rounded-xl transition-all ${
-                      isActive 
-                        ? 'bg-background text-foreground' 
-                        : 'text-primary-foreground/70 hover:bg-background/10 hover:text-primary-foreground'
-                    }`}
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    {item.label}
-                  </a>
-                )}
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-    </div>
-  );
-};
-
-export default PillNav;
-~~~
-
-Implementation Guidelines
-
-1. Analyze the component structure, styling, animation implementations
-2. Review the component's arguments and state
-3. Think through what is the best place to adopt this component/style into the design we are doing
-4. Then adopt the component/design to our current system
-
-Help me integrate this into my design
-```
-
----
-
-## 49. "Exploded View" Assembly
+## 38. "Exploded View" Assembly
 `Animations & Backgrounds` · `General` · 490 copies · [try live](https://superdesign.dev/library/exploded-view-assembly?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A scroll-driven animation where a central product or UI element explodes into its constituent parts and then reassembles into a new layout. Perfect for 'how it works' or feature breakdown sections.
@@ -7469,26 +4716,7 @@ Perfect for showing product components or "how it works."
 
 ---
 
-## 50. Rolodex Text
-`Components` · `General` · 203 copies · [try live](https://superdesign.dev/library/rolodex-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A text component that cycles through words with a 3D physical slot machine/Rolodex flip animation. Features left-aligned text for inline use and preserved 3D perspective.
-
-```text
-Create a text component that animates words changing like a physical slot machine or Rolodex. 
-
-**Animation**: The old word should rotate 90° backward on the X-axis, while the new word flips up from the bottom. 
-
-**Layout & Alignment**: This will be used inline (e.g., "We Deliver [Word]"). **CRITICAL**: Left-align the text within its container so it stays flush against the preceding text. 
-
-Do not center it, or variable word lengths will create awkward gaps. 
-
-**Technical**: Ensure the container uses preserve-3d and isn't strictly clipped, so the 3D rotation is fully visible.
-```
-
----
-
-## 51. Lightning Background
+## 39. Lightning Background
 `Animations & Backgrounds` · `General` · 252 copies · [try live](https://superdesign.dev/library/lightning-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-performance WebGL-powered lightning/electric discharge background effect. Features adjustable hue, intensity, speed, and scale. Built with GLSL shaders for smooth atmospheric motion.
@@ -7853,7 +5081,7 @@ Help me integrate this into my design
 
 ---
 
-## 52. Hyperspeed Background
+## 40. Hyperspeed Background
 `Animations & Backgrounds` · `General` · 232 copies · [try live](https://superdesign.dev/library/hyperspeed-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-performance, Three.js-based warp speed/hyperspeed background effect with customizable distortions, colors, and motion parameters. Supports multiple presets for different visual styles.
@@ -8500,7 +5728,7 @@ Help me integrate this into my design
 
 ---
 
-## 53. Light Rays Background
+## 41. Light Rays Background
 `Animations & Backgrounds` · `General` · 534 copies · [try live](https://superdesign.dev/library/light-rays-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A minimalist showcase of a high-end WebGL light rays background effect with mouse interaction and atmospheric motion.
@@ -9030,795 +6258,7 @@ Help me integrate this into my design
 
 ---
 
-## 54. Glow Cursor Button
-`Components` · `General` · 211 copies · [try live](https://superdesign.dev/library/glow-cursor-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-```text
-Interactive call-to-action button featuring a right-arrow SVG icon and custom **glow effect** driven by CSS variables **for cursor position**. Ideal for hero sections or onboarding prompts.
-```
-
----
-
-## 55. Interactive Card Stack
-`Components` · `General` · 121 copies · [try live](https://superdesign.dev/library/interactive-card-stack?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A premium, interactive card stack component with drag-to-back physics, random rotations, and smooth motion transitions. Features autoplay, mobile-optimized interactions, and highly customizable animation configurations.
-
-```text
-You are given a task to integrate an existing React component in the codebase
-
-~~~/README.md
-# InteractiveCardStack
-
-A premium, interactive card stack component for React. It features smooth drag physics, customizable animations, and automatic cycling. Perfect for showcases, galleries, or landing page features.
-
-## Features
-- 🖱️ **Drag-to-back physics**: Fluid interactions with Framer Motion.
-- 📱 **Mobile Optimized**: Custom handling for touch devices.
-- 🔄 **Autoplay**: Optional automatic card cycling with pause-on-hover.
-- 🎨 **Fully Customizable**: Control rotation, sensitivity, and spring physics.
-- 🌗 **Theme Aware**: Works seamlessly with light and dark modes.
-
-## Dependencies
-- `framer-motion`: ^11.0.0
-- `lucide-react`: ^0.454.0
-
-## Props
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `cards` | `React.ReactNode[]` | `[]` | Array of React elements to display as cards. |
-| `randomRotation` | `boolean` | `false` | Apply slight random rotations to cards for a organic feel. |
-| `sensitivity` | `number` | `180` | Distance in pixels a card must be dragged to trigger send-to-back. |
-| `sendToBackOnClick` | `boolean` | `false` | Allow clicking a card to send it to the back. |
-| `autoplay` | `boolean` | `false` | Enable automatic cycling of cards. |
-| `autoplayDelay` | `number` | `3000` | Delay in ms between automatic transitions. |
-| `pauseOnHover` | `boolean` | `true` | Pause autoplay when user hovers over the stack. |
-| `animationConfig` | `object` | `{ stiffness: 260, damping: 20 }` | Framer Motion spring configuration. |
-| `mobileClickOnly` | `boolean` | `false` | Disable dragging on mobile; cards only cycle via click. |
-
-## Usage
-
-```tsx
-import { InteractiveCardStack } from '@/sd-components/f7c18bb8-fe7d-4435-b722-c543df486128';
-
-function MyGallery() {
-  const items = [
-    <img src="/img1.jpg" className="w-full h-full object-cover" />,
-    <img src="/img2.jpg" className="w-full h-full object-cover" />,
-    <div className="bg-primary text-white p-8">Custom Content</div>
-  ];
-
-  return (
-    <div className="w-80 h-[450px]">
-      <InteractiveCardStack 
-        cards={items} 
-        randomRotation={true}
-        sendToBackOnClick={true}
-      />
-    </div>
-  );
-}
-```
-~~~
-
-~~~/src/App.tsx
-import React, { useState } from 'react';
-import { InteractiveCardStack } from './Component';
-import { RefreshCcw } from 'lucide-react';
-
-const IMAGES = [
-  "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?q=80&w=500&auto=format",
-  "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=500&auto=format",
-  "https://images.unsplash.com/photo-1452626212852-811d58933cae?q=80&w=500&auto=format",
-  "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=500&auto=format"
-];
-
-export default function App() {
-  const [key, setKey] = useState(0);
-
-  const cardItems = IMAGES.map((src, i) => (
-    <div key={i} className="w-full h-full relative group">
-      <img 
-        src={src} 
-        alt={`Showcase ${i + 1}`} 
-        className="w-full h-full object-cover"
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-    </div>
-  ));
-
-  return (
-    <div className="min-h-screen bg-[#F9F9F9] dark:bg-[#1A1A1B] flex flex-col items-center justify-center p-20">
-      {/* Title as requested in style guide */}
-      <h2 className="text-xl font-medium mb-12 text-[#1A1A1B] dark:text-[#F9F9F9] tracking-tight">
-        Interactive Card Stack
-      </h2>
-
-      <div className="relative group">
-        {/* Subtle borderless container with soft shadow */}
-        <div className="w-[320px] h-[420px] rounded-[2rem] shadow-[0_40px_80px_rgba(0,0,0,0.08)] bg-transparent">
-          <InteractiveCardStack 
-            key={key}
-            cards={cardItems}
-            randomRotation={true}
-            sendToBackOnClick={true}
-            autoplay={false}
-            pauseOnHover={true}
-          />
-        </div>
-
-        {/* Reply/Reset button as requested */}
-        <button 
-          onClick={() => setKey(prev => prev + 1)}
-          className="absolute -bottom-20 left-1/2 -translate-x-1/2 p-3 bg-white dark:bg-zinc-800 rounded-full shadow-lg border border-border/50 hover:scale-110 active:scale-95 transition-all duration-200 group/btn"
-          aria-label="Reset Animation"
-        >
-          <RefreshCcw className="w-5 h-5 text-primary group-hover/btn:rotate-180 transition-transform duration-500" />
-        </button>
-      </div>
-
-      <p className="mt-32 text-sm text-muted-foreground font-normal opacity-50">
-        Drag or click the top card to cycle
-      </p>
-    </div>
-  );
-}
-~~~
-
-~~~/package.json
-{
-  "name": "@seedance/interactive-card-stack",
-  "description": "Premium interactive card stack with drag physics and autoplay",
-  "dependencies": {
-    "framer-motion": "^11.0.0",
-    "lucide-react": "^0.454.0",
-    "clsx": "^2.1.1",
-    "tailwind-merge": "^2.5.4"
-  }
-}
-~~~
-
-~~~/src/Component.tsx
-/**
- * InteractiveCardStack Component
- * A premium, smooth, and interactive card stack with drag-to-back physics.
- * Supports random rotation, autoplay, and mobile interactions.
- */
-
-import React, { useState, useEffect } from 'react';
-import { motion, useMotionValue, useTransform, AnimatePresence, type PanInfo } from 'framer-motion';
-
-interface CardRotateProps {
-  children: React.ReactNode;
-  onSendToBack: () => void;
-  sensitivity: number;
-  disableDrag?: boolean;
-}
-
-function CardRotate({ children, onSendToBack, sensitivity, disableDrag = false }: CardRotateProps) {
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-  const rotateX = useTransform(y, [-100, 100], [30, -30]);
-  const rotateY = useTransform(x, [-100, 100], [-30, 30]);
-
-  function handleDragEnd(_event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) {
-    if (Math.abs(info.offset.x) > sensitivity || Math.abs(info.offset.y) > sensitivity) {
-      onSendToBack();
-    } else {
-      x.set(0);
-      y.set(0);
-    }
-  }
-
-  if (disableDrag) {
-    return (
-      <motion.div className="absolute inset-0" style={{ x: 0, y: 0 }}>
-        {children}
-      </motion.div>
-    );
-  }
-
-  return (
-    <motion.div
-      className="absolute inset-0 cursor-grab active:cursor-grabbing"
-      style={{ x, y, rotateX, rotateY }}
-      drag
-      dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
-      dragElastic={0.6}
-      onDragEnd={handleDragEnd}
-    >
-      {children}
-    </motion.div>
-  );
-}
-
-export interface InteractiveCardStackProps {
-  /** Array of card contents */
-  cards?: React.ReactNode[];
-  /** Enable random rotation for each card */
-  randomRotation?: boolean;
-  /** Sensitivity for the drag-to-back action (pixels) */
-  sensitivity?: number;
-  /** Whether clicking a card sends it to the back */
-  sendToBackOnClick?: boolean;
-  /** Spring animation configuration */
-  animationConfig?: { stiffness: number; damping: number };
-  /** Enable automatic cycling of cards */
-  autoplay?: boolean;
-  /** Delay between cycles in milliseconds */
-  autoplayDelay?: number;
-  /** Pause autoplay when hovering */
-  pauseOnHover?: boolean;
-  /** Disable drag on mobile devices and only allow clicks */
-  mobileClickOnly?: boolean;
-  /** Viewport width breakpoint for mobile detection */
-  mobileBreakpoint?: number;
-  /** Custom class for the container */
-  className?: string;
-}
-
-export function InteractiveCardStack({
-  cards = [],
-  randomRotation = false,
-  sensitivity = 180,
-  sendToBackOnClick = false,
-  animationConfig = { stiffness: 260, damping: 20 },
-  autoplay = false,
-  autoplayDelay = 3000,
-  pauseOnHover = true,
-  mobileClickOnly = false,
-  mobileBreakpoint = 768,
-  className = ""
-}: InteractiveCardStackProps) {
-  const [isMobile, setIsMobile] = useState(false);
-  const [isPaused, setIsPaused] = useState(false);
-  
-  // Initialize stack with IDs to track items correctly
-  const [stack, setStack] = useState<{ id: string; content: React.ReactNode; randomRot: number }[]>([]);
-
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < mobileBreakpoint);
-    };
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
-  }, [mobileBreakpoint]);
-
-  useEffect(() => {
-    if (cards.length > 0) {
-      setStack(cards.map((content, index) => ({
-        id: `card-${index}-${Date.now()}`, // Ensure unique IDs even if content is similar
-        content,
-        randomRot: randomRotation ? Math.random() * 10 - 5 : 0
-      })));
-    }
-  }, [cards, randomRotation]);
-
-  const sendToBack = (id: string) => {
-    setStack(prev => {
-      const index = prev.findIndex(card => card.id === id);
-      if (index === -1) return prev;
-      
-      const newStack = [...prev];
-      const [card] = newStack.splice(index, 1);
-      
-      // Update random rotation for the card when it goes to back
-      const updatedCard = {
-        ...card,
-        randomRot: randomRotation ? Math.random() * 10 - 5 : 0
-      };
-      
-      newStack.unshift(updatedCard);
-      return newStack;
-    });
-  };
-
-  useEffect(() => {
-    if (autoplay && stack.length > 1 && !isPaused) {
-      const interval = setInterval(() => {
-        const topCardId = stack[stack.length - 1].id;
-        sendToBack(topCardId);
-      }, autoplayDelay);
-      return () => clearInterval(interval);
-    }
-  }, [autoplay, autoplayDelay, stack, isPaused]);
-
-  const shouldDisableDrag = mobileClickOnly && isMobile;
-  const shouldEnableClick = sendToBackOnClick || shouldDisableDrag;
-
-  if (stack.length === 0) return null;
-
-  return (
-    <div
-      className={`relative w-full h-full ${className}`}
-      style={{ perspective: 1000 }}
-      onMouseEnter={() => pauseOnHover && setIsPaused(true)}
-      onMouseLeave={() => pauseOnHover && setIsPaused(false)}
-    >
-      <AnimatePresence>
-        {stack.map((card, index) => {
-          // index 0 is bottom, stack.length - 1 is top
-          const isTop = index === stack.length - 1;
-          const depth = stack.length - 1 - index;
-          
-          return (
-            <CardRotate
-              key={card.id}
-              onSendToBack={() => sendToBack(card.id)}
-              sensitivity={sensitivity}
-              disableDrag={!isTop || shouldDisableDrag}
-            >
-              <motion.div
-                className="rounded-2xl overflow-hidden w-full h-full bg-card border border-border/50 shadow-sm"
-                onClick={() => isTop && shouldEnableClick && sendToBack(card.id)}
-                style={{
-                  zIndex: index,
-                }}
-                animate={{
-                  rotateZ: depth * -2 + card.randomRot,
-                  scale: 1 - depth * 0.04,
-                  y: depth * -8,
-                  opacity: 1 - depth * 0.15,
-                  transformOrigin: 'center center'
-                }}
-                transition={{
-                  type: 'spring',
-                  stiffness: animationConfig.stiffness,
-                  damping: animationConfig.damping
-                }}
-              >
-                {card.content}
-              </motion.div>
-            </CardRotate>
-          );
-        })}
-      </AnimatePresence>
-    </div>
-  );
-}
-
-export default InteractiveCardStack;
-~~~
-
-Implementation Guidelines
-
-1. Analyze the component structure, styling, animation implementations
-2. Review the component's arguments and state
-3. Think through what is the best place to adopt this component/style into the design we are doing
-4. Then adopt the component/design to our current system
-
-Help me integrate this into my design
-```
-
----
-
-## 56. Red sun
-`Landing Pages` · `General` · 513 copies · [try live](https://superdesign.dev/library/red-sun?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A sophisticated editorial-style design system named 'Red Sun', characterized by a high-contrast 'Coral and Ink' color palette. This style blends 'Instrument Serif' for high-impact typography with 'Manrope' for technical precision. Features include bento-grid layouts, glassmorphism navigation, scroll-triggered animations with subtle rotations, and soft ambient background blurs. Ideal for premium SaaS, creative agencies, AI product design tools, and fintech platforms looking for a balance between warmth and authority.
-
-```text
-{
-  "summary": "The Red Sun system uses a bold coral primary color against a deep ink-blue foundation to create a modern, editorial aesthetic. It relies on large-scale serif typography, generous white space, and smooth, non-linear animations (cubic-bezier) to convey a sense of premium craftsmanship and technological speed.",
-  "style": {
-    "description": "The style is defined by its high-contrast color duo: Coral (#EF4623) and Ink (#2D3B42). Typography follows an editorial hierarchy: 'Instrument Serif' for expressive, large-scale headlines (italicized for emphasis) and 'Manrope' (weights 300-700) for functional UI elements and body copy. UI elements use large corner radii (rounded-3xl to rounded-[3rem]) and subtle depth through 'Soft Peach' (#FDF1EE) background accents and soft blurs.",
-    "prompt": "Apply a 'Coral and Ink' editorial style. Primary color: #EF4623 (Coral); Secondary color: #2D3B42 (Ink); Background Accent: #FDF1EE (Soft Peach). Typography: Use 'Instrument Serif' for headings (sizes 60px to 160px, tracking-tight) and 'Manrope' for body (18px, leading-relaxed). For animations, use a custom cubic-bezier(0.16, 1, 0.3, 1) curve for 'fade-up' effects that include a starting 2-degree rotation. Navigation must be a glassmorphism header (backdrop-blur 12px, white/80 opacity). Buttons should have a 30px corner radius and include a shadow-lg shadow-primary/20. Use ambient background blurs (#EF4623 at 10% opacity) with 100px-120px blur radii to create depth."
-  },
-  "layout_and_structure": {
-    "description": "An asymmetrical, modular structure using a mix of full-width hero sections and bento-grid feature areas. Content is revealed via scroll-triggered transitions.",
-    "prompts": [
-      {
-        "part": "Navigation",
-        "prompt": "Fixed top navigation. Left: Logo mark (square #EF4623 container with 3-degree rotation). Center/Right: Text links in Manrope (text-sm, font-semibold, #2D3B42 80% opacity). Right CTA: Pill-shaped button (#EF4623, white text, uppercase text-xs). On scroll, apply a background: rgba(255, 255, 255, 0.8) with 12px backdrop-blur and a subtle bottom border."
-      },
-      {
-        "part": "Hero Section",
-        "prompt": "Centered layout with high-impact serif typography. Top element: Small pill badge with #FDF1EE background and 'sparkles' icon. Heading: Two-line layout using Instrument Serif at 10rem (mobile 4rem), with the second line italicized and colored #EF4623. Subtext: Max-width 2xl, Manrope text-lg, #2D3B42/70. CTAs: Primary pill button with shadow-2xl; Secondary ghost button with 2px border-ink/10. Background: Large ambient blur circles at top-right and bottom-left."
-      },
-      {
-        "part": "Value Proposition (Bento)",
-        "prompt": "Two-column grid. Left: Text-heavy with large Serif H2 and vertical feature list using 56px rounded-2xl icon containers. Right: A 'UI Simulator' component—a dark-themed browser window (#2D3B42) containing a simplified white interface mockup with abstract skeleton loaders and a 'Code Generated' status bar at the bottom."
-      },
-      {
-        "part": "Features Grid",
-        "prompt": "Three-column bento grid. Cards use 3rem (48px) border radius. Card Style 1 (Large): Spans 2 columns, white background, #2D3B42 border/5, features a large background icon at 5% opacity. Card Style 2 (Dark): Solid #2D3B42 background, white text, #EF4623 accent icons. Card Style 3 (Standard): White background, vertical layout, accent icon shifts color on hover."
-      },
-      {
-        "part": "Call to Action",
-        "prompt": "Full-width section with a 4rem (64px) rounded container in solid #EF4623. Background pattern: subtle white dot grid (opacity 20%, 30px spacing). Heading: Serif text at 8rem. Buttons: High-contrast white background button with #EF4623 text. Include a trust-bar footer with small uppercase tracking-widest text."
-      },
-      {
-        "part": "Footer",
-        "prompt": "Deep Ink (#2D3B42) background. 5-column grid. Column 1: Logo and social icons in circular white/10 borders. Columns 2-4: Product/Resource/Company links with H4 serif headers. Bottom bar: 1px top border (white/5), horizontal list of legal links, copyright text."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Animated UI Simulator",
-      "description": "A floating mockup window representing a software interface.",
-      "prompt": "Create a card with #2D3B42 background and 40px radius. Inside, place a white container with rounded-3xl corners. Top bar: 3 colored 'window' dots and a skeleton address bar. Content: 3 vertical sections—a thin skeleton header, a 2-column grid with one peach and one grey block, and a bottom text block. Footer: A glassmorphism blur bar with a green check-circle icon and two 'code tags' (dark rectangles with mono text)."
-    },
-    {
-      "component": "The 'Rotating Logo' Brand Mark",
-      "description": "A simple but dynamic logo mark.",
-      "prompt": "A 36px square container using #EF4623. Apply a 3-degree rotation by default. Inside, place a single white uppercase letter in Instrument Serif, Bold, Italic. On hover, the container should rotate to 12 degrees with a 300ms transition."
-    }
-  ],
-  "special_notes": "MUST: Use 'Instrument Serif' specifically for emphasis and large headers to maintain the editorial feel. MUST: Use the cubic-bezier(0.16, 1, 0.3, 1) curve for all entry animations. MUST: Use large corner radii (min 24px) for all containers. DO NOT: Use standard blue or green for primary actions; stick strictly to #EF4623. DO NOT: Use sharp 90-degree corners on any primary UI containers."
-}
-```
-
----
-
-## 57. Counter
-`Components` · `General` · 96 copies · [try live](https://superdesign.dev/library/counter?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A premium, high-performance rolling counter component with smooth mechanical-style transitions. Features automatic digit detection, customizable font sizes, and sleek gradient overlays for a professional 'odometer' effect. Built with Framer Motion for precise easing and spring physics.
-
-Source: ReactBits
-
-```text
-You are given a task to integrate an existing React component in the codebase
-
-~~~/README.md
-# RollingCounter
-
-A premium, high-performance rolling counter component with smooth mechanical-style transitions. Features automatic digit detection, customizable font sizes, and sleek gradient overlays for a professional 'odometer' effect.
-
-## Dependencies
-- `framer-motion`: `^11.0.0`
-- `lucide-react`: `latest` (for demo icons)
-
-## Props
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `value` | `number` | - | The numeric value to display. |
-| `fontSize` | `number` | `100` | Font size in pixels. |
-| `padding` | `number` | `0` | Vertical padding inside each digit container. |
-| `places` | `PlaceValue[]` | - | Custom array of place values (e.g., `[100, 10, 1, '.', 0.1]`). |
-| `gap` | `number` | `8` | Gap between digits. |
-| `borderRadius` | `number` | `4` | Border radius of the counter container. |
-| `horizontalPadding` | `number` | `8` | Horizontal padding of the counter container. |
-| `textColor` | `string` | `'inherit'` | Text color. |
-| `fontWeight` | `CSSProperties['fontWeight']` | `'inherit'` | Font weight. |
-| `gradientHeight` | `number` | `16` | Height of the gradient overlay. |
-| `gradientFrom` | `string` | `'hsl(var(--background))'` | Start color of the gradient. |
-
-## Usage
-```tsx
-import { RollingCounter } from '@/sd-components/7d2b2a3f-6411-4777-94ce-a18ef1ceca98';
-
-export default function MyComponent() {
-  return (
-    <RollingCounter 
-      value={5432.1} 
-      fontSize={64}
-      textColor="#1A1A1B"
-      gradientFrom="#F9F9F9"
-    />
-  );
-}
-```
-~~~
-
-~~~/src/App.tsx
-/**
- * Demo for RollingCounter Component
- * 
- * Shows a minimalist showcase of the rolling counter effect.
- * The counter value increments automatically to demonstrate the motion.
- */
-
-import React, { useState, useEffect } from 'react';
-import { RollingCounter } from './Component';
-import { RotateCcw } from 'lucide-react';
-
-export default function App() {
-  const [value, setValue] = useState(1234.5);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setValue(v => parseFloat((v + 1.1).toFixed(1)));
-    }, 2000);
-    return () => clearInterval(timer);
-  }, []);
-
-  const resetValue = () => setValue(1234.5);
-
-  return (
-    <div className="min-h-screen bg-[#F9F9F9] flex flex-col items-center justify-center p-20">
-      {/* Title as per design guidelines */}
-      <h1 className="mb-12 text-sm uppercase tracking-widest text-muted-foreground font-medium">
-        Rolling Counter
-      </h1>
-
-      {/* Main Showcase Container */}
-      <div className="bg-white p-20 rounded-[40px] shadow-[0_40px_80px_rgba(0,0,0,0.05)] flex flex-col items-center gap-12">
-        <RollingCounter 
-          value={value} 
-          fontSize={120}
-          textColor="hsl(var(--foreground))"
-          fontWeight={600}
-          gradientFrom="white"
-          gradientHeight={30}
-          gap={4}
-        />
-
-        {/* Reply/Action Button as per guidelines */}
-        <button 
-          onClick={resetValue}
-          className="flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full hover:opacity-90 transition-opacity font-medium text-sm"
-        >
-          <RotateCcw className="w-4 h-4" />
-          Reset Counter
-        </button>
-      </div>
-
-      {/* Subtitle / Description */}
-      <p className="mt-12 text-muted-foreground text-center max-w-md text-sm leading-relaxed">
-        A precision mechanical-style animation using Framer Motion 
-        with automatic place value detection and smooth transitions.
-      </p>
-    </div>
-  );
-}
-~~~
-
-~~~/package.json
-{
-  "name": "rolling-counter",
-  "description": "A premium mechanical rolling counter component with smooth Framer Motion animations.",
-  "dependencies": {
-    "framer-motion": "^11.0.0",
-    "lucide-react": "latest",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  }
-}
-~~~
-
-~~~/src/Component.tsx
-/**
- * RollingCounter Component
- * 
- * A high-performance, mechanical-style rolling counter using Framer Motion.
- * It features smooth digit transitions, automatic place value detection,
- * and customizable styling including gradient overlays for a polished look.
- */
-
-import { MotionValue, motion, useSpring, useTransform } from 'framer-motion';
-import React, { useEffect } from 'react';
-
-type PlaceValue = number | '.';
-
-interface NumberProps {
-  mv: MotionValue<number>;
-  number: number;
-  height: number;
-}
-
-function Number({ mv, number, height }: NumberProps) {
-  const y = useTransform(mv, latest => {
-    const placeValue = latest % 10;
-    const offset = (10 + number - placeValue) % 10;
-    let memo = offset * height;
-    if (offset > 5) {
-      memo -= 10 * height;
-    }
-    return memo;
-  });
-
-  const baseStyle: React.CSSProperties = {
-    position: 'absolute',
-    inset: 0,
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center'
-  };
-
-  return <motion.span style={{ ...baseStyle, y }}>{number}</motion.span>;
-}
-
-interface DigitProps {
-  place: PlaceValue;
-  value: number;
-  height: number;
-  digitStyle?: React.CSSProperties;
-}
-
-function Digit({ place, value, height, digitStyle }: DigitProps) {
-  // Decimal point digit
-  if (place === '.') {
-    return (
-      <span
-        className="relative inline-flex items-center justify-center"
-        style={{ height, width: 'fit-content', ...digitStyle }}
-      >
-        .
-      </span>
-    );
-  }
-
-  // Numeric digit
-  const valueRoundedToPlace = Math.floor(value / place);
-  const animatedValue = useSpring(valueRoundedToPlace, {
-    damping: 20,
-    stiffness: 100,
-    mass: 1
-  });
-
-  useEffect(() => {
-    animatedValue.set(valueRoundedToPlace);
-  }, [animatedValue, valueRoundedToPlace]);
-
-  const defaultStyle: React.CSSProperties = {
-    height,
-    position: 'relative',
-    width: '1ch',
-    fontVariantNumeric: 'tabular-nums'
-  };
-
-  return (
-    <span className="relative inline-flex overflow-hidden" style={{ ...defaultStyle, ...digitStyle }}>
-      {Array.from({ length: 10 }, (_, i) => (
-        <Number key={i} mv={animatedValue} number={i} height={height} />
-      ))}
-    </span>
-  );
-}
-
-export interface RollingCounterProps {
-  /** The numeric value to display */
-  value: number;
-  /** Font size in pixels (default: 100) */
-  fontSize?: number;
-  /** Vertical padding inside each digit container (default: 0) */
-  padding?: number;
-  /** 
-   * Custom array of place values (e.g., [100, 10, 1, '.', 0.1]). 
-   * If omitted, it's automatically detected from value.
-   */
-  places?: PlaceValue[];
-  /** Gap between digits (default: 8) */
-  gap?: number;
-  /** Border radius of the counter container (default: 4) */
-  borderRadius?: number;
-  /** Horizontal padding of the counter container (default: 8) */
-  horizontalPadding?: number;
-  /** Text color (default: 'inherit') */
-  textColor?: string;
-  /** Font weight (default: 'inherit') */
-  fontWeight?: React.CSSProperties['fontWeight'];
-  /** Style object for the outer container */
-  containerStyle?: React.CSSProperties;
-  /** Style object for the inner counter wrapper */
-  counterStyle?: React.CSSProperties;
-  /** Style object for each individual digit span */
-  digitStyle?: React.CSSProperties;
-  /** Height of the gradient overlay (default: 16) */
-  gradientHeight?: number;
-  /** Start color of the gradient (default: 'black') */
-  gradientFrom?: string;
-  /** End color of the gradient (default: 'transparent') */
-  gradientTo?: string;
-  /** Custom style for the top gradient */
-  topGradientStyle?: React.CSSProperties;
-  /** Custom style for the bottom gradient */
-  bottomGradientStyle?: React.CSSProperties;
-}
-
-/**
- * A reusable rolling counter component with smooth mechanical motion.
- */
-export function RollingCounter({
-  value,
-  fontSize = 100,
-  padding = 0,
-  places,
-  gap = 8,
-  borderRadius = 4,
-  horizontalPadding = 8,
-  textColor = 'inherit',
-  fontWeight = 'inherit',
-  containerStyle,
-  counterStyle,
-  digitStyle,
-  gradientHeight = 16,
-  gradientFrom = 'hsl(var(--background))',
-  gradientTo = 'transparent',
-  topGradientStyle,
-  bottomGradientStyle
-}: RollingCounterProps) {
-  const height = fontSize + padding;
-
-  // Automatic place detection if none provided
-  const derivedPlaces = places || [...value.toString()].map((ch, i, a) => {
-    if (ch === '.') return '.';
-    const dotIndex = a.indexOf('.');
-    const isInteger = dotIndex === -1;
-    const exponent = isInteger ? a.length - i - 1 : i < dotIndex ? dotIndex - i - 1 : -(i - dotIndex);
-    return 10 ** exponent;
-  });
-
-  const defaultContainerStyle: React.CSSProperties = {
-    position: 'relative',
-    display: 'inline-block'
-  };
-
-  const defaultCounterStyle: React.CSSProperties = {
-    fontSize,
-    display: 'flex',
-    gap,
-    overflow: 'hidden',
-    borderRadius,
-    paddingLeft: horizontalPadding,
-    paddingRight: horizontalPadding,
-    lineHeight: 1,
-    color: textColor,
-    fontWeight
-  };
-
-  const gradientContainerStyle: React.CSSProperties = {
-    pointerEvents: 'none',
-    position: 'absolute',
-    inset: 0,
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-between'
-  };
-
-  const defaultTopGradientStyle: React.CSSProperties = {
-    height: gradientHeight,
-    background: `linear-gradient(to bottom, ${gradientFrom}, ${gradientTo})`,
-    zIndex: 10
-  };
-
-  const defaultBottomGradientStyle: React.CSSProperties = {
-    height: gradientHeight,
-    background: `linear-gradient(to top, ${gradientFrom}, ${gradientTo})`,
-    zIndex: 10
-  };
-
-  return (
-    <span style={{ ...defaultContainerStyle, ...containerStyle }}>
-      <span style={{ ...defaultCounterStyle, ...counterStyle }}>
-        {derivedPlaces.map((place, idx) => (
-          <Digit 
-            key={`${place}-${idx}`} 
-            place={place} 
-            value={value} 
-            height={height} 
-            digitStyle={digitStyle} 
-          />
-        ))}
-      </span>
-      <span style={gradientContainerStyle}>
-        <span style={topGradientStyle ?? defaultTopGradientStyle} />
-        <span style={bottomGradientStyle ?? defaultBottomGradientStyle} />
-      </span>
-    </span>
-  );
-}
-
-export default RollingCounter;
-~~~
-
-Implementation Guidelines
-
-1. Analyze the component structure, styling, animation implementations
-2. Review the component's arguments and state
-3. Think through what is the best place to adopt this component/style into the design we are doing
-4. Then adopt the component/design to our current system
-
-Help me integrate this into my design
-```
-
----
-
-## 58. Coverflow — Carousels that turn heads (dark coverflow aurora)
+## 42. Coverflow — Carousels that turn heads (dark coverflow aurora)
 `Mobile Apps` · `AI & Tech` · 48 copies · [try live](https://superdesign.dev/library/coverflow-carousels-that-turn-heads-dark-coverflow-aurora?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark, aurora-lit 3D coverflow carousel landing page: a sticky frosted-ink nav, then a centered hero (a 'depth-aware coverflow engine' status pill, a big 'Carousels that turn heads, not stomachs.' heading whose 'turn heads' is teal-to-magenta gradient text, and a soft lead) wrapping a real CSS 3D coverflow stage. Seven gradient cards sit on a 1600px perspective stage: the active card faces front with a teal glow ring while neighbours rotate ~42-48deg and recede in Z, scaling and fading by distance, each card carrying a top-left sheen and a bottom gradient label. Below the stage, a round glass prev button, pill dots (active = a wide teal-to-magenta gradient bar), and a next button; clicks, dots, arrows and the left/right keys re-lay the stage. Then a CTA pair, a grayscale logo strip, a 3-up glass feature grid, a 'from prompt to motion' showcase split with a faux terminal card, a gradient-thumb templates grid, a dark gradient CTA, and a social footer. Inter + Space Grotesk fonts, near-black ink #0b0f14 ground, aqua #2dd4bf + magenta #e879f9 accents, glass panels and aurora blobs, Iconify Phosphor icons; responsive geometry drops far cards on small screens and collapses the nav into a hamburger.
@@ -9829,79 +6269,7 @@ A dark, aurora-lit 3D coverflow carousel landing page: a sticky frosted-ink nav,
 
 ---
 
-## 59. Tech Editorial
-`Landing Pages` · `General` · 510 copies · [try live](https://superdesign.dev/library/tech-editorial?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A high-end 'Tech Editorial' aesthetic that merges brutalist precision with classic editorial sophistication. It features a muted, paper-like color palette (#f7f6f2), a structured grid-line system, and a unique pairing of high-contrast Serif (Playfair Display) for display headers and technical Mono (Space Mono) for functional UI. The style is characterized by scroll-triggered text reveals, glassmorphism navigation, and 'scan-line' animations that suggest a sophisticated AI-driven process. Ideal for high-tech SaaS, AI research labs, design agencies, and premium fintech platforms.
-
-```text
-{
-  "summary": "A sophisticated editorial-style UI featuring a fixed background grid, high-contrast serif typography, and technical monospace accents with a muted forest green primary color.",
-  "style": {
-    "description": "The design uses a trio of typefaces: Playfair Display (Serif) for headers and emotional impact, Space Grotesk (Sans) for readability, and Space Mono (Mono) for all technical data, labels, and buttons. The color palette is organic and muted: Background (#f7f6f2), Foreground (#1c1c1c), and Primary Accent (#3d7068). Layouts are governed by a strict 4-column vertical guide system and 1px borders. Transitions use a custom 'editorial' cubic-bezier(0.16, 1, 0.3, 1) for a smooth, high-fashion feel.",
-    "prompt": "Apply an editorial tech aesthetic using background #f7f6f2 and foreground #1c1c1c. Typography: Headings in 'Playfair Display' (light weight, tight tracking), UI labels and buttons in 'Space Mono' (uppercase, tracking 0.2em-0.3em), and body text in 'Space Grotesk'. Use #3d7068 as the primary accent color for buttons and highlights. Implement 1px borders using #e5e4de. All animations must use cubic-bezier(0.16, 1, 0.3, 1) with a 700ms-1000ms duration. Include a fixed background grid of 40px squares with a radial mask that fades toward the edges."
-  },
-  "layout_and_structure": {
-    "description": "The layout is built on a max-width 7xl container with visible structural vertical dividers. Sections are clearly demarcated by 1px horizontal borders. The navigation is a floating-to-fixed transition element with backdrop blur.",
-    "prompts": [
-      {
-        "part": "Structural Grid",
-        "prompt": "Create a fixed background layer with vertical lines at 25%, 50%, and 75% width using 1px #e5e4de. Overlay a 40px square grid pattern with a radial transparency mask (40% center opacity, 0% edge opacity)."
-      },
-      {
-        "part": "Header Navigation",
-        "prompt": "A fixed top nav starting with 32px padding-top. On scroll, it transitions to a border-bottom fixed bar with #f7f6f2/80 backdrop-blur. The brand logo is a serif 'ACME' in 20px font-size, flanked by two horizontal bars of varying widths (24px and 32px). Links are 10px uppercase Space Mono with 0.3em tracking."
-      },
-      {
-        "part": "Hero Section",
-        "prompt": "Center-aligned hero with a pulse-dot badge. The H1 should be massive (9vw), serif, light weight, and uppercase. Use an italicized secondary color (#B4B4B4) for key words. Primary CTA button should be #3d7068 with a 'Space Mono' label that increases character tracking from 0.2em to 0.4em on hover."
-      },
-      {
-        "part": "Statistics Grid",
-        "prompt": "A 3-column grid with 1px #e5e4de dividers. Each cell has 40px padding, a 48px bordered icon box, a large serif number (4xl), and an uppercase mono label. Cells transition to a white background on hover."
-      },
-      {
-        "part": "Text Reveal Section",
-        "prompt": "A scroll-interactive section where each word of a large serif paragraph (3xl to 6xl) increases opacity from 0.15 to 1.0 as the user scrolls, creating a 'reading' effect."
-      },
-      {
-        "part": "Interactive Workflow",
-        "prompt": "Two-column layout. Left side: Vertical steps (01, 02, 03) in mono. Clicking a step expands a description and reduces the opacity of inactive steps to 0.4. Right side: A sticky card with a grayscale image (60% opacity, multiply blend mode) and a 'scan-line' progress bar using #3b82f6."
-      },
-      {
-        "part": "Use Case Tabs",
-        "prompt": "A centered tab switcher with pill-shaped buttons. Content below is a large bordered card (#f7f6f2) featuring a massive 240px ghost icon (5% opacity) in the background and a 3-column benefit grid at the bottom."
-      },
-      {
-        "part": "Contact Form",
-        "prompt": "Two-column grid. Left side: Large serif heading 'Request Access'. Right side: Form with inputs that are only bottom-bordered (#e5e4de). Placeholder text in 10px mono. Submit button is full-width with 0.4em letter-spacing and a #3d7068 shadow-drop."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Scan-Line Progress Bar",
-      "description": "A technical loading indicator used for status updates.",
-      "prompt": "Create a 2px height container with #e5e4de background. Inside, a #3b82f6 line that animates from -100% to 100% width/position using a 2s infinite cubic-bezier(0.8, 0, 0.2, 1) 'slide' animation."
-    },
-    {
-      "component": "Animated CTA Button",
-      "description": "High-intent button with character-spacing and background-fill transitions.",
-      "prompt": "Button with #3d7068 background, #ffffff text, 'Space Mono' font, 10px size, 0.25em tracking. On hover: tracking increases to 0.4em and a white/20% overlay slides up from the bottom (translate-y-full to 0)."
-    },
-    {
-      "component": "Editorial Word Reveal",
-      "description": "Scroll-synced typography effect.",
-      "prompt": "Split text into individual <span> elements. Set default opacity to 0.15. Using JS IntersectionObserver or scroll listener, map the scroll progress of the container to the index of the spans, setting opacity to 1.0 as they 'activate'."
-    }
-  ],
-  "special_notes": "MUST: Maintain the #f7f6f2 background to avoid a 'clinical' white look. MUST: Use 1px borders instead of shadows for section separation. MUST: Ensure 'Space Mono' is used for all metadata and numeric data. MUST NOT: Use rounded corners larger than 2px. MUST NOT: Use vibrant gradients; stick to solid fills and simple opacity transitions."
-}
-```
-
----
-
-## 60. Aurora Glass — Sign in to the canvas
+## 43. Aurora Glass — Sign in to the canvas
 `Auth & Login` · `SaaS` · 6 copies · [try live](https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Dark aurora-glass split sign-in screen: frosted glassmorphic auth card with a glowing aqua focus ring and an aqua-to-magenta gradient CTA, floating over neon aurora blobs on near-black ink, beside a product pitch column. Space Grotesk + Inter.
@@ -9959,323 +6327,7 @@ Dark aurora-glass split sign-in screen: frosted glassmorphic auth card with a gl
 
 ---
 
-## 61. Cart Drawer- Essential Slide in
-`E-commerce` · `E-commerce & Retail` · 7 copies · [try live](https://superdesign.dev/library/cart-drawer-essential-slide-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A narrow slide-in drawer from the right that lists cart items vertically with quantity controls, subtotal, and a single primary Checkout CTA at the bottom. No secondary content, no distractions.
-
-Best suited for
-Fast-purchase flows, single-product stores, brands optimizing for minimal friction and quick checkout.
-
-```text
-Minimal wireframe cart drawer that slides in from the right side. Show a clean layout with:
-
-- Header with "Cart" title and close button
-- List of cart items with placeholder boxes for image, item title, quantity controls (-, qty, +), and price
-- Subtotal section at bottom
-- Primary checkout button\
-  Use simple gray boxes and borders, no styling or colors. Focus on structure and clear spacing.
-
-Here is a reference implementation:
-
-~~~html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wireframe Cart Drawer</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'General Sans', sans-serif;
-        }
-        /* Custom scrollbar for wireframe aesthetic */
-        .wireframe-scroll::-webkit-scrollbar {
-            width: 6px;
-        }
-        .wireframe-scroll::-webkit-scrollbar-track {
-            background: transparent;
-        }
-        .wireframe-scroll::-webkit-scrollbar-thumb {
-            background-color: #e5e7eb;
-            border-radius: 20px;
-        }
-    </style>
-</head>
-<body>
-    <!-- Main Container representing the viewport -->
-    <div class="relative min-h-screen w-full bg-white overflow-hidden flex items-center justify-center">
-        
-        <!-- BACKGROUND CONTENT (Blurred/Dimmed to simulate underlying page) -->
-        <div class="absolute inset-0 w-full h-full p-8 grid grid-cols-12 gap-8 opacity-20 pointer-events-none">
-            <!-- Header Wireframe -->
-            <div class="col-span-12 h-16 border-b-2 border-gray-200 flex justify-between items-center mb-8">
-                <div class="w-32 h-8 bg-gray-200"></div>
-                <div class="flex gap-4">
-                    <div class="w-20 h-4 bg-gray-200"></div>
-                    <div class="w-20 h-4 bg-gray-200"></div>
-                    <div class="w-20 h-4 bg-gray-200"></div>
-                </div>
-            </div>
-            
-            <!-- Content Grid Wireframe -->
-            <div class="col-span-12 lg:col-span-8 grid grid-cols-2 gap-8">
-                <div class="aspect-[3/4] bg-gray-100 border-2 border-gray-200"></div>
-                <div class="aspect-[3/4] bg-gray-100 border-2 border-gray-200"></div>
-                <div class="aspect-[3/4] bg-gray-100 border-2 border-gray-200"></div>
-                <div class="aspect-[3/4] bg-gray-100 border-2 border-gray-200"></div>
-            </div>
-            <div class="col-span-12 lg:col-span-4 space-y-4">
-                <div class="h-64 w-full bg-gray-100 border-2 border-gray-200"></div>
-                <div class="h-32 w-full bg-gray-100 border-2 border-gray-200"></div>
-            </div>
-        </div>
-
-        <!-- OVERLAY BACKDROP -->
-        <div class="absolute inset-0 bg-gray-900/10 backdrop-blur-[2px] z-10 transition-opacity"></div>
-
-        <!-- CART DRAWER -->
-        <!-- Placed to the right, sliding in visual -->
-        <div class="absolute right-0 top-0 bottom-0 w-full max-w-[480px] bg-white z-20 shadow-2xl flex flex-col border-l border-gray-200 transform transition-transform duration-300 ease-out">
-            
-            <!-- DRAWER HEADER -->
-            <div class="px-8 py-6 border-b border-gray-100 flex items-center justify-between bg-white shrink-0">
-                <div class="flex items-center gap-3">
-                    <h2 class="text-2xl font-medium text-gray-900">Your Cart</h2>
-                    <span class="px-2.5 py-0.5 rounded-full bg-gray-100 text-sm font-medium text-gray-600">3</span>
-                </div>
-                <button id="close-cart-btn" class="p-2 -mr-2 text-gray-400 hover:text-gray-900 transition-colors group">
-                    <iconify-icon icon="lucide:x" class="text-2xl group-hover:rotate-90 transition-transform duration-200"></iconify-icon>
-                </button>
-            </div>
-
-            <!-- DRAWER CONTENT (Scrollable) -->
-            <div class="flex-1 overflow-y-auto wireframe-scroll p-8">
-                <div class="space-y-8">
-                    
-                    <!-- ITEM 1 -->
-                    <div class="group flex gap-6">
-                        <!-- Image Placeholder -->
-                        <div class="w-24 h-32 bg-gray-100 border border-gray-200 flex items-center justify-center shrink-0">
-                            <iconify-icon icon="lucide:image" class="text-gray-300 text-2xl"></iconify-icon>
-                        </div>
-                        
-                        <!-- Item Details -->
-                        <div class="flex-1 flex flex-col justify-between py-1">
-                            <div class="space-y-1">
-                                <div class="flex justify-between items-start">
-                                    <h3 class="font-medium text-gray-900">Minimalist Chronograph</h3>
-                                    <p class="font-medium text-gray-900">$240.00</p>
-                                </div>
-                                <p class="text-sm text-gray-500">Matte Black / Leather</p>
-                            </div>
-
-                            <div class="flex justify-between items-end">
-                                <!-- Qty Control -->
-                                <div class="flex items-center border border-gray-200 rounded-sm">
-                                    <button class="px-3 py-1 hover:bg-gray-50 text-gray-500 transition-colors">
-                                        <iconify-icon icon="lucide:minus" class="text-xs"></iconify-icon>
-                                    </button>
-                                    <span class="px-2 text-sm font-medium text-gray-900 w-8 text-center">1</span>
-                                    <button class="px-3 py-1 hover:bg-gray-50 text-gray-500 transition-colors">
-                                        <iconify-icon icon="lucide:plus" class="text-xs"></iconify-icon>
-                                    </button>
-                                </div>
-                                
-                                <button class="text-sm text-gray-400 hover:text-red-500 underline decoration-gray-300 hover:decoration-red-200 underline-offset-4 transition-colors">
-                                    Remove
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ITEM 2 -->
-                    <div class="group flex gap-6">
-                        <div class="w-24 h-32 bg-gray-100 border border-gray-200 flex items-center justify-center shrink-0">
-                            <iconify-icon icon="lucide:image" class="text-gray-300 text-2xl"></iconify-icon>
-                        </div>
-                        
-                        <div class="flex-1 flex flex-col justify-between py-1">
-                            <div class="space-y-1">
-                                <div class="flex justify-between items-start">
-                                    <h3 class="font-medium text-gray-900">Canvas Daypack</h3>
-                                    <p class="font-medium text-gray-900">$125.00</p>
-                                </div>
-                                <p class="text-sm text-gray-500">Olive Drab / One Size</p>
-                            </div>
-
-                            <div class="flex justify-between items-end">
-                                <div class="flex items-center border border-gray-200 rounded-sm">
-                                    <button class="px-3 py-1 hover:bg-gray-50 text-gray-500 transition-colors">
-                                        <iconify-icon icon="lucide:minus" class="text-xs"></iconify-icon>
-                                    </button>
-                                    <span class="px-2 text-sm font-medium text-gray-900 w-8 text-center">2</span>
-                                    <button class="px-3 py-1 hover:bg-gray-50 text-gray-500 transition-colors">
-                                        <iconify-icon icon="lucide:plus" class="text-xs"></iconify-icon>
-                                    </button>
-                                </div>
-                                
-                                <button class="text-sm text-gray-400 hover:text-red-500 underline decoration-gray-300 hover:decoration-red-200 underline-offset-4 transition-colors">
-                                    Remove
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ITEM 3 -->
-                    <div class="group flex gap-6">
-                        <div class="w-24 h-32 bg-gray-100 border border-gray-200 flex items-center justify-center shrink-0">
-                            <iconify-icon icon="lucide:image" class="text-gray-300 text-2xl"></iconify-icon>
-                        </div>
-                        
-                        <div class="flex-1 flex flex-col justify-between py-1">
-                            <div class="space-y-1">
-                                <div class="flex justify-between items-start">
-                                    <h3 class="font-medium text-gray-900">Analog Notebook Set</h3>
-                                    <p class="font-medium text-gray-900">$36.00</p>
-                                </div>
-                                <p class="text-sm text-gray-500">Dot Grid / 3-Pack</p>
-                            </div>
-
-                            <div class="flex justify-between items-end">
-                                <div class="flex items-center border border-gray-200 rounded-sm">
-                                    <button class="px-3 py-1 hover:bg-gray-50 text-gray-500 transition-colors">
-                                        <iconify-icon icon="lucide:minus" class="text-xs"></iconify-icon>
-                                    </button>
-                                    <span class="px-2 text-sm font-medium text-gray-900 w-8 text-center">1</span>
-                                    <button class="px-3 py-1 hover:bg-gray-50 text-gray-500 transition-colors">
-                                        <iconify-icon icon="lucide:plus" class="text-xs"></iconify-icon>
-                                    </button>
-                                </div>
-                                
-                                <button class="text-sm text-gray-400 hover:text-red-500 underline decoration-gray-300 hover:decoration-red-200 underline-offset-4 transition-colors">
-                                    Remove
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- DRAWER FOOTER -->
-            <div class="border-t border-gray-100 p-8 bg-gray-50/50 space-y-6 shrink-0">
-                
-                <!-- Subtotals -->
-                <div class="space-y-3">
-                    <div class="flex justify-between text-gray-600">
-                        <span>Subtotal</span>
-                        <span class="font-medium text-gray-900">$401.00</span>
-                    </div>
-                    <div class="flex justify-between text-gray-600">
-                        <span>Shipping estimate</span>
-                        <span class="text-sm text-gray-400">Calculated at checkout</span>
-                    </div>
-                    <div class="flex justify-between text-gray-600">
-                        <span>Taxes</span>
-                        <span class="text-sm text-gray-400">Calculated at checkout</span>
-                    </div>
-                </div>
-
-                <!-- Divider -->
-                <div class="h-px bg-gray-200 w-full"></div>
-
-                <!-- Total -->
-                <div class="flex justify-between items-center">
-                    <span class="text-lg font-medium text-gray-900">Estimated Total</span>
-                    <span class="text-xl font-semibold text-gray-900">$401.00</span>
-                </div>
-
-                <!-- Actions -->
-                <div class="space-y-3">
-                    <button id="checkout-btn" class="w-full bg-gray-900 text-white h-12 flex items-center justify-center font-medium hover:bg-gray-800 transition-colors">
-                        Proceed to Checkout
-                    </button>
-                    <button id="continue-shopping-btn" class="w-full bg-white border border-gray-200 text-gray-600 h-12 flex items-center justify-center font-medium hover:bg-gray-50 hover:border-gray-300 transition-all">
-                        Continue Shopping
-                    </button>
-                </div>
-
-                <!-- Trust/Microcopy -->
-                <div class="text-center">
-                    <p class="text-xs text-gray-400 flex items-center justify-center gap-2">
-                        <iconify-icon icon="lucide:lock" class="text-xs"></iconify-icon>
-                        Secure encrypted checkout
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</body>
-</html>
-~~~
-```
-
----
-
-## 62. Focus Mode Detail
-`Mobile Apps` · `General` · 6 copies · [try live](https://superdesign.dev/library/focus-mode-detail?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Features include a reading progress indicator, drop-cap styling, and a grayscale image aesthetic. This design is ideal for long-form journalism, philosophical blogs, high-end lifestyle magazines, or premium SaaS documentation systems that prioritize content clarity over interface chrome.
-
-```text
-{
-  "summary": "A high-end, editorial-style mobile reading view that eliminates UI distraction. It uses a sophisticated pairing of serif and sans-serif typography, a monochromatic color scheme, and generous white space to create a 'Focus Mode' experience.",
-  "style": {
-    "description": "The style is 'Editorial Minimalism' or 'Digital Paper.' It pairs the elegant serif 'Boska' for headings with the functional sans-serif 'Satoshi' for body text. The color palette is strictly limited to Paper (#FFFFFF), Ink (#1A1A1A), and subtle grays. Images are treated with grayscale and low contrast to maintain visual harmony. Animations are slow, purposeful fade-ups (cubic-bezier) that emphasize a calm atmosphere.",
-    "prompt": "### Visual Style Guide\n\n**Colors:**\n- Primary Background (Paper): `#FFFFFF`\n- Primary Text (Ink): `#1A1A1A`\n- Secondary Text/Metadata: `#888888`\n- Borders/Dividers: `#E5E5E5`\n\n**Typography:**\n- **Headings (Serif):** 'Boska', serif. Title size: `2.75rem` (44px), `leading-tight` (1.1). Subheadings: `1.5rem` (24px), often italicized.\n- **Body Text (Sans):** 'Satoshi', sans-serif. Size: `1.125rem` (18px), `leading-relaxed`. High legibility.\n- **Metadata/Labels:** 'Satoshi' Bold, uppercase, tracking `0.1em`, size `0.625rem` (10px).\n\n**Imagery & Effects:**\n- **Grayscale Treatment:** All images should have `grayscale(20%)` and `contrast(95%)` for an archival feel.\n- **Borders:** Thin `1px` solid lines for dividers.\n- **Shadows:** None. Use whitespace and borders for depth.\n\n**Animations:**\n- **Fade-Up Entry:** `opacity: 0` to `1`, `translateY(10px)` to `0`. Duration: `0.8s`. Curve: `cubic-bezier(0.16, 1, 0.3, 1)`.\n- **Image Hover:** Subtle scale transition (`scale(1.05)`) over `2s` for a slow, cinematic zoom effect."
-  },
-  "layout_and_structure": {
-    "description": "A vertical, single-column mobile layout focusing on a 90% content width. The UI uses a fixed header with backdrop-blur and a scroll-triggered reading progress bar.",
-    "prompts": [
-      {
-        "part": "Reading Progress Indicator",
-        "prompt": "Position a 2px high horizontal bar at the very top of the screen (`z-index: 50`). Background: transparent. Foreground (the bar): `#1A1A1A`. Width should dynamically update based on scroll percentage."
-      },
-      {
-        "part": "Minimalist Header",
-        "prompt": "Fixed header with `backdrop-blur-sm` and `bg-white/95`. Height: approximately `80px` including safe area padding. Left: 40px circular back button with `lucide:arrow-left`. Center: Small uppercase tracking-wide text for category/context. Right: Two action icons (Share, Typography settings) using `lucide` icons at `20px` size."
-      },
-      {
-        "part": "Article Intro Section",
-        "prompt": "Top padding of `16px`. Main Title: `2.75rem` serif font. Below title: A metadata bar bounded by top and bottom `#E5E5E5` borders. Bar height: `56px`. Include a circular author avatar (`32px`, grayscale), author name in uppercase bold, and date/read-time in `10px` gray text. Include a bookmark icon at the far right."
-      },
-      {
-        "part": "Featured Media",
-        "prompt": "Aspect ratio `3:2`. Full width container with `24px` horizontal margins. Subtitle below image: Right-aligned, `10px`, uppercase, tracking-widest, labeled 'Fig 1.0 — [Title]'."
-      },
-      {
-        "part": "Content Body",
-        "prompt": "Maximum width container with `24px` side margins. Implement a 'Drop Cap' for the first paragraph: first letter should be `6rem`, serif, light weight, floated left with a negative top margin of `-6px`. Blockquotes: `border-l-2 border-ink`, `pl-6`, using `20px` serif text and a capitalized bold footer for the source. Paragraph spacing: `mb-6`."
-      },
-      {
-        "part": "Related Content Section",
-        "prompt": "Header: 'Continue reading' in `italic` serif. List items: `96px x 96px` square grayscale thumbnails on the left, Title in `20px` serif on the right with an underline hover effect. Category and duration labels in `10px` uppercase text below the title."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Typographic Drop Cap",
-      "description": "A stylized initial letter that sets the editorial tone.",
-      "prompt": "Select the first letter of the article. Style: `font-family: Boska`, `font-size: 60px`, `font-weight: 300`, `float: left`, `margin-right: 12px`, `margin-top: -6px`, `line-height: 1`. Ensure it aligns vertically with the first 3 lines of text."
-    },
-    {
-      "component": "Meta-Divider Row",
-      "description": "A high-contrast informational bar separating header from body.",
-      "prompt": "Create a horizontal container with `border-top: 1px solid #E5E5E5` and `border-bottom: 1px solid #E5E5E5`. Vertical padding: `16px`. Use flexbox to space-between an author profile group (left) and a secondary action (right). Use `10px` bold uppercase tracking for all text elements inside."
-    }
-  ]
-}
-```
-
----
-
-## 63. Graphic Comparison Report
+## 44. Graphic Comparison Report
 `Landing Pages` · `SaaS` · 17 copies · [try live](https://superdesign.dev/library/graphic-comparison-report?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A highly visual, typography-driven comparison report design. This style eschews traditional tables and icons for a bold, editorial layout inspired by graphic posters. Featuring a brutalist-lite aesthetic with high-contrast 'ink' and 'paper' tones, it utilizes oversized headlines, a strict 12-column grid, and structural 2px borders. Suitable for technical comparisons, whitepapers, B2B SaaS decision pages, fintech analysis, and deep-dive product evaluations where clarity and authority are paramount.
@@ -10341,7 +6393,7 @@ A highly visual, typography-driven comparison report design. This style eschews 
 
 ---
 
-## 64. Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)
+## 45. Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)
 `Pricing Pages` · `Dev Tools` · 3 copies · [try live](https://superdesign.dev/library/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A Swiss-grid SaaS marketing homepage: stark white paper, near-black ink, one signal-red accent, an oversized two-line hero, an embedded prompt-to-canvas product mock, a hover-invert feature grid, a dark variant-tile workflow split, a 3-tier pricing block with an inverted Pro card, and a hairline-celled mega footer.
@@ -10352,7 +6404,7 @@ A Swiss-grid SaaS marketing homepage: stark white paper, near-black ink, one sig
 
 ---
 
-## 65. Landing Page / Local Small Business
+## 46. Landing Page / Local Small Business
 `Landing Pages` · `General` · 5 copies · [try live](https://superdesign.dev/library/landing-page-local-small-business?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Best practice high conversion page for local small business like Service, Restaurant, etc.
@@ -10530,18 +6582,7 @@ Generate the landing page now.
 
 ---
 
-## 66. ATELIER — Mono Uppercase Fashion (legibility-fixed)
-`E-commerce` · `Fashion & Beauty` · 0 copies · [try live](https://superdesign.dev/library/atelier-mono-uppercase-fashion-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A stark monochrome high-fashion editorial navbar (Toteme-style): a sticky frosted-white bar that packs three zones at once: uppercase wide-tracked text links pinned left (New / Library / Studio / About), an absolutely-centered Archivo Expanded 'ATELIER' wordmark in the dead center, and a right cluster of two more uppercase links (Search, Account) plus a Phosphor handbag icon with a '(0)' bag count. Pure black ink (#0a0a0a) on white (#ffffff) over a single hairline border, with a 1px underline that wipes in under each link on a long couture ease. Below lg the left links collapse into a hamburger drawer while the wordmark stays centered, and the legibility fix keeps the wordmark's 0.34em letter-spacing at every breakpoint.
-
-```text
-{"summary": "A full-bleed monochrome high-fashion editorial navbar: a sticky frosted-white header that holds three zones at once: a row of uppercase, wide-letter-spaced text links pinned left (New / Library / Studio / About), an absolutely-centered serif-free 'Archivo Expanded' wordmark 'ATELIER' in the dead center, and a right utility cluster of two more uppercase links (Search, Account) plus a Phosphor handbag icon with a '(0)' bag count. Everything is pure black ink (#0a0a0a) on pure white paper (#ffffff) over a single hairline bottom border, with a hover underline that wipes in under each link. The bar sits over a full luxury-retail landing page (a giant 'DESIGN, CUT TO MEASURE.' display hero, a monochrome 4-plate process strip, a slash marquee, an editorial product grid, a dark split studio section, a centered manifesto, a dark CTA, and a footer) so the sticky header has real content to scroll over. Built on Archivo + Archivo Expanded with Iconify Phosphor icons; below the lg breakpoint the left links collapse into a single hamburger drawer while the wordmark stays centered, and the legibility fix is that the wordmark keeps its luxe 0.34em tracking at every breakpoint (verified to still fit at 390px).", "style": {"description": "A stark, editorial, high-fashion monochrome aesthetic, the kind of pared-back luxury-retail look used by houses like Toteme: a strictly two-color palette of pure black ink (#0a0a0a) on pure white paper (#ffffff), no greys except as low-opacity tints of the ink/paper (text drops to ink/70, ink/65, ink/60, paper/75, paper/55, paper/50, paper/45, paper/40 for hierarchy). The signature is typography, not color: an Archivo Expanded display face used UPPERCASE for the wordmark, headlines and section labels with tight negative tracking on the big type, contrasted with very wide positive letter-spacing on the small uppercase chrome (custom tracking utilities 0.34em / 0.22em / 0.14em). Everything is hairline and flat: a single 1px border at rgba(10,10,10,0.12) ('hairline') separates sections, there are no rounded corners, no drop shadows, no gradients, no fills except solid black plates that invert to white text. Motion is restrained and couture: nav links and CTAs get a 1px underline that wipes in left-to-right on a long cubic-bezier(.16,1,.3,1) ease, content reveals fade-and-rise on scroll, and a slash-separated marquee scrolls horizontally. The feel is gallery-clean, confident, and expensive: lots of whitespace, oversized display type, monochrome image plates, and zero decoration that does not earn its place.", "prompt": "Use a strict monochrome editorial-fashion design system on the Tailwind CDN with exactly two custom colors: `ink` #0a0a0a and `paper` #ffffff. Body is `background:#ffffff; color:#0a0a0a` with `-webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; scroll-behavior: smooth`. NEVER use literal grey hexes for hierarchy: instead tint with opacity (text-ink/70, /65, /60; on dark sections text-paper/75, /55, /50, /45, /40). Fonts via Google Fonts: `Archivo` (weights 300/400/500/600) set as `font-sans` and the body default, and `Archivo Expanded` (weights 400/500/600) set as `font-wide` for the wordmark, all headlines, and section labels. Define three letter-spacing utilities: `.tracking-mono { letter-spacing: 0.34em }`, `.tracking-wide-2 { letter-spacing: 0.22em }`, `.tracking-wide-1 { letter-spacing: 0.14em }`. Set everything in the chrome and headlines UPPERCASE. Use a single hairline border token `.hairline { border-color: rgba(10,10,10,0.12) }` for ALL dividers; there are NO rounded corners, NO shadows (except an optional `0_1px_0_rgba(10,10,10,0.06)` hairline shadow under the nav on scroll), NO gradients. Solid black plates (`bg-ink text-paper`) invert to white for contrast. The signature interaction is a wipe-in underline: `.nav-link { position: relative }` with `.nav-link::after { content:''; position:absolute; left:0; right:0; bottom:-6px; height:1px; background:#0a0a0a; transform: scaleX(0); transform-origin:left; transition: transform .4s cubic-bezier(.16,1,.3,1) }` and `.nav-link:hover::after { transform: scaleX(1) }`. Add a scroll reveal (`.reveal { opacity:0; transform: translateY(18px); transition: opacity 1s cubic-bezier(.16,1,.3,1), transform 1s ... }`, `.reveal.in { opacity:1; transform:none }`) and a horizontal `.marquee-track { animation: marquee 28s linear infinite }` (`@keyframes marquee { from{translateX(0)} to{translateX(-50%)} }`). Icons are Iconify Phosphor (ph:list, ph:magnifying-glass, ph:handbag). Keep huge whitespace, oversized display type, and monochrome image plates; let the typography and the black/white contrast be the entire brand."}, "layout_and_structure": {"description": "A `sticky top-0 z-50` frosted-white `<header>` (`bg-paper/90 backdrop-blur-md` over a `border-b hairline`, with a `transition-colors duration-500` that gains a faint hairline shadow once the page scrolls past 8px) whose inner `<nav>` centers in a `max-w-[1400px] mx-auto px-6 md:px-10` column. The nav row is `relative flex items-center justify-between` at a fixed `h-[68px] md:h-[88px]` and carries THREE zones in one bar: (1) on the LEFT a `hidden lg:flex` row of four uppercase wide-tracked text links (New / Library / Studio / About) which is replaced below lg by a single `ph:list` hamburger button; (2) in the DEAD CENTER an `absolute left-1/2 -translate-x-1/2` Archivo Expanded wordmark 'ATELIER' that holds its 0.34em tracking at every breakpoint; (3) on the RIGHT a utility cluster of two more uppercase links (Search, Account, lg-only) plus a `ph:magnifying-glass` (mobile-only) and a `ph:handbag` bag icon with a '(0)' count. A `lg:hidden` drawer (`max-h-0` -> animated `max-h`) drops below the bar on mobile with the four links stacked. Beneath the header is a full editorial landing page (a giant display hero + a 4-plate monochrome process strip, a slash marquee, an editorial product grid, a dark split 'Studio' section, a centered manifesto, a dark CTA, and a footer) so the sticky bar scrolls over real content.", "prompts": [{"part": "Sticky frosted header shell", "prompt": "Build `<header id=\"nav\" class=\"sticky top-0 z-50 bg-paper/90 backdrop-blur-md border-b hairline transition-colors duration-500\">`. It pins flush to the top and the page scrolls beneath it. Inside, a `<nav class=\"max-w-[1400px] mx-auto px-6 md:px-10\">` wraps a `<div class=\"relative flex items-center justify-between h-[68px] md:h-[88px]\">` (the `relative` is required so the centered wordmark can absolutely position against it). On scroll past 8px, add a faint hairline shadow `shadow-[0_1px_0_rgba(10,10,10,0.06)]` to the header via a tiny scroll listener; remove it back at the top."}, {"part": "Left uppercase nav links + hamburger", "prompt": "On the left, a `hidden lg:flex items-center gap-10 xl:gap-12 text-[11px] tracking-wide-2 font-medium uppercase` `<ul>` of four `.nav-link` anchors: New, Library, Studio, About (each wipes in a 1px black underline on hover). Below lg this list is hidden and replaced by a single `lg:hidden -ml-1 p-2 text-ink` hamburger `<button id=\"menuBtn\" aria-label=\"Open menu\">` holding a `ph:list` Iconify icon at `text-2xl`."}, {"part": "Centered Archivo Expanded wordmark", "prompt": "In the dead center, an anchor `class=\"wordmark absolute left-1/2 -translate-x-1/2 font-wide text-[19px] md:text-[24px] font-500 uppercase select-none whitespace-nowrap\"` reading 'Atelier' (rendered uppercase as ATELIER). Critically, give `.wordmark { letter-spacing: 0.34em }` so it KEEPS the luxe wide tracking at EVERY breakpoint (do not drop tracking on mobile: it has been verified to still fit at 390px). It must stay optically centered regardless of the differing widths of the left links and the right cluster, which is why it is absolutely positioned at left-1/2 with a -translate-x-1/2."}, {"part": "Right utility cluster", "prompt": "On the right, a `flex items-center gap-5 lg:gap-8 text-[11px] tracking-wide-2 font-medium uppercase` cluster: (1) two `.nav-link hidden lg:inline` text links 'Search' and 'Account'; (2) a `lg:hidden p-1 text-ink` search `<button aria-label=\"Search\">` with a `ph:magnifying-glass` icon at `text-xl` (mobile-only stand-in for the Search link); (3) a bag anchor `relative flex items-center text-ink` `aria-label=\"Bag\"` holding a `ph:handbag` Iconify icon (`text-[19px] md:text-[21px]`) followed by a `ml-2 hidden lg:inline text-[11px] tracking-wide-1 tabular-nums` '(0)' count."}, {"part": "Mobile drawer", "prompt": "Directly under the bar, a `lg:hidden overflow-hidden max-h-0 transition-[max-height] duration-500 ease-out border-t hairline` `<div id=\"drawer\">` containing a `px-6 md:px-10 py-5 space-y-4 text-[12px] tracking-wide-2 font-medium uppercase` `<ul>` of the four links (New, Library, Studio, About) each as a `block` anchor, plus a divided `pt-3 mt-3 border-t hairline` 'Account' link in `text-ink/60`. Toggle it open by setting `drawer.style.maxHeight = drawer.scrollHeight + 'px'` on the hamburger click, and back to '0px' to close."}, {"part": "Editorial display hero + 4-plate process strip", "prompt": "Below the header, a `relative w-full border-b hairline` hero whose inner is `max-w-[1400px] mx-auto px-6 md:px-10` with `py-20 md:py-32 lg:py-40`. Stack: a `text-[10px] md:text-[11px] tracking-mono uppercase text-ink/70` eyebrow 'Collection 01 / The Interface Series'; a `font-wide uppercase leading-[0.92] tracking-tight text-[12vw] md:text-[8.5vw] lg:text-[7.4vw] max-w-[14ch]` H1 reading 'Design, cut to measure.' (on three lines); then a `max-w-xl` block with a `text-[15px] md:text-[17px] leading-relaxed text-ink/70` paragraph and a `text-[11px] tracking-wide-2 uppercase font-medium` row of two `.nav-link` links ('Enter the studio' + a muted 'Browse the library'). Then a full-bleed `border-t hairline` plate strip: a `grid grid-cols-2 md:grid-cols-4` of four `aspect-[4/5] md:aspect-[3/4]` cells (each `border-r hairline` except the last) labeled 001-004 with `font-wide uppercase` words Canvas / Compose / Refine / Ship; the SECOND plate is inverted `bg-ink text-paper`. Wrap revealable blocks in `.reveal` and stagger them with inline `transition-delay`."}, {"part": "Slash marquee", "prompt": "A `w-full border-b hairline overflow-hidden py-5 md:py-6` band holding a `.marquee-track flex whitespace-nowrap` of two identical groups (the second `aria-hidden`) of `text-[11px] md:text-[12px] tracking-mono uppercase text-ink/70` terms separated by `text-ink/60` slashes: Mockups / Components / Design Systems / Infinite Canvas / Prompt Library, each term in a `px-8` span, looping seamlessly via the marquee keyframes."}, {"part": "Editorial product grid + dark studio split + manifesto + dark CTA + footer", "prompt": "An editorial library section (`max-w-[1400px] mx-auto px-6 md:px-10 py-20 md:py-28`): a `flex items-end justify-between border-b hairline` head with a tracked label 'The Library' + a `font-wide uppercase text-[8vw] md:text-[44px]` H2 'Looks of the season' and a 'View all 1,400' link; then a `grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12` of six `.reveal` product cards, each an `aspect-[4/5]` plate (alternating solid `bg-ink text-paper` and `border hairline`) with a 'No. 0X' corner label, a centered `font-wide uppercase` title, then a baseline-aligned name + Free/Pro tag + a small description. Then a full-bleed dark `bg-ink text-paper border-y hairline` 'Studio' split (`grid md:grid-cols-12`): a `font-wide uppercase text-[10vw] md:text-[52px]` H2 on the left and a paragraph + a 3-row `<dl>` (Web canvas / Agent skill / Export, each a `flex justify-between py-5 border-t border-paper/15`) + a 'Book a fitting' underlined link on the right. Then a centered manifesto (`max-w-[1100px]` text-center) with a tracked 'Manifesto' label and a big `font-wide uppercase` statement. Then a full-bleed dark `bg-ink text-paper` CTA (`text-center`) with a huge `font-wide uppercase text-[11vw] md:text-[7vw]` 'Begin your first fitting.', a button row (a solid `bg-paper text-ink` 'Start free' + a `border border-paper/40` 'Browse the library'), and a fine-print line. Finally a dark `bg-ink text-paper border-t border-paper/15` footer with the 'Atelier' wordmark + three uppercase link columns + a bottom copyright row."}, {"part": "Responsive reflow", "prompt": "Above lg, the bar shows the four left links / the centered wordmark / the right cluster (Search + Account + bag with '(0)'). Below lg, the four left links and the Search/Account text links and the '(0)' count all hide; the left becomes a single `ph:list` hamburger, the right keeps a `ph:magnifying-glass` button + the `ph:handbag` icon, and the wordmark stays absolutely centered. Tapping the hamburger animates the `#drawer` open with the four stacked links. The row height drops from `md:h-[88px]` to `h-[68px]`, and all the display type uses viewport units (e.g. `text-[12vw]`) so the hero and section heads scale down without overflow. CRUCIAL legibility fix: the wordmark keeps its 0.34em tracking at every breakpoint (verified to still fit at 390px), rather than tightening on mobile."}]}, "special_ui_components": [{"name": "Tri-zone bar with an absolutely-centered wordmark", "prompt": "The header packs three zones into one `relative flex items-center justify-between` row: left text links (or a hamburger below lg), a right utility cluster, and a wordmark that is NOT in the flex flow but `absolute left-1/2 -translate-x-1/2`, so it stays optically dead-center no matter how wide the left and right groups are. This is the couture-retail header signature (a la Toteme): chrome split to the edges, brand name centered."}, {"name": "Wipe-in hairline underline (.nav-link)", "prompt": "Every nav and CTA text link is a `.nav-link` (`position: relative`) with a `::after` rule: `content:''; position:absolute; left:0; right:0; bottom:-6px; height:1px; background:#0a0a0a; transform: scaleX(0); transform-origin:left; transition: transform .4s cubic-bezier(.16,1,.3,1)`, animating to `scaleX(1)` on hover so a single 1px black underline wipes in left-to-right. No color change, no thickening: just the line, on a long couture ease."}, {"name": "Frosted sticky monochrome header with scroll hairline", "prompt": "The header is `sticky top-0 z-50 bg-paper/90 backdrop-blur-md` over a `border-b hairline`, so content blurs faintly behind it as it scrolls under. A small scroll listener adds `shadow-[0_1px_0_rgba(10,10,10,0.06)]` once `scrollY > 8` and removes it at the top, giving the bar a barely-there lift only when the page has moved."}, {"name": "Handbag bag-count utility icon", "prompt": "The right cluster ends in a bag anchor `relative flex items-center text-ink` with a Phosphor `ph:handbag` icon (`text-[19px] md:text-[21px]`) followed by a `ml-2 hidden lg:inline text-[11px] tracking-wide-1 tabular-nums` '(0)' count, the retail 'cart' affordance restyled as quiet monochrome chrome (the count hides below lg)."}, {"name": "Dual letter-spacing typographic system", "prompt": "The whole brand is carried by two opposing tracking treatments on Archivo Expanded uppercase type: very WIDE positive tracking on the small chrome and labels (custom `.tracking-mono` 0.34em, `.tracking-wide-2` 0.22em, `.tracking-wide-1` 0.14em) versus TIGHT negative `tracking-tight` on the oversized viewport-sized display headlines. The contrast between airy small caps and dense huge display type is the entire visual identity, with zero color beyond black on white."}, {"name": "Mobile max-height drawer", "prompt": "Below lg, a `overflow-hidden max-h-0 transition-[max-height] duration-500 ease-out border-t hairline` drawer expands by JS setting `style.maxHeight = scrollHeight + 'px'` on hamburger tap (and back to '0px'), revealing the four uppercase links stacked plus a divided 'Account' link, all in the same monochrome wide-tracked type."}], "special_notes": "Exact tokens (Tailwind config): only two colors, `ink` #0a0a0a and `paper` #ffffff; all hierarchy is opacity tints of those (text-ink/70, /65, /60 on light; text-paper/75, /55, /50, /45, /40 on dark; borders rgba(10,10,10,0.12) light via `.hairline` and `border-paper/15` on dark). Fonts (Google Fonts): Archivo 300/400/500/600 as `font-sans` + body default, Archivo Expanded 400/500/600 as `font-wide` for wordmark/headlines/labels; `-webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility`. Letter-spacing utilities: `.tracking-mono` 0.34em, `.tracking-wide-2` 0.22em, `.tracking-wide-1` 0.14em; big display type uses `tracking-tight`. Single hairline border everywhere: `.hairline { border-color: rgba(10,10,10,0.12) }`; NO rounded corners, NO shadows except an optional on-scroll `shadow-[0_1px_0_rgba(10,10,10,0.06)]` under the nav; NO gradients; solid `bg-ink text-paper` plates invert for contrast. Signature `.nav-link::after` underline = 1px black bar inset 0, bottom -6px, scaleX(0)->scaleX(1) on hover over .4s cubic-bezier(.16,1,.3,1). `.reveal` fade-and-rise on scroll (opacity 0 + translateY(18px) -> in) via IntersectionObserver, with a load-time safety net that reveals everything after 600ms. `.marquee-track` = 28s linear infinite horizontal loop (translateX 0 -> -50%) of a slash-separated term list. Header: `sticky top-0 z-50 w-full bg-paper/90 backdrop-blur-md` over `border-b hairline`, centered in `max-w-[1400px] mx-auto px-6 md:px-10` at `h-[68px] md:h-[88px]`; the wordmark is `absolute left-1/2 -translate-x-1/2`. LEGIBILITY FIX baked into this version: the centered wordmark keeps its 0.34em `.wordmark` tracking at EVERY breakpoint (verified to still fit at 390px) instead of tightening on mobile. Icons: Iconify Phosphor (ph:list, ph:magnifying-glass, ph:handbag). Reference inspiration: the monochrome high-fashion editorial retail header (e.g. Toteme, https://toteme.com/en-au), recreated as an original prompt-library product for the placeholder brand 'Atelier'. The page beneath the bar (a giant display hero + a 4-plate process strip, a slash marquee, an editorial product grid, a dark studio split, a centered manifesto, a dark CTA, and a footer) is demo context so the sticky bar has real content to scroll over; the prompt-library value is the tri-zone monochrome fashion navbar pattern itself."}
-```
-
----
-
-## 67. Palette — Social-first friendly sign-up
+## 47. Palette — Social-first friendly sign-up
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/palette-social-first-friendly-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm, social-first sign-up screen on a cream canvas: a two-column hero+signup landing with a friendly product pitch on the left (hand-drawn underline, teal-check benefits, a 5-star social-proof cluster) and a white rounded card on the right that leads with three full-width stacked social-auth buttons (Google, GitHub, Apple) above an 'or sign up with email' divider and a single email field with a coral 'Create account' CTA. Coral + teal accents, Poppins, a sticky blurred nav, a logo marquee, a three-step how-it-works, and a dark gradient CTA band.
@@ -10552,7 +6593,7 @@ A warm, social-first sign-up screen on a cream canvas: a two-column hero+signup 
 
 ---
 
-## 68. Super Shampoo - High Conversion LP
+## 48. Super Shampoo - High Conversion LP
 `E-commerce` · `E-commerce & Retail` · 194 copies · [try live](https://superdesign.dev/library/super-shampoo-high-conversion-lp?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A premium, high-conversion e-commerce style guide optimized for D2C beauty and wellness brands. Features a sophisticated 'clinical luxury' aesthetic with a palette of sage green (#E2E8E4), off-white beige (#F5F5F0), and deep charcoal (#1C1C1C). The typography balances bold 'General Sans' headings with clean 'Switzer' body text. Includes specialized conversion elements like scarcity-driven promo bars, trust badge grids, comparison tables, and a sticky mobile 'Add to Cart' bar. Ideal for skincare, haircare, or luxury lifestyle products requiring a mix of editorial imagery and performance-driven UI.
@@ -10623,7 +6664,7 @@ A premium, high-conversion e-commerce style guide optimized for D2C beauty and w
 
 ---
 
-## 69. Slate ROI-Calculator Pricing
+## 49. Slate ROI-Calculator Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/slate-roi-calculator-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A frameless dark SaaS pricing page in inky slate with one electric mint accent: an interactive ROI savings calculator, a 4-tier plan grid with a highlighted Pro card and monthly/annual toggle, a comparison table, and an accordion FAQ.
@@ -10634,7 +6675,7 @@ A frameless dark SaaS pricing page in inky slate with one electric mint accent: 
 
 ---
 
-## 70. The Quote, Set in Burgundy
+## 50. The Quote, Set in Burgundy
 `Blog & Editorial` · `General` · 0 copies · [try live](https://superdesign.dev/library/the-quote-set-in-burgundy?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A magazine-style single-slide testimonial on a warm cream canvas: one oversized Fraunces serif pull-quote with burgundy italic emphasis, a ghosted giant quote mark, an avatar trust cluster, a portrait byline, and prev/next carousel chrome with progress dots.
@@ -10645,7 +6686,7 @@ A magazine-style single-slide testimonial on a warm cream canvas: one oversized 
 
 ---
 
-## 71. Prism — Frosted-Glass Pastel Agency Studio
+## 51. Prism — Frosted-Glass Pastel Agency Studio
 `Portfolios` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/prism-frosted-glass-pastel-agency-studio?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light, frosted-glass pastel agency studio homepage on a soft mesh-gradient canvas (off-white #fbfcff washed with peach #ffd8c2, sky #cfe3ff, and mint #d3f5e3 radial blooms): a floating pill-shaped glass sticky nav, a centered black-on-pastel hero (huge Inter-black headline, glass pill badges, a dark pill CTA + a glass 'See the work' pill) over fanned, overlapping translucent glass UI cards, a faded trust logo strip, a frosted bento work grid with one dark stat card (+240%), a big glass services panel with a dark featured 'Most loved' card, a three-up testimonial row with a dark feature quote, a frosted closing CTA, and a clean glass-divided footer. Award-winning soft-pastel glassmorphism with near-black #15161b ink.
@@ -10656,7 +6697,7 @@ A light, frosted-glass pastel agency studio homepage on a soft mesh-gradient can
 
 ---
 
-## 72. Teal-on-Ink Newsletter Mega Footer
+## 52. Teal-on-Ink Newsletter Mega Footer
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/teal-on-ink-newsletter-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark near-black footer with a teal accent, prominent newsletter capture, three link columns, social row, status pill and language switch, fully responsive.
@@ -10667,7 +6708,7 @@ A dark near-black footer with a teal accent, prominent newsletter capture, three
 
 ---
 
-## 73. Gesture First Navigation System
+## 53. Gesture First Navigation System
 `Mobile Apps` · `General` · 3 copies · [try live](https://superdesign.dev/library/gesture-first-navigation-system?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A content-first navigation system that minimizes visible chrome and relies primarily on swipe gestures to move between major sections, creating an immersive and fluid experience.
@@ -11142,62 +7183,7 @@ Here is a reference implementation:
 
 ---
 
-## 74. Interactive Multi-Step Onboarding Flow
-`Onboarding` · `General` · 16 copies · [try live](https://superdesign.dev/library/interactive-multi-step-onboarding-flow?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A minimalist, high-end multi-step onboarding flow designed for mobile-first SaaS and lifestyle applications. Characterized by a sophisticated Slate-based color palette (#0F172A), premium typography using the Switzer typeface, and fluid horizontal sliding transitions. Key features include a bento-grid interest selector, animated toggle switches, and a persistent progress-tracking header. Suitable for fintech, creative portfolios, productivity tools, and modern web platforms requiring a seamless user registration experience.
-
-```text
-{
-  "summary": "An interactive, 4-step sliding onboarding flow with a clean, high-contrast aesthetic. It utilizes a fixed header for progress tracking and a fixed footer for primary actions, while the content area slides horizontally between steps using smooth cubic-bezier transitions.",
-  "style": {
-    "description": "The design follows a 'clean-tech' aesthetic using the Switzer font family (font-sizes ranging from 12px labels to 32px headers). It employs a neutral grayscale palette dominated by Slate (#0F172A) and off-whites (#F8FAFC). Animations are snappy yet smooth, using a custom cubic-bezier timing function for all state transitions and sliding effects.",
-    "prompt": "Create a design system using the Switzer font family. Color Palette: Primary Slate-900 (#0F172A) for headings and primary buttons; Secondary Slate-500 (#64748B) for body text; Accents in Slate-400 (#94A3B8) and Slate-200 (#E2E8F0); Backgrounds in Slate-50 (#F8FAFC) and pure white (#FFFFFF). Typography: H1 headers at 32px, leading-tight (1.1), tracking-tight; Labels at 12px, bold, uppercase, tracking-widest. Spacing: Standardized 24px (6 units) padding for containers. Animation: Use 'cubic-bezier(0.16, 1, 0.3, 1)' for all sliding movements with a 600ms duration. Buttons should have a subtle active scale effect (0.98) and soft drop shadows (shadow-lg with slate-200 color)."
-  },
-  "layout_and_structure": {
-    "description": "A vertical stack consisting of a fixed navigation header, a flex-1 sliding content viewport, and a fixed primary action footer. The content slides on a 400% width container divided into four 100vw sections.",
-    "prompts": [
-      {
-        "part": "Header & Progress",
-        "prompt": "Create a fixed top header with 56px top padding and 24px horizontal padding. Include a back button (arrow-left) that is hidden on Step 1, a centered 'Step X of Y' counter in 12px uppercase text, and a help icon on the right. Below the icons, place a full-width 6px tall progress bar with a background of #F1F5F9 and a fill of #0F172A that transitions width dynamically."
-      },
-      {
-        "part": "Step 1: Welcome & Input",
-        "prompt": "Layout a welcome section starting with a 64px square icon container with rounded-2xl corners in #F8FAFC. Display a 32px heading followed by an 16px body paragraph. Include two stacked input fields. Each input should have a 12px uppercase label and a 56px tall input area with 16px padding, a #F8FAFC background, and a 1px border (#E2E8F0) that turns #0F172A on focus."
-      },
-      {
-        "part": "Step 2: Interest Selection",
-        "prompt": "Design a 2-column grid for selection. Each card is 140px tall with a 1px border (#E2E8F0) and 16px rounded corners. Inside, place a 40px circular icon holder at the top left and a selection indicator (circle/check-circle) at the top right. When selected, the card should change to a 2px border of #0F172A and a #F8FAFC background."
-      },
-      {
-        "part": "Step 3: Feature Toggles",
-        "prompt": "Create a vertical stack of toggle rows. Each row is a 72px tall container with 24px padding. One style has a #F8FAFC background, the other has a 1px border (#E2E8F0). Each row includes an icon, a title, a subtitle, and a toggle switch. The toggle switch is a 48px wide pill that slides a 16px white circle between left (off, #E2E8F0) and right (on, #0F172A)."
-      },
-      {
-        "part": "Footer Actions",
-        "prompt": "Fixed footer with a border-top (#F1F5F9) and 34px bottom padding. Feature a primary 56px tall pill-shaped button in #0F172A with white text and an arrow icon. Below it, a 40px tall 'Skip for now' ghost button in #94A3B8 text."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Interactive Selection Card",
-      "description": "A card that combines visual icons with checkbox logic for multi-select preferences.",
-      "prompt": "Construct a card with a 'sr-only' checkbox input. Use a peer-checked sibling selector to change the container border from 1px #E2E8F0 to 2px #0F172A. An iconify-icon representing 'check-circle' should appear only when checked. Animate the transition with 150ms ease-in-out."
-    },
-    {
-      "component": "Sliding Viewport Container",
-      "description": "The core navigation mechanic that handles step transitions.",
-      "prompt": "The #flow-container must be 'display: flex' with a width of 400% (or 100% * number of steps). Use 'transform: translateX()' to move between steps. The parent viewport must have 'overflow: hidden'. Apply 'transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1)' to the container for a high-end feel."
-    }
-  ],
-  "special_notes": "Must maintain a strict whitespace-heavy layout to ensure a premium feel. Do not use bright colors outside of the grayscale/slate spectrum. The 'Continue' button text and icon must update on the final step to signal completion (e.g., 'Get Started' with a rocket icon). Ensure all interactive elements have hover/active states using transition-all with 200ms duration."
-}
-```
-
----
-
-## 75. Editorial Cream + Ink Two-Path SaaS Pricing
+## 54. Editorial Cream + Ink Two-Path SaaS Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-cream-ink-two-path-saas-pricing-3dee65?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm editorial SaaS pricing page on a cream canvas: a serif headline with an electric-blue italic accent, two self-serve plan cards (one highlighted) beside a dark near-black Enterprise contact-sales panel with gold accents, plus a monthly/annual toggle.
@@ -11208,7 +7194,7 @@ A warm editorial SaaS pricing page on a cream canvas: a serif headline with an e
 
 ---
 
-## 76. Electric-Lime Single-Plan SaaS Pricing
+## 55. Electric-Lime Single-Plan SaaS Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/electric-lime-single-plan-saas-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A bold editorial single-plan pricing page with a giant toggling price card, a tilted sky-blue feature card, and one electric-lime accent on warm paper inside a charcoal frame.
@@ -11219,7 +7205,7 @@ A bold editorial single-plan pricing page with a giant toggling price card, a ti
 
 ---
 
-## 77. Electric-Blue Studio Pricing
+## 56. Electric-Blue Studio Pricing
 `Pricing Pages` · `Dev Tools` · 1 copies · [try live](https://superdesign.dev/library/electric-blue-studio-pricing-188a8f?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A frameless, near-black dev-tool SaaS pricing page with one electric-blue accent, oversized outlined-type headline, and a single-plan card (monthly/annual toggle + optional power-up add-ons) instead of a tier wall.
@@ -11230,7 +7216,7 @@ A frameless, near-black dev-tool SaaS pricing page with one electric-blue accent
 
 ---
 
-## 78. Account Setup Flow — Goals / Interests (Card-Based)
+## 57. Account Setup Flow — Goals / Interests (Card-Based)
 `Mobile Apps` · `General` · 14 copies · [try live](https://superdesign.dev/library/account-setup-flow-goals-interests-card-based?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A sleek, minimalist, and highly interactive 4-step onboarding flow designed for mobile-first experiences. Features high-contrast black and white aesthetics, modern typography using General Sans, and fluid motion using the View Transitions API. Ideal for SaaS, fintech, or lifestyle apps needing a premium, frictionless user registration or configuration sequence. Key elements include a persistent progress bar, springy micro-interactions, and clear, bold editorial typography.
@@ -11281,7 +7267,7 @@ A sleek, minimalist, and highly interactive 4-step onboarding flow designed for 
 
 ---
 
-## 79. Sectioned Index Page
+## 58. Sectioned Index Page
 `Mobile Apps` · `General` · 13 copies · [try live](https://superdesign.dev/library/sectioned-index-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Features a mixed-media layout including horizontal snap-scrolling cards, vertical activity feeds, and a bento-style recommendation grid. Ideal for content aggregators, interior design apps, portfolio indexes, or minimalist fintech dashboards.
@@ -11335,7 +7321,7 @@ Features a mixed-media layout including horizontal snap-scrolling cards, vertica
 
 ---
 
-## 80. Electric Dark Usage-Based Pricing Calculator
+## 59. Electric Dark Usage-Based Pricing Calculator
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/electric-dark-usage-based-pricing-calculator-20e556?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An electric dark dev-tool pricing page built around an interactive slider calculator that live-computes included quota plus tiered pay-as-you-go overage, with a lime accent, a highlighted plan card row, and an FAQ accordion.
@@ -11346,7 +7332,7 @@ An electric dark dev-tool pricing page built around an interactive slider calcul
 
 ---
 
-## 81. Emerald 4-Tier SaaS Pricing Table
+## 60. Emerald 4-Tier SaaS Pricing Table
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/emerald-4-tier-saas-pricing-table?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light-mode emerald-accented SaaS pricing page with a Monthly/Annual toggle and four tiers fused into one bordered table, the Pro column lifted and ring-highlighted as 'Most popular'.
@@ -11357,124 +7343,7 @@ A light-mode emerald-accented SaaS pricing page with a Monthly/Annual toggle and
 
 ---
 
-## 82. Apple-inspired Waitlist
-`Waitlist & Coming Soon` · `General` · 16 copies · [try live](https://superdesign.dev/library/apple-inspired-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A refined, premium waitlist page design system inspired by Apple's minimalist aesthetic. It features a sophisticated muted blue-gray accent (#4F6BA6) on a light grey background (#FAFAFA). Key elements include editorial typography with tight line heights, slow-motion scroll animations (1.5s), layered soft shadows, and subtle gradient dividers. Ideal for high-end SaaS, design tools, fintech, and professional services looking for a 'quiet luxury' digital presence.
-
-```text
-{
-  "summary": "A high-end, minimalist waitlist and landing page design system characterized by sophisticated muted colors, slow-motion reveal animations, and meticulous attention to spacing and typographic hierarchy.",
-  "style": {
-    "description": "The style is 'Quiet Premium'. It uses an Apple-system font stack (SF Pro Display) for a native feel. Colors are anchored in #FAFAFA (background) and #1D1D1F (text), with #4F6BA6 as a muted blue-gray accent. Animation is central: a 1.5s cubic-bezier reveal creates a sense of weight and inevitability. Visual depth is achieved through layered box-shadows rather than borders.",
-    "prompt": "Apply a 'Quiet Premium' aesthetic. **Color Palette**: Background: #FAFAFA; Primary Text: #1D1D1F; Secondary Text: #86868B; Accent: #4F6BA6; Muted Accent: #E1E8F5; Dividers: #D2D2D7 at 40% opacity. **Typography**: Use -apple-system stack. Hero headers: font-size 80-128px, font-weight 600, tracking-tight, line-height 1.1. Body context: font-size 24-30px, font-weight 500, line-height 1.6. **Animations**: All section entries must use `transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1)` with a 30px Y-axis translate and 0.98 scale-up. **Shadows**: Use layered shadows for UI cards: `0 2px 8px rgba(0,0,0,0.04), 0 24px 48px -8px rgba(0,0,0,0.06), 0 48px 80px -12px rgba(0,0,0,0.04)`. **Borders**: Use 1px width with gradient effects for interactive elements."
-  },
-  "layout_and_structure": {
-    "description": "A vertical, centered flow that guides the user through an emotional narrative before the final call to action. It uses full-screen heights for the hero and generous whitespace between sections.",
-    "prompts": [
-      {
-        "part": "Hero Section",
-        "prompt": "Create a `min-h-[100vh]` section. Center-align a massive typographic statement. Use font-size 96px (responsive to 48px on mobile). Ensure the leading is exactly 1.1. No other elements should be in this section to maintain impact."
-      },
-      {
-        "part": "Section Dividers",
-        "prompt": "Separate major sections with a horizontal line. The line must be a 1px height div with a background gradient: `linear-gradient(to right, transparent, rgba(210, 210, 215, 0.4), transparent)`. Limit width to max-w-2xl."
-      },
-      {
-        "part": "Context & Features",
-        "prompt": "Use a max-w-2xl container. Text should be medium-large (text-2xl to 3xl) in #86868B (secondary gray). For feature callouts, use bold #1D1D1F headers (text-5xl) with massive vertical spacing (gap-48) to create a rhythmic scrolling experience."
-      },
-      {
-        "part": "Visual Preview Card",
-        "prompt": "A 16:10 aspect ratio card with 24px rounded corners. Background #FFFFFF. Apply the layered shadow spec. Include a header bar with three dots (circles) representing window controls. Fill the interior with abstract skeletal UI elements using #F5F5F7 background blocks."
-      },
-      {
-        "part": "Workflow/Process",
-        "prompt": "A horizontal sequence of text labels and icons. Use Lucide icons (arrow-right). Labels in #1D1D1F font-medium. On mobile, stack vertically and switch icons to arrow-down."
-      },
-      {
-        "part": "Waitlist Form",
-        "prompt": "Center-aligned form with a max-width of 448px. Input and button should both be `rounded-full` and `h-16`. The input should have a 1px border gradient wrapper that turns blue-gray (#4F6BA6) on focus."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Gradient-Border Input",
-      "description": "An input field that appears to have a glowing gradient border on interaction.",
-      "prompt": "Wrap the input in a div with 1px padding. Apply `bg-gradient-to-br from-[#E5E5EA] to-[#E5E5EA]`. On `:hover` or `:focus-within`, change gradient to `from-[#4F6BA6] to-[#7C95C8]`. The internal input must be `rounded-full` and white. Add a 300ms transition."
-    },
-    {
-      "component": "Shimmer Action Button",
-      "description": "A CTA button with a sophisticated moving gradient.",
-      "prompt": "Apply `background: linear-gradient(135deg, #4F6BA6 0%, #5D7BB8 100%)`. Set `background-size: 200% 100%`. On hover, shift `background-position: 100% 0` and apply a soft blue shadow: `0 10px 30px -10px rgba(79, 107, 166, 0.4)`. Use a 0.6s ease transition."
-    }
-  ],
-  "special_notes": "MUST: Maintain the 1.5s animation duration for all reveals; faster durations will break the premium feel. MUST: Use only the specified blue-gray #4F6BA6; do not use standard bright 'Apple Blue' (#0071E3). DO NOT: Use sharp borders; use gradient opacities for dividers. DO NOT: Over-saturate the success state; keep it quiet with a check icon and soft fade."
-}
-```
-
----
-
-## 83. Specs-First Breakdown Product Page
-`E-commerce` · `E-commerce & Retail` · 9 copies · [try live](https://superdesign.dev/library/specs-first-breakdown-product-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Information-dense layout with a prominent specification table beneath the primary product info. Prioritizes structured data, clarity, and comparison readiness.
-
-Best suited for
-Electronics, hardware, supplements, tools, B2B products, technically informed buyers.
-
-```text
-{
-  "summary": "A minimalist, blueprint-inspired design system using a rigid 1440px grid, heavy border-based containment, and a monochromatic 'schematic' aesthetic. It emphasizes technical hierarchy through monospaced numerical data and a strictly functional interface.",
-  "style": {
-    "description": "The style is defined by a 'Tech-Blueprint' aesthetic. It uses a primary typeface of General Sans for UI readability and JetBrains Mono for technical data and labels. The color palette is strictly neutral (#FFFFFF background, #171717 text, #E5E5E5 borders). Design elements use diagonal hatching patterns for placeholders and 1px solid borders to create a structural, wireframe feel without looking unfinished.",
-    "prompt": "Create a design with a strict grayscale wireframe aesthetic. Background: #FFFFFF. Text: #171717 (Neutral-900). Borders: 1px solid #E5E5E5 (Neutral-200). Typography: Use 'General Sans' for headings and primary UI; use 'JetBrains Mono' at 12px-14px for technical specs, prices, and SKU identifiers. Placeholder elements must feature a diagonal stripe pattern using `repeating-linear-gradient(45deg, transparent, transparent 10px, #f5f5f5 10px, #f5f5f5 20px)`. Buttons: Primary is solid #171717 with white text; secondary is white with #E5E5E5 border. Micro-interactions: Use scale(0.99) for active button states and 0.3s cubic-bezier for hover transitions. Borders should be used to define all sections (border-b and border-r patterns)."
-  },
-  "layout_and_structure": {
-    "description": "A top-down structured layout within a fixed max-width container (1440px) with explicit vertical border boundaries. Content is organized in high-density sections separated by horizontal lines.",
-    "prompts": [
-      {
-        "part": "Sticky Header",
-        "prompt": "Height: 80px. Background: #FFFFFF/95 with backdrop-blur. Layout: Left-aligned logo (square 32px block) and name; center-aligned nav links (14px font-weight 500); right-aligned cart icon with a circular badge. 1px bottom border."
-      },
-      {
-        "part": "Product Hero Section",
-        "prompt": "Two-column grid (7:5 ratio). Left column: Main image placeholder (4:3 aspect ratio) with a dashed inner border and diagonal stripe background. Below, a 4-column thumbnail grid. Right column: Vertical stack with 32px spacing. Includes breadcrumbs/status badges in mono font, 36px-48px bold heading, 24px mono price, and custom select dropdowns with no border-radius."
-      },
-      {
-        "part": "Technical Specification Table",
-        "prompt": "Full-width section. Title is 24px bold. Content is a vertical stack of rows. Each row: 4-column grid where the first column is a label (JetBrains Mono, 12px, uppercase, #737373) and the following three columns are the value (JetBrains Mono, 14px, #171717). Rows have border-bottom #E5E5E5 and background hover state #FAFAFA."
-      },
-      {
-        "part": "Product Comparison Grid",
-        "prompt": "Centrally aligned toggle switch in header. 3-column grid of cards. Cards: 1px border, 16px padding. Image placeholder is 3:2 ratio. Includes title, mono-font category tag, and a bottom-aligned price/action row with border-top separator."
-      },
-      {
-        "part": "Accordion FAQ",
-        "prompt": "Full-width stacked rows. Each item: 'details' element with 'summary' trigger. Hover state: #F9FAFB. Icons: 20px '+' icon that rotates 45 degrees on open. Content: 14px leading-relaxed text with 24px padding."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Wireframe Placeholder",
-      "description": "Functional image substitute with technical meta-data.",
-      "prompt": "Rectangle with 1px solid border. Background: #F5F5F5 with a diagonal repeating stripe pattern. Center: A dashed inner stroke offset by 16px. Centered icon and 'JetBrains Mono' text indicating dimensions or file type."
-    },
-    {
-      "component": "Segmented Control Toggle",
-      "description": "A brutalist tab/toggle switcher.",
-      "prompt": "A 2px padding container with #E5E5E5 border. Contains two buttons. The 'Active' button has #171717 background and white text. The 'Inactive' button has transparent background and #737373 text. 0px border-radius."
-    }
-  ],
-  "special_notes": "MUST: Maintain perfect alignment with a 1px border grid. MUST: Use Monospace font for any and all numerical data (price, SKU, dimensions). MUST NOT: Use border-radius; all corners must be sharp 0px or very minimal 2px. MUST NOT: Use drop shadows except for very subtle hover effects on comparison cards."
-}
-```
-
----
-
-## 84. The Atelier Brief — an editorial intake form, set like a letter
+## 61. The Atelier Brief — an editorial intake form, set like a letter
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/the-atelier-brief-an-editorial-intake-form-set-like-a-letter?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial intake form set like a letter: a warm cream page in Fraunces serif + Inter with a single burgundy accent, borderless underline inputs with serif labels (Name / E-mail, Project / Budget, Message), structured by full-bleed cream/ink/cream bands and hairline rules instead of cards, and a quiet ink 'Submit the brief' button.
@@ -11485,7 +7354,7 @@ An editorial intake form set like a letter: a warm cream page in Fraunces serif 
 
 ---
 
-## 85. Send Us the Brief — Brutalist Contact Form
+## 62. Send Us the Brief — Brutalist Contact Form
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/send-us-the-brief-brutalist-contact-form?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Loud neo-brutalist contact page for a design-tool brand (Formcast), built around a blunt two-field 'brief box'. A paper-and-ink base (paper #f4f1ea canvas, ink #0a0a0a text/borders) with exactly one high-voltage acid-yellow accent (#e8ff00), thick 2px/4px ink borders, hard offset drop shadows (zero blur, e.g. 8px 8px 0 0 #0a0a0a), depress-on-press chunky buttons, and an acid focus shadow on the fields, in a heavy Archivo (up to 900) + Space Mono pairing. A sticky paper nav (an ink+acid logo tile + a FORMCAST wordmark, How it works/Library/Brief us hover-fill links and an acid 'Start' button) sits over a scrolling ink marquee strip and a hero (an acid eyebrow pill, a giant uppercase 'SEND US THE BRIEF.' headline with 'brief.' highlighted in acid, and a '38s' avg-turnaround stat card). The centerpiece is a contact section split into a left rail of three numbered instruction tiles and a big bordered FORM CARD with an oversized E-Mail input + Message textarea, a Brutalist/Editorial/Minimal/Surprise-me style-chip row, and a chunky Cancel + acid 'Send' button row. A 'Three blunt steps' card row and a dark ink footer with an acid CTA close the page. The reusable signature is the neo-brutalist contact form: thick ink borders + hard offset shadows + one acid accent + a heavy Archivo/Space Mono voice.
@@ -11496,7 +7365,7 @@ Loud neo-brutalist contact page for a design-tool brand (Formcast), built around
 
 ---
 
-## 86. Editorial Music Player (Now Playing)
+## 63. Editorial Music Player (Now Playing)
 `Mobile Apps` · `General` · 1 copies · [try live](https://superdesign.dev/library/editorial-music-player-now-playing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-contrast editorial "Now Playing" mobile music player: a light cream top with a warm sunset gradient album art, bold track title + scrubber, dark high-contrast transport controls on cream circles, over a deep forest-green "Up Next" playlist with a coral now-playing highlight.
@@ -11530,65 +7399,7 @@ A high-contrast editorial "Now Playing" mobile music player: a light cream top w
 
 ---
 
-## 87. Collection Page- Filtered Product Grid
-`E-commerce` · `E-commerce & Retail` · 9 copies · [try live](https://superdesign.dev/library/collection-page-filtered-product-grid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A utility-first collection layout with a persistent filter sidebar and a dense product grid. Designed for fast scanning, narrowing, and comparison. Prioritizes efficiency over storytelling.
-
-Best suited for
-Large catalogs, apparel, marketplaces, multi-SKU brands, products where users already know what they want.
-
-```text
-{
-  "summary": "A sophisticated monochrome wireframe design system for e-commerce, focusing on clean structure, neutral gray scales, and precise typography to showcase product collections without visual noise.",
-  "style": {
-    "description": "The style is defined by a high-contrast grayscale palette and a 'General Sans' sans-serif typeface. It utilizes wide gutters, subtle borders (#E5E7EB), and micro-interactions like text-decoration transitions. The aesthetic prioritizes negative space and structural clarity over decorative elements.",
-    "prompt": "Apply a minimalist monochrome design system. Typography: Use 'General Sans' or a similar clean sans-serif. Headings: 36px (text-4xl) with font-weight 600 and -0.025em letter-spacing. Body: 14px (text-sm) font-weight 400. Color Palette: Primary Background #FFFFFF, Primary Text #111827, Secondary Text #6B7280, Border/Dividers #E5E7EB, Light Backgrounds #F9FAFB. Spacing: Base unit 4px; use 32px (8 units) for section gaps and 48px (12 units) for collection headers. Animations: Use 'cubic-bezier(0.4, 0, 0.2, 1)' for hover transitions. Borders: 1px solid throughout. Shadows: None; use borders for definition."
-  },
-  "layout_and_structure": {
-    "description": "A classic e-commerce collection layout with a sticky header, a wide sidebar for desktop filtering, and a flexible grid system that transitions from 1 column (mobile) to 3 columns (desktop).",
-    "prompts": [
-      {
-        "part": "Header",
-        "prompt": "Create a 64px height sticky header with #FFFFFF background and 95% opacity backdrop-blur. Include a 24x6 logo placeholder, a centered desktop nav with 32px spacing (text-sm, medium weight), and a right-aligned icon group (search, user, shopping bag). Search bar should be a 256px wide rounded-sm box in #F3F4F6."
-      },
-      {
-        "part": "Collection Header",
-        "prompt": "Position a breadcrumb trail at the top using 12px text. Below, place a 36px (text-4xl) font-weight 600 title. Follow with a description paragraph (max-width 512px) in #6B7280 with 1.625 line-height. Add 48px bottom margin before the main content grid."
-      },
-      {
-        "part": "Sidebar Filters",
-        "prompt": "Desktop-only 256px sidebar. Structure into sections: 1. Category (Checkboxes with 16px squares and #E5E7EB borders), 2. Size (3-column grid of 40px squares with centered 12px text), 3. Color (24px circles with 2px ring-offsets). Use 1px borders for group dividers."
-      },
-      {
-        "part": "Product Grid",
-        "prompt": "Main grid area with 3-column layout (xl screens) and 24px column gaps. Each card features a 3:4 aspect ratio image placeholder in #F3F4F6. Product title below image in 14px medium weight text, price in #6B7280. Include a hover state: product title gains 'underline decoration-1 underline-offset-4'."
-      },
-      {
-        "part": "Pagination",
-        "prompt": "Bottom pagination section with a top-border in #F3F4F6. Include 'Previous' and 'Next' text buttons with arrow icons. Center a numeric list where the active page is a 32px #111827 square with white text, and inactive pages are 32px squares with #6B7280 text."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Product Status Badge",
-      "description": "Small informational labels positioned over product images.",
-      "prompt": "Create a 10px font-size badge with bold tracking-wider uppercase text. New Arrivals: #FFFFFF background with 1px #E5E7EB border. Sold Out: #111827 background with #FFFFFF text. Position absolute at top-3 left-3 with 4px/8px padding."
-    },
-    {
-      "component": "Size Selector Grid",
-      "description": "Interactive grid for quick size selection.",
-      "prompt": "A grid of 1x1 aspect ratio boxes. Default state: 1px border #E5E7EB, #6B7280 text. Hover state: 1px border #111827. Transition duration 150ms."
-    }
-  ],
-  "special_notes": "Must-do: Maintain exact 3:4 aspect ratio for all product image containers to preserve the editorial feel. Must-do: Use #F3F4F6 for all placeholder elements to distinguish from white background. Must-not: Use any shadows or rounded corners larger than 2px. Must-not: Use saturated colors; even the 'Color' filters should remain neutral unless specific brand colors are required."
-}
-```
-
----
-
-## 88. Cream & Sky Playful SaaS Pricing
+## 64. Cream & Sky Playful SaaS Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/cream-and-sky-playful-saas-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm, friendly light-mode SaaS pricing page on a cream paper canvas with sky-blue accents, serif display type, rounded cards, a monthly/yearly toggle, and a highlighted middle tier.
@@ -11599,7 +7410,7 @@ A warm, friendly light-mode SaaS pricing page on a cream paper canvas with sky-b
 
 ---
 
-## 89. Editorial Crimson Dev-Tool Pricing
+## 65. Editorial Crimson Dev-Tool Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-crimson-dev-tool-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light, serif-accented SaaS pricing page on white with a single crimson accent, audience segmented tabs, a monthly/annual toggle, and a 4-tier grid with one elevated 'most popular' card.
@@ -11610,7 +7421,7 @@ A light, serif-accented SaaS pricing page on white with a single crimson accent,
 
 ---
 
-## 90. Card Grid Browse
+## 66. Card Grid Browse
 `Mobile Apps` · `General` · 6 copies · [try live](https://superdesign.dev/library/card-grid-browse?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A sophisticated, mobile-first product browsing layout emphasizing whitespace, clean typography, and a stable 2-column grid. The design utilizes a monochrome base with slate-toned neutrals to create a high-end 'boutique' feel, prioritizing product imagery and effortless navigation. Suitable for premium furniture, fashion, architecture, or design-focused platforms.
@@ -11657,7 +7468,7 @@ A sophisticated, mobile-first product browsing layout emphasizing whitespace, cl
 
 ---
 
-## 91. Acid-Yellow Neo-Brutalist Mega Footer
+## 67. Acid-Yellow Neo-Brutalist Mega Footer
 `Forms & Contact` · `General` · 1 copies · [try live](https://superdesign.dev/library/acid-yellow-neo-brutalist-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Neo-brutalist acid-yellow mega footer with hard offset shadows, a giant hollow-stroke wordmark, a marquee, three link columns, and a newsletter card.
@@ -11668,7 +7479,7 @@ Neo-brutalist acid-yellow mega footer with hard offset shadows, a giant hollow-s
 
 ---
 
-## 92. Validar — Forms that catch mistakes before they cost you
+## 68. Validar — Forms that catch mistakes before they cost you
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/validar-forms-that-catch-mistakes-before-they-cost-you?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A teal-on-paper SaaS landing page for an inline form-validation tool: a sticky glass nav, a split hero with a live account-creation card showing all four field states (idle, active, valid, error) at once, a four-up state-model band, a dark-teal 'submit unlocks itself' section, a benefit grid, and a footer. Color + icon + plain-words validation, Inter, soft layered shadows.
@@ -11679,7 +7490,7 @@ A teal-on-paper SaaS landing page for an inline form-validation tool: a sticky g
 
 ---
 
-## 93. Champagne Noir Paywall
+## 69. Champagne Noir Paywall
 `Pricing Pages` · `General` · 0 copies · [try live](https://superdesign.dev/library/champagne-noir-paywall-65a2fd?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A premium dark subscription paywall: champagne/gold accents on near-black, an italic-serif value headline, a Free-vs-Pro feature table, a yearly(best-value)/monthly plan toggle, and a gold "Start free trial" CTA.
@@ -11712,61 +7523,7 @@ A premium dark subscription paywall: champagne/gold accents on near-black, an it
 
 ---
 
-## 94. Compact Control Grid
-`Mobile Apps` · `General` · 11 copies · [try live](https://superdesign.dev/library/compact-control-grid?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A dense arrangement of controls using grids and grouped sections. Prioritizes scanability and speed over storytelling.
-
-Best Suitable For
-Utilities, device controllers, system tools, internal apps.
-
-```text
-{
-  "summary": "A sophisticated mobile-first design system optimized for high information density. It utilizes a 2-column modular grid for core controls, a horizontal 'scene' toggle strip for quick state changes, and a detailed activity log for historical data, all anchored by a clean, system-level status header.",
-  "style": {
-    "description": "Modern high-density aesthetic using the 'Satoshi' font family for crisp readability. The palette is grounded in Slate neutrals (#F2F4F6 background, #1E293B text) with semantic colors for status: Emerald for active/safe (#10B981), Orange for heating/warning (#F97316), and Yellow for lights (#FACC15). Elements use a consistent 16px (2xl) border radius, subtle 1px borders, and micro-interactions like 0.98x scale-down on press.",
-    "prompt": "### Visual Style Guide\n- **Typography**: Primary font 'Satoshi'. Headers: 14px bold leading-tight. Subtext/Secondary: 10px-12px medium/bold. Use uppercase with 0.1em tracking for section headers.\n- **Color Palette**:\n  - Background: #F2F4F6\n  - Primary Text: #1E293B (Slate 800)\n  - Secondary Text: #64748B (Slate 500)\n  - Semantic Accents: Emerald (#10B981), Orange (#F97316), Yellow (#FACC15), Blue (#2563EB), Indigo-to-Purple Gradient (#6366F1 to #9333EA).\n- **Borders & Shadows**: 1px solid #E2E8F0 (Slate 200) or #F1F5F9 (Slate 100). Subtle shadow-sm for cards.\n- **Rounding**: 16px (2xl) for cards and modular blocks; pill-shaped (full) for toggles and status chips.\n- **Animations**: \n  - Micro-interaction: `transform: scale(0.98)` on active state (100ms duration).\n  - Pulse: Red dot (#EF4444) for live indicators.\n  - Music Visualizer: 3 vertical bars with staggered infinite bounce animations."
-  },
-  "layout_and_structure": {
-    "description": "A vertically stacked mobile layout consisting of a fixed-width container with three primary zones: a system status header, a scrollable main dashboard, and a bottom navigation bar.",
-    "prompts": [
-      {
-        "part": "Header & Status Strip",
-        "prompt": "Top-aligned fixed header (pt-14, pb-4, px-5) on white background. Includes a left-aligned status block (32px icon circle + 2-line text) and a right-aligned environmental block with vertical dividers. Below this, a horizontal scrollable container (`overflow-x-auto`) featuring pill-shaped 'Scene' buttons. Active buttons are #0F172A with white text; inactive are #F1F5F9 with a thin border."
-      },
-      {
-        "part": "Control Grid",
-        "prompt": "A 2-column CSS grid with a 12px (3 units) gap. Each cell contains a 'Control Card' with a fixed height of 128px (32 units). Layout within cards: top-left icon circle (40px), optional top-right status indicator (text or dot), and bottom-aligned labels (14px title + 12px status subtext)."
-      },
-      {
-        "part": "Activity Log",
-        "prompt": "Full-width section with a white background and 16px border-radius. Items are arranged in rows with a 48px width time-column (formatted as two lines: 10:00 / AM), followed by a 1px vertical divider, a title/subtitle center block, and a right-aligned status icon circle (32px)."
-      },
-      {
-        "part": "Navigation Bar",
-        "prompt": "Sticky bottom footer with white background and a top border (#E2E8F0). Grid layout with 4 columns. Each item: 20px icon centered vertically over 10px bold text. Use high-contrast color for the active state and Slate 400 for inactive."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Media Control Card",
-      "description": "Vibrant gradient card with a mini-visualizer.",
-      "prompt": "A 128px height card with a linear gradient from #6366F1 to #9333EA. Top-left: 32px white icon circle at 20% opacity. Top-right: 3 vertical white bars (2px width, variable heights 8px-16px) with staggered bounce animations. Text at bottom: White 14px bold title, 12px medium subtitle at 90% opacity."
-    },
-    {
-      "component": "Live Camera Card",
-      "description": "Dark-themed card with live recording indicator.",
-      "prompt": "A 128px height card with a #1E293B background. Top-left: A 8px red dot (#EF4444) with a slow infinite pulse. Background contains a large, low-opacity centered icon (e.g., camera). Bottom: A black-to-transparent gradient overlay with white 14px bold text for the location label."
-    }
-  ],
-  "special_notes": "MUST: Maintain tight spacing (12px gap in grids) to achieve 'dense' feel. MUST: Use high-contrast between headers and subtext (Bold 14px vs Medium 10px). DO NOT: Use standard 16px body text as it breaks the information density. MUST: Include a scale-down effect on every clickable modular card for tactile feedback."
-}
-```
-
----
-
-## 95. Foundry: Your SaaS Site, Designed Before You Write a Line
+## 70. Foundry: Your SaaS Site, Designed Before You Write a Line
 `Landing Pages` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/foundry-your-saas-site-designed-before-you-write-a-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm editorial SaaS landing page on cream paper: big Fraunces serif headline with a terracotta italic highlight, a split hero with a dark infinite-canvas product mock, staggered feature cards, a real-reference library showcase, a pull quote, a dark palette/craft story, three-tier pricing, and an olive CTA banner.
@@ -11777,7 +7534,7 @@ A warm editorial SaaS landing page on cream paper: big Fraunces serif headline w
 
 ---
 
-## 96. Loam — Warm Earthy Organic Agency Website
+## 71. Loam — Warm Earthy Organic Agency Website
 `Portfolios` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/loam-warm-earthy-organic-agency-website?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Warm earthy organic agency / studio website: sand + terracotta palette, Fraunces serif display type, organic leaf-blob shapes, sticky blurred nav, project-card grid, numbered services list, and a terracotta contact block with a mock prompt form.
@@ -11788,7 +7545,7 @@ Warm earthy organic agency / studio website: sand + terracotta palette, Fraunces
 
 ---
 
-## 97. Landing Page / Real-Estate
+## 72. Landing Page / Real-Estate
 `Landing Pages` · `General` · 30 copies · [try live](https://superdesign.dev/library/landing-page-real-estate?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Different layout structure for best converting real-estate companies
@@ -12554,7 +8311,7 @@ Agent must NOT reveal internal score unless explicitly asked.
 
 ---
 
-## 98. Ink & Acid Mono Sitemap Footer
+## 73. Ink & Acid Mono Sitemap Footer
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/ink-and-acid-mono-sitemap-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A near-black ink footer with acid-green accents and mono labels: four link columns, a newsletter, a live status pill, and a giant ghost wordmark.
@@ -12565,7 +8322,7 @@ A near-black ink footer with acid-green accents and mono labels: four link colum
 
 ---
 
-## 99. Editorial Violet SaaS Pricing Matrix
+## 74. Editorial Violet SaaS Pricing Matrix
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-violet-saas-pricing-matrix?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light, editorial SaaS pricing page led by a full-width grouped comparison matrix with a sticky 3-plan header, electric-violet accent, and a monthly/annual toggle.
@@ -12576,75 +8333,7 @@ A light, editorial SaaS pricing page led by a full-width grouped comparison matr
 
 ---
 
-## 100. Enterprise Admin Platform
-`Landing Pages` · `SaaS` · 363 copies · [try live](https://superdesign.dev/library/enterprise-admin-platform?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Enterprise Admin Platform is a professional, high-trust landing page design for corporate B2B SaaS, fintech, and infrastructure tools. It features a muted corporate color palette (whites, deep slates, and technical blues), a structured grid-based layout, and a focus on operational control and security. Key elements include a high-fidelity dashboard preview, KPI count-up animations, and a glass-morphism navigation bar. Suitable for enterprise management systems, cybersecurity platforms, and developer infrastructure tools.
-
-```text
-{
-  "summary": "A clean, authoritative enterprise admin landing page using a strict grid layout, technical typography (Satoshi), and a professional color scheme of slate and primary blue. Features include a dashboard UI preview, audit log tables, and security policy management components, all enhanced by subtle fadeInUp animations and glass-morphism effects.",
-  "style": {
-    "description": "The style is 'Corporate Professional' with a focus on legibility and scale. It uses the Satoshi font family (weights 400-900) for a neutral but modern feel. The palette relies on Slate 950 (#020617) for dark backgrounds and Blue 600 (#2563eb) for actions. Micro-interactions include 0.8s ease-out fades, 12px backdrop blurs for nav panels, and scale transitions on feature cards. Borders are subtle (#e2e8f0) and layout follows a 40px grid system.",
-    "prompt": "Create a design with a professional enterprise aesthetic. \n- **Typography**: Use 'Satoshi' sans-serif. Headers should be Bold/ExtraBold with tight tracking (-0.02em). Body text in Slate 500/600 with 1.625 line-height.\n- **Colors**: Primary: #2563eb, Deep Slate: #151e2e, Background: #ffffff, Muted BG: #f8fafc. Accents: Success (#16a34a), Warning (#d97706), Error (#dc2626).\n- **Borders & Radius**: Border-radius 12px for cards, 8px for buttons. Borders should be 1px solid #e2e8f0.\n- **Effects**: Navigation uses a 'glass-panel' effect: background rgba(255, 255, 255, 0.7) with 12px backdrop-filter blur. Hero background uses a 40px x 40px gray grid line pattern.\n- **Animations**: Implement 'fadeInUp' (0.8s duration, 20px offset) for section reveals. Use cubic-bezier(0.4, 0, 0.2, 1) for all hover transitions."
-  },
-  "layout_and_structure": {
-    "description": "The layout follows a predictable, top-down enterprise narrative: Navigation -> Hero with Product Visual -> Social Proof -> Core Modules -> Quantifiable Impact (Stats) -> Security Proof -> FAQ -> CTA -> Detailed Footer.",
-    "prompts": [
-      {
-        "part": "Navigation",
-        "prompt": "Fixed header at top, 64px height. Left-aligned logo with a #020617 square icon. Center-aligned nav links (Platform, Solutions, Security) in text-sm font-medium Slate 600. Right-aligned 'Book Demo' button in Slate 900 background with white text."
-      },
-      {
-        "part": "Hero Section",
-        "prompt": "Centered layout with 128px top padding. A pill-shaped badge at the top (#eff6ff) with a pulsing green status dot. Title in 72px bold text-slate-900. Two primary CTAs: a blue primary button with right-arrow icon and a white outline button with play-circle icon. Background features a faint 40px grid overlay."
-      },
-      {
-        "part": "Dashboard Preview",
-        "prompt": "A max-width 1152px container showing a simulated browser window. Include a browser top-bar with three dots and a URL bar. The internal UI consists of a 256px sidebar (Slate 50), a header with system status indicators, a 3-column stats row (e.g., Active Users, API Requests), and a detailed data table. Table rows must show hover states with light blue background (#eff6ff)."
-      },
-      {
-        "part": "Module Grid",
-        "prompt": "3-column grid layout for core features. Each card has a 12px radius, light gray border, and a subtle icon in a tinted square box (e.g., Blue for Users, Emerald for Security). On hover, cards transition to white background with a soft shadow (shadow-xl shadow-slate-200/50)."
-      },
-      {
-        "part": "Stats Section",
-        "prompt": "Full-width section with background #020617. Features a decorative background of concentric white circles with 10% opacity. Display four major KPIs with a count-up animation script. Numbers in #60a5fa (Primary 400), labels in uppercase Slate 400."
-      },
-      {
-        "part": "Security UI Section",
-        "prompt": "Split 2-column layout. Left: Checklist of certifications (SOC2, GDPR) with blue check-circle icons. Right: A 'Policy Toggle' card showing active/inactive switches for security protocols like MFA, IP Whitelisting, and Key Rotation. Include an overlapping 'Threat Blocked' alert card in Slate 800 for depth."
-      },
-      {
-        "part": "Enterprise Footer",
-        "prompt": "6-column structure. Left-most 2 columns for logo, location, and social icons. Remaining 4 columns for Product, Resources, Company, and Legal link lists. Bottom bar includes copyright and a 'System Status' indicator with a green pulsing dot."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "KPI Count-up",
-      "description": "Animated numbers that count from zero to the target value when entering the viewport.",
-      "prompt": "Use an IntersectionObserver to trigger a 2000ms animation. Use an ease-out quartic function: 1 - Math.pow(1 - progress, 4). Format integers without decimals and percentages to 2 decimal places."
-    },
-    {
-      "component": "Audit Log Table",
-      "description": "High-density information table with status badges.",
-      "prompt": "A table component with sticky header. Rows feature a 0.2s transition-color background on hover. Use status badges: Success (Green-100/800), Warning (Yellow-100/800), Failed (Red-100/800). Time columns must be right-aligned and text-slate-400."
-    },
-    {
-      "component": "Glass-Morphism Toggle",
-      "description": "Operational switch used for security policy simulations.",
-      "prompt": "A 40px width pill-shaped toggle. Track color #2563eb for 'On'. The thumb is a white circle with shadow-sm, positioned 4px from the edge. Include a 'just-in-time' hover effect that slightly glows the track."
-    }
-  ],
-  "special_notes": "MUST: Maintain a strict vertical rhythm with 128px spacing between major sections. MUST: Use only grayscale and primary blue for main UI, reserving colors like green/red strictly for status indicators. MUST NOT: Use rounded corners larger than 12px for structural elements. MUST NOT: Use heavy gradients; keep all surfaces flat or slightly glass-morphic."
-}
-```
-
----
-
-## 101. Editorial SaaS Onboarding
+## 75. Editorial SaaS Onboarding
 `Onboarding` · `SaaS` · 16 copies · [try live](https://superdesign.dev/library/editorial-saas-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial SaaS onboarding experience featuring a calm, sophisticated aesthetic. It uses a muted warm stone palette with terracotta accents, high-contrast serif headlines (Crimson Pro) paired with clean sans-serif UI text (Inter). The layout follows a natural document flow within a product shell, avoiding scroll-locks or overlays. Suitable for premium B2B SaaS, design tools, publishing platforms, and luxury fintech applications that prioritize a confident, professional, and non-intrusive user experience.
@@ -12703,7 +8392,7 @@ An editorial SaaS onboarding experience featuring a calm, sophisticated aestheti
 
 ---
 
-## 102. Design at the Speed of Thought — Editorial Split Sign-Up
+## 76. Design at the Speed of Thought — Editorial Split Sign-Up
 `Auth & Login` · `SaaS` · 1 copies · [try live](https://superdesign.dev/library/design-at-the-speed-of-thought-editorial-split-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial, magazine-style sign-up screen built as a full split-screen landing: a sticky translucent cream nav over a two-pane main. The LEFT is an oversized Fraunces-serif brand panel on a textured deep-burgundy ground (film grain, faint concentric arcs, a soft bloom) with an 'Issue 06 . The Design Agent' eyebrow, a 'Design at the speed of thought.' display headline (italic 'speed'), a value paragraph and a pull-quote testimonial with an initials avatar plus a three-icon feature row. The RIGHT is a near-black ink account-creation column: a 'Start designing, free.' heading, Google + GitHub OAuth buttons above an 'or with email' divider, white burgundy-focus-ring email + password fields (an eye toggle + a four-segment strength meter) and a burgundy 'Create account' CTA. Below the split: a full-bleed cream 'Trusted in the studios shipping fastest' proof strip and a dark ink FAQ/footer accordion. Cream + burgundy + ink palette, Fraunces serif + Inter.
@@ -12714,7 +8403,7 @@ An editorial, magazine-style sign-up screen built as a full split-screen landing
 
 ---
 
-## 103. Swiss Grid Agency Layout
+## 77. Swiss Grid Agency Layout
 `Portfolios` · `Agency & Studio` · 1 copies · [try live](https://superdesign.dev/library/swiss-grid-agency-layout?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A Swiss / International-Typographic-Style agency homepage on a strict 12-column grid: pure black ink #0a0a0a on paper white #ffffff with one electric cobalt #1f4fff accent, a sticky paper nav with an ink hairline, an editorial index row over a 2px cobalt rule, a giant disciplined 'AGENCY SITES.' display headline (Inter) with a 2x2 stat block, an inverted black auto-scroll marquee of disciplines, a numbered Selected-Work index list with hover-cobalt titles and a nudging out-arrow, a 4-up hairline services grid (4th card inverted to solid cobalt), a large studio statement, a giant mailto contact line, and a 3-up hairline footer. JetBrains Mono micro-labels index every section.
@@ -12725,7 +8414,7 @@ A Swiss / International-Typographic-Style agency homepage on a strict 12-column 
 
 ---
 
-## 104. Create your account · Promptly — split-image emerald sign-up
+## 78. Create your account · Promptly — split-image emerald sign-up
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/create-your-account-promptly-split-image-emerald-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A two-column desktop sign-up page: focused email + Google/GitHub social form on a bright white left half, dark emerald 'brand-mesh' panel with a floating product mock and testimonial on the right; sticky translucent nav, Inter, slate neutrals with a single emerald accent.
@@ -12736,7 +8425,7 @@ A two-column desktop sign-up page: focused email + Google/GitHub social form on 
 
 ---
 
-## 105. Laboratory Skincare
+## 79. Laboratory Skincare
 `E-commerce` · `Health & Wellness` · 89 copies · [try live](https://superdesign.dev/library/laboratory-skincare?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Laboratory Skincare is a warm academic, methodical design system inspired by research journals and clinical lab notebooks. It features a grid-based, disciplined layout with generous white space and a restrained color palette of off-whites, warm grays, and soft blacks. Ideal for medical-grade skincare, high-tech beauty, pharmaceutical brands, or scientific SaaS, the design focuses on data-driven trust, factual evidence, and structural clarity over luxury tropes. Key features include tabular data presentation, formula sheets, and a 'Protocol' approach to content organization.
@@ -12799,115 +8488,7 @@ Laboratory Skincare is a warm academic, methodical design system inspired by res
 
 ---
 
-## 106. Minimalist Checkout
-`E-commerce` · `E-commerce & Retail` · 1 copies · [try live](https://superdesign.dev/library/minimalist-checkout?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A distraction-free, single-column checkout that removes visual competition and guides users step-by-step. Order summary is minimized or collapsible to keep attention on form completion.
-
-Best suited for
-Mobile-first stores, impulse purchases, low-priced items, audiences with short attention spans.
-
-```text
-{
-  "summary": "A distraction-free, linear checkout experience focused on visual clarity and functional simplicity. It utilizes a centered 520px column, a step-based progression indicated by numbered badges, and a collapsible summary to keep the user focused on data entry.",
-  "style": {
-    "description": "Monochrome and minimalist aesthetic. Typography uses 'General Sans' for headings and 'Satoshi' for body text, creating a clean, modern look. The palette is restricted to #000000 (Black), #FFFFFF (White), and various shades of neutral gray for borders and backgrounds. Inputs are understated with #F9FAFB backgrounds and 1px borders. Animations are subtle, including smooth opacity shifts and a 0.99 scale transform on button clicks.",
-    "prompt": "Create a design with a minimalist monochrome palette: Background #FFFFFF, Inputs #F9FAFB, Text #111827, and Accents #000000. Use 'General Sans' for headings (weights 500, 600) and 'Satoshi' for body. Headers should be 20px with tracking-tight. Form labels must be 12px, uppercase, tracking-wide, using #6B7280. Inputs should have a 1px border (#E5E7EB), a 2px border-radius, and 12px 16px padding. Active states use #000000 borders and rings. Inactive sections are styled with 40% opacity and grayscale filters. Buttons are solid black (#000000) with white text, 16px vertical padding, and a 0.99 scale transform on click."
-  },
-  "layout_and_structure": {
-    "description": "Centered single-column layout (max-width 520px) with a vertical flow. The page starts with a clean header, followed by stacked sections for shipping, payment, and review. Inactive steps are visually dimmed to focus user attention. A collapsible order summary is positioned above the final CTA.",
-    "prompts": [
-      {
-        "part": "Header",
-        "prompt": "Create a header with a bottom border (#F3F4F6). Include a 20px font-weight 600 title with a 24px icon on the left. On the right, place a 'Step X of X' indicator in 10px uppercase tracking-wider text (#9CA3AF)."
-      },
-      {
-        "part": "Step Sections",
-        "prompt": "Each section starts with an 18px medium-weight title. Include a numbered circular badge (24x24px). If active, the badge is black with white text; if inactive, it is white with a gray border. Inactive sections must have 'opacity: 0.4', 'filter: grayscale(1)', and 'pointer-events: none'."
-      },
-      {
-        "part": "Shipping Form",
-        "prompt": "Two-column grid layout for name fields and ZIP/City, while email and address occupy full width. Gap between grid items is 16px. Labels are positioned above inputs with a 6px margin."
-      },
-      {
-        "part": "Collapsible Order Summary",
-        "prompt": "A 'details' element styling. The summary row has a top/bottom border (#F3F4F6), 14px font size, and a chevron icon that rotates 180 degrees when open. The expanded content shows 64x64px product thumbnails with light gray backgrounds (#F3F4F6), item titles in 14px medium, and sub-details in 12px gray text."
-      },
-      {
-        "part": "Footer CTA",
-        "prompt": "A full-width primary button (#000000) with white text and an arrow icon. Below the button, include a small 10px lock icon and 'Secured' text centered in #9CA3AF."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Numbered Progress Badge",
-      "description": "A 24px circular indicator used for step navigation.",
-      "prompt": "Design a 24x24px circle. For active steps: background #000000, text #FFFFFF, font-size 12px, font-weight bold, flexbox centering. For inactive: background transparent, border 1px solid #D1D5DB, text #9CA3AF."
-    },
-    {
-      "component": "Minimalist Input Field",
-      "description": "Ultra-clean form input with top-aligned labels.",
-      "prompt": "Label: 12px, uppercase, color #6B7280, tracking 0.05em. Input: background #F9FAFB, border 1px solid #E5E7EB, border-radius 2px, padding 12px 16px, font-size 14px. Focus state: border-color #000000, ring 1px #000000."
-    }
-  ],
-  "special_notes": "Do not use vibrant colors; stick strictly to the monochrome scale. Ensure all interactive elements have a transition of at least 200ms for border-color and opacity changes. The layout must remain centered and narrow even on wide screens to maintain the focused 'wireframe' feel."
-}
-```
-
----
-
-## 107. Magic Link Confirmation
-`Auth & Login` · `General` · 0 copies · [try live](https://superdesign.dev/library/magic-link-confirmation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A centered, message-driven layout designed to reassure users after initiating email-based authentication. Minimal actions and generous whitespace create a calm, waiting-state experience.
-
-```text
-{
-  "summary": "A clean, mobile-centric 'Check your email' confirmation page with soft UI elements, neutral tones, and elegant entrance animations designed to reassure the user during authentication.",
-  "style": {
-    "description": "The style is defined by its 'calm minimal' approach. It uses the Switzer typeface for a modern geometric feel, a neutral Slate-based color palette (#0F172A for headings, #64748B for body text), and subtle depth through soft shadows and rounded corners (24px for cards). Animations are smooth, utilizing cubic-bezier curves for organic motion.",
-    "prompt": "Create a minimalist light-theme UI using the Switzer font family. Color Palette: Background #FFFFFF with a subtle top-to-bottom gradient from #F8FAFC to transparent; Headings and Primary text #0F172A; Body text #64748B; Accents #10B981 (Emerald). Typography: Heading 1 at 24px font-size, font-weight 600, tight tracking; Body text at 15px, leading-relaxed; Secondary text at 12px-14px. Components should have high border-radius (rounded-xl 12px and rounded-3xl 24px). Use extremely soft shadows: shadow-[0_8px_30px_rgb(0,0,0,0.04)]. Implementation includes a fadeInUp animation (0.8s, cubic-bezier(0.16, 1, 0.3, 1)) and a gentle 5px floating animation for central icons."
-  },
-  "layout_and_structure": {
-    "description": "A single-column, vertically centered layout designed for mobile screens, structured into a fixed header, a flexible centered content area, and a bottom-aligned footer.",
-    "prompts": [
-      {
-        "part": "Header",
-        "prompt": "A thin header section (approx 56px height) with 24px horizontal padding. Includes a single circular back button (40x40px) on the left using a Lucide 'arrow-left' icon in #94A3B8. On hover, the button should transition to a background of #F8FAFC and icon color #0F172A."
-      },
-      {
-        "part": "Hero Content Area",
-        "prompt": "Centrally aligned container. Top element: A 96x96px (rounded-3xl) soft-card in #F8FAFC with a 1px #F1F5F9 border, containing a 'mail-open' icon in #1E293B. A small 32x32px circular badge with a green checkmark sits at the top-right corner of the card. Below the icon, place a text stack: H1 'Check your mail' followed by a body paragraph mentioning the user's email address in semi-bold."
-      },
-      {
-        "part": "Information Divider",
-        "prompt": "A small horizontal separator (48px width, 1px height) in #E2E8F0 followed by a secondary helper text section. The helper text includes a small Lucide 'info' icon paired with 12px text in #94A3B8, centered with a maximum width of 260px."
-      },
-      {
-        "part": "Footer Actions",
-        "prompt": "Bottom-aligned footer with 24px horizontal padding and 34px bottom padding (safe area). Contains a vertical stack: a 'Did not receive email?' prompt in 14px #94A3B8, a primary resend button (full width, 48px height, rounded-xl, #F8FAFC background, #F1F5F9 border), and a tertiary text link 'Used wrong email?' at 12px font-size."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Animated Resend Button",
-      "description": "A secondary CTA button with a rotating icon on hover.",
-      "prompt": "A button styled with #F8FAFC background and 1px #F1F5F9 border. It features a Lucide 'refresh-cw' icon. When hovered, the icon should rotate 180 degrees over 500ms. On active click, the entire button should scale to 95% (active:scale-95)."
-    },
-    {
-      "component": "Floating Icon Container",
-      "description": "A central visual element that uses a slow floating animation to create a 'calm' vibe.",
-      "prompt": "A 96px squircle container (rounded-3xl) with a soft shadow and subtle border. Apply a CSS animation 'float' that moves the component -5px on the Y-axis and back to 0 over 6 seconds with an ease-in-out timing function."
-    }
-  ]
-}
-```
-
----
-
-## 108. AI System Configuration Console
+## 80. AI System Configuration Console
 `Dashboards` · `Dev Tools` · 32 copies · [try live](https://superdesign.dev/library/ai-system-configuration-console?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-fidelity AI configuration console and operating-system style interface. Features a dark slate and acid green color palette, monospaced typography, and a technical grid-based layout. Designed for SaaS backends, developer tools, AI management platforms, and cybersecurity dashboards. Includes a system canvas with nodes, a detailed inspector sidebar, terminal-style live outputs, and mechanical-inspired UI components like square range sliders and binary toggle switches.
@@ -12988,7 +8569,7 @@ Responsive: Fluid layout with 8px grid unit. Left panel (65%) canvas + right pa
 
 ---
 
-## 109. Midnight Navy Fintech Pricing
+## 81. Midnight Navy Fintech Pricing
 `Pricing Pages` · `Finance & Crypto` · 1 copies · [try live](https://superdesign.dev/library/midnight-navy-fintech-pricing-656a6d?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A deep-navy, teal-accented SaaS/fintech pricing page with a sticky blurred nav, monthly/annual toggle, and a glowing 'Most popular' middle tier across three cards.
@@ -12999,7 +8580,7 @@ A deep-navy, teal-accented SaaS/fintech pricing page with a sticky blurred nav, 
 
 ---
 
-## 110. Minimalist Wireframe Login
+## 82. Minimalist Wireframe Login
 `Auth & Login` · `General` · 8 copies · [try live](https://superdesign.dev/library/minimalist-wireframe-login?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-contrast, minimalist mobile login wireframe optimized for thumb reach and ergonomic ergonomics. It features a slate-heavy palette, industrial-style grid textures, and clean 'General Sans' typography. Suitable for SaaS dashboard entry, fintech authentication, developer tools, and high-end enterprise mobile applications requiring a professional, focus-oriented interface.
@@ -13046,7 +8627,7 @@ A high-contrast, minimalist mobile login wireframe optimized for thumb reach and
 
 ---
 
-## 111. Editorial Feature Announcement
+## 83. Editorial Feature Announcement
 `Other` · `AI & Tech` · 16 copies · [try live](https://superdesign.dev/library/editorial-feature-announcement?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-end technical editorial design system tailored for feature announcements, changelogs, and whitepapers. It features a sophisticated 'paper and ink' color palette (#F7F5F0 background), high-contrast typography pairing (Fraunces serif and Inter sans), and an asymmetric 12-column grid layout. Suitable for developer tools, fintech, research institutions, and SaaS companies that prioritize credibility and deep readability. The style emphasizes content hierarchy through vertical reading rhythms, monospace technical markers, and minimal visual noise.
@@ -13117,66 +8698,7 @@ A high-end technical editorial design system tailored for feature announcements,
 
 ---
 
-## 112. Hero + Sticky Action Detail
-`Mobile Apps` · `General` · 7 copies · [try live](https://superdesign.dev/library/hero-sticky-action-detail?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Features a fixed action bar with safe-area anchoring, 4:5 hero visuals, and subtle glassmorphism effects on floating elements. Ideal for luxury retail, furniture showcases, editorial commerce, and minimalist lifestyle apps.
-
-```text
-{
-  "summary": "A sophisticated mobile product detail wireframe using a clean, monochromatic design language. It utilizes strong typographic weights, architectural spacing, and a persistent bottom action bar to drive conversions while maintaining a premium, airy aesthetic.",
-  "style": {
-    "description": "The style is defined by its 'Satoshi' sans-serif typography, ranging from extra-bold headers to wide-tracked uppercase tags. The color palette is strictly grayscale (using Tailwind's gray-50 through gray-900) with a focus on tactile interaction through subtle scale transforms and backdrop blurs. Shadows are minimal, relying instead on 1px borders (#E5E7EB) and background shifts for depth.",
-    "prompt": "Create a design system using the 'Satoshi' font family. Use a grayscale color palette: White (#FFFFFF), Ghost White (#F9FAFB), Platinum (#E5E7EB), Slate Gray (#71717A), and Onyx (#111827). Typography: Headers use 700-900 weight with tight tracking (-0.025em), labels use 500 weight with wide tracking (0.1em). Corners should be rounded with '2xl' (16px) or 'full' radius. Apply backdrop-filter: blur(12px) to fixed elements. Animations should use 'active:scale-95' for haptic feedback and cubic-bezier(0.4, 0, 0.2, 1) for transitions."
-  },
-  "layout_and_structure": {
-    "description": "A vertical scrollable container with a fixed top navigation and a sticky bottom action bar. The content flows from a large visual hero into a structured information hierarchy.",
-    "prompts": [
-      {
-        "part": "Fixed Navigation",
-        "prompt": "An absolute positioned header (z-index 20) with 56px top padding (safe area). Contains two floating circular buttons (44px diameter) with #FFFFFF/80 background and 4px backdrop-blur. One left-aligned back arrow and one right-aligned share icon."
-      },
-      {
-        "part": "Hero Section",
-        "prompt": "A full-width 4:5 aspect ratio image container. Background color #F3F4F6. Include a centered pagination indicator at the bottom (32px from edge) consisting of 8px circular dots with one active (black) and two inactive (gray-300) states."
-      },
-      {
-        "part": "Product Header Block",
-        "prompt": "A flex-row layout with 32px top padding. Left side: uppercase 10px tracking-widest tag and a 30px bold H1. Right side: 24px bold price and a 14px rating row with a gold star icon (#EAB308)."
-      },
-      {
-        "part": "Horizontal Variant Selector",
-        "prompt": "A horizontal scrollable list of selection cards. Each card is 64px tall, min-width 140px, with 16px padding and a 12px border-radius. Active state: 2px solid #111827 border, #F9FAFB background, and a checkmark icon in a 16px black circle. Inactive state: 1px border #E5E7EB."
-      },
-      {
-        "part": "Feature Grid",
-        "prompt": "A 2-column grid with 16px gap. Each card features a 40px white circular icon container with a soft shadow, a 14px bold title, and 12px light gray description text, all housed within a #F9FAFB 16px rounded box."
-      },
-      {
-        "part": "Sticky Action Bar",
-        "prompt": "A fixed footer (z-index 30) with backdrop-blur-xl and white/90 background. 1px top border (#E5E7EB). Features a 56px circular secondary button (heart icon) and a primary 'Add to Cart' button (flex-1, 56px height, #111827 background, 18px bold white text). Must include bottom safe area padding (34px)."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Haptic Button",
-      "description": "A button that provides visual feedback on tap.",
-      "prompt": "Design a button with CSS 'transition-transform duration-200' and 'active:scale-95'. This should be applied to all interactive elements including nav circles, variant cards, and the main CTA."
-    },
-    {
-      "component": "Geometric Variant Card",
-      "description": "A rich variant selector card with visual and text cues.",
-      "prompt": "Create a 64px high card with a flex-row layout. Include a 32px circular swatch on the left, a two-line vertical text stack (10px label/14px value) in the center, and a checkmark status indicator that only appears in the active state."
-    }
-  ],
-  "special_notes": "MUST use Satoshi or a similar high-quality geometric sans-serif. MUST ensure the bottom action bar includes the iOS/Android safe area padding to prevent overlap with home indicators. DO NOT use vibrant colors; stick to the grayscale palette except for very specific functional icons (rating stars, heart). MUST use backdrop blurs for all fixed overlays to maintain the 'glass' feel."
-}
-```
-
----
-
-## 113. Modal Design · success-celebration (pastel) — legibility fixed
+## 84. Modal Design · success-celebration (pastel) — legibility fixed
 `Onboarding` · `General` · 0 copies · [try live](https://superdesign.dev/library/modal-design-success-celebration-pastel-legibility-fixed-9fbd65?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A joyful pastel success-celebration modal as the live hero centerpiece of a product page: a rounded-5xl cream dialog with an animated deep-sky checkmark badge (pulsing rings + a drawn check), a 'You're all set! 🎉' headline and a deep-sky gradient CTA, floating over a soft sky-to-cream field full of gently floating multicolor confetti, a frosted-glass sticky nav, a 3-up pattern-library grid, a starter-kit split with a stacked upgrade-dialog preview, and a dark ink CTA band. Legibility-fixed: bright sky/coral stay decorative while every text + CTA tone uses deepened >=4.5:1 variants. All Poppins, Phosphor icons.
@@ -13187,220 +8709,7 @@ A joyful pastel success-celebration modal as the live hero centerpiece of a prod
 
 ---
 
-## 114. Bottom Tab Navigation — Core App Shell
-`Mobile Apps` · `General` · 1 copies · [try live](https://superdesign.dev/library/bottom-tab-navigation-core-app-shell?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A stable bottom tab navigation system where each tab represents a top-level destination with its own navigation stack. The tab bar persists across primary screens, creating a predictable and scalable app shell.
-
-Best Suitable For
-Consumer apps, SaaS tools, marketplaces, content platforms, fintech dashboards.
-
-```text
-Here is a reference implementation:
-
-~~~html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Wireframe Navigation</title>
-  <meta name="description" content="An interactive wireframe for a mobile app with navigation and primary action states.">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-  <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-  <link href="https://api.fontshare.com/v2/css?f[]=manrope@400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Manrope', sans-serif;
-      -webkit-tap-highlight-color: transparent;
-    }
-    .no-scrollbar::-webkit-scrollbar {
-      display: none;
-    }
-    .no-scrollbar {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-    }
-    [x-cloak] { display: none !important; }
-  </style>
-</head>
-<body x-data="{ activeTab: 'browse', activeFilter: 0, isCreating: false, searchFocused: false }">
-  <div class="w-full h-screen flex flex-col bg-white overflow-hidden text-gray-900 relative">
-    
-    <!-- Safe Area / Header -->
-    <header class="pt-14 px-6 pb-4 flex items-center justify-between bg-white/95 backdrop-blur-md z-30 sticky top-0">
-      <div class="flex flex-col">
-        <div class="h-1 w-8 bg-gray-900 rounded-full mb-1 transition-all duration-300" :class="searchFocused ? 'opacity-0' : 'opacity-100'"></div>
-        <h1 class="text-2xl font-extrabold tracking-tight capitalize transition-all" x-text="activeTab">Browse</h1>
-      </div>
-      <button id="profile-btn" class="h-10 w-10 rounded-full bg-gray-100 border border-gray-200 flex items-center justify-center overflow-hidden hover:bg-gray-200 active:scale-90 transition-all">
-        <iconify-icon icon="lucide:user" class="text-gray-400 text-xl"></iconify-icon>
-      </button>
-    </header>
-
-    <!-- Main Content Area (Scrollable) -->
-    <main class="flex-1 overflow-y-auto no-scrollbar px-6 pb-32">
-      
-      <!-- Search Wireframe -->
-      <div class="mt-2 mb-8 relative">
-        <div class="h-12 w-full bg-gray-50 border transition-all duration-300 rounded-xl flex items-center px-4 gap-3"
-             :class="searchFocused ? 'border-gray-900 ring-4 ring-gray-900/5 bg-white' : 'border-gray-200'">
-          <iconify-icon icon="lucide:search" class="transition-colors duration-300" :class="searchFocused ? 'text-gray-900' : 'text-gray-400'"></iconify-icon>
-          <input type="text" 
-                 @focus="searchFocused = true" 
-                 @blur="searchFocused = false" 
-                 placeholder="Search everything..."
-                 class="w-full bg-transparent border-none focus:ring-0 text-sm font-medium placeholder-gray-400 text-gray-900 outline-none">
-        </div>
-      </div>
-
-      <!-- Filter Tabs -->
-      <div class="flex gap-3 overflow-x-auto pb-6 no-scrollbar">
-        <template x-for="(filter, index) in ['Featured', 'Recent', 'Following', 'Saved']">
-          <button @click="activeFilter = index" 
-                  :class="activeFilter === index ? 'bg-gray-900 text-white' : 'border border-gray-200 text-gray-400 hover:border-gray-300'"
-                  class="shrink-0 h-9 px-6 rounded-full flex items-center transition-all active:scale-95">
-            <span class="text-xs font-bold tracking-wide" x-text="filter"></span>
-          </button>
-        </template>
-      </div>
-
-      <!-- Masonry Grid Content -->
-      <div class="grid grid-cols-2 gap-4">
-        <!-- Column 1 -->
-        <div class="flex flex-col gap-4">
-          <div class="aspect-[4/5] w-full bg-gray-100 rounded-2xl p-4 flex flex-col justify-end border border-transparent hover:border-gray-200 active:scale-[0.98] transition-all cursor-pointer group">
-            <div class="h-3 w-3/4 bg-gray-300 rounded-sm mb-2 group-hover:bg-gray-400 transition-colors"></div>
-            <div class="h-2 w-1/2 bg-gray-200 rounded-sm"></div>
-          </div>
-          <div class="aspect-[1/1] w-full bg-gray-100 rounded-2xl p-4 flex flex-col justify-end border border-transparent hover:border-gray-200 active:scale-[0.98] transition-all cursor-pointer group">
-            <div class="h-3 w-2/3 bg-gray-300 rounded-sm mb-2 group-hover:bg-gray-400 transition-colors"></div>
-            <div class="h-2 w-1/3 bg-gray-200 rounded-sm"></div>
-          </div>
-        </div>
-        
-        <!-- Column 2 -->
-        <div class="flex flex-col gap-4">
-          <div class="aspect-[3/4] w-full bg-gray-100 rounded-2xl p-4 flex flex-col justify-end border border-transparent hover:border-gray-200 active:scale-[0.98] transition-all cursor-pointer group">
-            <div class="h-3 w-full bg-gray-300 rounded-sm mb-2 group-hover:bg-gray-400 transition-colors"></div>
-            <div class="h-2 w-2/3 bg-gray-200 rounded-sm"></div>
-          </div>
-          <div class="aspect-[4/5] w-full bg-gray-100 rounded-2xl p-4 flex flex-col justify-end border border-transparent hover:border-gray-200 active:scale-[0.98] transition-all cursor-pointer group">
-            <div class="h-3 w-1/2 bg-gray-300 rounded-sm mb-2 group-hover:bg-gray-400 transition-colors"></div>
-            <div class="h-2 w-1/2 bg-gray-200 rounded-sm"></div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <!-- Primary Action Overlay -->
-    <div x-show="isCreating" 
-         x-cloak
-         x-transition:enter="transition ease-out duration-300" 
-         x-transition:enter-start="opacity-0" 
-         x-transition:enter-end="opacity-100" 
-         x-transition:leave="transition ease-in duration-200" 
-         x-transition:leave-start="opacity-100" 
-         x-transition:leave-end="opacity-0" 
-         class="fixed inset-0 z-40 bg-white/80 backdrop-blur-xl flex flex-col items-center justify-center gap-12 p-10">
-      <div class="flex flex-col items-center gap-4">
-        <h2 class="text-4xl font-extrabold text-gray-900 tracking-tight">Create</h2>
-        <p class="text-gray-400 text-center font-medium px-4">Start a new project or capture a quick thought.</p>
-      </div>
-      <div class="grid grid-cols-2 gap-6 w-full">
-        <button class="flex flex-col items-center gap-4 p-6 bg-gray-50 border border-gray-100 rounded-3xl active:scale-95 transition-all">
-          <iconify-icon icon="lucide:camera" class="text-3xl text-gray-900"></iconify-icon>
-          <span class="text-xs font-bold text-gray-900">Photo</span>
-        </button>
-        <button class="flex flex-col items-center gap-4 p-6 bg-gray-50 border border-gray-100 rounded-3xl active:scale-95 transition-all">
-          <iconify-icon icon="lucide:type" class="text-3xl text-gray-900"></iconify-icon>
-          <span class="text-xs font-bold text-gray-900">Post</span>
-        </button>
-        <button class="flex flex-col items-center gap-4 p-6 bg-gray-50 border border-gray-100 rounded-3xl active:scale-95 transition-all">
-          <iconify-icon icon="lucide:mic" class="text-3xl text-gray-900"></iconify-icon>
-          <span class="text-xs font-bold text-gray-900">Audio</span>
-        </button>
-        <button class="flex flex-col items-center gap-4 p-6 bg-gray-50 border border-gray-100 rounded-3xl active:scale-95 transition-all">
-          <iconify-icon icon="lucide:link-2" class="text-3xl text-gray-900"></iconify-icon>
-          <span class="text-xs font-bold text-gray-900">Link</span>
-        </button>
-      </div>
-      <button @click="isCreating = false" class="mt-8 h-12 px-8 bg-gray-900 text-white rounded-full text-sm font-bold active:scale-95 transition-all shadow-lg shadow-gray-900/10">
-        Dismiss
-      </button>
-    </div>
-
-    <!-- Bottom Navigation Bar -->
-    <footer class="absolute bottom-0 w-full pb-[34px] pt-4 px-2 bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-[0_-10px_30px_rgba(0,0,0,0.03)] z-50">
-      <div class="relative flex items-end justify-between px-2">
-        
-        <!-- Left Group -->
-        <div class="flex-1 flex justify-around items-end gap-1">
-          <!-- Browse -->
-          <button @click="activeTab = 'browse'" id="nav-browse" class="flex flex-col items-center gap-1.5 p-2 w-16 transition-all active:scale-90">
-            <iconify-icon :icon="activeTab === 'browse' ? 'lucide:layout-grid' : 'lucide:layout-grid'" 
-                          :class="activeTab === 'browse' ? 'text-gray-900' : 'text-gray-300'" 
-                          class="text-2xl transition-all"></iconify-icon>
-            <span :class="activeTab === 'browse' ? 'text-gray-900 font-bold' : 'text-gray-300 font-medium'" 
-                  class="text-[10px] tracking-wide transition-all">Browse</span>
-          </button>
-
-          <!-- Profile -->
-          <button @click="activeTab = 'profile'" id="nav-profile" class="flex flex-col items-center gap-1.5 p-2 w-16 transition-all active:scale-90">
-            <iconify-icon icon="lucide:user" 
-                          :class="activeTab === 'profile' ? 'text-gray-900' : 'text-gray-300'" 
-                          class="text-2xl transition-all"></iconify-icon>
-            <span :class="activeTab === 'profile' ? 'text-gray-900 font-bold' : 'text-gray-300 font-medium'" 
-                  class="text-[10px] tracking-wide transition-all">Account</span>
-          </button>
-        </div>
-
-        <!-- Center Primary Action -->
-        <div class="shrink-0 relative -top-6 px-2">
-          <button @click="isCreating = !isCreating" 
-                  id="btn-create-action" 
-                  class="h-[72px] w-[72px] bg-gray-900 rounded-full flex items-center justify-center shadow-2xl shadow-gray-900/30 active:scale-90 transition-all hover:bg-black group border-4 border-white z-50 relative">
-             <iconify-icon icon="lucide:plus" 
-                           :class="isCreating ? 'rotate-45' : 'rotate-0'"
-                           class="text-4xl text-white transition-transform duration-300"></iconify-icon>
-             <span class="sr-only">Create New</span>
-          </button>
-        </div>
-
-        <!-- Right Group -->
-        <div class="flex-1 flex justify-around items-end gap-1">
-          <!-- Messages -->
-          <button @click="activeTab = 'messages'" id="nav-messages" class="flex flex-col items-center gap-1.5 p-2 w-16 transition-all active:scale-90">
-            <iconify-icon icon="lucide:message-square" 
-                          :class="activeTab === 'messages' ? 'text-gray-900' : 'text-gray-300'" 
-                          class="text-2xl transition-all"></iconify-icon>
-            <span :class="activeTab === 'messages' ? 'text-gray-900 font-bold' : 'text-gray-300 font-medium'" 
-                  class="text-[10px] tracking-wide transition-all">Chat</span>
-          </button>
-
-          <!-- Settings -->
-          <button @click="activeTab = 'settings'" id="nav-settings" class="flex flex-col items-center gap-1.5 p-2 w-16 transition-all active:scale-90">
-            <iconify-icon icon="lucide:settings-2" 
-                          :class="activeTab === 'settings' ? 'text-gray-900' : 'text-gray-300'" 
-                          class="text-2xl transition-all"></iconify-icon>
-            <span :class="activeTab === 'settings' ? 'text-gray-900 font-bold' : 'text-gray-300 font-medium'" 
-                  class="text-[10px] tracking-wide transition-all">Settings</span>
-          </button>
-        </div>
-
-      </div>
-    </footer>
-
-  </div>
-</body>
-</html>
-~~~
-```
-
----
-
-## 115. Volt — Electric-Lime Fitness Dashboard
+## 85. Volt — Electric-Lime Fitness Dashboard
 `Dashboards` · `Health & Wellness` · 5 copies · [try live](https://superdesign.dev/library/volt-electric-lime-fitness-dashboard-a7544c?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An electric-lime fitness/health dashboard on near-black: a big animated step-progress ring, stat chips, a weekly-activity bar chart, health insights, a workouts list, a challenge card, and an achievements grid with a bottom nav.
@@ -13435,7 +8744,7 @@ An electric-lime fitness/health dashboard on near-black: a big animated step-pro
 
 ---
 
-## 116. System Initialization - Trust & Transparency
+## 86. System Initialization - Trust & Transparency
 `Onboarding` · `AI & Tech` · 12 copies · [try live](https://superdesign.dev/library/system-initialization-trust-and-transparency?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-trust, technical briefing design system for AI onboarding and system initialization. Featuring an editorial typography approach with a warm, neutral color palette (Stone and Amber), it utilizes a two-column grid to balance user configuration with technical evidence. Ideal for fintech, cybersecurity, AI safety, or enterprise SaaS where transparency, data privacy, and ethical alignment are core product values. The layout emphasizes vertical rhythm, semantic depth, and clear decision-making through structured guidance and live-updating evidence cards.
@@ -13486,7 +8795,7 @@ A high-trust, technical briefing design system for AI onboarding and system init
 
 ---
 
-## 117. Cream Paper & Coral Mega Footer
+## 87. Cream Paper & Coral Mega Footer
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/cream-paper-and-coral-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm cream-paper mega footer with a coral hairline edge, Fraunces serif CTA band, newsletter capture, a five-column link grid, and a status-pill legal bar.
@@ -13497,7 +8806,7 @@ A warm cream-paper mega footer with a coral hairline edge, Fraunces serif CTA ba
 
 ---
 
-## 118. Welcome back · Lumen — centered-card (true cobalt)
+## 88. Welcome back · Lumen — centered-card (true cobalt)
 `Auth & Login` · `SaaS` · 1 copies · [try live](https://superdesign.dev/library/welcome-back-lumen-centered-card-true-cobalt?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A clean centered-card sign-in page on a soft off-white canvas with a single true-cobalt accent: sticky nav, a white rounded-3xl auth card (Google + GitHub social, floating-label email/password with a show/hide toggle, remember-me + forgot, gradient Sign in CTA), and ambient cobalt glows.
@@ -13508,7 +8817,7 @@ A clean centered-card sign-in page on a soft off-white canvas with a single true
 
 ---
 
-## 119. Atlas Studio — Charting Your Account, Step One of Three
+## 89. Atlas Studio — Charting Your Account, Step One of Three
 `Auth & Login` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/atlas-studio-charting-your-account-step-one-of-three?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Premium dark-navy multi-step signup / onboarding screen (step 1 of 3) for an AI design tool: a 3-step progress tracker, glassy translucent cards on a midnight-navy ground with soft amber glows, a single warm amber accent, focus-reactive fields, a password strength meter, a role selector, and a 'what you unlock' value panel with a testimonial.
@@ -13519,186 +8828,7 @@ Premium dark-navy multi-step signup / onboarding screen (step 1 of 3) for an AI 
 
 ---
 
-## 120. Conversion-optimised Product Page
-`E-commerce` · `E-commerce & Retail` · 12 copies · [try live](https://superdesign.dev/library/conversion-optimised-product-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-Traditional PDP enhanced with a sticky purchase module that remains visible during scroll. Reinforces CTAs with social proof and benefit blocks to reduce hesitation.
-
-Best suited for
-High-volume DTC brands, ads-driven traffic, products optimized for CRO.
-
-```text
-{
-  "summary": "A clean, monochrome e-commerce product layout focused on clarity and conversion. It employs a two-column structure (7:12 ratio) for primary product content, detailed variant selectors, and a floating sticky purchase bar for mobile and desktop visibility.",
-  "style": {
-    "description": "The design uses a strictly monochrome palette (#FFFFFF, #F5F5F5, #111827) and 'General Sans' typography to create a high-end, editorial feel. It emphasizes clean lines via 1px borders (#E5E7EB) and subtle micro-interactions like 500ms image zooms and ring-offset focus states for interactive elements. Layout follows a strict 1440px grid with variable padding based on screen size (24px to 80px).",
-    "prompt": "Create a minimalist monochrome design system. **Colors**: Primary Background: #FFFFFF; Secondary Background (sections/cards): #F9FAFB; Text: #111827; Secondary Text: #6B7280; Borders/Dividers: #E5E7EB; Accents: #111827 (Primary Button), #D1D5DB (Placeholders). **Typography**: Use 'General Sans' (or similar geometric sans). H1: 36px/40px weight 500, tight tracking; H2: 24px weight 500; Body: 16px weight 400, leading 1.6; Labels/Small: 14px weight 500; Captions: 12px. **Spacing**: Base unit 4px. Use 24px (6 units) for standard gaps, 48px (12 units) for section padding, and 96px (24 units) for major vertical breathing room. **Interactive Elements**: Buttons must have 6px border-radius. Product swatches should use a ring-offset-2 effect when active. Hover states for cards should trigger a 1.05 scale transform over 500ms. All borders should be 1px solid unless specified."
-  },
-  "layout_and_structure": {
-    "description": "A top-down flow starting with a functional header, moving into a 2-column product detail section (Gallery 60% / Info 40%), followed by trust-building horizontal strips (Social Proof/Benefits) and ending with a 4-column related products grid.",
-    "prompts": [
-      {
-        "part": "Navigation & Breadcrumbs",
-        "prompt": "Design a slim top navigation bar with a centered logo area (32px height) and discrete text links. Below, implement a breadcrumb trail using 14px text in #9CA3AF, separated by 'lucide:chevron-right' icons, with the current page highlighted in #111827 weight 500."
-      },
-      {
-        "part": "Product Main Section",
-        "prompt": "Implement a 2-column grid (7:5 ratio). Left Column: A vertical stack of images. Primary image at 4:5 aspect ratio with #F3F4F6 background and 1px border. Below, a 2x2 grid of supporting 4:5 images. Right Column: Sticky container (top: 32px). Include a 36px H1 title, a $120.00 price in 24px, and a star-rating row with an underline-offset-4 review link. Variant section: Color swatches (40x40px circles with 2px ring on active) and size grid (4-column buttons, active state: #111827 background with white text). Add a 56px height CTA button in #111827 with a centered text and price."
-      },
-      {
-        "part": "Social Proof and Benefits",
-        "prompt": "Full-width section with #F9FAFB background. Horizontal layout containing a 5-star rating graphic and text 'Rated 4.9/5 by 10,000+ Customers'. Followed by a 4-column benefits grid: Each item features a 48x48px circular light-gray icon container, a 16px medium title, and a 14px grayed-out description (e.g., 'Free Shipping')."
-      },
-      {
-        "part": "Related Products Carousel",
-        "prompt": "4-column grid of product cards. Each card: 3:4 aspect ratio image container with a 500ms zoom on hover. Include a 'New' or 'Sold Out' badge in the top-left (12px uppercase). Bottom metadata: Left-aligned title and category (14px), right-aligned price (14px bold)."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Sticky Conversion Bar",
-      "description": "A fixed bottom bar that captures attention for conversion.",
-      "prompt": "Position: fixed bottom-0; Background: #FFFFFF; Border-top: 1px #E5E7EB; Shadow: 0 -4px 20px rgba(0,0,0,0.05). Interior: Max-width 1440px, flex-justify-between. Left side: 48px square product thumbnail + Title/Variant text stack. Right side: Price text + 48px height 'Add to Cart' button."
-    },
-    {
-      "component": "Minimalist Variant Selector",
-      "description": "A clean grid for size selection with interactive states.",
-      "prompt": "Grid layout (cols-4), gap 8px. Each button: 48px height, 1px border #E5E7EB, font-size 14px, font-medium. Hover state: #F9FAFB background. Active state: #111827 background, white text. Disabled state: #F9FAFB background, #D1D5DB text, cursor-not-allowed."
-    }
-  ],
-  "special_notes": "MUST maintain strict monochrome color usage; do not introduce accent colors other than black/white/gray. MUST use 4:5 and 3:4 aspect ratios for all product imagery to maintain an editorial vertical feel. MUST ensure the sticky purchase bar only appears after the user scrolls past the primary 'Add to Cart' button. DO NOT use heavy drop shadows; use 1px borders for depth instead."
-}
-```
-
----
-
-## 121. Offer overlay- Centered Offer Modal
-`E-commerce` · `E-commerce & Retail` · 2 copies · [try live](https://superdesign.dev/library/offer-overlay-centered-offer-modal?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A centered overlay modal that blocks the page content and focuses attention on a single promotional message. Contains a clear headline, short explanatory text, one primary input or CTA, and a visible close action. Designed for maximum visibility and message clarity.
-
-Best suited for
-First-time visitor discounts, email capture offers, high-intent landing pages where interruption is acceptable.
-
-```text
-Create a wireframe for a discount offer modal with:
-
-- Centered overlay on dark background
-- Clear headline at top
-- Short descriptive text
-- Email input field with placeholder
-- "Apply Discount" button at bottom
-- Clean, minimal design with no decorative elements
-- Simple typography hierarchy
-- Functional layout focused on usability
-
-Here is a reference implementation:
-
-~~~html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wireframe Discount Modal</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'General Sans', sans-serif;
-        }
-    </style>
-</head>
-<body>
-    <div class="min-h-screen bg-gray-50 flex items-center justify-center p-4 relative overflow-hidden">
-        <!-- Background Context (Simulated Page Content behind overlay) -->
-        <div class="absolute inset-0 opacity-10 pointer-events-none" aria-hidden="true">
-            <div class="container mx-auto px-6 py-8">
-                <div class="h-8 w-32 bg-gray-900 mb-12"></div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="h-64 bg-gray-300 rounded"></div>
-                    <div class="h-64 bg-gray-300 rounded"></div>
-                    <div class="h-64 bg-gray-300 rounded"></div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal Overlay -->
-        <div class="fixed inset-0 bg-gray-900/60 backdrop-blur-sm transition-opacity z-40"></div>
-
-        <!-- Modal Content -->
-        <div class="relative z-50 w-full max-w-[440px] bg-white rounded-xl shadow-2xl overflow-hidden transform transition-all">
-            
-            <!-- Close Button -->
-            <button class="absolute top-5 right-5 text-gray-400 hover:text-gray-900 transition-colors p-1 rounded-full hover:bg-gray-100" aria-label="Close modal">
-                <iconify-icon icon="lucide:x" class="text-xl block"></iconify-icon>
-            </button>
-
-            <!-- Modal Body -->
-            <div class="p-8 sm:p-10 text-center">
-                
-                <!-- Visual Anchor -->
-                <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gray-100 mb-6 text-gray-900">
-                    <iconify-icon icon="lucide:tag" class="text-2xl"></iconify-icon>
-                </div>
-
-                <!-- Headlines -->
-                <h2 class="text-2xl font-semibold text-gray-900 mb-3 tracking-tight">
-                    Unlock 20% Off
-                </h2>
-                <p class="text-gray-500 text-sm leading-relaxed mb-8 px-2">
-                    Join our newsletter list to get exclusive access to our latest collections and a special discount on your first order.
-                </p>
-
-                <!-- Form -->
-                <form class="space-y-4 text-left" onsubmit="event.preventDefault()">
-                    <div class="space-y-1.5">
-                        <label for="email" class="block text-xs font-medium text-gray-700 ml-1">
-                            Email Address
-                        </label>
-                        <div class="relative">
-                            <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
-                                <iconify-icon icon="lucide:mail" class="text-gray-400 text-lg"></iconify-icon>
-                            </div>
-                            <input 
-                                type="email" 
-                                id="email" 
-                                name="email" 
-                                placeholder="you@example.com" 
-                                class="block w-full pl-10 pr-4 py-3 text-sm text-gray-900 bg-gray-50 border border-gray-200 rounded-lg focus:ring-1 focus:ring-gray-900 focus:border-gray-900 focus:bg-white outline-none transition-all placeholder:text-gray-400"
-                                required
-                            >
-                        </div>
-                    </div>
-
-                    <button 
-                        type="submit" 
-                        class="w-full flex items-center justify-center gap-2 py-3 px-4 bg-gray-900 hover:bg-black text-white text-sm font-medium rounded-lg shadow-lg shadow-gray-900/10 transition-all active:scale-[0.98]"
-                    >
-                        <span>Apply Discount</span>
-                        <iconify-icon icon="lucide:arrow-right" class="text-base opacity-80"></iconify-icon>
-                    </button>
-                </form>
-
-                <!-- Footer / Disclaimer -->
-                <div class="mt-6 pt-6 border-t border-gray-100">
-                    <p class="text-xs text-gray-400 font-medium">
-                        No spam, unsubscribe at any time.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
-~~~
-```
-
----
-
-## 122. Fintech Wallet — Mobile Home Screen
+## 90. Fintech Wallet — Mobile Home Screen
 `Mobile Apps` · `Finance & Crypto` · 1 copies · [try live](https://superdesign.dev/library/fintech-wallet-mobile-home-screen?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A mobile fintech wallet home screen: a teal gradient hero with a frosted balance card, four quick-action buttons, and a clean recent-activity list, on an off-white sheet with a center-FAB tab bar.
@@ -13730,7 +8860,7 @@ A mobile fintech wallet home screen: a teal gradient hero with a frosted balance
 
 ---
 
-## 123. Forms that feel effortless to fill — Fieldcraft
+## 91. Forms that feel effortless to fill — Fieldcraft
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/forms-that-feel-effortless-to-fill-fieldcraft?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A stacked, multi-section account-settings form on a white card: top-aligned labels, helper text, a 6-column responsive grid, custom checkboxes and radios, and one disciplined emerald accent for focus and the primary action.
@@ -13741,7 +8871,7 @@ A stacked, multi-section account-settings form on a white card: top-aligned labe
 
 ---
 
-## 124. Loop · Say hello, we don't bite (friendly illustrated sky)
+## 92. Loop · Say hello, we don't bite (friendly illustrated sky)
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/loop-say-hello-we-dont-bite-friendly-illustrated-sky?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm, playful illustrated contact page (Loop) in a sky-blue + coral two-accent palette on a cloud-white canvas: a sticky blurred nav, a centered two-tone "Let's chat about anything you're building" hero with a pulsing reply-time pill, and one giant rounded white card splitting a hand-drawn CSS+SVG illustration panel (floating sun, clouds, channel bubbles, grass) and copy on the left against a multi-field form with icon-prefixed sky-ring inputs, emoji topic chips and a gradient send button on the right, then a row of three alt-contact cards and a deep sky-ink footer. Heavy rounded Nunito (up to black 900), bubbly corners, cheerful and human, never a cold corporate form.
@@ -13752,65 +8882,7 @@ A warm, playful illustrated contact page (Loop) in a sky-blue + coral two-accent
 
 ---
 
-## 125. Chronological Content Feed
-`Blog & Editorial` · `E-commerce & Retail` · 1 copies · [try live](https://superdesign.dev/library/chronological-content-feed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A straightforward vertical list of blog posts ordered by date. Each entry includes a thumbnail placeholder, title, excerpt, and metadata. Optimized for reading flow and content discovery over time.
-
-Best suited for
-Content marketing blogs, product updates, founder blogs, SEO-driven publishing.
-
-```text
-{
-  "summary": "Create a clean, minimalist blog index page with a monochromatic editorial aesthetic. Use a centered 896px max-width layout with a primary focus on typography (General Sans), generous vertical spacing, and 3:2 aspect ratio imagery placeholders. The design should feature a vertical list of posts with thin divider lines and a structured pagination system at the bottom.",
-  "style": {
-    "description": "The style is minimalist and high-contrast, utilizing 'General Sans' as the primary font with weights ranging from 400 to 700. The color palette is strictly grayscale: White (#FFFFFF) background, Dark Gray (#111827) for headings and primary text, and Medium Gray (#4B5563) for body text and metadata. Visual interest is generated through large heading sizes (4xl to 5xl), tracking-tight letter spacing, and subtle hover states like 1px underlines with 4px offsets. Transitions are smooth and subtle, focusing on color and text-decoration changes.",
-    "prompt": "Apply a minimalist editorial style using 'General Sans' font family. Background must be #FFFFFF. Text colors: Primary #111827, Secondary #4B5563, Metadata/Dates #6B7280. Headlines should use font-size: 3rem (48px) with -0.025em tracking-tight. Post titles should be 1.5rem (24px) with font-weight: 500. Borders and dividers should be #F3F4F6 or #E5E7EB with a 1px thickness. Images must maintain a 3:2 aspect ratio with a #F3F4F6 light gray background and centered Lucide-style icons in #9CA3AF. Hover effects on titles should trigger a 1px underline with a 4px offset. Animation: all transitions (colors, backgrounds) should use ease-in-out over 200ms."
-  },
-  "layout_and_structure": {
-    "description": "The layout is a single-column container centered on the page with a maximum width of 896px. It follows a top-down hierarchy: a centralized hero header, a vertical list of blog articles separated by horizontal rules, and a functional bottom pagination bar.",
-    "prompts": [
-      {
-        "part": "Page Container",
-        "prompt": "Main container is a vertical flex layout with min-height 100vh and white background. Content is constrained within a max-width: 896px (4xl) container, centered horizontally with padding-left and padding-right of 1.5rem (24px). Vertical padding for the whole container should be 5rem (80px) on desktop and 3rem (48px) on mobile."
-      },
-      {
-        "part": "Header Section",
-        "prompt": "Center-aligned header at the top. Main title 'The Journal' (or generic blog title) in #111827, font-size: 3rem, font-weight: 600, letter-spacing: tight. Below the title, include a decorative accent: a solid #111827 horizontal bar, width: 5rem (80px), height: 4px, centered. Margin-bottom for the header should be 6rem (96px)."
-      },
-      {
-        "part": "Blog List & Articles",
-        "prompt": "Vertical list of 5-6 articles with a gap of 4rem (64px) between items. Each article is a flex container: on mobile, stack elements vertically; on desktop (min-width: 768px), use horizontal flex with items-start and a 2.5rem (40px) gap. Left/Top element: Image placeholder (w-full on mobile, 41.6% width on desktop) with 3:2 aspect ratio, #F3F4F6 background, and 1px #E5E7EB border. Right/Bottom element: Text content containing metadata (Date in uppercase, 12px, tracking-wider, #6B7280), Post Title (24px, medium weight, #111827), and Excerpt (line-clamp to 3 lines, #4B5563, leading-relaxed). End each text block with a 'Read Article' link featuring a right arrow icon."
-      },
-      {
-        "part": "Dividers",
-        "prompt": "Place a 1px solid horizontal line (#F3F4F6) between each article component to create a clear visual separation without adding clutter."
-      },
-      {
-        "part": "Pagination Section",
-        "prompt": "Positioned at the bottom after a 5rem (80px) margin. Top border 1px solid #E5E7EB. Layout: space-between flex container. Left: 'Previous' link with left arrow. Center: Group of numbered page boxes (32px x 32px), active page is #111827 with white text and 2px border-radius, inactive pages are #4B5563 with hover background #F3F4F6. Right: 'Next' link with right arrow."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Interactive Article Heading",
-      "description": "A title that utilizes CSS text-decoration-thickness and underline-offset for a sophisticated hover effect.",
-      "prompt": "Heading level 2 (h2) in post item. Font-size: 24px, font-weight: 500, color: #111827. On hover of the parent article container, the h2 should apply text-decoration: underline, text-decoration-thickness: 1px, and text-underline-offset: 4px. Transition should be immediate or 150ms."
-    },
-    {
-      "component": "Minimal Image Placeholder",
-      "description": "Structured placeholder box representing future photography.",
-      "prompt": "Div with aspect-ratio: 3/2. Background-color: #F3F4F6. Border: 1px solid #E5E7EB. Center a Lucide 'image' icon inside using flexbox (justify-center, items-center). Icon color: #9CA3AF. Icon size: 36px."
-    }
-  ],
-  "special_notes": "MUST: Maintain strict 3:2 aspect ratio for all thumbnails to ensure editorial consistency. MUST: Use 'General Sans' or a similar geometric sans-serif to preserve the clean aesthetic. MUST NOT: Use any shadows or gradients; depth should be created solely through border contrasts and grayscale tones. MUST: Ensure the 'Read Article' text and the Arrow icon are perfectly aligned horizontally."
-}
-```
-
----
-
-## 126. Formcraft — Workspace Settings (cobalt two-column)
+## 93. Formcraft — Workspace Settings (cobalt two-column)
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/formcraft-workspace-settings-cobalt-two-column?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A two-column SaaS workspace-settings screen: sticky app nav, left section nav, grouped settings cards with toggles, a segmented control, selectable delivery cards, and a fixed save bar, in Inter on slate with one cobalt accent.
@@ -13821,7 +8893,7 @@ A two-column SaaS workspace-settings screen: sticky app nav, left section nav, g
 
 ---
 
-## 127. Atelier · Early Access (waitlist-minimal-graphite)
+## 94. Atelier · Early Access (waitlist-minimal-graphite)
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/atelier-early-access-waitlist-minimal-graphite?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Minimal monochrome graphite-on-paper waitlist / early-access landing for an AI design tool: a warm off-white ground with near-black ink and one platinum grey (no color accent), a big tight black-weight headline, a centered single-field email + button waitlist form with overlapping social-proof avatars, scattered graphite confetti strokes, a logo trust strip, a 3-step how-it-works grid and an inverted full-bleed dark closing CTA.
@@ -13832,7 +8904,7 @@ Minimal monochrome graphite-on-paper waitlist / early-access landing for an AI d
 
 ---
 
-## 128. Editorial Image Lightbox
+## 95. Editorial Image Lightbox
 `Blog & Editorial` · `General` · 1 copies · [try live](https://superdesign.dev/library/editorial-image-lightbox?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial image lightbox modal as the live hero of a product page: a near-black coal (#0c0a09) figure with a top rail (serif 04/28 plate counter + 'Aperture Series' label, scrollable category filter pills, a circular close), a full-bleed photograph with circular glass prev/next carets and a bottom legibility gradient, and a cream (#faf6ef) caption panel (burgundy location eyebrow, a Fraunces headline, a description, Save / Copy-prompt actions), floated over a vignetted grain stage with a faded 3-up gallery echo behind and an 'Esc / arrows / 28 plates' keyboard ticker beneath. Around it: a frosted sticky cream nav, a hero with a stats card, a 3-up library grid, a four-cell anatomy band, a dark CTA band and a coal footer. Ink-on-cream editorial with a single reserved burgundy #7b2d3b accent; Fraunces + Inter, Phosphor icons.
@@ -13843,7 +8915,7 @@ An editorial image lightbox modal as the live hero of a product page: a near-bla
 
 ---
 
-## 129. Tablekit — The data table your team actually wants to live in
+## 96. Tablekit — The data table your team actually wants to live in
 `Dashboards` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/tablekit-the-data-table-your-team-actually-wants-to-live-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Dense light-mode admin data table (Tablekit): blurred sticky nav, dotted-grid hero, a cobalt-on-white panel with a filter bar, bulk-action bar, sticky-header scroll table with colored status/priority/type badges and avatar chips, and a full pagination footer.
@@ -13854,7 +8926,7 @@ Dense light-mode admin data table (Tablekit): blurred sticky nav, dotted-grid he
 
 ---
 
-## 130. Sunset Glow Wordmark Mega Footer
+## 97. Sunset Glow Wordmark Mega Footer
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/sunset-glow-wordmark-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark mega footer with a radial orange-to-magenta sunset glow, a giant gradient wordmark, newsletter capture, three link columns, and a legal bar.
@@ -13865,7 +8937,7 @@ A dark mega footer with a radial orange-to-magenta sunset glow, a giant gradient
 
 ---
 
-## 131. Atelier — Design, Spoken Into Being (editorial serif / burgundy)
+## 98. Atelier — Design, Spoken Into Being (editorial serif / burgundy)
 `Forms & Contact` · `General` · 1 copies · [try live](https://superdesign.dev/library/atelier-design-spoken-into-being-editorial-serif-burgundy?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial, print-magazine CTA: an oversized Fraunces serif statement with a single burgundy italic line on warm cream paper, closed by an understated text-link call to action and a no-card trust line, framed by a sticky nav and a newsletter footer.
@@ -13876,7 +8948,7 @@ An editorial, print-magazine CTA: an oversized Fraunces serif statement with a s
 
 ---
 
-## 132. Modal Design · success-celebration (pastel) — legibility fixed
+## 99. Modal Design · success-celebration (pastel) — legibility fixed
 `Onboarding` · `General` · 0 copies · [try live](https://superdesign.dev/library/modal-design-success-celebration-pastel-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A joyful pastel success-celebration modal as the live centerpiece of a light SaaS page: a cream rounded-5xl dialog with a pulsing-ring animated checkmark badge, a gradient 'Continue to dashboard' CTA and a ghost secondary, floating over a full-bleed confetti layer on a cream-to-sky radial field. Below it a 3-up pattern-library card band, a starter-kit split with a stacked mini upgrade modal, a dark-ink CTA band and a cream footer. Pastel sky + coral are decorative-only; all colored text uses darkened >=4.5:1 tokens (#0369a1 / #be123c) and every gradient button runs deep stops behind white — legibility fixed. Poppins throughout.
@@ -13887,7 +8959,7 @@ A joyful pastel success-celebration modal as the live centerpiece of a light Saa
 
 ---
 
-## 133. Superdesign Setup - Inline Preview
+## 100. Superdesign Setup - Inline Preview
 `Onboarding` · `AI & Tech` · 10 copies · [try live](https://superdesign.dev/library/superdesign-setup-inline-preview?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A minimalist, developer-centric configuration interface featuring a monochrome technical aesthetic. It utilizes a high-contrast dark/light mode, JetBrains Mono for system labels, and Inter for UI elements. Key features include an inline state-preview logging system, custom range sliders for AI intervention thresholds, and segmented controls for workspace density. Suitable for SaaS setup wizards, developer tools, AI configuration panels, and fintech dashboards that prioritize functional clarity and a 'terminal-lite' feel.
@@ -13947,7 +9019,7 @@ A minimalist, developer-centric configuration interface featuring a monochrome t
 
 ---
 
-## 134. Verify it's you · Aperture (OTP / 2FA, graphite-platinum)
+## 101. Verify it's you · Aperture (OTP / 2FA, graphite-platinum)
 `Auth & Login` · `SaaS` · 4 copies · [try live](https://superdesign.dev/library/verify-its-you-aperture-otp-2fa-graphite-platinum?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 OTP / two-factor verification screen on warm paper with a graphite + platinum palette: a Two-factor eyebrow pill, a glass card with a lock icon, six single-digit code boxes, progress dots, a live resend countdown and a Verify code button. Inter, light mode, no saturated color.
@@ -13958,71 +9030,7 @@ OTP / two-factor verification screen on warm paper with a graphite + platinum pa
 
 ---
 
-## 135. Developer tool dashboard/onboarding
-`Dashboards` · `Dev Tools` · 14 copies · [try live](https://superdesign.dev/library/developer-tool-dashboardonboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A high-density, terminal-inspired dark mode design system optimized for developer tools, SaaS configuration panels, and technical dashboards. It features a matte #111111 background with a subtle 40px grid pattern, utilitarian typography pairing Space Grotesk with JetBrains Mono, and a high-contrast #FFFFFF accent color. The aesthetic is brutalist and tool-like, utilizing zero border-radius, instant transitions (<100ms), and a dual-pane layout with a live code terminal echo. Ideal for power-user interfaces where information density and technical focus are prioritized over visual decoration.
-
-```text
-{
-  "summary": "A stark, utilitarian configuration interface designed with a developer-first terminal aesthetic, emphasizing speed, density, and professional focus through a matte black palette and monospace typography.",
-  "style": {
-    "description": "The style is defined by its 'Late-night focus' theme: no rounded corners, no gradients, and a matte dark color palette. It uses Space Grotesk for bold, uppercase headers and JetBrains Mono for all technical and descriptive text. The color scheme is monochrome (#111111 background, #FFFFFF accents, #333333 borders) with subtle syntax highlighting for terminal output. Motion is clinical and near-instant (100ms) with no easing.",
-    "prompt": "### Color Palette - Background: #111111 (Primary), #050505 (Terminal), #1A1A1A (Surface/Hover) - Border: #333333 - Text: #FFFFFF (Titles), #E5E5E5 (Body), #555555 (Muted) - Accent: #FFFFFF (Primary Action), #4ADE80 (Success/Active Pulse) ### Typography - Display: 'Space Grotesk', Sans-Serif; Weights: 500, 700. Used for section headers and primary buttons. - Monospace: 'JetBrains Mono', Monospace; Weights: 400. Used for all labels, versioning, data, and terminal output. - Sizes: 10px (labels), 12px (body), 24px (h1). ### Effects & Grid - Grid: 40px x 40px background grid using 1px lines at 3% white opacity, masked with a bottom fade. - Border Radius: 0px everywhere. - Cursor: crosshair. - Animation: Instant state changes (<100ms), no cubic-bezier easing; transitions should feel mechanical."
-  },
-  "layout_and_structure": {
-    "description": "A two-pane responsive layout: a main scrollable configuration area (left) and a fixed-width live terminal echo panel (right/sidebar). The main area uses a vertical section-by-section flow with high density and minimal padding.",
-    "prompts": [
-      {
-        "part": "Global Navigation & Header",
-        "prompt": "Compressed header with a #333333 bottom border. Top-left features a 2x2px pulsing white square next to version metadata (e.g., v2.0.4 [Build 8921]) in 10px mono. H1 heading in 24px uppercase Space Grotesk. Subtext prefixed with '//' in 10px mono gray."
-      },
-      {
-        "part": "Mode Calibration Grid",
-        "prompt": "A segmented radio-button control grid with 1px #333333 internal borders. Each segment is a block with 10px uppercase mono text centered. Selected state: #FFFFFF background with black text. Hover state: #222222 background."
-      },
-      {
-        "part": "List Reduction Section",
-        "prompt": "A vertical stack of items with #333333 border-bottom. Each item is 12px mono text with a square 16px checkbox. Hovering an item reveals a red '[Kill]' tag on the far right. Checking an item triggers an immediate height-collapse to 0px."
-      },
-      {
-        "part": "Automation & DNA Controls",
-        "prompt": "Dual column grid. Column 1: Vertical timeline-style automation selector with 10px square nodes connected by a #333333 vertical line; active nodes are solid white. Column 2: Minimalist range sliders with 12px white square thumbs and 2px dark gray tracks. No descriptive text, only 10px uppercase mono labels and percentage values."
-      },
-      {
-        "part": "Live Echo Sidebar",
-        "prompt": "400px fixed width, #050505 background, #333333 left border. Header bar shows 'Terminal // :8080' with a green pulsing 'LISTENING' indicator. Content displays syntax-highlighted code (Purple #C084FC for keywords, Green #4ADE80 for strings, Blue #60A5FA for variables) with gray line numbers. Footer shows real-time system metrics (RAM/CPU) in 10px mono."
-      },
-      {
-        "part": "Action Footer",
-        "prompt": "Sticky footer with #333333 top border. Left: 'Configure Later' text-only button in 10px bold gray mono. Right: 'Initialize Workspace' primary button: solid #FFFFFF background, black 12px Space Grotesk text, uppercase, square corners, leading with a terminal icon that nudges right on hover."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "The Dismiss Item",
-      "description": "A checkable list item that visually 'kills' its content.",
-      "prompt": "Container: flex layout, p-3, border-b #333. Checkbox: custom 16px square, appearance-none, border #666, checked state solid white with a black center-dot. Action: On check, the container height animate-out to 0px with opacity 0."
-    },
-    {
-      "component": "Vertical Node Dial",
-      "description": "A node-based selection list mimicking a vertical step indicator.",
-      "prompt": "A single #333 vertical line on the left. Interaction points are 10px square nodes. Inactive: gray border, black fill. Active: solid white fill. Text labels sit to the right with 10px mono sub-labels."
-    },
-    {
-      "component": "Terminal Code Block",
-      "description": "A syntax-highlighted code preview simulating real-time environment changes.",
-      "prompt": "Background #050505. Line numbers in #333. Keywords in #C084FC. Strings in #BBF7D0. Cursor: a solid white block '#' or '_' with 1s pulse interval."
-    }
-  ],
-  "special_notes": "- MUST NOT use any border-radius; all corners must be 90-degree sharp. - MUST NOT use drop shadows or gradients; depth is achieved solely through border layers and hex color shifts. - MUST maintain high density: vertical padding between major sections should not exceed 40px. - MUST use terminal-adjacent symbols like '//', '>', and '[]' for UI adornment."
-}
-```
-
----
-
-## 136. Technical System Onboarding
+## 102. Technical System Onboarding
 `Onboarding` · `AI & Tech` · 8 copies · [try live](https://superdesign.dev/library/technical-system-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A technical, research-backed onboarding system design using a dark slate palette with high-visibility signal orange accents. Optimized for high-fidelity AI systems, data science dashboards, fintech terminals, and developer tools. Features editorial modern grotesk typography, monospace metadata, grid-based layouts, and a modular 'Capabilities Matrix' structure. Emphasizes reliability, transparency, and deterministic control through structured information hierarchy and a professional, no-nonsense aesthetic.
@@ -14069,7 +9077,7 @@ A technical, research-backed onboarding system design using a dark slate palette
 
 ---
 
-## 137. Plume · Sign in to your design canvas
+## 103. Plume · Sign in to your design canvas
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/plume-sign-in-to-your-design-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Warm, illustrated AI design-agent sign-in landing in sky-blue and coral: a sticky frosted nav over a two-panel side-panel login card (gradient illustration aside plus email, password and social auth), floating blobs, dot-grid texture and rounded-everything Nunito type.
@@ -14080,7 +9088,7 @@ Warm, illustrated AI design-agent sign-in landing in sky-blue and coral: a stick
 
 ---
 
-## 138. Gen-Z Social App
+## 104. Gen-Z Social App
 `Waitlist & Coming Soon` · `General` · 224 copies · [try live](https://superdesign.dev/library/gen-z-social-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-energy, Gen-Z-inspired design system with a 'Neo-Brutalist' aesthetic. This style features high-saturation colors like acid green (#ccff00), vibrant purple (#7000ff), and hot pink (#ff0099), paired with heavy black borders and hard shadows. It utilizes expressive, oversized typography and intentional layout chaos through asymmetrical sections and tilted elements. Ideal for social media apps, youth-oriented fintech, creative portfolios, and lifestyle products that prioritize attitude over corporate structure.
@@ -14144,7 +9152,7 @@ A high-energy, Gen-Z-inspired design system with a 'Neo-Brutalist' aesthetic. Th
 
 ---
 
-## 139. Questions, Set in Serif — An Editorial FAQ
+## 105. Questions, Set in Serif — An Editorial FAQ
 `Blog & Editorial` · `General` · 0 copies · [try live](https://superdesign.dev/library/questions-set-in-serif-an-editorial-faq?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Editorial magazine-style FAQ page on a warm cream canvas: an oversized sticky Fraunces serif 'Frequently Asked Questions' title beside a hairline-ruled column of serif Q/A rows (numbered, rotating plus-to-x, one pre-opened in wine), an ink context band and footer, with a 'Question not here?' contact card.
@@ -14155,7 +9163,7 @@ Editorial magazine-style FAQ page on a warm cream canvas: an oversized sticky Fr
 
 ---
 
-## 140. High energy onboarding
+## 106. High energy onboarding
 `Onboarding` · `General` · 6 copies · [try live](https://superdesign.dev/library/high-energy-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A maximalist, neobrutalist design system featuring unconventional geometric typography, high-contrast colors, and interactive card stacking. Built for energetic SaaS onboarding, creative platforms, or experimental fintech interfaces. Uses Clash Display and Satoshi fonts with hard shadows (#2D1B4E), vibrant accents in orange (#FF7D2E) and cyan (#00D4FF), and a signature noise-textured background overlay.
@@ -14209,7 +9217,7 @@ A maximalist, neobrutalist design system featuring unconventional geometric typo
 
 ---
 
-## 141. Sign in to Verdant — Classic Split (Emerald)
+## 107. Sign in to Verdant — Classic Split (Emerald)
 `Auth & Login` · `SaaS` · 3 copies · [try live](https://superdesign.dev/library/sign-in-to-verdant-classic-split-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A full-bleed classic split sign-in page: white emerald-accented auth form on the left (social + email login, gradient Sign in CTA), a dark slate brand panel with ambient glows and a floating showcase card on the right, and a sticky nav above both.
@@ -14220,69 +9228,7 @@ A full-bleed classic split sign-in page: white emerald-accented auth form on the
 
 ---
 
-## 142. Blog Page - Editorial Grid Magazine
-`Blog & Editorial` · `E-commerce & Retail` · 20 copies · [try live](https://superdesign.dev/library/blog-page-editorial-grid-magazine?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A grid-based blog layout with visual hierarchy: featured posts are larger, secondary posts arranged in a balanced grid. Emphasizes scanning and visual entry points rather than linear reading.
-
-Best suited for
-Lifestyle brands, design-led companies, storytelling-focused content with strong visuals.
-
-```text
-{
-  "summary": "A sophisticated wireframe-style blog UI utilizing a three-column masonry grid, high-contrast typography, and a neutral palette with tactical color accents for content categories.",
-  "style": {
-    "description": "The style is 'High-End Wireframe'—focused on structure and hierarchy. It uses the 'General Sans' typeface for a modern, geometric feel. The palette is predominantly grayscale (#FFFFFF, #F3F4F6, #111827) with semantic accent colors (#2563EB for Design, #9333EA for Code) to differentiate categories. Layout elements use thin borders (#E5E7EB) and subtle hover transitions to imply interactivity without visual clutter.",
-    "prompt": "### Core Aesthetics\n- **Typography**: Primary font 'General Sans'. Headings use `font-semibold` with `tracking-tight`. Body text uses `leading-relaxed`. Meta-info uses `text-xs`, `uppercase`, and `tracking-wider`.\n- **Color Palette**:\n  - Background: `#FFFFFF` (Main), `#F9FAFB` (Footer/Alt sections).\n  - Text: Primary `#111827`, Secondary/Body `#6B7280`, Muted/Placeholder `#9CA3AF`.\n  - Borders: Default `#E5E7EB`, Hover `#9CA3AF`.\n  - Accent Colors: Blue `#2563EB`, Purple `#9333EA`, Emerald `#059669`, Orange `#EA580C`, Pink `#DB2777`.\n- **Interactions**: All transitions use `transition-duration: 200ms` and `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)`. Cards should transition border-color and internal title color on hover.\n- **Iconography**: Use Lucide-style line icons (1.5px stroke weight) in a muted `#D1D5DB` color."
-  },
-  "layout_and_structure": {
-    "description": "The layout follows a centered 1280px (max-w-7xl) container with a standard navigation, a bold editorial header, a category filter bar, and a masonry-style multi-column grid.",
-    "prompts": [
-      {
-        "part": "Navigation",
-        "prompt": "Create a thin navigation bar with a bottom border `#E5E7EB`. Include a logo placeholder (128x32px, bg `#F3F4F6`) on the left, four skeletal links on the right (64x16px, bg `#F9FAFB`), and a circular profile placeholder (32x32px) on the far right."
-      },
-      {
-        "part": "Editorial Header",
-        "prompt": "Hero section with a max-width of 672px (max-w-2xl). Top-aligned pill badge with text 'Design & Thoughts' (border `#E5E7EB`, text-xs). Main title 'The Blog' at `font-size: 60px` (text-6xl) with `font-weight: 600`. Subtitle in text-xl `#6B7280` with a 1.625 line-height. Margin-bottom: 64px."
-      },
-      {
-        "part": "Category Filter",
-        "prompt": "A horizontal flex-row of buttons with a bottom border. Active state: background `#111827`, text `#FFFFFF`. Inactive state: white background, border `#E5E7EB`, text `#4B5563`. Include a small horizontal gap of 8px (gap-2)."
-      },
-      {
-        "part": "Masonry Grid",
-        "prompt": "Implement a CSS column-based masonry grid. Desktop: 3 columns, Tablet: 2 columns, Mobile: 1 column. Gap between columns and rows: 32px (gap-8). Use `break-inside-avoid` to ensure cards do not split between columns."
-      },
-      {
-        "part": "Footer",
-        "prompt": "Minimal background `#F9FAFB` with a top border. Centered content containing a 32x32px square placeholder and copyright text in `#9CA3AF` at `text-sm`."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Masonry Blog Card",
-      "description": "Standard blog card with varying image heights and semantic hover states.",
-      "prompt": "A card container with border-radius `12px` (rounded-xl) and border `#E5E7EB`. Top section is a placeholder image box with `bg-gray-100` and a centered icon. Height should vary between 160px, 256px, and 384px to create the masonry effect. Body contains: 1. Meta-line with category (semantic color) and date. 2. Title (`text-xl` or `text-2xl`) that changes color to match the category accent on card hover. 3. 2-3 line excerpt in `#6B7280`. 4. Author footer with a 32px avatar placeholder and read-time."
-    },
-    {
-      "component": "Text-Only Quote Card",
-      "description": "A variant card for editorial quotes without an image.",
-      "prompt": "A `bg-gray-50` card with no top image. Minimum height 300px. Features a large Lucide quote icon in `#D1D5DB`. Centered typography for the quote: `text-3xl`, `font-bold`, `line-height: 1.25`. Includes a signature line with a 32px horizontal divider leading into the author's name in `text-sm font-medium`."
-    },
-    {
-      "component": "Load More Button",
-      "description": "A structural action button with subtle micro-interactions.",
-      "prompt": "Centered button with `px-8 py-3`, border-radius `8px`, and border `#E5E7EB`. Flex container with text and a 'chevron-down' or 'arrow-down' icon. On hover, background shifts to `#F9FAFB` and border to `#D1D5DB`."
-    }
-  ]
-}
-```
-
----
-
-## 143. Momentum — Ship Your Startup Launch Before the Idea Cools
+## 108. Momentum — Ship Your Startup Launch Before the Idea Cools
 `Waitlist & Coming Soon` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/momentum-ship-your-startup-launch-before-the-idea-cools?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Bold optimistic startup launch / waitlist landing page: teal-to-lime gradient brand on warm-white paper, sticky blurred nav, gradient-aura hero with an inline email-capture form and a frameless prompt-to-page preview, feature cards, a gradient traction band, launch-template cards, a dark ink CTA, and a 4-column footer.
@@ -14293,7 +9239,7 @@ Bold optimistic startup launch / waitlist landing page: teal-to-lime gradient br
 
 ---
 
-## 144. Verdance — Agency Website Design Studio (Dark Emerald)
+## 109. Verdance — Agency Website Design Studio (Dark Emerald)
 `Portfolios` · `Agency & Studio` · 7 copies · [try live](https://superdesign.dev/library/verdance-agency-website-design-studio-dark-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark-emerald design-studio / agency website with a single brass metallic accent: two forest-green surfaces (#0d1f17 / #0a1711), cream #f1ede3 text, an emerald/emeraldSoft green pair, and brass #c9a227 for all hairlines, bracketed labels, award diamonds and primary pills. A fixed glass nav over a hero whose giant tight Inter display headline (AGENCY / WEBSITES) carries an italic Fraunces serif accent (that win), a full-bleed palette-tinted feature photo, an infinite award marquee, a serif studio statement with a brass-gridline stat grid, an asymmetric work grid, a thin numbered services list, a recognition strip, a grain CTA, and a 4-column footer. High-craft editorial Awwwards-studio energy.
@@ -14304,62 +9250,7 @@ A dark-emerald design-studio / agency website with a single brass metallic accen
 
 ---
 
-## 145. Modular Card Dashboard
-`Dashboards` · `General` · 9 copies · [try live](https://superdesign.dev/library/modular-card-dashboard?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
-
-A high-contrast wireframe dashboard style featuring a modular card-based system. Characterized by a 'neubrutalism-lite' aesthetic with heavy black borders, hard shadows on hover, and a strict grayscale palette. It utilizes clean editorial typography (Switzer) and a minimalist approach to data visualization. Perfect for SaaS management tools, fintech mobile apps, developer dashboards, and productivity interfaces where structural clarity and modularity are prioritized over colorful decoration.
-
-```text
-{
-  "summary": "A minimalist, grayscale mobile dashboard design featuring a flexible, modular layout with high-contrast card components, sticky headers with backdrop blurs, and interactive neubrutalist hover effects.",
-  "style": {
-    "description": "The style is built on a grayscale wireframe foundation. It uses thin but distinct #111111 borders, a light gray background (#F5F5F5) for contrast against white cards, and bold neubrutalist interactions. Typography relies on the Switzer sans-serif family for an editorial, modern feel. Micro-interactions include vertical translations and solid hard-shadow reveals that suggest tactile depth.",
-    "prompt": "Apply a minimalist wireframe aesthetic. Background color: #F5F5F5. Card background: #FFFFFF. Primary text and borders: #111111. Secondary text: #6B7280. Borders: 1px solid #111111. Typography: Use 'Switzer' font family; Headings at font-weight 600, labels at font-weight 500 with letter-spacing 0.05em. Interactive states: When a card is hovered or focused, it should translate -2px on the Y-axis and gain a hard shadow: box-shadow: 4px 4px 0px 0px rgba(0,0,0,1). Use a 200ms ease-in-out transition for all state changes. Spacing: 24px (6 units) standard padding for sections, 20px (5 units) internal card padding."
-  },
-  "layout_and_structure": {
-    "description": "A vertical mobile-first layout (max 375px) designed for infinite scroll. It follows a hierarchy of priority: Header -> Hero Card -> Repeating Stack -> Dense Grid -> Action Footer.",
-    "prompts": [
-      {
-        "part": "Sticky Header",
-        "prompt": "Create a sticky header with a background of #F5F5F5 at 90% opacity and a 4px backdrop-blur. Padding: top 56px, sides 24px, bottom 24px. Elements: a vertical stack of a tiny uppercase 'Workspace' label (#6B7280) and a 30px bold 'Dashboard' title. On the right, place a 40x40px circular button with a 1px #111111 border, containing a centered settings icon."
-      },
-      {
-        "part": "Primary Hero Card",
-        "prompt": "A 220px tall featured card. Structure: Header with title and date, a data visualization area, and a status footer. Data Viz: Five vertical bars of varying heights (40% to 85%), using #111111 for the active bar and #F3F4F6 for inactive bars. Footer: A 1px dashed top border separating a tiny status indicator with a 8px green dot."
-      },
-      {
-        "part": "Secondary Stacked Cards",
-        "prompt": "A list of cards with 12px vertical spacing between them. Each card contains: an icon in a 40x40px circular gray-bordered container, text metadata (title/subtitle), a thin 6px progress bar track (#F3F4F6) with a solid fill (#111111), and a bottom row of monospaced secondary text. Include a hidden-by-default grip icon (lucide:grip-vertical) that appears on hover at the right side."
-      },
-      {
-        "part": "Tertiary Stats Grid",
-        "prompt": "A 2-column grid with 12px gaps. Each card is 1:1 aspect ratio or slightly taller. Elements: a 20px icon at the top left, followed by a large 24px bold number and a 12px gray label at the bottom. No hard shadows here; use a subtle #F9FAFB background change on hover."
-      },
-      {
-        "part": "Modular Action Footer",
-        "prompt": "A full-width button (padding 16px) with a 2px dashed border (#D1D5DB). Text: 'Add Widget' in 14px medium weight with a leading plus icon. On hover, the border and text transition to #111111."
-      }
-    ]
-  },
-  "special_ui_components": [
-    {
-      "component": "Neubrutalist Interactive Card",
-      "description": "A white container with a sharp black border and a solid black shadow that appears on interaction.",
-      "prompt": "Component: div; Styles: bg-white, border [1px solid #111], rounded-lg [8px], transition [all 0.2s ease-in-out]; Hover: transform [translateY(-2px)], box-shadow [4px 4px 0px 0px #000000]; Active: transform [translateY(0px)], box-shadow [0px 0px 0px 0px #000000]; Cursor: grab; padding: 20px;"
-    },
-    {
-      "component": "Wireframe Bar Chart",
-      "description": "A minimalist data representation using simple geometric blocks.",
-      "prompt": "A flex container with 'items-end' and 'justify-between'. Child elements: Divs with width: 100% and variable heights. Inactive state: bg-[#F3F4F6]. Active/Highlighted state: bg-[#111111]. Rounded corners: 2px (sm)."
-    }
-  ],
-  "special_notes": "Must maintain strict grayscale; do not use accent colors except for specific status indicators (e.g., green for 'On Track'). Ensure all cards have the exact same 1px #111111 border to maintain the wireframe look. Use 'no-scrollbar' utility to keep the mobile UI clean. The hard-shadow on hover must not have a blur-radius (it should be a solid offset color)."
-}
-```
-
----
-
-## 146. System Interface Feature Announcement
+## 110. System Interface Feature Announcement
 `Other` · `AI & Tech` · 21 copies · [try live](https://superdesign.dev/library/system-interface-feature-announcement?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A brutalist, typography-driven system interface design optimized for technical documentation and feature announcements. Featuring a high-density information layout, rigid grid alignment, and a mechanical aesthetic, it uses JetBrains Mono for a terminal-like feel and Inter for readability. Perfect for developer tools, SaaS infrastructure updates, engineering blogs, and fintech platforms. Key elements include visible 1px borders, a 'system status' header, stepped animations, and a monochrome palette with terminal-green accents.
@@ -14418,7 +9309,7 @@ A brutalist, typography-driven system interface design optimized for technical d
 
 ---
 
-## 147. Forge — Launch Waitlist (dark, warm-ember)
+## 111. Forge — Launch Waitlist (dark, warm-ember)
 `Waitlist & Coming Soon` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/forge-launch-waitlist-dark-warm-ember?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Dark, warm-ember startup launch / waitlist landing page: near-black ink base with a single hot coral accent, Space Grotesk display + Inter body, blurred coral/amber ambient glows, a floating glass pill nav, a centered gradient headline, a glassmorphic email-capture waitlist card, a 'backed by' logo row, and a sticky-titled editorial 3-step feature spread.
@@ -14429,7 +9320,7 @@ Dark, warm-ember startup launch / waitlist landing page: near-black ink base wit
 
 ---
 
-## 148. Multi-step Form Flow
+## 112. Multi-step Form Flow
 `Onboarding` · `General` · 15 copies · [try live](https://superdesign.dev/library/multi-step-form-flow?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A modular, step-based mobile flow designed for creating or editing content with clarity and momentum, where each screen presents a single logical input group, guided by a top progress indicator and a bottom-anchored primary action. Users can move forward or backward without data loss, with progress automatically saved between steps, while the reusable layout system supports optional and conditional steps across different flows. Presented in a minimal wireframe style, visual progression is communicated through spacing and hierarchy rather than visual decoration, making this approach best for onboarding, multi-step setup, preference configuration, and any mobile experience where reducing cognitive load and maximizing completion rate are critical.
@@ -14772,7 +9663,7 @@ Here is a reference implementation:
 
 ---
 
-## 149. Workspace Settings · Formcraft (two-column, cobalt)
+## 113. Workspace Settings · Formcraft (two-column, cobalt)
 `Dashboards` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/workspace-settings-formcraft-two-column-cobalt?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Light SaaS workspace-settings page (form builder): sticky app-bar, tinted header, sticky left section nav + stacked white settings cards, toggles, segmented control and a sticky save bar, on a single cobalt accent over a slate neutral system.
@@ -14783,7 +9674,7 @@ Light SaaS workspace-settings page (form builder): sticky app-bar, tinted header
 
 ---
 
-## 150. Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)
+## 114. Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)
 `Dashboards` · `Finance & Crypto` · 2 copies · [try live](https://superdesign.dev/library/ledgerline-deep-teal-mint-fintech-startup-dashboard-hero?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A trustworthy deep-teal fintech-startup landing page with a mint accent and cream text: a split hero with a product dashboard mock and a floating virtual card, a bento feature grid, a stats traction band, a security certifications grid, and a glowing CTA.

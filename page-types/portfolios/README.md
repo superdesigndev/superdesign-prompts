@@ -51,7 +51,7 @@ Build a Portfolio using the "<system-id>" design system
 ## Reference prompts (best-designed first)
 
 - [Loam — Warm Earthy Organic Agency Website](../../prompts/loam-warm-earthy-organic-agency-website/) · design 9/10 · 2,390 runs
-- [Swiss Grid Agency Layout](../../prompts/swiss-grid-agency-layout/) · design 9/10 · 2,378 runs
 - [Verdance — Agency Website Design Studio (Dark Emerald)](../../prompts/verdance-agency-website-design-studio-dark-emerald/) · design 9/10 · 1,997 runs
+- [Prism — Frosted-Glass Pastel Agency Studio](../../prompts/prism-frosted-glass-pastel-agency-studio/) · design 8/10 · 2,478 runs
+- [Swiss Grid Agency Layout](../../prompts/swiss-grid-agency-layout/) · design 8/10 · 2,378 runs
 - [Bold Editorial Design Style](../../prompts/bold-editorial-design-style/) · design 8/10 · 1,660 runs
-- [Prism — Frosted-Glass Pastel Agency Studio](../../prompts/prism-frosted-glass-pastel-agency-studio/) · design 7/10 · 2,478 runs

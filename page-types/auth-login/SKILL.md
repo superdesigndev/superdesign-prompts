@@ -1,7 +1,7 @@
 # Page type — Auth & Login
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 12 prompts in this repo.
+> Aggregated from 11 prompts in this repo.
 
 ## What this page type is
 
@@ -25,8 +25,6 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common components
 
-- Animated Resend Button  _(in 1 prompts)_
-- Floating Icon Container  _(in 1 prompts)_
 - Wireframe Logo Box  _(in 1 prompts)_
 - Industrial Input Field  _(in 1 prompts)_
 - Two-panel side-panel sign-in card  _(in 1 prompts)_
@@ -43,15 +41,14 @@ Build a Auth & Login using the "<system-id>" design system
 
 ## Reference prompts (best-designed first)
 
-- [Design at the Speed of Thought — Editorial Split Sign-Up](../../prompts/design-at-the-speed-of-thought-editorial-split-sign-up/) · design 9/10 · 2,378 runs
-- [Aurora Glass — Sign in to the canvas](../../prompts/aurora-glass-sign-in-to-the-canvas/) · design 8/10 · 2,495 runs
+- [Aurora Glass — Sign in to the canvas](../../prompts/aurora-glass-sign-in-to-the-canvas/) · design 9/10 · 2,495 runs
 - [Palette — Social-first friendly sign-up](../../prompts/palette-social-first-friendly-sign-up/) · design 8/10 · 2,486 runs
-- [Atlas Studio — Charting Your Account, Step One of Three](../../prompts/atlas-studio-charting-your-account-step-one-of-three/) · design 7/10 · 2,336 runs
+- [Design at the Speed of Thought — Editorial Split Sign-Up](../../prompts/design-at-the-speed-of-thought-editorial-split-sign-up/) · design 8/10 · 2,378 runs
+- [Atlas Studio — Charting Your Account, Step One of Three](../../prompts/atlas-studio-charting-your-account-step-one-of-three/) · design 8/10 · 2,336 runs
+- [Create your account · Promptly — split-image emerald sign-up](../../prompts/create-your-account-promptly-split-image-emerald-sign-up/) · design 7/10 · 2,378 runs
 - [Plume · Sign in to your design canvas](../../prompts/plume-sign-in-to-your-design-canvas/) · design 7/10 · 2,144 runs
+- [Sign in to Verdant — Classic Split (Emerald)](../../prompts/sign-in-to-verdant-classic-split-emerald/) · design 7/10 · 2,084 runs
 - [Welcome back · Lumen — centered-card (true cobalt)](../../prompts/welcome-back-lumen-centered-card-true-cobalt/) · design 6/10 · 2,335 runs
 - [Atelier · Early Access (waitlist-minimal-graphite)](../../prompts/atelier-early-access-waitlist-minimal-graphite/) · design 6/10 · 2,282 runs
 - [Verify it's you · Aperture (OTP / 2FA, graphite-platinum)](../../prompts/verify-its-you-aperture-otp-2fa-graphite-platinum/) · design 6/10 · 2,176 runs
-- [Sign in to Verdant — Classic Split (Emerald)](../../prompts/sign-in-to-verdant-classic-split-emerald/) · design 6/10 · 2,084 runs
-- [Create your account · Promptly — split-image emerald sign-up](../../prompts/create-your-account-promptly-split-image-emerald-sign-up/) · design 5/10 · 2,378 runs
 - [Minimalist Wireframe Login](../../prompts/minimalist-wireframe-login/) · design 5/10 · 2,349 runs
-- [Magic Link Confirmation](../../prompts/magic-link-confirmation/) · design 4/10 · 2,370 runs

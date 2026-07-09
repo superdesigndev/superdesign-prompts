@@ -37,10 +37,11 @@ def human(n):
 
 
 def build_gallery(prompts, cols=4, rows=3):
-    # showcase = best-designed (de-slop curation), not merely most-copied (which surfaced thin prompts)
+    # showcase = best-LOOKING (vision pass on the rendered preview, gated to Jason's bar of >=7),
+    # not merely most-copied or best-on-paper. visual_score is the truth; deslop is the tiebreak.
     imgs = [p for p in prompts
-            if p.get("preview", "").lower().rsplit(".", 1)[-1] in IMG_EXT and num(p, "deslop_score") >= 6]
-    top = sorted(imgs, key=lambda z: (num(z, "deslop_score"), num(z, "copyCount") + num(z, "tryCount")),
+            if p.get("preview", "").lower().rsplit(".", 1)[-1] in IMG_EXT and num(p, "visual_score") >= 7]
+    top = sorted(imgs, key=lambda z: (num(z, "visual_score"), num(z, "deslop_score"), num(z, "tryCount")),
                  reverse=True)[: cols * rows]
     out = ["<table>"]
     for i in range(0, len(top), cols):
@@ -57,14 +58,15 @@ def build_gallery(prompts, cols=4, rows=3):
 
 
 def build_leaderboard(prompts, n=10):
-    # Ranked by DESIGN quality (de-slop score). Runs are near-uniform across the top, so they
-    # don't discriminate — ranking by runs surfaced weak prompts. Design score is the real signal.
-    top = sorted(prompts, key=lambda z: (num(z, "deslop_score"), num(z, "tryCount")), reverse=True)[:n]
+    # Ranked by DESIGN quality = the vision score on the rendered preview (how it actually looks),
+    # deslop then runs as tiebreaks. Runs are near-uniform so they can't discriminate.
+    top = sorted(prompts, key=lambda z: (num(z, "visual_score"), num(z, "deslop_score"), num(z, "tryCount")),
+                 reverse=True)[:n]
     rows = ["| # | Prompt | Category | Design | Runs | |", "|---|---|---|---|---|---|"]
     for i, x in enumerate(top, 1):
         rows.append(
             f'| {i} | **[{x["title"]}](prompts/{x["slug"]}/)** | {x.get("category","")} | '
-            f'{num(x,"deslop_score")}/10 | {num(x,"tryCount"):,} | [▶ Try live]({try_url(x["slug"])}) |'
+            f'{num(x,"visual_score")}/10 | {num(x,"tryCount"):,} | [▶ Try live]({try_url(x["slug"])}) |'
         )
     return "\n".join(rows)
 
@@ -110,6 +112,8 @@ def main():
         r"\g<1>" + date.replace("-", "--"),
         readme,
     )
+    # prompt-count badge (keeps it honest as the visual floor changes the count)
+    readme = re.sub(r"(badge/prompts-)\d+(-blue)", rf"\g<1>{len(prompts)}\g<2>", readme)
     (ROOT / "README.md").write_text(readme)
     print(f"README regenerated · {len(prompts)} prompts · synced {date}")
 

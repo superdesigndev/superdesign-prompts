@@ -50,15 +50,15 @@ Build a Pricing Page using the "<system-id>" design system
 
 ## Reference prompts (best-designed first)
 
-- [Editorial Cream + Ink Two-Path SaaS Pricing](../../prompts/editorial-cream-ink-two-path-saas-pricing-3dee65/) · design 9/10 · 2,466 runs
-- [Electric-Lime Single-Plan SaaS Pricing](../../prompts/electric-lime-single-plan-saas-pricing/) · design 9/10 · 2,462 runs
-- [Electric Dark Usage-Based Pricing Calculator](../../prompts/electric-dark-usage-based-pricing-calculator-20e556/) · design 9/10 · 2,451 runs
+- [Champagne Noir Paywall](../../prompts/champagne-noir-paywall-65a2fd/) · design 9/10 · 2,397 runs
+- [Midnight Navy Fintech Pricing](../../prompts/midnight-navy-fintech-pricing-656a6d/) · design 9/10 · 2,366 runs
 - [Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)](../../prompts/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red/) · design 8/10 · 2,498 runs
 - [Slate ROI-Calculator Pricing](../../prompts/slate-roi-calculator-pricing/) · design 8/10 · 2,481 runs
+- [Electric-Lime Single-Plan SaaS Pricing](../../prompts/electric-lime-single-plan-saas-pricing/) · design 8/10 · 2,462 runs
 - [Electric-Blue Studio Pricing](../../prompts/electric-blue-studio-pricing-188a8f/) · design 8/10 · 2,458 runs
-- [Emerald 4-Tier SaaS Pricing Table](../../prompts/emerald-4-tier-saas-pricing-table/) · design 8/10 · 2,447 runs
-- [Cream & Sky Playful SaaS Pricing](../../prompts/cream-and-sky-playful-saas-pricing/) · design 8/10 · 2,415 runs
-- [Editorial Crimson Dev-Tool Pricing](../../prompts/editorial-crimson-dev-tool-pricing/) · design 8/10 · 2,413 runs
-- [Champagne Noir Paywall](../../prompts/champagne-noir-paywall-65a2fd/) · design 8/10 · 2,397 runs
-- [Editorial Violet SaaS Pricing Matrix](../../prompts/editorial-violet-saas-pricing-matrix/) · design 8/10 · 2,385 runs
-- [Midnight Navy Fintech Pricing](../../prompts/midnight-navy-fintech-pricing-656a6d/) · design 7/10 · 2,366 runs
+- [Electric Dark Usage-Based Pricing Calculator](../../prompts/electric-dark-usage-based-pricing-calculator-20e556/) · design 8/10 · 2,451 runs
+- [Editorial Cream + Ink Two-Path SaaS Pricing](../../prompts/editorial-cream-ink-two-path-saas-pricing-3dee65/) · design 7/10 · 2,466 runs
+- [Cream & Sky Playful SaaS Pricing](../../prompts/cream-and-sky-playful-saas-pricing/) · design 7/10 · 2,415 runs
+- [Emerald 4-Tier SaaS Pricing Table](../../prompts/emerald-4-tier-saas-pricing-table/) · design 6/10 · 2,447 runs
+- [Editorial Crimson Dev-Tool Pricing](../../prompts/editorial-crimson-dev-tool-pricing/) · design 6/10 · 2,413 runs
+- [Editorial Violet SaaS Pricing Matrix](../../prompts/editorial-violet-saas-pricing-matrix/) · design 5/10 · 2,385 runs

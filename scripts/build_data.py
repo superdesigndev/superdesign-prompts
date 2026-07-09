@@ -163,7 +163,10 @@ def main():
     items = json.load(open(ROOT / "data" / "all-prompts.json"))
     total = len(items)
     dspath = ROOT / "data" / "deslop-scores.json"
-    DS = json.load(open(dspath)) if dspath.exists() else {}  # de-slop quality scores (curation pass)
+    DS = json.load(open(dspath)) if dspath.exists() else {}  # de-slop quality scores (spec-text pass)
+    vspath = ROOT / "data" / "visual-scores.json"
+    VS = json.load(open(vspath)) if vspath.exists() else {}  # rendered-PREVIEW visual quality (vision pass, 2026-07-09)
+    VISUAL_FLOOR = 5  # drop prompts whose preview renders sparse/generic/janky (visual_score <= 4). Dial here.
     team = [x for x in items if cname(x).lower() in ALLOWED]
     # Curation exclusions (2026-07-09, from the de-slop pass — docs/PROMPT-MIRROR-CURATION-ISSUES):
     EXCLUDE = {
@@ -194,6 +197,12 @@ def main():
         for x in bycat.get(c, [])[:PER_CAT]: add(x)
     chosen.sort(key=lambda x: x["_s"], reverse=True)
     chosen = chosen[:CAP]
+    # visual-quality floor: the vision pass judged the RENDERED preview (not the spec text) against
+    # Jason's calibration; drop anything that renders sparse/empty/wireframe/janky. No backfill —
+    # a smaller, all-vetted set beats padding the count with slop.
+    before = len(chosen)
+    chosen = [x for x in chosen if VS.get(x["slug"], {}).get("visual_score", 5) >= VISUAL_FLOOR]
+    print(f"visual floor >={VISUAL_FLOOR}: dropped {before - len(chosen)}, kept {len(chosen)}")
     keep = {x["slug"] for x in chosen}
 
     # cleanup stale folders + ensure images
@@ -220,7 +229,9 @@ def main():
                      "try_url": try_url(it["slug"]), "preview": img_rel(it["slug"]),
                      "video": video_rel(it["slug"]), "author": author,
                      "deslop_score": DS.get(it["slug"], {}).get("deslop_score", 5),
-                     "deslop_flags": DS.get(it["slug"], {}).get("flags", [])})
+                     "deslop_flags": DS.get(it["slug"], {}).get("flags", []),
+                     "visual_score": VS.get(it["slug"], {}).get("visual_score", 5),
+                     "visual_flag": VS.get(it["slug"], {}).get("flag", "")})
 
     # ---- per-prompt README ----
     for r in recs:
@@ -241,7 +252,7 @@ def main():
 
     # ---- machine-readable exports ----
     slim = [{k: r[k] for k in ("rank", "slug", "title", "category", "industry", "tags", "description",
-             "copyCount", "tryCount", "deslop_score", "try_url", "preview", "video", "author", "prompt")} for r in recs]
+             "copyCount", "tryCount", "deslop_score", "visual_score", "try_url", "preview", "video", "author", "prompt")} for r in recs]
     (ROOT / "prompts.json").write_text(json.dumps(slim, indent=2))
     with open(ROOT / "prompts.csv", "w", newline="") as f:
         w = csv.writer(f); w.writerow(["rank", "slug", "title", "category", "industry", "tags",

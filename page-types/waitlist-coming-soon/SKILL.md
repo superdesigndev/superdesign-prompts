@@ -1,7 +1,7 @@
 # Page type — Waitlist & Coming Soon
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 11 prompts in this repo.
+> Aggregated from 10 prompts in this repo.
 
 ## What this page type is
 
@@ -10,7 +10,7 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common sections
 
-- Hero Section  _(in 7 prompts)_
+- Hero Section  _(in 6 prompts)_
 - Bento Feature Grid  _(in 4 prompts)_
 - Navigation  _(in 3 prompts)_
 - Footer  _(in 2 prompts)_
@@ -50,14 +50,13 @@ Build a Waitlist & Coming Soon using the "<system-id>" design system
 
 ## Reference prompts (best-designed first)
 
-- [Disruptor Beta Launch](../../prompts/disruptor-beta-launch/) · design 9/10 · 2,318 runs
 - [Superdesign Editorial Waitlist](../../prompts/superdesign-editorial-waitlist/) · design 9/10 · 2,262 runs
-- [Bold Editorial Style](../../prompts/bold-editorial-style/) · design 9/10 · 2,117 runs
+- [Neon Velocity Countdown](../../prompts/neon-velocity-countdown/) · design 9/10 · 1,882 runs
 - [Gen-Z Social App](../../prompts/gen-z-social-app/) · design 9/10 · 1,664 runs
+- [Softly - Digital Wellness App](../../prompts/softly-digital-wellness-app/) · design 9/10 · 1,527 runs
+- [Architectural Type System Style](../../prompts/architectural-type-system-style/) · design 8/10 · 2,189 runs
 - [Momentum — Ship Your Startup Launch Before the Idea Cools](../../prompts/momentum-ship-your-startup-launch-before-the-idea-cools/) · design 8/10 · 2,051 runs
 - [Minimalist Beta Capture](../../prompts/minimalist-beta-capture/) · design 8/10 · 1,975 runs
 - [Forge — Launch Waitlist (dark, warm-ember)](../../prompts/forge-launch-waitlist-dark-warm-ember/) · design 8/10 · 1,962 runs
-- [Neon Velocity Countdown](../../prompts/neon-velocity-countdown/) · design 8/10 · 1,882 runs
-- [Softly - Digital Wellness App](../../prompts/softly-digital-wellness-app/) · design 8/10 · 1,527 runs
-- [Apple-inspired Waitlist](../../prompts/apple-inspired-waitlist/) · design 7/10 · 2,407 runs
-- [Architectural Type System Style](../../prompts/architectural-type-system-style/) · design 7/10 · 2,189 runs
+- [Disruptor Beta Launch](../../prompts/disruptor-beta-launch/) · design 7/10 · 2,318 runs
+- [Bold Editorial Style](../../prompts/bold-editorial-style/) · design 7/10 · 2,117 runs

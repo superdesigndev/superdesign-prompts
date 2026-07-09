@@ -1,7 +1,7 @@
 # Page type — Landing Pages
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 12 prompts in this repo.
+> Aggregated from 9 prompts in this repo.
 
 ## What this page type is
 
@@ -10,9 +10,9 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common sections
 
-- Hero Section  _(in 9 prompts)_
-- Navigation  _(in 5 prompts)_
-- Footer  _(in 3 prompts)_
+- Hero Section  _(in 6 prompts)_
+- Navigation  _(in 3 prompts)_
+- Footer  _(in 2 prompts)_
 - Feature Grid  _(in 2 prompts)_
 - Philosophy / Narrative Section  _(in 1 prompts)_
 - Asymmetrical Showcase Grid  _(in 1 prompts)_
@@ -36,10 +36,8 @@ skill supplies the structure — sections, layout, and the components users expe
 - Grid Sidebar Label  _(in 1 prompts)_
 - Property Inspector Grid  _(in 1 prompts)_
 - Simulated Selection Box  _(in 1 prompts)_
-- Animated UI Simulator  _(in 1 prompts)_
-- The 'Rotating Logo' Brand Mark  _(in 1 prompts)_
-- Scan-Line Progress Bar  _(in 1 prompts)_
-- Animated CTA Button  _(in 1 prompts)_
+- Side-by-Side Narrative Cards  _(in 1 prompts)_
+- Truth Matrix  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -50,15 +48,12 @@ Build a Landing Page using the "<system-id>" design system
 
 ## Reference prompts (best-designed first)
 
+- [Graphic Comparison Report](../../prompts/graphic-comparison-report/) · design 9/10 · 2,470 runs
 - [High Contrast Landing Page](../../prompts/high-contrast-landing-page/) · design 9/10 · 2,400 runs
 - [Foundry: Your SaaS Site, Designed Before You Write a Line](../../prompts/foundry-your-saas-site-designed-before-you-write-a-line/) · design 9/10 · 2,390 runs
-- [Lumina SaaS Landing Page](../../prompts/lumina-saas-landing-page/) · design 9/10 · 2,271 runs
-- [Red sun](../../prompts/red-sun/) · design 9/10 · 1,616 runs
-- [Tech Editorial](../../prompts/tech-editorial/) · design 9/10 · 1,515 runs
-- [Graphic Comparison Report](../../prompts/graphic-comparison-report/) · design 8/10 · 2,470 runs
-- [SaaS Landing Page for Developer Tool](../../prompts/saas-landing-page-for-developer-tool/) · design 8/10 · 2,046 runs
-- [Chrome Extension Landing Page](../../prompts/chrome-extension-landing-page/) · design 7/10 · 2,430 runs
+- [Lumina SaaS Landing Page](../../prompts/lumina-saas-landing-page/) · design 8/10 · 2,271 runs
 - [Synapse](../../prompts/synapse/) · design 7/10 · 1,808 runs
-- [Landing Page / Local Small Business](../../prompts/landing-page-local-small-business/) · design 5/10 · 2,486 runs
-- [Landing Page / Real-Estate](../../prompts/landing-page-real-estate/) · design 5/10 · 2,329 runs
-- [Enterprise Admin Platform](../../prompts/enterprise-admin-platform/) · design 5/10 · 1,658 runs
+- [Landing Page / Local Small Business](../../prompts/landing-page-local-small-business/) · design 6/10 · 2,486 runs
+- [Landing Page / Real-Estate](../../prompts/landing-page-real-estate/) · design 6/10 · 2,329 runs
+- [SaaS Landing Page for Developer Tool](../../prompts/saas-landing-page-for-developer-tool/) · design 6/10 · 2,046 runs
+- [Chrome Extension Landing Page](../../prompts/chrome-extension-landing-page/) · design 5/10 · 2,430 runs

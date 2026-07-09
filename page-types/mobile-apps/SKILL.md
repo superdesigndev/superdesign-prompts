@@ -1,7 +1,7 @@
 # Page type — Mobile Apps
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 12 prompts in this repo.
+> Aggregated from 8 prompts in this repo.
 
 ## What this page type is
 
@@ -27,8 +27,6 @@ skill supplies the structure — sections, layout, and the components users expe
 
 - Floating Center Action Button  _(in 1 prompts)_
 - Bento Metric Card  _(in 1 prompts)_
-- Typographic Drop Cap  _(in 1 prompts)_
-- Meta-Divider Row  _(in 1 prompts)_
 - Selection Card  _(in 1 prompts)_
 - Toggle Switch  _(in 1 prompts)_
 - Interactive List Card  _(in 1 prompts)_
@@ -37,9 +35,8 @@ skill supplies the structure — sections, layout, and the components users expe
 - High-contrast transport row  _(in 1 prompts)_
 - Interactive Filter Button  _(in 1 prompts)_
 - Status Badges  _(in 1 prompts)_
-- Media Control Card  _(in 1 prompts)_
-- Live Camera Card  _(in 1 prompts)_
-- Haptic Button  _(in 1 prompts)_
+- Frosted balance card  _(in 1 prompts)_
+- Center-FAB tab bar  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -50,15 +47,11 @@ Build a Mobile App using the "<system-id>" design system
 
 ## Reference prompts (best-designed first)
 
-- [Focus Mode Detail](../../prompts/focus-mode-detail/) · design 8/10 · 2,493 runs
-- [Coverflow — Carousels that turn heads (dark coverflow aurora)](../../prompts/coverflow-carousels-that-turn-heads-dark-coverflow-aurora/) · design 8/10 · 2,460 runs
+- [Coverflow — Carousels that turn heads (dark coverflow aurora)](../../prompts/coverflow-carousels-that-turn-heads-dark-coverflow-aurora/) · design 9/10 · 2,460 runs
 - [Editorial Music Player (Now Playing)](../../prompts/editorial-music-player-now-playing/) · design 8/10 · 2,420 runs
-- [Fintech Wallet — Mobile Home Screen](../../prompts/fintech-wallet-mobile-home-screen/) · design 7/10 · 2,314 runs
+- [Fintech Wallet — Mobile Home Screen](../../prompts/fintech-wallet-mobile-home-screen/) · design 8/10 · 2,314 runs
+- [Sectioned Index Page](../../prompts/sectioned-index-page/) · design 7/10 · 2,426 runs
 - [BabyBites - Sophisticated Palette](../../prompts/babybites-sophisticated-palette/) · design 7/10 · 1,547 runs
-- [Compact Control Grid](../../prompts/compact-control-grid/) · design 6/10 · 2,374 runs
-- [Sectioned Index Page](../../prompts/sectioned-index-page/) · design 5/10 · 2,426 runs
+- [Gesture First Navigation System](../../prompts/gesture-first-navigation-system/) · design 6/10 · 2,465 runs
 - [Account Setup Flow — Goals / Interests (Card-Based)](../../prompts/account-setup-flow-goals-interests-card-based/) · design 5/10 · 2,425 runs
-- [Gesture First Navigation System](../../prompts/gesture-first-navigation-system/) · design 4/10 · 2,465 runs
-- [Card Grid Browse](../../prompts/card-grid-browse/) · design 4/10 · 2,392 runs
-- [Hero + Sticky Action Detail](../../prompts/hero-sticky-action-detail/) · design 4/10 · 2,349 runs
-- [Bottom Tab Navigation — Core App Shell](../../prompts/bottom-tab-navigation-core-app-shell/) · design 3/10 · 2,356 runs
+- [Card Grid Browse](../../prompts/card-grid-browse/) · design 5/10 · 2,392 runs

@@ -1,7 +1,7 @@
 # Page type — Dashboards
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 7 prompts in this repo.
+> Aggregated from 5 prompts in this repo.
 
 ## What this page type is
 
@@ -30,11 +30,6 @@ skill supplies the structure — sections, layout, and the components users expe
 - Action Trigger Button  _(in 1 prompts)_
 - Lime progress ring  _(in 1 prompts)_
 - Segmented chart toggle  _(in 1 prompts)_
-- The Dismiss Item  _(in 1 prompts)_
-- Vertical Node Dial  _(in 1 prompts)_
-- Terminal Code Block  _(in 1 prompts)_
-- Neubrutalist Interactive Card  _(in 1 prompts)_
-- Wireframe Bar Chart  _(in 1 prompts)_
 - Product dashboard mock  _(in 1 prompts)_
 - Floating virtual-card chip  _(in 1 prompts)_
 - Frosted teal glass surface  _(in 1 prompts)_
@@ -50,10 +45,8 @@ Build a Dashboard using the "<system-id>" design system
 
 ## Reference prompts (best-designed first)
 
+- [Volt — Electric-Lime Fitness Dashboard](../../prompts/volt-electric-lime-fitness-dashboard-a7544c/) · design 9/10 · 2,343 runs
 - [AI System Configuration Console](../../prompts/ai-system-configuration-console/) · design 9/10 · 2,306 runs
-- [Volt — Electric-Lime Fitness Dashboard](../../prompts/volt-electric-lime-fitness-dashboard-a7544c/) · design 8/10 · 2,343 runs
-- [Developer tool dashboard/onboarding](../../prompts/developer-tool-dashboardonboarding/) · design 8/10 · 2,148 runs
-- [Modular Card Dashboard](../../prompts/modular-card-dashboard/) · design 7/10 · 1,970 runs
-- [Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)](../../prompts/ledgerline-deep-teal-mint-fintech-startup-dashboard-hero/) · design 7/10 · 1,915 runs
+- [Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)](../../prompts/ledgerline-deep-teal-mint-fintech-startup-dashboard-hero/) · design 9/10 · 1,915 runs
+- [Workspace Settings · Formcraft (two-column, cobalt)](../../prompts/workspace-settings-formcraft-two-column-cobalt/) · design 6/10 · 1,929 runs
 - [Tablekit — The data table your team actually wants to live in](../../prompts/tablekit-the-data-table-your-team-actually-wants-to-live-in/) · design 5/10 · 2,256 runs
-- [Workspace Settings · Formcraft (two-column, cobalt)](../../prompts/workspace-settings-formcraft-two-column-cobalt/) · design 5/10 · 1,929 runs
