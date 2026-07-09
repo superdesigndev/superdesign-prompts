@@ -1,0 +1,28 @@
+CC0 1.0 Universal — Public Domain Dedication (prompt content)
+
+This dedication applies to the PROMPT CONTENT in this repository:
+  - the design specs in `prompts/**/README.md`
+  - the `title`, `description`, and `prompt` fields in `prompts.json`,
+    `prompts.csv`, and `PROMPTS.md`
+  - the `DESIGN.md` summaries in `systems/**`
+
+To the extent possible under law, Superdesign has waived all copyright and related
+or neighboring rights to this prompt content and dedicated it to the public domain
+worldwide. You may copy, modify, distribute, and use it — including for commercial
+purposes — all without asking permission and without attribution.
+
+  Deed:      https://creativecommons.org/publicdomain/zero/1.0/
+  Full text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+The prompt content was authored by the Superdesign team, so it can be dedicated to
+the public domain in full.
+
+THE CONTENT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+---
+
+This CC0 dedication covers ONLY the prompt content above. The repository's code and
+structure (the `scripts/`, generated formats, and docs) are licensed under MIT — see LICENSE.
+Preview images (`prompts/**/preview.*`) are screenshots of generated output, provided for
+reference. Third-party fonts, images, or libraries referenced inside a prompt remain under
+their own licenses.

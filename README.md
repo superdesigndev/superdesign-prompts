@@ -152,7 +152,7 @@ Each prompt is being factored into a **style** ([`systems/`](systems/)) and a **
 
 **What is Superdesign?** An AI product design agent that turns prompts into UI mockups, components, and full designs on an infinite canvas. See [superdesign.dev](https://superdesign.dev?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
 
-**Are the prompts free to use?** The prompt text is free to use. *(Data license TBD — see LICENSE.)*
+**Are the prompts free to use?** Yes — the prompt content is dedicated to the public domain under **CC0 1.0** ([`LICENSE-DATA`](LICENSE-DATA)). Use it freely, even commercially, no attribution required.
 
 ## Contributing
 
@@ -160,7 +160,7 @@ This is a read-only mirror of the live [Superdesign prompt library](https://supe
 
 ## License
 
-Repo code and structure: MIT (see [`LICENSE`](LICENSE)). Prompt data license: **TBD** (CC0 recommended — pending decision).
+Dual-licensed: the repo **code and structure** are MIT ([`LICENSE`](LICENSE)); the **prompt content** is dedicated to the public domain under **CC0 1.0** ([`LICENSE-DATA`](LICENSE-DATA)) — use it freely, even commercially, no attribution required.
 
 ---
 
