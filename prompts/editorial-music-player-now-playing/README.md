@@ -7,7 +7,7 @@ tags: ["mobile app", "music player", "now playing", "editorial", "light ui"]
 copyCount: 1
 tryCount: 2420
 author: "Jason Zhou"
-try_url: "https://p.superdesign.dev/draft/aa288fc2-2f00-463c-9142-439dcca4eb3a"
+try_url: "https://superdesign.dev/library/editorial-music-player-now-playing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Editorial Music Player (Now Playing)
@@ -45,7 +45,7 @@ A high-contrast editorial "Now Playing" mobile music player: a light cream top w
 }
 ```
 
-**▶ [Try it live →](https://p.superdesign.dev/draft/aa288fc2-2f00-463c-9142-439dcca4eb3a)**
+**▶ [Try it live →](https://superdesign.dev/library/editorial-music-player-now-playing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

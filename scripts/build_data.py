@@ -169,9 +169,10 @@ def main():
     VISUAL_FLOOR = 5  # drop prompts whose preview renders sparse/generic/janky (visual_score <= 4). Dial here.
     dfbpath = ROOT / "data" / "detail-fallback.json"
     DFB = json.load(open(dfbpath)) if dfbpath.exists() else {}  # STOPGAP (2026-07-09): the live /library/<slug>
-    # detail page crashes for prompts whose `images` field is null (platform bug: `.slice` on null, SUP-53).
+    # detail page crashes for 21 legacy prompts whose `special_ui_components` are plain strings, not
+    # {prompt} objects — StructuredPromptView does `comp.prompt.slice(...)` → throws (platform PR #1110).
     # For those, point "Try live" at the standalone previewUrl render instead of the crashing page.
-    # REMOVE this + data/detail-fallback.json once the platform null-guard ships.
+    # REMOVE this + data/detail-fallback.json once platform PR #1110 (the normalize fix) deploys.
     team = [x for x in items if cname(x).lower() in ALLOWED]
     # Curation exclusions (2026-07-09, from the de-slop pass — docs/PROMPT-MIRROR-CURATION-ISSUES):
     EXCLUDE = {

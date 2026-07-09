@@ -6,7 +6,7 @@
 
 <div align="center">
 <!-- STATS:START -->
-  <b>128 top prompts</b> · <b>283K tries</b> · <b>51K copies</b> — hand-picked and category-balanced from a <b>128-prompt live library</b> with <b>283K+ tries</b>.<br>
+  <b>128 top prompts</b> · <b>283K tries</b> · <b>51K copies</b> — hand-picked and category-balanced from a <b>964-prompt live library</b> with <b>1.7M+ tries</b>.<br>
   Browse all and run any live at <b><a href="https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">superdesign.dev/library</a></b>.
 <!-- STATS:END -->
 </div>
@@ -79,7 +79,7 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 <!-- GALLERY:START -->
 <table>
 <tr>
-<td width="25%" align="center" valign="top"><a href="https://p.superdesign.dev/draft/a690303e-b57c-47ff-8eb0-71318a9d4d33"><img src="prompts/acid-yellow-neo-brutalist-mega-footer/preview.png" width="200" alt="Acid-Yellow Neo-Brutalist Mega Footer"></a><br><sub><b><a href="prompts/acid-yellow-neo-brutalist-mega-footer/">Acid-Yellow Neo-Brutalist Mega Footer</a></b><br>2,401 runs</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/acid-yellow-neo-brutalist-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/acid-yellow-neo-brutalist-mega-footer/preview.png" width="200" alt="Acid-Yellow Neo-Brutalist Mega Footer"></a><br><sub><b><a href="prompts/acid-yellow-neo-brutalist-mega-footer/">Acid-Yellow Neo-Brutalist Mega Footer</a></b><br>2,401 runs</sub></td>
 <td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/high-contrast-landing-page/preview.png" width="200" alt="High Contrast Landing Page"></a><br><sub><b><a href="prompts/high-contrast-landing-page/">High Contrast Landing Page</a></b><br>2,400 runs</sub></td>
 <td width="25%" align="center" valign="top"><a href="https://p.superdesign.dev/draft/ca3f16bf-3779-43c6-98b6-031c60e7c77e"><img src="prompts/foundry-your-saas-site-designed-before-you-write-a-line/preview.png" width="200" alt="Foundry: Your SaaS Site, Designed Before You Write a Line"></a><br><sub><b><a href="prompts/foundry-your-saas-site-designed-before-you-write-a-line/">Foundry: Your SaaS Site, Designed Before You Write a Line</a></b><br>2,390 runs</sub></td>
 <td width="25%" align="center" valign="top"><a href="https://p.superdesign.dev/draft/ce5771e8-084d-4a35-a72d-97d816f7133e"><img src="prompts/loam-warm-earthy-organic-agency-website/preview.png" width="200" alt="Loam — Warm Earthy Organic Agency Website"></a><br><sub><b><a href="prompts/loam-warm-earthy-organic-agency-website/">Loam — Warm Earthy Organic Agency Website</a></b><br>2,390 runs</sub></td>
@@ -87,7 +87,7 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 <tr>
 <td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/ai-system-configuration-console?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/ai-system-configuration-console/preview.png" width="200" alt="AI System Configuration Console"></a><br><sub><b><a href="prompts/ai-system-configuration-console/">AI System Configuration Console</a></b><br>2,306 runs</sub></td>
 <td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/superdesign-editorial-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/superdesign-editorial-waitlist/preview.png" width="200" alt="Superdesign Editorial Waitlist"></a><br><sub><b><a href="prompts/superdesign-editorial-waitlist/">Superdesign Editorial Waitlist</a></b><br>2,262 runs</sub></td>
-<td width="25%" align="center" valign="top"><a href="https://p.superdesign.dev/draft/9309eda3-dc54-44be-8564-3a7d08379073"><img src="prompts/verdance-agency-website-design-studio-dark-emerald/preview.png" width="200" alt="Verdance — Agency Website Design Studio (Dark Emerald)"></a><br><sub><b><a href="prompts/verdance-agency-website-design-studio-dark-emerald/">Verdance — Agency Website Design Studio (Dark Emerald)</a></b><br>1,997 runs</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/verdance-agency-website-design-studio-dark-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/verdance-agency-website-design-studio-dark-emerald/preview.png" width="200" alt="Verdance — Agency Website Design Studio (Dark Emerald)"></a><br><sub><b><a href="prompts/verdance-agency-website-design-studio-dark-emerald/">Verdance — Agency Website Design Studio (Dark Emerald)</a></b><br>1,997 runs</sub></td>
 <td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/gen-z-social-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/gen-z-social-app/preview.png" width="200" alt="Gen-Z Social App"></a><br><sub><b><a href="prompts/gen-z-social-app/">Gen-Z Social App</a></b><br>1,664 runs</sub></td>
 </tr>
 <tr>
@@ -104,13 +104,13 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 <!-- LEADERBOARD:START -->
 | # | Prompt | Category | Design | Runs | |
 |---|---|---|---|---|---|
-| 1 | **[Acid-Yellow Neo-Brutalist Mega Footer](prompts/acid-yellow-neo-brutalist-mega-footer/)** | Forms & Contact | 9/10 | 2,401 | [▶ Try live](https://p.superdesign.dev/draft/a690303e-b57c-47ff-8eb0-71318a9d4d33) |
+| 1 | **[Acid-Yellow Neo-Brutalist Mega Footer](prompts/acid-yellow-neo-brutalist-mega-footer/)** | Forms & Contact | 9/10 | 2,401 | [▶ Try live](https://superdesign.dev/library/acid-yellow-neo-brutalist-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 | 2 | **[High Contrast Landing Page](prompts/high-contrast-landing-page/)** | Landing Pages | 9/10 | 2,400 | [▶ Try live](https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 | 3 | **[Foundry: Your SaaS Site, Designed Before You Write a Line](prompts/foundry-your-saas-site-designed-before-you-write-a-line/)** | Landing Pages | 9/10 | 2,390 | [▶ Try live](https://p.superdesign.dev/draft/ca3f16bf-3779-43c6-98b6-031c60e7c77e) |
 | 4 | **[Loam — Warm Earthy Organic Agency Website](prompts/loam-warm-earthy-organic-agency-website/)** | Portfolios | 9/10 | 2,390 | [▶ Try live](https://p.superdesign.dev/draft/ce5771e8-084d-4a35-a72d-97d816f7133e) |
 | 5 | **[AI System Configuration Console](prompts/ai-system-configuration-console/)** | Dashboards | 9/10 | 2,306 | [▶ Try live](https://superdesign.dev/library/ai-system-configuration-console?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 | 6 | **[Superdesign Editorial Waitlist](prompts/superdesign-editorial-waitlist/)** | Waitlist & Coming Soon | 9/10 | 2,262 | [▶ Try live](https://superdesign.dev/library/superdesign-editorial-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 7 | **[Verdance — Agency Website Design Studio (Dark Emerald)](prompts/verdance-agency-website-design-studio-dark-emerald/)** | Portfolios | 9/10 | 1,997 | [▶ Try live](https://p.superdesign.dev/draft/9309eda3-dc54-44be-8564-3a7d08379073) |
+| 7 | **[Verdance — Agency Website Design Studio (Dark Emerald)](prompts/verdance-agency-website-design-studio-dark-emerald/)** | Portfolios | 9/10 | 1,997 | [▶ Try live](https://superdesign.dev/library/verdance-agency-website-design-studio-dark-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 | 8 | **[Gen-Z Social App](prompts/gen-z-social-app/)** | Waitlist & Coming Soon | 9/10 | 1,664 | [▶ Try live](https://superdesign.dev/library/gen-z-social-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 | 9 | **[Brutalist Style Ecommerce Page](prompts/brutalist-style-ecommerce-page/)** | E-commerce | 9/10 | 1,568 | [▶ Try live](https://superdesign.dev/library/brutalist-style-ecommerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 | 10 | **[Brutalist E-commerce Page](prompts/brutalist-e-commerce-page/)** | E-commerce | 9/10 | 1,531 | [▶ Try live](https://superdesign.dev/library/brutalist-e-commerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |

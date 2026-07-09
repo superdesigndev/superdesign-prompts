@@ -7,7 +7,7 @@ tags: ["mobile app", "paywall", "subscription", "pricing", "premium", "dark mode
 copyCount: 0
 tryCount: 2397
 author: "Jason Zhou"
-try_url: "https://p.superdesign.dev/draft/27120ee3-4d43-47c2-b284-9061662fec63"
+try_url: "https://superdesign.dev/library/champagne-noir-paywall-65a2fd?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Champagne Noir Paywall
@@ -44,7 +44,7 @@ A premium dark subscription paywall: champagne/gold accents on near-black, an it
 }
 ```
 
-**▶ [Try it live →](https://p.superdesign.dev/draft/27120ee3-4d43-47c2-b284-9061662fec63)**
+**▶ [Try it live →](https://superdesign.dev/library/champagne-noir-paywall-65a2fd?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

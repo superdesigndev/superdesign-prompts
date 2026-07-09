@@ -7,7 +7,7 @@ tags: ["mobile app", "fintech", "banking", "wallet", "finance", "home screen"]
 copyCount: 1
 tryCount: 2314
 author: "Jason Zhou"
-try_url: "https://p.superdesign.dev/draft/63451e2f-914d-4d98-a710-24cc6b614303"
+try_url: "https://superdesign.dev/library/fintech-wallet-mobile-home-screen?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Fintech Wallet — Mobile Home Screen
@@ -43,7 +43,7 @@ A mobile fintech wallet home screen: a teal gradient hero with a frosted balance
 }
 ```
 
-**▶ [Try it live →](https://p.superdesign.dev/draft/63451e2f-914d-4d98-a710-24cc6b614303)**
+**▶ [Try it live →](https://superdesign.dev/library/fintech-wallet-mobile-home-screen?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 
