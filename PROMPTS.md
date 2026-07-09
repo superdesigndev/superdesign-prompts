@@ -9705,7 +9705,7 @@ Help me integrate this into my design
 ---
 
 ## 56. Coverflow — Carousels that turn heads (dark coverflow aurora)
-`Mobile Apps` · `AI & Tech` · 48 copies · [try live](https://superdesign.dev/library/coverflow-carousels-that-turn-heads-dark-coverflow-aurora?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Mobile Apps` · `AI & Tech` · 48 copies · [try live](https://p.superdesign.dev/draft/3271ea71-3d1e-4d62-8acf-c047ead3acb7)
 
 A dark, aurora-lit 3D coverflow carousel landing page: a sticky frosted-ink nav, then a centered hero (a 'depth-aware coverflow engine' status pill, a big 'Carousels that turn heads, not stomachs.' heading whose 'turn heads' is teal-to-magenta gradient text, and a soft lead) wrapping a real CSS 3D coverflow stage. Seven gradient cards sit on a 1600px perspective stage: the active card faces front with a teal glow ring while neighbours rotate ~42-48deg and recede in Z, scaling and fading by distance, each card carrying a top-left sheen and a bottom gradient label. Below the stage, a round glass prev button, pill dots (active = a wide teal-to-magenta gradient bar), and a next button; clicks, dots, arrows and the left/right keys re-lay the stage. Then a CTA pair, a grayscale logo strip, a 3-up glass feature grid, a 'from prompt to motion' showcase split with a faux terminal card, a gradient-thumb templates grid, a dark gradient CTA, and a social footer. Inter + Space Grotesk fonts, near-black ink #0b0f14 ground, aqua #2dd4bf + magenta #e879f9 accents, glass panels and aurora blobs, Iconify Phosphor icons; responsive geometry drops far cards on small screens and collapses the nav into a hamburger.
 
@@ -9716,7 +9716,7 @@ A dark, aurora-lit 3D coverflow carousel landing page: a sticky frosted-ink nav,
 ---
 
 ## 57. Aurora Glass — Sign in to the canvas
-`Auth & Login` · `SaaS` · 6 copies · [try live](https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Auth & Login` · `SaaS` · 6 copies · [try live](https://p.superdesign.dev/draft/c98899b2-32ee-4564-afb4-b914e4da709c)
 
 Dark aurora-glass split sign-in screen: frosted glassmorphic auth card with a glowing aqua focus ring and an aqua-to-magenta gradient CTA, floating over neon aurora blobs on near-black ink, beside a product pitch column. Space Grotesk + Inter.
 
@@ -9840,7 +9840,7 @@ A highly visual, typography-driven comparison report design. This style eschews 
 ---
 
 ## 59. Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)
-`Pricing Pages` · `Dev Tools` · 3 copies · [try live](https://superdesign.dev/library/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `Dev Tools` · 3 copies · [try live](https://p.superdesign.dev/draft/b16eea19-8eaf-43b8-ac65-ca86e94d7833)
 
 A Swiss-grid SaaS marketing homepage: stark white paper, near-black ink, one signal-red accent, an oversized two-line hero, an embedded prompt-to-canvas product mock, a hover-invert feature grid, a dark variant-tile workflow split, a 3-tier pricing block with an inverted Pro card, and a hairline-celled mega footer.
 
@@ -9851,7 +9851,7 @@ A Swiss-grid SaaS marketing homepage: stark white paper, near-black ink, one sig
 ---
 
 ## 60. Landing Page / Local Small Business
-`Landing Pages` · `General` · 5 copies · [try live](https://superdesign.dev/library/landing-page-local-small-business?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Landing Pages` · `General` · 5 copies · [try live](https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Best practice high conversion page for local small business like Service, Restaurant, etc.
 
@@ -10029,7 +10029,7 @@ Generate the landing page now.
 ---
 
 ## 61. Palette — Social-first friendly sign-up
-`Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/palette-social-first-friendly-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Auth & Login` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/f2bffea5-4316-461c-a92d-8b8c0da35264)
 
 A warm, social-first sign-up screen on a cream canvas: a two-column hero+signup landing with a friendly product pitch on the left (hand-drawn underline, teal-check benefits, a 5-star social-proof cluster) and a white rounded card on the right that leads with three full-width stacked social-auth buttons (Google, GitHub, Apple) above an 'or sign up with email' divider and a single email field with a coral 'Create account' CTA. Coral + teal accents, Poppins, a sticky blurred nav, a logo marquee, a three-step how-it-works, and a dark gradient CTA band.
 
@@ -10111,7 +10111,7 @@ A premium, high-conversion e-commerce style guide optimized for D2C beauty and w
 ---
 
 ## 63. Slate ROI-Calculator Pricing
-`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/slate-roi-calculator-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://p.superdesign.dev/draft/3051936e-dd84-440e-8a3e-562065dba5ab)
 
 A frameless dark SaaS pricing page in inky slate with one electric mint accent: an interactive ROI savings calculator, a 4-tier plan grid with a highlighted Pro card and monthly/annual toggle, a comparison table, and an accordion FAQ.
 
@@ -10122,7 +10122,7 @@ A frameless dark SaaS pricing page in inky slate with one electric mint accent: 
 ---
 
 ## 64. The Quote, Set in Burgundy
-`Blog & Editorial` · `General` · 0 copies · [try live](https://superdesign.dev/library/the-quote-set-in-burgundy?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Blog & Editorial` · `General` · 0 copies · [try live](https://p.superdesign.dev/draft/94d40563-9479-4a6f-b64a-4cce50119ab4)
 
 A magazine-style single-slide testimonial on a warm cream canvas: one oversized Fraunces serif pull-quote with burgundy italic emphasis, a ghosted giant quote mark, an avatar trust cluster, a portrait byline, and prev/next carousel chrome with progress dots.
 
@@ -10133,7 +10133,7 @@ A magazine-style single-slide testimonial on a warm cream canvas: one oversized 
 ---
 
 ## 65. Prism — Frosted-Glass Pastel Agency Studio
-`Portfolios` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/prism-frosted-glass-pastel-agency-studio?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Portfolios` · `Agency & Studio` · 0 copies · [try live](https://p.superdesign.dev/draft/db4b7bf0-75f4-4c1b-8685-9794085cda62)
 
 A light, frosted-glass pastel agency studio homepage on a soft mesh-gradient canvas (off-white #fbfcff washed with peach #ffd8c2, sky #cfe3ff, and mint #d3f5e3 radial blooms): a floating pill-shaped glass sticky nav, a centered black-on-pastel hero (huge Inter-black headline, glass pill badges, a dark pill CTA + a glass 'See the work' pill) over fanned, overlapping translucent glass UI cards, a faded trust logo strip, a frosted bento work grid with one dark stat card (+240%), a big glass services panel with a dark featured 'Most loved' card, a three-up testimonial row with a dark feature quote, a frosted closing CTA, and a clean glass-divided footer. Award-winning soft-pastel glassmorphism with near-black #15161b ink.
 
@@ -10144,7 +10144,7 @@ A light, frosted-glass pastel agency studio homepage on a soft mesh-gradient can
 ---
 
 ## 66. Teal-on-Ink Newsletter Mega Footer
-`Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/teal-on-ink-newsletter-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/f1469e4e-90f4-45e2-b4d4-f86a177585a6)
 
 A dark near-black footer with a teal accent, prominent newsletter capture, three link columns, social row, status pill and language switch, fully responsive.
 
@@ -10630,7 +10630,7 @@ Here is a reference implementation:
 ---
 
 ## 68. Editorial Cream + Ink Two-Path SaaS Pricing
-`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-cream-ink-two-path-saas-pricing-3dee65?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://p.superdesign.dev/draft/6020c53f-e452-4abe-9129-69d07ee6e07d)
 
 A warm editorial SaaS pricing page on a cream canvas: a serif headline with an electric-blue italic accent, two self-serve plan cards (one highlighted) beside a dark near-black Enterprise contact-sales panel with gold accents, plus a monthly/annual toggle.
 
@@ -10641,7 +10641,7 @@ A warm editorial SaaS pricing page on a cream canvas: a serif headline with an e
 ---
 
 ## 69. Electric-Lime Single-Plan SaaS Pricing
-`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/electric-lime-single-plan-saas-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://p.superdesign.dev/draft/654502ee-fde4-4f0f-b119-31f1e7282219)
 
 A bold editorial single-plan pricing page with a giant toggling price card, a tilted sky-blue feature card, and one electric-lime accent on warm paper inside a charcoal frame.
 
@@ -10652,7 +10652,7 @@ A bold editorial single-plan pricing page with a giant toggling price card, a ti
 ---
 
 ## 70. Electric-Blue Studio Pricing
-`Pricing Pages` · `Dev Tools` · 1 copies · [try live](https://superdesign.dev/library/electric-blue-studio-pricing-188a8f?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `Dev Tools` · 1 copies · [try live](https://p.superdesign.dev/draft/f425baac-b7a9-4218-a6f6-e562356426e7)
 
 A frameless, near-black dev-tool SaaS pricing page with one electric-blue accent, oversized outlined-type headline, and a single-plan card (monthly/annual toggle + optional power-up add-ons) instead of a tier wall.
 
@@ -10768,7 +10768,7 @@ Features a mixed-media layout including horizontal snap-scrolling cards, vertica
 ---
 
 ## 73. Electric Dark Usage-Based Pricing Calculator
-`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/electric-dark-usage-based-pricing-calculator-20e556?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://p.superdesign.dev/draft/e3f0a688-7da8-4f75-87b7-2e7b2c4829c2)
 
 An electric dark dev-tool pricing page built around an interactive slider calculator that live-computes included quota plus tiered pay-as-you-go overage, with a lime accent, a highlighted plan card row, and an FAQ accordion.
 
@@ -10779,7 +10779,7 @@ An electric dark dev-tool pricing page built around an interactive slider calcul
 ---
 
 ## 74. Emerald 4-Tier SaaS Pricing Table
-`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/emerald-4-tier-saas-pricing-table?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://p.superdesign.dev/draft/c3221707-0326-4e47-b514-8914bef67b06)
 
 A light-mode emerald-accented SaaS pricing page with a Monthly/Annual toggle and four tiers fused into one bordered table, the Pro column lifted and ring-highlighted as 'Most popular'.
 
@@ -10790,7 +10790,7 @@ A light-mode emerald-accented SaaS pricing page with a Monthly/Annual toggle and
 ---
 
 ## 75. The Atelier Brief — an editorial intake form, set like a letter
-`Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/the-atelier-brief-an-editorial-intake-form-set-like-a-letter?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `General` · 0 copies · [try live](https://p.superdesign.dev/draft/0cd0c9b0-8369-44b5-9353-850ea4f992be)
 
 An editorial intake form set like a letter: a warm cream page in Fraunces serif + Inter with a single burgundy accent, borderless underline inputs with serif labels (Name / E-mail, Project / Budget, Message), structured by full-bleed cream/ink/cream bands and hairline rules instead of cards, and a quiet ink 'Submit the brief' button.
 
@@ -10801,7 +10801,7 @@ An editorial intake form set like a letter: a warm cream page in Fraunces serif 
 ---
 
 ## 76. Send Us the Brief — Brutalist Contact Form
-`Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/send-us-the-brief-brutalist-contact-form?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `General` · 0 copies · [try live](https://p.superdesign.dev/draft/bad82511-e092-4ab8-9545-ddef49dbb75d)
 
 Loud neo-brutalist contact page for a design-tool brand (Formcast), built around a blunt two-field 'brief box'. A paper-and-ink base (paper #f4f1ea canvas, ink #0a0a0a text/borders) with exactly one high-voltage acid-yellow accent (#e8ff00), thick 2px/4px ink borders, hard offset drop shadows (zero blur, e.g. 8px 8px 0 0 #0a0a0a), depress-on-press chunky buttons, and an acid focus shadow on the fields, in a heavy Archivo (up to 900) + Space Mono pairing. A sticky paper nav (an ink+acid logo tile + a FORMCAST wordmark, How it works/Library/Brief us hover-fill links and an acid 'Start' button) sits over a scrolling ink marquee strip and a hero (an acid eyebrow pill, a giant uppercase 'SEND US THE BRIEF.' headline with 'brief.' highlighted in acid, and a '38s' avg-turnaround stat card). The centerpiece is a contact section split into a left rail of three numbered instruction tiles and a big bordered FORM CARD with an oversized E-Mail input + Message textarea, a Brutalist/Editorial/Minimal/Surprise-me style-chip row, and a chunky Cancel + acid 'Send' button row. A 'Three blunt steps' card row and a dark ink footer with an acid CTA close the page. The reusable signature is the neo-brutalist contact form: thick ink borders + hard offset shadows + one acid accent + a heavy Archivo/Space Mono voice.
 
@@ -10812,7 +10812,7 @@ Loud neo-brutalist contact page for a design-tool brand (Formcast), built around
 ---
 
 ## 77. Editorial Music Player (Now Playing)
-`Mobile Apps` · `General` · 1 copies · [try live](https://superdesign.dev/library/editorial-music-player-now-playing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Mobile Apps` · `General` · 1 copies · [try live](https://p.superdesign.dev/draft/aa288fc2-2f00-463c-9142-439dcca4eb3a)
 
 A high-contrast editorial "Now Playing" mobile music player: a light cream top with a warm sunset gradient album art, bold track title + scrubber, dark high-contrast transport controls on cream circles, over a deep forest-green "Up Next" playlist with a coral now-playing highlight.
 
@@ -10846,7 +10846,7 @@ A high-contrast editorial "Now Playing" mobile music player: a light cream top w
 ---
 
 ## 78. Cream & Sky Playful SaaS Pricing
-`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/cream-and-sky-playful-saas-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://p.superdesign.dev/draft/f718a8fe-cb58-473d-9627-c5a633692473)
 
 A warm, friendly light-mode SaaS pricing page on a cream paper canvas with sky-blue accents, serif display type, rounded cards, a monthly/yearly toggle, and a highlighted middle tier.
 
@@ -10857,7 +10857,7 @@ A warm, friendly light-mode SaaS pricing page on a cream paper canvas with sky-b
 ---
 
 ## 79. Editorial Crimson Dev-Tool Pricing
-`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-crimson-dev-tool-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://p.superdesign.dev/draft/ef9b19b7-c16e-4673-8b61-c2366a57b522)
 
 A light, serif-accented SaaS pricing page on white with a single crimson accent, audience segmented tabs, a monthly/annual toggle, and a 4-tier grid with one elevated 'most popular' card.
 
@@ -10915,7 +10915,7 @@ A sophisticated, mobile-first product browsing layout emphasizing whitespace, cl
 ---
 
 ## 81. Acid-Yellow Neo-Brutalist Mega Footer
-`Forms & Contact` · `General` · 1 copies · [try live](https://superdesign.dev/library/acid-yellow-neo-brutalist-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `General` · 1 copies · [try live](https://p.superdesign.dev/draft/a690303e-b57c-47ff-8eb0-71318a9d4d33)
 
 Neo-brutalist acid-yellow mega footer with hard offset shadows, a giant hollow-stroke wordmark, a marquee, three link columns, and a newsletter card.
 
@@ -10926,7 +10926,7 @@ Neo-brutalist acid-yellow mega footer with hard offset shadows, a giant hollow-s
 ---
 
 ## 82. Validar — Forms that catch mistakes before they cost you
-`Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/validar-forms-that-catch-mistakes-before-they-cost-you?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/d8c9a2af-edad-43be-a359-b211ad10ee7f)
 
 A teal-on-paper SaaS landing page for an inline form-validation tool: a sticky glass nav, a split hero with a live account-creation card showing all four field states (idle, active, valid, error) at once, a four-up state-model band, a dark-teal 'submit unlocks itself' section, a benefit grid, and a footer. Color + icon + plain-words validation, Inter, soft layered shadows.
 
@@ -10937,7 +10937,7 @@ A teal-on-paper SaaS landing page for an inline form-validation tool: a sticky g
 ---
 
 ## 83. Champagne Noir Paywall
-`Pricing Pages` · `General` · 0 copies · [try live](https://superdesign.dev/library/champagne-noir-paywall-65a2fd?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `General` · 0 copies · [try live](https://p.superdesign.dev/draft/27120ee3-4d43-47c2-b284-9061662fec63)
 
 A premium dark subscription paywall: champagne/gold accents on near-black, an italic-serif value headline, a Free-vs-Pro feature table, a yearly(best-value)/monthly plan toggle, and a gold "Start free trial" CTA.
 
@@ -10970,7 +10970,7 @@ A premium dark subscription paywall: champagne/gold accents on near-black, an it
 ---
 
 ## 84. Foundry: Your SaaS Site, Designed Before You Write a Line
-`Landing Pages` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/foundry-your-saas-site-designed-before-you-write-a-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Landing Pages` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/ca3f16bf-3779-43c6-98b6-031c60e7c77e)
 
 A warm editorial SaaS landing page on cream paper: big Fraunces serif headline with a terracotta italic highlight, a split hero with a dark infinite-canvas product mock, staggered feature cards, a real-reference library showcase, a pull quote, a dark palette/craft story, three-tier pricing, and an olive CTA banner.
 
@@ -10981,7 +10981,7 @@ A warm editorial SaaS landing page on cream paper: big Fraunces serif headline w
 ---
 
 ## 85. Loam — Warm Earthy Organic Agency Website
-`Portfolios` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/loam-warm-earthy-organic-agency-website?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Portfolios` · `Agency & Studio` · 0 copies · [try live](https://p.superdesign.dev/draft/ce5771e8-084d-4a35-a72d-97d816f7133e)
 
 Warm earthy organic agency / studio website: sand + terracotta palette, Fraunces serif display type, organic leaf-blob shapes, sticky blurred nav, project-card grid, numbered services list, and a terracotta contact block with a mock prompt form.
 
@@ -11758,7 +11758,7 @@ Agent must NOT reveal internal score unless explicitly asked.
 ---
 
 ## 87. Ink & Acid Mono Sitemap Footer
-`Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/ink-and-acid-mono-sitemap-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `General` · 0 copies · [try live](https://p.superdesign.dev/draft/6eb31ad0-6fd1-4849-8645-3b1994307bdc)
 
 A near-black ink footer with acid-green accents and mono labels: four link columns, a newsletter, a live status pill, and a giant ghost wordmark.
 
@@ -11769,7 +11769,7 @@ A near-black ink footer with acid-green accents and mono labels: four link colum
 ---
 
 ## 88. Editorial Violet SaaS Pricing Matrix
-`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-violet-saas-pricing-matrix?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://p.superdesign.dev/draft/533885d9-50d8-4448-9f31-5561b59f72f8)
 
 A light, editorial SaaS pricing page led by a full-width grouped comparison matrix with a sticky 3-plan header, electric-violet accent, and a monthly/annual toggle.
 
@@ -11839,7 +11839,7 @@ An editorial SaaS onboarding experience featuring a calm, sophisticated aestheti
 ---
 
 ## 90. Design at the Speed of Thought — Editorial Split Sign-Up
-`Auth & Login` · `SaaS` · 1 copies · [try live](https://superdesign.dev/library/design-at-the-speed-of-thought-editorial-split-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Auth & Login` · `SaaS` · 1 copies · [try live](https://p.superdesign.dev/draft/3d366ad0-f8d3-462a-ad94-ac621f32b3bb)
 
 An editorial, magazine-style sign-up screen built as a full split-screen landing: a sticky translucent cream nav over a two-pane main. The LEFT is an oversized Fraunces-serif brand panel on a textured deep-burgundy ground (film grain, faint concentric arcs, a soft bloom) with an 'Issue 06 . The Design Agent' eyebrow, a 'Design at the speed of thought.' display headline (italic 'speed'), a value paragraph and a pull-quote testimonial with an initials avatar plus a three-icon feature row. The RIGHT is a near-black ink account-creation column: a 'Start designing, free.' heading, Google + GitHub OAuth buttons above an 'or with email' divider, white burgundy-focus-ring email + password fields (an eye toggle + a four-segment strength meter) and a burgundy 'Create account' CTA. Below the split: a full-bleed cream 'Trusted in the studios shipping fastest' proof strip and a dark ink FAQ/footer accordion. Cream + burgundy + ink palette, Fraunces serif + Inter.
 
@@ -11850,7 +11850,7 @@ An editorial, magazine-style sign-up screen built as a full split-screen landing
 ---
 
 ## 91. Swiss Grid Agency Layout
-`Portfolios` · `Agency & Studio` · 1 copies · [try live](https://superdesign.dev/library/swiss-grid-agency-layout?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Portfolios` · `Agency & Studio` · 1 copies · [try live](https://p.superdesign.dev/draft/3cb380db-92d0-47c9-a30d-203646691fbc)
 
 A Swiss / International-Typographic-Style agency homepage on a strict 12-column grid: pure black ink #0a0a0a on paper white #ffffff with one electric cobalt #1f4fff accent, a sticky paper nav with an ink hairline, an editorial index row over a 2px cobalt rule, a giant disciplined 'AGENCY SITES.' display headline (Inter) with a 2x2 stat block, an inverted black auto-scroll marquee of disciplines, a numbered Selected-Work index list with hover-cobalt titles and a nudging out-arrow, a 4-up hairline services grid (4th card inverted to solid cobalt), a large studio statement, a giant mailto contact line, and a 3-up hairline footer. JetBrains Mono micro-labels index every section.
 
@@ -11861,7 +11861,7 @@ A Swiss / International-Typographic-Style agency homepage on a strict 12-column 
 ---
 
 ## 92. Create your account · Promptly — split-image emerald sign-up
-`Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/create-your-account-promptly-split-image-emerald-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Auth & Login` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/3d6be993-d468-4d67-bd54-e49c3545796d)
 
 A two-column desktop sign-up page: focused email + Google/GitHub social form on a bright white left half, dark emerald 'brand-mesh' panel with a floating product mock and testimonial on the right; sticky translucent nav, Inter, slate neutrals with a single emerald accent.
 
@@ -12016,7 +12016,7 @@ Responsive: Fluid layout with 8px grid unit. Left panel (65%) canvas + right pa
 ---
 
 ## 95. Midnight Navy Fintech Pricing
-`Pricing Pages` · `Finance & Crypto` · 1 copies · [try live](https://superdesign.dev/library/midnight-navy-fintech-pricing-656a6d?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Pricing Pages` · `Finance & Crypto` · 1 copies · [try live](https://p.superdesign.dev/draft/be6d88ac-549f-46d3-82a7-a77232727d29)
 
 A deep-navy, teal-accented SaaS/fintech pricing page with a sticky blurred nav, monthly/annual toggle, and a glowing 'Most popular' middle tier across three cards.
 
@@ -12145,7 +12145,7 @@ A high-end technical editorial design system tailored for feature announcements,
 ---
 
 ## 98. Modal Design · success-celebration (pastel) — legibility fixed
-`Onboarding` · `General` · 0 copies · [try live](https://superdesign.dev/library/modal-design-success-celebration-pastel-legibility-fixed-9fbd65?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Onboarding` · `General` · 0 copies · [try live](https://p.superdesign.dev/draft/6785fe9e-75eb-4073-938e-3bb0b3c81265)
 
 A joyful pastel success-celebration modal as the live hero centerpiece of a product page: a rounded-5xl cream dialog with an animated deep-sky checkmark badge (pulsing rings + a drawn check), a 'You're all set! 🎉' headline and a deep-sky gradient CTA, floating over a soft sky-to-cream field full of gently floating multicolor confetti, a frosted-glass sticky nav, a 3-up pattern-library grid, a starter-kit split with a stacked upgrade-dialog preview, and a dark ink CTA band. Legibility-fixed: bright sky/coral stay decorative while every text + CTA tone uses deepened >=4.5:1 variants. All Poppins, Phosphor icons.
 
@@ -12156,7 +12156,7 @@ A joyful pastel success-celebration modal as the live hero centerpiece of a prod
 ---
 
 ## 99. Volt — Electric-Lime Fitness Dashboard
-`Dashboards` · `Health & Wellness` · 5 copies · [try live](https://superdesign.dev/library/volt-electric-lime-fitness-dashboard-a7544c?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Dashboards` · `Health & Wellness` · 5 copies · [try live](https://p.superdesign.dev/draft/f5e210d4-dea0-4eed-8598-773d56fae06e)
 
 An electric-lime fitness/health dashboard on near-black: a big animated step-progress ring, stat chips, a weekly-activity bar chart, health insights, a workouts list, a challenge card, and an achievements grid with a bottom nav.
 
@@ -12242,7 +12242,7 @@ A high-trust, technical briefing design system for AI onboarding and system init
 ---
 
 ## 101. Cream Paper & Coral Mega Footer
-`Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/cream-paper-and-coral-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `General` · 0 copies · [try live](https://p.superdesign.dev/draft/645d9ec0-ae4a-4fab-9124-7c2b0f82762d)
 
 A warm cream-paper mega footer with a coral hairline edge, Fraunces serif CTA band, newsletter capture, a five-column link grid, and a status-pill legal bar.
 
@@ -12253,7 +12253,7 @@ A warm cream-paper mega footer with a coral hairline edge, Fraunces serif CTA ba
 ---
 
 ## 102. Welcome back · Lumen — centered-card (true cobalt)
-`Auth & Login` · `SaaS` · 1 copies · [try live](https://superdesign.dev/library/welcome-back-lumen-centered-card-true-cobalt?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Auth & Login` · `SaaS` · 1 copies · [try live](https://p.superdesign.dev/draft/2b5741c7-6122-40cf-a591-db3f6bf2a8a3)
 
 A clean centered-card sign-in page on a soft off-white canvas with a single true-cobalt accent: sticky nav, a white rounded-3xl auth card (Google + GitHub social, floating-label email/password with a show/hide toggle, remember-me + forgot, gradient Sign in CTA), and ambient cobalt glows.
 
@@ -12264,7 +12264,7 @@ A clean centered-card sign-in page on a soft off-white canvas with a single true
 ---
 
 ## 103. Atlas Studio — Charting Your Account, Step One of Three
-`Auth & Login` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/atlas-studio-charting-your-account-step-one-of-three?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Auth & Login` · `Agency & Studio` · 0 copies · [try live](https://p.superdesign.dev/draft/154ca8b6-894c-400f-97e8-4233cc0f405f)
 
 Premium dark-navy multi-step signup / onboarding screen (step 1 of 3) for an AI design tool: a 3-step progress tracker, glassy translucent cards on a midnight-navy ground with soft amber glows, a single warm amber accent, focus-reactive fields, a password strength meter, a role selector, and a 'what you unlock' value panel with a testimonial.
 
@@ -12275,7 +12275,7 @@ Premium dark-navy multi-step signup / onboarding screen (step 1 of 3) for an AI 
 ---
 
 ## 104. Fintech Wallet — Mobile Home Screen
-`Mobile Apps` · `Finance & Crypto` · 1 copies · [try live](https://superdesign.dev/library/fintech-wallet-mobile-home-screen?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Mobile Apps` · `Finance & Crypto` · 1 copies · [try live](https://p.superdesign.dev/draft/63451e2f-914d-4d98-a710-24cc6b614303)
 
 A mobile fintech wallet home screen: a teal gradient hero with a frosted balance card, four quick-action buttons, and a clean recent-activity list, on an off-white sheet with a center-FAB tab bar.
 
@@ -12307,7 +12307,7 @@ A mobile fintech wallet home screen: a teal gradient hero with a frosted balance
 ---
 
 ## 105. Forms that feel effortless to fill — Fieldcraft
-`Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/forms-that-feel-effortless-to-fill-fieldcraft?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/1e008422-dd41-414e-aa04-f6b300ad210d)
 
 A stacked, multi-section account-settings form on a white card: top-aligned labels, helper text, a 6-column responsive grid, custom checkboxes and radios, and one disciplined emerald accent for focus and the primary action.
 
@@ -12318,7 +12318,7 @@ A stacked, multi-section account-settings form on a white card: top-aligned labe
 ---
 
 ## 106. Loop · Say hello, we don't bite (friendly illustrated sky)
-`Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/loop-say-hello-we-dont-bite-friendly-illustrated-sky?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `General` · 0 copies · [try live](https://p.superdesign.dev/draft/48f47524-1218-4b47-82bb-7eb64a3e47f0)
 
 A warm, playful illustrated contact page (Loop) in a sky-blue + coral two-accent palette on a cloud-white canvas: a sticky blurred nav, a centered two-tone "Let's chat about anything you're building" hero with a pulsing reply-time pill, and one giant rounded white card splitting a hand-drawn CSS+SVG illustration panel (floating sun, clouds, channel bubbles, grass) and copy on the left against a multi-field form with icon-prefixed sky-ring inputs, emoji topic chips and a gradient send button on the right, then a row of three alt-contact cards and a deep sky-ink footer. Heavy rounded Nunito (up to black 900), bubbly corners, cheerful and human, never a cold corporate form.
 
@@ -12329,7 +12329,7 @@ A warm, playful illustrated contact page (Loop) in a sky-blue + coral two-accent
 ---
 
 ## 107. Formcraft — Workspace Settings (cobalt two-column)
-`Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/formcraft-workspace-settings-cobalt-two-column?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/60697ec6-b6f8-4d17-8b48-3729600554c2)
 
 A two-column SaaS workspace-settings screen: sticky app nav, left section nav, grouped settings cards with toggles, a segmented control, selectable delivery cards, and a fixed save bar, in Inter on slate with one cobalt accent.
 
@@ -12340,7 +12340,7 @@ A two-column SaaS workspace-settings screen: sticky app nav, left section nav, g
 ---
 
 ## 108. Atelier · Early Access (waitlist-minimal-graphite)
-`Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/atelier-early-access-waitlist-minimal-graphite?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Auth & Login` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/9e290f56-a3b4-48f2-ad8a-67c14e1843db)
 
 Minimal monochrome graphite-on-paper waitlist / early-access landing for an AI design tool: a warm off-white ground with near-black ink and one platinum grey (no color accent), a big tight black-weight headline, a centered single-field email + button waitlist form with overlapping social-proof avatars, scattered graphite confetti strokes, a logo trust strip, a 3-step how-it-works grid and an inverted full-bleed dark closing CTA.
 
@@ -12351,7 +12351,7 @@ Minimal monochrome graphite-on-paper waitlist / early-access landing for an AI d
 ---
 
 ## 109. Editorial Image Lightbox
-`Blog & Editorial` · `General` · 1 copies · [try live](https://superdesign.dev/library/editorial-image-lightbox?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Blog & Editorial` · `General` · 1 copies · [try live](https://p.superdesign.dev/draft/4d336490-8858-45db-a2e3-44fa7f13cb74)
 
 An editorial image lightbox modal as the live hero of a product page: a near-black coal (#0c0a09) figure with a top rail (serif 04/28 plate counter + 'Aperture Series' label, scrollable category filter pills, a circular close), a full-bleed photograph with circular glass prev/next carets and a bottom legibility gradient, and a cream (#faf6ef) caption panel (burgundy location eyebrow, a Fraunces headline, a description, Save / Copy-prompt actions), floated over a vignetted grain stage with a faded 3-up gallery echo behind and an 'Esc / arrows / 28 plates' keyboard ticker beneath. Around it: a frosted sticky cream nav, a hero with a stats card, a 3-up library grid, a four-cell anatomy band, a dark CTA band and a coal footer. Ink-on-cream editorial with a single reserved burgundy #7b2d3b accent; Fraunces + Inter, Phosphor icons.
 
@@ -12362,7 +12362,7 @@ An editorial image lightbox modal as the live hero of a product page: a near-bla
 ---
 
 ## 110. Tablekit — The data table your team actually wants to live in
-`Dashboards` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/tablekit-the-data-table-your-team-actually-wants-to-live-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Dashboards` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/77cc5332-fcd8-484a-a80a-513daef7d5b5)
 
 Dense light-mode admin data table (Tablekit): blurred sticky nav, dotted-grid hero, a cobalt-on-white panel with a filter bar, bulk-action bar, sticky-header scroll table with colored status/priority/type badges and avatar chips, and a full pagination footer.
 
@@ -12373,7 +12373,7 @@ Dense light-mode admin data table (Tablekit): blurred sticky nav, dotted-grid he
 ---
 
 ## 111. Sunset Glow Wordmark Mega Footer
-`Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/sunset-glow-wordmark-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `General` · 0 copies · [try live](https://p.superdesign.dev/draft/1775451a-b16a-4f9e-9810-b04548cbc103)
 
 A dark mega footer with a radial orange-to-magenta sunset glow, a giant gradient wordmark, newsletter capture, three link columns, and a legal bar.
 
@@ -12384,7 +12384,7 @@ A dark mega footer with a radial orange-to-magenta sunset glow, a giant gradient
 ---
 
 ## 112. Atelier — Design, Spoken Into Being (editorial serif / burgundy)
-`Forms & Contact` · `General` · 1 copies · [try live](https://superdesign.dev/library/atelier-design-spoken-into-being-editorial-serif-burgundy?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Forms & Contact` · `General` · 1 copies · [try live](https://p.superdesign.dev/draft/9a91df77-59a2-4110-83f0-1932508fa283)
 
 An editorial, print-magazine CTA: an oversized Fraunces serif statement with a single burgundy italic line on warm cream paper, closed by an understated text-link call to action and a no-card trust line, framed by a sticky nav and a newsletter footer.
 
@@ -12395,7 +12395,7 @@ An editorial, print-magazine CTA: an oversized Fraunces serif statement with a s
 ---
 
 ## 113. Modal Design · success-celebration (pastel) — legibility fixed
-`Onboarding` · `General` · 0 copies · [try live](https://superdesign.dev/library/modal-design-success-celebration-pastel-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Onboarding` · `General` · 0 copies · [try live](https://p.superdesign.dev/draft/2470674d-4afd-4da4-9c37-e0cf2e9a304c)
 
 A joyful pastel success-celebration modal as the live centerpiece of a light SaaS page: a cream rounded-5xl dialog with a pulsing-ring animated checkmark badge, a gradient 'Continue to dashboard' CTA and a ghost secondary, floating over a full-bleed confetti layer on a cream-to-sky radial field. Below it a 3-up pattern-library card band, a starter-kit split with a stacked mini upgrade modal, a dark-ink CTA band and a cream footer. Pastel sky + coral are decorative-only; all colored text uses darkened >=4.5:1 tokens (#0369a1 / #be123c) and every gradient button runs deep stops behind white — legibility fixed. Poppins throughout.
 
@@ -12466,7 +12466,7 @@ A minimalist, developer-centric configuration interface featuring a monochrome t
 ---
 
 ## 115. Verify it's you · Aperture (OTP / 2FA, graphite-platinum)
-`Auth & Login` · `SaaS` · 4 copies · [try live](https://superdesign.dev/library/verify-its-you-aperture-otp-2fa-graphite-platinum?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Auth & Login` · `SaaS` · 4 copies · [try live](https://p.superdesign.dev/draft/a40c68d3-ca57-4c9f-834e-a4de361c7f1b)
 
 OTP / two-factor verification screen on warm paper with a graphite + platinum palette: a Two-factor eyebrow pill, a glass card with a lock icon, six single-digit code boxes, progress dots, a live resend countdown and a Verify code button. Inter, light mode, no saturated color.
 
@@ -12524,7 +12524,7 @@ A technical, research-backed onboarding system design using a dark slate palette
 ---
 
 ## 117. Plume · Sign in to your design canvas
-`Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/plume-sign-in-to-your-design-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Auth & Login` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/6a1d8e7a-ba5c-470c-8cd7-3222ecfb03fc)
 
 Warm, illustrated AI design-agent sign-in landing in sky-blue and coral: a sticky frosted nav over a two-panel side-panel login card (gradient illustration aside plus email, password and social auth), floating blobs, dot-grid texture and rounded-everything Nunito type.
 
@@ -12599,7 +12599,7 @@ A high-energy, Gen-Z-inspired design system with a 'Neo-Brutalist' aesthetic. Th
 ---
 
 ## 119. Questions, Set in Serif — An Editorial FAQ
-`Blog & Editorial` · `General` · 0 copies · [try live](https://superdesign.dev/library/questions-set-in-serif-an-editorial-faq?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Blog & Editorial` · `General` · 0 copies · [try live](https://p.superdesign.dev/draft/f68d678c-01ec-47a6-8217-61cea30dc224)
 
 Editorial magazine-style FAQ page on a warm cream canvas: an oversized sticky Fraunces serif 'Frequently Asked Questions' title beside a hairline-ruled column of serif Q/A rows (numbered, rotating plus-to-x, one pre-opened in wine), an ink context band and footer, with a 'Question not here?' contact card.
 
@@ -12664,7 +12664,7 @@ A maximalist, neobrutalist design system featuring unconventional geometric typo
 ---
 
 ## 121. Sign in to Verdant — Classic Split (Emerald)
-`Auth & Login` · `SaaS` · 3 copies · [try live](https://superdesign.dev/library/sign-in-to-verdant-classic-split-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Auth & Login` · `SaaS` · 3 copies · [try live](https://p.superdesign.dev/draft/63d017c1-25c3-4fb6-9a31-b480f207098a)
 
 A full-bleed classic split sign-in page: white emerald-accented auth form on the left (social + email login, gradient Sign in CTA), a dark slate brand panel with ambient glows and a floating showcase card on the right, and a sticky nav above both.
 
@@ -12675,7 +12675,7 @@ A full-bleed classic split sign-in page: white emerald-accented auth form on the
 ---
 
 ## 122. Momentum — Ship Your Startup Launch Before the Idea Cools
-`Waitlist & Coming Soon` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/momentum-ship-your-startup-launch-before-the-idea-cools?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Waitlist & Coming Soon` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/e423cafb-2ab1-40a1-85aa-7482ca362471)
 
 Bold optimistic startup launch / waitlist landing page: teal-to-lime gradient brand on warm-white paper, sticky blurred nav, gradient-aura hero with an inline email-capture form and a frameless prompt-to-page preview, feature cards, a gradient traction band, launch-template cards, a dark ink CTA, and a 4-column footer.
 
@@ -12686,7 +12686,7 @@ Bold optimistic startup launch / waitlist landing page: teal-to-lime gradient br
 ---
 
 ## 123. Verdance — Agency Website Design Studio (Dark Emerald)
-`Portfolios` · `Agency & Studio` · 7 copies · [try live](https://superdesign.dev/library/verdance-agency-website-design-studio-dark-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Portfolios` · `Agency & Studio` · 7 copies · [try live](https://p.superdesign.dev/draft/9309eda3-dc54-44be-8564-3a7d08379073)
 
 A dark-emerald design-studio / agency website with a single brass metallic accent: two forest-green surfaces (#0d1f17 / #0a1711), cream #f1ede3 text, an emerald/emeraldSoft green pair, and brass #c9a227 for all hairlines, bracketed labels, award diamonds and primary pills. A fixed glass nav over a hero whose giant tight Inter display headline (AGENCY / WEBSITES) carries an italic Fraunces serif accent (that win), a full-bleed palette-tinted feature photo, an infinite award marquee, a serif studio statement with a brass-gridline stat grid, an asymmetric work grid, a thin numbered services list, a recognition strip, a grain CTA, and a 4-column footer. High-craft editorial Awwwards-studio energy.
 
@@ -12756,7 +12756,7 @@ A brutalist, typography-driven system interface design optimized for technical d
 ---
 
 ## 125. Forge — Launch Waitlist (dark, warm-ember)
-`Waitlist & Coming Soon` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/forge-launch-waitlist-dark-warm-ember?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Waitlist & Coming Soon` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/b2872932-7c44-4ec1-8128-99a65fb985f1)
 
 Dark, warm-ember startup launch / waitlist landing page: near-black ink base with a single hot coral accent, Space Grotesk display + Inter body, blurred coral/amber ambient glows, a floating glass pill nav, a centered gradient headline, a glassmorphic email-capture waitlist card, a 'backed by' logo row, and a sticky-titled editorial 3-step feature spread.
 
@@ -13110,7 +13110,7 @@ Here is a reference implementation:
 ---
 
 ## 127. Workspace Settings · Formcraft (two-column, cobalt)
-`Dashboards` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/workspace-settings-formcraft-two-column-cobalt?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Dashboards` · `SaaS` · 0 copies · [try live](https://p.superdesign.dev/draft/e7ec15e8-44c6-499d-a711-25578a88b421)
 
 Light SaaS workspace-settings page (form builder): sticky app-bar, tinted header, sticky left section nav + stacked white settings cards, toggles, segmented control and a sticky save bar, on a single cobalt accent over a slate neutral system.
 
@@ -13121,7 +13121,7 @@ Light SaaS workspace-settings page (form builder): sticky app-bar, tinted header
 ---
 
 ## 128. Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)
-`Dashboards` · `Finance & Crypto` · 2 copies · [try live](https://superdesign.dev/library/ledgerline-deep-teal-mint-fintech-startup-dashboard-hero?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+`Dashboards` · `Finance & Crypto` · 2 copies · [try live](https://p.superdesign.dev/draft/3a670a0f-717b-4a71-8a60-9fecba3a7207)
 
 A trustworthy deep-teal fintech-startup landing page with a mint accent and cream text: a split hero with a product dashboard mock and a floating virtual card, a bento feature grid, a stats traction band, a security certifications grid, and a glowing CTA.
 

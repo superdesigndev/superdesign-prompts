@@ -167,6 +167,11 @@ def main():
     vspath = ROOT / "data" / "visual-scores.json"
     VS = json.load(open(vspath)) if vspath.exists() else {}  # rendered-PREVIEW visual quality (vision pass, 2026-07-09)
     VISUAL_FLOOR = 5  # drop prompts whose preview renders sparse/generic/janky (visual_score <= 4). Dial here.
+    dfbpath = ROOT / "data" / "detail-fallback.json"
+    DFB = json.load(open(dfbpath)) if dfbpath.exists() else {}  # STOPGAP (2026-07-09): the live /library/<slug>
+    # detail page crashes for prompts whose `images` field is null (platform bug: `.slice` on null, SUP-53).
+    # For those, point "Try live" at the standalone previewUrl render instead of the crashing page.
+    # REMOVE this + data/detail-fallback.json once the platform null-guard ships.
     team = [x for x in items if cname(x).lower() in ALLOWED]
     # Curation exclusions (2026-07-09, from the de-slop pass — docs/PROMPT-MIRROR-CURATION-ISSUES):
     EXCLUDE = {
@@ -230,7 +235,7 @@ def main():
                      "category": it["_cat"], "industry": it["_ind"], "tags": it.get("tags") or [],
                      "description": (it.get("description") or "").strip(), "prompt": (it.get("prompt") or "").strip(),
                      "copyCount": it.get("copyCount") or 0, "tryCount": it.get("tryCount") or 0,
-                     "try_url": try_url(it["slug"]), "preview": img_rel(it["slug"]),
+                     "try_url": DFB.get(it["slug"]) or try_url(it["slug"]), "preview": img_rel(it["slug"]),
                      "video": video_rel(it["slug"]), "author": author,
                      "deslop_score": DS.get(it["slug"], {}).get("deslop_score", 5),
                      "deslop_flags": DS.get(it["slug"], {}).get("flags", []),

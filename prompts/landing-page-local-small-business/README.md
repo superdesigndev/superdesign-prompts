@@ -7,7 +7,7 @@ tags: ["skill"]
 copyCount: 5
 tryCount: 2486
 author: "Jason Zhou"
-try_url: "https://superdesign.dev/library/landing-page-local-small-business?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
+try_url: "https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
 ---
 
 # Landing Page / Local Small Business
@@ -189,7 +189,7 @@ Questions phrased the way locals actually ask. Optimized for featured snippets.
 Generate the landing page now.
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/landing-page-local-small-business](https://superdesign.dev/library/landing-page-local-small-business?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ Try it live → [https://superdesign.dev/library/landing-page-local-small-business](https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

@@ -7,7 +7,7 @@ tags: ["mobile app", "fitness", "health", "dashboard", "activity rings", "dark m
 copyCount: 5
 tryCount: 2343
 author: "Jason Zhou"
-try_url: "https://superdesign.dev/library/volt-electric-lime-fitness-dashboard-a7544c?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"
+try_url: "https://p.superdesign.dev/draft/f5e210d4-dea0-4eed-8598-773d56fae06e"
 ---
 
 # Volt — Electric-Lime Fitness Dashboard
@@ -46,7 +46,7 @@ An electric-lime fitness/health dashboard on near-black: a big animated step-pro
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/volt-electric-lime-fitness-dashboard-a7544c](https://superdesign.dev/library/volt-electric-lime-fitness-dashboard-a7544c?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ Try it live → [https://superdesign.dev/library/volt-electric-lime-fitness-dashboard-a7544c](https://p.superdesign.dev/draft/f5e210d4-dea0-4eed-8598-773d56fae06e)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 
