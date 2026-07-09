@@ -2,11 +2,11 @@
 
 > Coding agents write great code and generic interfaces: default shadcn, same fonts, no taste. This is a library of **design prompts — each a full design spec with a live preview and real usage data** — that give your agent design direction so the UI it ships actually looks designed. Powered by [Superdesign](https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
 
-![prompts](https://img.shields.io/badge/prompts-128-blue) ![backed by](https://img.shields.io/badge/backed%20by-1.7M%2B%20real%20runs-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![last synced](https://img.shields.io/badge/last%20synced-2026--07--09-informational) ![license](https://img.shields.io/badge/code-MIT-informational)
+![prompts](https://img.shields.io/badge/prompts-129-blue) ![backed by](https://img.shields.io/badge/backed%20by-1.7M%2B%20real%20runs-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![last synced](https://img.shields.io/badge/last%20synced-2026--07--09-informational) ![license](https://img.shields.io/badge/code-MIT-informational)
 
 <div align="center">
 <!-- STATS:START -->
-  <b>128 top prompts</b> · <b>283K tries</b> · <b>51K copies</b> — hand-picked and category-balanced from a <b>128-prompt live library</b> with <b>283K+ tries</b>.<br>
+  <b>129 top prompts</b> · <b>283K tries</b> · <b>51K copies</b> — hand-picked and category-balanced from a <b>129-prompt live library</b> with <b>283K+ tries</b>.<br>
   Browse all and run any live at <b><a href="https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">superdesign.dev/library</a></b>.
 <!-- STATS:END -->
 </div>
@@ -93,8 +93,8 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 <tr>
 <td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/brutalist-style-ecommerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/brutalist-style-ecommerce-page/preview.png" width="200" alt="Brutalist Style Ecommerce Page"></a><br><sub><b><a href="prompts/brutalist-style-ecommerce-page/">Brutalist Style Ecommerce Page</a></b><br>1,568 runs</sub></td>
 <td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/brutalist-e-commerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/brutalist-e-commerce-page/preview.png" width="200" alt="Brutalist E-commerce Page"></a><br><sub><b><a href="prompts/brutalist-e-commerce-page/">Brutalist E-commerce Page</a></b><br>1,531 runs</sub></td>
+<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/glassmorphism-dashboard-frosted-sunrise-analytics-ui?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/glassmorphism-dashboard-frosted-sunrise-analytics-ui/preview.png" width="200" alt="Glassmorphism Dashboard: Frosted Sunrise Analytics UI"></a><br><sub><b><a href="prompts/glassmorphism-dashboard-frosted-sunrise-analytics-ui/">Glassmorphism Dashboard: Frosted Sunrise Analytics UI</a></b><br>0 runs</sub></td>
 <td width="25%" align="center" valign="top"><a href="https://p.superdesign.dev/draft/c98899b2-32ee-4564-afb4-b914e4da709c"><img src="prompts/aurora-glass-sign-in-to-the-canvas/preview.png" width="200" alt="Aurora Glass — Sign in to the canvas"></a><br><sub><b><a href="prompts/aurora-glass-sign-in-to-the-canvas/">Aurora Glass — Sign in to the canvas</a></b><br>2,495 runs</sub></td>
-<td width="25%" align="center" valign="top"><a href="https://superdesign.dev/library/graphic-comparison-report?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/graphic-comparison-report/preview.png" width="200" alt="Graphic Comparison Report"></a><br><sub><b><a href="prompts/graphic-comparison-report/">Graphic Comparison Report</a></b><br>2,470 runs</sub></td>
 </tr>
 </table>
 <!-- GALLERY:END -->
