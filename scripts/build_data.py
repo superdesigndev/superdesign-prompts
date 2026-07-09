@@ -377,13 +377,6 @@ def main():
     # The unused `R` block above is kept only for reference; its write is intentionally removed.
     _ = R  # retained for reference; not written
 
-    # re-point tweet images
-    tb = ROOT / "content" / "tweet-bank.json"
-    if tb.exists():
-        data = json.load(open(tb)); pm = {r["slug"]: r for r in recs}
-        for b in data: b["image"] = pm.get(b["slug"], {}).get("preview")
-        tb.write_text(json.dumps(data, indent=2))
-
     print("v4 DONE. total:", len(recs))
     print("  page-type:", ccount)
     print("  industry :", icount)
