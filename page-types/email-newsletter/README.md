@@ -1,7 +1,7 @@
 # Page type — Email & Newsletter
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 3 prompts in this repo.
+> Aggregated from 7 prompts in this repo.
 
 ## What this page type is
 
@@ -10,8 +10,9 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common sections
 
-- Header  _(in 2 prompts)_
-- Footer  _(in 2 prompts)_
+- Footer  _(in 4 prompts)_
+- Header  _(in 3 prompts)_
+- Masthead  _(in 3 prompts)_
 - Headline block  _(in 1 prompts)_
 - Gradient hero card  _(in 1 prompts)_
 - Feature blocks (x3)  _(in 1 prompts)_
@@ -21,20 +22,19 @@ skill supplies the structure — sections, layout, and the components users expe
 - Totals  _(in 1 prompts)_
 - Customer information  _(in 1 prompts)_
 - Help + footer  _(in 1 prompts)_
-- Masthead  _(in 1 prompts)_
 
 ## Common components
 
-- Pill CTA button (with soft accent glow)  _(in 1 prompts)_
-- Gradient hero card with embedded browser-chrome product vignette  _(in 1 prompts)_
-- Syntax-highlighted code snippet panel  _(in 1 prompts)_
-- Itemized line-item row with a dotted leader to a right-aligned price  _(in 1 prompts)_
-- Right-aligned subtotal / shipping / large Total block  _(in 1 prompts)_
-- Two-column shipping + billing address grid  _(in 1 prompts)_
-- Editorial masthead (issue metadata + centered italic serif wordmark)  _(in 1 prompts)_
-- Full-bleed photo hero with a two-image split  _(in 1 prompts)_
-- Deeper-tone pull-quote band  _(in 1 prompts)_
-- Spacious 2x2 product grid  _(in 1 prompts)_
+- 1px hairline title box over a full-bleed grayscale hero  _(in 1 prompts)_
+- Oversized parenthetical section index (01)  _(in 1 prompts)_
+- Hairline label-left / value-right metadata table  _(in 2 prompts)_
+- Full-bleed solid-colour CTA band / block  _(in 2 prompts)_
+- Condensed display title over a duotone portrait  _(in 1 prompts)_
+- Cast row + dense movie-billing credit block  _(in 1 prompts)_
+- Line-separated itinerary / screenings list  _(in 1 prompts)_
+- CSS folded-paper flyer panel (crease grid + grain)  _(in 1 prompts)_
+- Rotated 'printed' microcopy following folds  _(in 1 prompts)_
+- Pill / block CTA with maximum contrast  _(in 3 prompts)_
 
 ## Example — render in a chosen style
 
@@ -46,5 +46,9 @@ Build a Email & Newsletter using the "<system-id>" design system
 ## Reference prompts (best-designed first)
 
 - [Cinematic Editorial Newsletter Email](../../prompts/cinematic-editorial-newsletter-email/) · design 9/10 · 0 runs
+- [Cinematic Grayscale Newsletter Email](../../prompts/cinematic-grayscale-newsletter-email/) · design 9/10 · 0 runs
+- [Red-on-Cream Editorial Announcement Email](../../prompts/red-on-cream-editorial-announcement-email/) · design 9/10 · 0 runs
+- [Movie-Poster Film Premiere Invite Email](../../prompts/movie-poster-film-premiere-invite-email/) · design 9/10 · 0 runs
+- [Folded-Paper Club Invite Email](../../prompts/folded-paper-club-invite-email/) · design 9/10 · 0 runs
 - [Coral Gradient Product-Launch Email](../../prompts/coral-gradient-product-launch-email/) · design 8/10 · 0 runs
 - [Editorial Serif Receipt Email](../../prompts/editorial-serif-receipt-email/) · design 8/10 · 0 runs
