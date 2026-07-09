@@ -57,6 +57,29 @@ def build_gallery(prompts, cols=4, rows=3):
     return "\n".join(out)
 
 
+def build_animations(prompts, cols=3):
+    # Feature motion prompts that have a looping GIF preview (generated from their mp4), best first.
+    # A GIF is the only way to actually SHOW motion inline on GitHub — a still frame is dead.
+    feat = [p for p in prompts if (ROOT / "prompts" / p["slug"] / "preview.gif").exists()]
+    feat.sort(key=lambda z: (num(z, "visual_score"), num(z, "tryCount")), reverse=True)
+    if not feat:
+        return "_No animated previews yet._"
+    out = ["<table>"]
+    for i in range(0, len(feat), cols):
+        out.append("<tr>")
+        for x in feat[i : i + cols]:
+            href = x.get("try_url") or try_url(x["slug"])
+            out.append(
+                f'<td width="{100//cols}%" align="center" valign="top">'
+                f'<a href="{href}"><img src="prompts/{x["slug"]}/preview.gif" width="260" alt="{x["title"]}"></a><br>'
+                f'<sub><b><a href="prompts/{x["slug"]}/">{x["title"]}</a></b> · {num(x,"visual_score")}/10<br>'
+                f'[<a href="{href}">▶ Try live</a>]</sub></td>'
+            )
+        out.append("</tr>")
+    out.append("</table>")
+    return "\n".join(out)
+
+
 def build_leaderboard(prompts, n=10):
     # Ranked by DESIGN quality = the vision score on the rendered preview (how it actually looks),
     # deslop then runs as tiebreaks. Runs are near-uniform so they can't discriminate.
@@ -105,6 +128,7 @@ def main():
     readme = (ROOT / "README.md").read_text()
     readme = replace_region(readme, "GALLERY", build_gallery(prompts))
     readme = replace_region(readme, "LEADERBOARD", build_leaderboard(prompts))
+    readme = replace_region(readme, "ANIMATIONS", build_animations(prompts))
     readme = replace_region(readme, "STATS", build_stats(prompts, all_prompts))
     # last-synced badge
     readme = re.sub(

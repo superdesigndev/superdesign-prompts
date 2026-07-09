@@ -118,6 +118,25 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 
 <sub>**Design** = visual-quality score (0–10) from a vision review of the *actual rendered preview* — how premium it looks, not just how the spec reads. **Runs** = times generated on the canvas. Ranked by design quality (runs are near-uniform across the top, so they don't discriminate).</sub>
 
+## Animations & effects
+
+A static screenshot can't show these. They're **motion** prompts, backgrounds, cursors, and transitions you drop into a UI to make it feel alive. Previews loop below; hit **Try live** for the real thing.
+
+<!-- ANIMATIONS:START -->
+<table>
+<tr>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/hyperspeed-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/hyperspeed-background/preview.gif" width="260" alt="Hyperspeed Background"></a><br><sub><b><a href="prompts/hyperspeed-background/">Hyperspeed Background</a></b> · 8/10<br>[<a href="https://superdesign.dev/library/hyperspeed-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/lightning-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/lightning-background/preview.gif" width="260" alt="Lightning Background"></a><br><sub><b><a href="prompts/lightning-background/">Lightning Background</a></b> · 8/10<br>[<a href="https://superdesign.dev/library/lightning-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/exploded-view-assembly?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/exploded-view-assembly/preview.gif" width="260" alt=""Exploded View" Assembly"></a><br><sub><b><a href="prompts/exploded-view-assembly/">"Exploded View" Assembly</a></b> · 8/10<br>[<a href="https://superdesign.dev/library/exploded-view-assembly?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/gooey-gradient-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/gooey-gradient-background/preview.gif" width="260" alt="Gooey Gradient Background"></a><br><sub><b><a href="prompts/gooey-gradient-background/">Gooey Gradient Background</a></b> · 7/10<br>[<a href="https://superdesign.dev/library/gooey-gradient-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/light-rays-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/light-rays-background/preview.gif" width="260" alt="Light Rays Background"></a><br><sub><b><a href="prompts/light-rays-background/">Light Rays Background</a></b> · 7/10<br>[<a href="https://superdesign.dev/library/light-rays-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/the-stacking-cards-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/the-stacking-cards-effect/preview.gif" width="260" alt="The "Stacking Cards" Effect"></a><br><sub><b><a href="prompts/the-stacking-cards-effect/">The "Stacking Cards" Effect</a></b> · 5/10<br>[<a href="https://superdesign.dev/library/the-stacking-cards-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+</tr>
+</table>
+<!-- ANIMATIONS:END -->
+
 ## Browse
 
 **By page type** (the structure): [Landing Pages](page-types/landing-pages/) · [Pricing Pages](page-types/pricing-pages/) · [Auth & Login](page-types/auth-login/) · [Dashboards](page-types/dashboards/) · [Onboarding](page-types/onboarding/) · [Waitlist & Coming Soon](page-types/waitlist-coming-soon/) · [Forms & Contact](page-types/forms-contact/) · [Blog & Editorial](page-types/blog-editorial/) · [E-commerce](page-types/e-commerce/) · [Portfolios](page-types/portfolios/) · [Mobile Apps](page-types/mobile-apps/) · [Components](page-types/components/)
