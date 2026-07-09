@@ -25,8 +25,8 @@ def try_url(s): return f"{LIB}/{s}?{UTM}"
 # ---- page-type taxonomy (primary category, most-specific first) ----
 CATS = ["Landing Pages", "Pricing Pages", "Auth & Login", "Dashboards", "Onboarding",
         "Waitlist & Coming Soon", "Forms & Contact", "Blog & Editorial", "E-commerce",
-        "Portfolios", "Mobile Apps", "Components", "Animations & Backgrounds",
-        "Design Systems & Styles", "Other"]
+        "Portfolios", "Mobile Apps", "Components", "Calendar",
+        "Animations & Backgrounds", "Design Systems & Styles", "Other"]
 STYLE_KW = ["style", "brutalis", "glassmorph", "neumorph", "monochrome", "minimalist",
             "cinematic", "noir", "luxury", "bauhaus", "win98", "sketch", "clay", "kinetic",
             "aurora", "liquid", "cyber", "retro", "vintage", "material", "flat design",
@@ -43,6 +43,9 @@ def page_category(it):
         return "Pricing Pages"
     if has(tags, "auth", "signup", "signin", "login") or has(txt, "login", "sign in", "sign-in", "signup", "sign up"):
         return "Auth & Login"
+    if has(tags, "calendar", "scheduler", "scheduling-app", "week-view", "weekly-planner") \
+            or has(txt, "calendar", "scheduler", "week planner", "week-planner", "week view"):
+        return "Calendar"
     # a landing page that merely *shows* a dashboard (tagged 'dashboard' + 'landing') is not a dashboard
     if "dashboard" in txt or has(txt, "admin panel", "admin dashboard", "console") \
             or (any("dashboard" in t for t in tl) and not any("landing" in t for t in tl)):
