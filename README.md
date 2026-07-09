@@ -56,7 +56,7 @@ Not another static list of design prompts. The difference is what's *behind* eac
 
 | | Most prompt lists / DESIGN.md repos | This one |
 |---|---|---|
-| Ranking | Curated by opinion | **Real usage shown** on every prompt (copies + tries); the [leaderboard](#most-used) ranks by it |
+| Ranking | Curated by opinion | **Scored for design quality** (de-slop 0–10) + real usage shown on every prompt |
 | Format | Static text / markdown, no preview | **Live preview + one-click run** on every entry |
 | Freshness | Manual, goes stale | **Auto-synced** from a live product |
 | Coverage | A few looks | Every **page type** and **style**, browsable |
@@ -99,24 +99,24 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 </table>
 <!-- GALLERY:END -->
 
-## Most-used
+## Top-rated prompts
 
 <!-- LEADERBOARD:START -->
-| # | Prompt | Category | Runs | Design | |
+| # | Prompt | Category | Design | Runs | |
 |---|---|---|---|---|---|
-| 1 | **[Neural Noir Interface Style](prompts/neural-noir-interface-style/)** | Design Systems & Styles | 2,501 | 7/10 | [▶ Try live](https://superdesign.dev/library/neural-noir-interface-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 2 | **[Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)](prompts/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red/)** | Pricing Pages | 2,498 | 8/10 | [▶ Try live](https://superdesign.dev/library/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 3 | **[Aurora Glass — Sign in to the canvas](prompts/aurora-glass-sign-in-to-the-canvas/)** | Auth & Login | 2,495 | 8/10 | [▶ Try live](https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 4 | **[Cart Drawer- Essential Slide in](prompts/cart-drawer-essential-slide-in/)** | E-commerce | 2,493 | 3/10 | [▶ Try live](https://superdesign.dev/library/cart-drawer-essential-slide-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 5 | **[Focus Mode Detail](prompts/focus-mode-detail/)** | Mobile Apps | 2,493 | 8/10 | [▶ Try live](https://superdesign.dev/library/focus-mode-detail?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 6 | **[ATELIER — Mono Uppercase Fashion (legibility-fixed)](prompts/atelier-mono-uppercase-fashion-legibility-fixed/)** | E-commerce | 2,489 | 9/10 | [▶ Try live](https://superdesign.dev/library/atelier-mono-uppercase-fashion-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 7 | **[Landing Page / Local Small Business](prompts/landing-page-local-small-business/)** | Landing Pages | 2,486 | 5/10 | [▶ Try live](https://superdesign.dev/library/landing-page-local-small-business?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 8 | **[Palette — Social-first friendly sign-up](prompts/palette-social-first-friendly-sign-up/)** | Auth & Login | 2,486 | 8/10 | [▶ Try live](https://superdesign.dev/library/palette-social-first-friendly-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 9 | **[Slate ROI-Calculator Pricing](prompts/slate-roi-calculator-pricing/)** | Pricing Pages | 2,481 | 8/10 | [▶ Try live](https://superdesign.dev/library/slate-roi-calculator-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
-| 10 | **[Shiny Text](prompts/shiny-text/)** | Components | 2,480 | 2/10 | [▶ Try live](https://superdesign.dev/library/shiny-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 1 | **[ATELIER — Mono Uppercase Fashion (legibility-fixed)](prompts/atelier-mono-uppercase-fashion-legibility-fixed/)** | E-commerce | 9/10 | 2,489 | [▶ Try live](https://superdesign.dev/library/atelier-mono-uppercase-fashion-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 2 | **[Editorial Cream + Ink Two-Path SaaS Pricing](prompts/editorial-cream-ink-two-path-saas-pricing-3dee65/)** | Pricing Pages | 9/10 | 2,466 | [▶ Try live](https://superdesign.dev/library/editorial-cream-ink-two-path-saas-pricing-3dee65?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 3 | **[Electric-Lime Single-Plan SaaS Pricing](prompts/electric-lime-single-plan-saas-pricing/)** | Pricing Pages | 9/10 | 2,462 | [▶ Try live](https://superdesign.dev/library/electric-lime-single-plan-saas-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 4 | **[Glassmorphism Style](prompts/glassmorphism-style/)** | Design Systems & Styles | 9/10 | 2,451 | [▶ Try live](https://superdesign.dev/library/glassmorphism-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 5 | **[Electric Dark Usage-Based Pricing Calculator](prompts/electric-dark-usage-based-pricing-calculator-20e556/)** | Pricing Pages | 9/10 | 2,451 | [▶ Try live](https://superdesign.dev/library/electric-dark-usage-based-pricing-calculator-20e556?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 6 | **[The Atelier Brief — an editorial intake form, set like a letter](prompts/the-atelier-brief-an-editorial-intake-form-set-like-a-letter/)** | Forms & Contact | 9/10 | 2,430 | [▶ Try live](https://superdesign.dev/library/the-atelier-brief-an-editorial-intake-form-set-like-a-letter?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 7 | **[Send Us the Brief — Brutalist Contact Form](prompts/send-us-the-brief-brutalist-contact-form/)** | Forms & Contact | 9/10 | 2,424 | [▶ Try live](https://superdesign.dev/library/send-us-the-brief-brutalist-contact-form?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 8 | **[Acid-Yellow Neo-Brutalist Mega Footer](prompts/acid-yellow-neo-brutalist-mega-footer/)** | Forms & Contact | 9/10 | 2,401 | [▶ Try live](https://superdesign.dev/library/acid-yellow-neo-brutalist-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 9 | **[High Contrast Landing Page](prompts/high-contrast-landing-page/)** | Landing Pages | 9/10 | 2,400 | [▶ Try live](https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
+| 10 | **[Foundry: Your SaaS Site, Designed Before You Write a Line](prompts/foundry-your-saas-site-designed-before-you-write-a-line/)** | Landing Pages | 9/10 | 2,390 | [▶ Try live](https://superdesign.dev/library/foundry-your-saas-site-designed-before-you-write-a-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library) |
 <!-- LEADERBOARD:END -->
 
-<sub>**Copies** = the prompt text was copied · **Tries** = it was generated on the canvas. Both are real product events — some prompts are *tried* far more than *copied*, so a low copy count doesn't mean low usage.</sub>
+<sub>**Design** = de-slop score (0–10) — how distinctive vs. generic the spec is. **Runs** = times generated on the canvas. Ranked by design quality (runs are near-uniform across the top, so they don't discriminate).</sub>
 
 ## Browse
 

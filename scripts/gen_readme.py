@@ -57,13 +57,14 @@ def build_gallery(prompts, cols=4, rows=3):
 
 
 def build_leaderboard(prompts, n=10):
-    # Ranked by RUNS (tries), not copies — copies were found to reward generic prompts.
-    top = sorted(prompts, key=lambda z: num(z, "tryCount"), reverse=True)[:n]
-    rows = ["| # | Prompt | Category | Runs | Design | |", "|---|---|---|---|---|---|"]
+    # Ranked by DESIGN quality (de-slop score). Runs are near-uniform across the top, so they
+    # don't discriminate — ranking by runs surfaced weak prompts. Design score is the real signal.
+    top = sorted(prompts, key=lambda z: (num(z, "deslop_score"), num(z, "tryCount")), reverse=True)[:n]
+    rows = ["| # | Prompt | Category | Design | Runs | |", "|---|---|---|---|---|---|"]
     for i, x in enumerate(top, 1):
         rows.append(
             f'| {i} | **[{x["title"]}](prompts/{x["slug"]}/)** | {x.get("category","")} | '
-            f'{num(x,"tryCount"):,} | {num(x,"deslop_score")}/10 | [▶ Try live]({try_url(x["slug"])}) |'
+            f'{num(x,"deslop_score")}/10 | {num(x,"tryCount"):,} | [▶ Try live]({try_url(x["slug"])}) |'
         )
     return "\n".join(rows)
 
