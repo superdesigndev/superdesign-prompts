@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "interactive-folder",
+  "name": "Interactive Folder",
+  "category": "Components",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "interactive-folder"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#5227FF",
+      "#F9F9F9",
+      "#FF3366",
+      "#00D1FF",
+      "#1A1A1B",
+      "#ffffff"
+    ],
+    "fonts": [
+      "DOCUMENTS",
+      "RESOURCES",
+      "ARTSETS",
+      "TUNES",
+      "MAILS",
+      "A playful interactive folder component with drift animation"
+    ]
+  }
+}

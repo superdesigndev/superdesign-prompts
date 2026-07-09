@@ -1,6 +1,6 @@
 # All prompts (full text mirror)
 
-Top 114 team-authored prompts from the [Superdesign prompt library](https://superdesign.dev/library), category-balanced. Generated from `prompts.json`.
+Top 128 team-authored prompts from the [Superdesign prompt library](https://superdesign.dev/library), category-balanced. Generated from `prompts.json`.
 
 ## 1. Tubes Interactive Background
 `Animations & Backgrounds` · `General` · 2,912 copies · [try live](https://superdesign.dev/library/tubes-interactive-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
@@ -2724,7 +2724,312 @@ Please use the above as reference and apply to our context
 
 ---
 
-## 24. Chrome Extension Landing Page
+## 24. Hyper-Speed Loading State
+`Components` · `General` · 749 copies · [try live](https://superdesign.dev/library/hyper-speed-loading-state?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+Loading animation UI featuring a character-like loader with animated lines, a body made from geometric shapes, and moving horizontal lines across the background. The loader have smooth animations with multiple synchronized motion effects including rotation, translation, and opacity fades.
+
+```text
+Create a complete loading animation UI featuring the spinner design from the provided code: a character-like loader with animated lines, a body made from geometric shapes, and moving horizontal lines across the background. The loader should have smooth animations with multiple synchronized motion effects including rotation, translation, and opacity fades. The design should showcase the full animation in action with a clean, centered presentation and minimal background to highlight the animation effects.
+
+Here is a reference implementation:
+
+~~~html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hyper-Speed Loading State</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    @view-transition {
+      navigation: auto;
+    }
+
+    /* --- REPLICATED LOADER CSS --- */
+    .loader {
+      position: absolute;
+      top: 50%;
+      margin-left: -50px;
+      left: 50%;
+      animation: speeder 0.4s linear infinite;
+      z-index: 10;
+    }
+
+    .loader > span {
+      height: 5px;
+      width: 35px;
+      background: #000;
+      position: absolute;
+      top: -19px;
+      left: 60px;
+      border-radius: 2px 10px 1px 0;
+    }
+
+    .base span {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 6px solid transparent;
+      border-right: 100px solid #000;
+      border-bottom: 6px solid transparent;
+    }
+
+    .base span:before {
+      content: "";
+      height: 22px;
+      width: 22px;
+      border-radius: 50%;
+      background: #000;
+      position: absolute;
+      right: -110px;
+      top: -16px;
+    }
+
+    .base span:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 0 solid transparent;
+      border-right: 55px solid #000;
+      border-bottom: 16px solid transparent;
+      top: -16px;
+      right: -98px;
+    }
+
+    .face {
+      position: absolute;
+      height: 12px;
+      width: 20px;
+      background: #000;
+      border-radius: 20px 20px 0 0;
+      transform: rotate(-40deg);
+      right: -125px;
+      top: -15px;
+    }
+
+    .face:after {
+      content: "";
+      height: 12px;
+      width: 12px;
+      background: #000;
+      right: 4px;
+      top: 7px;
+      position: absolute;
+      transform: rotate(40deg);
+      transform-origin: 50% 50%;
+      border-radius: 0 0 0 2px;
+    }
+
+    .loader > span > span:nth-child(1),
+    .loader > span > span:nth-child(2),
+    .loader > span > span:nth-child(3),
+    .loader > span > span:nth-child(4) {
+      width: 30px;
+      height: 1px;
+      background: #000;
+      position: absolute;
+      animation: fazer1 0.2s linear infinite;
+    }
+
+    .loader > span > span:nth-child(2) {
+      top: 3px;
+      animation: fazer2 0.4s linear infinite;
+    }
+
+    .loader > span > span:nth-child(3) {
+      top: 1px;
+      animation: fazer3 0.4s linear infinite;
+      animation-delay: -1s;
+    }
+
+    .loader > span > span:nth-child(4) {
+      top: 4px;
+      animation: fazer4 1s linear infinite;
+      animation-delay: -1s;
+    }
+
+    @keyframes fazer1 {
+      0% { left: 0; }
+      100% { left: -80px; opacity: 0; }
+    }
+    @keyframes fazer2 {
+      0% { left: 0; }
+      100% { left: -100px; opacity: 0; }
+    }
+    @keyframes fazer3 {
+      0% { left: 0; }
+      100% { left: -50px; opacity: 0; }
+    }
+    @keyframes fazer4 {
+      0% { left: 0; }
+      100% { left: -150px; opacity: 0; }
+    }
+
+    @keyframes speeder {
+      0% { transform: translate(2px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -3px) rotate(-1deg); }
+      20% { transform: translate(-2px, 0px) rotate(1deg); }
+      30% { transform: translate(1px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 3px) rotate(-1deg); }
+      60% { transform: translate(-1px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-2px, -1px) rotate(1deg); }
+      90% { transform: translate(2px, 1px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+
+    .longfazers {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .longfazers span {
+      position: absolute;
+      height: 2px;
+      width: 20%;
+      background: #000;
+      opacity: 0.1;
+    }
+
+    .longfazers span:nth-child(1) {
+      top: 20%;
+      animation: lf 0.6s linear infinite;
+      animation-delay: -5s;
+    }
+
+    .longfazers span:nth-child(2) {
+      top: 40%;
+      animation: lf2 0.8s linear infinite;
+      animation-delay: -1s;
+    }
+
+    .longfazers span:nth-child(3) {
+      top: 60%;
+      animation: lf3 0.6s linear infinite;
+    }
+
+    .longfazers span:nth-child(4) {
+      top: 80%;
+      animation: lf4 0.5s linear infinite;
+      animation-delay: -3s;
+    }
+
+    @keyframes lf { 0% { left: 200%; } 100% { left: -200%; opacity: 0; } }
+    @keyframes lf2 { 0% { left: 200%; } 100% { left: -200%; opacity: 0; } }
+    @keyframes lf3 { 0% { left: 200%; } 100% { left: -100%; opacity: 0; } }
+    @keyframes lf4 { 0% { left: 200%; } 100% { left: -100%; opacity: 0; } }
+
+    /* Styling the background */
+    .noise-bg {
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+      opacity: 0.03;
+    }
+
+    .font-outfit { font-family: 'Outfit', sans-serif; }
+    .font-space { font-family: 'Space Grotesk', sans-serif; }
+  </style>
+</head>
+<body>
+  <div class="min-h-screen bg-[#FDFDFD] relative overflow-hidden flex flex-col items-center justify-center">
+    
+    <!-- Background Texture -->
+    <div class="absolute inset-0 noise-bg pointer-events-none"></div>
+
+    <!-- Long Fazers Background -->
+    <div class="longfazers">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Loader Component Container -->
+    <div class="relative w-full max-w-2xl h-[400px] flex items-center justify-center">
+      <div class="loader">
+        <span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <div class="base">
+          <span></span>
+          <div class="face"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content Overlay -->
+    <div class="z-20 text-center mt-8 space-y-4">
+      <h1 class="font-space text-4xl font-bold tracking-tighter text-black uppercase animate-pulse">
+        Processing Request
+      </h1>
+      <p class="font-outfit text-gray-400 font-light tracking-widest uppercase text-xs">
+        Synchronizing with global neural networks
+      </p>
+
+      <!-- Progress Bar Mockup -->
+      <div class="w-64 h-1 bg-gray-100 rounded-full mx-auto mt-12 overflow-hidden relative">
+        <div class="h-full bg-black w-1/3 animate-[progress_3s_ease-in-out_infinite]"></div>
+      </div>
+    </div>
+
+    <!-- Decorative Elements -->
+    <div class="absolute bottom-12 left-12 flex flex-col items-start space-y-2 opacity-40">
+      <div class="flex items-center space-x-2 text-[10px] font-space">
+        <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+        <span class="text-black">SYSTEMS NOMINAL</span>
+      </div>
+      <div class="text-[10px] font-outfit text-gray-500 uppercase tracking-tighter">
+        X-RAY DELTA 4.0 // VECTOR PROTOCOL
+      </div>
+    </div>
+
+    <div class="absolute top-12 right-12 text-right opacity-40">
+      <iconify-icon icon="lucide:cpu" class="text-2xl text-black mb-2"></iconify-icon>
+      <div class="text-[10px] font-space text-black font-bold uppercase tracking-widest">
+        LATENCY: 14ms
+      </div>
+    </div>
+
+    <!-- Branding -->
+    <div class="absolute top-12 left-12">
+      <a href="#" id="brand-logo-link" class="flex items-center space-x-2 group">
+        <div class="w-8 h-8 bg-black flex items-center justify-center">
+          <iconify-icon icon="lucide:zap" class="text-white text-lg group-hover:scale-110 transition-transform"></iconify-icon>
+        </div>
+        <span class="font-space text-xl font-bold tracking-tighter">VELOCITY</span>
+      </a>
+    </div>
+
+  </div>
+
+  <style>
+    @keyframes progress {
+      0% { transform: translateX(-100%); }
+      50% { transform: translateX(50%); }
+      100% { transform: translateX(200%); }
+    }
+  </style>
+</body>
+</html>
+~~~
+```
+
+---
+
+## 25. Chrome Extension Landing Page
 `Landing Pages` · `Dev Tools` · 592 copies · [try live](https://superdesign.dev/library/chrome-extension-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A browser-native developer tool aesthetic characterized by a 'system interface' look rather than a marketing landing page. This style features a light-neutral base with a vibrant cyan (#06B6D4) accent, mimicking the layout of Chrome DevTools or a workspace IDE. It uses a combination of Inter for primary readability and JetBrains Mono for technical labels and commands. Suitable for SaaS, developer tools, extensions, and technical platforms requiring a high-density, utility-focused layout with scroll-triggered panel reveals and simulated interactive environments.
@@ -2782,7 +3087,7 @@ A browser-native developer tool aesthetic characterized by a 'system interface' 
 
 ---
 
-## 25. Cinematic Noir Style
+## 26. Cinematic Noir Style
 `Design Systems & Styles` · `General` · 643 copies · [try live](https://superdesign.dev/library/cinematic-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-end 'Cinematic Noir' design system characterized by dramatic dark-mode aesthetics, high-contrast editorial typography, and immersive scroll-driven parallax effects. Suitable for creative agencies, luxury fashion, fintech, and high-end portfolios. Features include grain overlays, radial gradients with subtle warm tints, and brutalist-scale headings that blur the line between digital interface and cinematic experience.
@@ -2837,7 +3142,7 @@ A high-end 'Cinematic Noir' design system characterized by dramatic dark-mode ae
 
 ---
 
-## 26. Minimalist Beta Capture
+## 27. Minimalist Beta Capture
 `Waitlist & Coming Soon` · `General` · 745 copies · [try live](https://superdesign.dev/library/minimalist-beta-capture?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-end 'Editorial Brutalist' style guide optimized for SaaS waitlists, fintech, or premium developer tools. It features a dark-mode palette (#080808), high-contrast monochromatic typography (DM Serif Display + Geist Mono), and sophisticated glassmorphism. The layout utilizes a bento-grid structure and fluid width (92vw) with oversized hero typography. Key features include scroll-triggered slide-up animations, a silver-metallic gradient system, and a persistent floating mobile navigation bar.
@@ -2897,7 +3202,7 @@ A high-end 'Editorial Brutalist' style guide optimized for SaaS waitlists, finte
 
 ---
 
-## 27. Card Swap
+## 28. Card Swap
 `Components` · `General` · 884 copies · [try live](https://superdesign.dev/library/card-swap?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An elegant card swapping animation component with depth perception and perspective. Features automated cycling of cards with a premium floating feel.
@@ -3320,7 +3625,7 @@ Help me integrate this into my design
 
 ---
 
-## 28. Brutalist Style Ecommerce Page
+## 29. Brutalist Style Ecommerce Page
 `E-commerce` · `E-commerce & Retail` · 945 copies · [try live](https://superdesign.dev/library/brutalist-style-ecommerce-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A brutalist editorial design system for high-fashion, streetwear, or luxury brands. Featuring a raw, industrial aesthetic with massive typography, high-contrast photography, and utilitarian components. Key elements include a noise-grain texture overlay, a monochromatic palette with burnt orange and neon green accents, and asymmetrical layout grids. The style uses 'Clash Grotesk' for aggressive impact and 'General Sans' for technical clarity. Ideal for product launches, lookbooks, and fashion portfolios looking for a 'Raw Campaign' or 'Modern Brutalist' feel with scroll-triggered visual impact.
@@ -3383,7 +3688,7 @@ A brutalist editorial design system for high-fashion, streetwear, or luxury bran
 
 ---
 
-## 29. Superdesign Editorial Waitlist
+## 30. Superdesign Editorial Waitlist
 `Waitlist & Coming Soon` · `General` · 556 copies · [try live](https://superdesign.dev/library/superdesign-editorial-waitlist?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Editorial waiting list landing page with a cinematic, high-fashion aesthetic. Features a deep matte #181818 background, warm beige #EBDCC4 typography, and a brutalist yet refined grid. Key elements include oversized edge-to-edge display type, subtle noise textures, and a layered text depth effect. Ideal for luxury tech, creative agency portfolios, high-end SaaS tools, architecture firms, and invite-only exclusivity campaigns. Layout utilizes strong typographic hierarchy and generous negative space with accent tones in coral, rust, and sage.
@@ -3434,7 +3739,7 @@ Editorial waiting list landing page with a cinematic, high-fashion aesthetic. Fe
 
 ---
 
-## 30. Hover reveal effect
+## 31. Hover reveal effect
 `Animations & Backgrounds` · `General` · 442 copies · [try live](https://superdesign.dev/library/hover-reveal-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Source: https://x.com/emilylambert/status/2005113433780617713
@@ -3449,7 +3754,7 @@ All text elements (my name, the Portfolio link, and the social icons) should dyn
 
 ---
 
-## 31. Force Field Background
+## 32. Force Field Background
 `Animations & Backgrounds` · `General` · 865 copies · [try live](https://superdesign.dev/library/force-field-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An interactive, particle-based force field background effect that reacts to mouse movement. Uses p5.js to render particles based on image brightness maps, creating a fluid, magnetic visual experience.
@@ -4063,7 +4368,18 @@ Help me integrate this into my design
 
 ---
 
-## 32. Neon Velocity Countdown
+## 33. Scroll Journey Line
+`Animations & Backgrounds` · `General` · 820 copies · [try live](https://superdesign.dev/library/scroll-journey-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+An SVG line connector that animates/draws itself based on the user's scroll percentage using Framer Motion.
+
+```text
+Animate an SVG line (like a connector or 'journey' line) that draws itself forward based on the user's scroll percentage.
+```
+
+---
+
+## 34. Neon Velocity Countdown
 `Waitlist & Coming Soon` · `General` · 683 copies · [try live](https://superdesign.dev/library/neon-velocity-countdown?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-velocity, futuristic dark-mode design system characterized by neon accents, brutalist typography, and 3D glassmorphism. Featuring a 'Laser Green' and 'Navy Black' palette, it utilizes 'Plus Jakarta Sans' for high-impact headlines and 'Geist Mono' for technical metadata. This aesthetic is ideal for high-growth tech startups, SaaS platforms, developer tools, and fintech products that want to convey speed, precision, and cutting-edge innovation. The layout uses a bento-grid structure, fluid typography, and sophisticated scroll-triggered reveal animations.
@@ -4118,7 +4434,7 @@ A high-velocity, futuristic dark-mode design system characterized by neon accent
 
 ---
 
-## 33. Gooey Gradient Background
+## 35. Gooey Gradient Background
 `Animations & Backgrounds` · `General` · 485 copies · [try live](https://superdesign.dev/library/gooey-gradient-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A mesmerizing, interactive gooey liquid gradient background with animated blobs and mouse-following effect. Perfect for immersive landing pages.
@@ -4457,7 +4773,20 @@ Help me integrate this into my design
 
 ---
 
-## 34. Disruptor Beta Launch
+## 36. Horizontal Gallery
+`Animations & Backgrounds` · `General` · 439 copies · [try live](https://superdesign.dev/library/horizontal-gallery?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A sticky section that locks vertical scroll and translates it into horizontal movement to showcase a gallery. Features robust GSAP ScrollTrigger initialization.
+
+```text
+Create a 'sticky' section where the vertical scroll locks, and the content slides horizontally to showcase a gallery. 
+
+**Technical Requirement**: Ensure the GSAP initialization is robust. Since this is a React component, please include a small delay or safety check inside useLayoutEffect to ensure the DOM is fully rendered and widths are accurate before the ScrollTrigger calculates the pinning logic.
+```
+
+---
+
+## 37. Disruptor Beta Launch
 `Waitlist & Coming Soon` · `General` · 456 copies · [try live](https://superdesign.dev/library/disruptor-beta-launch?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-impact Neo-Brutalist design system designed for product launches and disruptive SaaS platforms. Characterized by stark color contrasts, industrial typography, and heavy geometric borders. The aesthetic utilizes a dark mode base (#121212) punctuated by vibrant 'Volt' accents (#CCFF00) and crisp white containers. Key features include 'sticker-style' rotated elements, massive display type, solid 8px offsets (Neo-shadows), and vertical navigation elements. Ideal for high-growth tech, developer tools, fintech, and creative agencies looking for an aggressive, authoritative, and innovative brand presence.
@@ -4516,7 +4845,7 @@ A high-impact Neo-Brutalist design system designed for product launches and disr
 
 ---
 
-## 35. Bold Editorial Design Style
+## 38. Bold Editorial Design Style
 `Portfolios` · `Personal & Portfolio` · 765 copies · [try live](https://superdesign.dev/library/bold-editorial-design-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A premium, bold editorial design system characterized by high-contrast brutalist typography and a sophisticated dark navy and sage color palette. Optimized for creative agencies, design portfolios, luxury architecture, and high-end digital studios. Features include 'Anton' display headers, a custom crosshair cursor, floating ambient gradients, asymmetric masonry layouts, and smooth scroll-triggered reveal animations. The aesthetic balances minimalist white space with massive, impactful type and subtle micro-interactions like mix-blend-mode navigation and grayscale-to-color image transitions.
@@ -4583,7 +4912,875 @@ A premium, bold editorial design system characterized by high-contrast brutalist
 
 ---
 
-## 36. Aura Audio Showroom
+## 39. Light Beam Button
+`Components` · `General` · 500 copies · [try live](https://superdesign.dev/library/light-beam-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A high-performance button with a rotating light beam border effect using CSS @property and conic gradients. Features a shiny hover state and gradient border animation.
+
+```text
+You are given a task to integrate an existing React component in the codebase
+
+~~~/README.md
+# LightBeamButton
+
+A futuristic button component featuring a rotating light beam border effect, implemented with high-performance CSS `@property` animations.
+
+## Features
+- 🚀 **Hardware Accelerated**: Uses CSS variables and transforms for 60fps animations
+- 🎨 **Customizable**: Supports custom classes and children
+- 💡 **Visual Effects**: Includes rotating gradient border, internal glow, and hover shine
+- 🌙 **Dark Mode Optimized**: Designed specifically for dark-themed interfaces
+
+## Usage
+
+```tsx
+import { LightBeamButton } from '@/sd-components/218cf3c1-df31-4f2a-9aa0-6968d34dc15b';
+import { ArrowRight } from 'lucide-react';
+
+function MyComponent() {
+  return (
+    <LightBeamButton onClick={() => console.log('Action')}>
+      Start Building <ArrowRight size={16} />
+    </LightBeamButton>
+  );
+}
+```
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `children` | `ReactNode` | Required | Content to display inside the button |
+| `className` | `string` | `undefined` | Additional CSS classes |
+| `onClick` | `() => void` | `undefined` | Click handler |
+| `gradientColors` | `[string, string, string]` | `['#8b5cf6', '#06b6d4', '#8b5cf6']` | Array of 3 colors for the gradient beam |
+
+## Dependencies
+
+- `framer-motion`: For interaction states (hover/tap)
+- `clsx`, `tailwind-merge`: For class handling
+~~~
+
+~~~/src/App.tsx
+import React from 'react';
+import { LightBeamButton } from './Component';
+import { ArrowRight, Sparkles } from 'lucide-react';
+
+export default function App() {
+  return (
+    <div className="flex min-h-screen w-full flex-col items-center justify-center gap-12 bg-[#030303] p-8 text-white">
+      <div className="text-center space-y-4">
+        <h2 className="text-2xl font-serif text-neutral-400">LightBeam Button</h2>
+        <p className="text-neutral-600 max-w-md mx-auto">
+          A high-performance button with CSS @property animation for a rotating light beam effect.
+        </p>
+      </div>
+
+      <div className="flex flex-col gap-8 items-center">
+        {/* Default Variant */}
+        <LightBeamButton onClick={() => console.log('Clicked')}>
+          Start Building <ArrowRight size={16} />
+        </LightBeamButton>
+
+        {/* Text Only */}
+        <LightBeamButton className="px-10">
+          Explore Protocol
+        </LightBeamButton>
+
+        {/* With Icon Left */}
+        <LightBeamButton>
+          <Sparkles size={16} className="text-violet-400" />
+          <span>Mint NFT</span>
+        </LightBeamButton>
+      </div>
+      
+      <div className="mt-12 p-6 border border-white/5 rounded-2xl bg-white/5 backdrop-blur-sm max-w-lg">
+        <h3 className="text-sm font-medium text-neutral-400 mb-4">Dark Background Recommended</h3>
+        <p className="text-xs text-neutral-500">
+          This component relies on "screen" or additive blending concepts visually, so it works best on dark backgrounds (#000000 to #1a1a1a).
+        </p>
+      </div>
+    </div>
+  );
+}
+~~~
+
+~~~/package.json
+{
+  "name": "light-beam-button",
+  "version": "1.0.0",
+  "description": "A high-performance button with a rotating light beam border effect",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^10.16.4",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.1",
+    "lucide-react": "^0.344.0"
+  }
+}
+~~~
+
+~~~/src/Component.tsx
+import React from 'react';
+import { motion } from 'framer-motion';
+import { clsx, type ClassValue } from 'clsx';
+import { twMerge } from 'tailwind-merge';
+
+function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+export interface LightBeamButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  children: React.ReactNode;
+  className?: string;
+  gradientColors?: [string, string, string]; // Optional custom gradient colors
+}
+
+/**
+ * LightBeamButton
+ * 
+ * A high-performance button with a rotating light beam border effect.
+ * Uses CSS @property for smooth gradient rotation animations on the border.
+ */
+export function LightBeamButton({ 
+  children, 
+  className, 
+  onClick,
+  gradientColors = ["#8b5cf6", "#06b6d4", "#8b5cf6"], // Violet -> Cyan -> Violet
+  ...props 
+}: LightBeamButtonProps) {
+  // Construct the gradient string dynamically based on props
+  const gradientString = `conic-gradient(from var(--gradient-angle), transparent 0%, ${gradientColors[0]} 40%, ${gradientColors[1]} 50%, transparent 60%, transparent 100%)`;
+
+  return (
+    <>
+      <style>{`
+        @property --gradient-angle {
+          syntax: "<angle>";
+          initial-value: 0deg;
+          inherits: false;
+        }
+        @keyframes border-spin {
+          from { --gradient-angle: 0deg; }
+          to { --gradient-angle: 360deg; }
+        }
+        .animate-border-spin {
+          animation: border-spin 2s linear infinite;
+        }
+      `}</style>
+      
+      <motion.button
+        whileHover={{ scale: 1.02 }}
+        whileTap={{ scale: 0.98 }}
+        onClick={onClick}
+        className={cn(
+          "group relative isolate overflow-hidden rounded-full bg-neutral-950 px-8 py-3 text-sm font-medium text-white transition-all hover:bg-neutral-900",
+          "shadow-[0_0_20px_-5px_rgba(139,92,246,0.3)] hover:shadow-[0_0_25px_-5px_rgba(139,92,246,0.5)]",
+          className
+        )}
+        {...props}
+      >
+        <span className="relative z-10 flex items-center gap-2">{children}</span>
+        
+        {/* Gradient Border Simulation */}
+        <div 
+          className="absolute inset-0 -z-10 rounded-full p-[1px] animate-border-spin" 
+          style={{ 
+            '--gradient-angle': '0deg',
+            background: gradientString
+          } as React.CSSProperties} 
+        />
+        
+        {/* Inner Background (keeps text readable) */}
+        <div className="absolute inset-[1px] -z-10 rounded-full bg-neutral-950" />
+        
+        {/* Shine Effect Overlay */}
+        <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_50%_0%,rgba(139,92,246,0.15)_0%,transparent_60%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+      </motion.button>
+    </>
+  );
+}
+
+export default LightBeamButton;
+~~~
+
+Implementation Guidelines
+
+1. Analyze the component structure, styling, animation implementations
+2. Review the component's arguments and state
+3. Think through what is the best place to adopt this component/style into the design we are doing
+4. Then adopt the component/design to our current system
+
+Help me integrate this into my design
+```
+
+---
+
+## 40. Ghost Cursor
+`Components` · `General` · 417 copies · [try live](https://superdesign.dev/library/ghost-cursor?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A fluid, smoky cursor trail effect using Three.js shader materials and post-processing bloom.
+
+```text
+You are given a task to integrate an existing React component in the codebase
+
+~~~/README.md
+# GhostCursor
+
+A fluid, smoky cursor trail effect using Three.js shader materials and post-processing bloom. This component adds a cinematic, ghostly trail that follows the cursor with organic movement.
+
+## Usage
+
+```tsx
+import { GhostCursor } from '@/sd-components/72b3d7f3-3ac5-4819-9e63-117cebf79200';
+
+const MyComponent = () => {
+  return (
+    <div style={{ position: 'relative', width: '100%', height: '500px' }}>
+      {/* Content here */}
+      
+      <GhostCursor 
+        color="#B19EEF"
+        trailLength={20}
+      />
+    </div>
+  );
+};
+```
+
+**Note**: The parent container should have `position: relative` or similar positioning context, as the GhostCursor uses `absolute inset-0`.
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `color` | `string` | `'#B19EEF'` | Base color of the trail |
+| `brightness` | `number` | `1` | Brightness multiplier |
+| `trailLength` | `number` | `50` | Length of the motion trail (number of previous positions) |
+| `inertia` | `number` | `0.5` | Movement inertia (0-1), higher means more lag/fluidity |
+| `bloomStrength` | `number` | `0.1` | Intensity of the glow effect |
+| `bloomRadius` | `number` | `1.0` | Radius of the bloom blur |
+| `bloomThreshold` | `number` | `0.025` | Brightness threshold for bloom |
+| `grainIntensity` | `number` | `0.05` | Film grain intensity (0-1) |
+| `edgeIntensity` | `number` | `0` | Edge accentuation intensity |
+| `mixBlendMode` | `CSSProperties['mixBlendMode']` | `'screen'` | CSS blend mode for the canvas |
+| `fadeDelayMs` | `number` | `1000` (desktop) | Delay before trail fades out when idle |
+| `fadeDurationMs` | `number` | `1500` (desktop) | Duration of fade out animation |
+| `zIndex` | `number` | `10` | CSS z-index of the canvas |
+| `className` | `string` | `undefined` | Additional CSS classes |
+
+## Dependencies
+
+- `three`: Required for WebGL rendering
+~~~
+
+~~~/src/App.tsx
+import React from 'react';
+import { GhostCursor } from './Component';
+
+const App = () => {
+  return (
+    <div style={{ 
+      position: 'relative', 
+      minHeight: '100vh', 
+      backgroundColor: '#111', 
+      color: '#fff',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      overflow: 'hidden'
+    }}>
+      <div className="z-20 text-center pointer-events-none select-none">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tighter">Ghost Cursor</h1>
+        <p className="text-gray-400 text-lg">Move your cursor to see the effect</p>
+      </div>
+
+      <GhostCursor
+        // Visuals
+        color="#B19EEF"
+        brightness={1.2}
+        edgeIntensity={0}
+        // Trail and motion
+        trailLength={20}
+        inertia={0.4}
+        // Post-processing
+        grainIntensity={0.05}
+        bloomStrength={0.5}
+        bloomRadius={0.7}
+        bloomThreshold={0}
+        // Fade-out behavior
+        fadeDelayMs={200}
+        fadeDurationMs={1000}
+      />
+      
+      {/* Background decoration */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-tr from-purple-900/10 to-blue-900/10" />
+    </div>
+  );
+};
+
+export default App;
+~~~
+
+~~~/package.json
+{
+  "name": "ghost-cursor",
+  "version": "1.0.0",
+  "description": "A fluid, smoky cursor trail effect using Three.js",
+  "main": "src/Component.tsx",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "three": "^0.160.0",
+    "@types/three": "^0.160.0"
+  }
+}
+~~~
+
+~~~/src/Component.tsx
+import React, { useEffect, useMemo, useRef } from 'react';
+import * as THREE from 'three';
+import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
+import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
+
+type GhostCursorProps = {
+  className?: string;
+  style?: React.CSSProperties;
+  trailLength?: number;
+  inertia?: number;
+  grainIntensity?: number;
+  bloomStrength?: number;
+  bloomRadius?: number;
+  bloomThreshold?: number;
+  brightness?: number;
+  color?: string;
+  mixBlendMode?: React.CSSProperties['mixBlendMode'];
+  edgeIntensity?: number;
+  maxDevicePixelRatio?: number;
+  targetPixels?: number;
+  fadeDelayMs?: number;
+  fadeDurationMs?: number;
+  zIndex?: number;
+};
+
+/**
+ * GhostCursor component creates a fluid, smoky cursor trail effect using Three.js.
+ * It uses custom shaders for the fluid simulation and post-processing for bloom/grain.
+ */
+export const GhostCursor: React.FC<GhostCursorProps> = ({
+  className,
+  style,
+  trailLength = 50,
+  inertia = 0.5,
+  grainIntensity = 0.05,
+  bloomStrength = 0.1,
+  bloomRadius = 1.0,
+  bloomThreshold = 0.025,
+  brightness = 1,
+  color = '#B19EEF',
+  mixBlendMode = 'screen',
+  edgeIntensity = 0,
+  maxDevicePixelRatio = 0.5,
+  targetPixels,
+  fadeDelayMs,
+  fadeDurationMs,
+  zIndex = 10
+}) => {
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const rendererRef = useRef<THREE.WebGLRenderer | null>(null);
+  const composerRef = useRef<EffectComposer | null>(null);
+  const materialRef = useRef<THREE.ShaderMaterial | null>(null);
+  const bloomPassRef = useRef<UnrealBloomPass | null>(null);
+  const filmPassRef = useRef<ShaderPass | null>(null);
+  
+  // Trail circular buffer
+  const trailBufRef = useRef<THREE.Vector2[]>([]);
+  const headRef = useRef(0);
+  const rafRef = useRef<number | null>(null);
+  const resizeObsRef = useRef<ResizeObserver | null>(null);
+  const currentMouseRef = useRef(new THREE.Vector2(0.5, 0.5));
+  const velocityRef = useRef(new THREE.Vector2(0, 0));
+  const fadeOpacityRef = useRef(1.0);
+  const lastMoveTimeRef = useRef(typeof performance !== 'undefined' ? performance.now() : Date.now());
+  const pointerActiveRef = useRef(false);
+  const runningRef = useRef(false);
+
+  const isTouch = useMemo(
+    () => typeof window !== 'undefined' && ('ontouchstart' in window || navigator.maxTouchPoints > 0),
+    []
+  );
+
+  const pixelBudget = targetPixels ?? (isTouch ? 0.9e6 : 1.3e6);
+  const fadeDelay = fadeDelayMs ?? (isTouch ? 500 : 1000);
+  const fadeDuration = fadeDurationMs ?? (isTouch ? 1000 : 1500);
+
+  const baseVertexShader = `
+    varying vec2 vUv;
+    void main() {
+      vUv = uv;
+      gl_Position = vec4(position, 1.0);
+    }
+  `;
+
+  const fragmentShader = `
+    uniform float iTime;
+    uniform vec3  iResolution;
+    uniform vec2  iMouse;
+    uniform vec2  iPrevMouse[MAX_TRAIL_LENGTH];
+    uniform float iOpacity;
+    uniform float iScale;
+    uniform vec3  iBaseColor;
+    uniform float iBrightness;
+    uniform float iEdgeIntensity;
+
+    varying vec2  vUv;
+
+    float hash(vec2 p){ return fract(sin(dot(p,vec2(127.1,311.7))) * 43758.5453123); }
+
+    float noise(vec2 p){
+      vec2 i = floor(p), f = fract(p);
+      f = f * f * (3. - 2. * f);
+      return mix(mix(hash(i + vec2(0.,0.)), hash(i + vec2(1.,0.)), f.x),
+                 mix(hash(i + vec2(0.,1.)), hash(i + vec2(1.,1.)), f.x), f.y);
+    }
+
+    float fbm(vec2 p){
+      float v = 0.0;
+      float a = 0.5;
+      mat2 m = mat2(cos(0.5), sin(0.5), -sin(0.5), cos(0.5));
+      for(int i=0;i<5;i++){
+        v += a * noise(p);
+        p = m * p * 2.0;
+        a *= 0.5;
+      }
+      return v;
+    }
+
+    vec3 tint1(vec3 base){ return mix(base, vec3(1.0), 0.15); }
+    vec3 tint2(vec3 base){ return mix(base, vec3(0.8, 0.9, 1.0), 0.25); }
+
+    vec4 blob(vec2 p, vec2 mousePos, float intensity, float activity) {
+      vec2 q = vec2(fbm(p * iScale + iTime * 0.1), fbm(p * iScale + vec2(5.2,1.3) + iTime * 0.1));
+      vec2 r = vec2(fbm(p * iScale + q * 1.5 + iTime * 0.15), fbm(p * iScale + q * 1.5 + vec2(8.3,2.8) + iTime * 0.15));
+      float smoke = fbm(p * iScale + r * 0.8);
+      
+      float radius = 0.5 + 0.3 * (1.0 / iScale);
+      float distFactor = 1.0 - smoothstep(0.0, radius * activity, length(p - mousePos));
+      float alpha = pow(smoke, 2.5) * distFactor;
+
+      vec3 c1 = tint1(iBaseColor);
+      vec3 c2 = tint2(iBaseColor);
+      vec3 color = mix(c1, c2, sin(iTime * 0.5) * 0.5 + 0.5);
+
+      return vec4(color * alpha * intensity, alpha * intensity);
+    }
+
+    void main() {
+      vec2 uv = (gl_FragCoord.xy / iResolution.xy * 2.0 - 1.0) * vec2(iResolution.x / iResolution.y, 1.0);
+      vec2 mouse = (iMouse * 2.0 - 1.0) * vec2(iResolution.x / iResolution.y, 1.0);
+      
+      vec3 colorAcc = vec3(0.0);
+      float alphaAcc = 0.0;
+      
+      vec4 b = blob(uv, mouse, 1.0, iOpacity);
+      colorAcc += b.rgb;
+      alphaAcc += b.a;
+
+      for (int i = 0; i < MAX_TRAIL_LENGTH; i++) {
+        vec2 pm = (iPrevMouse[i] * 2.0 - 1.0) * vec2(iResolution.x / iResolution.y, 1.0);
+        float t = 1.0 - float(i) / float(MAX_TRAIL_LENGTH);
+        t = pow(t, 2.0);
+        
+        if (t > 0.01) {
+          vec4 bt = blob(uv, pm, t * 0.8, iOpacity);
+          colorAcc += bt.rgb;
+          alphaAcc += bt.a;
+        }
+      }
+
+      colorAcc *= iBrightness;
+      
+      vec2 uv01 = gl_FragCoord.xy / iResolution.xy;
+      float edgeDist = min(min(uv01.x, 1.0 - uv01.x), min(uv01.y, 1.0 - uv01.y));
+      float distFromEdge = clamp(edgeDist * 2.0, 0.0, 1.0);
+      float k = clamp(iEdgeIntensity, 0.0, 1.0);
+      float edgeMask = mix(1.0 - k, 1.0, distFromEdge);
+      
+      float outAlpha = clamp(alphaAcc * iOpacity * edgeMask, 0.0, 1.0);
+      gl_FragColor = vec4(colorAcc, outAlpha);
+    }
+  `;
+
+  const FilmGrainShader = useMemo(() => {
+    return {
+      uniforms: {
+        tDiffuse: { value: null },
+        iTime: { value: 0 },
+        intensity: { value: grainIntensity }
+      },
+      vertexShader: `
+        varying vec2 vUv;
+        void main(){
+          vUv = uv;
+          gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+        }
+      `,
+      fragmentShader: `
+        uniform sampler2D tDiffuse;
+        uniform float iTime;
+        uniform float intensity;
+        varying vec2 vUv;
+        float hash1(float n){ return fract(sin(n)*43758.5453); }
+        void main(){
+          vec4 color = texture2D(tDiffuse, vUv);
+          float n = hash1(vUv.x*1000.0 + vUv.y*2000.0 + iTime) * 2.0 - 1.0;
+          color.rgb += n * intensity * color.rgb;
+          gl_FragColor = color;
+        }
+      `
+    };
+  }, [grainIntensity]);
+
+  const UnpremultiplyPass = useMemo(
+    () =>
+      new ShaderPass({
+        uniforms: { tDiffuse: { value: null } },
+        vertexShader: `
+          varying vec2 vUv;
+          void main(){
+            vUv = uv;
+            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+          }
+        `,
+        fragmentShader: `
+          uniform sampler2D tDiffuse;
+          varying vec2 vUv;
+          void main(){
+            vec4 c = texture2D(tDiffuse, vUv);
+            float a = max(c.a, 1e-5);
+            vec3 straight = c.rgb / a;
+            gl_FragColor = vec4(clamp(straight, 0.0, 1.0), c.a);
+          }
+        `
+      }),
+    []
+  );
+
+  function calculateScale(el: HTMLElement) {
+    const r = el.getBoundingClientRect();
+    const base = 600;
+    const current = Math.min(Math.max(1, r.width), Math.max(1, r.height));
+    return Math.max(0.5, Math.min(2.0, current / base));
+  }
+
+  useEffect(() => {
+    const host = containerRef.current;
+    const parent = host?.parentElement;
+    if (!host || !parent) return;
+
+    // Note: Parent should be positioned relative or absolute by the user.
+    // We won't modify parent style to avoid side effects/conflicts.
+
+    const renderer = new THREE.WebGLRenderer({
+      antialias: !isTouch,
+      alpha: true,
+      depth: false,
+      stencil: false,
+      powerPreference: 'default',
+      premultipliedAlpha: false,
+      preserveDrawingBuffer: false
+    });
+
+    renderer.setClearColor(0x000000, 0);
+    rendererRef.current = renderer;
+
+    renderer.domElement.style.pointerEvents = 'none';
+    if (mixBlendMode) {
+      renderer.domElement.style.mixBlendMode = String(mixBlendMode);
+    } else {
+      renderer.domElement.style.removeProperty('mix-blend-mode');
+    }
+    renderer.domElement.style.display = 'block';
+    renderer.domElement.style.width = '100%';
+    renderer.domElement.style.height = '100%';
+    renderer.domElement.style.background = 'transparent';
+
+    host.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
+    const geom = new THREE.PlaneGeometry(2, 2);
+
+    const maxTrail = Math.max(1, Math.floor(trailLength));
+    trailBufRef.current = Array.from({ length: maxTrail }, () => new THREE.Vector2(0.5, 0.5));
+    headRef.current = 0;
+
+    const baseColor = new THREE.Color(color);
+    const material = new THREE.ShaderMaterial({
+      defines: { MAX_TRAIL_LENGTH: maxTrail },
+      uniforms: {
+        iTime: { value: 0 },
+        iResolution: { value: new THREE.Vector3(1, 1, 1) },
+        iMouse: { value: new THREE.Vector2(0.5, 0.5) },
+        iPrevMouse: { value: trailBufRef.current.map(v => v.clone()) },
+        iOpacity: { value: 1.0 },
+        iScale: { value: 1.0 },
+        iBaseColor: { value: new THREE.Vector3(baseColor.r, baseColor.g, baseColor.b) },
+        iBrightness: { value: brightness },
+        iEdgeIntensity: { value: edgeIntensity }
+      },
+      vertexShader: baseVertexShader,
+      fragmentShader,
+      transparent: true,
+      depthTest: false,
+      depthWrite: false
+    });
+    materialRef.current = material;
+
+    const mesh = new THREE.Mesh(geom, material);
+    scene.add(mesh);
+
+    const composer = new EffectComposer(renderer);
+    composerRef.current = composer;
+
+    const renderPass = new RenderPass(scene, camera);
+    composer.addPass(renderPass);
+
+    const bloomPass = new UnrealBloomPass(new THREE.Vector2(1, 1), bloomStrength, bloomRadius, bloomThreshold);
+    bloomPassRef.current = bloomPass;
+    composer.addPass(bloomPass);
+
+    const filmPass = new ShaderPass(FilmGrainShader as any);
+    filmPassRef.current = filmPass;
+    composer.addPass(filmPass);
+
+    composer.addPass(UnpremultiplyPass);
+
+    const resize = () => {
+      const rect = host.getBoundingClientRect();
+      const cssW = Math.max(1, Math.floor(rect.width));
+      const cssH = Math.max(1, Math.floor(rect.height));
+
+      const currentDPR = Math.min(
+        typeof window !== 'undefined' ? window.devicePixelRatio || 1 : 1,
+        maxDevicePixelRatio
+      );
+
+      const need = cssW * cssH * currentDPR * currentDPR;
+      const scale = need <= pixelBudget ? 1 : Math.max(0.5, Math.min(1, Math.sqrt(pixelBudget / Math.max(1, need))));
+      
+      const pixelRatio = currentDPR * scale;
+      renderer.setPixelRatio(pixelRatio);
+      renderer.setSize(cssW, cssH, false);
+      composer.setPixelRatio?.(pixelRatio);
+      composer.setSize(cssW, cssH);
+
+      const wpx = Math.max(1, Math.floor(cssW * pixelRatio));
+      const hpx = Math.max(1, Math.floor(cssH * pixelRatio));
+      
+      material.uniforms.iResolution.value.set(wpx, hpx, 1);
+      material.uniforms.iScale.value = calculateScale(host);
+      bloomPass.setSize(wpx, hpx);
+    };
+
+    resize();
+    const ro = new ResizeObserver(resize);
+    resizeObsRef.current = ro;
+    ro.observe(host);
+
+    const start = typeof performance !== 'undefined' ? performance.now() : Date.now();
+
+    const animate = () => {
+      const now = performance.now();
+      const t = (now - start) / 1000;
+      
+      const mat = materialRef.current!;
+      const comp = composerRef.current!;
+
+      if (pointerActiveRef.current) {
+        velocityRef.current.set(
+          currentMouseRef.current.x - mat.uniforms.iMouse.value.x,
+          currentMouseRef.current.y - mat.uniforms.iMouse.value.y
+        );
+        mat.uniforms.iMouse.value.copy(currentMouseRef.current);
+        fadeOpacityRef.current = 1.0;
+      } else {
+        velocityRef.current.multiplyScalar(inertia);
+        if (velocityRef.current.lengthSq() > 1e-6) {
+          mat.uniforms.iMouse.value.add(velocityRef.current);
+        }
+        
+        const dt = now - lastMoveTimeRef.current;
+        if (dt > fadeDelay) {
+          const k = Math.min(1, (dt - fadeDelay) / fadeDuration);
+          fadeOpacityRef.current = Math.max(0, 1 - k);
+        }
+      }
+
+      const N = trailBufRef.current.length;
+      headRef.current = (headRef.current + 1) % N;
+      trailBufRef.current[headRef.current].copy(mat.uniforms.iMouse.value);
+      
+      const arr = mat.uniforms.iPrevMouse.value as THREE.Vector2[];
+      for (let i = 0; i < N; i++) {
+        const srcIdx = (headRef.current - i + N) % N;
+        arr[i].copy(trailBufRef.current[srcIdx]);
+      }
+
+      mat.uniforms.iOpacity.value = fadeOpacityRef.current;
+      mat.uniforms.iTime.value = t;
+
+      if (filmPassRef.current?.uniforms?.iTime) {
+        filmPassRef.current.uniforms.iTime.value = t;
+      }
+
+      comp.render();
+
+      if (!pointerActiveRef.current && fadeOpacityRef.current <= 0.001) {
+        runningRef.current = false;
+        rafRef.current = null;
+        return;
+      }
+
+      rafRef.current = requestAnimationFrame(animate);
+    };
+
+    const ensureLoop = () => {
+      if (!runningRef.current) {
+        runningRef.current = true;
+        rafRef.current = requestAnimationFrame(animate);
+      }
+    };
+
+    const onPointerMove = (e: PointerEvent) => {
+      const rect = parent.getBoundingClientRect();
+      const x = THREE.MathUtils.clamp((e.clientX - rect.left) / Math.max(1, rect.width), 0, 1);
+      const y = THREE.MathUtils.clamp(1 - (e.clientY - rect.top) / Math.max(1, rect.height), 0, 1);
+      
+      currentMouseRef.current.set(x, y);
+      pointerActiveRef.current = true;
+      lastMoveTimeRef.current = performance.now();
+      ensureLoop();
+    };
+
+    const onPointerEnter = () => {
+      pointerActiveRef.current = true;
+      ensureLoop();
+    };
+
+    const onPointerLeave = () => {
+      pointerActiveRef.current = false;
+      lastMoveTimeRef.current = performance.now();
+      ensureLoop();
+    };
+
+    parent.addEventListener('pointermove', onPointerMove, { passive: true });
+    parent.addEventListener('pointerenter', onPointerEnter, { passive: true });
+    parent.addEventListener('pointerleave', onPointerLeave, { passive: true });
+    
+    ensureLoop();
+
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      runningRef.current = false;
+      rafRef.current = null;
+      
+      parent.removeEventListener('pointermove', onPointerMove);
+      parent.removeEventListener('pointerenter', onPointerEnter);
+      parent.removeEventListener('pointerleave', onPointerLeave);
+      
+      resizeObsRef.current?.disconnect();
+      
+      scene.clear();
+      geom.dispose();
+      material.dispose();
+      composer.dispose();
+      renderer.dispose();
+      
+      if (renderer.domElement && renderer.domElement.parentElement) {
+        renderer.domElement.parentElement.removeChild(renderer.domElement);
+      }
+    };
+  }, [
+    trailLength,
+    inertia,
+    grainIntensity,
+    bloomStrength,
+    bloomRadius,
+    bloomThreshold,
+    pixelBudget,
+    fadeDelay,
+    fadeDuration,
+    isTouch,
+    color,
+    brightness,
+    mixBlendMode,
+    edgeIntensity
+  ]);
+
+  useEffect(() => {
+    if (materialRef.current) {
+      const c = new THREE.Color(color);
+      (materialRef.current.uniforms.iBaseColor.value as THREE.Vector3).set(c.r, c.g, c.b);
+    }
+  }, [color]);
+
+  useEffect(() => {
+    if (materialRef.current) {
+      materialRef.current.uniforms.iBrightness.value = brightness;
+    }
+  }, [brightness]);
+
+  useEffect(() => {
+    if (materialRef.current) {
+      materialRef.current.uniforms.iEdgeIntensity.value = edgeIntensity;
+    }
+  }, [edgeIntensity]);
+
+  useEffect(() => {
+    if (filmPassRef.current?.uniforms?.intensity) {
+      filmPassRef.current.uniforms.intensity.value = grainIntensity;
+    }
+  }, [grainIntensity]);
+
+  useEffect(() => {
+    const el = rendererRef.current?.domElement;
+    if (!el) return;
+    
+    if (mixBlendMode) {
+      el.style.mixBlendMode = String(mixBlendMode);
+    } else {
+      el.style.removeProperty('mix-blend-mode');
+    }
+  }, [mixBlendMode]);
+
+  const mergedStyle = useMemo<React.CSSProperties>(() => ({ zIndex, ...style }), [zIndex, style]);
+
+  return (
+    <div ref={containerRef} className={`pointer-events-none absolute inset-0 ${className ?? ''}`} style={mergedStyle} />
+  );
+};
+
+export default GhostCursor;
+~~~
+
+Implementation Guidelines
+
+1. Analyze the component structure, styling, animation implementations
+2. Review the component's arguments and state
+3. Think through what is the best place to adopt this component/style into the design we are doing
+4. Then adopt the component/design to our current system
+
+Help me integrate this into my design
+```
+
+---
+
+## 41. Aura Audio Showroom
 `E-commerce` · `E-commerce & Retail` · 261 copies · [try live](https://superdesign.dev/library/aura-audio-showroom?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Product Walkthrough is a product-first electronics landing page built around a Showroom Flow layout—product theater followed by guided model selection, scenario-based feature explanations, lightweight comparison, and a confident close—making it best suited for consumer electronics and DTC hardware brands with multiple models or configurations that want a clear, trust-building shopping experience without spec overload or lifestyle clichés.
@@ -4645,7 +5842,361 @@ Product Walkthrough is a product-first electronics landing page built around a S
 
 ---
 
-## 37. Architectural Type System Style
+## 42. Interactive Folder
+`Components` · `General` · 273 copies · [try live](https://superdesign.dev/library/interactive-folder?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+An interactive, premium folder component with a playful opening animation and drifting paper elements. Features smooth CSS transitions and mouse-tracking interactions.
+
+Source: ReactBits
+
+```text
+You are given a task to integrate an existing React component in the codebase
+
+~~~/README.md
+# InteractiveFolder
+
+A premium, interactive folder component with a playful opening animation and "drifting" paper elements that respond to mouse movement.
+
+## Dependencies
+- `react`: ^18.2.0
+- `framer-motion`: ^11.0.8
+- `lucide-react`: ^0.344.0
+- `clsx`: ^2.1.0
+- `tailwind-merge`: ^2.2.1
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `color` | `string` | `"#5227FF"` | The main brand color for the folder flap. |
+| `size` | `number` | `1` | Scale factor for the component. |
+| `label` | `string` | `undefined` | Optional text label displayed on the folder when closed. |
+| `items` | `React.ReactNode[]` | `[]` | Array of elements (icons, text, etc.) to show as papers inside. |
+| `className` | `string` | `""` | Additional CSS classes for the wrapper. |
+
+## Usage Example
+
+```tsx
+import { InteractiveFolder } from '@/sd-components/1f6b23dd-a749-47ba-ba67-0451c5edd13a';
+import { FileText, Image, Code } from 'lucide-react';
+
+export default function MyGallery() {
+  return (
+    <InteractiveFolder 
+      size={1.5}
+      color="#5227FF"
+      label="DOCUMENTS"
+      items={[
+        <FileText className="w-6 h-6 text-slate-400" />,
+        <Image className="w-6 h-6 text-slate-400" />,
+        <Code className="w-6 h-6 text-slate-400" />
+      ]}
+    />
+  );
+}
+```
+~~~
+
+~~~/src/App.tsx
+import React from 'react';
+import { InteractiveFolder } from './Component';
+import { FileText, Image as ImageIcon, Music, Code, Mail } from 'lucide-react';
+
+export default function App() {
+  return (
+    <div className="w-full min-h-screen bg-[#F9F9F9] flex flex-col items-center justify-center p-20 gap-24">
+      {/* Centered Showcase Section */}
+      <div className="relative group">
+        <div className="absolute -inset-20 bg-gradient-to-tr from-primary/5 via-transparent to-primary/5 rounded-full blur-3xl opacity-50" />
+        <InteractiveFolder 
+          size={2} 
+          color="#5227FF" 
+          label="RESOURCES"
+          items={[
+            <FileText key="1" className="w-6 h-6 text-slate-400" />,
+            <ImageIcon key="2" className="w-6 h-6 text-slate-400" />,
+            <Code key="3" className="w-6 h-6 text-slate-400" />
+          ]}
+        />
+      </div>
+
+      {/* Variation Section */}
+      <div className="flex flex-wrap items-center justify-center gap-20">
+        <div className="flex flex-col items-center gap-4">
+          <InteractiveFolder 
+            size={1} 
+            color="#FF3366" 
+            label="ARTSETS"
+            items={[
+              <ImageIcon key="1" className="w-5 h-5 text-pink-400" />,
+              <ImageIcon key="2" className="w-5 h-5 text-pink-300" />
+            ]}
+          />
+        </div>
+
+        <div className="flex flex-col items-center gap-4">
+          <InteractiveFolder 
+            size={1} 
+            color="#00D1FF" 
+            label="TUNES"
+            items={[
+              <Music key="1" className="w-5 h-5 text-cyan-400" />
+            ]}
+          />
+        </div>
+
+        <div className="flex flex-col items-center gap-4">
+          <InteractiveFolder 
+            size={1} 
+            color="#1A1A1B" 
+            label="MAILS"
+            items={[
+              <Mail key="1" className="w-5 h-5 text-slate-500" />
+            ]}
+          />
+        </div>
+      </div>
+
+      {/* Footer Info */}
+      <div className="mt-8 text-center">
+        <h1 className="text-xl font-medium text-foreground tracking-tight">Interactive Folder</h1>
+        <p className="text-muted-foreground text-sm mt-1">Click to reveal and hover to drift</p>
+      </div>
+    </div>
+  );
+}
+~~~
+
+~~~/package.json
+{
+  "name": "interactive-folder",
+  "description": "A playful interactive folder component with drift animation",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.344.0",
+    "framer-motion": "^11.0.8",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.1"
+  }
+}
+~~~
+
+~~~/src/Component.tsx
+/**
+ * InteractiveFolder Component
+ * A premium, interactive folder UI element that opens on click
+ * to reveal contents with a "drifting" animation effect.
+ */
+
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+export interface FolderProps {
+  /** Main color of the folder */
+  color?: string;
+  /** Scale factor for the folder */
+  size?: number;
+  /** Array of React elements to display as "papers" inside the folder */
+  items?: React.ReactNode[];
+  /** Optional CSS class for the wrapper */
+  className?: string;
+  /** Title or label to display on the folder */
+  label?: string;
+}
+
+const darkenColor = (hex: string, percent: number): string => {
+  let color = hex.startsWith('#') ? hex.slice(1) : hex;
+  if (color.length === 3) {
+    color = color.split('').map(c => c + c).join('');
+  }
+  const num = parseInt(color, 16);
+  let r = (num >> 16) & 0xff;
+  let g = (num >> 8) & 0xff;
+  let b = num & 0xff;
+  r = Math.max(0, Math.min(255, Math.floor(r * (1 - percent))));
+  g = Math.max(0, Math.min(255, Math.floor(g * (1 - percent))));
+  b = Math.max(0, Math.min(255, Math.floor(b * (1 - percent))));
+  return '#' + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1).toUpperCase();
+};
+
+export function InteractiveFolder({ 
+  color = '#5227FF', 
+  size = 1, 
+  items = [], 
+  className = '',
+  label
+}: FolderProps) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+
+  const maxVisibleItems = 3;
+  const displayItems = items.slice(0, maxVisibleItems);
+  while (displayItems.length < maxVisibleItems) {
+    displayItems.push(null);
+  }
+
+  const folderBackColor = darkenColor(color, 0.12);
+  const paperColors = [
+    darkenColor('#ffffff', 0.1),
+    darkenColor('#ffffff', 0.05),
+    '#ffffff'
+  ];
+
+  const handleMouseMove = (e: React.MouseEvent, index: number) => {
+    if (!isOpen) return;
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = (e.clientX - (rect.left + rect.width / 2)) * 0.2;
+    const y = (e.clientY - (rect.top + rect.height / 2)) * 0.2;
+    setMousePos({ x, y });
+    setHoveredIndex(index);
+  };
+
+  const handleMouseLeave = () => {
+    setMousePos({ x: 0, y: 0 });
+    setHoveredIndex(null);
+  };
+
+  const getPaperTransform = (index: number) => {
+    if (!isOpen) return { x: '-50%', y: '10%', rotate: 0 };
+    
+    const baseTransforms = [
+      { x: '-120%', y: '-75%', rotate: -15 },
+      { x: '10%', y: '-75%', rotate: 15 },
+      { x: '-50%', y: '-105%', rotate: 5 }
+    ];
+
+    const base = baseTransforms[index] || { x: '-50%', y: '-50%', rotate: 0 };
+    
+    if (hoveredIndex === index) {
+      return {
+        x: `calc(${base.x} + ${mousePos.x}px)`,
+        y: `calc(${base.y} + ${mousePos.y}px)`,
+        rotate: base.rotate,
+        scale: 1.1,
+      };
+    }
+    
+    return base;
+  };
+
+  return (
+    <div 
+      className={`relative flex items-center justify-center ${className}`}
+      style={{ transform: `scale(${size})`, width: 120, height: 100 }}
+    >
+      <div
+        className="relative cursor-pointer group select-none"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {/* Folder Back */}
+        <div
+          className="relative w-[110px] h-[85px] transition-all duration-500 rounded-tr-[12px] rounded-br-[12px] rounded-bl-[12px]"
+          style={{ 
+            backgroundColor: folderBackColor,
+            boxShadow: isOpen ? '0 10px 30px -5px rgba(0,0,0,0.1)' : '0 4px 12px -2px rgba(0,0,0,0.05)'
+          }}
+        >
+          {/* Tab */}
+          <div
+            className="absolute bottom-full left-0 w-[35px] h-[12px] rounded-t-[6px]"
+            style={{ backgroundColor: folderBackColor }}
+          />
+
+          {/* Papers */}
+          {displayItems.map((item, i) => (
+            <motion.div
+              key={i}
+              onMouseMove={(e) => handleMouseMove(e, i)}
+              onMouseLeave={handleMouseLeave}
+              animate={getPaperTransform(i)}
+              transition={{ 
+                type: 'spring', 
+                stiffness: 260, 
+                damping: 20,
+                mass: 1 
+              }}
+              className="absolute left-1/2 flex items-center justify-center overflow-hidden"
+              style={{
+                zIndex: 20,
+                backgroundColor: paperColors[i],
+                borderRadius: '8px',
+                width: i === 0 ? '75px' : i === 1 ? '85px' : '95px',
+                height: i === 0 ? '65px' : i === 1 ? '70px' : '75px',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+                border: '1px solid rgba(0,0,0,0.03)'
+              }}
+            >
+              {item || (
+                <div className="w-full h-full p-2 flex flex-col gap-1.5 opacity-20">
+                  <div className="w-3/4 h-1 bg-current rounded-full" />
+                  <div className="w-1/2 h-1 bg-current rounded-full" />
+                  <div className="w-2/3 h-1 bg-current rounded-full" />
+                </div>
+              )}
+            </motion.div>
+          ))}
+
+          {/* Folder Front Flap - Left Side */}
+          <motion.div
+            animate={{
+              skewX: isOpen ? 15 : 0,
+              scaleY: isOpen ? 0.6 : 1,
+              translateY: isOpen ? 4 : 0
+            }}
+            transition={{ type: 'spring', stiffness: 300, damping: 25 }}
+            className="absolute inset-0 z-30 origin-bottom"
+            style={{
+              backgroundColor: color,
+              borderRadius: '6px 12px 12px 12px',
+              clipPath: 'polygon(0 0, 50% 0, 50% 100%, 0 100%)'
+            }}
+          />
+
+          {/* Folder Front Flap - Right Side */}
+          <motion.div
+            animate={{
+              skewX: isOpen ? -15 : 0,
+              scaleY: isOpen ? 0.6 : 1,
+              translateY: isOpen ? 4 : 0
+            }}
+            transition={{ type: 'spring', stiffness: 300, damping: 25 }}
+            className="absolute inset-0 z-30 origin-bottom"
+            style={{
+              backgroundColor: color,
+              borderRadius: '6px 12px 12px 12px',
+              clipPath: 'polygon(50% 0, 100% 0, 100% 100%, 50% 100%)'
+            }}
+          >
+             {label && !isOpen && (
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white/90 text-[10px] font-medium tracking-tight whitespace-nowrap px-2">
+                {label}
+              </div>
+            )}
+          </motion.div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default InteractiveFolder;
+~~~
+
+Implementation Guidelines
+
+1. Analyze the component structure, styling, animation implementations
+2. Review the component's arguments and state
+3. Think through what is the best place to adopt this component/style into the design we are doing
+4. Then adopt the component/design to our current system
+
+Help me integrate this into my design
+```
+
+---
+
+## 43. Architectural Type System Style
 `Waitlist & Coming Soon` · `General` · 354 copies · [try live](https://superdesign.dev/library/architectural-type-system-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-contrast, architectural design system rooted in Swiss Modernism and Brutalist minimalism. Characterized by a monochrome palette, massive 'Inter Tight' display typography, and a rigid grid defined by 0.5px hairlines. Features a technical 'JetBrains Mono' font for metadata and system status indicators, creating an engineering-first aesthetic. Suitable for high-end SaaS, developer tools, fintech, architecture portfolios, and design agencies. Includes a persistent noise overlay for texture and grid-based layouts that utilize viewport-relative sizing for maximalist impact.
@@ -4701,7 +6252,1154 @@ A high-contrast, architectural design system rooted in Swiss Modernism and Bruta
 
 ---
 
-## 38. "Exploded View" Assembly
+## 44. Parallax Stars Background
+`Animations & Backgrounds` · `General` · 661 copies · [try live](https://superdesign.dev/library/parallax-stars-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A mesmerizing space-themed background with animated parallax pixel stars and a radial gradient atmosphere. Features three layers of stars moving at different speeds to create depth.
+
+```text
+This is a reference implementation of a parallax stars background
+
+~~~/README.md
+# Parallax Stars Background
+
+A mesmerizing space-themed background component with animated parallax pixel stars and a radial gradient atmosphere.
+
+## Features
+- **Pure CSS/JS Animation**: Uses efficient `box-shadow` rendering for thousands of particles.
+- **Parallax Effect**: Three layers of stars moving at different speeds to create depth.
+- **Radial Gradient Atmosphere**: Creates a deep space feel.
+- **Customizable**: Adjustable speed and title text.
+- **Responsive**: Adapts to screen size.
+
+## Usage
+
+```tsx
+import { ParallaxStarsBackground } from '@/sd-components/a17695b3-944f-4e4b-9d72-b0cfd61b9bb8';
+
+function App() {
+  return (
+    <ParallaxStarsBackground 
+      title="MY AWESOME\nSPACE APP" 
+      speed={1.5}
+    >
+      <button className="px-6 py-2 border border-white text-white hover:bg-white hover:text-black transition-colors rounded-full uppercase tracking-widest text-sm">
+        Enter the Void
+      </button>
+    </ParallaxStarsBackground>
+  );
+}
+```
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `title` | `string` | "PURE CSS\nPARALLAX PIXEL STARS" | Main title text. Use `\n` for line breaks. |
+| `children` | `ReactNode` | undefined | Optional content to render below the title. |
+| `className` | `string` | "" | Additional classes for the container. |
+| `speed` | `number` | 1 | Animation speed multiplier. Higher is faster. |
+~~~
+
+~~~/src/App.tsx
+import React from 'react';
+import { ParallaxStarsBackground } from './Component';
+
+export default function App() {
+  return (
+    <div className="w-full min-h-screen">
+      <ParallaxStarsBackground 
+        speed={1}
+      />
+    </div>
+  );
+}
+~~~
+
+~~~/package.json
+
+{
+  "name": "parallax-stars-background",
+  "version": "1.0.0",
+  "description": "A mesmerizing space-themed background with animated parallax pixel stars and a radial gradient atmosphere.",
+  "main": "src/Component.tsx",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.344.0",
+    "framer-motion": "^11.0.8",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.1"
+  }
+}
+~~~
+
+~~~/src/Component.tsx
+import React, { useMemo } from 'react';
+
+// Types for the component props
+export interface ParallaxStarsBackgroundProps {
+  /**
+   * Title text to display in the center
+   * @default "PURE CSS PARALLAX PIXEL STARS"
+   */
+  title?: string;
+  /**
+   * Subtitle or additional content
+   */
+  children?: React.ReactNode;
+  /**
+   * Class name for the container
+   */
+  className?: string;
+  /**
+   * Speed multiplier for the animation
+   * @default 1
+   */
+  speed?: number;
+}
+
+// Helper to generate random box shadows
+const generateBoxShadows = (n: number) => {
+  let value = `${Math.floor(Math.random() * 2000)}px ${Math.floor(Math.random() * 2000)}px #FFF`;
+  for (let i = 2; i <= n; i++) {
+    value += `, ${Math.floor(Math.random() * 2000)}px ${Math.floor(Math.random() * 2000)}px #FFF`;
+  }
+  return value;
+};
+
+export function ParallaxStarsBackground({
+  title = "PURE CSS\nPARALLAX PIXEL STARS",
+  children,
+  className = "",
+  speed = 1
+}: ParallaxStarsBackgroundProps) {
+  // Memoize shadows so they don't regenerate on re-renders
+  const shadowsSmall = useMemo(() => generateBoxShadows(700), []);
+  const shadowsMedium = useMemo(() => generateBoxShadows(200), []);
+  const shadowsBig = useMemo(() => generateBoxShadows(100), []);
+
+  return (
+    <div className={`relative w-full h-screen overflow-hidden bg-[#090A0F] font-['Lato'] ${className}`}>
+      {/* Inline styles for the gradient and animations */}
+      <style>{`
+        .bg-radial-space {
+          background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+        }
+        @keyframes animStar {
+          from { transform: translateY(0px); }
+          to { transform: translateY(-2000px); }
+        }
+        .text-gradient-clip {
+          background: linear-gradient(to bottom, white 0%, #38495a 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      `}</style>
+
+      {/* Background Gradient */}
+      <div className="absolute inset-0 bg-radial-space z-0" />
+
+      {/* Stars Layer 1 (Small) */}
+      <div 
+        className="absolute left-0 top-0 w-[1px] h-[1px] bg-transparent z-10 animate-[animStar_50s_linear_infinite]"
+        style={{ 
+          boxShadow: shadowsSmall,
+          animationDuration: `${50 / speed}s`
+        }}
+      >
+        <div 
+          className="absolute top-[2000px] w-[1px] h-[1px] bg-transparent"
+          style={{ boxShadow: shadowsSmall }}
+        />
+      </div>
+
+      {/* Stars Layer 2 (Medium) */}
+      <div 
+        className="absolute left-0 top-0 w-[2px] h-[2px] bg-transparent z-10 animate-[animStar_100s_linear_infinite]"
+        style={{ 
+          boxShadow: shadowsMedium,
+          animationDuration: `${100 / speed}s`
+        }}
+      >
+        <div 
+          className="absolute top-[2000px] w-[2px] h-[2px] bg-transparent"
+          style={{ boxShadow: shadowsMedium }}
+        />
+      </div>
+
+      {/* Stars Layer 3 (Big) */}
+      <div 
+        className="absolute left-0 top-0 w-[3px] h-[3px] bg-transparent z-10 animate-[animStar_150s_linear_infinite]"
+        style={{ 
+          boxShadow: shadowsBig,
+          animationDuration: `${150 / speed}s`
+        }}
+      >
+        <div 
+          className="absolute top-[2000px] w-[3px] h-[3px] bg-transparent"
+          style={{ boxShadow: shadowsBig }}
+        />
+      </div>
+
+      {/* Title Content */}
+      <div className="absolute top-1/2 left-0 right-0 -mt-[60px] text-center z-20 px-4">
+        <h1 className="font-light text-[30px] md:text-[50px] tracking-[10px] text-white leading-tight">
+          {title.split('\n').map((line, i) => (
+            <React.Fragment key={i}>
+              <span className={i === 0 ? "text-gradient-clip" : "text-gradient-clip"}>
+                {line}
+              </span>
+              {i < title.split('\n').length - 1 && <br />}
+            </React.Fragment>
+          ))}
+        </h1>
+        {children && <div className="mt-8">{children}</div>}
+      </div>
+    </div>
+  );
+}
+
+export default ParallaxStarsBackground;
+~~~
+
+Implementation Guidelines
+
+1. Analyze the component structure, styling, animation implementations
+2. Review the component's arguments and state
+3. Think through what is the best place to adopt this component/style into the design we are doing
+4. Then adopt the component/design to our current system
+
+Help me integrate this into my design
+```
+
+---
+
+## 45. Typing animation
+`Components` · `General` · 370 copies · [try live](https://superdesign.dev/library/typing-animation?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A typing animation component that reveals each character of a headline with a 50ms delay, featuring a minimalist showcase and replay functionality.
+
+```text
+Create a typing animation that reveals each character with a 50ms delay between characters for the main headline.
+```
+
+---
+
+## 46. Shiny Text
+`Components` · `General` · 182 copies · [try live](https://superdesign.dev/library/shiny-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A text component with a customizable shining gradient animation effect that sweeps across the text.
+
+```text
+You are given a task to integrate an existing React component in the codebase
+
+~~~/README.md
+# ShinyText
+
+A text component with a customizable shining gradient animation effect that sweeps across the text.
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `text` | string | - | The text to display and animate |
+| `disabled` | boolean | false | Whether to disable the animation |
+| `speed` | number | 2 | Duration of the animation in seconds |
+| `className` | string | '' | Additional CSS classes for styling |
+| `color` | string | '#b5b5b5' | The base color of the text |
+| `shineColor` | string | '#ffffff' | The color of the shine effect |
+| `spread` | number | 120 | The spread angle of the gradient in degrees |
+| `yoyo` | boolean | false | Whether the animation should bounce back and forth |
+| `pauseOnHover` | boolean | false | Whether to pause the animation on hover |
+| `direction` | 'left' \| 'right' | 'left' | The direction of the shine movement |
+| `delay` | number | 0 | Delay before animation starts (in seconds) |
+
+## Usage
+
+```tsx
+import ShinyText from '@/sd-components/2f78ed51-fbb9-4da5-8537-b528a39fe26f';
+
+// Basic usage
+<ShinyText text="Just some shiny text!" />
+
+// Custom speed and colors
+<ShinyText 
+  text="Shiny Text" 
+  disabled={false}
+  speed={3} 
+  className="custom-class" 
+  color="#888888"
+  shineColor="#3b82f6" 
+/>
+
+// Interactive usage
+<ShinyText 
+  text="Hover to pause" 
+  pauseOnHover={true}
+  speed={1.5}
+/>
+```
+~~~
+
+~~~/src/App.tsx
+import React from 'react';
+import ShinyText from './ShinyText';
+
+export default function App() {
+  return (
+    <div className="min-h-screen w-full flex items-center justify-center bg-[#1A1A1B] p-8 font-sans">
+      <div className="relative group rounded-3xl bg-[#222224] p-16 shadow-[0_0_40px_rgba(0,0,0,0.3)] transition-all hover:shadow-[0_0_60px_rgba(0,0,0,0.5)] border border-white/5">
+        <div className="text-center space-y-12">
+            <div>
+              <h2 className="text-sm font-medium text-white/40 mb-8 uppercase tracking-[0.2em]">Default Animation</h2>
+              <div className="text-4xl md:text-5xl font-bold tracking-tight">
+                  <ShinyText 
+                      text="✨ Shiny Text Effect" 
+                      disabled={false}
+                      speed={3} 
+                      className="custom-class" 
+                  />
+              </div>
+            </div>
+            
+             <div className="pt-12 border-t border-white/5 grid gap-8 justify-items-center">
+                <div>
+                  <p className="text-xs text-white/30 mb-4 uppercase tracking-widest">Hover to Pause</p>
+                  <ShinyText 
+                      text="Hover over me to pause the shine" 
+                      speed={2} 
+                      color="#888888"
+                      shineColor="#3b82f6" // Electric blue
+                      className="text-xl font-medium"
+                      pauseOnHover={true}
+                  />
+                </div>
+                
+                <div>
+                  <p className="text-xs text-white/30 mb-4 uppercase tracking-widest">Yoyo Effect</p>
+                   <ShinyText 
+                      text="Bouncing back and forth" 
+                      speed={1.5} 
+                      color="#888888"
+                      shineColor="#ec4899" // Pink
+                      className="text-xl font-medium"
+                      yoyo={true}
+                  />
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+~~~
+
+~~~/package.json
+{
+  "name": "shiny-text-component",
+  "version": "1.0.0",
+  "description": "A shiny text animation component using Motion",
+  "main": "src/ShinyText.tsx",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "motion": "^12.0.0",
+    "lucide-react": "^0.344.0"
+  }
+}
+~~~
+
+~~~/src/ShinyText.tsx
+import React, { useState, useCallback, useEffect, useRef } from 'react';
+import { motion, useMotionValue, useAnimationFrame, useTransform } from 'motion/react';
+
+interface ShinyTextProps {
+  text: string;
+  disabled?: boolean;
+  speed?: number;
+  className?: string;
+  color?: string;
+  shineColor?: string;
+  spread?: number;
+  yoyo?: boolean;
+  pauseOnHover?: boolean;
+  direction?: 'left' | 'right';
+  delay?: number;
+}
+
+const ShinyText: React.FC<ShinyTextProps> = ({
+  text,
+  disabled = false,
+  speed = 2,
+  className = '',
+  color = '#b5b5b5',
+  shineColor = '#ffffff',
+  spread = 120,
+  yoyo = false,
+  pauseOnHover = false,
+  direction = 'left',
+  delay = 0
+}) => {
+  const [isPaused, setIsPaused] = useState(false);
+  const progress = useMotionValue(0);
+  const elapsedRef = useRef(0);
+  const lastTimeRef = useRef<number | null>(null);
+  const directionRef = useRef(direction === 'left' ? 1 : -1);
+
+  const animationDuration = speed * 1000;
+  const delayDuration = delay * 1000;
+
+  useAnimationFrame(time => {
+    if (disabled || isPaused) {
+      lastTimeRef.current = null;
+      return;
+    }
+
+    if (lastTimeRef.current === null) {
+      lastTimeRef.current = time;
+      return;
+    }
+
+    const deltaTime = time - lastTimeRef.current;
+    lastTimeRef.current = time;
+    elapsedRef.current += deltaTime;
+
+    // Animation goes from 0 to 100
+    if (yoyo) {
+      const cycleDuration = animationDuration + delayDuration;
+      const fullCycle = cycleDuration * 2;
+      const cycleTime = elapsedRef.current % fullCycle;
+
+      if (cycleTime < animationDuration) {
+        // Forward animation: 0 -> 100
+        const p = (cycleTime / animationDuration) * 100;
+        progress.set(directionRef.current === 1 ? p : 100 - p);
+      } else if (cycleTime < cycleDuration) {
+        // Delay at end
+        progress.set(directionRef.current === 1 ? 100 : 0);
+      } else if (cycleTime < cycleDuration + animationDuration) {
+        // Reverse animation: 100 -> 0
+        const reverseTime = cycleTime - cycleDuration;
+        const p = 100 - (reverseTime / animationDuration) * 100;
+        progress.set(directionRef.current === 1 ? p : 100 - p);
+      } else {
+        // Delay at start
+        progress.set(directionRef.current === 1 ? 0 : 100);
+      }
+    } else {
+      const cycleDuration = animationDuration + delayDuration;
+      const cycleTime = elapsedRef.current % cycleDuration;
+
+      if (cycleTime < animationDuration) {
+        // Animation phase: 0 -> 100
+        const p = (cycleTime / animationDuration) * 100;
+        progress.set(directionRef.current === 1 ? p : 100 - p);
+      } else {
+        // Delay phase - hold at end (shine off-screen)
+        progress.set(directionRef.current === 1 ? 100 : 0);
+      }
+    }
+  });
+
+  useEffect(() => {
+    directionRef.current = direction === 'left' ? 1 : -1;
+    elapsedRef.current = 0;
+    progress.set(0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [direction]);
+
+  // Transform: p=0 -> 150% (shine off right), p=100 -> -50% (shine off left)
+  const backgroundPosition = useTransform(progress, p => `${150 - p * 2}% center`);
+
+  const handleMouseEnter = useCallback(() => {
+    if (pauseOnHover) setIsPaused(true);
+  }, [pauseOnHover]);
+
+  const handleMouseLeave = useCallback(() => {
+    if (pauseOnHover) setIsPaused(false);
+  }, [pauseOnHover]);
+
+  const gradientStyle: React.CSSProperties = {
+    backgroundImage: `linear-gradient(${spread}deg, ${color} 0%, ${color} 35%, ${shineColor} 50%, ${color} 65%, ${color} 100%)`,
+    backgroundSize: '200% auto',
+    WebkitBackgroundClip: 'text',
+    backgroundClip: 'text',
+    WebkitTextFillColor: 'transparent'
+  };
+
+  return (
+    <motion.span
+      className={`inline-block ${className}`}
+      style={{ ...gradientStyle, backgroundPosition }}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      {text}
+    </motion.span>
+  );
+};
+
+export default ShinyText;
+~~~
+
+Implementation Guidelines
+
+1. Analyze the component structure, styling, animation implementations
+2. Review the component's arguments and state
+3. Think through what is the best place to adopt this component/style into the design we are doing
+4. Then adopt the component/design to our current system
+
+Help me integrate this into my design
+```
+
+---
+
+## 47. Pill Nav
+`Components` · `General` · 318 copies · [try live](https://superdesign.dev/library/pill-nav?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A premium, minimalist pill-shaped navigation component with GSAP-powered hover effects, rotating logo animation, and responsive mobile menu. Features a unique 'rising circle' background effect on hover.
+
+```text
+You are given a task to integrate an existing React component in the codebase
+
+~~~/README.md
+# PillNav Component
+
+A premium, minimalist pill-shaped navigation component built with React, GSAP, and Tailwind CSS. It features distinctive hover animations where a background circle "rises" to fill the pill, and a rotating logo interaction.
+
+## Features
+
+- **GSAP Animations**: Fluid, high-performance animations for hover states and entrance.
+- **Responsive**: Fully functional mobile menu with smooth transitions.
+- **Smart Link Handling**: Automatically detects and handles both internal (React Router) and external links.
+- **Customizable**: Control colors, easing, and load animations via props.
+- **Aesthetic**: Minimalist design with high attention to detail.
+
+## Dependencies
+
+- `gsap`: ^3.12.0
+- `react-router-dom`: ^6.28.0
+- `lucide-react`: latest
+- `framer-motion`: latest (optional for additional effects)
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `logo` | `string` | - | **Required**. URL/path to the logo image. |
+| `items` | `PillNavItem[]` | - | **Required**. Array of navigation items `{ label, href, ariaLabel? }`. |
+| `activeHref` | `string` | - | The href of the current active page. |
+| `logoAlt` | `string` | `"Logo"` | Alt text for the logo. |
+| `baseColor` | `string` | `hsl(var(--primary))` | Background color of the main nav containers. |
+| `pillColor` | `string` | `hsl(var(--background))` | Default background color of individual pills. |
+| `pillTextColor` | `string` | `hsl(var(--foreground))` | Default text color of individual pills. |
+| `hoveredPillTextColor`| `string` | `hsl(var(--primary-foreground))` | Text color when a pill is hovered. |
+| `ease` | `string` | `"power3.out"` | GSAP easing function for animations. |
+| `initialLoadAnimation`| `boolean`| `true` | Whether to play entrance animation on mount. |
+
+## Usage Example
+
+```tsx
+import { PillNav } from '@/sd-components/386926b7-61c2-45ee-b7bf-f86e750ca9ca';
+
+const MyNav = () => {
+  const items = [
+    { label: 'Home', href: '/' },
+    { label: 'Products', href: '/products' },
+    { label: 'About', href: '/about' }
+  ];
+
+  return (
+    <PillNav 
+      logo="/logo.svg"
+      items={items}
+      activeHref="/"
+    />
+  );
+};
+```
+~~~
+
+~~~/src/App.tsx
+import React from 'react';
+import { HashRouter } from 'react-router-dom';
+import { PillNav } from './Component';
+import { Rocket } from 'lucide-react';
+
+export default function App() {
+  const navItems = [
+    { label: 'Home', href: '/' },
+    { label: 'Collection', href: '/collection' },
+    { label: 'About', href: '/about' },
+    { label: 'Contact', href: '/contact' }
+  ];
+
+  return (
+    <HashRouter>
+      <div className="min-h-screen bg-[#F9F9F9] flex flex-col items-center justify-center p-20">
+        <div className="w-full max-w-2xl bg-white/50 backdrop-blur-sm rounded-[40px] shadow-2xl shadow-black/5 p-12 flex items-center justify-center relative overflow-visible">
+          <PillNav 
+            logo={<Rocket size={24} />}
+            items={navItems}
+            activeHref="/"
+            baseColor="#1A1A1B"
+            pillColor="#F9F9F9"
+            hoveredPillTextColor="#FFFFFF"
+            pillTextColor="#1A1A1B"
+          />
+        </div>
+        
+        <div className="mt-12 text-center">
+          <h1 className="text-2xl font-medium text-slate-900 tracking-tight">Pill Navigation</h1>
+          <p className="text-slate-500 mt-2 max-w-md mx-auto text-balance">
+            A premium navigation component with GSAP animations. Hover over the links to see the rising background effect.
+          </p>
+        </div>
+
+        {/* Reply Button (as requested by system prompt) */}
+        <button 
+          onClick={() => window.location.reload()}
+          className="fixed bottom-8 right-8 px-6 py-3 bg-slate-900 text-white rounded-full font-medium shadow-xl hover:scale-105 active:scale-95 transition-transform flex items-center gap-2"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+            <path d="M3 3v5h5" />
+          </svg>
+          Replay Animation
+        </button>
+      </div>
+    </HashRouter>
+  );
+}
+~~~
+
+~~~/package.json
+{
+  "name": "pill-nav-showcase",
+  "description": "A premium pill-shaped navigation with GSAP animations",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "gsap": "^3.12.0",
+    "react-router-dom": "^6.28.0",
+    "lucide-react": "latest",
+    "framer-motion": "latest",
+    "clsx": "latest",
+    "tailwind-merge": "latest"
+  }
+}
+~~~
+
+~~~/src/Component.tsx
+/**
+ * PillNav - A premium, GSAP-powered navigation component.
+ * Features:
+ * - Rising circle background animation on hover
+ * - Rotating logo animation
+ * - Responsive mobile menu with GSAP transitions
+ * - Support for both React Router Link and standard anchor tags
+ * - Customizable colors and easing
+ */
+
+import React, { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { gsap } from 'gsap';
+import { Menu, X, Rocket } from 'lucide-react';
+
+export type PillNavItem = {
+  label: string;
+  href: string;
+  ariaLabel?: string;
+};
+
+export interface PillNavProps {
+  /** Logo icon component or source URL (image or SVG) */
+  logo: React.ReactNode | string;
+  /** Alt text for the logo */
+  logoAlt?: string;
+  /** Navigation items array */
+  items: PillNavItem[];
+  /** The current active href for highlighting */
+  activeHref?: string;
+  /** Optional extra class names for the nav container */
+  className?: string;
+  /** GSAP easing function */
+  ease?: string;
+  /** The base background color of the nav pills and logo container */
+  baseColor?: string;
+  /** The color of the pill when not hovered */
+  pillColor?: string;
+  /** Text color when the pill is hovered */
+  hoveredPillTextColor?: string;
+  /** Default text color for the pills */
+  pillTextColor?: string;
+  /** Callback for mobile menu toggle */
+  onMobileMenuClick?: () => void;
+  /** Whether to play an entrance animation on mount */
+  initialLoadAnimation?: boolean;
+}
+
+export const PillNav: React.FC<PillNavProps> = ({
+  logo,
+  logoAlt = 'Logo',
+  items,
+  activeHref,
+  className = '',
+  ease = 'power3.out',
+  baseColor = 'hsl(var(--primary))',
+  pillColor = 'hsl(var(--background))',
+  hoveredPillTextColor = 'hsl(var(--primary-foreground))',
+  pillTextColor,
+  onMobileMenuClick,
+  initialLoadAnimation = true
+}) => {
+  const resolvedPillTextColor = pillTextColor ?? 'hsl(var(--foreground))';
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  
+  const containerRef = useRef<HTMLDivElement>(null);
+  const circleRefs = useRef<Array<HTMLSpanElement | null>>([]);
+  const tlRefs = useRef<Array<gsap.core.Timeline | null>>([]);
+  const activeTweenRefs = useRef<Array<gsap.core.Tween | null>>([]);
+  const logoImgRef = useRef<HTMLImageElement | null>(null);
+  const logoTweenRef = useRef<gsap.core.Tween | null>(null);
+  const hamburgerRef = useRef<HTMLButtonElement | null>(null);
+  const mobileMenuRef = useRef<HTMLDivElement | null>(null);
+  const navItemsRef = useRef<HTMLDivElement | null>(null);
+  const logoRef = useRef<HTMLAnchorElement | HTMLDivElement | null>(null);
+
+  const renderLogo = () => {
+    if (typeof logo === 'string') {
+      return (
+        <img 
+          src={logo} 
+          alt={logoAlt} 
+          ref={logoImgRef} 
+          className="w-8 h-8 object-contain pointer-events-none" 
+        />
+      );
+    }
+    return (
+      <div ref={logoImgRef} className="flex items-center justify-center">
+        {logo}
+      </div>
+    );
+  };
+
+  useEffect(() => {
+    const layout = () => {
+      circleRefs.current.forEach((circle, index) => {
+        if (!circle?.parentElement) return;
+        
+        const pill = circle.parentElement as HTMLElement;
+        const rect = pill.getBoundingClientRect();
+        const { width: w, height: h } = rect;
+        
+        // Calculate the radius for the expanding circle to cover the pill
+        const R = ((w * w) / 4 + h * h) / (2 * h);
+        const D = Math.ceil(2 * R) + 2;
+        const delta = Math.ceil(R - Math.sqrt(Math.max(0, R * R - (w * w) / 4))) + 1;
+        const originY = D - delta;
+
+        circle.style.width = `${D}px`;
+        circle.style.height = `${D}px`;
+        circle.style.bottom = `-${delta}px`;
+        
+        gsap.set(circle, {
+          xPercent: -50,
+          scale: 0,
+          transformOrigin: `50% ${originY}px`
+        });
+
+        const label = pill.querySelector<HTMLElement>('.pill-label');
+        const white = pill.querySelector<HTMLElement>('.pill-label-hover');
+        
+        if (label) gsap.set(label, { y: 0 });
+        if (white) gsap.set(white, { y: h + 12, opacity: 0 });
+
+        tlRefs.current[index]?.kill();
+        const tl = gsap.timeline({ paused: true });
+        
+        tl.to(circle, { 
+          scale: 1.2, 
+          xPercent: -50, 
+          duration: 0.8, 
+          ease, 
+          overwrite: 'auto' 
+        }, 0);
+        
+        if (label) {
+          tl.to(label, { 
+            y: -(h + 8), 
+            duration: 0.6, 
+            ease, 
+            overwrite: 'auto' 
+          }, 0);
+        }
+        
+        if (white) {
+          gsap.set(white, { y: Math.ceil(h + 20), opacity: 0 });
+          tl.to(white, { 
+            y: 0, 
+            opacity: 1, 
+            duration: 0.6, 
+            ease, 
+            overwrite: 'auto' 
+          }, 0);
+        }
+        
+        tlRefs.current[index] = tl;
+      });
+    };
+
+    layout();
+    
+    const onResize = () => layout();
+    window.addEventListener('resize', onResize);
+    
+    if (document.fonts) {
+      document.fonts.ready.then(layout).catch(() => {});
+    }
+
+    // Initial load animation
+    if (initialLoadAnimation) {
+      const logo = logoRef.current;
+      const navItems = navItemsRef.current;
+      
+      if (logo) {
+        gsap.set(logo, { scale: 0, opacity: 0 });
+        gsap.to(logo, {
+          scale: 1,
+          opacity: 1,
+          duration: 0.8,
+          ease: "back.out(1.7)"
+        });
+      }
+      
+      if (navItems) {
+        const listItems = navItems.querySelectorAll('li');
+        gsap.set(listItems, { opacity: 0, x: -20 });
+        gsap.to(listItems, {
+          opacity: 1,
+          x: 0,
+          duration: 0.6,
+          stagger: 0.05,
+          ease: "power2.out",
+          delay: 0.2
+        });
+      }
+    }
+
+    return () => window.removeEventListener('resize', onResize);
+  }, [items, ease, initialLoadAnimation]);
+
+  const handleEnter = (i: number) => {
+    const tl = tlRefs.current[i];
+    if (!tl) return;
+    activeTweenRefs.current[i]?.kill();
+    activeTweenRefs.current[i] = tl.tweenTo(tl.duration(), {
+      duration: 0.4,
+      ease,
+      overwrite: 'auto'
+    });
+  };
+
+  const handleLeave = (i: number) => {
+    const tl = tlRefs.current[i];
+    if (!tl) return;
+    activeTweenRefs.current[i]?.kill();
+    activeTweenRefs.current[i] = tl.tweenTo(0, {
+      duration: 0.3,
+      ease,
+      overwrite: 'auto'
+    });
+  };
+
+  const handleLogoEnter = () => {
+    const img = logoImgRef.current;
+    if (!img) return;
+    logoTweenRef.current?.kill();
+    logoTweenRef.current = gsap.to(img, {
+      rotate: 360,
+      duration: 0.8,
+      ease: "elastic.out(1, 0.5)",
+      overwrite: 'auto',
+      onComplete: () => gsap.set(img, { rotate: 0 })
+    });
+  };
+
+  const toggleMobileMenu = () => {
+    const newState = !isMobileMenuOpen;
+    setIsMobileMenuOpen(newState);
+    
+    const menu = mobileMenuRef.current;
+    if (menu) {
+      if (newState) {
+        gsap.set(menu, { display: 'block', opacity: 0, y: -20 });
+        gsap.to(menu, {
+          opacity: 1,
+          y: 0,
+          duration: 0.4,
+          ease: "power3.out"
+        });
+      } else {
+        gsap.to(menu, {
+          opacity: 0,
+          y: -20,
+          duration: 0.3,
+          ease: "power3.in",
+          onComplete: () => {
+            gsap.set(menu, { display: 'none' });
+          }
+        });
+      }
+    }
+    onMobileMenuClick?.();
+  };
+
+  const isExternalLink = (href: string) =>
+    href.startsWith('http://') ||
+    href.startsWith('https://') ||
+    href.startsWith('//') ||
+    href.startsWith('mailto:') ||
+    href.startsWith('tel:') ||
+    href.startsWith('#');
+
+  const isRouterLink = (href?: string) => href && !isExternalLink(href);
+
+  const cssVars = {
+    '--base': baseColor,
+    '--pill-bg': pillColor,
+    '--hover-text': hoveredPillTextColor,
+    '--pill-text': resolvedPillTextColor,
+    '--nav-h': '48px',
+    '--logo-size': '40px',
+    '--pill-pad-x': '20px',
+    '--pill-gap': '6px'
+  } as React.CSSProperties;
+
+  return (
+    <div className={`relative z-[1000] w-full max-w-4xl mx-auto ${className}`} style={cssVars}>
+      <nav
+        className="w-full flex items-center justify-between md:justify-center p-4 gap-4"
+        aria-label="Primary"
+      >
+        {/* Logo Section */}
+        <div 
+          ref={el => { logoRef.current = el as HTMLDivElement; }}
+          onMouseEnter={handleLogoEnter}
+          className="flex-shrink-0"
+        >
+          {isRouterLink(items[0]?.href) ? (
+            <Link
+              to={items[0].href}
+              className="flex items-center justify-center rounded-full overflow-hidden transition-transform hover:scale-105 active:scale-95"
+              style={{
+                width: 'var(--nav-h)',
+                height: 'var(--nav-h)',
+                background: 'var(--base)',
+                color: 'var(--pill-bg)'
+              }}
+            >
+              {renderLogo()}
+            </Link>
+          ) : (
+            <a
+              href={items[0]?.href || '#'}
+              className="flex items-center justify-center rounded-full overflow-hidden transition-transform hover:scale-105 active:scale-95"
+              style={{
+                width: 'var(--nav-h)',
+                height: 'var(--nav-h)',
+                background: 'var(--base)',
+                color: 'var(--pill-bg)'
+              }}
+            >
+              {renderLogo()}
+            </a>
+          )}
+        </div>
+
+        {/* Desktop Menu */}
+        <div
+          ref={navItemsRef}
+          className="hidden md:flex items-center rounded-full px-1.5"
+          style={{
+            height: 'var(--nav-h)',
+            background: 'var(--base)'
+          }}
+        >
+          <ul
+            role="menubar"
+            className="list-none flex items-stretch m-0 p-0 h-full"
+            style={{ gap: 'var(--pill-gap)' }}
+          >
+            {items.map((item, i) => {
+              const isActive = activeHref === item.href;
+              
+              const pillStyle: React.CSSProperties = {
+                background: 'var(--pill-bg)',
+                color: 'var(--pill-text)',
+                paddingLeft: 'var(--pill-pad-x)',
+                paddingRight: 'var(--pill-pad-x)'
+              };
+
+              const PillContent = (
+                <>
+                  <span
+                    className="hover-circle absolute left-1/2 bottom-0 rounded-full z-[1] block pointer-events-none"
+                    style={{
+                      background: 'var(--base)',
+                      willChange: 'transform'
+                    }}
+                    aria-hidden="true"
+                    ref={el => {
+                      circleRefs.current[i] = el;
+                    }}
+                  />
+                  <span className="label-stack relative inline-block leading-none z-[2] overflow-hidden py-1">
+                    <span
+                      className="pill-label relative z-[2] inline-block"
+                      style={{ willChange: 'transform' }}
+                    >
+                      {item.label}
+                    </span>
+                    <span
+                      className="pill-label-hover absolute left-0 top-1 z-[3] inline-block w-full text-center"
+                      style={{
+                        color: 'var(--hover-text)',
+                        willChange: 'transform, opacity'
+                      }}
+                      aria-hidden="true"
+                    >
+                      {item.label}
+                    </span>
+                  </span>
+                  {isActive && (
+                    <span
+                      className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-1 h-1 rounded-full z-[4]"
+                      style={{ background: 'var(--base)' }}
+                      aria-hidden="true"
+                    />
+                  )}
+                </>
+              );
+
+              const basePillClasses = "relative overflow-hidden inline-flex items-center justify-center h-[calc(var(--nav-h)-12px)] self-center no-underline rounded-full box-border font-medium text-sm uppercase tracking-wider cursor-pointer transition-colors duration-200 hover:z-10";
+
+              return (
+                <li key={item.href} role="none" className="flex items-center">
+                  {isRouterLink(item.href) ? (
+                    <Link
+                      role="menuitem"
+                      to={item.href}
+                      className={basePillClasses}
+                      style={pillStyle}
+                      aria-label={item.ariaLabel || item.label}
+                      onMouseEnter={() => handleEnter(i)}
+                      onMouseLeave={() => handleLeave(i)}
+                    >
+                      {PillContent}
+                    </Link>
+                  ) : (
+                    <a
+                      role="menuitem"
+                      href={item.href}
+                      className={basePillClasses}
+                      style={pillStyle}
+                      aria-label={item.ariaLabel || item.label}
+                      onMouseEnter={() => handleEnter(i)}
+                      onMouseLeave={() => handleLeave(i)}
+                    >
+                      {PillContent}
+                    </a>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+
+        {/* Mobile Hamburger */}
+        <button
+          ref={hamburgerRef}
+          onClick={toggleMobileMenu}
+          aria-label="Toggle menu"
+          aria-expanded={isMobileMenuOpen}
+          className="md:hidden flex items-center justify-center rounded-full transition-transform active:scale-90"
+          style={{
+            width: 'var(--nav-h)',
+            height: 'var(--nav-h)',
+            background: 'var(--base)',
+            color: 'var(--pill-bg)'
+          }}
+        >
+          {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+        </button>
+      </nav>
+
+      {/* Mobile Menu Dropdown */}
+      <div
+        ref={mobileMenuRef}
+        className="md:hidden absolute top-full left-4 right-4 mt-2 rounded-2xl overflow-hidden shadow-2xl z-[999] hidden border border-border/10"
+        style={{
+          background: 'var(--base)'
+        }}
+      >
+        <ul className="list-none m-0 p-2 flex flex-col gap-1">
+          {items.map((item) => {
+            const isActive = activeHref === item.href;
+            return (
+              <li key={item.href}>
+                {isRouterLink(item.href) ? (
+                  <Link
+                    to={item.href}
+                    className={`block py-3 px-6 text-sm font-semibold uppercase tracking-widest rounded-xl transition-all ${
+                      isActive 
+                        ? 'bg-background text-foreground' 
+                        : 'text-primary-foreground/70 hover:bg-background/10 hover:text-primary-foreground'
+                    }`}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                ) : (
+                  <a
+                    href={item.href}
+                    className={`block py-3 px-6 text-sm font-semibold uppercase tracking-widest rounded-xl transition-all ${
+                      isActive 
+                        ? 'bg-background text-foreground' 
+                        : 'text-primary-foreground/70 hover:bg-background/10 hover:text-primary-foreground'
+                    }`}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default PillNav;
+~~~
+
+Implementation Guidelines
+
+1. Analyze the component structure, styling, animation implementations
+2. Review the component's arguments and state
+3. Think through what is the best place to adopt this component/style into the design we are doing
+4. Then adopt the component/design to our current system
+
+Help me integrate this into my design
+```
+
+---
+
+## 48. "Exploded View" Assembly
 `Animations & Backgrounds` · `General` · 490 copies · [try live](https://superdesign.dev/library/exploded-view-assembly?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A scroll-driven animation where a central product or UI element explodes into its constituent parts and then reassembles into a new layout. Perfect for 'how it works' or feature breakdown sections.
@@ -4716,7 +7414,26 @@ Perfect for showing product components or "how it works."
 
 ---
 
-## 39. Lightning Background
+## 49. Rolodex Text
+`Components` · `General` · 203 copies · [try live](https://superdesign.dev/library/rolodex-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A text component that cycles through words with a 3D physical slot machine/Rolodex flip animation. Features left-aligned text for inline use and preserved 3D perspective.
+
+```text
+Create a text component that animates words changing like a physical slot machine or Rolodex. 
+
+**Animation**: The old word should rotate 90° backward on the X-axis, while the new word flips up from the bottom. 
+
+**Layout & Alignment**: This will be used inline (e.g., "We Deliver [Word]"). **CRITICAL**: Left-align the text within its container so it stays flush against the preceding text. 
+
+Do not center it, or variable word lengths will create awkward gaps. 
+
+**Technical**: Ensure the container uses preserve-3d and isn't strictly clipped, so the 3D rotation is fully visible.
+```
+
+---
+
+## 50. Lightning Background
 `Animations & Backgrounds` · `General` · 252 copies · [try live](https://superdesign.dev/library/lightning-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-performance WebGL-powered lightning/electric discharge background effect. Features adjustable hue, intensity, speed, and scale. Built with GLSL shaders for smooth atmospheric motion.
@@ -5081,7 +7798,7 @@ Help me integrate this into my design
 
 ---
 
-## 40. Hyperspeed Background
+## 51. Hyperspeed Background
 `Animations & Backgrounds` · `General` · 232 copies · [try live](https://superdesign.dev/library/hyperspeed-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-performance, Three.js-based warp speed/hyperspeed background effect with customizable distortions, colors, and motion parameters. Supports multiple presets for different visual styles.
@@ -5728,7 +8445,7 @@ Help me integrate this into my design
 
 ---
 
-## 41. Light Rays Background
+## 52. Light Rays Background
 `Animations & Backgrounds` · `General` · 534 copies · [try live](https://superdesign.dev/library/light-rays-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A minimalist showcase of a high-end WebGL light rays background effect with mouse interaction and atmospheric motion.
@@ -6258,7 +8975,736 @@ Help me integrate this into my design
 
 ---
 
-## 42. Coverflow — Carousels that turn heads (dark coverflow aurora)
+## 53. Glow Cursor Button
+`Components` · `General` · 211 copies · [try live](https://superdesign.dev/library/glow-cursor-button?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+```text
+Interactive call-to-action button featuring a right-arrow SVG icon and custom **glow effect** driven by CSS variables **for cursor position**. Ideal for hero sections or onboarding prompts.
+```
+
+---
+
+## 54. Interactive Card Stack
+`Components` · `General` · 121 copies · [try live](https://superdesign.dev/library/interactive-card-stack?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A premium, interactive card stack component with drag-to-back physics, random rotations, and smooth motion transitions. Features autoplay, mobile-optimized interactions, and highly customizable animation configurations.
+
+```text
+You are given a task to integrate an existing React component in the codebase
+
+~~~/README.md
+# InteractiveCardStack
+
+A premium, interactive card stack component for React. It features smooth drag physics, customizable animations, and automatic cycling. Perfect for showcases, galleries, or landing page features.
+
+## Features
+- 🖱️ **Drag-to-back physics**: Fluid interactions with Framer Motion.
+- 📱 **Mobile Optimized**: Custom handling for touch devices.
+- 🔄 **Autoplay**: Optional automatic card cycling with pause-on-hover.
+- 🎨 **Fully Customizable**: Control rotation, sensitivity, and spring physics.
+- 🌗 **Theme Aware**: Works seamlessly with light and dark modes.
+
+## Dependencies
+- `framer-motion`: ^11.0.0
+- `lucide-react`: ^0.454.0
+
+## Props
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `cards` | `React.ReactNode[]` | `[]` | Array of React elements to display as cards. |
+| `randomRotation` | `boolean` | `false` | Apply slight random rotations to cards for a organic feel. |
+| `sensitivity` | `number` | `180` | Distance in pixels a card must be dragged to trigger send-to-back. |
+| `sendToBackOnClick` | `boolean` | `false` | Allow clicking a card to send it to the back. |
+| `autoplay` | `boolean` | `false` | Enable automatic cycling of cards. |
+| `autoplayDelay` | `number` | `3000` | Delay in ms between automatic transitions. |
+| `pauseOnHover` | `boolean` | `true` | Pause autoplay when user hovers over the stack. |
+| `animationConfig` | `object` | `{ stiffness: 260, damping: 20 }` | Framer Motion spring configuration. |
+| `mobileClickOnly` | `boolean` | `false` | Disable dragging on mobile; cards only cycle via click. |
+
+## Usage
+
+```tsx
+import { InteractiveCardStack } from '@/sd-components/f7c18bb8-fe7d-4435-b722-c543df486128';
+
+function MyGallery() {
+  const items = [
+    <img src="/img1.jpg" className="w-full h-full object-cover" />,
+    <img src="/img2.jpg" className="w-full h-full object-cover" />,
+    <div className="bg-primary text-white p-8">Custom Content</div>
+  ];
+
+  return (
+    <div className="w-80 h-[450px]">
+      <InteractiveCardStack 
+        cards={items} 
+        randomRotation={true}
+        sendToBackOnClick={true}
+      />
+    </div>
+  );
+}
+```
+~~~
+
+~~~/src/App.tsx
+import React, { useState } from 'react';
+import { InteractiveCardStack } from './Component';
+import { RefreshCcw } from 'lucide-react';
+
+const IMAGES = [
+  "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?q=80&w=500&auto=format",
+  "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=500&auto=format",
+  "https://images.unsplash.com/photo-1452626212852-811d58933cae?q=80&w=500&auto=format",
+  "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=500&auto=format"
+];
+
+export default function App() {
+  const [key, setKey] = useState(0);
+
+  const cardItems = IMAGES.map((src, i) => (
+    <div key={i} className="w-full h-full relative group">
+      <img 
+        src={src} 
+        alt={`Showcase ${i + 1}`} 
+        className="w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+    </div>
+  ));
+
+  return (
+    <div className="min-h-screen bg-[#F9F9F9] dark:bg-[#1A1A1B] flex flex-col items-center justify-center p-20">
+      {/* Title as requested in style guide */}
+      <h2 className="text-xl font-medium mb-12 text-[#1A1A1B] dark:text-[#F9F9F9] tracking-tight">
+        Interactive Card Stack
+      </h2>
+
+      <div className="relative group">
+        {/* Subtle borderless container with soft shadow */}
+        <div className="w-[320px] h-[420px] rounded-[2rem] shadow-[0_40px_80px_rgba(0,0,0,0.08)] bg-transparent">
+          <InteractiveCardStack 
+            key={key}
+            cards={cardItems}
+            randomRotation={true}
+            sendToBackOnClick={true}
+            autoplay={false}
+            pauseOnHover={true}
+          />
+        </div>
+
+        {/* Reply/Reset button as requested */}
+        <button 
+          onClick={() => setKey(prev => prev + 1)}
+          className="absolute -bottom-20 left-1/2 -translate-x-1/2 p-3 bg-white dark:bg-zinc-800 rounded-full shadow-lg border border-border/50 hover:scale-110 active:scale-95 transition-all duration-200 group/btn"
+          aria-label="Reset Animation"
+        >
+          <RefreshCcw className="w-5 h-5 text-primary group-hover/btn:rotate-180 transition-transform duration-500" />
+        </button>
+      </div>
+
+      <p className="mt-32 text-sm text-muted-foreground font-normal opacity-50">
+        Drag or click the top card to cycle
+      </p>
+    </div>
+  );
+}
+~~~
+
+~~~/package.json
+{
+  "name": "@seedance/interactive-card-stack",
+  "description": "Premium interactive card stack with drag physics and autoplay",
+  "dependencies": {
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.454.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4"
+  }
+}
+~~~
+
+~~~/src/Component.tsx
+/**
+ * InteractiveCardStack Component
+ * A premium, smooth, and interactive card stack with drag-to-back physics.
+ * Supports random rotation, autoplay, and mobile interactions.
+ */
+
+import React, { useState, useEffect } from 'react';
+import { motion, useMotionValue, useTransform, AnimatePresence, type PanInfo } from 'framer-motion';
+
+interface CardRotateProps {
+  children: React.ReactNode;
+  onSendToBack: () => void;
+  sensitivity: number;
+  disableDrag?: boolean;
+}
+
+function CardRotate({ children, onSendToBack, sensitivity, disableDrag = false }: CardRotateProps) {
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+  const rotateX = useTransform(y, [-100, 100], [30, -30]);
+  const rotateY = useTransform(x, [-100, 100], [-30, 30]);
+
+  function handleDragEnd(_event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) {
+    if (Math.abs(info.offset.x) > sensitivity || Math.abs(info.offset.y) > sensitivity) {
+      onSendToBack();
+    } else {
+      x.set(0);
+      y.set(0);
+    }
+  }
+
+  if (disableDrag) {
+    return (
+      <motion.div className="absolute inset-0" style={{ x: 0, y: 0 }}>
+        {children}
+      </motion.div>
+    );
+  }
+
+  return (
+    <motion.div
+      className="absolute inset-0 cursor-grab active:cursor-grabbing"
+      style={{ x, y, rotateX, rotateY }}
+      drag
+      dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+      dragElastic={0.6}
+      onDragEnd={handleDragEnd}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+export interface InteractiveCardStackProps {
+  /** Array of card contents */
+  cards?: React.ReactNode[];
+  /** Enable random rotation for each card */
+  randomRotation?: boolean;
+  /** Sensitivity for the drag-to-back action (pixels) */
+  sensitivity?: number;
+  /** Whether clicking a card sends it to the back */
+  sendToBackOnClick?: boolean;
+  /** Spring animation configuration */
+  animationConfig?: { stiffness: number; damping: number };
+  /** Enable automatic cycling of cards */
+  autoplay?: boolean;
+  /** Delay between cycles in milliseconds */
+  autoplayDelay?: number;
+  /** Pause autoplay when hovering */
+  pauseOnHover?: boolean;
+  /** Disable drag on mobile devices and only allow clicks */
+  mobileClickOnly?: boolean;
+  /** Viewport width breakpoint for mobile detection */
+  mobileBreakpoint?: number;
+  /** Custom class for the container */
+  className?: string;
+}
+
+export function InteractiveCardStack({
+  cards = [],
+  randomRotation = false,
+  sensitivity = 180,
+  sendToBackOnClick = false,
+  animationConfig = { stiffness: 260, damping: 20 },
+  autoplay = false,
+  autoplayDelay = 3000,
+  pauseOnHover = true,
+  mobileClickOnly = false,
+  mobileBreakpoint = 768,
+  className = ""
+}: InteractiveCardStackProps) {
+  const [isMobile, setIsMobile] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+  
+  // Initialize stack with IDs to track items correctly
+  const [stack, setStack] = useState<{ id: string; content: React.ReactNode; randomRot: number }[]>([]);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < mobileBreakpoint);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, [mobileBreakpoint]);
+
+  useEffect(() => {
+    if (cards.length > 0) {
+      setStack(cards.map((content, index) => ({
+        id: `card-${index}-${Date.now()}`, // Ensure unique IDs even if content is similar
+        content,
+        randomRot: randomRotation ? Math.random() * 10 - 5 : 0
+      })));
+    }
+  }, [cards, randomRotation]);
+
+  const sendToBack = (id: string) => {
+    setStack(prev => {
+      const index = prev.findIndex(card => card.id === id);
+      if (index === -1) return prev;
+      
+      const newStack = [...prev];
+      const [card] = newStack.splice(index, 1);
+      
+      // Update random rotation for the card when it goes to back
+      const updatedCard = {
+        ...card,
+        randomRot: randomRotation ? Math.random() * 10 - 5 : 0
+      };
+      
+      newStack.unshift(updatedCard);
+      return newStack;
+    });
+  };
+
+  useEffect(() => {
+    if (autoplay && stack.length > 1 && !isPaused) {
+      const interval = setInterval(() => {
+        const topCardId = stack[stack.length - 1].id;
+        sendToBack(topCardId);
+      }, autoplayDelay);
+      return () => clearInterval(interval);
+    }
+  }, [autoplay, autoplayDelay, stack, isPaused]);
+
+  const shouldDisableDrag = mobileClickOnly && isMobile;
+  const shouldEnableClick = sendToBackOnClick || shouldDisableDrag;
+
+  if (stack.length === 0) return null;
+
+  return (
+    <div
+      className={`relative w-full h-full ${className}`}
+      style={{ perspective: 1000 }}
+      onMouseEnter={() => pauseOnHover && setIsPaused(true)}
+      onMouseLeave={() => pauseOnHover && setIsPaused(false)}
+    >
+      <AnimatePresence>
+        {stack.map((card, index) => {
+          // index 0 is bottom, stack.length - 1 is top
+          const isTop = index === stack.length - 1;
+          const depth = stack.length - 1 - index;
+          
+          return (
+            <CardRotate
+              key={card.id}
+              onSendToBack={() => sendToBack(card.id)}
+              sensitivity={sensitivity}
+              disableDrag={!isTop || shouldDisableDrag}
+            >
+              <motion.div
+                className="rounded-2xl overflow-hidden w-full h-full bg-card border border-border/50 shadow-sm"
+                onClick={() => isTop && shouldEnableClick && sendToBack(card.id)}
+                style={{
+                  zIndex: index,
+                }}
+                animate={{
+                  rotateZ: depth * -2 + card.randomRot,
+                  scale: 1 - depth * 0.04,
+                  y: depth * -8,
+                  opacity: 1 - depth * 0.15,
+                  transformOrigin: 'center center'
+                }}
+                transition={{
+                  type: 'spring',
+                  stiffness: animationConfig.stiffness,
+                  damping: animationConfig.damping
+                }}
+              >
+                {card.content}
+              </motion.div>
+            </CardRotate>
+          );
+        })}
+      </AnimatePresence>
+    </div>
+  );
+}
+
+export default InteractiveCardStack;
+~~~
+
+Implementation Guidelines
+
+1. Analyze the component structure, styling, animation implementations
+2. Review the component's arguments and state
+3. Think through what is the best place to adopt this component/style into the design we are doing
+4. Then adopt the component/design to our current system
+
+Help me integrate this into my design
+```
+
+---
+
+## 55. Counter
+`Components` · `General` · 96 copies · [try live](https://superdesign.dev/library/counter?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
+
+A premium, high-performance rolling counter component with smooth mechanical-style transitions. Features automatic digit detection, customizable font sizes, and sleek gradient overlays for a professional 'odometer' effect. Built with Framer Motion for precise easing and spring physics.
+
+Source: ReactBits
+
+```text
+You are given a task to integrate an existing React component in the codebase
+
+~~~/README.md
+# RollingCounter
+
+A premium, high-performance rolling counter component with smooth mechanical-style transitions. Features automatic digit detection, customizable font sizes, and sleek gradient overlays for a professional 'odometer' effect.
+
+## Dependencies
+- `framer-motion`: `^11.0.0`
+- `lucide-react`: `latest` (for demo icons)
+
+## Props
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `value` | `number` | - | The numeric value to display. |
+| `fontSize` | `number` | `100` | Font size in pixels. |
+| `padding` | `number` | `0` | Vertical padding inside each digit container. |
+| `places` | `PlaceValue[]` | - | Custom array of place values (e.g., `[100, 10, 1, '.', 0.1]`). |
+| `gap` | `number` | `8` | Gap between digits. |
+| `borderRadius` | `number` | `4` | Border radius of the counter container. |
+| `horizontalPadding` | `number` | `8` | Horizontal padding of the counter container. |
+| `textColor` | `string` | `'inherit'` | Text color. |
+| `fontWeight` | `CSSProperties['fontWeight']` | `'inherit'` | Font weight. |
+| `gradientHeight` | `number` | `16` | Height of the gradient overlay. |
+| `gradientFrom` | `string` | `'hsl(var(--background))'` | Start color of the gradient. |
+
+## Usage
+```tsx
+import { RollingCounter } from '@/sd-components/7d2b2a3f-6411-4777-94ce-a18ef1ceca98';
+
+export default function MyComponent() {
+  return (
+    <RollingCounter 
+      value={5432.1} 
+      fontSize={64}
+      textColor="#1A1A1B"
+      gradientFrom="#F9F9F9"
+    />
+  );
+}
+```
+~~~
+
+~~~/src/App.tsx
+/**
+ * Demo for RollingCounter Component
+ * 
+ * Shows a minimalist showcase of the rolling counter effect.
+ * The counter value increments automatically to demonstrate the motion.
+ */
+
+import React, { useState, useEffect } from 'react';
+import { RollingCounter } from './Component';
+import { RotateCcw } from 'lucide-react';
+
+export default function App() {
+  const [value, setValue] = useState(1234.5);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setValue(v => parseFloat((v + 1.1).toFixed(1)));
+    }, 2000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const resetValue = () => setValue(1234.5);
+
+  return (
+    <div className="min-h-screen bg-[#F9F9F9] flex flex-col items-center justify-center p-20">
+      {/* Title as per design guidelines */}
+      <h1 className="mb-12 text-sm uppercase tracking-widest text-muted-foreground font-medium">
+        Rolling Counter
+      </h1>
+
+      {/* Main Showcase Container */}
+      <div className="bg-white p-20 rounded-[40px] shadow-[0_40px_80px_rgba(0,0,0,0.05)] flex flex-col items-center gap-12">
+        <RollingCounter 
+          value={value} 
+          fontSize={120}
+          textColor="hsl(var(--foreground))"
+          fontWeight={600}
+          gradientFrom="white"
+          gradientHeight={30}
+          gap={4}
+        />
+
+        {/* Reply/Action Button as per guidelines */}
+        <button 
+          onClick={resetValue}
+          className="flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full hover:opacity-90 transition-opacity font-medium text-sm"
+        >
+          <RotateCcw className="w-4 h-4" />
+          Reset Counter
+        </button>
+      </div>
+
+      {/* Subtitle / Description */}
+      <p className="mt-12 text-muted-foreground text-center max-w-md text-sm leading-relaxed">
+        A precision mechanical-style animation using Framer Motion 
+        with automatic place value detection and smooth transitions.
+      </p>
+    </div>
+  );
+}
+~~~
+
+~~~/package.json
+{
+  "name": "rolling-counter",
+  "description": "A premium mechanical rolling counter component with smooth Framer Motion animations.",
+  "dependencies": {
+    "framer-motion": "^11.0.0",
+    "lucide-react": "latest",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
+~~~
+
+~~~/src/Component.tsx
+/**
+ * RollingCounter Component
+ * 
+ * A high-performance, mechanical-style rolling counter using Framer Motion.
+ * It features smooth digit transitions, automatic place value detection,
+ * and customizable styling including gradient overlays for a polished look.
+ */
+
+import { MotionValue, motion, useSpring, useTransform } from 'framer-motion';
+import React, { useEffect } from 'react';
+
+type PlaceValue = number | '.';
+
+interface NumberProps {
+  mv: MotionValue<number>;
+  number: number;
+  height: number;
+}
+
+function Number({ mv, number, height }: NumberProps) {
+  const y = useTransform(mv, latest => {
+    const placeValue = latest % 10;
+    const offset = (10 + number - placeValue) % 10;
+    let memo = offset * height;
+    if (offset > 5) {
+      memo -= 10 * height;
+    }
+    return memo;
+  });
+
+  const baseStyle: React.CSSProperties = {
+    position: 'absolute',
+    inset: 0,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  };
+
+  return <motion.span style={{ ...baseStyle, y }}>{number}</motion.span>;
+}
+
+interface DigitProps {
+  place: PlaceValue;
+  value: number;
+  height: number;
+  digitStyle?: React.CSSProperties;
+}
+
+function Digit({ place, value, height, digitStyle }: DigitProps) {
+  // Decimal point digit
+  if (place === '.') {
+    return (
+      <span
+        className="relative inline-flex items-center justify-center"
+        style={{ height, width: 'fit-content', ...digitStyle }}
+      >
+        .
+      </span>
+    );
+  }
+
+  // Numeric digit
+  const valueRoundedToPlace = Math.floor(value / place);
+  const animatedValue = useSpring(valueRoundedToPlace, {
+    damping: 20,
+    stiffness: 100,
+    mass: 1
+  });
+
+  useEffect(() => {
+    animatedValue.set(valueRoundedToPlace);
+  }, [animatedValue, valueRoundedToPlace]);
+
+  const defaultStyle: React.CSSProperties = {
+    height,
+    position: 'relative',
+    width: '1ch',
+    fontVariantNumeric: 'tabular-nums'
+  };
+
+  return (
+    <span className="relative inline-flex overflow-hidden" style={{ ...defaultStyle, ...digitStyle }}>
+      {Array.from({ length: 10 }, (_, i) => (
+        <Number key={i} mv={animatedValue} number={i} height={height} />
+      ))}
+    </span>
+  );
+}
+
+export interface RollingCounterProps {
+  /** The numeric value to display */
+  value: number;
+  /** Font size in pixels (default: 100) */
+  fontSize?: number;
+  /** Vertical padding inside each digit container (default: 0) */
+  padding?: number;
+  /** 
+   * Custom array of place values (e.g., [100, 10, 1, '.', 0.1]). 
+   * If omitted, it's automatically detected from value.
+   */
+  places?: PlaceValue[];
+  /** Gap between digits (default: 8) */
+  gap?: number;
+  /** Border radius of the counter container (default: 4) */
+  borderRadius?: number;
+  /** Horizontal padding of the counter container (default: 8) */
+  horizontalPadding?: number;
+  /** Text color (default: 'inherit') */
+  textColor?: string;
+  /** Font weight (default: 'inherit') */
+  fontWeight?: React.CSSProperties['fontWeight'];
+  /** Style object for the outer container */
+  containerStyle?: React.CSSProperties;
+  /** Style object for the inner counter wrapper */
+  counterStyle?: React.CSSProperties;
+  /** Style object for each individual digit span */
+  digitStyle?: React.CSSProperties;
+  /** Height of the gradient overlay (default: 16) */
+  gradientHeight?: number;
+  /** Start color of the gradient (default: 'black') */
+  gradientFrom?: string;
+  /** End color of the gradient (default: 'transparent') */
+  gradientTo?: string;
+  /** Custom style for the top gradient */
+  topGradientStyle?: React.CSSProperties;
+  /** Custom style for the bottom gradient */
+  bottomGradientStyle?: React.CSSProperties;
+}
+
+/**
+ * A reusable rolling counter component with smooth mechanical motion.
+ */
+export function RollingCounter({
+  value,
+  fontSize = 100,
+  padding = 0,
+  places,
+  gap = 8,
+  borderRadius = 4,
+  horizontalPadding = 8,
+  textColor = 'inherit',
+  fontWeight = 'inherit',
+  containerStyle,
+  counterStyle,
+  digitStyle,
+  gradientHeight = 16,
+  gradientFrom = 'hsl(var(--background))',
+  gradientTo = 'transparent',
+  topGradientStyle,
+  bottomGradientStyle
+}: RollingCounterProps) {
+  const height = fontSize + padding;
+
+  // Automatic place detection if none provided
+  const derivedPlaces = places || [...value.toString()].map((ch, i, a) => {
+    if (ch === '.') return '.';
+    const dotIndex = a.indexOf('.');
+    const isInteger = dotIndex === -1;
+    const exponent = isInteger ? a.length - i - 1 : i < dotIndex ? dotIndex - i - 1 : -(i - dotIndex);
+    return 10 ** exponent;
+  });
+
+  const defaultContainerStyle: React.CSSProperties = {
+    position: 'relative',
+    display: 'inline-block'
+  };
+
+  const defaultCounterStyle: React.CSSProperties = {
+    fontSize,
+    display: 'flex',
+    gap,
+    overflow: 'hidden',
+    borderRadius,
+    paddingLeft: horizontalPadding,
+    paddingRight: horizontalPadding,
+    lineHeight: 1,
+    color: textColor,
+    fontWeight
+  };
+
+  const gradientContainerStyle: React.CSSProperties = {
+    pointerEvents: 'none',
+    position: 'absolute',
+    inset: 0,
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between'
+  };
+
+  const defaultTopGradientStyle: React.CSSProperties = {
+    height: gradientHeight,
+    background: `linear-gradient(to bottom, ${gradientFrom}, ${gradientTo})`,
+    zIndex: 10
+  };
+
+  const defaultBottomGradientStyle: React.CSSProperties = {
+    height: gradientHeight,
+    background: `linear-gradient(to top, ${gradientFrom}, ${gradientTo})`,
+    zIndex: 10
+  };
+
+  return (
+    <span style={{ ...defaultContainerStyle, ...containerStyle }}>
+      <span style={{ ...defaultCounterStyle, ...counterStyle }}>
+        {derivedPlaces.map((place, idx) => (
+          <Digit 
+            key={`${place}-${idx}`} 
+            place={place} 
+            value={value} 
+            height={height} 
+            digitStyle={digitStyle} 
+          />
+        ))}
+      </span>
+      <span style={gradientContainerStyle}>
+        <span style={topGradientStyle ?? defaultTopGradientStyle} />
+        <span style={bottomGradientStyle ?? defaultBottomGradientStyle} />
+      </span>
+    </span>
+  );
+}
+
+export default RollingCounter;
+~~~
+
+Implementation Guidelines
+
+1. Analyze the component structure, styling, animation implementations
+2. Review the component's arguments and state
+3. Think through what is the best place to adopt this component/style into the design we are doing
+4. Then adopt the component/design to our current system
+
+Help me integrate this into my design
+```
+
+---
+
+## 56. Coverflow — Carousels that turn heads (dark coverflow aurora)
 `Mobile Apps` · `AI & Tech` · 48 copies · [try live](https://superdesign.dev/library/coverflow-carousels-that-turn-heads-dark-coverflow-aurora?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark, aurora-lit 3D coverflow carousel landing page: a sticky frosted-ink nav, then a centered hero (a 'depth-aware coverflow engine' status pill, a big 'Carousels that turn heads, not stomachs.' heading whose 'turn heads' is teal-to-magenta gradient text, and a soft lead) wrapping a real CSS 3D coverflow stage. Seven gradient cards sit on a 1600px perspective stage: the active card faces front with a teal glow ring while neighbours rotate ~42-48deg and recede in Z, scaling and fading by distance, each card carrying a top-left sheen and a bottom gradient label. Below the stage, a round glass prev button, pill dots (active = a wide teal-to-magenta gradient bar), and a next button; clicks, dots, arrows and the left/right keys re-lay the stage. Then a CTA pair, a grayscale logo strip, a 3-up glass feature grid, a 'from prompt to motion' showcase split with a faux terminal card, a gradient-thumb templates grid, a dark gradient CTA, and a social footer. Inter + Space Grotesk fonts, near-black ink #0b0f14 ground, aqua #2dd4bf + magenta #e879f9 accents, glass panels and aurora blobs, Iconify Phosphor icons; responsive geometry drops far cards on small screens and collapses the nav into a hamburger.
@@ -6269,7 +9715,7 @@ A dark, aurora-lit 3D coverflow carousel landing page: a sticky frosted-ink nav,
 
 ---
 
-## 43. Aurora Glass — Sign in to the canvas
+## 57. Aurora Glass — Sign in to the canvas
 `Auth & Login` · `SaaS` · 6 copies · [try live](https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Dark aurora-glass split sign-in screen: frosted glassmorphic auth card with a glowing aqua focus ring and an aqua-to-magenta gradient CTA, floating over neon aurora blobs on near-black ink, beside a product pitch column. Space Grotesk + Inter.
@@ -6327,7 +9773,7 @@ Dark aurora-glass split sign-in screen: frosted glassmorphic auth card with a gl
 
 ---
 
-## 44. Graphic Comparison Report
+## 58. Graphic Comparison Report
 `Landing Pages` · `SaaS` · 17 copies · [try live](https://superdesign.dev/library/graphic-comparison-report?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A highly visual, typography-driven comparison report design. This style eschews traditional tables and icons for a bold, editorial layout inspired by graphic posters. Featuring a brutalist-lite aesthetic with high-contrast 'ink' and 'paper' tones, it utilizes oversized headlines, a strict 12-column grid, and structural 2px borders. Suitable for technical comparisons, whitepapers, B2B SaaS decision pages, fintech analysis, and deep-dive product evaluations where clarity and authority are paramount.
@@ -6393,7 +9839,7 @@ A highly visual, typography-driven comparison report design. This style eschews 
 
 ---
 
-## 45. Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)
+## 59. Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)
 `Pricing Pages` · `Dev Tools` · 3 copies · [try live](https://superdesign.dev/library/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A Swiss-grid SaaS marketing homepage: stark white paper, near-black ink, one signal-red accent, an oversized two-line hero, an embedded prompt-to-canvas product mock, a hover-invert feature grid, a dark variant-tile workflow split, a 3-tier pricing block with an inverted Pro card, and a hairline-celled mega footer.
@@ -6404,7 +9850,7 @@ A Swiss-grid SaaS marketing homepage: stark white paper, near-black ink, one sig
 
 ---
 
-## 46. Landing Page / Local Small Business
+## 60. Landing Page / Local Small Business
 `Landing Pages` · `General` · 5 copies · [try live](https://superdesign.dev/library/landing-page-local-small-business?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Best practice high conversion page for local small business like Service, Restaurant, etc.
@@ -6582,7 +10028,7 @@ Generate the landing page now.
 
 ---
 
-## 47. Palette — Social-first friendly sign-up
+## 61. Palette — Social-first friendly sign-up
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/palette-social-first-friendly-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm, social-first sign-up screen on a cream canvas: a two-column hero+signup landing with a friendly product pitch on the left (hand-drawn underline, teal-check benefits, a 5-star social-proof cluster) and a white rounded card on the right that leads with three full-width stacked social-auth buttons (Google, GitHub, Apple) above an 'or sign up with email' divider and a single email field with a coral 'Create account' CTA. Coral + teal accents, Poppins, a sticky blurred nav, a logo marquee, a three-step how-it-works, and a dark gradient CTA band.
@@ -6593,7 +10039,7 @@ A warm, social-first sign-up screen on a cream canvas: a two-column hero+signup 
 
 ---
 
-## 48. Super Shampoo - High Conversion LP
+## 62. Super Shampoo - High Conversion LP
 `E-commerce` · `E-commerce & Retail` · 194 copies · [try live](https://superdesign.dev/library/super-shampoo-high-conversion-lp?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A premium, high-conversion e-commerce style guide optimized for D2C beauty and wellness brands. Features a sophisticated 'clinical luxury' aesthetic with a palette of sage green (#E2E8E4), off-white beige (#F5F5F0), and deep charcoal (#1C1C1C). The typography balances bold 'General Sans' headings with clean 'Switzer' body text. Includes specialized conversion elements like scarcity-driven promo bars, trust badge grids, comparison tables, and a sticky mobile 'Add to Cart' bar. Ideal for skincare, haircare, or luxury lifestyle products requiring a mix of editorial imagery and performance-driven UI.
@@ -6664,7 +10110,7 @@ A premium, high-conversion e-commerce style guide optimized for D2C beauty and w
 
 ---
 
-## 49. Slate ROI-Calculator Pricing
+## 63. Slate ROI-Calculator Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/slate-roi-calculator-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A frameless dark SaaS pricing page in inky slate with one electric mint accent: an interactive ROI savings calculator, a 4-tier plan grid with a highlighted Pro card and monthly/annual toggle, a comparison table, and an accordion FAQ.
@@ -6675,7 +10121,7 @@ A frameless dark SaaS pricing page in inky slate with one electric mint accent: 
 
 ---
 
-## 50. The Quote, Set in Burgundy
+## 64. The Quote, Set in Burgundy
 `Blog & Editorial` · `General` · 0 copies · [try live](https://superdesign.dev/library/the-quote-set-in-burgundy?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A magazine-style single-slide testimonial on a warm cream canvas: one oversized Fraunces serif pull-quote with burgundy italic emphasis, a ghosted giant quote mark, an avatar trust cluster, a portrait byline, and prev/next carousel chrome with progress dots.
@@ -6686,7 +10132,7 @@ A magazine-style single-slide testimonial on a warm cream canvas: one oversized 
 
 ---
 
-## 51. Prism — Frosted-Glass Pastel Agency Studio
+## 65. Prism — Frosted-Glass Pastel Agency Studio
 `Portfolios` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/prism-frosted-glass-pastel-agency-studio?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light, frosted-glass pastel agency studio homepage on a soft mesh-gradient canvas (off-white #fbfcff washed with peach #ffd8c2, sky #cfe3ff, and mint #d3f5e3 radial blooms): a floating pill-shaped glass sticky nav, a centered black-on-pastel hero (huge Inter-black headline, glass pill badges, a dark pill CTA + a glass 'See the work' pill) over fanned, overlapping translucent glass UI cards, a faded trust logo strip, a frosted bento work grid with one dark stat card (+240%), a big glass services panel with a dark featured 'Most loved' card, a three-up testimonial row with a dark feature quote, a frosted closing CTA, and a clean glass-divided footer. Award-winning soft-pastel glassmorphism with near-black #15161b ink.
@@ -6697,7 +10143,7 @@ A light, frosted-glass pastel agency studio homepage on a soft mesh-gradient can
 
 ---
 
-## 52. Teal-on-Ink Newsletter Mega Footer
+## 66. Teal-on-Ink Newsletter Mega Footer
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/teal-on-ink-newsletter-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark near-black footer with a teal accent, prominent newsletter capture, three link columns, social row, status pill and language switch, fully responsive.
@@ -6708,7 +10154,7 @@ A dark near-black footer with a teal accent, prominent newsletter capture, three
 
 ---
 
-## 53. Gesture First Navigation System
+## 67. Gesture First Navigation System
 `Mobile Apps` · `General` · 3 copies · [try live](https://superdesign.dev/library/gesture-first-navigation-system?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A content-first navigation system that minimizes visible chrome and relies primarily on swipe gestures to move between major sections, creating an immersive and fluid experience.
@@ -7183,7 +10629,7 @@ Here is a reference implementation:
 
 ---
 
-## 54. Editorial Cream + Ink Two-Path SaaS Pricing
+## 68. Editorial Cream + Ink Two-Path SaaS Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-cream-ink-two-path-saas-pricing-3dee65?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm editorial SaaS pricing page on a cream canvas: a serif headline with an electric-blue italic accent, two self-serve plan cards (one highlighted) beside a dark near-black Enterprise contact-sales panel with gold accents, plus a monthly/annual toggle.
@@ -7194,7 +10640,7 @@ A warm editorial SaaS pricing page on a cream canvas: a serif headline with an e
 
 ---
 
-## 55. Electric-Lime Single-Plan SaaS Pricing
+## 69. Electric-Lime Single-Plan SaaS Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/electric-lime-single-plan-saas-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A bold editorial single-plan pricing page with a giant toggling price card, a tilted sky-blue feature card, and one electric-lime accent on warm paper inside a charcoal frame.
@@ -7205,7 +10651,7 @@ A bold editorial single-plan pricing page with a giant toggling price card, a ti
 
 ---
 
-## 56. Electric-Blue Studio Pricing
+## 70. Electric-Blue Studio Pricing
 `Pricing Pages` · `Dev Tools` · 1 copies · [try live](https://superdesign.dev/library/electric-blue-studio-pricing-188a8f?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A frameless, near-black dev-tool SaaS pricing page with one electric-blue accent, oversized outlined-type headline, and a single-plan card (monthly/annual toggle + optional power-up add-ons) instead of a tier wall.
@@ -7216,7 +10662,7 @@ A frameless, near-black dev-tool SaaS pricing page with one electric-blue accent
 
 ---
 
-## 57. Account Setup Flow — Goals / Interests (Card-Based)
+## 71. Account Setup Flow — Goals / Interests (Card-Based)
 `Mobile Apps` · `General` · 14 copies · [try live](https://superdesign.dev/library/account-setup-flow-goals-interests-card-based?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A sleek, minimalist, and highly interactive 4-step onboarding flow designed for mobile-first experiences. Features high-contrast black and white aesthetics, modern typography using General Sans, and fluid motion using the View Transitions API. Ideal for SaaS, fintech, or lifestyle apps needing a premium, frictionless user registration or configuration sequence. Key elements include a persistent progress bar, springy micro-interactions, and clear, bold editorial typography.
@@ -7267,7 +10713,7 @@ A sleek, minimalist, and highly interactive 4-step onboarding flow designed for 
 
 ---
 
-## 58. Sectioned Index Page
+## 72. Sectioned Index Page
 `Mobile Apps` · `General` · 13 copies · [try live](https://superdesign.dev/library/sectioned-index-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Features a mixed-media layout including horizontal snap-scrolling cards, vertical activity feeds, and a bento-style recommendation grid. Ideal for content aggregators, interior design apps, portfolio indexes, or minimalist fintech dashboards.
@@ -7321,7 +10767,7 @@ Features a mixed-media layout including horizontal snap-scrolling cards, vertica
 
 ---
 
-## 59. Electric Dark Usage-Based Pricing Calculator
+## 73. Electric Dark Usage-Based Pricing Calculator
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/electric-dark-usage-based-pricing-calculator-20e556?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An electric dark dev-tool pricing page built around an interactive slider calculator that live-computes included quota plus tiered pay-as-you-go overage, with a lime accent, a highlighted plan card row, and an FAQ accordion.
@@ -7332,7 +10778,7 @@ An electric dark dev-tool pricing page built around an interactive slider calcul
 
 ---
 
-## 60. Emerald 4-Tier SaaS Pricing Table
+## 74. Emerald 4-Tier SaaS Pricing Table
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/emerald-4-tier-saas-pricing-table?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light-mode emerald-accented SaaS pricing page with a Monthly/Annual toggle and four tiers fused into one bordered table, the Pro column lifted and ring-highlighted as 'Most popular'.
@@ -7343,7 +10789,7 @@ A light-mode emerald-accented SaaS pricing page with a Monthly/Annual toggle and
 
 ---
 
-## 61. The Atelier Brief — an editorial intake form, set like a letter
+## 75. The Atelier Brief — an editorial intake form, set like a letter
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/the-atelier-brief-an-editorial-intake-form-set-like-a-letter?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial intake form set like a letter: a warm cream page in Fraunces serif + Inter with a single burgundy accent, borderless underline inputs with serif labels (Name / E-mail, Project / Budget, Message), structured by full-bleed cream/ink/cream bands and hairline rules instead of cards, and a quiet ink 'Submit the brief' button.
@@ -7354,7 +10800,7 @@ An editorial intake form set like a letter: a warm cream page in Fraunces serif 
 
 ---
 
-## 62. Send Us the Brief — Brutalist Contact Form
+## 76. Send Us the Brief — Brutalist Contact Form
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/send-us-the-brief-brutalist-contact-form?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Loud neo-brutalist contact page for a design-tool brand (Formcast), built around a blunt two-field 'brief box'. A paper-and-ink base (paper #f4f1ea canvas, ink #0a0a0a text/borders) with exactly one high-voltage acid-yellow accent (#e8ff00), thick 2px/4px ink borders, hard offset drop shadows (zero blur, e.g. 8px 8px 0 0 #0a0a0a), depress-on-press chunky buttons, and an acid focus shadow on the fields, in a heavy Archivo (up to 900) + Space Mono pairing. A sticky paper nav (an ink+acid logo tile + a FORMCAST wordmark, How it works/Library/Brief us hover-fill links and an acid 'Start' button) sits over a scrolling ink marquee strip and a hero (an acid eyebrow pill, a giant uppercase 'SEND US THE BRIEF.' headline with 'brief.' highlighted in acid, and a '38s' avg-turnaround stat card). The centerpiece is a contact section split into a left rail of three numbered instruction tiles and a big bordered FORM CARD with an oversized E-Mail input + Message textarea, a Brutalist/Editorial/Minimal/Surprise-me style-chip row, and a chunky Cancel + acid 'Send' button row. A 'Three blunt steps' card row and a dark ink footer with an acid CTA close the page. The reusable signature is the neo-brutalist contact form: thick ink borders + hard offset shadows + one acid accent + a heavy Archivo/Space Mono voice.
@@ -7365,7 +10811,7 @@ Loud neo-brutalist contact page for a design-tool brand (Formcast), built around
 
 ---
 
-## 63. Editorial Music Player (Now Playing)
+## 77. Editorial Music Player (Now Playing)
 `Mobile Apps` · `General` · 1 copies · [try live](https://superdesign.dev/library/editorial-music-player-now-playing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-contrast editorial "Now Playing" mobile music player: a light cream top with a warm sunset gradient album art, bold track title + scrubber, dark high-contrast transport controls on cream circles, over a deep forest-green "Up Next" playlist with a coral now-playing highlight.
@@ -7399,7 +10845,7 @@ A high-contrast editorial "Now Playing" mobile music player: a light cream top w
 
 ---
 
-## 64. Cream & Sky Playful SaaS Pricing
+## 78. Cream & Sky Playful SaaS Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/cream-and-sky-playful-saas-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm, friendly light-mode SaaS pricing page on a cream paper canvas with sky-blue accents, serif display type, rounded cards, a monthly/yearly toggle, and a highlighted middle tier.
@@ -7410,7 +10856,7 @@ A warm, friendly light-mode SaaS pricing page on a cream paper canvas with sky-b
 
 ---
 
-## 65. Editorial Crimson Dev-Tool Pricing
+## 79. Editorial Crimson Dev-Tool Pricing
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-crimson-dev-tool-pricing?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light, serif-accented SaaS pricing page on white with a single crimson accent, audience segmented tabs, a monthly/annual toggle, and a 4-tier grid with one elevated 'most popular' card.
@@ -7421,7 +10867,7 @@ A light, serif-accented SaaS pricing page on white with a single crimson accent,
 
 ---
 
-## 66. Card Grid Browse
+## 80. Card Grid Browse
 `Mobile Apps` · `General` · 6 copies · [try live](https://superdesign.dev/library/card-grid-browse?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A sophisticated, mobile-first product browsing layout emphasizing whitespace, clean typography, and a stable 2-column grid. The design utilizes a monochrome base with slate-toned neutrals to create a high-end 'boutique' feel, prioritizing product imagery and effortless navigation. Suitable for premium furniture, fashion, architecture, or design-focused platforms.
@@ -7468,7 +10914,7 @@ A sophisticated, mobile-first product browsing layout emphasizing whitespace, cl
 
 ---
 
-## 67. Acid-Yellow Neo-Brutalist Mega Footer
+## 81. Acid-Yellow Neo-Brutalist Mega Footer
 `Forms & Contact` · `General` · 1 copies · [try live](https://superdesign.dev/library/acid-yellow-neo-brutalist-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Neo-brutalist acid-yellow mega footer with hard offset shadows, a giant hollow-stroke wordmark, a marquee, three link columns, and a newsletter card.
@@ -7479,7 +10925,7 @@ Neo-brutalist acid-yellow mega footer with hard offset shadows, a giant hollow-s
 
 ---
 
-## 68. Validar — Forms that catch mistakes before they cost you
+## 82. Validar — Forms that catch mistakes before they cost you
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/validar-forms-that-catch-mistakes-before-they-cost-you?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A teal-on-paper SaaS landing page for an inline form-validation tool: a sticky glass nav, a split hero with a live account-creation card showing all four field states (idle, active, valid, error) at once, a four-up state-model band, a dark-teal 'submit unlocks itself' section, a benefit grid, and a footer. Color + icon + plain-words validation, Inter, soft layered shadows.
@@ -7490,7 +10936,7 @@ A teal-on-paper SaaS landing page for an inline form-validation tool: a sticky g
 
 ---
 
-## 69. Champagne Noir Paywall
+## 83. Champagne Noir Paywall
 `Pricing Pages` · `General` · 0 copies · [try live](https://superdesign.dev/library/champagne-noir-paywall-65a2fd?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A premium dark subscription paywall: champagne/gold accents on near-black, an italic-serif value headline, a Free-vs-Pro feature table, a yearly(best-value)/monthly plan toggle, and a gold "Start free trial" CTA.
@@ -7523,7 +10969,7 @@ A premium dark subscription paywall: champagne/gold accents on near-black, an it
 
 ---
 
-## 70. Foundry: Your SaaS Site, Designed Before You Write a Line
+## 84. Foundry: Your SaaS Site, Designed Before You Write a Line
 `Landing Pages` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/foundry-your-saas-site-designed-before-you-write-a-line?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm editorial SaaS landing page on cream paper: big Fraunces serif headline with a terracotta italic highlight, a split hero with a dark infinite-canvas product mock, staggered feature cards, a real-reference library showcase, a pull quote, a dark palette/craft story, three-tier pricing, and an olive CTA banner.
@@ -7534,7 +10980,7 @@ A warm editorial SaaS landing page on cream paper: big Fraunces serif headline w
 
 ---
 
-## 71. Loam — Warm Earthy Organic Agency Website
+## 85. Loam — Warm Earthy Organic Agency Website
 `Portfolios` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/loam-warm-earthy-organic-agency-website?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Warm earthy organic agency / studio website: sand + terracotta palette, Fraunces serif display type, organic leaf-blob shapes, sticky blurred nav, project-card grid, numbered services list, and a terracotta contact block with a mock prompt form.
@@ -7545,7 +10991,7 @@ Warm earthy organic agency / studio website: sand + terracotta palette, Fraunces
 
 ---
 
-## 72. Landing Page / Real-Estate
+## 86. Landing Page / Real-Estate
 `Landing Pages` · `General` · 30 copies · [try live](https://superdesign.dev/library/landing-page-real-estate?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Different layout structure for best converting real-estate companies
@@ -8311,7 +11757,7 @@ Agent must NOT reveal internal score unless explicitly asked.
 
 ---
 
-## 73. Ink & Acid Mono Sitemap Footer
+## 87. Ink & Acid Mono Sitemap Footer
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/ink-and-acid-mono-sitemap-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A near-black ink footer with acid-green accents and mono labels: four link columns, a newsletter, a live status pill, and a giant ghost wordmark.
@@ -8322,7 +11768,7 @@ A near-black ink footer with acid-green accents and mono labels: four link colum
 
 ---
 
-## 74. Editorial Violet SaaS Pricing Matrix
+## 88. Editorial Violet SaaS Pricing Matrix
 `Pricing Pages` · `Dev Tools` · 0 copies · [try live](https://superdesign.dev/library/editorial-violet-saas-pricing-matrix?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A light, editorial SaaS pricing page led by a full-width grouped comparison matrix with a sticky 3-plan header, electric-violet accent, and a monthly/annual toggle.
@@ -8333,7 +11779,7 @@ A light, editorial SaaS pricing page led by a full-width grouped comparison matr
 
 ---
 
-## 75. Editorial SaaS Onboarding
+## 89. Editorial SaaS Onboarding
 `Onboarding` · `SaaS` · 16 copies · [try live](https://superdesign.dev/library/editorial-saas-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial SaaS onboarding experience featuring a calm, sophisticated aesthetic. It uses a muted warm stone palette with terracotta accents, high-contrast serif headlines (Crimson Pro) paired with clean sans-serif UI text (Inter). The layout follows a natural document flow within a product shell, avoiding scroll-locks or overlays. Suitable for premium B2B SaaS, design tools, publishing platforms, and luxury fintech applications that prioritize a confident, professional, and non-intrusive user experience.
@@ -8392,7 +11838,7 @@ An editorial SaaS onboarding experience featuring a calm, sophisticated aestheti
 
 ---
 
-## 76. Design at the Speed of Thought — Editorial Split Sign-Up
+## 90. Design at the Speed of Thought — Editorial Split Sign-Up
 `Auth & Login` · `SaaS` · 1 copies · [try live](https://superdesign.dev/library/design-at-the-speed-of-thought-editorial-split-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial, magazine-style sign-up screen built as a full split-screen landing: a sticky translucent cream nav over a two-pane main. The LEFT is an oversized Fraunces-serif brand panel on a textured deep-burgundy ground (film grain, faint concentric arcs, a soft bloom) with an 'Issue 06 . The Design Agent' eyebrow, a 'Design at the speed of thought.' display headline (italic 'speed'), a value paragraph and a pull-quote testimonial with an initials avatar plus a three-icon feature row. The RIGHT is a near-black ink account-creation column: a 'Start designing, free.' heading, Google + GitHub OAuth buttons above an 'or with email' divider, white burgundy-focus-ring email + password fields (an eye toggle + a four-segment strength meter) and a burgundy 'Create account' CTA. Below the split: a full-bleed cream 'Trusted in the studios shipping fastest' proof strip and a dark ink FAQ/footer accordion. Cream + burgundy + ink palette, Fraunces serif + Inter.
@@ -8403,7 +11849,7 @@ An editorial, magazine-style sign-up screen built as a full split-screen landing
 
 ---
 
-## 77. Swiss Grid Agency Layout
+## 91. Swiss Grid Agency Layout
 `Portfolios` · `Agency & Studio` · 1 copies · [try live](https://superdesign.dev/library/swiss-grid-agency-layout?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A Swiss / International-Typographic-Style agency homepage on a strict 12-column grid: pure black ink #0a0a0a on paper white #ffffff with one electric cobalt #1f4fff accent, a sticky paper nav with an ink hairline, an editorial index row over a 2px cobalt rule, a giant disciplined 'AGENCY SITES.' display headline (Inter) with a 2x2 stat block, an inverted black auto-scroll marquee of disciplines, a numbered Selected-Work index list with hover-cobalt titles and a nudging out-arrow, a 4-up hairline services grid (4th card inverted to solid cobalt), a large studio statement, a giant mailto contact line, and a 3-up hairline footer. JetBrains Mono micro-labels index every section.
@@ -8414,7 +11860,7 @@ A Swiss / International-Typographic-Style agency homepage on a strict 12-column 
 
 ---
 
-## 78. Create your account · Promptly — split-image emerald sign-up
+## 92. Create your account · Promptly — split-image emerald sign-up
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/create-your-account-promptly-split-image-emerald-sign-up?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A two-column desktop sign-up page: focused email + Google/GitHub social form on a bright white left half, dark emerald 'brand-mesh' panel with a floating product mock and testimonial on the right; sticky translucent nav, Inter, slate neutrals with a single emerald accent.
@@ -8425,7 +11871,7 @@ A two-column desktop sign-up page: focused email + Google/GitHub social form on 
 
 ---
 
-## 79. Laboratory Skincare
+## 93. Laboratory Skincare
 `E-commerce` · `Health & Wellness` · 89 copies · [try live](https://superdesign.dev/library/laboratory-skincare?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Laboratory Skincare is a warm academic, methodical design system inspired by research journals and clinical lab notebooks. It features a grid-based, disciplined layout with generous white space and a restrained color palette of off-whites, warm grays, and soft blacks. Ideal for medical-grade skincare, high-tech beauty, pharmaceutical brands, or scientific SaaS, the design focuses on data-driven trust, factual evidence, and structural clarity over luxury tropes. Key features include tabular data presentation, formula sheets, and a 'Protocol' approach to content organization.
@@ -8488,7 +11934,7 @@ Laboratory Skincare is a warm academic, methodical design system inspired by res
 
 ---
 
-## 80. AI System Configuration Console
+## 94. AI System Configuration Console
 `Dashboards` · `Dev Tools` · 32 copies · [try live](https://superdesign.dev/library/ai-system-configuration-console?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-fidelity AI configuration console and operating-system style interface. Features a dark slate and acid green color palette, monospaced typography, and a technical grid-based layout. Designed for SaaS backends, developer tools, AI management platforms, and cybersecurity dashboards. Includes a system canvas with nodes, a detailed inspector sidebar, terminal-style live outputs, and mechanical-inspired UI components like square range sliders and binary toggle switches.
@@ -8569,7 +12015,7 @@ Responsive: Fluid layout with 8px grid unit. Left panel (65%) canvas + right pa
 
 ---
 
-## 81. Midnight Navy Fintech Pricing
+## 95. Midnight Navy Fintech Pricing
 `Pricing Pages` · `Finance & Crypto` · 1 copies · [try live](https://superdesign.dev/library/midnight-navy-fintech-pricing-656a6d?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A deep-navy, teal-accented SaaS/fintech pricing page with a sticky blurred nav, monthly/annual toggle, and a glowing 'Most popular' middle tier across three cards.
@@ -8580,7 +12026,7 @@ A deep-navy, teal-accented SaaS/fintech pricing page with a sticky blurred nav, 
 
 ---
 
-## 82. Minimalist Wireframe Login
+## 96. Minimalist Wireframe Login
 `Auth & Login` · `General` · 8 copies · [try live](https://superdesign.dev/library/minimalist-wireframe-login?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-contrast, minimalist mobile login wireframe optimized for thumb reach and ergonomic ergonomics. It features a slate-heavy palette, industrial-style grid textures, and clean 'General Sans' typography. Suitable for SaaS dashboard entry, fintech authentication, developer tools, and high-end enterprise mobile applications requiring a professional, focus-oriented interface.
@@ -8627,7 +12073,7 @@ A high-contrast, minimalist mobile login wireframe optimized for thumb reach and
 
 ---
 
-## 83. Editorial Feature Announcement
+## 97. Editorial Feature Announcement
 `Other` · `AI & Tech` · 16 copies · [try live](https://superdesign.dev/library/editorial-feature-announcement?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-end technical editorial design system tailored for feature announcements, changelogs, and whitepapers. It features a sophisticated 'paper and ink' color palette (#F7F5F0 background), high-contrast typography pairing (Fraunces serif and Inter sans), and an asymmetric 12-column grid layout. Suitable for developer tools, fintech, research institutions, and SaaS companies that prioritize credibility and deep readability. The style emphasizes content hierarchy through vertical reading rhythms, monospace technical markers, and minimal visual noise.
@@ -8698,7 +12144,7 @@ A high-end technical editorial design system tailored for feature announcements,
 
 ---
 
-## 84. Modal Design · success-celebration (pastel) — legibility fixed
+## 98. Modal Design · success-celebration (pastel) — legibility fixed
 `Onboarding` · `General` · 0 copies · [try live](https://superdesign.dev/library/modal-design-success-celebration-pastel-legibility-fixed-9fbd65?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A joyful pastel success-celebration modal as the live hero centerpiece of a product page: a rounded-5xl cream dialog with an animated deep-sky checkmark badge (pulsing rings + a drawn check), a 'You're all set! 🎉' headline and a deep-sky gradient CTA, floating over a soft sky-to-cream field full of gently floating multicolor confetti, a frosted-glass sticky nav, a 3-up pattern-library grid, a starter-kit split with a stacked upgrade-dialog preview, and a dark ink CTA band. Legibility-fixed: bright sky/coral stay decorative while every text + CTA tone uses deepened >=4.5:1 variants. All Poppins, Phosphor icons.
@@ -8709,7 +12155,7 @@ A joyful pastel success-celebration modal as the live hero centerpiece of a prod
 
 ---
 
-## 85. Volt — Electric-Lime Fitness Dashboard
+## 99. Volt — Electric-Lime Fitness Dashboard
 `Dashboards` · `Health & Wellness` · 5 copies · [try live](https://superdesign.dev/library/volt-electric-lime-fitness-dashboard-a7544c?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An electric-lime fitness/health dashboard on near-black: a big animated step-progress ring, stat chips, a weekly-activity bar chart, health insights, a workouts list, a challenge card, and an achievements grid with a bottom nav.
@@ -8744,7 +12190,7 @@ An electric-lime fitness/health dashboard on near-black: a big animated step-pro
 
 ---
 
-## 86. System Initialization - Trust & Transparency
+## 100. System Initialization - Trust & Transparency
 `Onboarding` · `AI & Tech` · 12 copies · [try live](https://superdesign.dev/library/system-initialization-trust-and-transparency?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-trust, technical briefing design system for AI onboarding and system initialization. Featuring an editorial typography approach with a warm, neutral color palette (Stone and Amber), it utilizes a two-column grid to balance user configuration with technical evidence. Ideal for fintech, cybersecurity, AI safety, or enterprise SaaS where transparency, data privacy, and ethical alignment are core product values. The layout emphasizes vertical rhythm, semantic depth, and clear decision-making through structured guidance and live-updating evidence cards.
@@ -8795,7 +12241,7 @@ A high-trust, technical briefing design system for AI onboarding and system init
 
 ---
 
-## 87. Cream Paper & Coral Mega Footer
+## 101. Cream Paper & Coral Mega Footer
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/cream-paper-and-coral-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm cream-paper mega footer with a coral hairline edge, Fraunces serif CTA band, newsletter capture, a five-column link grid, and a status-pill legal bar.
@@ -8806,7 +12252,7 @@ A warm cream-paper mega footer with a coral hairline edge, Fraunces serif CTA ba
 
 ---
 
-## 88. Welcome back · Lumen — centered-card (true cobalt)
+## 102. Welcome back · Lumen — centered-card (true cobalt)
 `Auth & Login` · `SaaS` · 1 copies · [try live](https://superdesign.dev/library/welcome-back-lumen-centered-card-true-cobalt?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A clean centered-card sign-in page on a soft off-white canvas with a single true-cobalt accent: sticky nav, a white rounded-3xl auth card (Google + GitHub social, floating-label email/password with a show/hide toggle, remember-me + forgot, gradient Sign in CTA), and ambient cobalt glows.
@@ -8817,7 +12263,7 @@ A clean centered-card sign-in page on a soft off-white canvas with a single true
 
 ---
 
-## 89. Atlas Studio — Charting Your Account, Step One of Three
+## 103. Atlas Studio — Charting Your Account, Step One of Three
 `Auth & Login` · `Agency & Studio` · 0 copies · [try live](https://superdesign.dev/library/atlas-studio-charting-your-account-step-one-of-three?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Premium dark-navy multi-step signup / onboarding screen (step 1 of 3) for an AI design tool: a 3-step progress tracker, glassy translucent cards on a midnight-navy ground with soft amber glows, a single warm amber accent, focus-reactive fields, a password strength meter, a role selector, and a 'what you unlock' value panel with a testimonial.
@@ -8828,7 +12274,7 @@ Premium dark-navy multi-step signup / onboarding screen (step 1 of 3) for an AI 
 
 ---
 
-## 90. Fintech Wallet — Mobile Home Screen
+## 104. Fintech Wallet — Mobile Home Screen
 `Mobile Apps` · `Finance & Crypto` · 1 copies · [try live](https://superdesign.dev/library/fintech-wallet-mobile-home-screen?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A mobile fintech wallet home screen: a teal gradient hero with a frosted balance card, four quick-action buttons, and a clean recent-activity list, on an off-white sheet with a center-FAB tab bar.
@@ -8860,7 +12306,7 @@ A mobile fintech wallet home screen: a teal gradient hero with a frosted balance
 
 ---
 
-## 91. Forms that feel effortless to fill — Fieldcraft
+## 105. Forms that feel effortless to fill — Fieldcraft
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/forms-that-feel-effortless-to-fill-fieldcraft?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A stacked, multi-section account-settings form on a white card: top-aligned labels, helper text, a 6-column responsive grid, custom checkboxes and radios, and one disciplined emerald accent for focus and the primary action.
@@ -8871,7 +12317,7 @@ A stacked, multi-section account-settings form on a white card: top-aligned labe
 
 ---
 
-## 92. Loop · Say hello, we don't bite (friendly illustrated sky)
+## 106. Loop · Say hello, we don't bite (friendly illustrated sky)
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/loop-say-hello-we-dont-bite-friendly-illustrated-sky?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A warm, playful illustrated contact page (Loop) in a sky-blue + coral two-accent palette on a cloud-white canvas: a sticky blurred nav, a centered two-tone "Let's chat about anything you're building" hero with a pulsing reply-time pill, and one giant rounded white card splitting a hand-drawn CSS+SVG illustration panel (floating sun, clouds, channel bubbles, grass) and copy on the left against a multi-field form with icon-prefixed sky-ring inputs, emoji topic chips and a gradient send button on the right, then a row of three alt-contact cards and a deep sky-ink footer. Heavy rounded Nunito (up to black 900), bubbly corners, cheerful and human, never a cold corporate form.
@@ -8882,7 +12328,7 @@ A warm, playful illustrated contact page (Loop) in a sky-blue + coral two-accent
 
 ---
 
-## 93. Formcraft — Workspace Settings (cobalt two-column)
+## 107. Formcraft — Workspace Settings (cobalt two-column)
 `Forms & Contact` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/formcraft-workspace-settings-cobalt-two-column?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A two-column SaaS workspace-settings screen: sticky app nav, left section nav, grouped settings cards with toggles, a segmented control, selectable delivery cards, and a fixed save bar, in Inter on slate with one cobalt accent.
@@ -8893,7 +12339,7 @@ A two-column SaaS workspace-settings screen: sticky app nav, left section nav, g
 
 ---
 
-## 94. Atelier · Early Access (waitlist-minimal-graphite)
+## 108. Atelier · Early Access (waitlist-minimal-graphite)
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/atelier-early-access-waitlist-minimal-graphite?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Minimal monochrome graphite-on-paper waitlist / early-access landing for an AI design tool: a warm off-white ground with near-black ink and one platinum grey (no color accent), a big tight black-weight headline, a centered single-field email + button waitlist form with overlapping social-proof avatars, scattered graphite confetti strokes, a logo trust strip, a 3-step how-it-works grid and an inverted full-bleed dark closing CTA.
@@ -8904,7 +12350,7 @@ Minimal monochrome graphite-on-paper waitlist / early-access landing for an AI d
 
 ---
 
-## 95. Editorial Image Lightbox
+## 109. Editorial Image Lightbox
 `Blog & Editorial` · `General` · 1 copies · [try live](https://superdesign.dev/library/editorial-image-lightbox?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial image lightbox modal as the live hero of a product page: a near-black coal (#0c0a09) figure with a top rail (serif 04/28 plate counter + 'Aperture Series' label, scrollable category filter pills, a circular close), a full-bleed photograph with circular glass prev/next carets and a bottom legibility gradient, and a cream (#faf6ef) caption panel (burgundy location eyebrow, a Fraunces headline, a description, Save / Copy-prompt actions), floated over a vignetted grain stage with a faded 3-up gallery echo behind and an 'Esc / arrows / 28 plates' keyboard ticker beneath. Around it: a frosted sticky cream nav, a hero with a stats card, a 3-up library grid, a four-cell anatomy band, a dark CTA band and a coal footer. Ink-on-cream editorial with a single reserved burgundy #7b2d3b accent; Fraunces + Inter, Phosphor icons.
@@ -8915,7 +12361,7 @@ An editorial image lightbox modal as the live hero of a product page: a near-bla
 
 ---
 
-## 96. Tablekit — The data table your team actually wants to live in
+## 110. Tablekit — The data table your team actually wants to live in
 `Dashboards` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/tablekit-the-data-table-your-team-actually-wants-to-live-in?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Dense light-mode admin data table (Tablekit): blurred sticky nav, dotted-grid hero, a cobalt-on-white panel with a filter bar, bulk-action bar, sticky-header scroll table with colored status/priority/type badges and avatar chips, and a full pagination footer.
@@ -8926,7 +12372,7 @@ Dense light-mode admin data table (Tablekit): blurred sticky nav, dotted-grid he
 
 ---
 
-## 97. Sunset Glow Wordmark Mega Footer
+## 111. Sunset Glow Wordmark Mega Footer
 `Forms & Contact` · `General` · 0 copies · [try live](https://superdesign.dev/library/sunset-glow-wordmark-mega-footer?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark mega footer with a radial orange-to-magenta sunset glow, a giant gradient wordmark, newsletter capture, three link columns, and a legal bar.
@@ -8937,7 +12383,7 @@ A dark mega footer with a radial orange-to-magenta sunset glow, a giant gradient
 
 ---
 
-## 98. Atelier — Design, Spoken Into Being (editorial serif / burgundy)
+## 112. Atelier — Design, Spoken Into Being (editorial serif / burgundy)
 `Forms & Contact` · `General` · 1 copies · [try live](https://superdesign.dev/library/atelier-design-spoken-into-being-editorial-serif-burgundy?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 An editorial, print-magazine CTA: an oversized Fraunces serif statement with a single burgundy italic line on warm cream paper, closed by an understated text-link call to action and a no-card trust line, framed by a sticky nav and a newsletter footer.
@@ -8948,7 +12394,7 @@ An editorial, print-magazine CTA: an oversized Fraunces serif statement with a s
 
 ---
 
-## 99. Modal Design · success-celebration (pastel) — legibility fixed
+## 113. Modal Design · success-celebration (pastel) — legibility fixed
 `Onboarding` · `General` · 0 copies · [try live](https://superdesign.dev/library/modal-design-success-celebration-pastel-legibility-fixed?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A joyful pastel success-celebration modal as the live centerpiece of a light SaaS page: a cream rounded-5xl dialog with a pulsing-ring animated checkmark badge, a gradient 'Continue to dashboard' CTA and a ghost secondary, floating over a full-bleed confetti layer on a cream-to-sky radial field. Below it a 3-up pattern-library card band, a starter-kit split with a stacked mini upgrade modal, a dark-ink CTA band and a cream footer. Pastel sky + coral are decorative-only; all colored text uses darkened >=4.5:1 tokens (#0369a1 / #be123c) and every gradient button runs deep stops behind white — legibility fixed. Poppins throughout.
@@ -8959,7 +12405,7 @@ A joyful pastel success-celebration modal as the live centerpiece of a light Saa
 
 ---
 
-## 100. Superdesign Setup - Inline Preview
+## 114. Superdesign Setup - Inline Preview
 `Onboarding` · `AI & Tech` · 10 copies · [try live](https://superdesign.dev/library/superdesign-setup-inline-preview?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A minimalist, developer-centric configuration interface featuring a monochrome technical aesthetic. It utilizes a high-contrast dark/light mode, JetBrains Mono for system labels, and Inter for UI elements. Key features include an inline state-preview logging system, custom range sliders for AI intervention thresholds, and segmented controls for workspace density. Suitable for SaaS setup wizards, developer tools, AI configuration panels, and fintech dashboards that prioritize functional clarity and a 'terminal-lite' feel.
@@ -9019,7 +12465,7 @@ A minimalist, developer-centric configuration interface featuring a monochrome t
 
 ---
 
-## 101. Verify it's you · Aperture (OTP / 2FA, graphite-platinum)
+## 115. Verify it's you · Aperture (OTP / 2FA, graphite-platinum)
 `Auth & Login` · `SaaS` · 4 copies · [try live](https://superdesign.dev/library/verify-its-you-aperture-otp-2fa-graphite-platinum?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 OTP / two-factor verification screen on warm paper with a graphite + platinum palette: a Two-factor eyebrow pill, a glass card with a lock icon, six single-digit code boxes, progress dots, a live resend countdown and a Verify code button. Inter, light mode, no saturated color.
@@ -9030,7 +12476,7 @@ OTP / two-factor verification screen on warm paper with a graphite + platinum pa
 
 ---
 
-## 102. Technical System Onboarding
+## 116. Technical System Onboarding
 `Onboarding` · `AI & Tech` · 8 copies · [try live](https://superdesign.dev/library/technical-system-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A technical, research-backed onboarding system design using a dark slate palette with high-visibility signal orange accents. Optimized for high-fidelity AI systems, data science dashboards, fintech terminals, and developer tools. Features editorial modern grotesk typography, monospace metadata, grid-based layouts, and a modular 'Capabilities Matrix' structure. Emphasizes reliability, transparency, and deterministic control through structured information hierarchy and a professional, no-nonsense aesthetic.
@@ -9077,7 +12523,7 @@ A technical, research-backed onboarding system design using a dark slate palette
 
 ---
 
-## 103. Plume · Sign in to your design canvas
+## 117. Plume · Sign in to your design canvas
 `Auth & Login` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/plume-sign-in-to-your-design-canvas?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Warm, illustrated AI design-agent sign-in landing in sky-blue and coral: a sticky frosted nav over a two-panel side-panel login card (gradient illustration aside plus email, password and social auth), floating blobs, dot-grid texture and rounded-everything Nunito type.
@@ -9088,7 +12534,7 @@ Warm, illustrated AI design-agent sign-in landing in sky-blue and coral: a stick
 
 ---
 
-## 104. Gen-Z Social App
+## 118. Gen-Z Social App
 `Waitlist & Coming Soon` · `General` · 224 copies · [try live](https://superdesign.dev/library/gen-z-social-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A high-energy, Gen-Z-inspired design system with a 'Neo-Brutalist' aesthetic. This style features high-saturation colors like acid green (#ccff00), vibrant purple (#7000ff), and hot pink (#ff0099), paired with heavy black borders and hard shadows. It utilizes expressive, oversized typography and intentional layout chaos through asymmetrical sections and tilted elements. Ideal for social media apps, youth-oriented fintech, creative portfolios, and lifestyle products that prioritize attitude over corporate structure.
@@ -9152,7 +12598,7 @@ A high-energy, Gen-Z-inspired design system with a 'Neo-Brutalist' aesthetic. Th
 
 ---
 
-## 105. Questions, Set in Serif — An Editorial FAQ
+## 119. Questions, Set in Serif — An Editorial FAQ
 `Blog & Editorial` · `General` · 0 copies · [try live](https://superdesign.dev/library/questions-set-in-serif-an-editorial-faq?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Editorial magazine-style FAQ page on a warm cream canvas: an oversized sticky Fraunces serif 'Frequently Asked Questions' title beside a hairline-ruled column of serif Q/A rows (numbered, rotating plus-to-x, one pre-opened in wine), an ink context band and footer, with a 'Question not here?' contact card.
@@ -9163,7 +12609,7 @@ Editorial magazine-style FAQ page on a warm cream canvas: an oversized sticky Fr
 
 ---
 
-## 106. High energy onboarding
+## 120. High energy onboarding
 `Onboarding` · `General` · 6 copies · [try live](https://superdesign.dev/library/high-energy-onboarding?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A maximalist, neobrutalist design system featuring unconventional geometric typography, high-contrast colors, and interactive card stacking. Built for energetic SaaS onboarding, creative platforms, or experimental fintech interfaces. Uses Clash Display and Satoshi fonts with hard shadows (#2D1B4E), vibrant accents in orange (#FF7D2E) and cyan (#00D4FF), and a signature noise-textured background overlay.
@@ -9217,7 +12663,7 @@ A maximalist, neobrutalist design system featuring unconventional geometric typo
 
 ---
 
-## 107. Sign in to Verdant — Classic Split (Emerald)
+## 121. Sign in to Verdant — Classic Split (Emerald)
 `Auth & Login` · `SaaS` · 3 copies · [try live](https://superdesign.dev/library/sign-in-to-verdant-classic-split-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A full-bleed classic split sign-in page: white emerald-accented auth form on the left (social + email login, gradient Sign in CTA), a dark slate brand panel with ambient glows and a floating showcase card on the right, and a sticky nav above both.
@@ -9228,7 +12674,7 @@ A full-bleed classic split sign-in page: white emerald-accented auth form on the
 
 ---
 
-## 108. Momentum — Ship Your Startup Launch Before the Idea Cools
+## 122. Momentum — Ship Your Startup Launch Before the Idea Cools
 `Waitlist & Coming Soon` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/momentum-ship-your-startup-launch-before-the-idea-cools?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Bold optimistic startup launch / waitlist landing page: teal-to-lime gradient brand on warm-white paper, sticky blurred nav, gradient-aura hero with an inline email-capture form and a frameless prompt-to-page preview, feature cards, a gradient traction band, launch-template cards, a dark ink CTA, and a 4-column footer.
@@ -9239,7 +12685,7 @@ Bold optimistic startup launch / waitlist landing page: teal-to-lime gradient br
 
 ---
 
-## 109. Verdance — Agency Website Design Studio (Dark Emerald)
+## 123. Verdance — Agency Website Design Studio (Dark Emerald)
 `Portfolios` · `Agency & Studio` · 7 copies · [try live](https://superdesign.dev/library/verdance-agency-website-design-studio-dark-emerald?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A dark-emerald design-studio / agency website with a single brass metallic accent: two forest-green surfaces (#0d1f17 / #0a1711), cream #f1ede3 text, an emerald/emeraldSoft green pair, and brass #c9a227 for all hairlines, bracketed labels, award diamonds and primary pills. A fixed glass nav over a hero whose giant tight Inter display headline (AGENCY / WEBSITES) carries an italic Fraunces serif accent (that win), a full-bleed palette-tinted feature photo, an infinite award marquee, a serif studio statement with a brass-gridline stat grid, an asymmetric work grid, a thin numbered services list, a recognition strip, a grain CTA, and a 4-column footer. High-craft editorial Awwwards-studio energy.
@@ -9250,7 +12696,7 @@ A dark-emerald design-studio / agency website with a single brass metallic accen
 
 ---
 
-## 110. System Interface Feature Announcement
+## 124. System Interface Feature Announcement
 `Other` · `AI & Tech` · 21 copies · [try live](https://superdesign.dev/library/system-interface-feature-announcement?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A brutalist, typography-driven system interface design optimized for technical documentation and feature announcements. Featuring a high-density information layout, rigid grid alignment, and a mechanical aesthetic, it uses JetBrains Mono for a terminal-like feel and Inter for readability. Perfect for developer tools, SaaS infrastructure updates, engineering blogs, and fintech platforms. Key elements include visible 1px borders, a 'system status' header, stepped animations, and a monochrome palette with terminal-green accents.
@@ -9309,7 +12755,7 @@ A brutalist, typography-driven system interface design optimized for technical d
 
 ---
 
-## 111. Forge — Launch Waitlist (dark, warm-ember)
+## 125. Forge — Launch Waitlist (dark, warm-ember)
 `Waitlist & Coming Soon` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/forge-launch-waitlist-dark-warm-ember?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Dark, warm-ember startup launch / waitlist landing page: near-black ink base with a single hot coral accent, Space Grotesk display + Inter body, blurred coral/amber ambient glows, a floating glass pill nav, a centered gradient headline, a glassmorphic email-capture waitlist card, a 'backed by' logo row, and a sticky-titled editorial 3-step feature spread.
@@ -9320,7 +12766,7 @@ Dark, warm-ember startup launch / waitlist landing page: near-black ink base wit
 
 ---
 
-## 112. Multi-step Form Flow
+## 126. Multi-step Form Flow
 `Onboarding` · `General` · 15 copies · [try live](https://superdesign.dev/library/multi-step-form-flow?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A modular, step-based mobile flow designed for creating or editing content with clarity and momentum, where each screen presents a single logical input group, guided by a top progress indicator and a bottom-anchored primary action. Users can move forward or backward without data loss, with progress automatically saved between steps, while the reusable layout system supports optional and conditional steps across different flows. Presented in a minimal wireframe style, visual progression is communicated through spacing and hierarchy rather than visual decoration, making this approach best for onboarding, multi-step setup, preference configuration, and any mobile experience where reducing cognitive load and maximizing completion rate are critical.
@@ -9663,7 +13109,7 @@ Here is a reference implementation:
 
 ---
 
-## 113. Workspace Settings · Formcraft (two-column, cobalt)
+## 127. Workspace Settings · Formcraft (two-column, cobalt)
 `Dashboards` · `SaaS` · 0 copies · [try live](https://superdesign.dev/library/workspace-settings-formcraft-two-column-cobalt?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 Light SaaS workspace-settings page (form builder): sticky app-bar, tinted header, sticky left section nav + stacked white settings cards, toggles, segmented control and a sticky save bar, on a single cobalt accent over a slate neutral system.
@@ -9674,7 +13120,7 @@ Light SaaS workspace-settings page (form builder): sticky app-bar, tinted header
 
 ---
 
-## 114. Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)
+## 128. Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)
 `Dashboards` · `Finance & Crypto` · 2 copies · [try live](https://superdesign.dev/library/ledgerline-deep-teal-mint-fintech-startup-dashboard-hero?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)
 
 A trustworthy deep-teal fintech-startup landing page with a mint accent and cream text: a split hero with a product dashboard mock and a floating virtual card, a bento feature grid, a stats traction band, a security certifications grid, and a glowing CTA.

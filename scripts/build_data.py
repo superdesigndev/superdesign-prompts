@@ -197,12 +197,16 @@ def main():
         for x in bycat.get(c, [])[:PER_CAT]: add(x)
     chosen.sort(key=lambda x: x["_s"], reverse=True)
     chosen = chosen[:CAP]
-    # visual-quality floor: the vision pass judged the RENDERED preview (not the spec text) against
-    # Jason's calibration; drop anything that renders sparse/empty/wireframe/janky. No backfill —
-    # a smaller, all-vetted set beats padding the count with slop.
+    # visual-quality floor: the vision pass judged how the RENDERED preview looks. That "is it
+    # premium/filled" bar is valid for PAGES & STYLES, but NOT for components & effects — those are
+    # MEANT to be a single focused element on a minimal canvas (a button, a cursor glow, a text
+    # animation, a loading state). Judge those by FUNCTION (usage + spec), never by fill, or the
+    # floor wrongly nukes good components as "sparse". (Jason, 2026-07-09.) No backfill on the pages.
+    FUNCTION_JUDGED = {"Components", "Animations & Backgrounds"}
     before = len(chosen)
-    chosen = [x for x in chosen if VS.get(x["slug"], {}).get("visual_score", 5) >= VISUAL_FLOOR]
-    print(f"visual floor >={VISUAL_FLOOR}: dropped {before - len(chosen)}, kept {len(chosen)}")
+    chosen = [x for x in chosen
+              if x["_cat"] in FUNCTION_JUDGED or VS.get(x["slug"], {}).get("visual_score", 5) >= VISUAL_FLOOR]
+    print(f"visual floor >={VISUAL_FLOOR} (pages/styles only): dropped {before - len(chosen)}, kept {len(chosen)}")
     keep = {x["slug"] for x in chosen}
 
     # cleanup stale folders + ensure images

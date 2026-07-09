@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "interactive-card-stack",
+  "name": "Interactive Card Stack",
+  "category": "Components",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "interactive-card-stack"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#F9F9F9",
+      "#1A1A1B"
+    ],
+    "fonts": [
+      "Reset Animation",
+      "Premium interactive card stack with drag physics and autoplay"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "hyper-speed-loading-state",
+  "name": "Hyper-Speed Loading State",
+  "category": "Components",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "hyper-speed-loading-state"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#000",
+      "#FDFDFD"
+    ],
+    "fonts": [
+      "Outfit",
+      "Space Grotesk"
+    ]
+  }
+}

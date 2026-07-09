@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "scroll-journey-line",
+  "name": "Scroll Journey Line",
+  "category": "Animations & Backgrounds",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "scroll-journey-line"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [],
+    "fonts": []
+  }
+}
