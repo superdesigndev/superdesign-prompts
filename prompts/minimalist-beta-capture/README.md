@@ -71,7 +71,7 @@ A high-end 'Editorial Brutalist' style guide optimized for SaaS waitlists, finte
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/minimalist-beta-capture](https://superdesign.dev/library/minimalist-beta-capture?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/minimalist-beta-capture?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

@@ -62,7 +62,7 @@ A high-trust, technical briefing design system for AI onboarding and system init
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/system-initialization-trust-and-transparency](https://superdesign.dev/library/system-initialization-trust-and-transparency?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/system-initialization-trust-and-transparency?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

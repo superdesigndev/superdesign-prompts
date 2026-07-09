@@ -74,7 +74,7 @@ Laboratory Skincare is a warm academic, methodical design system inspired by res
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/laboratory-skincare](https://superdesign.dev/library/laboratory-skincare?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/laboratory-skincare?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

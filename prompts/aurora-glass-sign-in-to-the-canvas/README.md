@@ -69,7 +69,7 @@ Dark aurora-glass split sign-in screen: frosted glassmorphic auth card with a gl
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/aurora-glass-sign-in-to-the-canvas](https://p.superdesign.dev/draft/c98899b2-32ee-4564-afb4-b914e4da709c)**
+**▶ [Try it live →](https://p.superdesign.dev/draft/c98899b2-32ee-4564-afb4-b914e4da709c)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

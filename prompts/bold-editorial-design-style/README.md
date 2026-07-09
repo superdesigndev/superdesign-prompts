@@ -78,7 +78,7 @@ A premium, bold editorial design system characterized by high-contrast brutalist
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/bold-editorial-design-style](https://superdesign.dev/library/bold-editorial-design-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/bold-editorial-design-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

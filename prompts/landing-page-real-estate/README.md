@@ -777,7 +777,7 @@ Agent must NOT reveal internal score unless explicitly asked.
 “You must internally self-evaluate using the Real Estate Vertical Rubric. Only output when score ≥ 8.5/10. Do not reveal internal scoring.”
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/landing-page-real-estate](https://superdesign.dev/library/landing-page-real-estate?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/landing-page-real-estate?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

@@ -58,7 +58,7 @@ A high-contrast, minimalist mobile login wireframe optimized for thumb reach and
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/minimalist-wireframe-login](https://superdesign.dev/library/minimalist-wireframe-login?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/minimalist-wireframe-login?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

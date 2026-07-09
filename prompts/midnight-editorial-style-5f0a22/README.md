@@ -344,7 +344,7 @@ This is a reference implementation of Midnight Editorial Style
 Please use the above as reference and apply to our context
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/midnight-editorial-style-5f0a22](https://superdesign.dev/library/midnight-editorial-style-5f0a22?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/midnight-editorial-style-5f0a22?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

@@ -75,7 +75,7 @@ A high-energy, Gen-Z-inspired design system with a 'Neo-Brutalist' aesthetic. Th
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/gen-z-social-app](https://superdesign.dev/library/gen-z-social-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/gen-z-social-app?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

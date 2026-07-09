@@ -252,7 +252,7 @@ def main():
         if r["preview"]: b += [f'<img src="{pathlib.Path(r["preview"]).name}" alt="{r["title"]}" width="640">', ""]
         if r.get("video"): b += [f'▶ **[Watch the animated preview]({pathlib.Path(r["video"]).name})** (MP4)', ""]
         b += ["## Prompt", "", "```text", r["prompt"], "```", "",
-              f"**▶ Try it live → [{LIB}/{r['slug']}]({r['try_url']})**", "",
+              f"**▶ [Try it live →]({r['try_url']})**", "",
               f"**Use it in your coding agent:** install the [Superdesign skill]({SKILL}), then:", "",
               "```bash", f'superdesign get-prompts --slugs "{r["slug"]}" --json', "```", "",
               f"*{r['copyCount']:,} copies · {r['tryCount']:,} tries · {r['category']} · {r['industry']} · "

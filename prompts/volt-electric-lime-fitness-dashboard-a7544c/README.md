@@ -46,7 +46,7 @@ An electric-lime fitness/health dashboard on near-black: a big animated step-pro
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/volt-electric-lime-fitness-dashboard-a7544c](https://p.superdesign.dev/draft/f5e210d4-dea0-4eed-8598-773d56fae06e)**
+**▶ [Try it live →](https://p.superdesign.dev/draft/f5e210d4-dea0-4eed-8598-773d56fae06e)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

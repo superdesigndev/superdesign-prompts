@@ -43,7 +43,7 @@ A mobile fintech wallet home screen: a teal gradient hero with a frosted balance
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/fintech-wallet-mobile-home-screen](https://p.superdesign.dev/draft/63451e2f-914d-4d98-a710-24cc6b614303)**
+**▶ [Try it live →](https://p.superdesign.dev/draft/63451e2f-914d-4d98-a710-24cc6b614303)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

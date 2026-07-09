@@ -69,7 +69,7 @@ A browser-native developer tool aesthetic characterized by a 'system interface' 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/chrome-extension-landing-page](https://superdesign.dev/library/chrome-extension-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/chrome-extension-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

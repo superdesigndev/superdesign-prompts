@@ -73,7 +73,7 @@ Product Walkthrough is a product-first electronics landing page built around a S
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/aura-audio-showroom](https://superdesign.dev/library/aura-audio-showroom?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/aura-audio-showroom?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

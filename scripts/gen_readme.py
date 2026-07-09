@@ -49,7 +49,7 @@ def build_gallery(prompts, cols=4, rows=3):
         for x in top[i : i + cols]:
             out.append(
                 f'<td width="{100//cols}%" align="center" valign="top">'
-                f'<a href="{try_url(x["slug"])}"><img src="{x["preview"]}" width="200" alt="{x["title"]}"></a><br>'
+                f'<a href="{x.get("try_url") or try_url(x["slug"])}"><img src="{x["preview"]}" width="200" alt="{x["title"]}"></a><br>'
                 f'<sub><b><a href="prompts/{x["slug"]}/">{x["title"]}</a></b><br>{num(x,"tryCount"):,} runs</sub></td>'
             )
         out.append("</tr>")
@@ -66,7 +66,7 @@ def build_leaderboard(prompts, n=10):
     for i, x in enumerate(top, 1):
         rows.append(
             f'| {i} | **[{x["title"]}](prompts/{x["slug"]}/)** | {x.get("category","")} | '
-            f'{num(x,"visual_score")}/10 | {num(x,"tryCount"):,} | [▶ Try live]({try_url(x["slug"])}) |'
+            f'{num(x,"visual_score")}/10 | {num(x,"tryCount"):,} | [▶ Try live]({x.get("try_url") or try_url(x["slug"])}) |'
         )
     return "\n".join(rows)
 

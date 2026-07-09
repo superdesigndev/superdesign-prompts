@@ -378,7 +378,7 @@ Implementation Guidelines
 Help me integrate this into my design
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/lightning-background](https://superdesign.dev/library/lightning-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/lightning-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

@@ -77,7 +77,7 @@ A highly visual, typography-driven comparison report design. This style eschews 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/graphic-comparison-report](https://superdesign.dev/library/graphic-comparison-report?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/graphic-comparison-report?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

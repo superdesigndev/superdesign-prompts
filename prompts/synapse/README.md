@@ -72,7 +72,7 @@ A high-performance 'neural' dark mode design system characterized by deep black 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/synapse](https://superdesign.dev/library/synapse?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/synapse?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

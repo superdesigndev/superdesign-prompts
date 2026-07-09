@@ -26,7 +26,7 @@ Create a 'sticky' section where the vertical scroll locks, and the content slide
 **Technical Requirement**: Ensure the GSAP initialization is robust. Since this is a React component, please include a small delay or safety check inside useLayoutEffect to ensure the DOM is fully rendered and widths are accurate before the ScrollTrigger calculates the pinning logic.
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/horizontal-gallery](https://superdesign.dev/library/horizontal-gallery?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/horizontal-gallery?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

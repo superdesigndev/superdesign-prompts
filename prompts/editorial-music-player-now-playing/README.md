@@ -45,7 +45,7 @@ A high-contrast editorial "Now Playing" mobile music player: a light cream top w
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/editorial-music-player-now-playing](https://p.superdesign.dev/draft/aa288fc2-2f00-463c-9142-439dcca4eb3a)**
+**▶ [Try it live →](https://p.superdesign.dev/draft/aa288fc2-2f00-463c-9142-439dcca4eb3a)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

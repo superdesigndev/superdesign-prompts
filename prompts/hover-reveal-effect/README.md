@@ -28,7 +28,7 @@ The main interactive feature should be a blob cursor effect that follows the mou
 All text elements (my name, the Portfolio link, and the social icons) should dynamically invert to white when the blob cursor hovers over them, so they remain visible against the revealed image. The transitions should be smooth with a 300ms duration. Add a subtle parallax effect where elements shift slightly in the opposite direction of cursor movement to create depth. The overall aesthetic should be minimal and sophisticated with a white background, letting the photography and interactive elements be the focal point.
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/hover-reveal-effect](https://superdesign.dev/library/hover-reveal-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/hover-reveal-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

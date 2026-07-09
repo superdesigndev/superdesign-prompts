@@ -453,7 +453,7 @@ This is a reference implementation of red noir style
 Please use the above as reference and apply to our context
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/red-noir-style](https://superdesign.dev/library/red-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/red-noir-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

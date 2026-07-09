@@ -69,7 +69,7 @@ A high-contrast Swiss-style minimalist design system utilizing brutalist typogra
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/high-contrast-landing-page](https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/high-contrast-landing-page?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

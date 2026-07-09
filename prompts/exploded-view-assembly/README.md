@@ -28,7 +28,7 @@ Perfect for showing product components or "how it works."
 > *"Pin a central product mockup. As the user scrolls, have the internal components (UI elements, icons, layers) 'explode' outwards in different directions. As they continue to scroll, have the components fly back together and 'lock' into a final, different layout."*
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/exploded-view-assembly](https://superdesign.dev/library/exploded-view-assembly?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/exploded-view-assembly?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

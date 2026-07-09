@@ -70,7 +70,7 @@ An architectural, technical-blueprint style design system featuring a minimalist
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/mosaic-grid-architecture-style](https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/mosaic-grid-architecture-style?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

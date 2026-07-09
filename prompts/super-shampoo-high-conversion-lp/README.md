@@ -82,7 +82,7 @@ A premium, high-conversion e-commerce style guide optimized for D2C beauty and w
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/super-shampoo-high-conversion-lp](https://superdesign.dev/library/super-shampoo-high-conversion-lp?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/super-shampoo-high-conversion-lp?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

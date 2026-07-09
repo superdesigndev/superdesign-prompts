@@ -362,7 +362,7 @@ You are given a task to integrate the below html page into the current page.
 ~~~
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/deep-red-style-5b01cb](https://superdesign.dev/library/deep-red-style-5b01cb?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/deep-red-style-5b01cb?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

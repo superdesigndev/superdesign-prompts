@@ -66,7 +66,7 @@ BabyBites style guide featuring a sophisticated high-contrast palette of dark ch
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/babybites-sophisticated-palette](https://superdesign.dev/library/babybites-sophisticated-palette?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/babybites-sophisticated-palette?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

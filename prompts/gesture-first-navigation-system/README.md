@@ -486,7 +486,7 @@ Here is a reference implementation:
 ~~~
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/gesture-first-navigation-system](https://superdesign.dev/library/gesture-first-navigation-system?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/gesture-first-navigation-system?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

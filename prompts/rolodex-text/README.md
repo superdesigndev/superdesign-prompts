@@ -32,7 +32,7 @@ Do not center it, or variable word lengths will create awkward gaps.
 **Technical**: Ensure the container uses preserve-3d and isn't strictly clipped, so the 3D rotation is fully visible.
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/rolodex-text](https://superdesign.dev/library/rolodex-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/rolodex-text?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 

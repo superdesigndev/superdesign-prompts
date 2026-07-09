@@ -62,7 +62,7 @@ A sleek, minimalist, and highly interactive 4-step onboarding flow designed for 
 }
 ```
 
-**▶ Try it live → [https://superdesign.dev/library/account-setup-flow-goals-interests-card-based](https://superdesign.dev/library/account-setup-flow-goals-interests-card-based?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
+**▶ [Try it live →](https://superdesign.dev/library/account-setup-flow-goals-interests-card-based?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library)**
 
 **Use it in your coding agent:** install the [Superdesign skill](https://github.com/superdesigndev/superdesign-skill), then:
 
