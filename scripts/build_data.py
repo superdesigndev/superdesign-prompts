@@ -23,7 +23,7 @@ def cname(x): return ((x.get("creator") or {}).get("name") or "").strip()
 def try_url(s): return f"{LIB}/{s}?{UTM}"
 
 # ---- page-type taxonomy (primary category, most-specific first) ----
-CATS = ["Landing Pages", "Pricing Pages", "Auth & Login", "Dashboards", "Onboarding",
+CATS = ["Landing Pages", "Pricing Pages", "Auth & Login", "Dashboards", "AI Chat", "Onboarding",
         "Waitlist & Coming Soon", "Forms & Contact", "Blog & Editorial", "E-commerce",
         "Portfolios", "Mobile Apps", "Components", "Animations & Backgrounds",
         "Design Systems & Styles", "Other"]
@@ -43,6 +43,12 @@ def page_category(it):
         return "Pricing Pages"
     if has(tags, "auth", "signup", "signin", "login") or has(txt, "login", "sign in", "sign-in", "signup", "sign up"):
         return "Auth & Login"
+    # AI chat / chatbot / conversational UIs (before Dashboards/Components, which a chat
+    # sidebar+composer layout would otherwise match on the 'sidebar'/'card' substrings)
+    if has(tags, "ai-chat", "chatbot", "chat-interface", "chat-ui", "conversational", "llm-chat",
+           "messaging-ui", "chat-app", "ai-assistant") \
+            or has(txt, "chat interface", "chatbot", "ai chat", "ai-chat", "conversational"):
+        return "AI Chat"
     # a landing page that merely *shows* a dashboard (tagged 'dashboard' + 'landing') is not a dashboard
     if "dashboard" in txt or has(txt, "admin panel", "admin dashboard", "console") \
             or (any("dashboard" in t for t in tl) and not any("landing" in t for t in tl)):

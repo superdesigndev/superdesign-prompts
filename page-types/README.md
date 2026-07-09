@@ -10,7 +10,7 @@ contains) rather than one designer's take.
 
 | Page type | Built from |
 |---|---|
-| [Landing Pages](landing-pages/) · [Pricing Pages](pricing-pages/) · [Auth & Login](auth-login/) · [Dashboards](dashboards/) · [Onboarding](onboarding/) · [Waitlist & Coming Soon](waitlist-coming-soon/) · [Forms & Contact](forms-contact/) · [Blog & Editorial](blog-editorial/) · [E-commerce](e-commerce/) · [Portfolios](portfolios/) · [Mobile Apps](mobile-apps/) · [Components](components/) | the prompts in each matching category |
+| [Landing Pages](landing-pages/) · [Pricing Pages](pricing-pages/) · [Auth & Login](auth-login/) · [Dashboards](dashboards/) · [AI Chat](ai-chat/) · [Onboarding](onboarding/) · [Waitlist & Coming Soon](waitlist-coming-soon/) · [Forms & Contact](forms-contact/) · [Blog & Editorial](blog-editorial/) · [E-commerce](e-commerce/) · [Portfolios](portfolios/) · [Mobile Apps](mobile-apps/) · [Components](components/) | the prompts in each matching category |
 
 ## Use a page type
 

@@ -25,7 +25,7 @@ FONT = re.compile(r"['\"]([A-Z][A-Za-z0-9 ]+(?:Mono|Sans|Serif|Display|Grotesk|N
 
 # structural categories become page-type skills; the rest are style-led
 PAGE_CATEGORIES = {
-    "Landing Pages", "Pricing Pages", "Auth & Login", "Dashboards", "Onboarding",
+    "Landing Pages", "Pricing Pages", "Auth & Login", "Dashboards", "AI Chat", "Onboarding",
     "Waitlist & Coming Soon", "Forms & Contact", "Blog & Editorial", "E-commerce",
     "Portfolios", "Mobile Apps", "Components",
 }
