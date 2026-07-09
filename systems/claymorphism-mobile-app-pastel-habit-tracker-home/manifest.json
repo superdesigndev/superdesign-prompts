@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "claymorphism-mobile-app-pastel-habit-tracker-home",
+  "name": "Claymorphism Mobile App: Pastel Habit Tracker Home",
+  "category": "Mobile Apps",
+  "industry": "Health & Wellness",
+  "source": {
+    "type": "prompt",
+    "slug": "claymorphism-mobile-app-pastel-habit-tracker-home"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#eef0f5",
+      "#f6f7fb",
+      "#bfe3c6",
+      "#3f6b48",
+      "#ffd9c2",
+      "#a4593a",
+      "#ffe9b0",
+      "#8a6d1f",
+      "#c9e4f6",
+      "#3a6a8a",
+      "#3a3f4a",
+      "#8a90a0"
+    ],
+    "fonts": []
+  }
+}
