@@ -6,7 +6,7 @@
 
 <div align="center">
 <!-- STATS:START -->
-  <b>114 top prompts</b> · <b>252K tries</b> · <b>46K copies</b> — hand-picked and category-balanced from a <b>964-prompt live library</b> with <b>1.7M+ tries</b>.<br>
+  <b>114 top prompts</b> · <b>252K tries</b> · <b>46K copies</b> — hand-picked and category-balanced from a <b>114-prompt live library</b> with <b>252K+ tries</b>.<br>
   Browse all and run any live at <b><a href="https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">superdesign.dev/library</a></b>.
 <!-- STATS:END -->
 </div>
