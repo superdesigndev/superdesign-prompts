@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "cinematic-editorial-newsletter-email",
+  "name": "Cinematic Editorial Newsletter Email",
+  "category": "Email & Newsletter",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "cinematic-editorial-newsletter-email"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0a0a",
+      "#f7f0e4",
+      "#f3ead9",
+      "#ece0cd",
+      "#2a211a"
+    ],
+    "fonts": [
+      "Read more",
+      "Shop",
+      "Originals",
+      "What",
+      "Boutique"
+    ]
+  }
+}

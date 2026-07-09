@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "editorial-serif-receipt-email",
+  "name": "Editorial Serif Receipt Email",
+  "category": "Email & Newsletter",
+  "industry": "E-commerce & Retail",
+  "source": {
+    "type": "prompt",
+    "slug": "editorial-serif-receipt-email"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#faf9f6",
+      "#eceae4",
+      "#1b1b1a",
+      "#182338",
+      "#9a968e",
+      "#e6e3dc"
+    ],
+    "fonts": [
+      "Thank you for your order"
+    ]
+  }
+}
