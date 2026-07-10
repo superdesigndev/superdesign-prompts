@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "animated-hero-section-constellation-network-landing-page",
+  "name": "Animated Hero Section: Constellation Network Landing Page",
+  "category": "Landing Pages",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "animated-hero-section-constellation-network-landing-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#f4f6f2",
+      "#0d1211",
+      "#5f6b64",
+      "#a3e635",
+      "#84cc16"
+    ],
+    "fonts": [
+      "Read the docs"
+    ]
+  }
+}
