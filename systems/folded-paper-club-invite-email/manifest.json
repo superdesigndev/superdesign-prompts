@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "folded-paper-club-invite-email",
+  "name": "Folded-Paper Club Invite Email",
+  "category": "Email & Newsletter",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "folded-paper-club-invite-email"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0a0a",
+      "#050505",
+      "#e5342b",
+      "#141210"
+    ],
+    "fonts": [
+      "The Night",
+      "Entry"
+    ]
+  }
+}

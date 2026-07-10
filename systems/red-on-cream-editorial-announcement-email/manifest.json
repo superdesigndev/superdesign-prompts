@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "red-on-cream-editorial-announcement-email",
+  "name": "Red-on-Cream Editorial Announcement Email",
+  "category": "Email & Newsletter",
+  "industry": "Agency & Studio",
+  "source": {
+    "type": "prompt",
+    "slug": "red-on-cream-editorial-announcement-email"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#ddd8d0",
+      "#c9c4bb",
+      "#c72a09"
+    ],
+    "fonts": [
+      "READ THE CASE STUDY"
+    ]
+  }
+}

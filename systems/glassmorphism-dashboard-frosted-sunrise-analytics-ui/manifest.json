@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "glassmorphism-dashboard-frosted-sunrise-analytics-ui",
+  "name": "Glassmorphism Dashboard: Frosted Sunrise Analytics UI",
+  "category": "Dashboards",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "glassmorphism-dashboard-frosted-sunrise-analytics-ui"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#ffd9a8",
+      "#ff9d7a",
+      "#ff8fa0",
+      "#1c1512",
+      "#5c5049",
+      "#8a7768",
+      "#f2521b",
+      "#d8410f",
+      "#ef8f2a",
+      "#fb7185",
+      "#fff2e6",
+      "#ffd9c4"
+    ],
+    "fonts": []
+  }
+}

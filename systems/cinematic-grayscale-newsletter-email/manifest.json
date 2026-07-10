@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "cinematic-grayscale-newsletter-email",
+  "name": "Cinematic Grayscale Newsletter Email",
+  "category": "Email & Newsletter",
+  "industry": "Agency & Studio",
+  "source": {
+    "type": "prompt",
+    "slug": "cinematic-grayscale-newsletter-email"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#e6e6e4",
+      "#0b0b0b"
+    ],
+    "fonts": []
+  }
+}

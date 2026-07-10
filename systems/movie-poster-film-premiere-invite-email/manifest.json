@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "movie-poster-film-premiere-invite-email",
+  "name": "Movie-Poster Film Premiere Invite Email",
+  "category": "Email & Newsletter",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "movie-poster-film-premiere-invite-email"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#c8102e",
+      "#7c0a1c",
+      "#e0ddcd",
+      "#1a0608"
+    ],
+    "fonts": [
+      "EMPIRE OF SHADOWS",
+      "Screenings"
+    ]
+  }
+}

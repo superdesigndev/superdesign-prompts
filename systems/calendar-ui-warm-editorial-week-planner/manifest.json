@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "calendar-ui-warm-editorial-week-planner",
+  "name": "Calendar UI: Warm Editorial Week Planner",
+  "category": "Calendar",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "calendar-ui-warm-editorial-week-planner"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#faf7f2",
+      "#1a1714",
+      "#8b8178",
+      "#c4623d",
+      "#7a8a6f",
+      "#6f8299",
+      "#cf9749"
+    ],
+    "fonts": [
+      "New event",
+      "My calendars",
+      "Up next"
+    ]
+  }
+}
