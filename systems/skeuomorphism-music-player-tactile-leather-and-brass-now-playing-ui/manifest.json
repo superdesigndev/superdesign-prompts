@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "skeuomorphism-music-player-tactile-leather-and-brass-now-playing-ui",
+  "name": "Skeuomorphism Music Player: Tactile Leather and Brass Now Playing UI",
+  "category": "Mobile Apps",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "skeuomorphism-music-player-tactile-leather-and-brass-now-playing-ui"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#262a31",
+      "#1b1e24",
+      "#111318",
+      "#2b2f38",
+      "#20232a",
+      "#4a2c1e",
+      "#351d14",
+      "#23110b",
+      "#c99a5b",
+      "#e0a94e",
+      "#ffdd9a",
+      "#a9772f",
+      "#efe7d8",
+      "#a89a86",
+      "#464b54",
+      "#30343c"
+    ],
+    "fonts": [
+      "RESONANT",
+      "NOW PLAYING"
+    ]
+  }
+}
