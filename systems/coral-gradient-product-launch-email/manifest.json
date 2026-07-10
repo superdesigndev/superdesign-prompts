@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "coral-gradient-product-launch-email",
+  "name": "Coral Gradient Product-Launch Email",
+  "category": "Email & Newsletter",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "coral-gradient-product-launch-email"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#e9eaee",
+      "#ffffff",
+      "#161616",
+      "#f4f5f7",
+      "#ff5a2c",
+      "#ff3b6b",
+      "#ff88a6",
+      "#2f5bff"
+    ],
+    "fonts": []
+  }
+}

@@ -1,7 +1,7 @@
 # Page type — Mobile Apps
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 9 prompts in this repo.
+> Aggregated from 10 prompts in this repo.
 
 ## What this page type is
 
@@ -10,10 +10,11 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common sections
 
-- Header  _(in 2 prompts)_
+- Header  _(in 3 prompts)_
 - Album art  _(in 2 prompts)_
 - Track meta  _(in 2 prompts)_
 - Scrubber  _(in 2 prompts)_
+- Tab bar  _(in 2 prompts)_
 - Horizontal Scroll Selector  _(in 1 prompts)_
 - Hero Feature Card  _(in 1 prompts)_
 - Secondary Feed Items  _(in 1 prompts)_
@@ -21,7 +22,6 @@ skill supplies the structure — sections, layout, and the components users expe
 - Sticky frosted-ink top nav + mobile menu  _(in 1 prompts)_
 - Hero intro (aurora backdrop + gradient heading)  _(in 1 prompts)_
 - 3D coverflow stage + controls  _(in 1 prompts)_
-- Hero CTA pair + trust line  _(in 1 prompts)_
 
 ## Common components
 
@@ -54,6 +54,7 @@ Build a Mobile App using the "<system-id>" design system
 - [Editorial Music Player (Now Playing)](../../prompts/editorial-music-player-now-playing/) · design 8/10 · 2,420 runs
 - [Fintech Wallet — Mobile Home Screen](../../prompts/fintech-wallet-mobile-home-screen/) · design 8/10 · 2,314 runs
 - [Skeuomorphism Music Player: Tactile Leather and Brass Now Playing UI](../../prompts/skeuomorphism-music-player-tactile-leather-and-brass-now-playing-ui/) · design 8/10 · 0 runs
+- [Claymorphism Mobile App: Pastel Habit Tracker Home](../../prompts/claymorphism-mobile-app-pastel-habit-tracker-home/) · design 8/10 · 0 runs
 - [Sectioned Index Page](../../prompts/sectioned-index-page/) · design 7/10 · 2,426 runs
 - [BabyBites - Sophisticated Palette](../../prompts/babybites-sophisticated-palette/) · design 7/10 · 1,547 runs
 - [Gesture First Navigation System](../../prompts/gesture-first-navigation-system/) · design 6/10 · 2,465 runs

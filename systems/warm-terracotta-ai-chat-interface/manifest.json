@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "warm-terracotta-ai-chat-interface",
+  "name": "Warm Terracotta AI Chat Interface",
+  "category": "AI Chat",
+  "industry": "AI & Tech",
+  "source": {
+    "type": "prompt",
+    "slug": "warm-terracotta-ai-chat-interface"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#FAF6F0",
+      "#1A1A1A",
+      "#C4552F",
+      "#A8421F",
+      "#E7DCCC",
+      "#F4ECE1",
+      "#F0E3D5",
+      "#EAD6C4",
+      "#262019",
+      "#1F1A15",
+      "#E39B6E",
+      "#C9B78E",
+      "#8A7E6C",
+      "#EAD9BE"
+    ],
+    "fonts": [
+      "New conversation",
+      "Terra"
+    ]
+  }
+}
