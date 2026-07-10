@@ -1,7 +1,7 @@
 # Page type — Components
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 12 prompts in this repo.
+> Aggregated from 13 prompts in this repo.
 
 ## What this page type is
 
@@ -10,11 +10,18 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common sections
 
-_REVIEW_
+- Top bar  _(in 1 prompts)_
+- Menu stack  _(in 1 prompts)_
+- Active row (hover reveal)  _(in 1 prompts)_
+- Footer bar  _(in 1 prompts)_
 
 ## Common components
 
-_REVIEW_
+- Flowing-menu row with vertical panel reveal  _(in 1 prompts)_
+- Horizontal text marquee with interleaved tiles  _(in 1 prompts)_
+- Giant condensed-grotesk menu label  _(in 1 prompts)_
+- Mono furniture system (index + descriptors + meta)  _(in 1 prompts)_
+- Duotone marquee tile  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -25,6 +32,7 @@ Build a Component using the "<system-id>" design system
 
 ## Reference prompts (best-designed first)
 
+- [Flowing Menu: Kinetic Fullscreen Studio Navigation with Marquee Hover Reveal](../../prompts/flowing-menu-kinetic-fullscreen-studio-navigation-with-marquee-hover-reveal/) · design 9/10 · 0 runs
 - [Card Swap](../../prompts/card-swap/) · design 5/10 · 1,693 runs
 - [Interactive Folder](../../prompts/interactive-folder/) · design 4/10 · 2,439 runs
 - [Rolodex Text](../../prompts/rolodex-text/) · design 4/10 · 2,386 runs

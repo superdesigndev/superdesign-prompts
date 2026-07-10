@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "flowing-menu-kinetic-fullscreen-studio-navigation-with-marquee-hover-reveal",
+  "name": "Flowing Menu: Kinetic Fullscreen Studio Navigation with Marquee Hover Reveal",
+  "category": "Components",
+  "industry": "Agency & Studio",
+  "source": {
+    "type": "prompt",
+    "slug": "flowing-menu-kinetic-fullscreen-studio-navigation-with-marquee-hover-reveal"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#f4f4f2",
+      "#0a0a0a",
+      "#1f3bff"
+    ],
+    "fonts": []
+  }
+}
