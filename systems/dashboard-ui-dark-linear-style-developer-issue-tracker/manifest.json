@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "dashboard-ui-dark-linear-style-developer-issue-tracker",
+  "name": "Dashboard UI: Dark Linear-Style Developer Issue Tracker",
+  "category": "Dashboards",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "dashboard-ui-dark-linear-style-developer-issue-tracker"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#08090a",
+      "#0c0d0f",
+      "#0b0c0e",
+      "#f4f5f8",
+      "#7d828c",
+      "#5e6ad2"
+    ],
+    "fonts": [
+      "New issue"
+    ]
+  }
+}
