@@ -1,7 +1,7 @@
 # Page type — Mobile Apps
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 10 prompts in this repo.
+> Aggregated from 11 prompts in this repo.
 
 ## What this page type is
 
@@ -51,6 +51,7 @@ Build a Mobile App using the "<system-id>" design system
 ## Reference prompts (best-designed first)
 
 - [Coverflow — Carousels that turn heads (dark coverflow aurora)](../../prompts/coverflow-carousels-that-turn-heads-dark-coverflow-aurora/) · design 9/10 · 2,460 runs
+- [Apple Design System UI: Native iOS Settings Screen](../../prompts/apple-design-system-ui-native-ios-settings-screen/) · design 9/10 · 0 runs
 - [Editorial Music Player (Now Playing)](../../prompts/editorial-music-player-now-playing/) · design 8/10 · 2,420 runs
 - [Fintech Wallet — Mobile Home Screen](../../prompts/fintech-wallet-mobile-home-screen/) · design 8/10 · 2,314 runs
 - [Skeuomorphism Music Player: Tactile Leather and Brass Now Playing UI](../../prompts/skeuomorphism-music-player-tactile-leather-and-brass-now-playing-ui/) · design 8/10 · 0 runs
