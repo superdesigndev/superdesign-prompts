@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "apple-design-system-ui-native-ios-settings-screen",
+  "name": "Apple Design System UI: Native iOS Settings Screen",
+  "category": "Mobile Apps",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "apple-design-system-ui-native-ios-settings-screen"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#FFFFFF",
+      "#F2F2F7",
+      "#000000",
+      "#3C3C43",
+      "#C6C6C8",
+      "#007AFF",
+      "#34C759",
+      "#FF3B30",
+      "#FF9500",
+      "#5856D6",
+      "#FF2D55",
+      "#C7C7CC"
+    ],
+    "fonts": [
+      "SF Pro Text",
+      "SF Pro Display",
+      "Settings",
+      "HomeNet",
+      "Dark"
+    ]
+  }
+}
