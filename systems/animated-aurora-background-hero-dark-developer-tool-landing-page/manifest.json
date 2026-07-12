@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "animated-aurora-background-hero-dark-developer-tool-landing-page",
+  "name": "Animated Aurora Background Hero: Dark Developer-Tool Landing Page",
+  "category": "Animations & Backgrounds",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "animated-aurora-background-hero-dark-developer-tool-landing-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#07080a",
+      "#ffffff",
+      "#9c9c9d",
+      "#e6e6e6",
+      "#2f3031",
+      "#ff2f3a",
+      "#ff6b4a",
+      "#ffb347"
+    ],
+    "fonts": []
+  }
+}
