@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "neubrutalism-dashboard-bold-candy-analytics-ui-with-hard-shadows",
+  "name": "Neubrutalism Dashboard: Bold Candy Analytics UI with Hard Shadows",
+  "category": "Dashboards",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "neubrutalism-dashboard-bold-candy-analytics-ui-with-hard-shadows"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#fdf9f0",
+      "#ffffff",
+      "#111111",
+      "#111",
+      "#ff3d81",
+      "#ffd23f",
+      "#3ddc97",
+      "#c8a2ff",
+      "#ff6b5e"
+    ],
+    "fonts": [
+      "Archivo Black",
+      "Space Grotesk",
+      "Space Mono",
+      "Overview",
+      "Export report",
+      "Revenue over time"
+    ]
+  }
+}
