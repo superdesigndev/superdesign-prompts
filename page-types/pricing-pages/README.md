@@ -1,7 +1,7 @@
 # Page type — Pricing Pages
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 12 prompts in this repo.
+> Aggregated from 13 prompts in this repo.
 
 ## What this page type is
 
@@ -57,6 +57,7 @@ Build a Pricing Page using the "<system-id>" design system
 - [Electric-Lime Single-Plan SaaS Pricing](../../prompts/electric-lime-single-plan-saas-pricing/) · design 8/10 · 2,462 runs
 - [Electric-Blue Studio Pricing](../../prompts/electric-blue-studio-pricing-188a8f/) · design 8/10 · 2,458 runs
 - [Electric Dark Usage-Based Pricing Calculator](../../prompts/electric-dark-usage-based-pricing-calculator-20e556/) · design 8/10 · 2,451 runs
+- [Claymorphism Pricing Page: Puffy Candy-Clay SaaS Plans](../../prompts/claymorphism-pricing-page-puffy-candy-clay-saas-plans/) · design 8/10 · 0 runs
 - [Editorial Cream + Ink Two-Path SaaS Pricing](../../prompts/editorial-cream-ink-two-path-saas-pricing-3dee65/) · design 7/10 · 2,466 runs
 - [Cream & Sky Playful SaaS Pricing](../../prompts/cream-and-sky-playful-saas-pricing/) · design 7/10 · 2,415 runs
 - [Emerald 4-Tier SaaS Pricing Table](../../prompts/emerald-4-tier-saas-pricing-table/) · design 6/10 · 2,447 runs

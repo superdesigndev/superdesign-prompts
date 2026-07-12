@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "claymorphism-pricing-page-puffy-candy-clay-saas-plans",
+  "name": "Claymorphism Pricing Page: Puffy Candy-Clay SaaS Plans",
+  "category": "Pricing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "claymorphism-pricing-page-puffy-candy-clay-saas-plans"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#eef0fb",
+      "#f8f9ff",
+      "#2b2c40",
+      "#7b7e9a",
+      "#c7f0e4",
+      "#0f7a66",
+      "#ffd4de",
+      "#c23a5c",
+      "#cfe6ff",
+      "#2f6fb0",
+      "#ffe9b8",
+      "#8a6510",
+      "#6a5ce0"
+    ],
+    "fonts": []
+  }
+}
