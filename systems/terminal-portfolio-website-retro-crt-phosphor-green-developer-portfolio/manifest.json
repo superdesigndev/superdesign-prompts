@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "terminal-portfolio-website-retro-crt-phosphor-green-developer-portfolio",
+  "name": "Terminal Portfolio Website: Retro CRT Phosphor-Green Developer Portfolio",
+  "category": "Portfolios",
+  "industry": "Personal & Portfolio",
+  "source": {
+    "type": "prompt",
+    "slug": "terminal-portfolio-website-retro-crt-phosphor-green-developer-portfolio"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#000000",
+      "#39ff7a",
+      "#2bbf5c",
+      "#1c7a3c",
+      "#5f8d68",
+      "#eafff1",
+      "#ffd24a",
+      "#5cf6ff",
+      "#050805",
+      "#070b07",
+      "#143614",
+      "#1f4d1f"
+    ],
+    "fonts": []
+  }
+}
