@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "agency-website-bold-editorial-newspaper-broadsheet-studio-site",
+  "name": "Agency Website: Bold Editorial Newspaper Broadsheet Studio Site",
+  "category": "Portfolios",
+  "industry": "Agency & Studio",
+  "source": {
+    "type": "prompt",
+    "slug": "agency-website-bold-editorial-newspaper-broadsheet-studio-site"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#181410",
+      "#f4f1ea"
+    ],
+    "fonts": []
+  }
+}
