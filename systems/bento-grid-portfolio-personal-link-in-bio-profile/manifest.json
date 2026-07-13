@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "bento-grid-portfolio-personal-link-in-bio-profile",
+  "name": "Bento Grid Portfolio (Personal Link-in-Bio Profile)",
+  "category": "Portfolios",
+  "industry": "Personal & Portfolio",
+  "source": {
+    "type": "prompt",
+    "slug": "bento-grid-portfolio-personal-link-in-bio-profile"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#f2f3f5",
+      "#0f9d8f",
+      "#0b7d72",
+      "#e7f5f1",
+      "#fb923c",
+      "#e07a1f",
+      "#17181c",
+      "#5b5e68"
+    ],
+    "fonts": [
+      "NOW PLAYING",
+      "LATEST PROJECT",
+      "TOOLBOX",
+      "THE WEEKLY",
+      "Say hello"
+    ]
+  }
+}
