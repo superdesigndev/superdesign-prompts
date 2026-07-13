@@ -2,7 +2,7 @@
 
 > Coding agents write great code and generic interfaces: default shadcn, same fonts, no taste. This is a library of **design prompts — each a full design spec with a live preview and real usage data** — that give your agent design direction so the UI it ships actually looks designed. Powered by [Superdesign](https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
 
-![prompts](https://img.shields.io/badge/prompts-141-blue) ![backed by](https://img.shields.io/badge/backed%20by-1.7M%2B%20real%20runs-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![last synced](https://img.shields.io/badge/last%20synced-2026--07--14-informational) ![license](https://img.shields.io/badge/code-MIT-informational)
+![prompts](https://img.shields.io/badge/prompts-141-blue) ![backed by](https://img.shields.io/badge/backed%20by-1.7M%2B%20real%20runs-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![last synced](https://img.shields.io/badge/last%20synced-2026--07--13-informational) ![license](https://img.shields.io/badge/code-MIT-informational)
 
 <div align="center">
 <!-- STATS:START -->
@@ -123,7 +123,18 @@ This repo is the **registry**; the [Superdesign skill](https://github.com/superd
 A static screenshot can't show these. They're **motion** prompts, backgrounds, cursors, and transitions you drop into a UI to make it feel alive. Previews loop below; hit **Try live** for the real thing.
 
 <!-- ANIMATIONS:START -->
-_No animated previews yet._
+<table>
+<tr>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/hyperspeed-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/hyperspeed-background/preview.gif" width="260" alt="Hyperspeed Background"></a><br><sub><b><a href="prompts/hyperspeed-background/">Hyperspeed Background</a></b> · 8/10<br>[<a href="https://superdesign.dev/library/hyperspeed-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/lightning-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/lightning-background/preview.gif" width="260" alt="Lightning Background"></a><br><sub><b><a href="prompts/lightning-background/">Lightning Background</a></b> · 8/10<br>[<a href="https://superdesign.dev/library/lightning-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/exploded-view-assembly?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/exploded-view-assembly/preview.gif" width="260" alt=""Exploded View" Assembly"></a><br><sub><b><a href="prompts/exploded-view-assembly/">"Exploded View" Assembly</a></b> · 8/10<br>[<a href="https://superdesign.dev/library/exploded-view-assembly?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/gooey-gradient-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/gooey-gradient-background/preview.gif" width="260" alt="Gooey Gradient Background"></a><br><sub><b><a href="prompts/gooey-gradient-background/">Gooey Gradient Background</a></b> · 7/10<br>[<a href="https://superdesign.dev/library/gooey-gradient-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/light-rays-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/light-rays-background/preview.gif" width="260" alt="Light Rays Background"></a><br><sub><b><a href="prompts/light-rays-background/">Light Rays Background</a></b> · 7/10<br>[<a href="https://superdesign.dev/library/light-rays-background?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+<td width="33%" align="center" valign="top"><a href="https://superdesign.dev/library/the-stacking-cards-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library"><img src="prompts/the-stacking-cards-effect/preview.gif" width="260" alt="The "Stacking Cards" Effect"></a><br><sub><b><a href="prompts/the-stacking-cards-effect/">The "Stacking Cards" Effect</a></b> · 5/10<br>[<a href="https://superdesign.dev/library/the-stacking-cards-effect?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">▶ Try live</a>]</sub></td>
+</tr>
+</table>
 <!-- ANIMATIONS:END -->
 
 ## Browse
