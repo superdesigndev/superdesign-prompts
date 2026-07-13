@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "colorful-ai-chat-ui-with-color-coded-assistant-results",
+  "name": "Colorful AI Chat UI with Color-Coded Assistant Results",
+  "category": "AI Chat",
+  "industry": "AI & Tech",
+  "source": {
+    "type": "prompt",
+    "slug": "colorful-ai-chat-ui-with-color-coded-assistant-results"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#ffffff",
+      "#f8fafc",
+      "#254fad",
+      "#e6f4ea",
+      "#1f7a45",
+      "#e7eefb",
+      "#fdf0dc",
+      "#8a5a12",
+      "#eef1f6",
+      "#5b6472",
+      "#e6e9ef",
+      "#181d26"
+    ],
+    "fonts": [
+      "Leader",
+      "On par",
+      "Behind",
+      "New entrant",
+      "New chat"
+    ]
+  }
+}
