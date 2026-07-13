@@ -1,152 +1,606 @@
 {
-  "tubes-interactive-background": {"visual_score": 7, "flag": "premium"},
-  "high-contrast-landing-page": {"visual_score": 9, "flag": "premium"},
-  "lumina-saas-landing-page": {"visual_score": 8, "flag": "premium"},
-  "red-noir-style": {"visual_score": 7, "flag": "premium"},
-  "deep-red-style-5b01cb": {"visual_score": 9, "flag": "premium"},
-  "glassmorphism-style": {"visual_score": 8, "flag": "premium"},
-  "mosaic-grid-architecture-style": {"visual_score": 6, "flag": "sparse-empty"},
-  "softly-digital-wellness-app": {"visual_score": 9, "flag": "premium"},
-  "neural-noir-interface-style": {"visual_score": 6, "flag": "sparse-empty"},
-  "cinematic-style": {"visual_score": 7, "flag": "premium"},
-  "kinetic-orange-style": {"visual_score": 9, "flag": "premium"},
-  "luxury-focused-design-system": {"visual_score": 7, "flag": "premium"},
-  "brutalist-e-commerce-page": {"visual_score": 9, "flag": "premium"},
-  "nature-inspired-style": {"visual_score": 7, "flag": "premium"},
-  "glassmorphism-card": {"visual_score": 3, "flag": "janky-broken"},
-  "bold-editorial-studio-style": {"visual_score": 6, "flag": "sparse-empty"},
-  "neumorphism": {"visual_score": 5, "flag": "sparse-empty"},
-  "the-stacking-cards-effect": {"visual_score": 5, "flag": "janky-broken"},
-  "synapse": {"visual_score": 7, "flag": "premium"},
-  "bold-editorial-style": {"visual_score": 7, "flag": "premium"},
-  "babybites-sophisticated-palette": {"visual_score": 7, "flag": "premium"},
-  "hyper-saturated-fluid": {"visual_score": 9, "flag": "premium"},
-  "saas-landing-page-for-developer-tool": {"visual_score": 6, "flag": "sparse-empty"},
-  "midnight-editorial-style-5f0a22": {"visual_score": 6, "flag": "sparse-empty"},
-  "hyper-speed-loading-state": {"visual_score": 3, "flag": "sparse-empty"},
-  "chrome-extension-landing-page": {"visual_score": 5, "flag": "wireframe-placeholder"},
-  "cinematic-noir-style": {"visual_score": 7, "flag": "premium"},
-  "minimalist-beta-capture": {"visual_score": 8, "flag": "premium"},
-  "card-swap": {"visual_score": 5, "flag": "sparse-empty"},
-  "brutalist-style-ecommerce-page": {"visual_score": 9, "flag": "premium"},
-  "superdesign-editorial-waitlist": {"visual_score": 9, "flag": "premium"},
-  "hover-reveal-effect": {"visual_score": 5, "flag": "sparse-empty"},
-  "force-field-background": {"visual_score": 8, "flag": "premium"},
-  "scroll-journey-line": {"visual_score": 3, "flag": "sparse-empty"},
-  "neon-velocity-countdown": {"visual_score": 9, "flag": "premium"},
-  "gooey-gradient-background": {"visual_score": 7, "flag": "premium"},
-  "horizontal-gallery": {"visual_score": 4, "flag": "sparse-empty"},
-  "disruptor-beta-launch": {"visual_score": 7, "flag": "premium"},
-  "bold-editorial-design-style": {"visual_score": 8, "flag": "premium"},
-  "light-beam-button": {"visual_score": 4, "flag": "sparse-empty"},
-  "ghost-cursor": {"visual_score": 4, "flag": "sparse-empty"},
-  "aura-audio-showroom": {"visual_score": 7, "flag": "premium"},
-  "interactive-folder": {"visual_score": 4, "flag": "sparse-empty"},
-  "architectural-type-system-style": {"visual_score": 8, "flag": "premium"},
-  "parallax-stars-background": {"visual_score": 4, "flag": "sparse-empty"},
-  "typing-animation": {"visual_score": 3, "flag": "sparse-empty"},
-  "shiny-text": {"visual_score": 3, "flag": "sparse-empty"},
-  "pill-nav": {"visual_score": 4, "flag": "sparse-empty"},
-  "exploded-view-assembly": {"visual_score": 8, "flag": "premium"},
-  "rolodex-text": {"visual_score": 4, "flag": "sparse-empty"},
-  "lightning-background": {"visual_score": 8, "flag": "premium"},
-  "hyperspeed-background": {"visual_score": 8, "flag": "premium"},
-  "light-rays-background": {"visual_score": 7, "flag": "premium"},
-  "glow-cursor-button": {"visual_score": 4, "flag": "sparse-empty"},
-  "interactive-card-stack": {"visual_score": 3, "flag": "sparse-empty"},
-  "red-sun": {"visual_score": 4, "flag": "wireframe-placeholder"},
-  "counter": {"visual_score": 3, "flag": "sparse-empty"},
-  "coverflow-carousels-that-turn-heads-dark-coverflow-aurora": {"visual_score": 9, "flag": "premium"},
-  "tech-editorial": {"visual_score": 4, "flag": "sparse-empty"},
-  "aurora-glass-sign-in-to-the-canvas": {"visual_score": 9, "flag": "premium"},
-  "cart-drawer-essential-slide-in": {"visual_score": 3, "flag": "sparse-empty"},
-  "focus-mode-detail": {"visual_score": 1, "flag": "sparse-empty"},
-  "graphic-comparison-report": {"visual_score": 9, "flag": "premium"},
-  "gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red": {"visual_score": 8, "flag": "premium"},
-  "landing-page-local-small-business": {"visual_score": 6, "flag": ""},
-  "atelier-mono-uppercase-fashion-legibility-fixed": {"visual_score": 4, "flag": "sparse-empty"},
-  "palette-social-first-friendly-sign-up": {"visual_score": 8, "flag": "premium"},
-  "super-shampoo-high-conversion-lp": {"visual_score": 9, "flag": "premium"},
-  "slate-roi-calculator-pricing": {"visual_score": 8, "flag": "premium"},
-  "the-quote-set-in-burgundy": {"visual_score": 8, "flag": "premium"},
-  "prism-frosted-glass-pastel-agency-studio": {"visual_score": 8, "flag": "premium"},
-  "teal-on-ink-newsletter-mega-footer": {"visual_score": 6, "flag": ""},
-  "gesture-first-navigation-system": {"visual_score": 6, "flag": ""},
-  "interactive-multi-step-onboarding-flow": {"visual_score": 4, "flag": "generic-slop"},
-  "editorial-cream-ink-two-path-saas-pricing-3dee65": {"visual_score": 7, "flag": ""},
-  "electric-lime-single-plan-saas-pricing": {"visual_score": 8, "flag": "premium"},
-  "electric-blue-studio-pricing-188a8f": {"visual_score": 8, "flag": "premium"},
-  "account-setup-flow-goals-interests-card-based": {"visual_score": 5, "flag": "sparse-empty"},
-  "sectioned-index-page": {"visual_score": 7, "flag": "premium"},
-  "electric-dark-usage-based-pricing-calculator-20e556": {"visual_score": 8, "flag": "premium"},
-  "emerald-4-tier-saas-pricing-table": {"visual_score": 6, "flag": ""},
-  "apple-inspired-waitlist": {"visual_score": 3, "flag": "sparse-empty"},
-  "specs-first-breakdown-product-page": {"visual_score": 3, "flag": "wireframe-placeholder"},
-  "the-atelier-brief-an-editorial-intake-form-set-like-a-letter": {"visual_score": 8, "flag": "premium"},
-  "send-us-the-brief-brutalist-contact-form": {"visual_score": 8, "flag": "premium"},
-  "editorial-music-player-now-playing": {"visual_score": 8, "flag": "premium"},
-  "collection-page-filtered-product-grid": {"visual_score": 3, "flag": "wireframe-placeholder"},
-  "cream-and-sky-playful-saas-pricing": {"visual_score": 7, "flag": "premium"},
-  "editorial-crimson-dev-tool-pricing": {"visual_score": 6, "flag": ""},
-  "card-grid-browse": {"visual_score": 5, "flag": "janky-broken"},
-  "acid-yellow-neo-brutalist-mega-footer": {"visual_score": 9, "flag": "premium"},
-  "validar-forms-that-catch-mistakes-before-they-cost-you": {"visual_score": 7, "flag": "premium"},
-  "champagne-noir-paywall-65a2fd": {"visual_score": 9, "flag": "premium"},
-  "compact-control-grid": {"visual_score": 4, "flag": "janky-broken"},
-  "foundry-your-saas-site-designed-before-you-write-a-line": {"visual_score": 9, "flag": "premium"},
-  "loam-warm-earthy-organic-agency-website": {"visual_score": 9, "flag": "premium"},
-  "landing-page-real-estate": {"visual_score": 6, "flag": "premium"},
-  "ink-and-acid-mono-sitemap-footer": {"visual_score": 6, "flag": "sparse-empty"},
-  "editorial-violet-saas-pricing-matrix": {"visual_score": 5, "flag": "sparse-empty"},
-  "enterprise-admin-platform": {"visual_score": 4, "flag": "generic-slop"},
-  "editorial-saas-onboarding": {"visual_score": 6, "flag": "sparse-empty"},
-  "design-at-the-speed-of-thought-editorial-split-sign-up": {"visual_score": 8, "flag": "premium"},
-  "swiss-grid-agency-layout": {"visual_score": 8, "flag": "premium"},
-  "create-your-account-promptly-split-image-emerald-sign-up": {"visual_score": 7, "flag": "premium"},
-  "laboratory-skincare": {"visual_score": 6, "flag": "sparse-empty"},
-  "minimalist-checkout": {"visual_score": 4, "flag": "sparse-empty"},
-  "magic-link-confirmation": {"visual_score": 3, "flag": "sparse-empty"},
-  "ai-system-configuration-console": {"visual_score": 9, "flag": "premium"},
-  "midnight-navy-fintech-pricing-656a6d": {"visual_score": 9, "flag": "premium"},
-  "minimalist-wireframe-login": {"visual_score": 5, "flag": "sparse-empty"},
-  "editorial-feature-announcement": {"visual_score": 8, "flag": "premium"},
-  "hero-sticky-action-detail": {"visual_score": 4, "flag": "sparse-empty"},
-  "modal-design-success-celebration-pastel-legibility-fixed-9fbd65": {"visual_score": 8, "flag": "premium"},
-  "bottom-tab-navigation-core-app-shell": {"visual_score": 2, "flag": "wireframe-placeholder"},
-  "volt-electric-lime-fitness-dashboard-a7544c": {"visual_score": 9, "flag": "premium"},
-  "system-initialization-trust-and-transparency": {"visual_score": 7, "flag": "premium"},
-  "cream-paper-and-coral-mega-footer": {"visual_score": 8, "flag": "premium"},
-  "welcome-back-lumen-centered-card-true-cobalt": {"visual_score": 6, "flag": "premium"},
-  "atlas-studio-charting-your-account-step-one-of-three": {"visual_score": 8, "flag": "premium"},
-  "conversion-optimised-product-page": {"visual_score": 3, "flag": "wireframe-placeholder"},
-  "offer-overlay-centered-offer-modal": {"visual_score": 4, "flag": "generic-slop"},
-  "fintech-wallet-mobile-home-screen": {"visual_score": 8, "flag": "premium"},
-  "forms-that-feel-effortless-to-fill-fieldcraft": {"visual_score": 5, "flag": "sparse-empty"},
-  "loop-say-hello-we-dont-bite-friendly-illustrated-sky": {"visual_score": 8, "flag": "premium"},
-  "chronological-content-feed": {"visual_score": 2, "flag": "wireframe-placeholder"},
-  "formcraft-workspace-settings-cobalt-two-column": {"visual_score": 6, "flag": "premium"},
-  "atelier-early-access-waitlist-minimal-graphite": {"visual_score": 6, "flag": "sparse-empty"},
-  "editorial-image-lightbox": {"visual_score": 8, "flag": "premium"},
-  "tablekit-the-data-table-your-team-actually-wants-to-live-in": {"visual_score": 5, "flag": "generic-slop"},
-  "sunset-glow-wordmark-mega-footer": {"visual_score": 9, "flag": "premium"},
-  "atelier-design-spoken-into-being-editorial-serif-burgundy": {"visual_score": 8, "flag": "premium"},
-  "modal-design-success-celebration-pastel-legibility-fixed": {"visual_score": 8, "flag": "premium"},
-  "superdesign-setup-inline-preview": {"visual_score": 5, "flag": "sparse-empty"},
-  "verify-its-you-aperture-otp-2fa-graphite-platinum": {"visual_score": 6, "flag": "premium"},
-  "developer-tool-dashboardonboarding": {"visual_score": 2, "flag": "janky-broken"},
-  "technical-system-onboarding": {"visual_score": 7, "flag": "premium"},
-  "plume-sign-in-to-your-design-canvas": {"visual_score": 7, "flag": "premium"},
-  "gen-z-social-app": {"visual_score": 9, "flag": "premium"},
-  "questions-set-in-serif-an-editorial-faq": {"visual_score": 7, "flag": "premium"},
-  "high-energy-onboarding": {"visual_score": 8, "flag": "premium"},
-  "sign-in-to-verdant-classic-split-emerald": {"visual_score": 7, "flag": "premium"},
-  "blog-page-editorial-grid-magazine": {"visual_score": 2, "flag": "wireframe-placeholder"},
-  "momentum-ship-your-startup-launch-before-the-idea-cools": {"visual_score": 8, "flag": "premium"},
-  "verdance-agency-website-design-studio-dark-emerald": {"visual_score": 9, "flag": "premium"},
-  "modular-card-dashboard": {"visual_score": 4, "flag": "janky-broken"},
-  "system-interface-feature-announcement": {"visual_score": 7, "flag": "premium"},
-  "forge-launch-waitlist-dark-warm-ember": {"visual_score": 8, "flag": "premium"},
-  "multi-step-form-flow": {"visual_score": 5, "flag": "sparse-empty"},
-  "workspace-settings-formcraft-two-column-cobalt": {"visual_score": 6, "flag": "generic-slop"},
-  "ledgerline-deep-teal-mint-fintech-startup-dashboard-hero": {"visual_score": 9, "flag": "premium"}
+  "tubes-interactive-background": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "high-contrast-landing-page": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "lumina-saas-landing-page": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "red-noir-style": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "deep-red-style-5b01cb": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "glassmorphism-style": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "mosaic-grid-architecture-style": {
+    "visual_score": 6,
+    "flag": "sparse-empty"
+  },
+  "softly-digital-wellness-app": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "neural-noir-interface-style": {
+    "visual_score": 6,
+    "flag": "sparse-empty"
+  },
+  "cinematic-style": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "kinetic-orange-style": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "luxury-focused-design-system": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "brutalist-e-commerce-page": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "nature-inspired-style": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "glassmorphism-card": {
+    "visual_score": 3,
+    "flag": "janky-broken"
+  },
+  "bold-editorial-studio-style": {
+    "visual_score": 6,
+    "flag": "sparse-empty"
+  },
+  "neumorphism": {
+    "visual_score": 5,
+    "flag": "sparse-empty"
+  },
+  "the-stacking-cards-effect": {
+    "visual_score": 5,
+    "flag": "janky-broken"
+  },
+  "synapse": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "bold-editorial-style": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "babybites-sophisticated-palette": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "hyper-saturated-fluid": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "saas-landing-page-for-developer-tool": {
+    "visual_score": 6,
+    "flag": "sparse-empty"
+  },
+  "midnight-editorial-style-5f0a22": {
+    "visual_score": 6,
+    "flag": "sparse-empty"
+  },
+  "hyper-speed-loading-state": {
+    "visual_score": 3,
+    "flag": "sparse-empty"
+  },
+  "chrome-extension-landing-page": {
+    "visual_score": 5,
+    "flag": "wireframe-placeholder"
+  },
+  "cinematic-noir-style": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "minimalist-beta-capture": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "card-swap": {
+    "visual_score": 5,
+    "flag": "sparse-empty"
+  },
+  "brutalist-style-ecommerce-page": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "superdesign-editorial-waitlist": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "hover-reveal-effect": {
+    "visual_score": 5,
+    "flag": "sparse-empty"
+  },
+  "force-field-background": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "scroll-journey-line": {
+    "visual_score": 3,
+    "flag": "sparse-empty"
+  },
+  "neon-velocity-countdown": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "gooey-gradient-background": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "horizontal-gallery": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "disruptor-beta-launch": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "bold-editorial-design-style": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "light-beam-button": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "ghost-cursor": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "aura-audio-showroom": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "interactive-folder": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "architectural-type-system-style": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "parallax-stars-background": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "typing-animation": {
+    "visual_score": 3,
+    "flag": "sparse-empty"
+  },
+  "shiny-text": {
+    "visual_score": 3,
+    "flag": "sparse-empty"
+  },
+  "pill-nav": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "exploded-view-assembly": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "rolodex-text": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "lightning-background": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "hyperspeed-background": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "light-rays-background": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "glow-cursor-button": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "interactive-card-stack": {
+    "visual_score": 3,
+    "flag": "sparse-empty"
+  },
+  "red-sun": {
+    "visual_score": 4,
+    "flag": "wireframe-placeholder"
+  },
+  "counter": {
+    "visual_score": 3,
+    "flag": "sparse-empty"
+  },
+  "coverflow-carousels-that-turn-heads-dark-coverflow-aurora": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "tech-editorial": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "aurora-glass-sign-in-to-the-canvas": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "cart-drawer-essential-slide-in": {
+    "visual_score": 3,
+    "flag": "sparse-empty"
+  },
+  "focus-mode-detail": {
+    "visual_score": 1,
+    "flag": "sparse-empty"
+  },
+  "graphic-comparison-report": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "landing-page-local-small-business": {
+    "visual_score": 6,
+    "flag": ""
+  },
+  "atelier-mono-uppercase-fashion-legibility-fixed": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "palette-social-first-friendly-sign-up": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "super-shampoo-high-conversion-lp": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "slate-roi-calculator-pricing": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "the-quote-set-in-burgundy": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "prism-frosted-glass-pastel-agency-studio": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "teal-on-ink-newsletter-mega-footer": {
+    "visual_score": 6,
+    "flag": ""
+  },
+  "gesture-first-navigation-system": {
+    "visual_score": 6,
+    "flag": ""
+  },
+  "interactive-multi-step-onboarding-flow": {
+    "visual_score": 4,
+    "flag": "generic-slop"
+  },
+  "editorial-cream-ink-two-path-saas-pricing-3dee65": {
+    "visual_score": 7,
+    "flag": ""
+  },
+  "electric-lime-single-plan-saas-pricing": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "electric-blue-studio-pricing-188a8f": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "account-setup-flow-goals-interests-card-based": {
+    "visual_score": 5,
+    "flag": "sparse-empty"
+  },
+  "sectioned-index-page": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "electric-dark-usage-based-pricing-calculator-20e556": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "emerald-4-tier-saas-pricing-table": {
+    "visual_score": 6,
+    "flag": ""
+  },
+  "apple-inspired-waitlist": {
+    "visual_score": 3,
+    "flag": "sparse-empty"
+  },
+  "specs-first-breakdown-product-page": {
+    "visual_score": 3,
+    "flag": "wireframe-placeholder"
+  },
+  "the-atelier-brief-an-editorial-intake-form-set-like-a-letter": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "send-us-the-brief-brutalist-contact-form": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "editorial-music-player-now-playing": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "collection-page-filtered-product-grid": {
+    "visual_score": 3,
+    "flag": "wireframe-placeholder"
+  },
+  "cream-and-sky-playful-saas-pricing": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "editorial-crimson-dev-tool-pricing": {
+    "visual_score": 6,
+    "flag": ""
+  },
+  "card-grid-browse": {
+    "visual_score": 5,
+    "flag": "janky-broken"
+  },
+  "acid-yellow-neo-brutalist-mega-footer": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "validar-forms-that-catch-mistakes-before-they-cost-you": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "champagne-noir-paywall-65a2fd": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "compact-control-grid": {
+    "visual_score": 4,
+    "flag": "janky-broken"
+  },
+  "foundry-your-saas-site-designed-before-you-write-a-line": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "loam-warm-earthy-organic-agency-website": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "landing-page-real-estate": {
+    "visual_score": 6,
+    "flag": "premium"
+  },
+  "ink-and-acid-mono-sitemap-footer": {
+    "visual_score": 6,
+    "flag": "sparse-empty"
+  },
+  "editorial-violet-saas-pricing-matrix": {
+    "visual_score": 5,
+    "flag": "sparse-empty"
+  },
+  "enterprise-admin-platform": {
+    "visual_score": 4,
+    "flag": "generic-slop"
+  },
+  "editorial-saas-onboarding": {
+    "visual_score": 6,
+    "flag": "sparse-empty"
+  },
+  "design-at-the-speed-of-thought-editorial-split-sign-up": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "swiss-grid-agency-layout": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "create-your-account-promptly-split-image-emerald-sign-up": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "laboratory-skincare": {
+    "visual_score": 6,
+    "flag": "sparse-empty"
+  },
+  "minimalist-checkout": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "magic-link-confirmation": {
+    "visual_score": 3,
+    "flag": "sparse-empty"
+  },
+  "ai-system-configuration-console": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "midnight-navy-fintech-pricing-656a6d": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "minimalist-wireframe-login": {
+    "visual_score": 5,
+    "flag": "sparse-empty"
+  },
+  "editorial-feature-announcement": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "hero-sticky-action-detail": {
+    "visual_score": 4,
+    "flag": "sparse-empty"
+  },
+  "modal-design-success-celebration-pastel-legibility-fixed-9fbd65": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "bottom-tab-navigation-core-app-shell": {
+    "visual_score": 2,
+    "flag": "wireframe-placeholder"
+  },
+  "volt-electric-lime-fitness-dashboard-a7544c": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "system-initialization-trust-and-transparency": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "cream-paper-and-coral-mega-footer": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "welcome-back-lumen-centered-card-true-cobalt": {
+    "visual_score": 6,
+    "flag": "premium"
+  },
+  "atlas-studio-charting-your-account-step-one-of-three": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "conversion-optimised-product-page": {
+    "visual_score": 3,
+    "flag": "wireframe-placeholder"
+  },
+  "offer-overlay-centered-offer-modal": {
+    "visual_score": 4,
+    "flag": "generic-slop"
+  },
+  "fintech-wallet-mobile-home-screen": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "forms-that-feel-effortless-to-fill-fieldcraft": {
+    "visual_score": 5,
+    "flag": "sparse-empty"
+  },
+  "loop-say-hello-we-dont-bite-friendly-illustrated-sky": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "chronological-content-feed": {
+    "visual_score": 2,
+    "flag": "wireframe-placeholder"
+  },
+  "formcraft-workspace-settings-cobalt-two-column": {
+    "visual_score": 6,
+    "flag": "premium"
+  },
+  "atelier-early-access-waitlist-minimal-graphite": {
+    "visual_score": 6,
+    "flag": "sparse-empty"
+  },
+  "editorial-image-lightbox": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "tablekit-the-data-table-your-team-actually-wants-to-live-in": {
+    "visual_score": 5,
+    "flag": "generic-slop"
+  },
+  "sunset-glow-wordmark-mega-footer": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "atelier-design-spoken-into-being-editorial-serif-burgundy": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "modal-design-success-celebration-pastel-legibility-fixed": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "superdesign-setup-inline-preview": {
+    "visual_score": 5,
+    "flag": "sparse-empty"
+  },
+  "verify-its-you-aperture-otp-2fa-graphite-platinum": {
+    "visual_score": 6,
+    "flag": "premium"
+  },
+  "developer-tool-dashboardonboarding": {
+    "visual_score": 2,
+    "flag": "janky-broken"
+  },
+  "technical-system-onboarding": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "plume-sign-in-to-your-design-canvas": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "gen-z-social-app": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "questions-set-in-serif-an-editorial-faq": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "high-energy-onboarding": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "sign-in-to-verdant-classic-split-emerald": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "blog-page-editorial-grid-magazine": {
+    "visual_score": 2,
+    "flag": "wireframe-placeholder"
+  },
+  "momentum-ship-your-startup-launch-before-the-idea-cools": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "verdance-agency-website-design-studio-dark-emerald": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "modular-card-dashboard": {
+    "visual_score": 4,
+    "flag": "janky-broken"
+  },
+  "system-interface-feature-announcement": {
+    "visual_score": 7,
+    "flag": "premium"
+  },
+  "forge-launch-waitlist-dark-warm-ember": {
+    "visual_score": 8,
+    "flag": "premium"
+  },
+  "multi-step-form-flow": {
+    "visual_score": 5,
+    "flag": "sparse-empty"
+  },
+  "workspace-settings-formcraft-two-column-cobalt": {
+    "visual_score": 6,
+    "flag": "generic-slop"
+  },
+  "ledgerline-deep-teal-mint-fintech-startup-dashboard-hero": {
+    "visual_score": 9,
+    "flag": "premium"
+  },
+  "landing-page-hero-y2k-chrome-product-landing": {
+    "visual_score": 8.5,
+    "flag": "premium"
+  }
 }

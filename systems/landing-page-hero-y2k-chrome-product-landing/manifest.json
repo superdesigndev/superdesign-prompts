@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "landing-page-hero-y2k-chrome-product-landing",
+  "name": "Landing Page Hero: Y2K Chrome Product Landing",
+  "category": "Landing Pages",
+  "industry": "AI & Tech",
+  "source": {
+    "type": "prompt",
+    "slug": "landing-page-hero-y2k-chrome-product-landing"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#07080d",
+      "#2e63ff",
+      "#ff2e88",
+      "#25e0ff",
+      "#ffffff",
+      "#eaeefb",
+      "#b7c0d8",
+      "#818ca9",
+      "#5f6a89",
+      "#c6ff3d",
+      "#eef1f8",
+      "#8b93a8"
+    ],
+    "fonts": []
+  }
+}
