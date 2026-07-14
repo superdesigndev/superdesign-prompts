@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "animated-memphis-landing-page-hero-bold-postmodern-product-site",
+  "name": "Animated Memphis Landing Page Hero (Bold Postmodern Product Site)",
+  "category": "Animations & Backgrounds",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "animated-memphis-landing-page-hero-bold-postmodern-product-site"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#f5efe2",
+      "#17140d",
+      "#12b3a4",
+      "#ff5b57",
+      "#ffc531",
+      "#6b5be6",
+      "#3aa0ff"
+    ],
+    "fonts": [
+      "Start free",
+      "Watch the demo",
+      "Trusted by"
+    ]
+  }
+}
