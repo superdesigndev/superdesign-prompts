@@ -1,7 +1,7 @@
 # Page type — Pricing Pages
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 12 prompts in this repo.
+> Aggregated from 13 prompts in this repo.
 
 ## What this page type is
 
@@ -10,17 +10,17 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common sections
 
-- Footer  _(in 8 prompts)_
+- Footer  _(in 9 prompts)_
 - FAQ accordion  _(in 7 prompts)_
+- Sticky nav  _(in 6 prompts)_
 - Hero / headline  _(in 6 prompts)_
-- Sticky nav  _(in 5 prompts)_
 - Sticky top nav  _(in 5 prompts)_
-- CTA band  _(in 3 prompts)_
+- CTA band  _(in 4 prompts)_
 - FAQ  _(in 3 prompts)_
+- Hero  _(in 2 prompts)_
 - Hero headline  _(in 2 prompts)_
 - Comparison table  _(in 2 prompts)_
 - Billing toggle  _(in 2 prompts)_
-- Hero  _(in 1 prompts)_
 - Embedded canvas product mock  _(in 1 prompts)_
 
 ## Common components
@@ -52,6 +52,7 @@ Build a Pricing Page using the "<system-id>" design system
 
 - [Champagne Noir Paywall](../../prompts/champagne-noir-paywall-65a2fd/) · design 9/10 · 2,397 runs
 - [Midnight Navy Fintech Pricing](../../prompts/midnight-navy-fintech-pricing-656a6d/) · design 9/10 · 2,366 runs
+- [Risograph Pricing Page: Bold Spot-Ink SaaS Plans](../../prompts/risograph-pricing-page-bold-spot-ink-saas-plans/) · design 9/10 · 0 runs
 - [Gridwright — Design the web, type the prompt (Swiss Grid / Signal Red)](../../prompts/gridwright-design-the-web-type-the-prompt-swiss-grid-signal-red/) · design 8/10 · 2,498 runs
 - [Slate ROI-Calculator Pricing](../../prompts/slate-roi-calculator-pricing/) · design 8/10 · 2,481 runs
 - [Electric-Lime Single-Plan SaaS Pricing](../../prompts/electric-lime-single-plan-saas-pricing/) · design 8/10 · 2,462 runs

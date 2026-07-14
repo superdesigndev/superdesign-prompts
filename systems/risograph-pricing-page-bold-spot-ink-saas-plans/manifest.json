@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "risograph-pricing-page-bold-spot-ink-saas-plans",
+  "name": "Risograph Pricing Page: Bold Spot-Ink SaaS Plans",
+  "category": "Pricing Pages",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "risograph-pricing-page-bold-spot-ink-saas-plans"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#f4eede",
+      "#191b2f",
+      "#2436c8",
+      "#ff4d9d",
+      "#ffcf33"
+    ],
+    "fonts": [
+      "Most popular",
+      "Trusted by"
+    ]
+  }
+}
