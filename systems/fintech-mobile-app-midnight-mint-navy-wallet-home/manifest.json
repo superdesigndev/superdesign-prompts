@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "fintech-mobile-app-midnight-mint-navy-wallet-home",
+  "name": "Fintech Mobile App: Midnight Mint Navy Wallet Home",
+  "category": "Mobile Apps",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "fintech-mobile-app-midnight-mint-navy-wallet-home"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#0e1626",
+      "#0a1120",
+      "#17233c",
+      "#1d2c49",
+      "#c3f24d",
+      "#57e0a8",
+      "#f2f6ff",
+      "#8fa0bf",
+      "#ff7a7a",
+      "#1c3a2f",
+      "#16324a",
+      "#14213b"
+    ],
+    "fonts": []
+  }
+}
