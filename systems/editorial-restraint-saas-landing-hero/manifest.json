@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "editorial-restraint-saas-landing-hero",
+  "name": "Editorial-Restraint SaaS Product Landing Hero",
+  "category": "Landing Pages",
+  "industry": "Fintech",
+  "source": {
+    "type": "prompt",
+    "slug": "editorial-restraint-saas-landing-hero"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#f5f4f2",
+      "#17161a",
+      "#6b6a72",
+      "#e3e1dd",
+      "#ffffff",
+      "#8a2233"
+    ],
+    "fonts": [
+      "Start free",
+      "Book a demo"
+    ]
+  }
+}

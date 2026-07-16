@@ -1,7 +1,7 @@
 # Page type — Landing Pages
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 9 prompts in this repo.
+> Aggregated from 10 prompts in this repo.
 
 ## What this page type is
 
@@ -38,6 +38,8 @@ skill supplies the structure — sections, layout, and the components users expe
 - Simulated Selection Box  _(in 1 prompts)_
 - Side-by-Side Narrative Cards  _(in 1 prompts)_
 - Truth Matrix  _(in 1 prompts)_
+- Floating embedded product-card  _(in 1 prompts)_
+- Single-accent discipline (one oxblood)  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -51,6 +53,7 @@ Build a Landing Page using the "<system-id>" design system
 - [Graphic Comparison Report](../../prompts/graphic-comparison-report/) · design 9/10 · 2,470 runs
 - [High Contrast Landing Page](../../prompts/high-contrast-landing-page/) · design 9/10 · 2,400 runs
 - [Foundry: Your SaaS Site, Designed Before You Write a Line](../../prompts/foundry-your-saas-site-designed-before-you-write-a-line/) · design 9/10 · 2,390 runs
+- [Editorial-Restraint SaaS Product Landing Hero](../../prompts/editorial-restraint-saas-landing-hero/) · design 8.5/10 · 0 runs
 - [Lumina SaaS Landing Page](../../prompts/lumina-saas-landing-page/) · design 8/10 · 2,271 runs
 - [Synapse](../../prompts/synapse/) · design 7/10 · 1,808 runs
 - [Landing Page / Local Small Business](../../prompts/landing-page-local-small-business/) · design 6/10 · 2,486 runs
