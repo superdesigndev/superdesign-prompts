@@ -899,5 +899,9 @@
     "flags": [
       "inter-primary"
     ]
+  },
+  "landing-page-hero-blueprint-spec-sheet-developer-tool-site": {
+    "deslop_score": 8,
+    "flags": []
   }
 }
