@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "landing-page-hero-blueprint-spec-sheet-developer-tool-site",
+  "name": "Landing Page Hero: Blueprint Spec Sheet Developer Tool Site",
+  "category": "Landing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "landing-page-hero-blueprint-spec-sheet-developer-tool-site"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#eef1f5",
+      "#101b28",
+      "#d3dae2",
+      "#e4572e",
+      "#5a6675",
+      "#ffffff"
+    ],
+    "fonts": []
+  }
+}
