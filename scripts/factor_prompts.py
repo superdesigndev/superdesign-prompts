@@ -27,7 +27,7 @@ FONT = re.compile(r"['\"]([A-Z][A-Za-z0-9 ]+(?:Mono|Sans|Serif|Display|Grotesk|N
 PAGE_CATEGORIES = {
     "Landing Pages", "Pricing Pages", "Auth & Login", "Dashboards", "AI Chat", "Onboarding",
     "Waitlist & Coming Soon", "Forms & Contact", "Blog & Editorial", "E-commerce",
-    "Portfolios", "Mobile Apps", "Components", "Calendar", "Email & Newsletter",
+    "Portfolios", "Mobile Apps", "Components", "Calendar", "Testimonials", "Email & Newsletter",
 }
 
 
