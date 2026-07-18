@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "dark-minimal-developer-tool-landing-hero",
+  "name": "Dark Minimal Developer-Tool Landing Hero",
+  "category": "Landing Pages",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "dark-minimal-developer-tool-landing-hero"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#0a0c10",
+      "#eef1f5",
+      "#8b94a3",
+      "#12151b",
+      "#161a22",
+      "#22d3ee",
+      "#5b6472"
+    ],
+    "fonts": [
+      "Start building",
+      "Read the docs"
+    ]
+  }
+}

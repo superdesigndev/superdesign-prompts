@@ -1,7 +1,7 @@
 # Page type — Landing Pages
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 9 prompts in this repo.
+> Aggregated from 10 prompts in this repo.
 
 ## What this page type is
 
@@ -38,6 +38,8 @@ skill supplies the structure — sections, layout, and the components users expe
 - Simulated Selection Box  _(in 1 prompts)_
 - Side-by-Side Narrative Cards  _(in 1 prompts)_
 - Truth Matrix  _(in 1 prompts)_
+- Floating product-console mockup  _(in 1 prompts)_
+- Single-accent discipline (one cyan)  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -53,6 +55,7 @@ Build a Landing Page using the "<system-id>" design system
 - [Foundry: Your SaaS Site, Designed Before You Write a Line](../../prompts/foundry-your-saas-site-designed-before-you-write-a-line/) · design 9/10 · 2,390 runs
 - [Lumina SaaS Landing Page](../../prompts/lumina-saas-landing-page/) · design 8/10 · 2,271 runs
 - [Synapse](../../prompts/synapse/) · design 7/10 · 1,808 runs
+- [Dark Minimal Developer-Tool Landing Hero](../../prompts/dark-minimal-developer-tool-landing-hero/) · design 7/10 · 0 runs
 - [Landing Page / Local Small Business](../../prompts/landing-page-local-small-business/) · design 6/10 · 2,486 runs
 - [Landing Page / Real-Estate](../../prompts/landing-page-real-estate/) · design 6/10 · 2,329 runs
 - [SaaS Landing Page for Developer Tool](../../prompts/saas-landing-page-for-developer-tool/) · design 6/10 · 2,046 runs
