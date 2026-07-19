@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "bento-dashboard-dark-graphite-analytics-overview-fuchsia-accent",
+  "name": "Bento Dashboard (Dark Graphite Analytics Overview, Fuchsia Accent)",
+  "category": "Dashboards",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "bento-dashboard-dark-graphite-analytics-overview-fuchsia-accent"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#16181f",
+      "#1b1e27",
+      "#262a35",
+      "#ec4899",
+      "#db2777",
+      "#2dd4bf",
+      "#f5b544",
+      "#8b7cff",
+      "#f2f3f7",
+      "#a6abb8",
+      "#6b7180",
+      "#0e0f14"
+    ],
+    "fonts": [
+      "Overview",
+      "Last 30 days",
+      "Top pages"
+    ]
+  }
+}
