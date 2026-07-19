@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "claymorphism-analytics-dashboard-soft-sage-clay-ui",
+  "name": "Claymorphism Analytics Dashboard (Soft Sage Clay UI)",
+  "category": "Dashboards",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "claymorphism-analytics-dashboard-soft-sage-clay-ui"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#c5d0be",
+      "#dbe2d5",
+      "#e2e8dc",
+      "#26301f",
+      "#6b7663",
+      "#14776b",
+      "#c4643f",
+      "#cf9b34",
+      "#22304a"
+    ],
+    "fonts": []
+  }
+}
