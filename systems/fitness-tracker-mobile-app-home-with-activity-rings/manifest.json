@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "fitness-tracker-mobile-app-home-with-activity-rings",
+  "name": "Fitness Tracker Mobile App Home with Activity Rings",
+  "category": "Mobile Apps",
+  "industry": "Health & Wellness",
+  "source": {
+    "type": "prompt",
+    "slug": "fitness-tracker-mobile-app-home-with-activity-rings"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#f7f3ee",
+      "#ffffff",
+      "#1c1a17",
+      "#7a746c",
+      "#ece6dd",
+      "#f5502e",
+      "#ffe6de",
+      "#0e8b7a",
+      "#f5a623"
+    ],
+    "fonts": []
+  }
+}
