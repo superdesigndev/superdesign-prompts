@@ -1,7 +1,7 @@
 # Page type — Mobile Apps
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 10 prompts in this repo.
+> Aggregated from 11 prompts in this repo.
 
 ## What this page type is
 
@@ -10,11 +10,11 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common sections
 
-- Header  _(in 3 prompts)_
+- Header  _(in 4 prompts)_
+- Tab bar  _(in 3 prompts)_
 - Album art  _(in 2 prompts)_
 - Track meta  _(in 2 prompts)_
 - Scrubber  _(in 2 prompts)_
-- Tab bar  _(in 2 prompts)_
 - Horizontal Scroll Selector  _(in 1 prompts)_
 - Hero Feature Card  _(in 1 prompts)_
 - Secondary Feed Items  _(in 1 prompts)_
@@ -25,6 +25,7 @@ skill supplies the structure — sections, layout, and the components users expe
 
 ## Common components
 
+- Center-FAB tab bar  _(in 2 prompts)_
 - Floating Center Action Button  _(in 1 prompts)_
 - Bento Metric Card  _(in 1 prompts)_
 - Selection Card  _(in 1 prompts)_
@@ -36,7 +37,6 @@ skill supplies the structure — sections, layout, and the components users expe
 - Interactive Filter Button  _(in 1 prompts)_
 - Status Badges  _(in 1 prompts)_
 - Frosted balance card  _(in 1 prompts)_
-- Center-FAB tab bar  _(in 1 prompts)_
 - Embossed metal transport button  _(in 1 prompts)_
 - Raised brass play knob  _(in 1 prompts)_
 - Debossed brass scrubber with knurled metal thumb  _(in 1 prompts)_
@@ -51,6 +51,7 @@ Build a Mobile App using the "<system-id>" design system
 ## Reference prompts (best-designed first)
 
 - [Coverflow — Carousels that turn heads (dark coverflow aurora)](../../prompts/coverflow-carousels-that-turn-heads-dark-coverflow-aurora/) · design 9/10 · 2,460 runs
+- [Fitness Tracker Mobile App Home with Activity Rings](../../prompts/fitness-tracker-mobile-app-home-with-activity-rings/) · design 9/10 · 0 runs
 - [Editorial Music Player (Now Playing)](../../prompts/editorial-music-player-now-playing/) · design 8/10 · 2,420 runs
 - [Fintech Wallet — Mobile Home Screen](../../prompts/fintech-wallet-mobile-home-screen/) · design 8/10 · 2,314 runs
 - [Skeuomorphism Music Player: Tactile Leather and Brass Now Playing UI](../../prompts/skeuomorphism-music-player-tactile-leather-and-brass-now-playing-ui/) · design 8/10 · 0 runs
