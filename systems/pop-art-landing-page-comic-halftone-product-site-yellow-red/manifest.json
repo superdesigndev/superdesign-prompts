@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "pop-art-landing-page-comic-halftone-product-site-yellow-red",
+  "name": "Pop Art Landing Page (Comic Halftone Product Site, Yellow + Red)",
+  "category": "Landing Pages",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "pop-art-landing-page-comic-halftone-product-site-yellow-red"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#ffc900",
+      "#0f0d0a",
+      "#dc341e",
+      "#1e40c9",
+      "#f6f1e6"
+    ],
+    "fonts": []
+  }
+}
