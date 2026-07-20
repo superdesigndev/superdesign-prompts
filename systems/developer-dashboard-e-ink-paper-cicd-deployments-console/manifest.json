@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "developer-dashboard-e-ink-paper-cicd-deployments-console",
+  "name": "Developer Dashboard (E-Ink Paper CI/CD Deployments Console)",
+  "category": "Dashboards",
+  "industry": "Dev Tools",
+  "source": {
+    "type": "prompt",
+    "slug": "developer-dashboard-e-ink-paper-cicd-deployments-console"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#f4f1ea",
+      "#faf8f3",
+      "#141310",
+      "#c8321e"
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "IBM Plex Mono"
+    ]
+  }
+}
