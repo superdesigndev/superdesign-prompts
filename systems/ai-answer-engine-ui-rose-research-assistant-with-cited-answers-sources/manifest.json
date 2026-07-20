@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "ai-answer-engine-ui-rose-research-assistant-with-cited-answers-sources",
+  "name": "AI Answer Engine UI (Rose Research Assistant with Cited Answers + Sources)",
+  "category": "AI Chat",
+  "industry": "AI & Tech",
+  "source": {
+    "type": "prompt",
+    "slug": "ai-answer-engine-ui-rose-research-assistant-with-cited-answers-sources"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#f5f6f8",
+      "#ffffff",
+      "#14161b",
+      "#5b6472",
+      "#e6e8ec",
+      "#eef0f3",
+      "#e11d48",
+      "#be123c",
+      "#fff1f3",
+      "#fbcfd8"
+    ],
+    "fonts": []
+  }
+}
