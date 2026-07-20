@@ -1,7 +1,7 @@
 # Page type — AI Chat
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 1 prompts in this repo.
+> Aggregated from 2 prompts in this repo.
 
 ## What this page type is
 
@@ -24,6 +24,12 @@ skill supplies the structure — sections, layout, and the components users expe
 - Date-grouped chat history with active pill  _(in 1 prompts)_
 - Serif-numeral ordered list  _(in 1 prompts)_
 - Terracotta typing indicator  _(in 1 prompts)_
+- Inline citation chips  _(in 1 prompts)_
+- Source-chip strip  _(in 1 prompts)_
+- Sources rail with active-source card  _(in 1 prompts)_
+- In-answer comparison card  _(in 1 prompts)_
+- Related follow-up list  _(in 1 prompts)_
+- Ask-a-follow-up composer  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -34,4 +40,5 @@ Build a AI Chat using the "<system-id>" design system
 
 ## Reference prompts (best-designed first)
 
+- [AI Answer Engine UI (Rose Research Assistant with Cited Answers + Sources)](../../prompts/ai-answer-engine-ui-rose-research-assistant-with-cited-answers-sources/) · design 8/10 · 0 runs
 - [Warm Terracotta AI Chat Interface](../../prompts/warm-terracotta-ai-chat-interface/) · design 5/10 · 0 runs
