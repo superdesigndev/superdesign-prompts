@@ -1,7 +1,7 @@
 # Page type — Dashboards
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 6 prompts in this repo.
+> Aggregated from 7 prompts in this repo.
 
 ## What this page type is
 
@@ -54,5 +54,6 @@ Build a Dashboard using the "<system-id>" design system
 - [AI System Configuration Console](../../prompts/ai-system-configuration-console/) · design 9/10 · 2,306 runs
 - [Ledgerline — Deep-Teal + Mint Fintech Startup (Dashboard Hero)](../../prompts/ledgerline-deep-teal-mint-fintech-startup-dashboard-hero/) · design 9/10 · 1,915 runs
 - [Glassmorphism Dashboard: Frosted Sunrise Analytics UI](../../prompts/glassmorphism-dashboard-frosted-sunrise-analytics-ui/) · design 9/10 · 0 runs
+- [Developer Dashboard (E-Ink Paper CI/CD Deployments Console)](../../prompts/developer-dashboard-e-ink-paper-cicd-deployments-console/) · design 8/10 · 0 runs
 - [Workspace Settings · Formcraft (two-column, cobalt)](../../prompts/workspace-settings-formcraft-two-column-cobalt/) · design 6/10 · 1,929 runs
 - [Tablekit — The data table your team actually wants to live in](../../prompts/tablekit-the-data-table-your-team-actually-wants-to-live-in/) · design 5/10 · 2,256 runs
