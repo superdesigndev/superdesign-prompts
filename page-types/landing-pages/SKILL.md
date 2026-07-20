@@ -1,7 +1,7 @@
 # Page type — Landing Pages
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 9 prompts in this repo.
+> Aggregated from 10 prompts in this repo.
 
 ## What this page type is
 
@@ -14,6 +14,7 @@ skill supplies the structure — sections, layout, and the components users expe
 - Navigation  _(in 3 prompts)_
 - Footer  _(in 2 prompts)_
 - Feature Grid  _(in 2 prompts)_
+- Testimonials  _(in 2 prompts)_
 - Philosophy / Narrative Section  _(in 1 prompts)_
 - Asymmetrical Showcase Grid  _(in 1 prompts)_
 - Bespoke Service Cards  _(in 1 prompts)_
@@ -21,7 +22,6 @@ skill supplies the structure — sections, layout, and the components users expe
 - Problem vs Solution  _(in 1 prompts)_
 - How It Works  _(in 1 prompts)_
 - Use Case Personas  _(in 1 prompts)_
-- Testimonials  _(in 1 prompts)_
 
 ## Common components
 
@@ -38,6 +38,8 @@ skill supplies the structure — sections, layout, and the components users expe
 - Simulated Selection Box  _(in 1 prompts)_
 - Side-by-Side Narrative Cards  _(in 1 prompts)_
 - Truth Matrix  _(in 1 prompts)_
+- Ben-day halftone dot fields  _(in 1 prompts)_
+- Hard-shadow comic panel with numbered corner chip  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -52,6 +54,7 @@ Build a Landing Page using the "<system-id>" design system
 - [High Contrast Landing Page](../../prompts/high-contrast-landing-page/) · design 9/10 · 2,400 runs
 - [Foundry: Your SaaS Site, Designed Before You Write a Line](../../prompts/foundry-your-saas-site-designed-before-you-write-a-line/) · design 9/10 · 2,390 runs
 - [Lumina SaaS Landing Page](../../prompts/lumina-saas-landing-page/) · design 8/10 · 2,271 runs
+- [Pop Art Landing Page (Comic Halftone Product Site, Yellow + Red)](../../prompts/pop-art-landing-page-comic-halftone-product-site-yellow-red/) · design 8/10 · 0 runs
 - [Synapse](../../prompts/synapse/) · design 7/10 · 1,808 runs
 - [Landing Page / Local Small Business](../../prompts/landing-page-local-small-business/) · design 6/10 · 2,486 runs
 - [Landing Page / Real-Estate](../../prompts/landing-page-real-estate/) · design 6/10 · 2,329 runs

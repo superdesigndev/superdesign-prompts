@@ -2,11 +2,11 @@
 
 > Coding agents write great code and generic interfaces: default shadcn, same fonts, no taste. This is a library of **design prompts — each a full design spec with a live preview and real usage data** — that give your agent design direction so the UI it ships actually looks designed. Powered by [Superdesign](https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library).
 
-![prompts](https://img.shields.io/badge/prompts-140-blue) ![backed by](https://img.shields.io/badge/backed%20by-1.7M%2B%20real%20runs-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![last synced](https://img.shields.io/badge/last%20synced-2026--07--13-informational) ![license](https://img.shields.io/badge/code-MIT-informational)
+![prompts](https://img.shields.io/badge/prompts-141-blue) ![backed by](https://img.shields.io/badge/backed%20by-1.7M%2B%20real%20runs-brightgreen) ![for](https://img.shields.io/badge/for-Claude%20Code%20%2B%20Cursor-black) ![last synced](https://img.shields.io/badge/last%20synced-2026--07--20-informational) ![license](https://img.shields.io/badge/code-MIT-informational)
 
 <div align="center">
 <!-- STATS:START -->
-  <b>140 top prompts</b> · <b>283K tries</b> · <b>51K copies</b> — hand-picked and category-balanced from a <b>140-prompt live library</b> with <b>283K+ tries</b>.<br>
+  <b>141 top prompts</b> · <b>283K tries</b> · <b>51K copies</b> — hand-picked and category-balanced from a <b>141-prompt live library</b> with <b>283K+ tries</b>.<br>
   Browse all and run any live at <b><a href="https://superdesign.dev/library?utm_source=github&utm_medium=prompt-repo&utm_campaign=prompt-library">superdesign.dev/library</a></b>.
 <!-- STATS:END -->
 </div>
