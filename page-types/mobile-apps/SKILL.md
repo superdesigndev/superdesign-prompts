@@ -1,7 +1,7 @@
 # Page type — Mobile Apps
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 10 prompts in this repo.
+> Aggregated from 11 prompts in this repo.
 
 ## What this page type is
 
@@ -55,6 +55,7 @@ Build a Mobile App using the "<system-id>" design system
 - [Fintech Wallet — Mobile Home Screen](../../prompts/fintech-wallet-mobile-home-screen/) · design 8/10 · 2,314 runs
 - [Skeuomorphism Music Player: Tactile Leather and Brass Now Playing UI](../../prompts/skeuomorphism-music-player-tactile-leather-and-brass-now-playing-ui/) · design 8/10 · 0 runs
 - [Claymorphism Mobile App: Pastel Habit Tracker Home](../../prompts/claymorphism-mobile-app-pastel-habit-tracker-home/) · design 8/10 · 0 runs
+- [iOS Design System UI: Dark Mode Stocks Watchlist App](../../prompts/ios-design-system-dark-stocks-watchlist/) · design 8/10 · 0 runs
 - [Sectioned Index Page](../../prompts/sectioned-index-page/) · design 7/10 · 2,426 runs
 - [BabyBites - Sophisticated Palette](../../prompts/babybites-sophisticated-palette/) · design 7/10 · 1,547 runs
 - [Gesture First Navigation System](../../prompts/gesture-first-navigation-system/) · design 6/10 · 2,465 runs
