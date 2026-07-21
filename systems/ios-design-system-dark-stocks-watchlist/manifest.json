@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "ios-design-system-dark-stocks-watchlist",
+  "name": "iOS Design System UI: Dark Mode Stocks Watchlist App",
+  "category": "Mobile Apps",
+  "industry": "Finance & Crypto",
+  "source": {
+    "type": "prompt",
+    "slug": "ios-design-system-dark-stocks-watchlist"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#000000",
+      "#1C1C1E",
+      "#2C2C2E",
+      "#FFFFFF",
+      "#38383A",
+      "#30D158",
+      "#FF453A",
+      "#0A84FF"
+    ],
+    "fonts": [
+      "SF Pro Text",
+      "SF Pro Display"
+    ]
+  }
+}
