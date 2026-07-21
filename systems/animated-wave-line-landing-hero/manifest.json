@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "animated-wave-line-landing-hero",
+  "name": "Animated Wave-Line Landing Hero",
+  "category": "Animations & Backgrounds",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "animated-wave-line-landing-hero"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#eef2f7",
+      "#e6ebf2",
+      "#94a3b8",
+      "#5b6b8c",
+      "#ff6a2b",
+      "#141a24",
+      "#475569"
+    ],
+    "fonts": []
+  }
+}
