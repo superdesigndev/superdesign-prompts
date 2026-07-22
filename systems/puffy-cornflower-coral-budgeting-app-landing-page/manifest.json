@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "puffy-cornflower-coral-budgeting-app-landing-page",
+  "name": "Puffy Cornflower + Coral Budgeting App Landing Page",
+  "category": "Landing Pages",
+  "industry": "Finance & Crypto",
+  "source": {
+    "type": "prompt",
+    "slug": "puffy-cornflower-coral-budgeting-app-landing-page"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#c4cdec",
+      "#cad3f1",
+      "#b7c1e6",
+      "#2a3160",
+      "#5b628f",
+      "#ff6f5e",
+      "#22b3a3",
+      "#f4b73f",
+      "#9b8cf0"
+    ],
+    "fonts": []
+  }
+}
