@@ -25,7 +25,7 @@ def try_url(s): return f"{LIB}/{s}?{UTM}"
 # ---- page-type taxonomy (primary category, most-specific first) ----
 CATS = ["Landing Pages", "Pricing Pages", "Auth & Login", "Dashboards", "AI Chat", "Onboarding",
         "Waitlist & Coming Soon", "Forms & Contact", "Blog & Editorial", "E-commerce",
-        "Portfolios", "Mobile Apps", "Components", "Calendar", "Animations & Backgrounds",
+        "Portfolios", "Mobile Apps", "Components", "Calendar", "Testimonials", "Animations & Backgrounds",
         "Design Systems & Styles", "Other"]
 STYLE_KW = ["style", "brutalis", "glassmorph", "neumorph", "monochrome", "minimalist",
             "cinematic", "noir", "luxury", "bauhaus", "win98", "sketch", "clay", "kinetic",
@@ -39,6 +39,9 @@ def page_category(it):
     txt = f"{it.get('title') or ''} {it.get('slug','')}".lower()
     T = tags + " " + txt
     tl = [t.strip().lower() for t in (it.get("tags") or [])]  # exact tag list (avoids "form" in "platform")
+    if has(tags, "testimonial", "wall-of-love", "social-proof", "social proof", "wall of love") \
+            or has(txt, "testimonial", "wall of love", "wall-of-love", "social proof"):
+        return "Testimonials"
     if has(tags, "pricing", "billing-toggle", "three-tier", "comparison-table") or "pricing" in txt:
         return "Pricing Pages"
     if has(tags, "auth", "signup", "signin", "login") or has(txt, "login", "sign in", "sign-in", "signup", "sign up"):

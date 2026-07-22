@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "dark-editorial-wall-of-love-testimonial-section",
+  "name": "Dark Editorial Wall of Love Testimonial Section (Forest + Gold)",
+  "category": "Testimonials",
+  "industry": "SaaS",
+  "source": {
+    "type": "prompt",
+    "slug": "dark-editorial-wall-of-love-testimonial-section"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#0e1c17",
+      "#14261f",
+      "#15281f",
+      "#f2ede1",
+      "#a9b5ab",
+      "#c9a35b",
+      "#d9bd83",
+      "#a8823f"
+    ],
+    "fonts": [
+      "Start free",
+      "Verified review"
+    ]
+  }
+}
