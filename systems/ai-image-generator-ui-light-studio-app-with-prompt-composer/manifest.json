@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "ai-image-generator-ui-light-studio-app-with-prompt-composer",
+  "name": "AI Image Generator UI: Light Studio App with Prompt Composer",
+  "category": "AI Chat",
+  "industry": "AI & Tech",
+  "source": {
+    "type": "prompt",
+    "slug": "ai-image-generator-ui-light-studio-app-with-prompt-composer"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#f7f8fa",
+      "#111318",
+      "#6b7280",
+      "#e6e8ec",
+      "#06b6d4",
+      "#0891b2"
+    ],
+    "fonts": []
+  }
+}
