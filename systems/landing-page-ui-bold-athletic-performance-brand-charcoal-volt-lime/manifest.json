@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "landing-page-ui-bold-athletic-performance-brand-charcoal-volt-lime",
+  "name": "Landing Page UI (Bold Athletic Performance Brand, Charcoal + Volt-Lime)",
+  "category": "Landing Pages",
+  "industry": "Health & Wellness",
+  "source": {
+    "type": "prompt",
+    "slug": "landing-page-ui-bold-athletic-performance-brand-charcoal-volt-lime"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#0e0f0d",
+      "#f2f1ea",
+      "#d4ff2e",
+      "#2b2d28",
+      "#a7a89f"
+    ],
+    "fonts": []
+  }
+}
