@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "skeuomorphism-smart-home-app-ui-dark-brushed-metal-control-panel-with-thermostat-dial",
+  "name": "Skeuomorphism Smart Home App: Dark Brushed-Metal Control Panel",
+  "category": "Mobile Apps",
+  "industry": "Smart Home",
+  "source": {
+    "type": "prompt",
+    "slug": "skeuomorphism-smart-home-app-ui-dark-brushed-metal-control-panel-with-thermostat-dial"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#16181c",
+      "#23262e",
+      "#191c22",
+      "#3a3f49",
+      "#eef2f6",
+      "#9aa3ad",
+      "#7fd8ff",
+      "#ffb24d",
+      "#ff7a2f"
+    ],
+    "fonts": []
+  }
+}
