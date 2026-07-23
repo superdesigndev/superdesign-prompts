@@ -1,7 +1,7 @@
 # Page type — AI Chat
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 1 prompts in this repo.
+> Aggregated from 2 prompts in this repo.
 
 ## What this page type is
 
@@ -15,6 +15,10 @@ skill supplies the structure — sections, layout, and the components users expe
 - Message thread  _(in 1 prompts)_
 - Code block  _(in 1 prompts)_
 - Composer  _(in 1 prompts)_
+- Left rail (~230px, fixed)  _(in 1 prompts)_
+- Center generation grid + top strip  _(in 1 prompts)_
+- Pinned prompt composer  _(in 1 prompts)_
+- Right settings inspector (~300px, fixed)  _(in 1 prompts)_
 
 ## Common components
 
@@ -24,6 +28,10 @@ skill supplies the structure — sections, layout, and the components users expe
 - Date-grouped chat history with active pill  _(in 1 prompts)_
 - Serif-numeral ordered list  _(in 1 prompts)_
 - Terracotta typing indicator  _(in 1 prompts)_
+- Generated-image tile (pure-CSS generative art)  _(in 1 prompts)_
+- In-progress generation tile  _(in 1 prompts)_
+- Prompt composer with quick chips  _(in 1 prompts)_
+- Settings inspector control stack  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -34,4 +42,5 @@ Build a AI Chat using the "<system-id>" design system
 
 ## Reference prompts (best-designed first)
 
+- [AI Image Generator UI: Light Studio App with Prompt Composer](../../prompts/ai-image-generator-ui-light-studio-app-with-prompt-composer/) · design 8/10 · 0 runs
 - [Warm Terracotta AI Chat Interface](../../prompts/warm-terracotta-ai-chat-interface/) · design 5/10 · 0 runs

@@ -899,5 +899,9 @@
     "flags": [
       "inter-primary"
     ]
+  },
+  "ai-image-generator-ui-light-studio-app-with-prompt-composer": {
+    "deslop_score": 8,
+    "flags": []
   }
 }
