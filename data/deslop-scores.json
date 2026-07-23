@@ -899,5 +899,9 @@
     "flags": [
       "inter-primary"
     ]
+  },
+  "login-page-ui-split-screen-electric-cobalt-brand-panel": {
+    "deslop_score": 8,
+    "flags": []
   }
 }

@@ -1,7 +1,7 @@
 # Page type — Auth & Login
 
 > Structure axis. Style-agnostic: pair with any [system](../../systems/) to render.
-> Aggregated from 11 prompts in this repo.
+> Aggregated from 12 prompts in this repo.
 
 ## What this page type is
 
@@ -31,6 +31,9 @@ skill supplies the structure — sections, layout, and the components users expe
 - Auth form fields  _(in 1 prompts)_
 - Primary submit + social auth  _(in 1 prompts)_
 - Floating ambient decoration  _(in 1 prompts)_
+- Split brand panel with underlined value prop  _(in 1 prompts)_
+- Inline testimonial with apricot stars  _(in 1 prompts)_
+- SSO buttons + email/password auth stack  _(in 1 prompts)_
 
 ## Example — render in a chosen style
 
@@ -45,6 +48,7 @@ Build a Auth & Login using the "<system-id>" design system
 - [Palette — Social-first friendly sign-up](../../prompts/palette-social-first-friendly-sign-up/) · design 8/10 · 2,486 runs
 - [Design at the Speed of Thought — Editorial Split Sign-Up](../../prompts/design-at-the-speed-of-thought-editorial-split-sign-up/) · design 8/10 · 2,378 runs
 - [Atlas Studio — Charting Your Account, Step One of Three](../../prompts/atlas-studio-charting-your-account-step-one-of-three/) · design 8/10 · 2,336 runs
+- [Login Page UI (Split-Screen, Electric Cobalt Brand Panel)](../../prompts/login-page-ui-split-screen-electric-cobalt-brand-panel/) · design 8/10 · 0 runs
 - [Create your account · Promptly — split-image emerald sign-up](../../prompts/create-your-account-promptly-split-image-emerald-sign-up/) · design 7/10 · 2,378 runs
 - [Plume · Sign in to your design canvas](../../prompts/plume-sign-in-to-your-design-canvas/) · design 7/10 · 2,144 runs
 - [Sign in to Verdant — Classic Split (Emerald)](../../prompts/sign-in-to-verdant-classic-split-emerald/) · design 7/10 · 2,084 runs

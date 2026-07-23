@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "sd-design-system/v1",
+  "id": "login-page-ui-split-screen-electric-cobalt-brand-panel",
+  "name": "Login Page UI (Split-Screen, Electric Cobalt Brand Panel)",
+  "category": "Auth & Login",
+  "industry": "General",
+  "source": {
+    "type": "prompt",
+    "slug": "login-page-ui-split-screen-electric-cobalt-brand-panel"
+  },
+  "status": "draft",
+  "files": {
+    "design": "DESIGN.md"
+  },
+  "extracted": {
+    "colors": [
+      "#2743ff",
+      "#ffffff",
+      "#0d1220",
+      "#5b6478",
+      "#ffc95c",
+      "#1b34c9",
+      "#dfe2ea"
+    ],
+    "fonts": [
+      "Sign in"
+    ]
+  }
+}
